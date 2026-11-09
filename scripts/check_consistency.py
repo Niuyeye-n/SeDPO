@@ -1,1 +1,36 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0KIiIi5qOA5p+l5bey5pyJIGZpbmRfcmFuZG9tL3Njb3JlZCDkuqfniankuI7lvZPliY0gbl9zY29yZSDmmK/lkKbkuIDoh7QiIiIKaW1wb3J0IGpzb24KaW1wb3J0IG9zCmltcG9ydCBzeXMKClJFUE8gPSAiL3Jvb3QvYXV0b2RsLXRtcC9TZURQT19OSVBTMjUiCk5TID0gaW50KHN5cy5hcmd2WzFdKSBpZiBsZW4oc3lzLmFyZ3YpID4gMSBlbHNlIDYwMAoKZm9yIHRhZyBpbiBbInNlZHBvX3F3ZW4iLCAic2VkcG9fbGxhbWEiXToKICAgIGZvciBjbHVzdGVyIGluIFsiY2xvc2VfcWEiLCAicmVhZGluZ19uZXciXToKICAgICAgICBmciA9IGYie1JFUE99L215X2RhdGFfcXdlbi9maW5kX3JhbmRvbV97dGFnfS97Y2x1c3Rlcn0iCiAgICAgICAgc2MgPSBmIntSRVBPfS9teV9kYXRhX3F3ZW4vc2NvcmVkX3t0YWd9L3tjbHVzdGVyfSIKICAgICAgICBpZiBub3Qgb3MucGF0aC5pc2Rpcihmcik6CiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgcHJpbnQoZiJcbiMjIyB7dGFnfSAvIHtjbHVzdGVyfSIpCiAgICAgICAgZm9yIGYgaW4gc29ydGVkKG9zLmxpc3RkaXIoZnIpKToKICAgICAgICAgICAgaWYgbm90IGYuZW5kc3dpdGgoIi5qc29uIik6CiAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICBwID0gb3MucGF0aC5qb2luKGZyLCBmKQogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICBkID0ganNvbi5sb2FkKG9wZW4ocCkpCiAgICAgICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICAgICAgICAgIHByaW50KGYiICB7Zn06IOivu+WPluWksei0pSB7ZX0iKQogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAga2V5ID0gTm9uZQogICAgICAgICAgICBmb3IgayBpbiAoInN0ZXBfMV9jdHhzIiwgInN0ZXBfMl9jdHhzIiwgInN0ZXBfM19jdHhzIik6CiAgICAgICAgICAgICAgICBpZiBrIGluIGRbMF06CiAgICAgICAgICAgICAgICAgICAga2V5ID0gawogICAgICAgICAgICAgICAgICAgIGJyZWFrCiAgICAgICAgICAgIG4gPSBsZW4oZCkKICAgICAgICAgICAgbWFyayA9ICJPSyAiIGlmIG4gPT0gTlMgZWxzZSAiISEgIgogICAgICAgICAgICBwcmludChmIiAge21hcmt9e2Z9OiB7bn0g5p2hIHF1ZXJ5ICjmnJ/mnJsge05TfSkgIOWtl+autT17a2V5fSIpCiAgICAgICAgaWYgb3MucGF0aC5pc2RpcihzYyk6CiAgICAgICAgICAgIGZvciBmIGluIHNvcnRlZChvcy5saXN0ZGlyKHNjKSk6CiAgICAgICAgICAgICAgICBwcmludChmIiAgICAgc2NvcmVkOiB7Zn0gIHtvcy5wYXRoLmdldHNpemUob3MucGF0aC5qb2luKHNjLGYpKS8xZTY6LjFmfU1CIikK
+# -*- coding: utf-8 -*-
+"""检查已有 find_random/scored 产物与当前 n_score 是否一致"""
+import json
+import os
+import sys
+
+REPO = "/root/autodl-tmp/SeDPO_NIPS25"
+NS = int(sys.argv[1]) if len(sys.argv) > 1 else 600
+
+for tag in ["sedpo_qwen", "sedpo_llama"]:
+    for cluster in ["close_qa", "reading_new"]:
+        fr = f"{REPO}/my_data_qwen/find_random_{tag}/{cluster}"
+        sc = f"{REPO}/my_data_qwen/scored_{tag}/{cluster}"
+        if not os.path.isdir(fr):
+            continue
+        print(f"\n### {tag} / {cluster}")
+        for f in sorted(os.listdir(fr)):
+            if not f.endswith(".json"):
+                continue
+            p = os.path.join(fr, f)
+            try:
+                d = json.load(open(p))
+            except Exception as e:
+                print(f"  {f}: 读取失败 {e}")
+                continue
+            key = None
+            for k in ("step_1_ctxs", "step_2_ctxs", "step_3_ctxs"):
+                if k in d[0]:
+                    key = k
+                    break
+            n = len(d)
+            mark = "OK " if n == NS else "!! "
+            print(f"  {mark}{f}: {n} 条 query (期望 {NS})  字段={key}")
+        if os.path.isdir(sc):
+            for f in sorted(os.listdir(sc)):
+                print(f"     scored: {f}  {os.path.getsize(os.path.join(sc,f))/1e6:.1f}MB")

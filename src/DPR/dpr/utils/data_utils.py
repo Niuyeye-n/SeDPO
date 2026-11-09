@@ -1,1 +1,346 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwojIENvcHlyaWdodCAoYykgRmFjZWJvb2ssIEluYy4gYW5kIGl0cyBhZmZpbGlhdGVzLgojIEFsbCByaWdodHMgcmVzZXJ2ZWQuCiMKIyBUaGlzIHNvdXJjZSBjb2RlIGlzIGxpY2Vuc2VkIHVuZGVyIHRoZSBsaWNlbnNlIGZvdW5kIGluIHRoZQojIExJQ0VOU0UgZmlsZSBpbiB0aGUgcm9vdCBkaXJlY3Rvcnkgb2YgdGhpcyBzb3VyY2UgdHJlZS4KCiIiIgpVdGlsaXRpZXMgZm9yIGdlbmVyYWwgcHVycG9zZSBkYXRhIHByb2Nlc3NpbmcKIiIiCmltcG9ydCBqc29uCmltcG9ydCBsb2dnaW5nCmltcG9ydCBwaWNrbGUKCmltcG9ydCBpdGVydG9vbHMKaW1wb3J0IG1hdGgKaW1wb3J0IHRvcmNoCmZyb20gdG9yY2ggaW1wb3J0IFRlbnNvciBhcyBUCmZyb20gdHlwaW5nIGltcG9ydCBMaXN0LCBJdGVyYXRvciwgQ2FsbGFibGUsIFR1cGxlCmZyb20gZGF0YXNldHMgaW1wb3J0IGxvYWRfZGF0YXNldAoKbG9nZ2VyID0gbG9nZ2luZy5nZXRMb2dnZXIoKQoKaW1wb3J0IHJhbmRvbQoKCmNsYXNzIEFwcDoKICAgIGRlZiBfX2luaXRfXyhzZWxmKToKICAgICAgICBzZWxmLmZ1bmN0aW9ucyA9IHt9CiAgICBkZWYgYWRkKHNlbGYsIGtleSk6CiAgICAgICAgZGVmIGFkZGVyKGZ1bmMpOgogICAgICAgICAgICBzZWxmLmZ1bmN0aW9uc1trZXldID0gZnVuYwogICAgICAgICAgICByZXR1cm4gZnVuYwogICAgICAgIHJldHVybiBhZGRlcgoKCgpkZWYgcmVhZF9zZXJpYWxpemVkX2RhdGFfZnJvbV9maWxlcyhwYXRoczogTGlzdFtzdHJdKSAtPiBMaXN0OgogICAgcmVzdWx0cyA9IFtdCiAgICBmb3IgaSwgcGF0aCBpbiBlbnVtZXJhdGUocGF0aHMpOgogICAgICAgIHdpdGggb3BlbihwYXRoLCAicmIiKSBhcyByZWFkZXI6CiAgICAgICAgICAgIGxvZ2dlci5pbmZvKCJSZWFkaW5nIGZpbGUgJXMiLCBwYXRoKQogICAgICAgICAgICBkYXRhID0gcGlja2xlLmxvYWQocmVhZGVyKQogICAgICAgICAgICByZXN1bHRzLmV4dGVuZChkYXRhKQogICAgICAgICAgICBsb2dnZXIuaW5mbygiQWdncmVnYXRlZCBkYXRhIHNpemU6IHt9Ii5mb3JtYXQobGVuKHJlc3VsdHMpKSkKICAgIGxvZ2dlci5pbmZvKCJUb3RhbCBkYXRhIHNpemU6IHt9Ii5mb3JtYXQobGVuKHJlc3VsdHMpKSkKICAgIHJldHVybiByZXN1bHRzCgpkZWYgcmVhZF9kYXRhX2Zyb21fanNvbl9maWxlcyhwYXRocykgLT4gTGlzdDoKICAgIGlmIGlzaW5zdGFuY2UocGF0aHMsc3RyKTogcGF0aHM9W3BhdGhzXSAj5YW85a65bGlzdCBvZiBzdHLlkoxzdHLkuKTnp40KICAgIHJlc3VsdHMgPSBbXQogICAgZm9yIHBhdGggaW4gcGF0aHM6CiAgICAgICAgd2l0aCBvcGVuKHBhdGgsICJyIiwgZW5jb2Rpbmc9InV0Zi04IikgYXMgZjoKICAgICAgICAgICAgbG9nZ2VyLmluZm8oIlJlYWRpbmcgZmlsZSAlcyIgJSBwYXRoKQogICAgICAgICAgICBkYXRhID0ganNvbi5sb2FkKGYpCiAgICAgICAgICAgIHJlc3VsdHMuZXh0ZW5kKGRhdGEpCiAgICAgICAgICAgIGxvZ2dlci5pbmZvKCJBZ2dyZWdhdGVkIGRhdGEgc2l6ZToge30iLmZvcm1hdChsZW4ocmVzdWx0cykpKQogICAgcmV0dXJuIHJlc3VsdHMKCmNsYXNzIFNoYXJkZWREYXRhSXRlcmF0b3Iob2JqZWN0KToKICAgICIiIgogICAgR2VuZXJhbCBwdXJwb3NlIGRhdGEgaXRlcmF0b3IgdG8gYmUgdXNlZCBmb3IgUHl0b3JjaCdzIEREUCBtb2RlIHdoZXJlIGV2ZXJ5IG5vZGUgc2hvdWxkIGhhbmRsZSBpdHMgb3duIHBhcnQgb2YKICAgIHRoZSBkYXRhLgogICAgSW5zdGVhZCBvZiBjdXR0aW5nIGRhdGEgc2hhcmRzIGJ5IHRoZWlyIG1pbiBzaXplLCBpdCBzZXRzIHRoZSBhbW91bnQgb2YgaXRlcmF0aW9ucyBieSB0aGUgbWF4aW11bSBzaGFyZCBzaXplLgogICAgSXQgZmlsbHMgdGhlIGV4dHJhIHNhbXBsZSBieSBqdXN0IHRha2luZyBmaXJzdCBzYW1wbGVzIGluIGEgc2hhcmQuCiAgICBJdCBjYW4gYWxzbyBvcHRpb25hbGx5IGVuZm9yY2UgaWRlbnRpY2FsIGJhdGNoIHNpemUgZm9yIGFsbCBpdGVyYXRpb25zIChtaWdodCBiZSB1c2VmdWwgZm9yIERQIG1vZGUpLgogICAgIiIiCgogICAgZGVmIF9faW5pdF9fKAogICAgICAgIHNlbGYsCiAgICAgICAgZGF0YTogdG9yY2gudXRpbHMuZGF0YS5EYXRhc2V0LAogICAgICAgIHNoYXJkX2lkOiBpbnQgPSAwLAogICAgICAgIG51bV9zaGFyZHM6IGludCA9IDEsCiAgICAgICAgYmF0Y2hfc2l6ZTogaW50ID0gMSwKICAgICAgICBzaHVmZmxlPVRydWUsCiAgICAgICAgc2h1ZmZsZV9zZWVkOiBpbnQgPSAwLAogICAgICAgIG9mZnNldDogaW50ID0gMCwKICAgICAgICBzdHJpY3RfYmF0Y2hfc2l6ZTogYm9vbCA9IEZhbHNlLAogICAgKToKCiAgICAgICAgc2VsZi5kYXRhID0gZGF0YQogICAgICAgIHRvdGFsX3NpemUgPSBsZW4oZGF0YSkKCiAgICAgICAgc2VsZi5zaGFyZHNfbnVtID0gbWF4KG51bV9zaGFyZHMsIDEpCiAgICAgICAgc2VsZi5zaGFyZF9pZCA9IG1heChzaGFyZF9pZCwgMCkKCiAgICAgICAgc2FtcGxlc19wZXJfc2hhcmQgPSBtYXRoLmNlaWwodG90YWxfc2l6ZSAvIHNlbGYuc2hhcmRzX251bSkKCiAgICAgICAgc2VsZi5zaGFyZF9zdGFydF9pZHggPSBzZWxmLnNoYXJkX2lkICogc2FtcGxlc19wZXJfc2hhcmQKCiAgICAgICAgc2VsZi5zaGFyZF9lbmRfaWR4ID0gbWluKHNlbGYuc2hhcmRfc3RhcnRfaWR4ICsgc2FtcGxlc19wZXJfc2hhcmQsIHRvdGFsX3NpemUpCgogICAgICAgIGlmIHN0cmljdF9iYXRjaF9zaXplOgogICAgICAgICAgICBzZWxmLm1heF9pdGVyYXRpb25zID0gbWF0aC5jZWlsKHNhbXBsZXNfcGVyX3NoYXJkIC8gYmF0Y2hfc2l6ZSkKICAgICAgICBlbHNlOgogICAgICAgICAgICBzZWxmLm1heF9pdGVyYXRpb25zID0gaW50KHNhbXBsZXNfcGVyX3NoYXJkIC8gYmF0Y2hfc2l6ZSkKCiAgICAgICAgbG9nZ2VyLmluZm8oCiAgICAgICAgICAgICJzYW1wbGVzX3Blcl9zaGFyZD0lZCwgc2hhcmRfc3RhcnRfaWR4PSVkLCBzaGFyZF9lbmRfaWR4PSVkLCBtYXhfaXRlcmF0aW9ucz0lZCIsCiAgICAgICAgICAgIHNhbXBsZXNfcGVyX3NoYXJkLAogICAgICAgICAgICBzZWxmLnNoYXJkX3N0YXJ0X2lkeCwKICAgICAgICAgICAgc2VsZi5zaGFyZF9lbmRfaWR4LAogICAgICAgICAgICBzZWxmLm1heF9pdGVyYXRpb25zLAogICAgICAgICkKCiAgICAgICAgc2VsZi5pdGVyYXRpb24gPSBvZmZzZXQgICMgdG8gdHJhY2sgaW4tc2hhcmQgaXRlcmF0aW9uIHN0YXR1cwogICAgICAgIHNlbGYuc2h1ZmZsZSA9IHNodWZmbGUKICAgICAgICBzZWxmLmJhdGNoX3NpemUgPSBiYXRjaF9zaXplCiAgICAgICAgc2VsZi5zaHVmZmxlX3NlZWQgPSBzaHVmZmxlX3NlZWQKICAgICAgICBzZWxmLnN0cmljdF9iYXRjaF9zaXplID0gc3RyaWN0X2JhdGNoX3NpemUKCiAgICBkZWYgdG90YWxfZGF0YV9sZW4oc2VsZikgLT4gaW50OgogICAgICAgIHJldHVybiBsZW4oc2VsZi5kYXRhKQoKICAgIGRlZiBpdGVyYXRpb25zX251bShzZWxmKSAtPiBpbnQ6CiAgICAgICAgcmV0dXJuIHNlbGYubWF4X2l0ZXJhdGlvbnMgLSBzZWxmLml0ZXJhdGlvbgoKICAgIGRlZiBtYXhfaXRlcmF0aW9uc19udW0oc2VsZikgLT4gaW50OgogICAgICAgIHJldHVybiBzZWxmLm1heF9pdGVyYXRpb25zCgogICAgZGVmIGdldF9pdGVyYXRpb24oc2VsZikgLT4gaW50OgogICAgICAgIHJldHVybiBzZWxmLml0ZXJhdGlvbgoKICAgIGRlZiBhcHBseShzZWxmLCB2aXNpdG9yX2Z1bmM6IENhbGxhYmxlKToKICAgICAgICBmb3Igc2FtcGxlIGluIHNlbGYuZGF0YToKICAgICAgICAgICAgdmlzaXRvcl9mdW5jKHNhbXBsZSkKCiAgICBkZWYgZ2V0X3NoYXJkX2luZGljZXMoc2VsZiwgZXBvY2g6IGludCk6CiAgICAgICAgaW5kaWNlcyA9IGxpc3QocmFuZ2UobGVuKHNlbGYuZGF0YSkpKQogICAgICAgIGlmIHNlbGYuc2h1ZmZsZToKICAgICAgICAgICAgIyB0byBiZSBhYmxlIHRvIHJlc3VtZSwgc2FtZSBzaHVmZmxpbmcgc2hvdWxkIGJlIHVzZWQgd2hlbiBzdGFydGluZyBmcm9tIGEgZmFpbGVkL3N0b3BwZWQgaXRlcmF0aW9uCiAgICAgICAgICAgIGVwb2NoX3JuZCA9IHJhbmRvbS5SYW5kb20oc2VsZi5zaHVmZmxlX3NlZWQgKyBlcG9jaCkKICAgICAgICAgICAgZXBvY2hfcm5kLnNodWZmbGUoaW5kaWNlcykKICAgICAgICBzaGFyZF9pbmRpY2VzID0gaW5kaWNlc1tzZWxmLnNoYXJkX3N0YXJ0X2lkeCA6IHNlbGYuc2hhcmRfZW5kX2lkeF0KICAgICAgICByZXR1cm4gc2hhcmRfaW5kaWNlcwoKICAgICMgVE9ETzogbWVyZ2Ugd2l0aCBpdGVyYXRlX2RzX3NhbXBsZWRfZGF0YQogICAgZGVmIGl0ZXJhdGVfZHNfZGF0YShzZWxmLCBlcG9jaDogaW50ID0gMCkgLT4gSXRlcmF0b3JbTGlzdF06CiAgICAgICAgIyBpZiByZXN1bWluZyBpdGVyYXRpb24gc29tZXdoZXJlIGluIHRoZSBtaWRkbGUgb2YgZXBvY2gsIG9uZSBuZWVkcyB0byBhZGp1c3QgbWF4X2l0ZXJhdGlvbnMKICAgICAgICBtYXhfaXRlcmF0aW9ucyA9IHNlbGYubWF4X2l0ZXJhdGlvbnMgLSBzZWxmLml0ZXJhdGlvbgogICAgICAgIHNoYXJkX2luZGljZXMgPSBzZWxmLmdldF9zaGFyZF9pbmRpY2VzKGVwb2NoKQoKICAgICAgICBmb3IgaSBpbiByYW5nZSgKICAgICAgICAgICAgc2VsZi5pdGVyYXRpb24gKiBzZWxmLmJhdGNoX3NpemUsIGxlbihzaGFyZF9pbmRpY2VzKSwgc2VsZi5iYXRjaF9zaXplCiAgICAgICAgKToKICAgICAgICAgICAgaXRlbXNfaWR4cyA9IHNoYXJkX2luZGljZXNbaSA6IGkgKyBzZWxmLmJhdGNoX3NpemVdCiAgICAgICAgICAgIGlmIHNlbGYuc3RyaWN0X2JhdGNoX3NpemUgYW5kIGxlbihpdGVtc19pZHhzKSA8IHNlbGYuYmF0Y2hfc2l6ZToKICAgICAgICAgICAgICAgIGxvZ2dlci5kZWJ1ZygiRXh0ZW5kaW5nIGJhdGNoIHRvIG1heCBzaXplIikKICAgICAgICAgICAgICAgIGl0ZW1zX2lkeHMuZXh0ZW5kKHNoYXJkX2luZGljZXNbMCA6IHNlbGYuYmF0Y2hfc2l6ZSAtIGxlbihpdGVtcyldKQogICAgICAgICAgICBzZWxmLml0ZXJhdGlvbiArPSAxCiAgICAgICAgICAgIGl0ZW1zID0gW3NlbGYuZGF0YVtpZHhdIGZvciBpZHggaW4gaXRlbXNfaWR4c10KICAgICAgICAgICAgeWllbGQgaXRlbXMKCiAgICAgICAgIyBzb21lIHNoYXJkcyBtYXkgZG9uZSBpdGVyYXRpbmcgd2hpbGUgdGhlIG90aGVycyBhcmUgYXQgdGhlIGxhc3QgYmF0Y2guIEp1c3QgcmV0dXJuIHRoZSBmaXJzdCBiYXRjaAogICAgICAgIHdoaWxlIHNlbGYuaXRlcmF0aW9uIDwgbWF4X2l0ZXJhdGlvbnM6CiAgICAgICAgICAgIGxvZ2dlci5kZWJ1ZygiRnVsZmlsbGluZyBub24gY29tcGxldGUgc2hhcmQ9Ii5mb3JtYXQoc2VsZi5zaGFyZF9pZCkpCiAgICAgICAgICAgIHNlbGYuaXRlcmF0aW9uICs9IDEKICAgICAgICAgICAgaXRlbXNfaWR4cyA9IHNoYXJkX2luZGljZXNbMCA6IHNlbGYuYmF0Y2hfc2l6ZV0KICAgICAgICAgICAgaXRlbXMgPSBbc2VsZi5kYXRhW2lkeF0gZm9yIGlkeCBpbiBpdGVtc19pZHhzXQogICAgICAgICAgICB5aWVsZCBpdGVtcwoKICAgICAgICBsb2dnZXIuaW5mbygKICAgICAgICAgICAgIkZpbmlzaGVkIGl0ZXJhdGluZywgaXRlcmF0aW9uPXt9LCBzaGFyZD17fSIuZm9ybWF0KAogICAgICAgICAgICAgICAgc2VsZi5pdGVyYXRpb24sIHNlbGYuc2hhcmRfaWQKICAgICAgICAgICAgKQogICAgICAgICkKICAgICAgICAjIHJlc2V0IHRoZSBpdGVyYXRpb24gc3RhdHVzCiAgICAgICAgc2VsZi5pdGVyYXRpb24gPSAwCgogICAgZGVmIGl0ZXJhdGVfZHNfc2FtcGxlZF9kYXRhKAogICAgICAgIHNlbGYsIG51bV9pdGVyYXRpb25zOiBpbnQsIGVwb2NoOiBpbnQgPSAwCiAgICApIC0+IEl0ZXJhdG9yW0xpc3RdOgogICAgICAgIHNlbGYuaXRlcmF0aW9uID0gMAogICAgICAgIHNoYXJkX2luZGljZXMgPSBzZWxmLmdldF9zaGFyZF9pbmRpY2VzKGVwb2NoKQogICAgICAgIGN5Y2xlX2l0ID0gaXRlcnRvb2xzLmN5Y2xlKHNoYXJkX2luZGljZXMpCiAgICAgICAgZm9yIGkgaW4gcmFuZ2UobnVtX2l0ZXJhdGlvbnMpOgogICAgICAgICAgICBpdGVtc19pZHhzID0gW25leHQoY3ljbGVfaXQpIGZvciBfIGluIHJhbmdlKHNlbGYuYmF0Y2hfc2l6ZSldCiAgICAgICAgICAgIHNlbGYuaXRlcmF0aW9uICs9IDEKICAgICAgICAgICAgaXRlbXMgPSBbc2VsZi5kYXRhW2lkeF0gZm9yIGlkeCBpbiBpdGVtc19pZHhzXQogICAgICAgICAgICB5aWVsZCBpdGVtcwoKICAgICAgICBsb2dnZXIuaW5mbygKICAgICAgICAgICAgIkZpbmlzaGVkIGl0ZXJhdGluZywgaXRlcmF0aW9uPXt9LCBzaGFyZD17fSIuZm9ybWF0KAogICAgICAgICAgICAgICAgc2VsZi5pdGVyYXRpb24sIHNlbGYuc2hhcmRfaWQKICAgICAgICAgICAgKQogICAgICAgICkKICAgICAgICAjIFRPRE86IHJlc2V0IHRoZSBpdGVyYXRpb24gc3RhdHVzPwogICAgICAgIHNlbGYuaXRlcmF0aW9uID0gMAoKICAgIGRlZiBnZXRfZGF0YXNldChzZWxmKSAtPiB0b3JjaC51dGlscy5kYXRhLkRhdGFzZXQ6CiAgICAgICAgcmV0dXJuIHNlbGYuZGF0YQoKCmNsYXNzIE11bHRpU2V0RGF0YUl0ZXJhdG9yKG9iamVjdCk6CiAgICAiIiIKICAgIEl0ZXJhdG9yIG92ZXIgbXVsdGlwbGUgZGF0YSBzb3VyY2VzLiBVc2VmdWwgd2hlbiBhbGwgc2FtcGxlcyBmb3JtIGEgc2luZ2xlIGJhdGNoIHNob3VsZCBiZSBmcm9tIHRoZSBzYW1lIGRhdGFzZXQuCiAgICAiIiIKCiAgICBkZWYgX19pbml0X18oCiAgICAgICAgc2VsZiwKICAgICAgICBkYXRhc2V0czogTGlzdFtTaGFyZGVkRGF0YUl0ZXJhdG9yXSwKICAgICAgICBzaHVmZmxlX3NlZWQ6IGludCA9IDAsCiAgICAgICAgc2h1ZmZsZT1UcnVlLAogICAgICAgIHNhbXBsaW5nX3JhdGVzOiBMaXN0ID0gW10sCiAgICAgICAgcmFuazogaW50ID0gMCwKICAgICk6CiAgICAgICAgc2VsZi5pdGVyYWJsZXMgPSBkYXRhc2V0cwogICAgICAgIGRhdGFfbGVuZ3RocyA9IFtpdC50b3RhbF9kYXRhX2xlbigpIGZvciBpdCBpbiBkYXRhc2V0c10KICAgICAgICBzZWxmLnRvdGFsX2RhdGEgPSBzdW0oZGF0YV9sZW5ndGhzKQogICAgICAgIGxvZ2dlci5pbmZvKCJyYW5rPSVkOyBNdWx0aSBzZXQgZGF0YSBzaXplcyAlcyIsIHJhbmssIGRhdGFfbGVuZ3RocykKICAgICAgICBsb2dnZXIuaW5mbygicmFuaz0lZDsgTXVsdGkgc2V0IHRvdGFsIGRhdGEgJXMiLCByYW5rLCBzZWxmLnRvdGFsX2RhdGEpCiAgICAgICAgbG9nZ2VyLmluZm8oInJhbms9JWQ7IE11bHRpIHNldCBzYW1wbGluZ19yYXRlcyAlcyIsIHJhbmssIHNhbXBsaW5nX3JhdGVzKQogICAgICAgIHNlbGYuc2h1ZmZsZV9zZWVkID0gc2h1ZmZsZV9zZWVkCiAgICAgICAgc2VsZi5zaHVmZmxlID0gc2h1ZmZsZQogICAgICAgIHNlbGYuaXRlcmF0aW9uID0gMAogICAgICAgIHNlbGYucmFuayA9IHJhbmsKCiAgICAgICAgaWYgc2FtcGxpbmdfcmF0ZXM6CiAgICAgICAgICAgIHNlbGYubWF4X2l0c19wcl9kcyA9IFsKICAgICAgICAgICAgICAgIGludChkcy5tYXhfaXRlcmF0aW9uc19udW0oKSAqIHNhbXBsaW5nX3JhdGVzW2ldKQogICAgICAgICAgICAgICAgZm9yIGksIGRzIGluIGVudW1lcmF0ZShkYXRhc2V0cykKICAgICAgICAgICAgXQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHNlbGYubWF4X2l0c19wcl9kcyA9IFtkcy5tYXhfaXRlcmF0aW9uc19udW0oKSBmb3IgZHMgaW4gZGF0YXNldHNdCgogICAgICAgIHNlbGYubWF4X2l0ZXJhdGlvbnMgPSBzdW0oc2VsZi5tYXhfaXRzX3ByX2RzKQogICAgICAgIGxvZ2dlci5pbmZvKAogICAgICAgICAgICAicmFuaz0lZDsgTXVsdGkgc2V0IG1heF9pdGVyYXRpb25zIHBlciBkYXRhc2V0ICVzIiwgcmFuaywgc2VsZi5tYXhfaXRzX3ByX2RzCiAgICAgICAgKQogICAgICAgIGxvZ2dlci5pbmZvKCJyYW5rPSVkOyBNdWx0aSBzZXQgbWF4X2l0ZXJhdGlvbnMgJWQiLCByYW5rLCBzZWxmLm1heF9pdGVyYXRpb25zKQoKICAgIGRlZiB0b3RhbF9kYXRhX2xlbihzZWxmKSAtPiBpbnQ6CiAgICAgICAgcmV0dXJuIHNlbGYudG90YWxfZGF0YQoKICAgIGRlZiBnZXRfbWF4X2l0ZXJhdGlvbnMoc2VsZik6CiAgICAgICAgcmV0dXJuIHNlbGYubWF4X2l0ZXJhdGlvbnMKCiAgICBkZWYgaXRlcmF0ZV9kc19kYXRhKHNlbGYsIGVwb2NoOiBpbnQgPSAwKSAtPiBJdGVyYXRvcltUdXBsZVtMaXN0LCBpbnRdXToKCiAgICAgICAgbG9nZ2VyLmluZm8oInJhbms9JWQ7IEl0ZXJhdGlvbiBzdGFydCIsIHNlbGYucmFuaykKICAgICAgICBsb2dnZXIuaW5mbygKICAgICAgICAgICAgInJhbms9JWQ7IE11bHRpIHNldCBpdGVyYXRpb246IGl0ZXJhdGlvbiBwdHIgcGVyIHNldDogJXMiLAogICAgICAgICAgICBzZWxmLnJhbmssCiAgICAgICAgICAgIFtpdC5nZXRfaXRlcmF0aW9uKCkgZm9yIGl0IGluIHNlbGYuaXRlcmFibGVzXSwKICAgICAgICApCgogICAgICAgIGRhdGFfc3JjX2luZGljZXMgPSBbXQogICAgICAgIGl0ZXJhdG9ycyA9IFtdCiAgICAgICAgZm9yIHNvdXJjZSwgc3JjX2l0cyBpbiBlbnVtZXJhdGUoc2VsZi5tYXhfaXRzX3ByX2RzKToKICAgICAgICAgICAgbG9nZ2VyLmluZm8oCiAgICAgICAgICAgICAgICAicmFuaz0lZDsgTXVsdGkgc2V0IGl0ZXJhdGlvbjogc291cmNlICVkLCBiYXRjaGVzIHRvIGJlIHRha2VuOiAlcyIsCiAgICAgICAgICAgICAgICBzZWxmLnJhbmssCiAgICAgICAgICAgICAgICBzb3VyY2UsCiAgICAgICAgICAgICAgICBzcmNfaXRzLAogICAgICAgICAgICApCiAgICAgICAgICAgIGRhdGFfc3JjX2luZGljZXMuZXh0ZW5kKFtzb3VyY2VdICogc3JjX2l0cykKCiAgICAgICAgICAgIGl0ZXJhdG9ycy5hcHBlbmQoCiAgICAgICAgICAgICAgICBzZWxmLml0ZXJhYmxlc1tzb3VyY2VdLml0ZXJhdGVfZHNfc2FtcGxlZF9kYXRhKHNyY19pdHMsIGVwb2NoPWVwb2NoKQogICAgICAgICAgICApCgogICAgICAgIGlmIHNlbGYuc2h1ZmZsZToKICAgICAgICAgICAgIyB0byBiZSBhYmxlIHRvIHJlc3VtZSwgc2FtZSBzaHVmZmxpbmcgc2hvdWxkIGJlIHVzZWQgd2hlbiBzdGFydGluZyBmcm9tIGEgZmFpbGVkL3N0b3BwZWQgaXRlcmF0aW9uCiAgICAgICAgICAgIGVwb2NoX3JuZCA9IHJhbmRvbS5SYW5kb20oc2VsZi5zaHVmZmxlX3NlZWQgKyBlcG9jaCkKICAgICAgICAgICAgZXBvY2hfcm5kLnNodWZmbGUoZGF0YV9zcmNfaW5kaWNlcykKCiAgICAgICAgbG9nZ2VyLmluZm8oCiAgICAgICAgICAgICJyYW5rPSVkOyBkYXRhX3NyY19pbmRpY2VzIGxlbj0lZCIsIHNlbGYucmFuaywgbGVuKGRhdGFfc3JjX2luZGljZXMpCiAgICAgICAgKQogICAgICAgIGZvciBpLCBzb3VyY2VfaWR4IGluIGVudW1lcmF0ZShkYXRhX3NyY19pbmRpY2VzKToKICAgICAgICAgICAgaXQgPSBpdGVyYXRvcnNbc291cmNlX2lkeF0KICAgICAgICAgICAgbmV4dF9pdGVtID0gbmV4dChpdCwgTm9uZSkKICAgICAgICAgICAgaWYgbmV4dF9pdGVtIGlzIG5vdCBOb25lOgogICAgICAgICAgICAgICAgc2VsZi5pdGVyYXRpb24gKz0gMQogICAgICAgICAgICAgICAgeWllbGQgKG5leHRfaXRlbSwgc291cmNlX2lkeCkKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIGxvZ2dlci53YXJuaW5nKAogICAgICAgICAgICAgICAgICAgICJyYW5rPSVkOyBOZXh0IGl0ZW0gaW4gdGhlIHNvdXJjZSAlcyBpcyBOb25lIiwgc2VsZi5yYW5rLCBzb3VyY2VfaWR4CiAgICAgICAgICAgICAgICApCgogICAgICAgIGxvZ2dlci5pbmZvKCJyYW5rPSVkOyBsYXN0IGl0ZXJhdGlvbiAlZCIsIHNlbGYucmFuaywgc2VsZi5pdGVyYXRpb24pCgogICAgICAgIGxvZ2dlci5pbmZvKAogICAgICAgICAgICAicmFuaz0lZDsgTXVsdGkgc2V0IGl0ZXJhdGlvbiBmaW5pc2hlZDogaXRlcmF0aW9uIHBlciBzZXQ6ICVzIiwKICAgICAgICAgICAgc2VsZi5yYW5rLAogICAgICAgICAgICBbaXQuaXRlcmF0aW9uIGZvciBpdCBpbiBzZWxmLml0ZXJhYmxlc10sCiAgICAgICAgKQogICAgICAgIFtuZXh0KGl0LCBOb25lKSBmb3IgaXQgaW4gaXRlcmF0b3JzXQoKICAgICAgICAjIFRPRE86IGNsZWFyIGl0ZXJhdG9ycyBpbiBzb21lIG5vbi1oYWNreSB3YXkKICAgICAgICBmb3IgaXQgaW4gc2VsZi5pdGVyYWJsZXM6CiAgICAgICAgICAgIGl0Lml0ZXJhdGlvbiA9IDAKICAgICAgICBsb2dnZXIuaW5mbygKICAgICAgICAgICAgInJhbms9JWQ7IE11bHRpIHNldCBpdGVyYXRpb24gZmluaXNoZWQgYWZ0ZXIgbmV4dDogaXRlcmF0aW9uIHBlciBzZXQ6ICVzIiwKICAgICAgICAgICAgc2VsZi5yYW5rLAogICAgICAgICAgICBbaXQuaXRlcmF0aW9uIGZvciBpdCBpbiBzZWxmLml0ZXJhYmxlc10sCiAgICAgICAgKQogICAgICAgICMgcmVzZXQgdGhlIGl0ZXJhdGlvbiBzdGF0dXMKICAgICAgICBzZWxmLml0ZXJhdGlvbiA9IDAKCiAgICBkZWYgZ2V0X2l0ZXJhdGlvbihzZWxmKSAtPiBpbnQ6CiAgICAgICAgcmV0dXJuIHNlbGYuaXRlcmF0aW9uCgogICAgZGVmIGdldF9kYXRhc2V0KHNlbGYsIGRzX2lkOiBpbnQpIC0+IHRvcmNoLnV0aWxzLmRhdGEuRGF0YXNldDoKICAgICAgICByZXR1cm4gc2VsZi5pdGVyYWJsZXNbZHNfaWRdLmdldF9kYXRhc2V0KCkKCiAgICBkZWYgZ2V0X2RhdGFzZXRzKHNlbGYpIC0+IExpc3RbdG9yY2gudXRpbHMuZGF0YS5EYXRhc2V0XToKICAgICAgICByZXR1cm4gW2l0LmdldF9kYXRhc2V0KCkgZm9yIGl0IGluIHNlbGYuaXRlcmFibGVzXQoKCmNsYXNzIFRlbnNvcml6ZXIob2JqZWN0KToKICAgICIiIgogICAgQ29tcG9uZW50IGZvciBhbGwgdGV4dCB0byBtb2RlbCBpbnB1dCBkYXRhIGNvbnZlcnNpb25zIGFuZCByZWxhdGVkIHV0aWxpdHkgbWV0aG9kcwogICAgIiIiCgogICAgIyBOb3RlOiB0aXRsZSwgaWYgcHJlc2VudCwgaXMgc3VwcG9zZWQgdG8gYmUgcHV0IGJlZm9yZSB0ZXh0IChpLmUuIG9wdGlvbmFsIHRpdGxlICsgZG9jdW1lbnQgYm9keSkKICAgIGRlZiB0ZXh0X3RvX3RlbnNvcigKICAgICAgICBzZWxmLAogICAgICAgIHRleHQ6IHN0ciwKICAgICAgICB0aXRsZTogc3RyID0gTm9uZSwKICAgICAgICBhZGRfc3BlY2lhbF90b2tlbnM6IGJvb2wgPSBUcnVlLAogICAgICAgIGFwcGx5X21heF9sZW46IGJvb2wgPSBUcnVlLAogICAgKToKICAgICAgICByYWlzZSBOb3RJbXBsZW1lbnRlZEVycm9yCgogICAgZGVmIGdldF9wYWlyX3NlcGFyYXRvcl9pZHMoc2VsZikgLT4gVDoKICAgICAgICByYWlzZSBOb3RJbXBsZW1lbnRlZEVycm9yCgogICAgZGVmIGdldF9wYWRfaWQoc2VsZikgLT4gaW50OgogICAgICAgIHJhaXNlIE5vdEltcGxlbWVudGVkRXJyb3IKCiAgICBkZWYgZ2V0X2F0dG5fbWFzayhzZWxmLCB0b2tlbnNfdGVuc29yOiBUKToKICAgICAgICByYWlzZSBOb3RJbXBsZW1lbnRlZEVycm9yCgogICAgZGVmIGlzX3N1Yl93b3JkX2lkKHNlbGYsIHRva2VuX2lkOiBpbnQpOgogICAgICAgIHJhaXNlIE5vdEltcGxlbWVudGVkRXJyb3IKCiAgICBkZWYgdG9fc3RyaW5nKHNlbGYsIHRva2VuX2lkcywgc2tpcF9zcGVjaWFsX3Rva2Vucz1UcnVlKToKICAgICAgICByYWlzZSBOb3RJbXBsZW1lbnRlZEVycm9yCgogICAgZGVmIHNldF9wYWRfdG9fbWF4KHNlbGYsIHBhZDogYm9vbCk6CiAgICAgICAgcmFpc2UgTm90SW1wbGVtZW50ZWRFcnJvcgoKICAgIGRlZiBnZXRfdG9rZW5faWQoc2VsZiwgdG9rZW46IHN0cikgLT4gaW50OgogICAgICAgIHJhaXNlIE5vdEltcGxlbWVudGVkRXJyb3IKCg==
+#!/usr/bin/env python3
+# Copyright (c) Facebook, Inc. and its affiliates.
+# All rights reserved.
+#
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+
+"""
+Utilities for general purpose data processing
+"""
+import json
+import logging
+import pickle
+
+import itertools
+import math
+import torch
+from torch import Tensor as T
+from typing import List, Iterator, Callable, Tuple
+from datasets import load_dataset
+
+logger = logging.getLogger()
+
+import random
+
+
+class App:
+    def __init__(self):
+        self.functions = {}
+    def add(self, key):
+        def adder(func):
+            self.functions[key] = func
+            return func
+        return adder
+
+
+
+def read_serialized_data_from_files(paths: List[str]) -> List:
+    results = []
+    for i, path in enumerate(paths):
+        with open(path, "rb") as reader:
+            logger.info("Reading file %s", path)
+            data = pickle.load(reader)
+            results.extend(data)
+            logger.info("Aggregated data size: {}".format(len(results)))
+    logger.info("Total data size: {}".format(len(results)))
+    return results
+
+def read_data_from_json_files(paths) -> List:
+    if isinstance(paths,str): paths=[paths] #兼容list of str和str两种
+    results = []
+    for path in paths:
+        with open(path, "r", encoding="utf-8") as f:
+            logger.info("Reading file %s" % path)
+            data = json.load(f)
+            results.extend(data)
+            logger.info("Aggregated data size: {}".format(len(results)))
+    return results
+
+class ShardedDataIterator(object):
+    """
+    General purpose data iterator to be used for Pytorch's DDP mode where every node should handle its own part of
+    the data.
+    Instead of cutting data shards by their min size, it sets the amount of iterations by the maximum shard size.
+    It fills the extra sample by just taking first samples in a shard.
+    It can also optionally enforce identical batch size for all iterations (might be useful for DP mode).
+    """
+
+    def __init__(
+        self,
+        data: torch.utils.data.Dataset,
+        shard_id: int = 0,
+        num_shards: int = 1,
+        batch_size: int = 1,
+        shuffle=True,
+        shuffle_seed: int = 0,
+        offset: int = 0,
+        strict_batch_size: bool = False,
+    ):
+
+        self.data = data
+        total_size = len(data)
+
+        self.shards_num = max(num_shards, 1)
+        self.shard_id = max(shard_id, 0)
+
+        samples_per_shard = math.ceil(total_size / self.shards_num)
+
+        self.shard_start_idx = self.shard_id * samples_per_shard
+
+        self.shard_end_idx = min(self.shard_start_idx + samples_per_shard, total_size)
+
+        if strict_batch_size:
+            self.max_iterations = math.ceil(samples_per_shard / batch_size)
+        else:
+            self.max_iterations = int(samples_per_shard / batch_size)
+
+        logger.info(
+            "samples_per_shard=%d, shard_start_idx=%d, shard_end_idx=%d, max_iterations=%d",
+            samples_per_shard,
+            self.shard_start_idx,
+            self.shard_end_idx,
+            self.max_iterations,
+        )
+
+        self.iteration = offset  # to track in-shard iteration status
+        self.shuffle = shuffle
+        self.batch_size = batch_size
+        self.shuffle_seed = shuffle_seed
+        self.strict_batch_size = strict_batch_size
+
+    def total_data_len(self) -> int:
+        return len(self.data)
+
+    def iterations_num(self) -> int:
+        return self.max_iterations - self.iteration
+
+    def max_iterations_num(self) -> int:
+        return self.max_iterations
+
+    def get_iteration(self) -> int:
+        return self.iteration
+
+    def apply(self, visitor_func: Callable):
+        for sample in self.data:
+            visitor_func(sample)
+
+    def get_shard_indices(self, epoch: int):
+        indices = list(range(len(self.data)))
+        if self.shuffle:
+            # to be able to resume, same shuffling should be used when starting from a failed/stopped iteration
+            epoch_rnd = random.Random(self.shuffle_seed + epoch)
+            epoch_rnd.shuffle(indices)
+        shard_indices = indices[self.shard_start_idx : self.shard_end_idx]
+        return shard_indices
+
+    # TODO: merge with iterate_ds_sampled_data
+    def iterate_ds_data(self, epoch: int = 0) -> Iterator[List]:
+        # if resuming iteration somewhere in the middle of epoch, one needs to adjust max_iterations
+        max_iterations = self.max_iterations - self.iteration
+        shard_indices = self.get_shard_indices(epoch)
+
+        for i in range(
+            self.iteration * self.batch_size, len(shard_indices), self.batch_size
+        ):
+            items_idxs = shard_indices[i : i + self.batch_size]
+            if self.strict_batch_size and len(items_idxs) < self.batch_size:
+                logger.debug("Extending batch to max size")
+                items_idxs.extend(shard_indices[0 : self.batch_size - len(items)])
+            self.iteration += 1
+            items = [self.data[idx] for idx in items_idxs]
+            yield items
+
+        # some shards may done iterating while the others are at the last batch. Just return the first batch
+        while self.iteration < max_iterations:
+            logger.debug("Fulfilling non complete shard=".format(self.shard_id))
+            self.iteration += 1
+            items_idxs = shard_indices[0 : self.batch_size]
+            items = [self.data[idx] for idx in items_idxs]
+            yield items
+
+        logger.info(
+            "Finished iterating, iteration={}, shard={}".format(
+                self.iteration, self.shard_id
+            )
+        )
+        # reset the iteration status
+        self.iteration = 0
+
+    def iterate_ds_sampled_data(
+        self, num_iterations: int, epoch: int = 0
+    ) -> Iterator[List]:
+        self.iteration = 0
+        shard_indices = self.get_shard_indices(epoch)
+        cycle_it = itertools.cycle(shard_indices)
+        for i in range(num_iterations):
+            items_idxs = [next(cycle_it) for _ in range(self.batch_size)]
+            self.iteration += 1
+            items = [self.data[idx] for idx in items_idxs]
+            yield items
+
+        logger.info(
+            "Finished iterating, iteration={}, shard={}".format(
+                self.iteration, self.shard_id
+            )
+        )
+        # TODO: reset the iteration status?
+        self.iteration = 0
+
+    def get_dataset(self) -> torch.utils.data.Dataset:
+        return self.data
+
+
+class MultiSetDataIterator(object):
+    """
+    Iterator over multiple data sources. Useful when all samples form a single batch should be from the same dataset.
+    """
+
+    def __init__(
+        self,
+        datasets: List[ShardedDataIterator],
+        shuffle_seed: int = 0,
+        shuffle=True,
+        sampling_rates: List = [],
+        rank: int = 0,
+    ):
+        self.iterables = datasets
+        data_lengths = [it.total_data_len() for it in datasets]
+        self.total_data = sum(data_lengths)
+        logger.info("rank=%d; Multi set data sizes %s", rank, data_lengths)
+        logger.info("rank=%d; Multi set total data %s", rank, self.total_data)
+        logger.info("rank=%d; Multi set sampling_rates %s", rank, sampling_rates)
+        self.shuffle_seed = shuffle_seed
+        self.shuffle = shuffle
+        self.iteration = 0
+        self.rank = rank
+
+        if sampling_rates:
+            self.max_its_pr_ds = [
+                int(ds.max_iterations_num() * sampling_rates[i])
+                for i, ds in enumerate(datasets)
+            ]
+        else:
+            self.max_its_pr_ds = [ds.max_iterations_num() for ds in datasets]
+
+        self.max_iterations = sum(self.max_its_pr_ds)
+        logger.info(
+            "rank=%d; Multi set max_iterations per dataset %s", rank, self.max_its_pr_ds
+        )
+        logger.info("rank=%d; Multi set max_iterations %d", rank, self.max_iterations)
+
+    def total_data_len(self) -> int:
+        return self.total_data
+
+    def get_max_iterations(self):
+        return self.max_iterations
+
+    def iterate_ds_data(self, epoch: int = 0) -> Iterator[Tuple[List, int]]:
+
+        logger.info("rank=%d; Iteration start", self.rank)
+        logger.info(
+            "rank=%d; Multi set iteration: iteration ptr per set: %s",
+            self.rank,
+            [it.get_iteration() for it in self.iterables],
+        )
+
+        data_src_indices = []
+        iterators = []
+        for source, src_its in enumerate(self.max_its_pr_ds):
+            logger.info(
+                "rank=%d; Multi set iteration: source %d, batches to be taken: %s",
+                self.rank,
+                source,
+                src_its,
+            )
+            data_src_indices.extend([source] * src_its)
+
+            iterators.append(
+                self.iterables[source].iterate_ds_sampled_data(src_its, epoch=epoch)
+            )
+
+        if self.shuffle:
+            # to be able to resume, same shuffling should be used when starting from a failed/stopped iteration
+            epoch_rnd = random.Random(self.shuffle_seed + epoch)
+            epoch_rnd.shuffle(data_src_indices)
+
+        logger.info(
+            "rank=%d; data_src_indices len=%d", self.rank, len(data_src_indices)
+        )
+        for i, source_idx in enumerate(data_src_indices):
+            it = iterators[source_idx]
+            next_item = next(it, None)
+            if next_item is not None:
+                self.iteration += 1
+                yield (next_item, source_idx)
+            else:
+                logger.warning(
+                    "rank=%d; Next item in the source %s is None", self.rank, source_idx
+                )
+
+        logger.info("rank=%d; last iteration %d", self.rank, self.iteration)
+
+        logger.info(
+            "rank=%d; Multi set iteration finished: iteration per set: %s",
+            self.rank,
+            [it.iteration for it in self.iterables],
+        )
+        [next(it, None) for it in iterators]
+
+        # TODO: clear iterators in some non-hacky way
+        for it in self.iterables:
+            it.iteration = 0
+        logger.info(
+            "rank=%d; Multi set iteration finished after next: iteration per set: %s",
+            self.rank,
+            [it.iteration for it in self.iterables],
+        )
+        # reset the iteration status
+        self.iteration = 0
+
+    def get_iteration(self) -> int:
+        return self.iteration
+
+    def get_dataset(self, ds_id: int) -> torch.utils.data.Dataset:
+        return self.iterables[ds_id].get_dataset()
+
+    def get_datasets(self) -> List[torch.utils.data.Dataset]:
+        return [it.get_dataset() for it in self.iterables]
+
+
+class Tensorizer(object):
+    """
+    Component for all text to model input data conversions and related utility methods
+    """
+
+    # Note: title, if present, is supposed to be put before text (i.e. optional title + document body)
+    def text_to_tensor(
+        self,
+        text: str,
+        title: str = None,
+        add_special_tokens: bool = True,
+        apply_max_len: bool = True,
+    ):
+        raise NotImplementedError
+
+    def get_pair_separator_ids(self) -> T:
+        raise NotImplementedError
+
+    def get_pad_id(self) -> int:
+        raise NotImplementedError
+
+    def get_attn_mask(self, tokens_tensor: T):
+        raise NotImplementedError
+
+    def is_sub_word_id(self, token_id: int):
+        raise NotImplementedError
+
+    def to_string(self, token_ids, skip_special_tokens=True):
+        raise NotImplementedError
+
+    def set_pad_to_max(self, pad: bool):
+        raise NotImplementedError
+
+    def get_token_id(self, token: str) -> int:
+        raise NotImplementedError
+

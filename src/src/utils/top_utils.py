@@ -1,1 +1,170 @@
-IyBjb2Rpbmc9dXRmLTgKIyBDb3B5cmlnaHQgMjAxOCBUaGUgR29vZ2xlIEFJIExhbmd1YWdlIFRlYW0gQXV0aG9ycy4KIwojIExpY2Vuc2VkIHVuZGVyIHRoZSBBcGFjaGUgTGljZW5zZSwgVmVyc2lvbiAyLjAgKHRoZSAiTGljZW5zZSIpOwojIHlvdSBtYXkgbm90IHVzZSB0aGlzIGZpbGUgZXhjZXB0IGluIGNvbXBsaWFuY2Ugd2l0aCB0aGUgTGljZW5zZS4KIyBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKIwojICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKIwojIFVubGVzcyByZXF1aXJlZCBieSBhcHBsaWNhYmxlIGxhdyBvciBhZ3JlZWQgdG8gaW4gd3JpdGluZywgc29mdHdhcmUKIyBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAojIFdJVEhPVVQgV0FSUkFOVElFUyBPUiBDT05ESVRJT05TIE9GIEFOWSBLSU5ELCBlaXRoZXIgZXhwcmVzcyBvciBpbXBsaWVkLgojIFNlZSB0aGUgTGljZW5zZSBmb3IgdGhlIHNwZWNpZmljIGxhbmd1YWdlIGdvdmVybmluZyBwZXJtaXNzaW9ucyBhbmQKIyBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KIiIiVXRpbGl0aWVzIGZvciBUT1AgYW5kIE1UT1AgZGF0YXNldHMuCgpSZWZlcmVuY2VzOgotIFRPUDogKEd1cHRhIGV0IGFsLiwgMjAxOCkgU2VtYW50aWMgUGFyc2luZyBmb3IgVGFzayBPcmllbnRlZCBEaWFsb2cgdXNpbmcKICBIaWVyYXJjaGljYWwgUmVwcmVzZW50YXRpb25zCi0gTVRPUDogKExpIGV0IGFsLiwgMjAyMCkgTVRPUDogQSBDb21wcmVoZW5zaXZlIE11bHRpbGluZ3VhbCBUYXNrLU9yaWVudGVkCiAgU2VtYW50aWMgUGFyc2luZyBCZW5jaG1hcmsKIiIiCgoKCmNsYXNzIFRvcExGOgogICIiIlJlcHJlc2VudHMgYSBsb2dpY2FsIGZvcm0gZnJvbSBUT1AgYW5kIE1UT1AgZGF0YXNldHMuIiIiCiAgX19zbG90c19fID0gWyJuYW1lIiwgImFyZ3MiXQoKICBkZWYgX19pbml0X18oc2VsZiwgY29udGVudCk6CiAgICAiIiJJbml0aWFsaXplcyBhIFRvcExGIG9iamVjdC4KCiAgICBBcmdzOgogICAgICBjb250ZW50OiBUaGUgY29udGVudCBpbnNpZGUgdGhlIGJyYWNrZXQgKFsuLi5dKSBvZiBhIHNlcmlhbGl6ZWQgbG9naWNhbAogICAgICAgIGZvcm0uIFRoZSBmaXJzdCBpdGVtIGlzIHRoZSBpbnRlbnQgb3Igc2xvdCBuYW1lLiBFYWNoIHN1YnNlcXVlbnQgaXRlbXMKICAgICAgICBpcyBlaXRoZXIgYSBzdWJ0cmVlIChhIFRvcExGIG9iamVjdCkgb3IgYSBsZWFmIHRva2VuIChhIHN0cmluZykuCiAgICAiIiIKICAgIGFzc2VydCBpc2luc3RhbmNlKGNvbnRlbnRbMF0sIHN0cikKICAgIHNlbGYubmFtZTogc3RyID0gY29udGVudFswXQogICAgc2VsZi5hcmdzID0gY29udGVudFsxOl0KCiAgZGVmIHNlcmlhbGl6ZShzZWxmKToKICAgICIiIlJldHVybnMgdGhlIHN0cmluZyBzZXJpYWxpemF0aW9uIG9mIHRoZSBsb2dpY2FsIGZvcm0uIiIiCiAgICB0b2tlbnMgPSBbIlsiICsgc2VsZi5uYW1lXQogICAgZm9yIGFyZyBpbiBzZWxmLmFyZ3M6CiAgICAgIGlmIGlzaW5zdGFuY2UoYXJnLCBUb3BMRik6CiAgICAgICAgdG9rZW5zLmFwcGVuZChhcmcuc2VyaWFsaXplKCkpCiAgICAgIGVsc2U6CiAgICAgICAgdG9rZW5zLmFwcGVuZChhcmcpCiAgICB0b2tlbnMuYXBwZW5kKCJdIikKICAgIHJldHVybiAiICIuam9pbih0b2tlbnMpCgogIGRlZiBfX3JlcHJfXyhzZWxmKToKICAgIHJldHVybiAiPFRvcExGIHt9PiIuZm9ybWF0KHNlbGYuc2VyaWFsaXplKCkpCgoKZGVmIGRlc2VyaWFsaXplX3RvcChzZXJpYWxpemVkKToKICAiIiJEZXNlcmlhbGl6ZXMgdGhlIGxvZ2ljYWwgZm9ybSBzdHJpbmcgaW50byBhIFRvcExGIG9iamVjdC4KCiAgQXJnczoKICAgIHNlcmlhbGl6ZWQ6IFNlcmlhbGl6ZWQgbG9naWNhbCBmb3JtIHN0cmluZy4KCiAgUmV0dXJuczoKICAgIGEgVG9wTEYgb2JqZWN0IGlmIHRoZSBkZXNlcmlhbGl6YXRpb24gaXMgc3VjY2Vzc2Z1bDsgTm9uZSBvdGhlcndpc2UuCiAgIiIiCiAgIyBJZiB0aGVyZSBpcyBubyBjb2xvbiBhZnRlciBJTiwgdGhlIGxvZ2ljYWwgZm9ybSBuZWVkcyB0byBiZSBkZWZvcm1hdHRlZC4KICBpZiBzZXJpYWxpemVkLnN0YXJ0c3dpdGgoIltJTiAiKToKICAgIHNlcmlhbGl6ZWQgPSBkZWZvcm1hdF9zZXJpYWxpemVkKHNlcmlhbGl6ZWQpCiAgdHJ5OgogICAgc3RhY2sgPSBbW11dCiAgICBmb3IgdG9rZW4gaW4gc2VyaWFsaXplZC5zcGxpdCgpOgogICAgICBpZiB0b2tlblswXSA9PSAiWyI6CiAgICAgICAgIyBCZWdpbiBhIHN1YnRyZWU6IHN0YXJ0IGEgbmV3IHN0YWNrIGl0ZW0gdG8gY29sbGVjdCBjaGlsZHJlbi4KICAgICAgICBuZXdfc3RhY2tfaXRlbSA9IFt0b2tlblsxOl1dCiAgICAgICAgc3RhY2suYXBwZW5kKG5ld19zdGFja19pdGVtKQogICAgICBlbGlmIHRva2VuID09ICJdIjoKICAgICAgICAjIEVuZCBhIHN1YnRyZWU6IGNyZWF0ZSBhIFRvcExGIG9iamVjdCBhbmQgYWRkIGl0IHRvIHRoZSBwYXJlbnQuCiAgICAgICAgY2hpbGQgPSBUb3BMRihzdGFjay5wb3AoKSkKICAgICAgICBzdGFja1stMV0uYXBwZW5kKGNoaWxkKQogICAgICBlbHNlOgogICAgICAgICMgTGVhZiB0b2tlbjogZGlyZWN0bHkgYWRkIHRvIHRoZSBwYXJlbnQuCiAgICAgICAgaWYgbGVuKHN0YWNrWy0xXSkgPiAxIGFuZCBpc2luc3RhbmNlKHN0YWNrWy0xXVstMV0sIHN0cik6CiAgICAgICAgICAjIENvbWJpbmUgY29uc2VjdXRpdmUgdG9rZW5zIHRvZ2V0aGVyLgogICAgICAgICAgc3RhY2tbLTFdWy0xXSArPSAiICIgKyB0b2tlbgogICAgICAgIGVsc2U6CiAgICAgICAgICBzdGFja1stMV0uYXBwZW5kKHRva2VuKQogICAgYXNzZXJ0IGxlbihzdGFjaykgPT0gMSBhbmQgbGVuKHN0YWNrWzBdKSA9PSAxCiAgICBsZiA9IHN0YWNrWzBdWzBdCiAgICBhc3NlcnQgaXNpbnN0YW5jZShsZiwgVG9wTEYpCiAgICByZXR1cm4gbGYKICBleGNlcHQgKEluZGV4RXJyb3IsIEFzc2VydGlvbkVycm9yKToKICAgIHJldHVybiBOb25lCgoKZGVmIGdldF9mcmFtZV90b3AobGYpOgogICIiIkdldHMgdGhlIGZyYW1lIChsaXN0aW5nIGludGVudCBhbmQgc2xvdCBsYWJlbHMpIG9mIGEgVG9wTEYuCgogIE5lc3RlZCBzbG90cyB3aWxsIGJlIHJlcHJlc2VudGVkIHdpdGggYSBkb3Qgbm90YXRpb24gKGUuZy4sCiAgInNsb3QxLmludGVudDIuc2xvdDMiKS4gVG8gYXZvaWQgaW5jbHVkaW5nIGFsbCBsZXZlbHMgb2YgbmVzdGVkIHNsb3RzLAogIG9ubHkgc2xvdHMgd2l0aCBhdCBsZWFzdCBvbmUgbGVhZiB0b2tlbiBhcyBhIGRpcmVjdCBjaGlsZCB3aWxsIGJlIGluY2x1ZGVkLgoKICBBcmdzOgogICAgbGY6IGEgVG9wTEYgb2JqZWN0IG9yIGEgc2VyaWFsaXplZCBsb2dpY2FsIGZvcm0gc3RyaW5nLgoKICBSZXR1cm5zOgogICAgdGhlIGZyYW1lIHN0cmluZyAiaW50ZW50LXNsb3QxLXNsb3QyLS4uLiIKICAiIiIKICBpZiBpc2luc3RhbmNlKGxmLCBzdHIpOgogICAgbGYgPSBkZXNlcmlhbGl6ZV90b3AobGYpCiAgYXJncyA9IHNldCgpCgogIGRlZiB0cmF2ZXJzZSh4LCBwcmVmaXg9IiIsIHRvcF9sZXZlbD1GYWxzZSk6CiAgICBpZiBub3QgdG9wX2xldmVsOgogICAgICBwcmVmaXggKz0geC5uYW1lCiAgICBmb3IgdiBpbiB4LmFyZ3M6CiAgICAgIGlmIGlzaW5zdGFuY2UodiwgVG9wTEYpOgogICAgICAgIHRyYXZlcnNlKHYsIHByZWZpeCArICIuIikKICAgICAgZWxzZToKICAgICAgICBhcmdzLmFkZChwcmVmaXgubHN0cmlwKCIuIikpCgogIHRyYXZlcnNlKGxmLCB0b3BfbGV2ZWw9VHJ1ZSkKICByZXR1cm4gIi0iLmpvaW4oW2xmLm5hbWVdICsgc29ydGVkKGFyZ3MpKQoKCmRlZiBmb3JtYXRfc2VyaWFsaXplZChzZXJpYWxpemVkKToKICAiIiJGb3JtYXRzIHRoZSBzZXJpYWxpemVkIGxvZ2ljYWwgZm9ybSB0byByZWR1Y2UgdGhlIG51bWJlciBvZiB0b2tlbnMuCgogIFRoZSBpbnRlbnQgYW5kIHNsb3QgbGFiZWxzIGFyZSBsb3dlci1jYXNlZCBhbmQgYnJva2VuIGludG8gd29yZHMuCiAgRXhhbXBsZTogIltJTjpTRVRfQUxBUk0iIC0tPiAiW0lOIHNldCBhbGFybSA9IgoKICBUaGUgY2xvc2UgYnJhY2tldHMgYXJlIGFsc28gbWVyZ2VkIHdpdGggdGhlIHByZWNlZGluZyB0b2tlbiB0byBhdm9pZCBhbiBleHRyYQogIHNwYWNlIHRva2VuIGFmdGVyIHRva2VuaXphdGlvbi4KCiAgQXJnczoKICAgIHNlcmlhbGl6ZWQ6IFNlcmlhbGl6ZWQgbG9naWNhbCBmb3JtIHN0cmluZwoKICBSZXR1cm5zOgogICAgZm9ybWF0dGVkIGxvZ2ljYWwgZm9ybSBzdHJpbmcuCiAgIiIiCiAgbGZfdG9rcyA9IFtdCiAgZm9yIHRvayBpbiBzZXJpYWxpemVkLnNwbGl0KCk6CiAgICBpZiB0b2sgPT0gIl0iOgogICAgICBsZl90b2tzLmFwcGVuZCh0b2spCiAgICBlbGlmIHRva1swXSA9PSAiWyI6CiAgICAgIHByZWZpeCwgc3VmZml4ID0gdG9rWzE6XS5zcGxpdCgiOiIpCiAgICAgIGxmX3Rva3MuYXBwZW5kKCIgWyIgKyBwcmVmaXgpCiAgICAgIGxmX3Rva3MuYXBwZW5kKCIgIiArIHN1ZmZpeC5sb3dlcigpLnJlcGxhY2UoIl8iLCAiICIpKQogICAgICBsZl90b2tzLmFwcGVuZCgiID0iKQogICAgZWxzZToKICAgICAgbGZfdG9rcy5hcHBlbmQoIiAiICsgdG9rKQogIHJldHVybiAiIi5qb2luKGxmX3Rva3MpLnN0cmlwKCkKCgpkZWYgZGVmb3JtYXRfc2VyaWFsaXplZChmb3JtYXR0ZWQpOgogICIiIlVuZG9lcyB0aGUgcHJvY2VzcyBpbiBmb3JtYXRfc2VyaWFsaXplZC4iIiIKICBsZl90b2tzID0gW10KICBpbl9sYWJlbCA9IEZhbHNlICAjIFdoZXRoZXIgd2UgYXJlIHByb2Nlc3NpbmcgdGhlIGludGVudC9zbG90IGxhYmVsCiAgZm9yIHRvayBpbiBmb3JtYXR0ZWQucmVwbGFjZSgiXSIsICIgXSIpLnNwbGl0KCk6CiAgICBpZiBpbl9sYWJlbDoKICAgICAgaWYgdG9rID09ICI9IjoKICAgICAgICBpbl9sYWJlbCA9IEZhbHNlCiAgICAgIGVsc2U6CiAgICAgICAgbGZfdG9rcy5hcHBlbmQoIl8iICsgdG9rLnVwcGVyKCkpCiAgICBlbHNlOgogICAgICBpZiB0b2tbMF0gPT0gIlsiOgogICAgICAgIGxmX3Rva3MuYXBwZW5kKCIgIiArIHRvayArICI6IikKICAgICAgICBpbl9sYWJlbCA9IFRydWUKICAgICAgZWxzZToKICAgICAgICBsZl90b2tzLmFwcGVuZCgiICIgKyB0b2spCiAgcmV0dXJuICIiLmpvaW4obGZfdG9rcykucmVwbGFjZSgiOl8iLCAiOiIpLnN0cmlwKCk=
+# coding=utf-8
+# Copyright 2018 The Google AI Language Team Authors.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+"""Utilities for TOP and MTOP datasets.
+
+References:
+- TOP: (Gupta et al., 2018) Semantic Parsing for Task Oriented Dialog using
+  Hierarchical Representations
+- MTOP: (Li et al., 2020) MTOP: A Comprehensive Multilingual Task-Oriented
+  Semantic Parsing Benchmark
+"""
+
+
+
+class TopLF:
+  """Represents a logical form from TOP and MTOP datasets."""
+  __slots__ = ["name", "args"]
+
+  def __init__(self, content):
+    """Initializes a TopLF object.
+
+    Args:
+      content: The content inside the bracket ([...]) of a serialized logical
+        form. The first item is the intent or slot name. Each subsequent items
+        is either a subtree (a TopLF object) or a leaf token (a string).
+    """
+    assert isinstance(content[0], str)
+    self.name: str = content[0]
+    self.args = content[1:]
+
+  def serialize(self):
+    """Returns the string serialization of the logical form."""
+    tokens = ["[" + self.name]
+    for arg in self.args:
+      if isinstance(arg, TopLF):
+        tokens.append(arg.serialize())
+      else:
+        tokens.append(arg)
+    tokens.append("]")
+    return " ".join(tokens)
+
+  def __repr__(self):
+    return "<TopLF {}>".format(self.serialize())
+
+
+def deserialize_top(serialized):
+  """Deserializes the logical form string into a TopLF object.
+
+  Args:
+    serialized: Serialized logical form string.
+
+  Returns:
+    a TopLF object if the deserialization is successful; None otherwise.
+  """
+  # If there is no colon after IN, the logical form needs to be deformatted.
+  if serialized.startswith("[IN "):
+    serialized = deformat_serialized(serialized)
+  try:
+    stack = [[]]
+    for token in serialized.split():
+      if token[0] == "[":
+        # Begin a subtree: start a new stack item to collect children.
+        new_stack_item = [token[1:]]
+        stack.append(new_stack_item)
+      elif token == "]":
+        # End a subtree: create a TopLF object and add it to the parent.
+        child = TopLF(stack.pop())
+        stack[-1].append(child)
+      else:
+        # Leaf token: directly add to the parent.
+        if len(stack[-1]) > 1 and isinstance(stack[-1][-1], str):
+          # Combine consecutive tokens together.
+          stack[-1][-1] += " " + token
+        else:
+          stack[-1].append(token)
+    assert len(stack) == 1 and len(stack[0]) == 1
+    lf = stack[0][0]
+    assert isinstance(lf, TopLF)
+    return lf
+  except (IndexError, AssertionError):
+    return None
+
+
+def get_frame_top(lf):
+  """Gets the frame (listing intent and slot labels) of a TopLF.
+
+  Nested slots will be represented with a dot notation (e.g.,
+  "slot1.intent2.slot3"). To avoid including all levels of nested slots,
+  only slots with at least one leaf token as a direct child will be included.
+
+  Args:
+    lf: a TopLF object or a serialized logical form string.
+
+  Returns:
+    the frame string "intent-slot1-slot2-..."
+  """
+  if isinstance(lf, str):
+    lf = deserialize_top(lf)
+  args = set()
+
+  def traverse(x, prefix="", top_level=False):
+    if not top_level:
+      prefix += x.name
+    for v in x.args:
+      if isinstance(v, TopLF):
+        traverse(v, prefix + ".")
+      else:
+        args.add(prefix.lstrip("."))
+
+  traverse(lf, top_level=True)
+  return "-".join([lf.name] + sorted(args))
+
+
+def format_serialized(serialized):
+  """Formats the serialized logical form to reduce the number of tokens.
+
+  The intent and slot labels are lower-cased and broken into words.
+  Example: "[IN:SET_ALARM" --> "[IN set alarm ="
+
+  The close brackets are also merged with the preceding token to avoid an extra
+  space token after tokenization.
+
+  Args:
+    serialized: Serialized logical form string
+
+  Returns:
+    formatted logical form string.
+  """
+  lf_toks = []
+  for tok in serialized.split():
+    if tok == "]":
+      lf_toks.append(tok)
+    elif tok[0] == "[":
+      prefix, suffix = tok[1:].split(":")
+      lf_toks.append(" [" + prefix)
+      lf_toks.append(" " + suffix.lower().replace("_", " "))
+      lf_toks.append(" =")
+    else:
+      lf_toks.append(" " + tok)
+  return "".join(lf_toks).strip()
+
+
+def deformat_serialized(formatted):
+  """Undoes the process in format_serialized."""
+  lf_toks = []
+  in_label = False  # Whether we are processing the intent/slot label
+  for tok in formatted.replace("]", " ]").split():
+    if in_label:
+      if tok == "=":
+        in_label = False
+      else:
+        lf_toks.append("_" + tok.upper())
+    else:
+      if tok[0] == "[":
+        lf_toks.append(" " + tok + ":")
+        in_label = True
+      else:
+        lf_toks.append(" " + tok)
+  return "".join(lf_toks).replace(":_", ":").strip()

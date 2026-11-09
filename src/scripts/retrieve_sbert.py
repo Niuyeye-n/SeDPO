@@ -1,1 +1,142 @@
-aW1wb3J0IG9zCmltcG9ydCBzeXMKc3lzLnBhdGguaW5zZXJ0KDAsIG9zLmdldGN3ZCgpKQoKaW1wb3J0IGh5ZHJhLnV0aWxzIGFzIGh1IAppbXBvcnQgaHlkcmEKZnJvbSBoeWRyYS5jb3JlLmh5ZHJhX2NvbmZpZyBpbXBvcnQgSHlkcmFDb25maWcKaW1wb3J0IHRvcmNoCmltcG9ydCB0cWRtCmZyb20gdG9yY2gudXRpbHMuZGF0YSBpbXBvcnQgRGF0YUxvYWRlcgpmcm9tIHNyYy5kYXRhLmNvbGxhdG9ycyBpbXBvcnQgRGF0YUNvbGxhdG9yV2l0aFBhZGRpbmdBbmRDdWRhCmltcG9ydCBmYWlzcwppbXBvcnQgbnVtcHkgYXMgbnAKaW1wb3J0IGpzb24KZnJvbSBEUFIuZHByLnV0aWxzLnRhc2tzIGltcG9ydCB0YXNrX21hcCwgdGVzdF9jbHVzdGVyX21hcCwgdHJhaW5fY2x1c3Rlcl9tYXAsZ2V0X3Byb21wdF9maWxlcwpmcm9tIERQUi5kcHIudXRpbHMuZGF0YV91dGlscyBpbXBvcnQgcmVhZF9kYXRhX2Zyb21fanNvbl9maWxlcwpmcm9tIHNyYy5kYXRhc2V0X3JlYWRlcnMuaW5kZXhlcl9kc3IgaW1wb3J0IEluZGV4ZXJEYXRhc2V0UmVhZGVyCmZyb20gdHJhbnNmb3JtZXJzIGltcG9ydCBBdXRvVG9rZW5pemVyCmltcG9ydCBvcwppbXBvcnQgbG9nZ2luZwoKbG9nZ2VyID0gbG9nZ2luZy5nZXRMb2dnZXIoX19uYW1lX18pCgpjbGFzcyBLTk5GaW5kZXI6CiAgICBkZWYgX19pbml0X18oc2VsZiwgY2ZnKSAtPiBOb25lOgogICAgICAgIHNlbGYuY2ZnPWNmZwogICAgICAgIHNlbGYuY3VkYV9kZXZpY2UgPSBjZmcuY3VkYV9kZXZpY2UKICAgICAgICBzZWxmLnRva2VuaXplcj1BdXRvVG9rZW5pemVyLmZyb21fcHJldHJhaW5lZChjZmcubW9kZWxfbmFtZSxjYWNoZV9kaXI9Y2ZnLmNhY2hlX2RpcikKICAgICAgICBzZWxmLm1vZGVsID0gaHUuaW5zdGFudGlhdGUoY2ZnLm1vZGVsKS50byhzZWxmLmN1ZGFfZGV2aWNlKQogICAgICAgIHNlbGYuaW5kZXggPSBmYWlzcy5JbmRleElETWFwKGZhaXNzLkluZGV4RmxhdElQKDc2OCkpCiAgICAgICAgc2VsZi5jbyA9IERhdGFDb2xsYXRvcldpdGhQYWRkaW5nQW5kQ3VkYSh0b2tlbml6ZXI9c2VsZi50b2tlbml6ZXIsZGV2aWNlID0gc2VsZi5jdWRhX2RldmljZSkKICAgICAgICBzZWxmLm5fZG9jcz1jZmcubl9kb2NzCiAgICAgICAgc2VsZi5wcm9tcHRfc2V0dXBfdHlwZT1jZmcucHJvbXB0X3NldHVwX3R5cGUKICAgIAogICAgZGVmIGdldF9wcm9tcHRfbG9hZGVyKHNlbGYpOgogICAgICAgICMgcHJvbXB0X3Bvb2wKICAgICAgICBpZiBzZWxmLmNmZy50cmFpbl9jbHVzdGVycyBpcyBub3QgTm9uZToKICAgICAgICAgICAgcHJvbXB0X3Bvb2xfcGF0aCA9IGdldF9wcm9tcHRfZmlsZXMoc2VsZi5jZmcucHJvbXB0X3Bvb2xfcGF0aCwgc2VsZi5jZmcudHJhaW5fY2x1c3RlcnMpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgcHJvbXB0X3Bvb2xfcGF0aCA9IHNlbGYuY2ZnLnByb21wdF9wb29sX3BhdGgKICAgICAgICBsb2dnZXIuaW5mbygicHJvbXB0IGZpbGVzOiAlcyIsIHByb21wdF9wb29sX3BhdGgpCiAgICAgICAgc2VsZi5wcm9tcHRfcG9vbCA9IHJlYWRfZGF0YV9mcm9tX2pzb25fZmlsZXMocHJvbXB0X3Bvb2xfcGF0aCkKICAgICAgICBsb2dnZXIuaW5mbygicHJvbXB0IHBhc3NhZ2VzIG51bSA6ICVkIiwgbGVuKHNlbGYucHJvbXB0X3Bvb2wpKQogICAgICAgIAogICAgICAgIHNlbGYuY29ycHVzPVt7J2luc3RydWN0aW9uJzpzZWxmLmZvcm1hdF9wcm9tcHQoZW50cnkpfSBmb3IgZW50cnkgaW4gc2VsZi5wcm9tcHRfcG9vbF0KICAgICAgICBwcm9tcHRfcmVhZGVyID0gSW5kZXhlckRhdGFzZXRSZWFkZXIoc2VsZi50b2tlbml6ZXIsIHNlbGYuY29ycHVzKQogICAgICAgIHByb21wdF9sb2FkZXIgPSBEYXRhTG9hZGVyKHByb21wdF9yZWFkZXIsIGJhdGNoX3NpemU9c2VsZi5jZmcuYmF0Y2hfc2l6ZSwgY29sbGF0ZV9mbj1zZWxmLmNvKQogICAgICAgIHJldHVybiBwcm9tcHRfbG9hZGVyCgogICAgZGVmIGNyZWF0ZV9pbmRleChzZWxmKToKICAgICAgICBwcm9tcHRfbG9hZGVyPXNlbGYuZ2V0X3Byb21wdF9sb2FkZXIoKQogICAgICAgIGZvciBlbnRyeSBpbiB0cWRtLnRxZG0ocHJvbXB0X2xvYWRlcik6IAogICAgICAgICAgICB3aXRoIHRvcmNoLm5vX2dyYWQoKToKICAgICAgICAgICAgICAgIG1ldGFkYXRhID0gZW50cnkucG9wKCJtZXRhZGF0YSIpCiAgICAgICAgICAgICAgICByZXMgPSBzZWxmLm1vZGVsKCoqZW50cnkpCiAgICAgICAgICAgIGlkX2xpc3QgPSBucC5hcnJheShbbVsnaWQnXSBmb3IgbSBpbiBtZXRhZGF0YV0pCiAgICAgICAgICAgIHNlbGYuaW5kZXguYWRkX3dpdGhfaWRzKHJlcy5jcHUoKS5kZXRhY2goKS5udW1weSgpLCBpZF9saXN0KQogICAgCiAgICBkZWYgZm9ybWF0X3Byb21wdChzZWxmLGVudHJ5KToKICAgICAgICB0YXNrPXRhc2tfbWFwLmNsc19kaWNbZW50cnlbJ3Rhc2tfbmFtZSddXSgpCiAgICAgICAgaWYgc2VsZi5wcm9tcHRfc2V0dXBfdHlwZT09J3EnOgogICAgICAgICAgICBwcm9tcHQgPSB0YXNrLmdldF9xdWVzdGlvbihlbnRyeSkKICAgICAgICBlbGlmIHNlbGYucHJvbXB0X3NldHVwX3R5cGU9PSdhJzoKICAgICAgICAgICAgcHJvbXB0PSB0YXNrLmdldF9hbnN3ZXIoZW50cnkpCiAgICAgICAgZWxpZiBzZWxmLnByb21wdF9zZXR1cF90eXBlPT0ncWEnOgogICAgICAgICAgICBwcm9tcHQ9dGFzay5nZXRfcXVlc3Rpb24oZW50cnkpKycgJyt0YXNrLmdldF9hbnN3ZXIoZW50cnkpCiAgICAgICAgcmV0dXJuIHByb21wdAogICAgCiAgICBkZWYgZm9yd2FyZChzZWxmKToKICAgICAgICByZXNfbGlzdCA9IFtdCiAgICAgICAgZm9yIGksZW50cnkgaW4gZW51bWVyYXRlKHRxZG0udHFkbShzZWxmLmRhdGFsb2FkZXIpKToKICAgICAgICAgICAgd2l0aCB0b3JjaC5ub19ncmFkKCk6CiAgICAgICAgICAgICAgICByZXMgPSBzZWxmLm1vZGVsKCoqZW50cnkpCiAgICAgICAgICAgIHJlcyA9IHJlcy5jcHUoKS5kZXRhY2goKS5udW1weSgpCiAgICAgICAgICAgIHJlc19saXN0LmV4dGVuZChbeyJyZXMiOnIsIm1ldGFkYXRhIjptfSBmb3IgcixtIGluICB6aXAocmVzLGVudHJ5WydtZXRhZGF0YSddKV0pCgogICAgICAgIHJldHVybiByZXNfbGlzdAoKICAgIGRlZiBzZWFyY2goc2VsZixlbnRyeSk6CiAgICAgICAgcmVzID0gbnAuZXhwYW5kX2RpbXMoZW50cnlbJ3JlcyddLGF4aXM9MCkKICAgICAgICBzY29yZXMsIG5lYXJfaWRzID0gc2VsZi5pbmRleC5zZWFyY2gocmVzLHNlbGYubl9kb2NzKQogICAgICAgIHJldHVybiBuZWFyX2lkc1swXSxzY29yZXNbMF0gIyB0YXNrIGRpbSAwIGFzIHdlIGV4cGFuZGVkIGRpbSBiZWZvcmUKICAgIAogICAgCiAgICBkZWYgX2ZpbmQoc2VsZik6CiAgICAgICAgcmVzX2xpc3QgPSBzZWxmLmZvcndhcmQoKQogICAgICAgIGNudHhfcG9zdCA9IHt9CiAgICAgICAgZm9yIGVudHJ5IGluIHRxZG0udHFkbShyZXNfbGlzdCk6CiAgICAgICAgICAgIGlkPWVudHJ5WydtZXRhZGF0YSddWydpZCddCiAgICAgICAgICAgIGN0eF9pZHMsY3R4X3Njb3JlcyA9IHNlbGYuc2VhcmNoKGVudHJ5KQogICAgICAgICAgICBjbnR4X3Bvc3RbaWRdPShjdHhfaWRzLGN0eF9zY29yZXMpCiAgICAgICAgcmV0dXJuIGNudHhfcG9zdAogICAgICAgICAgICAKZGVmIGZpbmQoY2ZnKToKICAgIGZpbmRlciA9IEtOTkZpbmRlcihjZmcpCiAgICBmaW5kZXIuY3JlYXRlX2luZGV4KCkKICAgIHRhc2tfbmFtZT1jZmcudGFza19uYW1lCiAgICBsb2dnZXIuaW5mbygic2VhcmNoIGZvciAlcyIsIHRhc2tfbmFtZSkKICAgIHRhc2s9dGFza19tYXAuY2xzX2RpY1t0YXNrX25hbWVdKCkgCiAgICBkYXRhc2V0PXRhc2suZ2V0X2RhdGFzZXQoY2FjaGVfZGlyPWNmZy5jYWNoZV9kaXIpIAogICAgZ2V0X3F1ZXN0aW9uID0gdGFzay5nZXRfcXVlc3Rpb24KICAgIHF1ZXJpZXM9W10KICAgIGZvciBpZCwgZW50cnkgaW4gZW51bWVyYXRlKGRhdGFzZXQpOgogICAgICAgIGVudHJ5WydpZCddPWlkCiAgICAgICAgcXVlc3Rpb249Z2V0X3F1ZXN0aW9uKGVudHJ5KSAKICAgICAgICBxdWVyaWVzLmFwcGVuZCh7J2luc3RydWN0aW9uJzpxdWVzdGlvbn0pCiAgICBkYXRhc2V0X3JlYWRlciA9IEluZGV4ZXJEYXRhc2V0UmVhZGVyKGZpbmRlci50b2tlbml6ZXIsIHF1ZXJpZXMpCiAgICBmaW5kZXIuZGF0YWxvYWRlcj1EYXRhTG9hZGVyKGRhdGFzZXRfcmVhZGVyLCBiYXRjaF9zaXplPWNmZy5iYXRjaF9zaXplLCBjb2xsYXRlX2ZuPWZpbmRlci5jbykKICAgIGNudHhfcG9zdD1maW5kZXIuX2ZpbmQoKQogICAgCiAgICBtZXJnZWRfZGF0YT1bXQogICAgZm9yIGlkeCxkYXRhIGluIGVudW1lcmF0ZShkYXRhc2V0KToKICAgICAgICBjdHhfaWRzLGN0eF9zY29yZXM9Y250eF9wb3N0W2lkeF0KICAgICAgICBtZXJnZWRfZGF0YS5hcHBlbmQoIAogICAgICAgIHsKICAgICAgICAgICAgImluc3RydWN0aW9uIjogcXVlcmllc1tpZHhdLAogICAgICAgICAgICAibWV0YV9kYXRhIjogZGF0YSwKICAgICAgICAgICAgImN0eHMiOiBbCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgInByb21wdF9wb29sX2lkIjogc3RyKHByb21wdF9wb29sX2lkKSwgCiAgICAgICAgICAgICAgICAgICAgInBhc3NhZ2UiOiBmaW5kZXIuY29ycHVzW3Byb21wdF9wb29sX2lkXSwKICAgICAgICAgICAgICAgICAgICAic2NvcmUiOiBzdHIoY3R4X3Njb3Jlc1tpXSksCiAgICAgICAgICAgICAgICAgICAgIm1ldGFfZGF0YSI6ZmluZGVyLnByb21wdF9wb29sW3Byb21wdF9wb29sX2lkXSAKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGZvciBpLHByb21wdF9wb29sX2lkIGluIGVudW1lcmF0ZShjdHhfaWRzKQogICAgICAgICAgICBdLAogICAgICAgIH0KICAgICAgICApCiAgICB3aXRoIG9wZW4oY2ZnLm91dF9maWxlLCAidyIpIGFzIHdyaXRlcjoKICAgICAgICB3cml0ZXIud3JpdGUoanNvbi5kdW1wcyhtZXJnZWRfZGF0YSwgaW5kZW50PTQpICsgIlxuIikKICAgIGxvZ2dlci5pbmZvKCJTYXZlZCByZXN1bHRzICogc2NvcmVzICB0byAlcyIsIGNmZy5vdXRfZmlsZSkKCgpAaHlkcmEubWFpbihjb25maWdfcGF0aD0iLi4vY29uZmlncyIsY29uZmlnX25hbWU9InNiZXJ0X3JldHJpZXZlciIpCmRlZiBtYWluKGNmZyk6CiAgICBsb2dnZXIuaW5mbyhjZmcpCiAgICBvcy5tYWtlZGlycyhvcy5wYXRoLmRpcm5hbWUoY2ZnLm91dF9maWxlKSwgZXhpc3Rfb2s9VHJ1ZSkKICAgIGZpbmQoY2ZnKQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBtYWluKCk=
+import os
+import sys
+sys.path.insert(0, os.getcwd())
+
+import hydra.utils as hu 
+import hydra
+from hydra.core.hydra_config import HydraConfig
+import torch
+import tqdm
+from torch.utils.data import DataLoader
+from src.data.collators import DataCollatorWithPaddingAndCuda
+import faiss
+import numpy as np
+import json
+from DPR.dpr.utils.tasks import task_map, test_cluster_map, train_cluster_map,get_prompt_files
+from DPR.dpr.utils.data_utils import read_data_from_json_files
+from src.dataset_readers.indexer_dsr import IndexerDatasetReader
+from transformers import AutoTokenizer
+import os
+import logging
+
+logger = logging.getLogger(__name__)
+
+class KNNFinder:
+    def __init__(self, cfg) -> None:
+        self.cfg=cfg
+        self.cuda_device = cfg.cuda_device
+        self.tokenizer=AutoTokenizer.from_pretrained(cfg.model_name,cache_dir=cfg.cache_dir)
+        self.model = hu.instantiate(cfg.model).to(self.cuda_device)
+        self.index = faiss.IndexIDMap(faiss.IndexFlatIP(768))
+        self.co = DataCollatorWithPaddingAndCuda(tokenizer=self.tokenizer,device = self.cuda_device)
+        self.n_docs=cfg.n_docs
+        self.prompt_setup_type=cfg.prompt_setup_type
+    
+    def get_prompt_loader(self):
+        # prompt_pool
+        if self.cfg.train_clusters is not None:
+            prompt_pool_path = get_prompt_files(self.cfg.prompt_pool_path, self.cfg.train_clusters)
+        else:
+            prompt_pool_path = self.cfg.prompt_pool_path
+        logger.info("prompt files: %s", prompt_pool_path)
+        self.prompt_pool = read_data_from_json_files(prompt_pool_path)
+        logger.info("prompt passages num : %d", len(self.prompt_pool))
+        
+        self.corpus=[{'instruction':self.format_prompt(entry)} for entry in self.prompt_pool]
+        prompt_reader = IndexerDatasetReader(self.tokenizer, self.corpus)
+        prompt_loader = DataLoader(prompt_reader, batch_size=self.cfg.batch_size, collate_fn=self.co)
+        return prompt_loader
+
+    def create_index(self):
+        prompt_loader=self.get_prompt_loader()
+        for entry in tqdm.tqdm(prompt_loader): 
+            with torch.no_grad():
+                metadata = entry.pop("metadata")
+                res = self.model(**entry)
+            id_list = np.array([m['id'] for m in metadata])
+            self.index.add_with_ids(res.cpu().detach().numpy(), id_list)
+    
+    def format_prompt(self,entry):
+        task=task_map.cls_dic[entry['task_name']]()
+        if self.prompt_setup_type=='q':
+            prompt = task.get_question(entry)
+        elif self.prompt_setup_type=='a':
+            prompt= task.get_answer(entry)
+        elif self.prompt_setup_type=='qa':
+            prompt=task.get_question(entry)+' '+task.get_answer(entry)
+        return prompt
+    
+    def forward(self):
+        res_list = []
+        for i,entry in enumerate(tqdm.tqdm(self.dataloader)):
+            with torch.no_grad():
+                res = self.model(**entry)
+            res = res.cpu().detach().numpy()
+            res_list.extend([{"res":r,"metadata":m} for r,m in  zip(res,entry['metadata'])])
+
+        return res_list
+
+    def search(self,entry):
+        res = np.expand_dims(entry['res'],axis=0)
+        scores, near_ids = self.index.search(res,self.n_docs)
+        return near_ids[0],scores[0] # task dim 0 as we expanded dim before
+    
+    
+    def _find(self):
+        res_list = self.forward()
+        cntx_post = {}
+        for entry in tqdm.tqdm(res_list):
+            id=entry['metadata']['id']
+            ctx_ids,ctx_scores = self.search(entry)
+            cntx_post[id]=(ctx_ids,ctx_scores)
+        return cntx_post
+            
+def find(cfg):
+    finder = KNNFinder(cfg)
+    finder.create_index()
+    task_name=cfg.task_name
+    logger.info("search for %s", task_name)
+    task=task_map.cls_dic[task_name]() 
+    dataset=task.get_dataset(cache_dir=cfg.cache_dir) 
+    get_question = task.get_question
+    queries=[]
+    for id, entry in enumerate(dataset):
+        entry['id']=id
+        question=get_question(entry) 
+        queries.append({'instruction':question})
+    dataset_reader = IndexerDatasetReader(finder.tokenizer, queries)
+    finder.dataloader=DataLoader(dataset_reader, batch_size=cfg.batch_size, collate_fn=finder.co)
+    cntx_post=finder._find()
+    
+    merged_data=[]
+    for idx,data in enumerate(dataset):
+        ctx_ids,ctx_scores=cntx_post[idx]
+        merged_data.append( 
+        {
+            "instruction": queries[idx],
+            "meta_data": data,
+            "ctxs": [
+                {
+                    "prompt_pool_id": str(prompt_pool_id), 
+                    "passage": finder.corpus[prompt_pool_id],
+                    "score": str(ctx_scores[i]),
+                    "meta_data":finder.prompt_pool[prompt_pool_id] 
+                }
+                for i,prompt_pool_id in enumerate(ctx_ids)
+            ],
+        }
+        )
+    with open(cfg.out_file, "w") as writer:
+        writer.write(json.dumps(merged_data, indent=4) + "\n")
+    logger.info("Saved results * scores  to %s", cfg.out_file)
+
+
+@hydra.main(config_path="../configs",config_name="sbert_retriever")
+def main(cfg):
+    logger.info(cfg)
+    os.makedirs(os.path.dirname(cfg.out_file), exist_ok=True)
+    find(cfg)
+
+
+if __name__ == "__main__":
+    main()

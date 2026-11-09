@@ -1,1 +1,17 @@
-c2V0IC1lCnRhc2tfbmFtZT0kMQpleHBvcnQgUFRfTU9ERUw9JDIKZXhwb3J0IElGX1BSRUZFUl9MT1NTPTIKZXhwb3J0IFBFRlRfQkVUQT0kMwpleHBvcnQgRElWX1JFSkVDVD0xCgpybSAtcmYgIG15X2RhdGEvZXhwZXJpbWVudC8ke3Rhc2tfbmFtZX0vZGVuc2VfcmV0cmlldmVyX2JlYW1fc2NvcmUubG9nCnJtIC1yZiAgbXlfZGF0YS9leHBlcmltZW50LyR7dGFza19uYW1lfS9nZW5lcmF0ZV9kZW5zZV9lbWJlZGRpbmdzLmxvZwpybSAtcmYgIG15X2RhdGEvZXhwZXJpbWVudC8ke3Rhc2tfbmFtZX0vaW5mZXJlbmNlLmxvZwpybSAtcmYgIG15X2RhdGEvZXhwZXJpbWVudC8ke3Rhc2tfbmFtZX0vdHJhaW5fZGVuc2VfZW5jb2Rlci5sb2cKcm0gLXJmICBteV9kYXRhL2V4cGVyaW1lbnQvJHt0YXNrX25hbWV9L21vZGVsCnJtIC1yZiAgbXlfZGF0YS9leHBlcmltZW50LyR7dGFza19uYW1lfS9wcmVkc19mb3JfJHt0YXNrX25hbWV9CnJtIC1yZiAgbXlfZGF0YS9leHBlcmltZW50LyR7dGFza19uYW1lfS9zZTJfcHJvbXB0c19mb3JfJHt0YXNrX25hbWV9CnNoIG15X2RhdGEvZXhwZXJpbWVudC8ke3Rhc2tfbmFtZX0vdHJhaW4uc2gKc2ggbXlfZGF0YS9leHBlcmltZW50LyR7dGFza19uYW1lfS9pbmZlci5zaAoK
+set -e
+task_name=$1
+export PT_MODEL=$2
+export IF_PREFER_LOSS=2
+export PEFT_BETA=$3
+export DIV_REJECT=1
+
+rm -rf  my_data/experiment/${task_name}/dense_retriever_beam_score.log
+rm -rf  my_data/experiment/${task_name}/generate_dense_embeddings.log
+rm -rf  my_data/experiment/${task_name}/inference.log
+rm -rf  my_data/experiment/${task_name}/train_dense_encoder.log
+rm -rf  my_data/experiment/${task_name}/model
+rm -rf  my_data/experiment/${task_name}/preds_for_${task_name}
+rm -rf  my_data/experiment/${task_name}/se2_prompts_for_${task_name}
+sh my_data/experiment/${task_name}/train.sh
+sh my_data/experiment/${task_name}/infer.sh
+

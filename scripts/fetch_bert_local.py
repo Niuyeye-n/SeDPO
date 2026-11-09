@@ -1,1 +1,96 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwojIC0qLSBjb2Rpbmc6IHV0Zi04IC0qLQoiIiIK5LuOIE1vZGVsU2NvcGUg5LiL6L29IGdvb2dsZS1iZXJ0L2JlcnQtYmFzZS11bmNhc2VkIOWIsOS4gOS4qioq5pmu6YCa5pys5Zyw55uu5b2VKirjgIIKCuS4uuS7gOS5iOS4jeeUqCBIRiDnvJPlrZjluIPlsYDvvJp0cmFuc2Zvcm1lcnMgNC41NiDnmoTnvJPlrZjop6PmnpDkvp3otZYgcmVmcy88cmV2PiDihpIgc25hcHNob3RzLzxjb21taXQ+CueahOeyvuehruWvueW6lO+8jOW+iOWuueaYk+i4qeWdke+8m+ebtOaOpee7mSBEUFIg6YWN572u5LiA5Liq5pys5Zyw6Lev5b6E5pyA56iz77yI56a757q/5Lmf6IO95Yqg6L2977yJ44CCCgrnlKjms5U6CiAgcHl0aG9uIGZldGNoX2JlcnRfbG9jYWwucHkgLS1vdXQgL3Jvb3QvYXV0b2RsLXRtcC9tb2RlbHMvYmVydC1iYXNlLXVuY2FzZWQKIiIiCmltcG9ydCBhcmdwYXJzZQppbXBvcnQganNvbgppbXBvcnQgb3MKaW1wb3J0IHN1YnByb2Nlc3MKaW1wb3J0IHN5cwppbXBvcnQgdXJsbGliLnJlcXVlc3QKCk1TID0gImh0dHBzOi8vd3d3Lm1vZGVsc2NvcGUuY24vYXBpL3YxL21vZGVscy97cmVwb30vcmVwbz9SZXZpc2lvbj1tYXN0ZXImRmlsZVBhdGg9e2Z9IgoKIyDlv4XpnIAgKyDlj6/pgInmlofku7bvvIhzYWZldGVuc29ycyDkuI4gcHl0b3JjaF9tb2RlbC5iaW4g5Y+q6ZyA5YW25LiA77yM5L2G6YO95LiL5pu05L+d6Zmp77yJCkZJTEVTID0gWwogICAgImNvbmZpZy5qc29uIiwKICAgICJ2b2NhYi50eHQiLAogICAgInRva2VuaXplci5qc29uIiwKICAgICJ0b2tlbml6ZXJfY29uZmlnLmpzb24iLAogICAgInNwZWNpYWxfdG9rZW5zX21hcC5qc29uIiwKICAgICJtb2RlbC5zYWZldGVuc29ycyIsCiAgICAicHl0b3JjaF9tb2RlbC5iaW4iLApdCgoKZGVmIGxvZyhtKToKICAgIHByaW50KGYiW2JlcnRdIHttfSIsIGZsdXNoPVRydWUpCgoKZGVmIGZldGNoKHJlcG8sIGZuYW1lLCBkZXN0KToKICAgIHVybCA9IE1TLmZvcm1hdChyZXBvPXJlcG8sIGY9Zm5hbWUpCiAgICBmb3IgYXR0ZW1wdCBpbiByYW5nZSgxLCA4KToKICAgICAgICByID0gc3VicHJvY2Vzcy5ydW4oCiAgICAgICAgICAgIFsiY3VybCIsICItc1NMIiwgIi0tcmV0cnkiLCAiNCIsICItLXJldHJ5LWRlbGF5IiwgIjMiLCAiLS1yZXRyeS1hbGwtZXJyb3JzIiwKICAgICAgICAgICAgICItLW1heC10aW1lIiwgIjkwMCIsICItbyIsIGRlc3QsIHVybF0sIGNhcHR1cmVfb3V0cHV0PVRydWUpCiAgICAgICAgaWYgci5yZXR1cm5jb2RlID09IDAgYW5kIG9zLnBhdGguZXhpc3RzKGRlc3QpIGFuZCBvcy5wYXRoLmdldHNpemUoZGVzdCkgPiAwOgogICAgICAgICAgICByZXR1cm4gVHJ1ZQogICAgICAgIGxvZyhmIiAge2ZuYW1lfSDnrKx7YXR0ZW1wdH3mrKHlpLHotKXvvIzph43or5UiKQogICAgcmV0dXJuIEZhbHNlCgoKZGVmIG1haW4oKToKICAgIGFwID0gYXJncGFyc2UuQXJndW1lbnRQYXJzZXIoKQogICAgYXAuYWRkX2FyZ3VtZW50KCItLW91dCIsIHJlcXVpcmVkPVRydWUpCiAgICBhcC5hZGRfYXJndW1lbnQoIi0tcmVwbyIsIGRlZmF1bHQ9Imdvb2dsZS1iZXJ0L2JlcnQtYmFzZS11bmNhc2VkIikKICAgIGFyZ3MgPSBhcC5wYXJzZV9hcmdzKCkKCiAgICBvdXQgPSBvcy5wYXRoLmFic3BhdGgoYXJncy5vdXQpCiAgICBvcy5tYWtlZGlycyhvdXQsIGV4aXN0X29rPVRydWUpCgogICAgb2sgPSAwCiAgICBmb3IgZm5hbWUgaW4gRklMRVM6CiAgICAgICAgZGVzdCA9IG9zLnBhdGguam9pbihvdXQsIGZuYW1lKQogICAgICAgIGlmIG9zLnBhdGguZXhpc3RzKGRlc3QpIGFuZCBvcy5wYXRoLmdldHNpemUoZGVzdCkgPiAwOgogICAgICAgICAgICBsb2coZiJbU0tJUF0ge2ZuYW1lfSIpCiAgICAgICAgICAgIG9rICs9IDEKICAgICAgICAgICAgY29udGludWUKICAgICAgICBsb2coZiJbRExdIHtmbmFtZX0iKQogICAgICAgIGlmIGZldGNoKGFyZ3MucmVwbywgZm5hbWUsIGRlc3QpOgogICAgICAgICAgICBsb2coZiJbT0tdIHtmbmFtZX0gKHtvcy5wYXRoLmdldHNpemUoZGVzdCl9IOWtl+iKgikiKQogICAgICAgICAgICBvayArPSAxCiAgICAgICAgZWxzZToKICAgICAgICAgICAgbG9nKGYiW0ZBSUxdIHtmbmFtZX0iKQogICAgICAgICAgICBpZiBvcy5wYXRoLmV4aXN0cyhkZXN0KToKICAgICAgICAgICAgICAgIG9zLnJlbW92ZShkZXN0KQoKICAgICMg5qCh6aqM77yaY29uZmlnIOWPr+ino+aekCArIOiHs+WwkeacieS4gOS4quadg+mHjeaWh+S7tgogICAgY2ZncCA9IG9zLnBhdGguam9pbihvdXQsICJjb25maWcuanNvbiIpCiAgICBpZiBub3Qgb3MucGF0aC5leGlzdHMoY2ZncCk6CiAgICAgICAgbG9nKCJjb25maWcuanNvbiDnvLrlpLHvvIzlpLHotKUiKQogICAgICAgIHJldHVybiAxCiAgICBjZmcgPSBqc29uLmxvYWQob3BlbihjZmdwKSkKICAgIHdlaWdodHMgPSBbZiBmb3IgZiBpbiAoIm1vZGVsLnNhZmV0ZW5zb3JzIiwgInB5dG9yY2hfbW9kZWwuYmluIikKICAgICAgICAgICAgICAgaWYgb3MucGF0aC5leGlzdHMob3MucGF0aC5qb2luKG91dCwgZikpXQogICAgaWYgbm90IHdlaWdodHM6CiAgICAgICAgbG9nKCLmsqHmnInku7vkvZXmnYPph43mlofku7bvvIzlpLHotKUiKQogICAgICAgIHJldHVybiAxCgogICAgbG9nKCItLS0g55uu5b2V5YaF5a65IC0tLSIpCiAgICBmb3IgZm4gaW4gc29ydGVkKG9zLmxpc3RkaXIob3V0KSk6CiAgICAgICAgbG9nKGYiICB7Zm59ICAoe29zLnBhdGguZ2V0c2l6ZShvcy5wYXRoLmpvaW4ob3V0LCBmbikpfSDlrZfoioIpIikKICAgIGxvZyhmImFyY2g9e2NmZy5nZXQoJ2FyY2hpdGVjdHVyZXMnKX0gaGlkZGVuPXtjZmcuZ2V0KCdoaWRkZW5fc2l6ZScpfSAiCiAgICAgICAgZiJsYXllcnM9e2NmZy5nZXQoJ251bV9oaWRkZW5fbGF5ZXJzJyl9IOadg+mHjT17d2VpZ2h0c30iKQogICAgbG9nKGYi5a6M5oiQ77yIe29rfS97bGVuKEZJTEVTKX0g5Liq5paH5Lu277yJIikKICAgIHJldHVybiAwCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIHN5cy5leGl0KG1haW4oKSkK
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+从 ModelScope 下载 google-bert/bert-base-uncased 到一个**普通本地目录**。
+
+为什么不用 HF 缓存布局：transformers 4.56 的缓存解析依赖 refs/<rev> → snapshots/<commit>
+的精确对应，很容易踩坑；直接给 DPR 配置一个本地路径最稳（离线也能加载）。
+
+用法:
+  python fetch_bert_local.py --out /root/autodl-tmp/models/bert-base-uncased
+"""
+import argparse
+import json
+import os
+import subprocess
+import sys
+import urllib.request
+
+MS = "https://www.modelscope.cn/api/v1/models/{repo}/repo?Revision=master&FilePath={f}"
+
+# 必需 + 可选文件（safetensors 与 pytorch_model.bin 只需其一，但都下更保险）
+FILES = [
+    "config.json",
+    "vocab.txt",
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "special_tokens_map.json",
+    "model.safetensors",
+    "pytorch_model.bin",
+]
+
+
+def log(m):
+    print(f"[bert] {m}", flush=True)
+
+
+def fetch(repo, fname, dest):
+    url = MS.format(repo=repo, f=fname)
+    for attempt in range(1, 8):
+        r = subprocess.run(
+            ["curl", "-sSL", "--retry", "4", "--retry-delay", "3", "--retry-all-errors",
+             "--max-time", "900", "-o", dest, url], capture_output=True)
+        if r.returncode == 0 and os.path.exists(dest) and os.path.getsize(dest) > 0:
+            return True
+        log(f"  {fname} 第{attempt}次失败，重试")
+    return False
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--out", required=True)
+    ap.add_argument("--repo", default="google-bert/bert-base-uncased")
+    args = ap.parse_args()
+
+    out = os.path.abspath(args.out)
+    os.makedirs(out, exist_ok=True)
+
+    ok = 0
+    for fname in FILES:
+        dest = os.path.join(out, fname)
+        if os.path.exists(dest) and os.path.getsize(dest) > 0:
+            log(f"[SKIP] {fname}")
+            ok += 1
+            continue
+        log(f"[DL] {fname}")
+        if fetch(args.repo, fname, dest):
+            log(f"[OK] {fname} ({os.path.getsize(dest)} 字节)")
+            ok += 1
+        else:
+            log(f"[FAIL] {fname}")
+            if os.path.exists(dest):
+                os.remove(dest)
+
+    # 校验：config 可解析 + 至少有一个权重文件
+    cfgp = os.path.join(out, "config.json")
+    if not os.path.exists(cfgp):
+        log("config.json 缺失，失败")
+        return 1
+    cfg = json.load(open(cfgp))
+    weights = [f for f in ("model.safetensors", "pytorch_model.bin")
+               if os.path.exists(os.path.join(out, f))]
+    if not weights:
+        log("没有任何权重文件，失败")
+        return 1
+
+    log("--- 目录内容 ---")
+    for fn in sorted(os.listdir(out)):
+        log(f"  {fn}  ({os.path.getsize(os.path.join(out, fn))} 字节)")
+    log(f"arch={cfg.get('architectures')} hidden={cfg.get('hidden_size')} "
+        f"layers={cfg.get('num_hidden_layers')} 权重={weights}")
+    log(f"完成（{ok}/{len(FILES)} 个文件）")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

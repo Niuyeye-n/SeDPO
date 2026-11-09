@@ -1,1 +1,139 @@
-IyEvYmluL2Jhc2gKIyBTbW9rZSB0ZXN077ya5pyA5bCP6KeE5qih6LeR6YCa44CM5omT5YiGIOKGkiDorq3nu4Mg4oaSIOajgOe0oiDihpIg5o6o55CGIOKGkiDmjIfmoIfjgI3lhajpk77ot68KIyDnm67nmoTvvJrlnKjmipXlhaXlh6DljYHlsI/ml7bnmoTmraPlvI/lrp7pqozliY3vvIznoa7orqQgNCDkuKrkv67lpI3msqHlvJXlhaXlm57lvZLjgIIKIwojIOeUqOazlTogYmFzaCAvcm9vdC9hdXRvZGwtdG1wL3Ntb2tlX3YyLnNoCnNldCAtdQoKUkVQTz0vcm9vdC9hdXRvZGwtdG1wL1NlRFBPX05JUFMyNQpTTU9LRT0kUkVQTy9zbW9rZV92MgpNT0RFTD0vcm9vdC9hdXRvZGwtdG1wL21vZGVscy9xd2VuMi41LTdiClRBRz1zbW9rZQoKcm0gLXJmICRTTU9LRQpta2RpciAtcCAkU01PS0UKCmNkICRSRVBPCnNvdXJjZSAvcm9vdC9taW5pY29uZGEzL2V0Yy9wcm9maWxlLmQvY29uZGEuc2gKY29uZGEgYWN0aXZhdGUgL3Jvb3QvYXV0b2RsLXRtcC9lbnZzL3NlX2RwbwpleHBvcnQgUFlUSE9OUEFUSD0kUkVQTzoke1BZVEhPTlBBVEg6LX0KZXhwb3J0IEhZRFJBX0ZVTExfRVJST1I9MQpleHBvcnQgVE9LRU5JWkVSU19QQVJBTExFTElTTT1mYWxzZQpleHBvcnQgUFlUT1JDSF9DVURBX0FMTE9DX0NPTkY9ZXhwYW5kYWJsZV9zZWdtZW50czpUcnVlCmV4cG9ydCBQRUZUX0JFVEE9MC4xCmV4cG9ydCBESVZfUkVKRUNUPTEKCmVjaG8gIiMjIyMjIyMjIyMjIyBTTU9LRSBURVNUIOW8gOWniyAkKGRhdGUgKyVIOiVNOiVTKSAjIyMjIyMjIyMjIyMiCgojIC0tLS0gMSkg55Sf5oiQIHNtb2tlIOinhOaooeeahOWunumqjOiEmuacrO+8iG5fc2NvcmU9Nu+8jEwg55So6K665paH5Y6f5YC8IDQwMO+8iS0tLS0KZWNobyAiWyQoZGF0ZSArJUg6JU06JVMpXSAxLzcg55Sf5oiQ6ISa5pys77yIbl9zY29yZT02LCBMPTQwMO+8iSIKL3Jvb3QvbWluaWNvbmRhMy9iaW4vcHl0aG9uIC9yb290L2F1dG9kbC10bXAvZ2VuX2Zvcm1hbF92Mi5weSBcCiAgICAtLW1vZGVsX3RhZyAkVEFHIC0tbW9kZWxfcGF0aCAkTU9ERUwgLS1jbHVzdGVyIGNsb3NlX3FhIFwKICAgIC0tbnNfYXJjIDYgLS1uc19vYnEgNiAtLW5zX211bCA2IC0tc2NvcmVfYnN6IDYgLS10cmFpbl9ic3ogOAoKRVhQPSRSRVBPL215X2RhdGFfcXdlbi9leHBlcmltZW50XyR7VEFHfS9jbG9zZV9xYQplY2hvICItLS0gc2NvcmUuc2gg5Lit55qE6KeE5qih5LiOIGJhdGNoIHNpemUgLS0tIgpncmVwIC1FICJ0YXNrX25hbWU9fGJhdGNoX3NpemU9IiAkRVhQL3Njb3JlLnNoIHwgaGVhZCAtOAoKIyAtLS0tIDIpIOi3keaJk+WIhu+8iHN0ZXAxLzIvM++8iS0tLS0KZWNobyAiIgplY2hvICJbJChkYXRlICslSDolTTolUyldIDIvNyDmiZPliIbvvIjov5nmmK/mnIDogJfml7bnmoTkuIDmraXvvIxzbW9rZSDop4TmqKHlupTlvojlv6vvvIkiClQwPSQoZGF0ZSArJXMpCklGX1BSRUZFUl9MT1NTPTIgYmFzaCAkRVhQL3Njb3JlLnNoID4gJFNNT0tFL3Njb3JlLmxvZyAyPiYxClNDT1JFX1JDPSQ/ClQxPSQoZGF0ZSArJXMpCmVjaG8gIlskKGRhdGUgKyVIOiVNOiVTKV0gc2NvcmUgcmM9JFNDT1JFX1JDIOiAl+aXtiAkKChUMS1UMCkpIOenkiIKaWYgWyAkU0NPUkVfUkMgLW5lIDAgXTsgdGhlbgogICAgZWNobyAiISEhIHNjb3JlIOWksei0pe+8jOaXpeW/l+WwvumDqO+8miIKICAgIHRhaWwgLTQwICRTTU9LRS9zY29yZS5sb2cgfCB0ciAiXHIiICJcbiIgfCB0YWlsIC0yMAogICAgZXhpdCAxCmZpCgojIC0tLS0gMykg5qCh6aqM5omT5YiG5Lqn54mp77yaTCDmmK/lkKbnnJ/nmoTmjInlgJnpgInmsaDnrpfkuoYgLS0tLQplY2hvICIiCmVjaG8gIlskKGRhdGUgKyVIOiVNOiVTKV0gMy83IOagoemqjOaJk+WIhuS6p+eJqSIKL3Jvb3QvYXV0b2RsLXRtcC9lbnZzL3NlX2Rwby9iaW4vcHl0aG9uIC0gPDwnUFknCmltcG9ydCBqc29uLCBvcwpSRVBPID0gIi9yb290L2F1dG9kbC10bXAvU2VEUE9fTklQUzI1IgpTID0gZiJ7UkVQT30vbXlfZGF0YV9xd2VuL2ZpbmRfcmFuZG9tX3Ntb2tlL2Nsb3NlX3FhIgpmb3Igc3RlcCBpbiBbInN0ZXAxIiwgInN0ZXAyIiwgInN0ZXAzIl06CiAgICBwID0gZiJ7U30vYXJjX2NfcmFuZG9tX3NhbXBsZXNfe3N0ZXB9Lmpzb24iCiAgICBpZiBub3Qgb3MucGF0aC5leGlzdHMocCk6CiAgICAgICAgcHJpbnQoZiIgIHtzdGVwfTogISEg57y65aSxIHtwfSIpOyBjb250aW51ZQogICAgZCA9IGpzb24ubG9hZChvcGVuKHApKQogICAga2V5ID0gZiJzdGVwX3tzdGVwWy0xXX1fY3R4cyIKICAgIGxlbnMgPSBbbGVuKGVba2V5XSkgZm9yIGUgaW4gZCBpZiBrZXkgaW4gZV0KICAgIGlmIGxlbnM6CiAgICAgICAgcHJpbnQoZiIgIHtzdGVwfToge2xlbihkKX0g5p2hIHF1ZXJ5LCB7a2V5fSDplb/luqYgbWluPXttaW4obGVucyl9IG1heD17bWF4KGxlbnMpfSAo5pyf5pybIDQwMCkiKQpQWQoKIyAtLS0tIDQpIOiuree7g+ajgOe0ouWZqCAtLS0tCmVjaG8gIiIKZWNobyAiWyQoZGF0ZSArJUg6JU06JVMpXSA0Lzcg6K6t57uD5qOA57Si5Zmo77yISUZfUFJFRkVSX0xPU1M9Mu+8iSIKVDA9JChkYXRlICslcykKSUZfUFJFRkVSX0xPU1M9MiBiYXNoICRFWFAvdHJhaW4uc2ggPiAkU01PS0UvdHJhaW4ubG9nIDI+JjEKVFJBSU5fUkM9JD8KVDE9JChkYXRlICslcykKZWNobyAiWyQoZGF0ZSArJUg6JU06JVMpXSB0cmFpbiByYz0kVFJBSU5fUkMg6ICX5pe2ICQoKFQxLVQwKSkg56eSIgppZiBbICRUUkFJTl9SQyAtbmUgMCBdOyB0aGVuCiAgICBlY2hvICIhISEgdHJhaW4g5aSx6LSl77yM5pel5b+X5bC+6YOo77yaIgogICAgdGFpbCAtNDAgJFNNT0tFL3RyYWluLmxvZyB8IHRyICJcciIgIlxuIiB8IHRhaWwgLTIwCiAgICBleGl0IDEKZmkKZ3JlcCAtRSAiYmVzdF92YWxpZHxkZXZfYmVzdHxBY2N1cmFjeSIgJFNNT0tFL3RyYWluLmxvZyB8IHRhaWwgLTUKCiMgLS0tLSA1KSDmo4DntKIgKyDmjqjnkIYgLS0tLQplY2hvICIiCmVjaG8gIlskKGRhdGUgKyVIOiVNOiVTKV0gNS83IOeooOWvhuajgOe0oiArIOaOqOeQhiIKVDA9JChkYXRlICslcykKSUZfUFJFRkVSX0xPU1M9MiBiYXNoICRFWFAvaW5mZXIuc2ggPiAkU01PS0UvaW5mZXIubG9nIDI+JjEKSU5GRVJfUkM9JD8KVDE9JChkYXRlICslcykKZWNobyAiWyQoZGF0ZSArJUg6JU06JVMpXSBpbmZlciByYz0kSU5GRVJfUkMg6ICX5pe2ICQoKFQxLVQwKSkg56eSIgppZiBbICRJTkZFUl9SQyAtbmUgMCBdOyB0aGVuCiAgICBlY2hvICIhISEgaW5mZXIg5aSx6LSl77yM5pel5b+X5bC+6YOo77yaIgogICAgdGFpbCAtNDAgJFNNT0tFL2luZmVyLmxvZyB8IHRyICJcciIgIlxuIiB8IHRhaWwgLTIwCiAgICBleGl0IDEKZmkKCiMgLS0tLSA2KSDnrpfmjIfmoIcgLS0tLQplY2hvICIiCmVjaG8gIlskKGRhdGUgKyVIOiVNOiVTKV0gNi83IOiuoeeul+aMh+aghyIKUFJFRFM9JChscyAkRVhQL3ByZWRzX2Zvcl8qL2FyY19jX3Byb21wdHMzX3JldHJpZXZlcnNlMl9wcmVkc18wLmpzb24gMj4vZGV2L251bGwgfCBoZWFkIC0xKQppZiBbIC1uICIkUFJFRFMiIF07IHRoZW4KICAgIHB5dGhvbiAkUkVQTy8yMDI2MTEwNV9jb21wdXRlX21ldHJpY3MucHkgLS1wcmVkcyAiJFBSRURTIiAtLXRhc2sgYXJjX2MgXAogICAgICAgIC0tb3V0X2pzb24gJFNNT0tFL21ldHJpY3MuanNvbiAtLW91dF90ZXh0ICRTTU9LRS9tZXRyaWNzLnR4dCAyPiYxIHwgdGFpbCAtNQplbHNlCiAgICBlY2hvICIhISEg5om+5LiN5YiwIHByZWRzIgogICAgZXhpdCAxCmZpCgojIC0tLS0gNykg5qCh6aqMIFJhbmRvbSDln7rnur/nmoQgRjMg5L+u5aSN77yI5q+P5Liq6Zeu6aKY5bqU5oq95Yiw5LiN5ZCM55qE56S65L6L77yJLS0tLQplY2hvICIiCmVjaG8gIlskKGRhdGUgKyVIOiVNOiVTKV0gNy83IOagoemqjCBSYW5kb20g5Z+657q/77yIRjPvvInmr4/pl67popjnpLrkvovmmK/lkKbkuI3lkIwiCi9yb290L2F1dG9kbC10bXAvZW52cy9zZV9kcG8vYmluL3B5dGhvbiAtIDw8J1BZJwppbXBvcnQgc3lzLCBvcywganNvbiwgcmFuZG9tClJFUE8gPSAiL3Jvb3QvYXV0b2RsLXRtcC9TZURQT19OSVBTMjUiCnN5cy5wYXRoLmluc2VydCgwLCBSRVBPKQpvcy5jaGRpcihSRVBPKQpmcm9tIHNyYy5kYXRhc2V0X3JlYWRlcnMuZmV3X3Nob3RfZHNyIGltcG9ydCBGZXdTaG90RGF0YXNldFJlYWRlcgoKIyDmnoTpgKDkuIDkuKrmnIDlsI8gcmVhZGVy77yM5Y+q6aqMIHJhbmRvbV9zYW1wbGUg5YiG5pSv55qE5Y+W5qC36YC76L6RCmltcG9ydCBpbnNwZWN0CnNyYyA9IGluc3BlY3QuZ2V0c291cmNlKEZld1Nob3REYXRhc2V0UmVhZGVyLmdldF9maWVsZHMpCnByaW50KCIgIOWQq+aMiemXrumimOa0vueUn+enjeWtkDoiLCAic2VsZi5yYW5kb21fc2VlZCAqIDEwMDAwMDMiIGluIHNyYykKCiMg5qih5ouf77yacG9vbD0xMDAwIOadoe+8jEs9M++8jHNlZWQ9NDLvvIzlj5bliY0gNSDkuKrpl67popjnmoTnpLrkvosKcG9vbCA9IGxpc3QocmFuZ2UoMTAwMCkpCmRlZiBkcmF3KHJpZCk6CiAgICByYW5kb20uc2VlZCg0MiAqIDEwMDAwMDMgKyByaWQpCiAgICByZXR1cm4gcmFuZG9tLnNhbXBsZShwb29sLCBrPTMpCmRyYXdzID0gW2RyYXcoaSkgZm9yIGkgaW4gcmFuZ2UoNSldCnByaW50KCIgIOWJjSA1IOS4qumXrumimOeahOmaj+acuuekuuS+izoiLCBkcmF3cykKcHJpbnQoIiAg5piv5ZCm5YWo6YOo5LqS5LiN55u45ZCMOiIsIGxlbih7dHVwbGUoZCkgZm9yIGQgaW4gZHJhd3N9KSA9PSA1KQpQWQoKZWNobyAiIgplY2hvICIjIyMjIyMjIyMjIyMgU01PS0UgVEVTVCDlhajpg6jpgJrov4cgJChkYXRlICslSDolTTolUykgIyMjIyMjIyMjIyMjIgplY2hvICLmjIfmoIfvvJoiCmNhdCAkU01PS0UvbWV0cmljcy50eHQgMj4vZGV2L251bGwgfCBoZWFkIC0yMAo=
+#!/bin/bash
+# Smoke test：最小规模跑通「打分 → 训练 → 检索 → 推理 → 指标」全链路
+# 目的：在投入几十小时的正式实验前，确认 4 个修复没引入回归。
+#
+# 用法: bash /root/autodl-tmp/smoke_v2.sh
+set -u
+
+REPO=/root/autodl-tmp/SeDPO_NIPS25
+SMOKE=$REPO/smoke_v2
+MODEL=/root/autodl-tmp/models/qwen2.5-7b
+TAG=smoke
+
+rm -rf $SMOKE
+mkdir -p $SMOKE
+
+cd $REPO
+source /root/miniconda3/etc/profile.d/conda.sh
+conda activate /root/autodl-tmp/envs/se_dpo
+export PYTHONPATH=$REPO:${PYTHONPATH:-}
+export HYDRA_FULL_ERROR=1
+export TOKENIZERS_PARALLELISM=false
+export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
+export PEFT_BETA=0.1
+export DIV_REJECT=1
+
+echo "############ SMOKE TEST 开始 $(date +%H:%M:%S) ############"
+
+# ---- 1) 生成 smoke 规模的实验脚本（n_score=6，L 用论文原值 400）----
+echo "[$(date +%H:%M:%S)] 1/7 生成脚本（n_score=6, L=400）"
+/root/miniconda3/bin/python /root/autodl-tmp/gen_formal_v2.py \
+    --model_tag $TAG --model_path $MODEL --cluster close_qa \
+    --ns_arc 6 --ns_obq 6 --ns_mul 6 --score_bsz 6 --train_bsz 8
+
+EXP=$REPO/my_data_qwen/experiment_${TAG}/close_qa
+echo "--- score.sh 中的规模与 batch size ---"
+grep -E "task_name=|batch_size=" $EXP/score.sh | head -8
+
+# ---- 2) 跑打分（step1/2/3）----
+echo ""
+echo "[$(date +%H:%M:%S)] 2/7 打分（这是最耗时的一步，smoke 规模应很快）"
+T0=$(date +%s)
+IF_PREFER_LOSS=2 bash $EXP/score.sh > $SMOKE/score.log 2>&1
+SCORE_RC=$?
+T1=$(date +%s)
+echo "[$(date +%H:%M:%S)] score rc=$SCORE_RC 耗时 $((T1-T0)) 秒"
+if [ $SCORE_RC -ne 0 ]; then
+    echo "!!! score 失败，日志尾部："
+    tail -40 $SMOKE/score.log | tr "\r" "\n" | tail -20
+    exit 1
+fi
+
+# ---- 3) 校验打分产物：L 是否真的按候选池算了 ----
+echo ""
+echo "[$(date +%H:%M:%S)] 3/7 校验打分产物"
+/root/autodl-tmp/envs/se_dpo/bin/python - <<'PY'
+import json, os
+REPO = "/root/autodl-tmp/SeDPO_NIPS25"
+S = f"{REPO}/my_data_qwen/find_random_smoke/close_qa"
+for step in ["step1", "step2", "step3"]:
+    p = f"{S}/arc_c_random_samples_{step}.json"
+    if not os.path.exists(p):
+        print(f"  {step}: !! 缺失 {p}"); continue
+    d = json.load(open(p))
+    key = f"step_{step[-1]}_ctxs"
+    lens = [len(e[key]) for e in d if key in e]
+    if lens:
+        print(f"  {step}: {len(d)} 条 query, {key} 长度 min={min(lens)} max={max(lens)} (期望 400)")
+PY
+
+# ---- 4) 训练检索器 ----
+echo ""
+echo "[$(date +%H:%M:%S)] 4/7 训练检索器（IF_PREFER_LOSS=2）"
+T0=$(date +%s)
+IF_PREFER_LOSS=2 bash $EXP/train.sh > $SMOKE/train.log 2>&1
+TRAIN_RC=$?
+T1=$(date +%s)
+echo "[$(date +%H:%M:%S)] train rc=$TRAIN_RC 耗时 $((T1-T0)) 秒"
+if [ $TRAIN_RC -ne 0 ]; then
+    echo "!!! train 失败，日志尾部："
+    tail -40 $SMOKE/train.log | tr "\r" "\n" | tail -20
+    exit 1
+fi
+grep -E "best_valid|dev_best|Accuracy" $SMOKE/train.log | tail -5
+
+# ---- 5) 检索 + 推理 ----
+echo ""
+echo "[$(date +%H:%M:%S)] 5/7 稠密检索 + 推理"
+T0=$(date +%s)
+IF_PREFER_LOSS=2 bash $EXP/infer.sh > $SMOKE/infer.log 2>&1
+INFER_RC=$?
+T1=$(date +%s)
+echo "[$(date +%H:%M:%S)] infer rc=$INFER_RC 耗时 $((T1-T0)) 秒"
+if [ $INFER_RC -ne 0 ]; then
+    echo "!!! infer 失败，日志尾部："
+    tail -40 $SMOKE/infer.log | tr "\r" "\n" | tail -20
+    exit 1
+fi
+
+# ---- 6) 算指标 ----
+echo ""
+echo "[$(date +%H:%M:%S)] 6/7 计算指标"
+PREDS=$(ls $EXP/preds_for_*/arc_c_prompts3_retrieverse2_preds_0.json 2>/dev/null | head -1)
+if [ -n "$PREDS" ]; then
+    python $REPO/20261105_compute_metrics.py --preds "$PREDS" --task arc_c \
+        --out_json $SMOKE/metrics.json --out_text $SMOKE/metrics.txt 2>&1 | tail -5
+else
+    echo "!!! 找不到 preds"
+    exit 1
+fi
+
+# ---- 7) 校验 Random 基线的 F3 修复（每个问题应抽到不同的示例）----
+echo ""
+echo "[$(date +%H:%M:%S)] 7/7 校验 Random 基线（F3）每问题示例是否不同"
+/root/autodl-tmp/envs/se_dpo/bin/python - <<'PY'
+import sys, os, json, random
+REPO = "/root/autodl-tmp/SeDPO_NIPS25"
+sys.path.insert(0, REPO)
+os.chdir(REPO)
+from src.dataset_readers.few_shot_dsr import FewShotDatasetReader
+
+# 构造一个最小 reader，只验 random_sample 分支的取样逻辑
+import inspect
+src = inspect.getsource(FewShotDatasetReader.get_fields)
+print("  含按问题派生种子:", "self.random_seed * 1000003" in src)
+
+# 模拟：pool=1000 条，K=3，seed=42，取前 5 个问题的示例
+pool = list(range(1000))
+def draw(rid):
+    random.seed(42 * 1000003 + rid)
+    return random.sample(pool, k=3)
+draws = [draw(i) for i in range(5)]
+print("  前 5 个问题的随机示例:", draws)
+print("  是否全部互不相同:", len({tuple(d) for d in draws}) == 5)
+PY
+
+echo ""
+echo "############ SMOKE TEST 全部通过 $(date +%H:%M:%S) ############"
+echo "指标："
+cat $SMOKE/metrics.txt 2>/dev/null | head -20

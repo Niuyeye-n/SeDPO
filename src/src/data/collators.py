@@ -1,1 +1,45 @@
-aW1wb3J0IHJhbmRvbQppbXBvcnQgd2FybmluZ3MKZnJvbSBkYXRhY2xhc3NlcyBpbXBvcnQgZGF0YWNsYXNzCmZyb20gdHlwaW5nIGltcG9ydCBBbnksIENhbGxhYmxlLCBEaWN0LCBMaXN0LCBOZXdUeXBlLCBPcHRpb25hbCwgVHVwbGUsIFVuaW9uCmltcG9ydCB0b3JjaApmcm9tIHRyYW5zZm9ybWVycy5maWxlX3V0aWxzIGltcG9ydCBQYWRkaW5nU3RyYXRlZ3kKZnJvbSB0cmFuc2Zvcm1lcnMgaW1wb3J0IFByZVRyYWluZWRNb2RlbApmcm9tIHRyYW5zZm9ybWVycyBpbXBvcnQgQmVydFRva2VuaXplciwgQmVydFRva2VuaXplckZhc3QKZnJvbSB0cmFuc2Zvcm1lcnMgaW1wb3J0IEJhdGNoRW5jb2RpbmcsIFByZVRyYWluZWRUb2tlbml6ZXJCYXNlCiMgZnJvbSBzcmMuZGF0YXNldF9yZWFkZXJzLnFkbXJfaW5kZXhlciBpbXBvcnQgUURNUkluZGV4ZXJEYXRhc2V0UmVhZGVyCmZyb20gdHJhbnNmb3JtZXJzLmRhdGEuZGF0YV9jb2xsYXRvciBpbXBvcnQgRGF0YUNvbGxhdG9yV2l0aFBhZGRpbmcKZnJvbSBzcmMudXRpbHMuZGF0YXNldF91dGlscyBpbXBvcnQgcGFkMnNhbWVMZW4KCgpjbGFzcyBMaXN0V3JhcHBlcjoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBkYXRhOiBMaXN0W0FueV0pOgogICAgICAgIHNlbGYuZGF0YSA9IGRhdGEKICAgIAogICAgZGVmIHRvKHNlbGYsIGRldmljZSk6CiAgICAgICAgcmV0dXJuIHNlbGYuZGF0YQogICAgCiAgICBkZWYgX19sZW5fXyhzZWxmKToKICAgICAgICByZXR1cm4gbGVuKHNlbGYuZGF0YSkKCgpAZGF0YWNsYXNzCmNsYXNzIERhdGFDb2xsYXRvcldpdGhQYWRkaW5nQW5kQ3VkYToKCiAgICB0b2tlbml6ZXI6IFByZVRyYWluZWRUb2tlbml6ZXJCYXNlCiAgICBkZXZpY2U6IG9iamVjdCA9IE5vbmUKICAgIHBhZGRpbmc6IFVuaW9uW2Jvb2wsIHN0ciwgUGFkZGluZ1N0cmF0ZWd5XSA9IFRydWUKICAgIG1heF9sZW5ndGg6IE9wdGlvbmFsW2ludF0gPSAzMDAwCiAgICBwYWRfdG9fbXVsdGlwbGVfb2Y6IE9wdGlvbmFsW2ludF0gPSBOb25lCiAgICAKCiAgICBkZWYgX19jYWxsX18oc2VsZiwgZmVhdHVyZXM6IExpc3RbRGljdFtzdHIsIFVuaW9uW0xpc3RbaW50XSwgdG9yY2guVGVuc29yXV1dKSAtPiBEaWN0W3N0ciwgdG9yY2guVGVuc29yXToKICAgICAgICBtZXRhZGF0YSA9IFt4LnBvcCgibWV0YWRhdGEiKSBmb3IgeCBpbiBmZWF0dXJlc10KICAgICAgICBmZWF0dXJlcyA9IHtrZXk6IFtleGFtcGxlW2tleV0gZm9yIGV4YW1wbGUgaW4gZmVhdHVyZXNdIGZvciBrZXkgaW4gZmVhdHVyZXNbMF0ua2V5cygpfQogICAgICAgIGxlZnRfcGFkPShzZWxmLnRva2VuaXplci5wYWRkaW5nX3NpZGU9PSJsZWZ0IikKICAgICAgICBmZWF0dXJlcz17a2V5OiBwYWQyc2FtZUxlbihmZWF0dXJlc1trZXldLHBhZF9pZHg9c2VsZi50b2tlbml6ZXIucGFkX3Rva2VuX2lkIGlmICdpbnB1dF9pZHMnIGluIGtleSBlbHNlIDAsIGxlZnRfcGFkPWxlZnRfcGFkKSBmb3Iga2V5IGluIGZlYXR1cmVzLmtleXMoKX0KICAgICAgICBiYXRjaD1CYXRjaEVuY29kaW5nKGZlYXR1cmVzLHRlbnNvcl90eXBlPSJwdCIpCiAgICAgICAgaWYgc2VsZi5kZXZpY2U6CiAgICAgICAgICAgIGJhdGNoID0gYmF0Y2gudG8oc2VsZi5kZXZpY2UpCiAgICAgICAgYmF0Y2hbJ21ldGFkYXRhJ10gPSBtZXRhZGF0YQogICAgICAgIHJldHVybiBiYXRjaAo=
+import random
+import warnings
+from dataclasses import dataclass
+from typing import Any, Callable, Dict, List, NewType, Optional, Tuple, Union
+import torch
+from transformers.file_utils import PaddingStrategy
+from transformers import PreTrainedModel
+from transformers import BertTokenizer, BertTokenizerFast
+from transformers import BatchEncoding, PreTrainedTokenizerBase
+# from src.dataset_readers.qdmr_indexer import QDMRIndexerDatasetReader
+from transformers.data.data_collator import DataCollatorWithPadding
+from src.utils.dataset_utils import pad2sameLen
+
+
+class ListWrapper:
+    def __init__(self, data: List[Any]):
+        self.data = data
+    
+    def to(self, device):
+        return self.data
+    
+    def __len__(self):
+        return len(self.data)
+
+
+@dataclass
+class DataCollatorWithPaddingAndCuda:
+
+    tokenizer: PreTrainedTokenizerBase
+    device: object = None
+    padding: Union[bool, str, PaddingStrategy] = True
+    max_length: Optional[int] = 3000
+    pad_to_multiple_of: Optional[int] = None
+    
+
+    def __call__(self, features: List[Dict[str, Union[List[int], torch.Tensor]]]) -> Dict[str, torch.Tensor]:
+        metadata = [x.pop("metadata") for x in features]
+        features = {key: [example[key] for example in features] for key in features[0].keys()}
+        left_pad=(self.tokenizer.padding_side=="left")
+        features={key: pad2sameLen(features[key],pad_idx=self.tokenizer.pad_token_id if 'input_ids' in key else 0, left_pad=left_pad) for key in features.keys()}
+        batch=BatchEncoding(features,tensor_type="pt")
+        if self.device:
+            batch = batch.to(self.device)
+        batch['metadata'] = metadata
+        return batch

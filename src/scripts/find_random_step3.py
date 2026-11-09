@@ -1,1 +1,94 @@
-aW1wb3J0IG9zCmltcG9ydCBzeXMKc3lzLnBhdGguaW5zZXJ0KDAsIG9zLmdldGN3ZCgpKQoKaW1wb3J0IGh5ZHJhCmltcG9ydCB0cWRtCmltcG9ydCBqc29uCmltcG9ydCByYW5kb20KaW1wb3J0IG51bXB5CmZyb20gc2NpcHkuc3RhdHMgaW1wb3J0IGV4cG9uCmZyb20gRFBSLmRwci51dGlscy50YXNrcyBpbXBvcnQgdGFza19tYXAKIyBmcm9tIERQUi5kcHIudXRpbHMudGFza3MgaW1wb3J0IHRhc2tfbWFwCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKY2xhc3MgUmFuZG9tRmluZGVyOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGNmZykgLT4gTm9uZToKICAgICAgICBzZWxmLmNmZyA9IGNmZwogICAgICAgIG9zLm1ha2VkaXJzKG9zLnBhdGguZGlybmFtZShjZmcucHJvbXB0X3Bvb2xfcGF0aCksIGV4aXN0X29rPVRydWUpCiAgICAgICAgb3MubWFrZWRpcnMob3MucGF0aC5kaXJuYW1lKGNmZy5vdXRwdXRfcGF0aCksIGV4aXN0X29rPVRydWUpCiAgICAgICAgdGFzayA9IHRhc2tfbWFwLmNsc19kaWNbc2VsZi5jZmcudGFza19uYW1lXSgpCiAgICAgICAgc2VsZi50cmFpbl9kYXRhc2V0ID0gdGFzay5nZXRfZGF0YXNldCgKICAgICAgICAgICAgc3BsaXQ9InRyYWluIiwKICAgICAgICAgICAgZHNfc2l6ZT1Ob25lIGlmICJkc19zaXplIiBub3QgaW4gY2ZnIGVsc2UgY2ZnLmRzX3NpemUsCiAgICAgICAgICAgIGNhY2hlX2Rpcj1jZmcuY2FjaGVfZGlyLAogICAgICAgICkKCiAgICAgICAgcHJpbnQoInN0YXJ0ZWQgY3JlYXRpbmcgdGhlIHByb21wdCBwb29sIikKICAgICAgICBzZWxmLmdldF9wcm9tcHRfcG9vbCgpCiAgICAgICAgcHJpbnQoImZpbmlzaGVkIGNyZWF0aW5nIHRoZSBwcm9tcHQgcG9vbCIpCgogICAgIyBzYW1wbGUgYW5kIHNhdmUgcHJvbXB0IHBvb2wKICAgIGRlZiBnZXRfcHJvbXB0X3Bvb2woc2VsZik6CiAgICAgICAgc2VsZi5wcm9tcHRfcG9vbCA9IHNlbGYudHJhaW5fZGF0YXNldAogICAgICAgIGZvciBpLCBlbnRyeSBpbiBlbnVtZXJhdGUoc2VsZi5wcm9tcHRfcG9vbCk6CiAgICAgICAgICAgIGVudHJ5WyJpZCJdID0gaQogICAgICAgICAgICBlbnRyeVsidGFza19uYW1lIl0gPSBzZWxmLmNmZy50YXNrX25hbWUKICAgICAgICBwcmludCgicHJvbXB0X3Bvb2wgc2l6ZSIsIGxlbihzZWxmLnByb21wdF9wb29sKSkKICAgICAgICB3aXRoIG9wZW4oc2VsZi5jZmcucHJvbXB0X3Bvb2xfcGF0aCwgInciKSBhcyBmOgogICAgICAgICAgICBqc29uLmR1bXAoc2VsZi5wcm9tcHRfcG9vbCwgZikKCgpkZWYgZmluZF9zdGVwMyhjZmcpOgogICAgd2l0aCBvcGVuKGNmZy50cmFpbl9wYXRoLCAiciIpIGFzIGYxOgogICAgICAgIGRhdGFsaXN0ID0ganNvbi5sb2FkKGYxKQogICAgcHJpbnQobGVuKGRhdGFsaXN0KSkKICAgIHdpdGggb3BlbihjZmcudmFsaWRfcGF0aCwgInIiKSBhcyBmMjoKICAgICAgICBkYXRhbGlzdCArPSAoanNvbi5sb2FkKGYyKSkKICAgIHByaW50KGxlbihkYXRhbGlzdCkpCgogICAgcmFuZG9tX2ZpbmRlciA9IFJhbmRvbUZpbmRlcihjZmcpCiAgICBkYXRhX2xpc3QgPSByYW5kb21fZmluZGVyLnRyYWluX2RhdGFzZXQKICAgIGlkeF9saXN0ID0gbGlzdChyYW5nZShsZW4ocmFuZG9tX2ZpbmRlci5wcm9tcHRfcG9vbCkpKQoKICAgIHggPSByYW5nZSgwLCBjZmcuTCkgIyA1MCBpcyB0aGUgY3R4cyBudW1iZXIgdGhhdCBzY29yZWQgaW4gbGFzdCBzdGVwCiAgICBwID0gZXhwb24ucGRmKHgpCiAgICBwICAvPSBzdW0ocCkKICAgIGluZGV4ID0gbGlzdChyYW5nZShjZmcuTCkpCgogICAgZm9yIGksIGVsZW1lbnQgaW4gdHFkbS50cWRtKGVudW1lcmF0ZShkYXRhbGlzdCkpOgogICAgICAgIHJhbmRvbS5zZWVkKGkpCiAgICAgICAgbnVtcHkucmFuZG9tLnNlZWQoaSkKICAgICAgICBxaWQgPSBlbGVtZW50WyJpZCJdCiAgICAgICAgCiAgICAgICAgY2hvb3Nlbl9pZHMgPSBudW1weS5yYW5kb20uY2hvaWNlKGluZGV4LCBzaXplPWNmZy5jaG9vc2VuX251bSwgcmVwbGFjZT1GYWxzZSwgcD1wKQogICAgICAgICMgcHJpbnQoIioqKnJhbms6IiwgaWR4KQogICAgICAgIGVsZW1lbnRbInN0ZXBfM19oYXZlX2Nob29zZW4iXSA9IFtdCiAgICAgICAgZWxlbWVudFsic3RlcF8zX2N0eHMiXSA9IFtdCiAgICAgICAgZm9yIGNob29zZW5faWQgaW4gY2hvb3Nlbl9pZHM6CiAgICAgICAgICAgIGVpZCA9IGVsZW1lbnRbImN0eHMiXVtjaG9vc2VuX2lkXVsiaWQiXQogICAgICAgICAgICBjaG9vc2VuID0gW2VpZF0gKyBlbGVtZW50WyJjaG9vc2VuIl0KICAgICAgICAgICAgZWxlbWVudFsic3RlcF8zX2hhdmVfY2hvb3NlbiJdLmFwcGVuZChjaG9vc2VuKQogICAgICAgICAgICBlbGVtZW50WyJzdGVwXzNfY3R4cyJdLmFwcGVuZChbCiAgICAgICAgICAgICAgICBpbnQoYSkKICAgICAgICAgICAgICAgIGZvciBhIGluIHJhbmRvbS5zYW1wbGUoW2lkeCBmb3IgaWR4IGluIGlkeF9saXN0IGlmIGlkeCAhPSBxaWQgYW5kIGlkeCBub3QgaW4gY2hvb3Nlbl0sIGs9bWluKGNmZy5MLCBsZW4oZGF0YV9saXN0KS0xKSkgIyBhdm9pZCBzZWxlY3RpbmcgdGhlIHRhc2sgaW5wdXQgaXRzZWxmCiAgICAgICAgICAgIF0pCiAgICAgICAgZWxlbWVudC5wb3AoImNob29zZW4iKSAjIGFkZAogICAgICAgIGVsZW1lbnQucG9wKCJjdHhzIikKICAgIHJldHVybiBkYXRhbGlzdAoKQGh5ZHJhLm1haW4oY29uZmlnX3BhdGg9Ii4uL2NvbmZpZ3MiLCBjb25maWdfbmFtZT0icmFuZG9tX2ZpbmRlcl9tdWx0aV9zdGVwIikKZGVmIG1haW4oY2ZnKToKICAgIHByaW50KGNmZykKICAgIGlmIFBhdGgoY2ZnLm91dHB1dF9wYXRoKS5leGlzdHMoKSBhbmQgUGF0aChjZmcucHJvbXB0X3Bvb2xfcGF0aCkuZXhpc3RzKCk6CiAgICAgICAgcHJpbnQoZiJza2lwIGV4aXN0ZWQgZmlsZXM6IHtjZmcub3V0cHV0X3BhdGh9IHtjZmcucHJvbXB0X3Bvb2xfcGF0aH0iKQogICAgICAgIHJldHVybgogICAgICAgIAogICAgZGF0YV9saXN0ID0gZmluZF9zdGVwMyhjZmcpCiAgICB3aXRoIG9wZW4oY2ZnLm91dHB1dF9wYXRoLCAidyIpIGFzIHdyaXRlcjoKICAgICAgICB3cml0ZXIud3JpdGUoanNvbi5kdW1wcyhkYXRhX2xpc3QsIGluZGVudD00KSArICJcbiIpCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIG1haW4oKQoK
+import os
+import sys
+sys.path.insert(0, os.getcwd())
+
+import hydra
+import tqdm
+import json
+import random
+import numpy
+from scipy.stats import expon
+from DPR.dpr.utils.tasks import task_map
+# from DPR.dpr.utils.tasks import task_map
+from pathlib import Path
+
+class RandomFinder:
+    def __init__(self, cfg) -> None:
+        self.cfg = cfg
+        os.makedirs(os.path.dirname(cfg.prompt_pool_path), exist_ok=True)
+        os.makedirs(os.path.dirname(cfg.output_path), exist_ok=True)
+        task = task_map.cls_dic[self.cfg.task_name]()
+        self.train_dataset = task.get_dataset(
+            split="train",
+            ds_size=None if "ds_size" not in cfg else cfg.ds_size,
+            cache_dir=cfg.cache_dir,
+        )
+
+        print("started creating the prompt pool")
+        self.get_prompt_pool()
+        print("finished creating the prompt pool")
+
+    # sample and save prompt pool
+    def get_prompt_pool(self):
+        self.prompt_pool = self.train_dataset
+        for i, entry in enumerate(self.prompt_pool):
+            entry["id"] = i
+            entry["task_name"] = self.cfg.task_name
+        print("prompt_pool size", len(self.prompt_pool))
+        with open(self.cfg.prompt_pool_path, "w") as f:
+            json.dump(self.prompt_pool, f)
+
+
+def find_step3(cfg):
+    with open(cfg.train_path, "r") as f1:
+        datalist = json.load(f1)
+    print(len(datalist))
+    with open(cfg.valid_path, "r") as f2:
+        datalist += (json.load(f2))
+    print(len(datalist))
+
+    random_finder = RandomFinder(cfg)
+    data_list = random_finder.train_dataset
+    idx_list = list(range(len(random_finder.prompt_pool)))
+
+    x = range(0, cfg.L) # 50 is the ctxs number that scored in last step
+    p = expon.pdf(x)
+    p  /= sum(p)
+    index = list(range(cfg.L))
+
+    for i, element in tqdm.tqdm(enumerate(datalist)):
+        random.seed(i)
+        numpy.random.seed(i)
+        qid = element["id"]
+        
+        choosen_ids = numpy.random.choice(index, size=cfg.choosen_num, replace=False, p=p)
+        # print("***rank:", idx)
+        element["step_3_have_choosen"] = []
+        element["step_3_ctxs"] = []
+        for choosen_id in choosen_ids:
+            eid = element["ctxs"][choosen_id]["id"]
+            choosen = [eid] + element["choosen"]
+            element["step_3_have_choosen"].append(choosen)
+            element["step_3_ctxs"].append([
+                int(a)
+                for a in random.sample([idx for idx in idx_list if idx != qid and idx not in choosen], k=min(cfg.L, len(data_list)-1)) # avoid selecting the task input itself
+            ])
+        element.pop("choosen") # add
+        element.pop("ctxs")
+    return datalist
+
+@hydra.main(config_path="../configs", config_name="random_finder_multi_step")
+def main(cfg):
+    print(cfg)
+    if Path(cfg.output_path).exists() and Path(cfg.prompt_pool_path).exists():
+        print(f"skip existed files: {cfg.output_path} {cfg.prompt_pool_path}")
+        return
+        
+    data_list = find_step3(cfg)
+    with open(cfg.output_path, "w") as writer:
+        writer.write(json.dumps(data_list, indent=4) + "\n")
+
+
+if __name__ == "__main__":
+    main()
+

@@ -1,1 +1,173 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwojIENvcHlyaWdodCAoYykgRmFjZWJvb2ssIEluYy4gYW5kIGl0cyBhZmZpbGlhdGVzLgojIEFsbCByaWdodHMgcmVzZXJ2ZWQuCiMKIyBUaGlzIHNvdXJjZSBjb2RlIGlzIGxpY2Vuc2VkIHVuZGVyIHRoZSBsaWNlbnNlIGZvdW5kIGluIHRoZQojIExJQ0VOU0UgZmlsZSBpbiB0aGUgcm9vdCBkaXJlY3Rvcnkgb2YgdGhpcyBzb3VyY2UgdHJlZS4KCiIiIgogQ29tbWFuZCBsaW5lIHRvb2wgdGhhdCBwcm9kdWNlcyBlbWJlZGRpbmdzIGZvciBhIGxhcmdlIGRvY3VtZW50cyBiYXNlIGJhc2VkIG9uIHRoZSBwcmV0cmFpbmVkIGN0eCAmIHF1ZXN0aW9uIGVuY29kZXJzCiBTdXBwb3NlZCB0byBiZSB1c2VkIGluIGEgJ3NoYXJkZWQnIHdheSB0byBzcGVlZCB1cCB0aGUgcHJvY2Vzcy4KIiIiCmltcG9ydCBsb2dnaW5nCmltcG9ydCBtYXRoCmltcG9ydCBvcwppbXBvcnQgcGF0aGxpYgppbXBvcnQgcGlja2xlCmZyb20gdHlwaW5nIGltcG9ydCBMaXN0LCBUdXBsZQoKaW1wb3J0IGh5ZHJhCmltcG9ydCBudW1weSBhcyBucAppbXBvcnQgdG9yY2gKZnJvbSBvbWVnYWNvbmYgaW1wb3J0IERpY3RDb25maWcsIE9tZWdhQ29uZgpmcm9tIHRvcmNoIGltcG9ydCBubgoKZnJvbSBkcHIuZGF0YS5iaWVuY29kZXJfZGF0YSBpbXBvcnQgQmlFbmNvZGVyUGFzc2FnZQpmcm9tIGRwci5tb2RlbHMgaW1wb3J0IGluaXRfYmllbmNvZGVyX2NvbXBvbmVudHMKZnJvbSBkcHIub3B0aW9ucyBpbXBvcnQgc2V0X2NmZ19wYXJhbXNfZnJvbV9zdGF0ZSwgc2V0dXBfY2ZnX2dwdSwgc2V0dXBfbG9nZ2VyCgpmcm9tIGRwci51dGlscy5kYXRhX3V0aWxzIGltcG9ydCBUZW5zb3JpemVyCmZyb20gZHByLnV0aWxzLm1vZGVsX3V0aWxzIGltcG9ydCAoCiAgICBzZXR1cF9mb3JfZGlzdHJpYnV0ZWRfbW9kZSwKICAgIGdldF9tb2RlbF9vYmosCiAgICBsb2FkX3N0YXRlc19mcm9tX2NoZWNrcG9pbnQsCiAgICBtb3ZlX3RvX2RldmljZSwKKQoKbG9nZ2VyID0gbG9nZ2luZy5nZXRMb2dnZXIoKQpzZXR1cF9sb2dnZXIobG9nZ2VyKQoKCmRlZiBnZW5fY3R4X3ZlY3RvcnMoCiAgICBjZmc6IERpY3RDb25maWcsCiAgICBjdHhfcm93czogTGlzdFtUdXBsZVtvYmplY3QsIEJpRW5jb2RlclBhc3NhZ2VdXSwKICAgIG1vZGVsOiBubi5Nb2R1bGUsCiAgICB0ZW5zb3JpemVyOiBUZW5zb3JpemVyLAogICAgaW5zZXJ0X3RpdGxlOiBib29sID0gVHJ1ZSwKKSAtPiBMaXN0W1R1cGxlW29iamVjdCwgbnAuYXJyYXldXToKICAgIG4gPSBsZW4oY3R4X3Jvd3MpCiAgICBic3ogPSBjZmcuYmF0Y2hfc2l6ZQogICAgdG90YWwgPSAwCiAgICByZXN1bHRzID0gW10KICAgIGZvciBqLCBiYXRjaF9zdGFydCBpbiBlbnVtZXJhdGUocmFuZ2UoMCwgbiwgYnN6KSk6CiAgICAgICAgYmF0Y2ggPSBjdHhfcm93c1tiYXRjaF9zdGFydCA6IGJhdGNoX3N0YXJ0ICsgYnN6XQogICAgICAgIGJhdGNoX3Rva2VuX3RlbnNvcnMgPSBbCiAgICAgICAgICAgIHRlbnNvcml6ZXIudGV4dF90b190ZW5zb3IoCiAgICAgICAgICAgICAgICBjdHhbMV0udGV4dCwgdGl0bGU9Y3R4WzFdLnRpdGxlIGlmIGluc2VydF90aXRsZSBlbHNlIE5vbmUKICAgICAgICAgICAgKQogICAgICAgICAgICBmb3IgY3R4IGluIGJhdGNoCiAgICAgICAgXQoKICAgICAgICBjdHhfaWRzX2JhdGNoID0gbW92ZV90b19kZXZpY2UoCiAgICAgICAgICAgIHRvcmNoLnN0YWNrKGJhdGNoX3Rva2VuX3RlbnNvcnMsIGRpbT0wKSwgY2ZnLmRldmljZQogICAgICAgICkKICAgICAgICBjdHhfc2VnX2JhdGNoID0gbW92ZV90b19kZXZpY2UodG9yY2guemVyb3NfbGlrZShjdHhfaWRzX2JhdGNoKSwgY2ZnLmRldmljZSkKICAgICAgICBjdHhfYXR0bl9tYXNrID0gbW92ZV90b19kZXZpY2UoCiAgICAgICAgICAgIHRlbnNvcml6ZXIuZ2V0X2F0dG5fbWFzayhjdHhfaWRzX2JhdGNoKSwgY2ZnLmRldmljZQogICAgICAgICkKICAgICAgICB3aXRoIHRvcmNoLm5vX2dyYWQoKToKICAgICAgICAgICAgXywgb3V0LCBfID0gbW9kZWwoY3R4X2lkc19iYXRjaCwgY3R4X3NlZ19iYXRjaCwgY3R4X2F0dG5fbWFzaykKICAgICAgICBvdXQgPSBvdXQuY3B1KCkKCiAgICAgICAgY3R4X2lkcyA9IFtyWzBdIGZvciByIGluIGJhdGNoXQogICAgICAgIGV4dHJhX2luZm8gPSBbXQogICAgICAgIGlmIGxlbihiYXRjaFswXSkgPiAzOgogICAgICAgICAgICBleHRyYV9pbmZvID0gW3JbMzpdIGZvciByIGluIGJhdGNoXQoKICAgICAgICBhc3NlcnQgbGVuKGN0eF9pZHMpID09IG91dC5zaXplKDApCiAgICAgICAgdG90YWwgKz0gbGVuKGN0eF9pZHMpCgogICAgICAgICMgVE9ETzogcmVmYWN0b3IgdG8gYXZvaWQgJ2lmJwogICAgICAgIGlmIGV4dHJhX2luZm86CiAgICAgICAgICAgIHJlc3VsdHMuZXh0ZW5kKAogICAgICAgICAgICAgICAgWwogICAgICAgICAgICAgICAgICAgIChjdHhfaWRzW2ldLCBvdXRbaV0udmlldygtMSkubnVtcHkoKSwgKmV4dHJhX2luZm9baV0pCiAgICAgICAgICAgICAgICAgICAgZm9yIGkgaW4gcmFuZ2Uob3V0LnNpemUoMCkpCiAgICAgICAgICAgICAgICBdCiAgICAgICAgICAgICkKICAgICAgICBlbHNlOgogICAgICAgICAgICByZXN1bHRzLmV4dGVuZCgKICAgICAgICAgICAgICAgIFsoY3R4X2lkc1tpXSwgb3V0W2ldLnZpZXcoLTEpLm51bXB5KCkpIGZvciBpIGluIHJhbmdlKG91dC5zaXplKDApKV0KICAgICAgICAgICAgKQoKICAgICAgICBpZiB0b3RhbCAlIDEwID09IDA6CiAgICAgICAgICAgIGxvZ2dlci5pbmZvKCJFbmNvZGVkIHBhc3NhZ2VzICVkIiwgdG90YWwpCiAgICByZXR1cm4gcmVzdWx0cwoKCkBoeWRyYS5tYWluKGNvbmZpZ19wYXRoPSJjb25mIiwgY29uZmlnX25hbWU9Imdlbl9lbWJzIikKZGVmIG1haW4oY2ZnOiBEaWN0Q29uZmlnKToKCiAgICBhc3NlcnQgY2ZnLm1vZGVsX2ZpbGUsICJQbGVhc2Ugc3BlY2lmeSBlbmNvZGVyIGNoZWNrcG9pbnQgYXMgbW9kZWxfZmlsZSBwYXJhbSIKICAgIGFzc2VydCBjZmcuY3R4X3NyYywgIlBsZWFzZSBzcGVjaWZ5IHBhc3NhZ2VzIHNvdXJjZSBhcyBjdHhfc3JjIHBhcmFtIgoKICAgIGNmZyA9IHNldHVwX2NmZ19ncHUoY2ZnKQoKICAgIHNhdmVkX3N0YXRlID0gbG9hZF9zdGF0ZXNfZnJvbV9jaGVja3BvaW50KGNmZy5tb2RlbF9maWxlKQogICAgc2V0X2NmZ19wYXJhbXNfZnJvbV9zdGF0ZShzYXZlZF9zdGF0ZS5lbmNvZGVyX3BhcmFtcywgY2ZnKQoKICAgIGxvZ2dlci5pbmZvKCJDRkc6IikKICAgIGxvZ2dlci5pbmZvKCIlcyIsIE9tZWdhQ29uZi50b195YW1sKGNmZykpCgogICAgdGVuc29yaXplciwgZW5jb2RlciwgXyA9IGluaXRfYmllbmNvZGVyX2NvbXBvbmVudHMoCiAgICAgICAgY2ZnLmVuY29kZXIuZW5jb2Rlcl9tb2RlbF90eXBlLCBjZmcsIGluZmVyZW5jZV9vbmx5PVRydWUKICAgICkKCiAgICBlbmNvZGVyID0gZW5jb2Rlci5jdHhfbW9kZWwgaWYgY2ZnLmVuY29kZXJfdHlwZSA9PSAiY3R4IiBlbHNlIGVuY29kZXIucXVlc3Rpb25fbW9kZWwKCiAgICBlbmNvZGVyLCBfID0gc2V0dXBfZm9yX2Rpc3RyaWJ1dGVkX21vZGUoCiAgICAgICAgZW5jb2RlciwKICAgICAgICBOb25lLAogICAgICAgIGNmZy5kZXZpY2UsCiAgICAgICAgY2ZnLm5fZ3B1LAogICAgICAgIGNmZy5sb2NhbF9yYW5rLAogICAgICAgIGNmZy5mcDE2LAogICAgICAgIGNmZy5mcDE2X29wdF9sZXZlbCwKICAgICkKICAgIGVuY29kZXIuZXZhbCgpCgogICAgIyBsb2FkIHdlaWdodHMgZnJvbSB0aGUgbW9kZWwgZmlsZQogICAgbW9kZWxfdG9fbG9hZCA9IGdldF9tb2RlbF9vYmooZW5jb2RlcikKICAgIGxvZ2dlci5pbmZvKCJMb2FkaW5nIHNhdmVkIG1vZGVsIHN0YXRlIC4uLiIpCiAgICBsb2dnZXIuZGVidWcoInNhdmVkIG1vZGVsIGtleXMgPSVzIiwgc2F2ZWRfc3RhdGUubW9kZWxfZGljdC5rZXlzKCkpCgogICAgcHJlZml4X2xlbiA9IGxlbigiY3R4X21vZGVsLiIpCiAgICBjdHhfc3RhdGUgPSB7CiAgICAgICAga2V5W3ByZWZpeF9sZW46XTogdmFsdWUKICAgICAgICBmb3IgKGtleSwgdmFsdWUpIGluIHNhdmVkX3N0YXRlLm1vZGVsX2RpY3QuaXRlbXMoKQogICAgICAgIGlmIGtleS5zdGFydHN3aXRoKCJjdHhfbW9kZWwuIikKICAgIH0KICAgIG1vZGVsX3RvX2xvYWQubG9hZF9zdGF0ZV9kaWN0KGN0eF9zdGF0ZSkKCiAgICBsb2dnZXIuaW5mbygicmVhZGluZyBkYXRhIHNvdXJjZTogJXMiLCBjZmcuY3R4X3NyYykKCiAgICBjdHhfc3JjID0gaHlkcmEudXRpbHMuaW5zdGFudGlhdGUoY2ZnLmN0eF9zb3VyY2VzW2NmZy5jdHhfc3JjXSkKICAgIGFsbF9wYXNzYWdlc19kaWN0ID0ge30KICAgIGN0eF9zcmMubG9hZF9kYXRhX3RvKGFsbF9wYXNzYWdlc19kaWN0KSAjIGFsbF9wYXNzYWdlc19kaWN0W3NhbXBsZV9pZF0gPSBCaUVuY29kZXJQYXNzYWdlKHBhc3NhZ2UsICIiLCBlbnRyeSkKICAgIGFsbF9wYXNzYWdlcyA9IFsoaywgdikgZm9yIGssIHYgaW4gYWxsX3Bhc3NhZ2VzX2RpY3QuaXRlbXMoKV0KCiAgICBzaGFyZF9zaXplID0gbWF0aC5jZWlsKGxlbihhbGxfcGFzc2FnZXMpIC8gY2ZnLm51bV9zaGFyZHMpCiAgICBzdGFydF9pZHggPSBjZmcuc2hhcmRfaWQgKiBzaGFyZF9zaXplCiAgICBlbmRfaWR4ID0gc3RhcnRfaWR4ICsgc2hhcmRfc2l6ZQoKICAgIGxvZ2dlci5pbmZvKAogICAgICAgICJQcm9kdWNpbmcgZW5jb2RpbmdzIGZvciBwYXNzYWdlcyByYW5nZTogJWQgdG8gJWQgKG91dCBvZiB0b3RhbCAlZCkiLAogICAgICAgIHN0YXJ0X2lkeCwKICAgICAgICBlbmRfaWR4LAogICAgICAgIGxlbihhbGxfcGFzc2FnZXMpLAogICAgKQogICAgc2hhcmRfcGFzc2FnZXMgPSBhbGxfcGFzc2FnZXNbc3RhcnRfaWR4OmVuZF9pZHhdCgogICAgZGF0YSA9IGdlbl9jdHhfdmVjdG9ycyhjZmcsIHNoYXJkX3Bhc3NhZ2VzLCBlbmNvZGVyLCB0ZW5zb3JpemVyLCBUcnVlKQoKICAgIGZpbGUgPSBjZmcub3V0X2ZpbGUgKyAiXyIgKyBzdHIoY2ZnLnNoYXJkX2lkKQogICAgcGF0aGxpYi5QYXRoKG9zLnBhdGguZGlybmFtZShmaWxlKSkubWtkaXIocGFyZW50cz1UcnVlLCBleGlzdF9vaz1UcnVlKQogICAgbG9nZ2VyLmluZm8oIldyaXRpbmcgcmVzdWx0cyB0byAlcyIgJSBmaWxlKQogICAgd2l0aCBvcGVuKGZpbGUsIG1vZGU9IndiIikgYXMgZjoKICAgICAgICBwaWNrbGUuZHVtcChkYXRhLCBmKQoKICAgIGxvZ2dlci5pbmZvKCJUb3RhbCBwYXNzYWdlcyBwcm9jZXNzZWQgJWQuIFdyaXR0ZW4gdG8gJXMiLCBsZW4oZGF0YSksIGZpbGUpCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIG1haW4oKQo=
+#!/usr/bin/env python3
+# Copyright (c) Facebook, Inc. and its affiliates.
+# All rights reserved.
+#
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+
+"""
+ Command line tool that produces embeddings for a large documents base based on the pretrained ctx & question encoders
+ Supposed to be used in a 'sharded' way to speed up the process.
+"""
+import logging
+import math
+import os
+import pathlib
+import pickle
+from typing import List, Tuple
+
+import hydra
+import numpy as np
+import torch
+from omegaconf import DictConfig, OmegaConf
+from torch import nn
+
+from dpr.data.biencoder_data import BiEncoderPassage
+from dpr.models import init_biencoder_components
+from dpr.options import set_cfg_params_from_state, setup_cfg_gpu, setup_logger
+
+from dpr.utils.data_utils import Tensorizer
+from dpr.utils.model_utils import (
+    setup_for_distributed_mode,
+    get_model_obj,
+    load_states_from_checkpoint,
+    move_to_device,
+)
+
+logger = logging.getLogger()
+setup_logger(logger)
+
+
+def gen_ctx_vectors(
+    cfg: DictConfig,
+    ctx_rows: List[Tuple[object, BiEncoderPassage]],
+    model: nn.Module,
+    tensorizer: Tensorizer,
+    insert_title: bool = True,
+) -> List[Tuple[object, np.array]]:
+    n = len(ctx_rows)
+    bsz = cfg.batch_size
+    total = 0
+    results = []
+    for j, batch_start in enumerate(range(0, n, bsz)):
+        batch = ctx_rows[batch_start : batch_start + bsz]
+        batch_token_tensors = [
+            tensorizer.text_to_tensor(
+                ctx[1].text, title=ctx[1].title if insert_title else None
+            )
+            for ctx in batch
+        ]
+
+        ctx_ids_batch = move_to_device(
+            torch.stack(batch_token_tensors, dim=0), cfg.device
+        )
+        ctx_seg_batch = move_to_device(torch.zeros_like(ctx_ids_batch), cfg.device)
+        ctx_attn_mask = move_to_device(
+            tensorizer.get_attn_mask(ctx_ids_batch), cfg.device
+        )
+        with torch.no_grad():
+            _, out, _ = model(ctx_ids_batch, ctx_seg_batch, ctx_attn_mask)
+        out = out.cpu()
+
+        ctx_ids = [r[0] for r in batch]
+        extra_info = []
+        if len(batch[0]) > 3:
+            extra_info = [r[3:] for r in batch]
+
+        assert len(ctx_ids) == out.size(0)
+        total += len(ctx_ids)
+
+        # TODO: refactor to avoid 'if'
+        if extra_info:
+            results.extend(
+                [
+                    (ctx_ids[i], out[i].view(-1).numpy(), *extra_info[i])
+                    for i in range(out.size(0))
+                ]
+            )
+        else:
+            results.extend(
+                [(ctx_ids[i], out[i].view(-1).numpy()) for i in range(out.size(0))]
+            )
+
+        if total % 10 == 0:
+            logger.info("Encoded passages %d", total)
+    return results
+
+
+@hydra.main(config_path="conf", config_name="gen_embs")
+def main(cfg: DictConfig):
+
+    assert cfg.model_file, "Please specify encoder checkpoint as model_file param"
+    assert cfg.ctx_src, "Please specify passages source as ctx_src param"
+
+    cfg = setup_cfg_gpu(cfg)
+
+    saved_state = load_states_from_checkpoint(cfg.model_file)
+    set_cfg_params_from_state(saved_state.encoder_params, cfg)
+
+    logger.info("CFG:")
+    logger.info("%s", OmegaConf.to_yaml(cfg))
+
+    tensorizer, encoder, _ = init_biencoder_components(
+        cfg.encoder.encoder_model_type, cfg, inference_only=True
+    )
+
+    encoder = encoder.ctx_model if cfg.encoder_type == "ctx" else encoder.question_model
+
+    encoder, _ = setup_for_distributed_mode(
+        encoder,
+        None,
+        cfg.device,
+        cfg.n_gpu,
+        cfg.local_rank,
+        cfg.fp16,
+        cfg.fp16_opt_level,
+    )
+    encoder.eval()
+
+    # load weights from the model file
+    model_to_load = get_model_obj(encoder)
+    logger.info("Loading saved model state ...")
+    logger.debug("saved model keys =%s", saved_state.model_dict.keys())
+
+    prefix_len = len("ctx_model.")
+    ctx_state = {
+        key[prefix_len:]: value
+        for (key, value) in saved_state.model_dict.items()
+        if key.startswith("ctx_model.")
+    }
+    model_to_load.load_state_dict(ctx_state)
+
+    logger.info("reading data source: %s", cfg.ctx_src)
+
+    ctx_src = hydra.utils.instantiate(cfg.ctx_sources[cfg.ctx_src])
+    all_passages_dict = {}
+    ctx_src.load_data_to(all_passages_dict) # all_passages_dict[sample_id] = BiEncoderPassage(passage, "", entry)
+    all_passages = [(k, v) for k, v in all_passages_dict.items()]
+
+    shard_size = math.ceil(len(all_passages) / cfg.num_shards)
+    start_idx = cfg.shard_id * shard_size
+    end_idx = start_idx + shard_size
+
+    logger.info(
+        "Producing encodings for passages range: %d to %d (out of total %d)",
+        start_idx,
+        end_idx,
+        len(all_passages),
+    )
+    shard_passages = all_passages[start_idx:end_idx]
+
+    data = gen_ctx_vectors(cfg, shard_passages, encoder, tensorizer, True)
+
+    file = cfg.out_file + "_" + str(cfg.shard_id)
+    pathlib.Path(os.path.dirname(file)).mkdir(parents=True, exist_ok=True)
+    logger.info("Writing results to %s" % file)
+    with open(file, mode="wb") as f:
+        pickle.dump(data, f)
+
+    logger.info("Total passages processed %d. Written to %s", len(data), file)
+
+
+if __name__ == "__main__":
+    main()

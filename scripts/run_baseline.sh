@@ -1,1 +1,72 @@
-IyEvYmluL2Jhc2gKIyBTZURQTyDln7rnur/ov5DooYzohJrmnKzvvIgwLXNob3QgLyDpmo/mnLogMy1zaG9077yJCiMKIyDnlKjms5U6IGJhc2ggMjAyNjExMDVfcnVuX2Jhc2VsaW5lLnNoIDx0YXNrX25hbWU+IDxtb2RlbF9wYXRoPiA8bW9kZT4KIyAgIHRhc2tfbmFtZTogYXJjX2MgfCBvcGVuYm9va3FhIHwgbXVsdGlyYwojICAgbW9kZWxfcGF0aDogOEIg5qih5Z6L55uu5b2VCiMgICBtb2RlOiB6ZXJvc2hvdCB8IHJhbmRvbTMKIwojIOivtOaYju+8mnJhbmRvbTMg6LWwIHJhbmRvbV9zYW1wbGU9VHJ1ZSDliIbmlK/vvIxmZXdfc2hvdF9kc3Ig5Lya55u05o6l5LuOIHByb21wdF9wb29sCiMg6ZqP5py65oq95Y+WIDMg5p2h56S65L6L77yM5LiOIFNlRFBPIOajgOe0ouWHuueahCAzIOadoeWBmuWvueeFp+OAggpzZXQgLWUKClRBU0s9JDEKTU9ERUw9JDIKTU9ERT0kMwpSRVBPPS9yb290L2F1dG9kbC10bXAvU2VEUE9fTklQUzI1Ck9VVF9ESVI9JFJFUE8vbXlfZGF0YV9xd2VuL2Jhc2VsaW5lLyR7VEFTS31fJHtNT0RFfQpQUk9NUFRfRElSPSRSRVBPL215X2RhdGFfcXdlbi9wcm9tcHRzX2Zvcl9ldmFsCgpjZCAkUkVQTwpzb3VyY2UgL3Jvb3QvbWluaWNvbmRhMy9ldGMvcHJvZmlsZS5kL2NvbmRhLnNoCmNvbmRhIGFjdGl2YXRlIC9yb290L2F1dG9kbC10bXAvZW52cy9zZV9kcG8KZXhwb3J0IFBZVEhPTlBBVEg9JFJFUE86JFBZVEhPTlBBVEgKZXhwb3J0IElGX1BSRUZFUl9MT1NTPTAKZXhwb3J0IEhZRFJBX0ZVTExfRVJST1I9MQoKbWtkaXIgLXAgJE9VVF9ESVIKCmlmIFsgIiRNT0RFIiA9ICJ6ZXJvc2hvdCIgXTsgdGhlbgogICAgUFJPTVBUX0ZJTEU9JFBST01QVF9ESVIvJHtUQVNLfV96ZXJvc2hvdC5qc29uCiAgICBTSE9UPTAKICAgIFJBTkRPTV9TQU1QTEU9RmFsc2UKZWxpZiBbICIkTU9ERSIgPSAicmFuZG9tMyIgXTsgdGhlbgogICAgUFJPTVBUX0ZJTEU9JFBST01QVF9ESVIvJHtUQVNLfV9yYW5kb20zLmpzb24KICAgIFNIT1Q9MwogICAgUkFORE9NX1NBTVBMRT1UcnVlCmVsc2UKICAgIGVjaG8gIuacquefpSBtb2RlOiAkTU9ERSIKICAgIGV4aXQgMQpmaQoKIyBjbHVzdGVyIOimgeS4juS7u+WKoeWvueW6lO+8jOWQpuWImSByYW5kb21fc2FtcGxlIOS8muS7jumUmeivr+eahCBwcm9tcHQgcG9vbCDmir3moLcKY2FzZSAkVEFTSyBpbgogICAgYXJjX2MpICAgICAgQ0xVU1RFUj1jbG9zZV9xYSA7OwogICAgb3BlbmJvb2txYSkgQ0xVU1RFUj1yZWFkaW5nX25ldyA7OwogICAgbXVsdGlyYykgICAgQ0xVU1RFUj1yZWFkaW5nX25ldyA7OwogICAgKikgZWNobyAi5pyq55+lIHRhc2s6ICRUQVNLIjsgZXhpdCAxIDs7CmVzYWMKCmVjaG8gIlskKGRhdGUgKyVIOiVNOiVTKV0g5Z+657q/5byA5aeLOiB0YXNrPSRUQVNLIG1vZGU9JE1PREUgc2hvdD0kU0hPVCIKU1RBUlQ9JChkYXRlICslcykKCmFjY2VsZXJhdGUgbGF1bmNoIC0tbnVtX3Byb2Nlc3NlcyAxIC0tbWFpbl9wcm9jZXNzX3BvcnQgMjQ1NzkgXAogICAgc2NyaXB0cy9pbmZlcmVuY2UucHkgXAogICAgcHJvbXB0X2ZpbGU9JFBST01QVF9GSUxFIFwKICAgIHRhc2tfbmFtZT0kVEFTSyBcCiAgICBvdXRwdXRfZmlsZT0kT1VUX0RJUi8ke1RBU0t9XyR7TU9ERX1fcHJlZHMuanNvbiBcCiAgICByZXNfZmlsZT0kT1VUX0RJUi9ldmFsX3Jlcy50eHQgXAogICAgYmF0Y2hfc2l6ZT0xIFwKICAgIHNob3RfbnVtPSRTSE9UIFwKICAgIHJhbmRvbV9zYW1wbGU9JFJBTkRPTV9TQU1QTEUgXAogICAgcmFuZG9tX3NlZWQ9NDIgXAogICAgbW9kZWxfbmFtZT0kTU9ERUwgXAogICAgcHJvbXB0X3Bvb2xfcGF0aD0kUkVQTy9teV9kYXRhX3F3ZW4vcHJvbXB0X3Bvb2wgXAogICAgdHJhaW5fY2x1c3RlcnM9JENMVVNURVIgXAogICAgY2FjaGVfZGlyPSRSRVBPL2NhY2hlIFwKICAgIGh5ZHJhLnJ1bi5kaXI9JE9VVF9ESVIgMj4mMSB8IHRlZSAkT1VUX0RJUi9pbmZlcmVuY2UubG9nCgpFTkQ9JChkYXRlICslcykKZWNobyAiWyQoZGF0ZSArJUg6JU06JVMpXSDln7rnur/nu5PmnZ86IHRhc2s9JFRBU0sgbW9kZT0kTU9ERSDogJfml7YgJCgoRU5EIC0gU1RBUlQpKSDnp5IiCmVjaG8gIi0tLSDor4TmtYvnu5PmnpwgLS0tIgpjYXQgJE9VVF9ESVIvZXZhbF9yZXMudHh0Cg==
+#!/bin/bash
+# SeDPO 基线运行脚本（0-shot / 随机 3-shot）
+#
+# 用法: bash 20261105_run_baseline.sh <task_name> <model_path> <mode>
+#   task_name: arc_c | openbookqa | multirc
+#   model_path: 8B 模型目录
+#   mode: zeroshot | random3
+#
+# 说明：random3 走 random_sample=True 分支，few_shot_dsr 会直接从 prompt_pool
+# 随机抽取 3 条示例，与 SeDPO 检索出的 3 条做对照。
+set -e
+
+TASK=$1
+MODEL=$2
+MODE=$3
+REPO=/root/autodl-tmp/SeDPO_NIPS25
+OUT_DIR=$REPO/my_data_qwen/baseline/${TASK}_${MODE}
+PROMPT_DIR=$REPO/my_data_qwen/prompts_for_eval
+
+cd $REPO
+source /root/miniconda3/etc/profile.d/conda.sh
+conda activate /root/autodl-tmp/envs/se_dpo
+export PYTHONPATH=$REPO:$PYTHONPATH
+export IF_PREFER_LOSS=0
+export HYDRA_FULL_ERROR=1
+
+mkdir -p $OUT_DIR
+
+if [ "$MODE" = "zeroshot" ]; then
+    PROMPT_FILE=$PROMPT_DIR/${TASK}_zeroshot.json
+    SHOT=0
+    RANDOM_SAMPLE=False
+elif [ "$MODE" = "random3" ]; then
+    PROMPT_FILE=$PROMPT_DIR/${TASK}_random3.json
+    SHOT=3
+    RANDOM_SAMPLE=True
+else
+    echo "未知 mode: $MODE"
+    exit 1
+fi
+
+# cluster 要与任务对应，否则 random_sample 会从错误的 prompt pool 抽样
+case $TASK in
+    arc_c)      CLUSTER=close_qa ;;
+    openbookqa) CLUSTER=reading_new ;;
+    multirc)    CLUSTER=reading_new ;;
+    *) echo "未知 task: $TASK"; exit 1 ;;
+esac
+
+echo "[$(date +%H:%M:%S)] 基线开始: task=$TASK mode=$MODE shot=$SHOT"
+START=$(date +%s)
+
+accelerate launch --num_processes 1 --main_process_port 24579 \
+    scripts/inference.py \
+    prompt_file=$PROMPT_FILE \
+    task_name=$TASK \
+    output_file=$OUT_DIR/${TASK}_${MODE}_preds.json \
+    res_file=$OUT_DIR/eval_res.txt \
+    batch_size=1 \
+    shot_num=$SHOT \
+    random_sample=$RANDOM_SAMPLE \
+    random_seed=42 \
+    model_name=$MODEL \
+    prompt_pool_path=$REPO/my_data_qwen/prompt_pool \
+    train_clusters=$CLUSTER \
+    cache_dir=$REPO/cache \
+    hydra.run.dir=$OUT_DIR 2>&1 | tee $OUT_DIR/inference.log
+
+END=$(date +%s)
+echo "[$(date +%H:%M:%S)] 基线结束: task=$TASK mode=$MODE 耗时 $((END - START)) 秒"
+echo "--- 评测结果 ---"
+cat $OUT_DIR/eval_res.txt

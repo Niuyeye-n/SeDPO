@@ -1,1 +1,60 @@
-IyEvYmluL2Jhc2gKIyDor4rmlq3ohJrmnKzvvJrmqKHlnovlrozmlbTmgKcgLyDkuqfniankvZPnp68gLyDno4Hnm5ggLyDkvp3otZYKZWNobyAiPT09PT09PT09PT0gMS4gbGxhbWEzLThiIOebruW9leWujOaVtOaApyA9PT09PT09PT09PSIKbHMgLWxhIC9yb290L2F1dG9kbC10bXAvbW9kZWxzL2xsYW1hMy04Yi8KZWNobwplY2hvICItLS0gaW5kZXgg6YeM5aOw5piO55qE5YiG54mHIHZzIOWunumZheWtmOWcqOeahCAtLS0iCnB5dGhvbjMgLSA8PCdQWScKaW1wb3J0IGpzb24sIG9zCmQgPSAiL3Jvb3QvYXV0b2RsLXRtcC9tb2RlbHMvbGxhbWEzLThiIgppZHggPSBvcy5wYXRoLmpvaW4oZCwgIm1vZGVsLnNhZmV0ZW5zb3JzLmluZGV4Lmpzb24iKQppZiBvcy5wYXRoLmV4aXN0cyhpZHgpOgogICAgd20gPSBqc29uLmxvYWQob3BlbihpZHgpKVsid2VpZ2h0X21hcCJdCiAgICBzaGFyZHMgPSBzb3J0ZWQoc2V0KHdtLnZhbHVlcygpKSkKICAgIHByaW50KCJpbmRleCDlo7DmmI7liIbniYc6Iiwgc2hhcmRzKQogICAgZm9yIHMgaW4gc2hhcmRzOgogICAgICAgIHAgPSBvcy5wYXRoLmpvaW4oZCwgcykKICAgICAgICBwcmludChmIiAge3N9OiBleGlzdHM9e29zLnBhdGguZXhpc3RzKHApfSBzaXplPXtvcy5wYXRoLmdldHNpemUocCkgaWYgb3MucGF0aC5leGlzdHMocCkgZWxzZSAwfSIpCmVsc2U6CiAgICBwcmludCgiISEg5rKh5pyJIGluZGV4Lmpzb24iKQpmb3IgZiBpbiBbImNvbmZpZy5qc29uIiwgInRva2VuaXplci5qc29uIiwgInRva2VuaXplcl9jb25maWcuanNvbiIsICJnZW5lcmF0aW9uX2NvbmZpZy5qc29uIiwgInNwZWNpYWxfdG9rZW5zX21hcC5qc29uIl06CiAgICBwID0gb3MucGF0aC5qb2luKGQsIGYpCiAgICBwcmludChmIiAge2Z9OiBleGlzdHM9e29zLnBhdGguZXhpc3RzKHApfSIpCmlmIG9zLnBhdGguZXhpc3RzKG9zLnBhdGguam9pbihkLCAiY29uZmlnLmpzb24iKSk6CiAgICBjID0ganNvbi5sb2FkKG9wZW4ob3MucGF0aC5qb2luKGQsICJjb25maWcuanNvbiIpKSkKICAgIHByaW50KCIgIG1vZGVsX3R5cGU6IiwgYy5nZXQoIm1vZGVsX3R5cGUiKSwgInwgdG9yY2hfZHR5cGU6IiwgYy5nZXQoInRvcmNoX2R0eXBlIiksCiAgICAgICAgICAifCB2b2NhYjoiLCBjLmdldCgidm9jYWJfc2l6ZSIpLCAifCBtYXhfcG9zOiIsIGMuZ2V0KCJtYXhfcG9zaXRpb25fZW1iZWRkaW5ncyIpKQpQWQoKZWNobwplY2hvICI9PT09PT09PT09PSAyLiDlt7Lkuqflh7rmlofku7bkvZPnp68gPT09PT09PT09PT0iCmZvciBmIGluIC9yb290L2F1dG9kbC10bXAvU2VEUE9fTklQUzI1L215X2RhdGFfcXdlbi9zY29yZWRfcXdlbi9jbG9zZV9xYS8qLmpzb24qIFwKICAgICAgICAgL3Jvb3QvYXV0b2RsLXRtcC9TZURQT19OSVBTMjUvbXlfZGF0YV9xd2VuL2ZpbmRfcmFuZG9tX3F3ZW4vY2xvc2VfcWEvKi5qc29uOyBkbwogIFsgLWUgIiRmIiBdICYmIGxzIC1sYSAiJGYiCmRvbmUKCmVjaG8KZWNobyAiPT09PT09PT09PT0gMy4g56OB55uYID09PT09PT09PT09IgpkZiAtaCAvcm9vdC9hdXRvZGwtdG1wIC8gfCB0YWlsIC0zCmVjaG8KZHUgLXNoIC9yb290L2F1dG9kbC10bXAvU2VEUE9fTklQUzI1L215X2RhdGFfcXdlbi8qIDI+L2Rldi9udWxsCgplY2hvCmVjaG8gIj09PT09PT09PT09IDQuIOS+nei1luWPr+eUqOaApyA9PT09PT09PT09PSIKL3Jvb3QvYXV0b2RsLXRtcC9lbnZzL3NlX2Rwby9iaW4vcHl0aG9uIC0gPDwnUFknCm1vZHMgPSBbInRvcmNoIiwidHJhbnNmb3JtZXJzIiwiZGF0YXNldHMiLCJza2xlYXJuIiwiZmFpc3MiLCJyYW5rX2JtMjUiLCJzZW50ZW5jZV90cmFuc2Zvcm1lcnMiLAogICAgICAgICJzY2lweSIsIm51bXB5IiwiaHlkcmEiLCJhY2NlbGVyYXRlIiwianNvbmxpbmVzIl0KaW1wb3J0IGltcG9ydGxpYgpmb3IgbSBpbiBtb2RzOgogICAgdHJ5OgogICAgICAgIG1vZCA9IGltcG9ydGxpYi5pbXBvcnRfbW9kdWxlKG0pCiAgICAgICAgcHJpbnQoZiIgIHttfTogT0sge2dldGF0dHIobW9kLCdfX3ZlcnNpb25fXycsJycpfSIpCiAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgcHJpbnQoZiIgIHttfTogTUlTU0lORyAoe3R5cGUoZSkuX19uYW1lX199KSIpCmltcG9ydCB0b3JjaApwcmludCgiICB0b3JjaC5jdWRhOiIsIHRvcmNoLmN1ZGEuaXNfYXZhaWxhYmxlKCksICJ8IGdwdToiLCB0b3JjaC5jdWRhLmdldF9kZXZpY2VfbmFtZSgwKSBpZiB0b3JjaC5jdWRhLmlzX2F2YWlsYWJsZSgpIGVsc2UgIi0iKQpQWQoKZWNobwplY2hvICI9PT09PT09PT09PSA1LiDor4TmtYvpm4bop4TmqKEgPT09PT09PT09PT0iCmxzIC9yb290L2F1dG9kbC10bXAvU2VEUE9fTklQUzI1L2NhY2hlL3NhdmVkX2RhdGFzZXRzLyAyPi9kZXYvbnVsbAo=
+#!/bin/bash
+# 诊断脚本：模型完整性 / 产物体积 / 磁盘 / 依赖
+echo "=========== 1. llama3-8b 目录完整性 ==========="
+ls -la /root/autodl-tmp/models/llama3-8b/
+echo
+echo "--- index 里声明的分片 vs 实际存在的 ---"
+python3 - <<'PY'
+import json, os
+d = "/root/autodl-tmp/models/llama3-8b"
+idx = os.path.join(d, "model.safetensors.index.json")
+if os.path.exists(idx):
+    wm = json.load(open(idx))["weight_map"]
+    shards = sorted(set(wm.values()))
+    print("index 声明分片:", shards)
+    for s in shards:
+        p = os.path.join(d, s)
+        print(f"  {s}: exists={os.path.exists(p)} size={os.path.getsize(p) if os.path.exists(p) else 0}")
+else:
+    print("!! 没有 index.json")
+for f in ["config.json", "tokenizer.json", "tokenizer_config.json", "generation_config.json", "special_tokens_map.json"]:
+    p = os.path.join(d, f)
+    print(f"  {f}: exists={os.path.exists(p)}")
+if os.path.exists(os.path.join(d, "config.json")):
+    c = json.load(open(os.path.join(d, "config.json")))
+    print("  model_type:", c.get("model_type"), "| torch_dtype:", c.get("torch_dtype"),
+          "| vocab:", c.get("vocab_size"), "| max_pos:", c.get("max_position_embeddings"))
+PY
+
+echo
+echo "=========== 2. 已产出文件体积 ==========="
+for f in /root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/scored_qwen/close_qa/*.json* \
+         /root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/find_random_qwen/close_qa/*.json; do
+  [ -e "$f" ] && ls -la "$f"
+done
+
+echo
+echo "=========== 3. 磁盘 ==========="
+df -h /root/autodl-tmp / | tail -3
+echo
+du -sh /root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/* 2>/dev/null
+
+echo
+echo "=========== 4. 依赖可用性 ==========="
+/root/autodl-tmp/envs/se_dpo/bin/python - <<'PY'
+mods = ["torch","transformers","datasets","sklearn","faiss","rank_bm25","sentence_transformers",
+        "scipy","numpy","hydra","accelerate","jsonlines"]
+import importlib
+for m in mods:
+    try:
+        mod = importlib.import_module(m)
+        print(f"  {m}: OK {getattr(mod,'__version__','')}")
+    except Exception as e:
+        print(f"  {m}: MISSING ({type(e).__name__})")
+import torch
+print("  torch.cuda:", torch.cuda.is_available(), "| gpu:", torch.cuda.get_device_name(0) if torch.cuda.is_available() else "-")
+PY
+
+echo
+echo "=========== 5. 评测集规模 ==========="
+ls /root/autodl-tmp/SeDPO_NIPS25/cache/saved_datasets/ 2>/dev/null

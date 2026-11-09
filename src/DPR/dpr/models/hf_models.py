@@ -1,1 +1,346 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwojIENvcHlyaWdodCAoYykgRmFjZWJvb2ssIEluYy4gYW5kIGl0cyBhZmZpbGlhdGVzLgojIEFsbCByaWdodHMgcmVzZXJ2ZWQuCiMKIyBUaGlzIHNvdXJjZSBjb2RlIGlzIGxpY2Vuc2VkIHVuZGVyIHRoZSBsaWNlbnNlIGZvdW5kIGluIHRoZQojIExJQ0VOU0UgZmlsZSBpbiB0aGUgcm9vdCBkaXJlY3Rvcnkgb2YgdGhpcyBzb3VyY2UgdHJlZS4KCiIiIgpFbmNvZGVyIG1vZGVsIHdyYXBwZXJzIGJhc2VkIG9uIEh1Z2dpbmdGYWNlIGNvZGUKIiIiCgppbXBvcnQgbG9nZ2luZwpmcm9tIHR5cGluZyBpbXBvcnQgVHVwbGUKCmltcG9ydCB0b3JjaApmcm9tIHRvcmNoIGltcG9ydCBUZW5zb3IgYXMgVApmcm9tIHRvcmNoIGltcG9ydCBubgpmcm9tIHRyYW5zZm9ybWVycy5tb2RlbHMuYmVydCBpbXBvcnQgQmVydENvbmZpZywgQmVydE1vZGVsCmZyb20gdG9yY2gub3B0aW0gaW1wb3J0IEFkYW1XCmZyb20gdHJhbnNmb3JtZXJzLm1vZGVscy5iZXJ0IGltcG9ydCBCZXJ0VG9rZW5pemVyCmZyb20gdHJhbnNmb3JtZXJzLm1vZGVscy5yb2JlcnRhIGltcG9ydCBSb2JlcnRhVG9rZW5pemVyCgpmcm9tIGRwci5tb2RlbHMuYmllbmNvZGVyIGltcG9ydCBCaUVuY29kZXIKZnJvbSBkcHIudXRpbHMuZGF0YV91dGlscyBpbXBvcnQgVGVuc29yaXplcgpmcm9tIC5yZWFkZXIgaW1wb3J0IFJlYWRlcgoKbG9nZ2VyID0gbG9nZ2luZy5nZXRMb2dnZXIoX19uYW1lX18pCgoKZGVmIGdldF9iZXJ0X2JpZW5jb2Rlcl9jb21wb25lbnRzKGNmZywgaW5mZXJlbmNlX29ubHk6IGJvb2wgPSBGYWxzZSwgKiprd2FyZ3MpOgogICAgZHJvcG91dCA9IGNmZy5lbmNvZGVyLmRyb3BvdXQgaWYgaGFzYXR0cihjZmcuZW5jb2RlciwgImRyb3BvdXQiKSBlbHNlIDAuMAogICAgcXVlc3Rpb25fZW5jb2RlciA9IEhGQmVydEVuY29kZXIuaW5pdF9lbmNvZGVyKAogICAgICAgIGNmZy5lbmNvZGVyLnByZXRyYWluZWRfbW9kZWxfY2ZnLAogICAgICAgIHByb2plY3Rpb25fZGltPWNmZy5lbmNvZGVyLnByb2plY3Rpb25fZGltLAogICAgICAgIGRyb3BvdXQ9ZHJvcG91dCwKICAgICAgICBwcmV0cmFpbmVkPWNmZy5lbmNvZGVyLnByZXRyYWluZWQsCiAgICAgICAgY2FjaGVfZGlyPWNmZy5lbmNvZGVyLmNhY2hlX2RpciwKICAgICAgICAqKmt3YXJncwogICAgKQogICAgY3R4X2VuY29kZXIgPSBIRkJlcnRFbmNvZGVyLmluaXRfZW5jb2RlcigKICAgICAgICBjZmcuZW5jb2Rlci5wcmV0cmFpbmVkX21vZGVsX2NmZywKICAgICAgICBwcm9qZWN0aW9uX2RpbT1jZmcuZW5jb2Rlci5wcm9qZWN0aW9uX2RpbSwKICAgICAgICBkcm9wb3V0PWRyb3BvdXQsCiAgICAgICAgcHJldHJhaW5lZD1jZmcuZW5jb2Rlci5wcmV0cmFpbmVkLAogICAgICAgIGNhY2hlX2Rpcj1jZmcuZW5jb2Rlci5jYWNoZV9kaXIsCiAgICAgICAgKiprd2FyZ3MKICAgICkKCiAgICBmaXhfY3R4X2VuY29kZXIgPSBjZmcuZml4X2N0eF9lbmNvZGVyIGlmIGhhc2F0dHIoY2ZnLCAiZml4X2N0eF9lbmNvZGVyIikgZWxzZSBGYWxzZQoKICAgIGJpZW5jb2RlciA9IEJpRW5jb2RlcigKICAgICAgICBxdWVzdGlvbl9lbmNvZGVyLCBjdHhfZW5jb2RlciwgZml4X2N0eF9lbmNvZGVyPWZpeF9jdHhfZW5jb2RlcgogICAgKQoKICAgIG9wdGltaXplciA9ICgKICAgICAgICBnZXRfb3B0aW1pemVyKAogICAgICAgICAgICBiaWVuY29kZXIsCiAgICAgICAgICAgIGxlYXJuaW5nX3JhdGU9Y2ZnLnRyYWluLmxlYXJuaW5nX3JhdGUsCiAgICAgICAgICAgIGFkYW1fZXBzPWNmZy50cmFpbi5hZGFtX2VwcywKICAgICAgICAgICAgd2VpZ2h0X2RlY2F5PWNmZy50cmFpbi53ZWlnaHRfZGVjYXksCiAgICAgICAgKQogICAgICAgIGlmIG5vdCBpbmZlcmVuY2Vfb25seQogICAgICAgIGVsc2UgTm9uZQogICAgKQoKICAgIHRlbnNvcml6ZXIgPSBnZXRfYmVydF90ZW5zb3JpemVyKGNmZykKICAgIHJldHVybiB0ZW5zb3JpemVyLCBiaWVuY29kZXIsIG9wdGltaXplcgoKCmRlZiBnZXRfYmVydF9yZWFkZXJfY29tcG9uZW50cyhjZmcsIGluZmVyZW5jZV9vbmx5OiBib29sID0gRmFsc2UsICoqa3dhcmdzKToKICAgIGRyb3BvdXQgPSBjZmcuZW5jb2Rlci5kcm9wb3V0IGlmIGhhc2F0dHIoY2ZnLmVuY29kZXIsICJkcm9wb3V0IikgZWxzZSAwLjAKICAgIGVuY29kZXIgPSBIRkJlcnRFbmNvZGVyLmluaXRfZW5jb2RlcigKICAgICAgICBjZmcuZW5jb2Rlci5wcmV0cmFpbmVkX21vZGVsX2NmZywKICAgICAgICBwcm9qZWN0aW9uX2RpbT1jZmcuZW5jb2Rlci5wcm9qZWN0aW9uX2RpbSwKICAgICAgICBkcm9wb3V0PWRyb3BvdXQsCiAgICAgICAgcHJldHJhaW5lZD1jZmcuZW5jb2Rlci5wcmV0cmFpbmVkLAogICAgICAgICoqa3dhcmdzCiAgICApCgogICAgaGlkZGVuX3NpemUgPSBlbmNvZGVyLmNvbmZpZy5oaWRkZW5fc2l6ZQogICAgcmVhZGVyID0gUmVhZGVyKGVuY29kZXIsIGhpZGRlbl9zaXplKQoKICAgIG9wdGltaXplciA9ICgKICAgICAgICBnZXRfb3B0aW1pemVyKAogICAgICAgICAgICByZWFkZXIsCiAgICAgICAgICAgIGxlYXJuaW5nX3JhdGU9Y2ZnLnRyYWluLmxlYXJuaW5nX3JhdGUsCiAgICAgICAgICAgIGFkYW1fZXBzPWNmZy50cmFpbi5hZGFtX2VwcywKICAgICAgICAgICAgd2VpZ2h0X2RlY2F5PWNmZy50cmFpbi53ZWlnaHRfZGVjYXksCiAgICAgICAgKQogICAgICAgIGlmIG5vdCBpbmZlcmVuY2Vfb25seQogICAgICAgIGVsc2UgTm9uZQogICAgKQoKICAgIHRlbnNvcml6ZXIgPSBnZXRfYmVydF90ZW5zb3JpemVyKGNmZykKICAgIHJldHVybiB0ZW5zb3JpemVyLCByZWFkZXIsIG9wdGltaXplcgoKCmRlZiBnZXRfYmVydF90ZW5zb3JpemVyKGNmZywgdG9rZW5pemVyPU5vbmUpOgogICAgc2VxdWVuY2VfbGVuZ3RoID0gY2ZnLmVuY29kZXIuc2VxdWVuY2VfbGVuZ3RoCiAgICBwcmV0cmFpbmVkX21vZGVsX2NmZyA9IGNmZy5lbmNvZGVyLnByZXRyYWluZWRfbW9kZWxfY2ZnCiAgICBjYWNoZV9kaXI9Y2ZnLmVuY29kZXIuY2FjaGVfZGlyCiAgICBpZiBub3QgdG9rZW5pemVyOgogICAgICAgIHRva2VuaXplciA9IGdldF9iZXJ0X3Rva2VuaXplcigKICAgICAgICAgICAgcHJldHJhaW5lZF9tb2RlbF9jZmcsIGRvX2xvd2VyX2Nhc2U9Y2ZnLmRvX2xvd2VyX2Nhc2UsY2FjaGVfZGlyPWNhY2hlX2RpcgogICAgICAgICkKICAgICAgICBpZiBjZmcuc3BlY2lhbF90b2tlbnM6CiAgICAgICAgICAgIF9hZGRfc3BlY2lhbF90b2tlbnModG9rZW5pemVyLCBjZmcuc3BlY2lhbF90b2tlbnMpCgogICAgcmV0dXJuIEJlcnRUZW5zb3JpemVyKHRva2VuaXplciwgc2VxdWVuY2VfbGVuZ3RoKQoKCmRlZiBfYWRkX3NwZWNpYWxfdG9rZW5zKHRva2VuaXplciwgc3BlY2lhbF90b2tlbnMpOgogICAgbG9nZ2VyLmluZm8oIkFkZGluZyBzcGVjaWFsIHRva2VucyAlcyIsIHNwZWNpYWxfdG9rZW5zKQogICAgc3BlY2lhbF90b2tlbnNfbnVtID0gbGVuKHNwZWNpYWxfdG9rZW5zKQogICAgIyBUT0RPOiB0aGlzIGlzIGEgaGFjay15IGxvZ2ljIHRoYXQgdXNlcyBzb21lIHByaXZhdGUgdG9rZW5pemVyIHN0cnVjdHVyZSB3aGljaCBjYW4gYmUgY2hhbmdlZCBpbiBIRiBjb2RlCiAgICBhc3NlcnQgc3BlY2lhbF90b2tlbnNfbnVtIDwgNTAKICAgIHVudXNlZF9pZHMgPSBbCiAgICAgICAgdG9rZW5pemVyLnZvY2FiWyJbdW51c2Vke31dIi5mb3JtYXQoaSldIGZvciBpIGluIHJhbmdlKHNwZWNpYWxfdG9rZW5zX251bSkKICAgIF0KICAgIGxvZ2dlci5pbmZvKCJVdGlsaXppbmcgdGhlIGZvbGxvd2luZyB1bnVzZWQgdG9rZW4gaWRzICVzIiwgdW51c2VkX2lkcykKCiAgICBmb3IgaWR4LCBpZCBpbiBlbnVtZXJhdGUodW51c2VkX2lkcyk6CiAgICAgICAgZGVsIHRva2VuaXplci52b2NhYlsiW3VudXNlZHt9XSIuZm9ybWF0KGlkeCldCiAgICAgICAgdG9rZW5pemVyLnZvY2FiW3NwZWNpYWxfdG9rZW5zW2lkeF1dID0gaWQKICAgICAgICB0b2tlbml6ZXIuaWRzX3RvX3Rva2Vuc1tpZF0gPSBzcGVjaWFsX3Rva2Vuc1tpZHhdCgogICAgdG9rZW5pemVyLl9hZGRpdGlvbmFsX3NwZWNpYWxfdG9rZW5zID0gbGlzdChzcGVjaWFsX3Rva2VucykKICAgIGxvZ2dlci5pbmZvKAogICAgICAgICJBZGRlZCBzcGVjaWFsIHRva2VuaXplci5hZGRpdGlvbmFsX3NwZWNpYWxfdG9rZW5zICVzIiwKICAgICAgICB0b2tlbml6ZXIuYWRkaXRpb25hbF9zcGVjaWFsX3Rva2VucywKICAgICkKICAgIGxvZ2dlci5pbmZvKCJUb2tlbml6ZXIncyBhbGxfc3BlY2lhbF90b2tlbnMgJXMiLCB0b2tlbml6ZXIuYWxsX3NwZWNpYWxfdG9rZW5zKQoKCmRlZiBnZXRfcm9iZXJ0YV90ZW5zb3JpemVyKGFyZ3MsIHRva2VuaXplcj1Ob25lKToKICAgIGlmIG5vdCB0b2tlbml6ZXI6CiAgICAgICAgdG9rZW5pemVyID0gZ2V0X3JvYmVydGFfdG9rZW5pemVyKAogICAgICAgICAgICBhcmdzLmVuY29kZXIucHJldHJhaW5lZF9tb2RlbF9jZmcsIGRvX2xvd2VyX2Nhc2U9YXJncy5kb19sb3dlcl9jYXNlCiAgICAgICAgKQogICAgcmV0dXJuIFJvYmVydGFUZW5zb3JpemVyKHRva2VuaXplciwgYXJncy5lbmNvZGVyLnNlcXVlbmNlX2xlbmd0aCkKCgpkZWYgZ2V0X29wdGltaXplcigKICAgIG1vZGVsOiBubi5Nb2R1bGUsCiAgICBsZWFybmluZ19yYXRlOiBmbG9hdCA9IDFlLTUsCiAgICBhZGFtX2VwczogZmxvYXQgPSAxZS04LAogICAgd2VpZ2h0X2RlY2F5OiBmbG9hdCA9IDAuMCwKKSAtPiB0b3JjaC5vcHRpbS5PcHRpbWl6ZXI6CiAgICBub19kZWNheSA9IFsiYmlhcyIsICJMYXllck5vcm0ud2VpZ2h0Il0KCiAgICBvcHRpbWl6ZXJfZ3JvdXBlZF9wYXJhbWV0ZXJzID0gWwogICAgICAgIHsKICAgICAgICAgICAgInBhcmFtcyI6IFsKICAgICAgICAgICAgICAgIHAKICAgICAgICAgICAgICAgIGZvciBuLCBwIGluIG1vZGVsLm5hbWVkX3BhcmFtZXRlcnMoKQogICAgICAgICAgICAgICAgaWYgbm90IGFueShuZCBpbiBuIGZvciBuZCBpbiBub19kZWNheSkKICAgICAgICAgICAgXSwKICAgICAgICAgICAgIndlaWdodF9kZWNheSI6IHdlaWdodF9kZWNheSwKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICAgInBhcmFtcyI6IFsKICAgICAgICAgICAgICAgIHAKICAgICAgICAgICAgICAgIGZvciBuLCBwIGluIG1vZGVsLm5hbWVkX3BhcmFtZXRlcnMoKQogICAgICAgICAgICAgICAgaWYgYW55KG5kIGluIG4gZm9yIG5kIGluIG5vX2RlY2F5KQogICAgICAgICAgICBdLAogICAgICAgICAgICAid2VpZ2h0X2RlY2F5IjogMC4wLAogICAgICAgIH0sCiAgICBdCiAgICBvcHRpbWl6ZXIgPSBBZGFtVyhvcHRpbWl6ZXJfZ3JvdXBlZF9wYXJhbWV0ZXJzLCBscj1sZWFybmluZ19yYXRlLCBlcHM9YWRhbV9lcHMpCiAgICByZXR1cm4gb3B0aW1pemVyCgoKZGVmIGdldF9iZXJ0X3Rva2VuaXplcihwcmV0cmFpbmVkX2NmZ19uYW1lOiBzdHIsIGRvX2xvd2VyX2Nhc2U6IGJvb2wgPSBUcnVlLCAqKmt3YXJncyk6CiAgICB0cnk6CiAgICAgICAgcmV0dXJuIEJlcnRUb2tlbml6ZXIuZnJvbV9wcmV0cmFpbmVkKAogICAgICAgICAgICBwcmV0cmFpbmVkX2NmZ19uYW1lLCBkb19sb3dlcl9jYXNlPWRvX2xvd2VyX2Nhc2UsKiprd2FyZ3MKICAgICAgICApCiAgICBleGNlcHQgVmFsdWVFcnJvcjoKICAgICAgICByZXR1cm4gQmVydFRva2VuaXplci5mcm9tX3ByZXRyYWluZWQoCiAgICAgICAgICAgICIvdmNfZGF0YS92LWRhY2hlbmcvY2FjaGUvbW9kZWxzLS1iZXJ0LWJhc2UtdW5jYXNlZC9zbmFwc2hvdHMvMGE2YWE5MTI4YjYxOTRmNGYzYzRkYjQyOWI2Y2I0ODkxY2RiNDIxYi8iLCBkb19sb3dlcl9jYXNlPWRvX2xvd2VyX2Nhc2UKICAgICAgICApCiAgICAgICAgCgoKZGVmIGdldF9yb2JlcnRhX3Rva2VuaXplcihwcmV0cmFpbmVkX2NmZ19uYW1lOiBzdHIsIGRvX2xvd2VyX2Nhc2U6IGJvb2wgPSBUcnVlKToKICAgICMgc3RpbGwgdXNlcyBIRiBjb2RlIGZvciB0b2tlbml6ZXIgc2luY2UgdGhleSBhcmUgdGhlIHNhbWUKICAgIHJldHVybiBSb2JlcnRhVG9rZW5pemVyLmZyb21fcHJldHJhaW5lZCgKICAgICAgICBwcmV0cmFpbmVkX2NmZ19uYW1lLCBkb19sb3dlcl9jYXNlPWRvX2xvd2VyX2Nhc2UKICAgICkKCgpjbGFzcyBIRkJlcnRFbmNvZGVyKEJlcnRNb2RlbCk6CiAgICBkZWYgX19pbml0X18oc2VsZiwgY29uZmlnLCBwcm9qZWN0X2RpbTogaW50ID0gMCk6CiAgICAgICAgQmVydE1vZGVsLl9faW5pdF9fKHNlbGYsIGNvbmZpZykKICAgICAgICBhc3NlcnQgY29uZmlnLmhpZGRlbl9zaXplID4gMCwgIkVuY29kZXIgaGlkZGVuX3NpemUgY2FuJ3QgYmUgemVybyIKICAgICAgICBzZWxmLmVuY29kZV9wcm9qID0gKAogICAgICAgICAgICBubi5MaW5lYXIoY29uZmlnLmhpZGRlbl9zaXplLCBwcm9qZWN0X2RpbSkgaWYgcHJvamVjdF9kaW0gIT0gMCBlbHNlIE5vbmUKICAgICAgICApCiAgICAgICAgc2VsZi5pbml0X3dlaWdodHMoKQoKICAgIEBjbGFzc21ldGhvZAogICAgZGVmIGluaXRfZW5jb2RlcigKICAgICAgICBjbHMsCiAgICAgICAgY2ZnX25hbWU6IHN0ciwKICAgICAgICBwcm9qZWN0aW9uX2RpbTogaW50ID0gMCwKICAgICAgICBkcm9wb3V0OiBmbG9hdCA9IDAuMSwKICAgICAgICBwcmV0cmFpbmVkOiBib29sID0gVHJ1ZSwKICAgICAgICAqKmt3YXJncwogICAgKSAtPiBCZXJ0TW9kZWw6CiAgICAgICAgY2ZnID0gQmVydENvbmZpZy5mcm9tX3ByZXRyYWluZWQoY2ZnX25hbWUgaWYgY2ZnX25hbWUgZWxzZSAiYmVydC1iYXNlLXVuY2FzZWQiLCoqa3dhcmdzKQogICAgICAgIGlmIGRyb3BvdXQgIT0gMDoKICAgICAgICAgICAgY2ZnLmF0dGVudGlvbl9wcm9ic19kcm9wb3V0X3Byb2IgPSBkcm9wb3V0CiAgICAgICAgICAgIGNmZy5oaWRkZW5fZHJvcG91dF9wcm9iID0gZHJvcG91dAoKICAgICAgICBpZiBwcmV0cmFpbmVkOgogICAgICAgICAgICByZXR1cm4gY2xzLmZyb21fcHJldHJhaW5lZCgKICAgICAgICAgICAgICAgIGNmZ19uYW1lLCBjb25maWc9Y2ZnLCBwcm9qZWN0X2RpbT1wcm9qZWN0aW9uX2RpbSwgKiprd2FyZ3MKICAgICAgICAgICAgKQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHJldHVybiBIRkJlcnRFbmNvZGVyKGNmZywgcHJvamVjdF9kaW09cHJvamVjdGlvbl9kaW0pCgogICAgZGVmIGZvcndhcmQoCiAgICAgICAgc2VsZiwKICAgICAgICBpbnB1dF9pZHM6IFQsCiAgICAgICAgdG9rZW5fdHlwZV9pZHM6IFQsCiAgICAgICAgYXR0ZW50aW9uX21hc2s6IFQsCiAgICAgICAgcmVwcmVzZW50YXRpb25fdG9rZW5fcG9zPTAsCiAgICAgICAgCiAgICApIC0+IFR1cGxlW1QsIC4uLl06CiAgICAgICAgaWYgc2VsZi5jb25maWcub3V0cHV0X2hpZGRlbl9zdGF0ZXM6CiAgICAgICAgICAgIHNlcXVlbmNlX291dHB1dCwgcG9vbGVkX291dHB1dCwgaGlkZGVuX3N0YXRlcyA9IHN1cGVyKCkuZm9yd2FyZCgKICAgICAgICAgICAgICAgIGlucHV0X2lkcz1pbnB1dF9pZHMsCiAgICAgICAgICAgICAgICB0b2tlbl90eXBlX2lkcz10b2tlbl90eXBlX2lkcywKICAgICAgICAgICAgICAgIGF0dGVudGlvbl9tYXNrPWF0dGVudGlvbl9tYXNrLAogICAgICAgICAgICAgICAgcmV0dXJuX2RpY3Q9RmFsc2UsCiAgICAgICAgICAgICkKICAgICAgICBlbHNlOgogICAgICAgICAgICBoaWRkZW5fc3RhdGVzID0gTm9uZQogICAgICAgICAgICBzZXF1ZW5jZV9vdXRwdXQsIHBvb2xlZF9vdXRwdXQgPSBzdXBlcigpLmZvcndhcmQoCiAgICAgICAgICAgICAgICBpbnB1dF9pZHM9aW5wdXRfaWRzLAogICAgICAgICAgICAgICAgdG9rZW5fdHlwZV9pZHM9dG9rZW5fdHlwZV9pZHMsCiAgICAgICAgICAgICAgICBhdHRlbnRpb25fbWFzaz1hdHRlbnRpb25fbWFzaywKICAgICAgICAgICAgICAgIHJldHVybl9kaWN0PUZhbHNlLAogICAgICAgICAgICApCgogICAgICAgIGlmIGlzaW5zdGFuY2UocmVwcmVzZW50YXRpb25fdG9rZW5fcG9zLCBpbnQpOgogICAgICAgICAgICBwb29sZWRfb3V0cHV0ID0gc2VxdWVuY2Vfb3V0cHV0WzosIHJlcHJlc2VudGF0aW9uX3Rva2VuX3BvcywgOl0KICAgICAgICBlbHNlOiAgIyB0cmVhdCBhcyBhIHRlbnNvcgogICAgICAgICAgICBic3ogPSBzZXF1ZW5jZV9vdXRwdXQuc2l6ZSgwKQogICAgICAgICAgICBhc3NlcnQgKAogICAgICAgICAgICAgICAgcmVwcmVzZW50YXRpb25fdG9rZW5fcG9zLnNpemUoMCkgPT0gYnN6CiAgICAgICAgICAgICksICJxdWVyeSBic3o9e30gd2hpbGUgcmVwcmVzZW50YXRpb25fdG9rZW5fcG9zIGJzej17fSIuZm9ybWF0KAogICAgICAgICAgICAgICAgYnN6LCByZXByZXNlbnRhdGlvbl90b2tlbl9wb3Muc2l6ZSgwKQogICAgICAgICAgICApCiAgICAgICAgICAgIHBvb2xlZF9vdXRwdXQgPSB0b3JjaC5zdGFjaygKICAgICAgICAgICAgICAgIFsKICAgICAgICAgICAgICAgICAgICBzZXF1ZW5jZV9vdXRwdXRbaSwgcmVwcmVzZW50YXRpb25fdG9rZW5fcG9zW2ksIDFdLCA6XQogICAgICAgICAgICAgICAgICAgIGZvciBpIGluIHJhbmdlKGJzeikKICAgICAgICAgICAgICAgIF0KICAgICAgICAgICAgKQoKICAgICAgICBpZiBzZWxmLmVuY29kZV9wcm9qOgogICAgICAgICAgICBwb29sZWRfb3V0cHV0ID0gc2VsZi5lbmNvZGVfcHJvaihwb29sZWRfb3V0cHV0KQogICAgICAgIHJldHVybiBzZXF1ZW5jZV9vdXRwdXQsIHBvb2xlZF9vdXRwdXQsIGhpZGRlbl9zdGF0ZXMKCiAgICBkZWYgZ2V0X291dF9zaXplKHNlbGYpOgogICAgICAgIGlmIHNlbGYuZW5jb2RlX3Byb2o6CiAgICAgICAgICAgIHJldHVybiBzZWxmLmVuY29kZV9wcm9qLm91dF9mZWF0dXJlcwogICAgICAgIHJldHVybiBzZWxmLmNvbmZpZy5oaWRkZW5fc2l6ZQoKCmNsYXNzIEJlcnRUZW5zb3JpemVyKFRlbnNvcml6ZXIpOgogICAgZGVmIF9faW5pdF9fKAogICAgICAgIHNlbGYsIHRva2VuaXplcjogQmVydFRva2VuaXplciwgbWF4X2xlbmd0aDogaW50LCBwYWRfdG9fbWF4OiBib29sID0gVHJ1ZQogICAgKToKICAgICAgICBzZWxmLnRva2VuaXplciA9IHRva2VuaXplcgogICAgICAgIHNlbGYubWF4X2xlbmd0aCA9IG1heF9sZW5ndGgKICAgICAgICBzZWxmLnBhZF90b19tYXggPSBwYWRfdG9fbWF4CgogICAgZGVmIHRleHRfdG9fdGVuc29yKAogICAgICAgIHNlbGYsCiAgICAgICAgdGV4dDogc3RyLAogICAgICAgIHRpdGxlOiBzdHIgPSBOb25lLAogICAgICAgIGFkZF9zcGVjaWFsX3Rva2VuczogYm9vbCA9IFRydWUsCiAgICAgICAgYXBwbHlfbWF4X2xlbjogYm9vbCA9IFRydWUsCiAgICApOgogICAgICAgIHRleHQgPSB0ZXh0LnN0cmlwKCkKICAgICAgICAjIHRva2VuaXplciBhdXRvbWF0aWMgcGFkZGluZyBpcyBleHBsaWNpdGx5IGRpc2FibGVkIHNpbmNlIGl0cyBpbmNvbnNpc3RlbnQgYmVoYXZpb3IKICAgICAgICAjIFRPRE86IG1vdmUgbWF4IGxlbiB0byBtZXRob2RzIHBhcmFtcz8KICAgICAgICBpZiB0aXRsZToKICAgICAgICAgICAgdG9rZW5faWRzID0gc2VsZi50b2tlbml6ZXIuZW5jb2RlKAogICAgICAgICAgICAgICAgdGl0bGUsCiAgICAgICAgICAgICAgICB0ZXh0X3BhaXI9dGV4dCwKICAgICAgICAgICAgICAgIGFkZF9zcGVjaWFsX3Rva2Vucz1hZGRfc3BlY2lhbF90b2tlbnMsCiAgICAgICAgICAgICAgICBtYXhfbGVuZ3RoPXNlbGYubWF4X2xlbmd0aCBpZiBhcHBseV9tYXhfbGVuIGVsc2UgMTAwMDAsCiAgICAgICAgICAgICAgICAjIHBhZF90b19tYXhfbGVuZ3RoPUZhbHNlLAogICAgICAgICAgICAgICAgdHJ1bmNhdGlvbj1UcnVlLAogICAgICAgICAgICApCiAgICAgICAgZWxzZToKICAgICAgICAgICAgdG9rZW5faWRzID0gc2VsZi50b2tlbml6ZXIuZW5jb2RlKAogICAgICAgICAgICAgICAgdGV4dCwKICAgICAgICAgICAgICAgIGFkZF9zcGVjaWFsX3Rva2Vucz1hZGRfc3BlY2lhbF90b2tlbnMsCiAgICAgICAgICAgICAgICBtYXhfbGVuZ3RoPXNlbGYubWF4X2xlbmd0aCBpZiBhcHBseV9tYXhfbGVuIGVsc2UgMTAwMDAsCiAgICAgICAgICAgICAgICAjIHBhZF90b19tYXhfbGVuZ3RoPUZhbHNlLAogICAgICAgICAgICAgICAgdHJ1bmNhdGlvbj1UcnVlLAogICAgICAgICAgICApCgogICAgICAgIHNlcV9sZW4gPSBzZWxmLm1heF9sZW5ndGgKICAgICAgICBpZiBzZWxmLnBhZF90b19tYXggYW5kIGxlbih0b2tlbl9pZHMpIDwgc2VxX2xlbjoKICAgICAgICAgICAgdG9rZW5faWRzID0gdG9rZW5faWRzICsgW3NlbGYudG9rZW5pemVyLnBhZF90b2tlbl9pZF0gKiAoCiAgICAgICAgICAgICAgICBzZXFfbGVuIC0gbGVuKHRva2VuX2lkcykKICAgICAgICAgICAgKQogICAgICAgIGlmIGxlbih0b2tlbl9pZHMpID49IHNlcV9sZW46CiAgICAgICAgICAgIHRva2VuX2lkcyA9IHRva2VuX2lkc1swOnNlcV9sZW5dIGlmIGFwcGx5X21heF9sZW4gZWxzZSB0b2tlbl9pZHMKICAgICAgICAgICAgdG9rZW5faWRzWy0xXSA9IHNlbGYudG9rZW5pemVyLnNlcF90b2tlbl9pZAoKICAgICAgICByZXR1cm4gdG9yY2gudGVuc29yKHRva2VuX2lkcykKCiAgICBkZWYgZ2V0X3BhaXJfc2VwYXJhdG9yX2lkcyhzZWxmKSAtPiBUOgogICAgICAgIHJldHVybiB0b3JjaC50ZW5zb3IoW3NlbGYudG9rZW5pemVyLnNlcF90b2tlbl9pZF0pCgogICAgZGVmIGdldF9wYWRfaWQoc2VsZikgLT4gaW50OgogICAgICAgIHJldHVybiBzZWxmLnRva2VuaXplci5wYWRfdG9rZW5faWQKCiAgICBkZWYgZ2V0X2F0dG5fbWFzayhzZWxmLCB0b2tlbnNfdGVuc29yOiBUKSAtPiBUOgogICAgICAgIHJldHVybiB0b2tlbnNfdGVuc29yICE9IHNlbGYuZ2V0X3BhZF9pZCgpCgogICAgZGVmIGlzX3N1Yl93b3JkX2lkKHNlbGYsIHRva2VuX2lkOiBpbnQpOgogICAgICAgIHRva2VuID0gc2VsZi50b2tlbml6ZXIuY29udmVydF9pZHNfdG9fdG9rZW5zKFt0b2tlbl9pZF0pWzBdCiAgICAgICAgcmV0dXJuIHRva2VuLnN0YXJ0c3dpdGgoIiMjIikgb3IgdG9rZW4uc3RhcnRzd2l0aCgiICMjIikKCiAgICBkZWYgdG9fc3RyaW5nKHNlbGYsIHRva2VuX2lkcywgc2tpcF9zcGVjaWFsX3Rva2Vucz1UcnVlKToKICAgICAgICByZXR1cm4gc2VsZi50b2tlbml6ZXIuZGVjb2RlKHRva2VuX2lkcywgc2tpcF9zcGVjaWFsX3Rva2Vucz1za2lwX3NwZWNpYWxfdG9rZW5zKQoKICAgIGRlZiBzZXRfcGFkX3RvX21heChzZWxmLCBkb19wYWQ6IGJvb2wpOgogICAgICAgIHNlbGYucGFkX3RvX21heCA9IGRvX3BhZAoKICAgIGRlZiBnZXRfdG9rZW5faWQoc2VsZiwgdG9rZW46IHN0cikgLT4gaW50OgogICAgICAgIHJldHVybiBzZWxmLnRva2VuaXplci52b2NhYlt0b2tlbl0KCgpjbGFzcyBSb2JlcnRhVGVuc29yaXplcihCZXJ0VGVuc29yaXplcik6CiAgICBkZWYgX19pbml0X18oc2VsZiwgdG9rZW5pemVyLCBtYXhfbGVuZ3RoOiBpbnQsIHBhZF90b19tYXg6IGJvb2wgPSBUcnVlKToKICAgICAgICBzdXBlcihSb2JlcnRhVGVuc29yaXplciwgc2VsZikuX19pbml0X18oCiAgICAgICAgICAgIHRva2VuaXplciwgbWF4X2xlbmd0aCwgcGFkX3RvX21heD1wYWRfdG9fbWF4CiAgICAgICAgKQo=
+#!/usr/bin/env python3
+# Copyright (c) Facebook, Inc. and its affiliates.
+# All rights reserved.
+#
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+
+"""
+Encoder model wrappers based on HuggingFace code
+"""
+
+import logging
+from typing import Tuple
+
+import torch
+from torch import Tensor as T
+from torch import nn
+from transformers.models.bert import BertConfig, BertModel
+from torch.optim import AdamW
+from transformers.models.bert import BertTokenizer
+from transformers.models.roberta import RobertaTokenizer
+
+from dpr.models.biencoder import BiEncoder
+from dpr.utils.data_utils import Tensorizer
+from .reader import Reader
+
+logger = logging.getLogger(__name__)
+
+
+def get_bert_biencoder_components(cfg, inference_only: bool = False, **kwargs):
+    dropout = cfg.encoder.dropout if hasattr(cfg.encoder, "dropout") else 0.0
+    question_encoder = HFBertEncoder.init_encoder(
+        cfg.encoder.pretrained_model_cfg,
+        projection_dim=cfg.encoder.projection_dim,
+        dropout=dropout,
+        pretrained=cfg.encoder.pretrained,
+        cache_dir=cfg.encoder.cache_dir,
+        **kwargs
+    )
+    ctx_encoder = HFBertEncoder.init_encoder(
+        cfg.encoder.pretrained_model_cfg,
+        projection_dim=cfg.encoder.projection_dim,
+        dropout=dropout,
+        pretrained=cfg.encoder.pretrained,
+        cache_dir=cfg.encoder.cache_dir,
+        **kwargs
+    )
+
+    fix_ctx_encoder = cfg.fix_ctx_encoder if hasattr(cfg, "fix_ctx_encoder") else False
+
+    biencoder = BiEncoder(
+        question_encoder, ctx_encoder, fix_ctx_encoder=fix_ctx_encoder
+    )
+
+    optimizer = (
+        get_optimizer(
+            biencoder,
+            learning_rate=cfg.train.learning_rate,
+            adam_eps=cfg.train.adam_eps,
+            weight_decay=cfg.train.weight_decay,
+        )
+        if not inference_only
+        else None
+    )
+
+    tensorizer = get_bert_tensorizer(cfg)
+    return tensorizer, biencoder, optimizer
+
+
+def get_bert_reader_components(cfg, inference_only: bool = False, **kwargs):
+    dropout = cfg.encoder.dropout if hasattr(cfg.encoder, "dropout") else 0.0
+    encoder = HFBertEncoder.init_encoder(
+        cfg.encoder.pretrained_model_cfg,
+        projection_dim=cfg.encoder.projection_dim,
+        dropout=dropout,
+        pretrained=cfg.encoder.pretrained,
+        **kwargs
+    )
+
+    hidden_size = encoder.config.hidden_size
+    reader = Reader(encoder, hidden_size)
+
+    optimizer = (
+        get_optimizer(
+            reader,
+            learning_rate=cfg.train.learning_rate,
+            adam_eps=cfg.train.adam_eps,
+            weight_decay=cfg.train.weight_decay,
+        )
+        if not inference_only
+        else None
+    )
+
+    tensorizer = get_bert_tensorizer(cfg)
+    return tensorizer, reader, optimizer
+
+
+def get_bert_tensorizer(cfg, tokenizer=None):
+    sequence_length = cfg.encoder.sequence_length
+    pretrained_model_cfg = cfg.encoder.pretrained_model_cfg
+    cache_dir=cfg.encoder.cache_dir
+    if not tokenizer:
+        tokenizer = get_bert_tokenizer(
+            pretrained_model_cfg, do_lower_case=cfg.do_lower_case,cache_dir=cache_dir
+        )
+        if cfg.special_tokens:
+            _add_special_tokens(tokenizer, cfg.special_tokens)
+
+    return BertTensorizer(tokenizer, sequence_length)
+
+
+def _add_special_tokens(tokenizer, special_tokens):
+    logger.info("Adding special tokens %s", special_tokens)
+    special_tokens_num = len(special_tokens)
+    # TODO: this is a hack-y logic that uses some private tokenizer structure which can be changed in HF code
+    assert special_tokens_num < 50
+    unused_ids = [
+        tokenizer.vocab["[unused{}]".format(i)] for i in range(special_tokens_num)
+    ]
+    logger.info("Utilizing the following unused token ids %s", unused_ids)
+
+    for idx, id in enumerate(unused_ids):
+        del tokenizer.vocab["[unused{}]".format(idx)]
+        tokenizer.vocab[special_tokens[idx]] = id
+        tokenizer.ids_to_tokens[id] = special_tokens[idx]
+
+    tokenizer._additional_special_tokens = list(special_tokens)
+    logger.info(
+        "Added special tokenizer.additional_special_tokens %s",
+        tokenizer.additional_special_tokens,
+    )
+    logger.info("Tokenizer's all_special_tokens %s", tokenizer.all_special_tokens)
+
+
+def get_roberta_tensorizer(args, tokenizer=None):
+    if not tokenizer:
+        tokenizer = get_roberta_tokenizer(
+            args.encoder.pretrained_model_cfg, do_lower_case=args.do_lower_case
+        )
+    return RobertaTensorizer(tokenizer, args.encoder.sequence_length)
+
+
+def get_optimizer(
+    model: nn.Module,
+    learning_rate: float = 1e-5,
+    adam_eps: float = 1e-8,
+    weight_decay: float = 0.0,
+) -> torch.optim.Optimizer:
+    no_decay = ["bias", "LayerNorm.weight"]
+
+    optimizer_grouped_parameters = [
+        {
+            "params": [
+                p
+                for n, p in model.named_parameters()
+                if not any(nd in n for nd in no_decay)
+            ],
+            "weight_decay": weight_decay,
+        },
+        {
+            "params": [
+                p
+                for n, p in model.named_parameters()
+                if any(nd in n for nd in no_decay)
+            ],
+            "weight_decay": 0.0,
+        },
+    ]
+    optimizer = AdamW(optimizer_grouped_parameters, lr=learning_rate, eps=adam_eps)
+    return optimizer
+
+
+def get_bert_tokenizer(pretrained_cfg_name: str, do_lower_case: bool = True, **kwargs):
+    try:
+        return BertTokenizer.from_pretrained(
+            pretrained_cfg_name, do_lower_case=do_lower_case,**kwargs
+        )
+    except ValueError:
+        return BertTokenizer.from_pretrained(
+            "/vc_data/v-dacheng/cache/models--bert-base-uncased/snapshots/0a6aa9128b6194f4f3c4db429b6cb4891cdb421b/", do_lower_case=do_lower_case
+        )
+        
+
+
+def get_roberta_tokenizer(pretrained_cfg_name: str, do_lower_case: bool = True):
+    # still uses HF code for tokenizer since they are the same
+    return RobertaTokenizer.from_pretrained(
+        pretrained_cfg_name, do_lower_case=do_lower_case
+    )
+
+
+class HFBertEncoder(BertModel):
+    def __init__(self, config, project_dim: int = 0):
+        BertModel.__init__(self, config)
+        assert config.hidden_size > 0, "Encoder hidden_size can't be zero"
+        self.encode_proj = (
+            nn.Linear(config.hidden_size, project_dim) if project_dim != 0 else None
+        )
+        self.init_weights()
+
+    @classmethod
+    def init_encoder(
+        cls,
+        cfg_name: str,
+        projection_dim: int = 0,
+        dropout: float = 0.1,
+        pretrained: bool = True,
+        **kwargs
+    ) -> BertModel:
+        cfg = BertConfig.from_pretrained(cfg_name if cfg_name else "bert-base-uncased",**kwargs)
+        if dropout != 0:
+            cfg.attention_probs_dropout_prob = dropout
+            cfg.hidden_dropout_prob = dropout
+
+        if pretrained:
+            return cls.from_pretrained(
+                cfg_name, config=cfg, project_dim=projection_dim, **kwargs
+            )
+        else:
+            return HFBertEncoder(cfg, project_dim=projection_dim)
+
+    def forward(
+        self,
+        input_ids: T,
+        token_type_ids: T,
+        attention_mask: T,
+        representation_token_pos=0,
+        
+    ) -> Tuple[T, ...]:
+        if self.config.output_hidden_states:
+            sequence_output, pooled_output, hidden_states = super().forward(
+                input_ids=input_ids,
+                token_type_ids=token_type_ids,
+                attention_mask=attention_mask,
+                return_dict=False,
+            )
+        else:
+            hidden_states = None
+            sequence_output, pooled_output = super().forward(
+                input_ids=input_ids,
+                token_type_ids=token_type_ids,
+                attention_mask=attention_mask,
+                return_dict=False,
+            )
+
+        if isinstance(representation_token_pos, int):
+            pooled_output = sequence_output[:, representation_token_pos, :]
+        else:  # treat as a tensor
+            bsz = sequence_output.size(0)
+            assert (
+                representation_token_pos.size(0) == bsz
+            ), "query bsz={} while representation_token_pos bsz={}".format(
+                bsz, representation_token_pos.size(0)
+            )
+            pooled_output = torch.stack(
+                [
+                    sequence_output[i, representation_token_pos[i, 1], :]
+                    for i in range(bsz)
+                ]
+            )
+
+        if self.encode_proj:
+            pooled_output = self.encode_proj(pooled_output)
+        return sequence_output, pooled_output, hidden_states
+
+    def get_out_size(self):
+        if self.encode_proj:
+            return self.encode_proj.out_features
+        return self.config.hidden_size
+
+
+class BertTensorizer(Tensorizer):
+    def __init__(
+        self, tokenizer: BertTokenizer, max_length: int, pad_to_max: bool = True
+    ):
+        self.tokenizer = tokenizer
+        self.max_length = max_length
+        self.pad_to_max = pad_to_max
+
+    def text_to_tensor(
+        self,
+        text: str,
+        title: str = None,
+        add_special_tokens: bool = True,
+        apply_max_len: bool = True,
+    ):
+        text = text.strip()
+        # tokenizer automatic padding is explicitly disabled since its inconsistent behavior
+        # TODO: move max len to methods params?
+        if title:
+            token_ids = self.tokenizer.encode(
+                title,
+                text_pair=text,
+                add_special_tokens=add_special_tokens,
+                max_length=self.max_length if apply_max_len else 10000,
+                # pad_to_max_length=False,
+                truncation=True,
+            )
+        else:
+            token_ids = self.tokenizer.encode(
+                text,
+                add_special_tokens=add_special_tokens,
+                max_length=self.max_length if apply_max_len else 10000,
+                # pad_to_max_length=False,
+                truncation=True,
+            )
+
+        seq_len = self.max_length
+        if self.pad_to_max and len(token_ids) < seq_len:
+            token_ids = token_ids + [self.tokenizer.pad_token_id] * (
+                seq_len - len(token_ids)
+            )
+        if len(token_ids) >= seq_len:
+            token_ids = token_ids[0:seq_len] if apply_max_len else token_ids
+            token_ids[-1] = self.tokenizer.sep_token_id
+
+        return torch.tensor(token_ids)
+
+    def get_pair_separator_ids(self) -> T:
+        return torch.tensor([self.tokenizer.sep_token_id])
+
+    def get_pad_id(self) -> int:
+        return self.tokenizer.pad_token_id
+
+    def get_attn_mask(self, tokens_tensor: T) -> T:
+        return tokens_tensor != self.get_pad_id()
+
+    def is_sub_word_id(self, token_id: int):
+        token = self.tokenizer.convert_ids_to_tokens([token_id])[0]
+        return token.startswith("##") or token.startswith(" ##")
+
+    def to_string(self, token_ids, skip_special_tokens=True):
+        return self.tokenizer.decode(token_ids, skip_special_tokens=skip_special_tokens)
+
+    def set_pad_to_max(self, do_pad: bool):
+        self.pad_to_max = do_pad
+
+    def get_token_id(self, token: str) -> int:
+        return self.tokenizer.vocab[token]
+
+
+class RobertaTensorizer(BertTensorizer):
+    def __init__(self, tokenizer, max_length: int, pad_to_max: bool = True):
+        super(RobertaTensorizer, self).__init__(
+            tokenizer, max_length, pad_to_max=pad_to_max
+        )

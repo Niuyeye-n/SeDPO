@@ -1,1 +1,129 @@
-IyEvYmluL2Jhc2gKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQojIGZpbmlzaF92Mi5zaCDigJQgMjAyNi0xMS0wNyAxNzo1eAojIOebrueahO+8muihpem9kCBTZURQTyDlm5vnu4TnvLrlpLHnmoTmjqjnkIbkuI7mjIfmoIfvvIzkuI3ph43orq3jgIHkuI3ph43ot5Hlt7LmnIkgcHJlZHPjgIIKIwojIOS4uuS7gOS5iOmHjeWGmSB2Me+8mnYxIOebtOaOpSBiYXNoIGluZmVyLnNo77yM5L2G5rKh5r+A5rS7IGNvbmRhIOeOr+Wig++8jAojICAgaW5mZXIuc2gg6YeM6KO46LCDIHB5dGhvbiAvIGFjY2VsZXJhdGUg5YWo6YOoIGNvbW1hbmQgbm90IGZvdW5k77yIcmM9MTI377yJ77yMCiMgICDlha3kuKrmraXpqqTlnKggMSDnp5LlhoXov57njq/lpLHotKXvvIznrYnkuo7ku4DkuYjpg73msqHot5HjgIIKIwojIOacrOeJiOWBmuazle+8mgojICAgMS4g5pi+5byP5a+85Ye6IHNlX2RwbyDnjq/looPnmoQgUEFUSCAvIFBZVEhPTlBBVEggLyBTZURQTyDniYjmnKzlj5jph48KIyAgIDIuIOWPquihpee8uuWPo++8mnF3ZW4vY2xvc2VfcWEg5YWo5rWB56iL77yb5Lik57uEIHJlYWRpbmdfbmV3IOeahCBvcGVuYm9va3FhIOautQojICAgMy4gTXVsdGlSQyDnmoQgcHJlZHMg5bey5a2Y5ZyoIOKGkiDnlKggY29tcHV0ZV9yZXMucHkg5Y+N566X5oyH5qCH77yM5LiN6YeN6LeR5o6o55CGCiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KUkVQTz0vcm9vdC9hdXRvZGwtdG1wL1NlRFBPX05JUFMyNQpMT0c9L3Jvb3QvYXV0b2RsLXRtcC9maW5pc2hfdjIubG9nClBZQklOPS9yb290L2F1dG9kbC10bXAvZW52cy9zZV9kcG8vYmluClFXRU49L3Jvb3QvYXV0b2RsLXRtcC9tb2RlbHMvcXdlbjIuNS03YgpMTEFNQT0vcm9vdC9hdXRvZGwtdG1wL21vZGVscy9sbGFtYTMtOGIKCmxvZygpIHsgZWNobyAiWyQoZGF0ZSAnKyVGICVUJyldICQqIiB8IHRlZSAtYSAiJExPRyI7IH0KCiMgLS0tLSDnjq/looMgLS0tLQpleHBvcnQgUEFUSD0kUFlCSU46JFBBVEgKZXhwb3J0IFBZVEhPTlBBVEg9JFJFUE86JHtQWVRIT05QQVRIOi19CmV4cG9ydCBIWURSQV9GVUxMX0VSUk9SPTEKZXhwb3J0IFRPS0VOSVpFUlNfUEFSQUxMRUxJU009ZmFsc2UKZXhwb3J0IFBZVE9SQ0hfQ1VEQV9BTExPQ19DT05GPWV4cGFuZGFibGVfc2VnbWVudHM6VHJ1ZQojIFNlRFBPIOeJiOacrOS/oeaBr++8iOWGs+WumiByZXNfZmlsZSDph4zlhpkgZHAyLXIxLjAtYjAuMe+8jOW/hemhu+S4juS5i+WJjeS4gOiHtO+8iQpleHBvcnQgSUZfUFJFRkVSX0xPU1M9MgpleHBvcnQgUEVGVF9CRVRBPTAuMQpleHBvcnQgRElWX1JFSkVDVD0xCmV4cG9ydCBTQ09SRV9SQVRJTz0xLjAKCmNkICIkUkVQTyIgfHwgZXhpdCAxCmxvZyAiPT09PT0gZmluaXNoX3YyIOWQr+WKqCA9PT09PSIKbG9nICJweXRob246ICQod2hpY2ggcHl0aG9uKSAkKHB5dGhvbiAtViAyPiYxKSIKbG9nICJhY2NlbGVyYXRlOiAkKHdoaWNoIGFjY2VsZXJhdGUpIgoKIyAtLS0tIOihpSBNdWx0aVJDIOaMh+agh+ihjO+8iHByZWRzIOW3suWtmOWcqO+8jOWPqumcgOWPjeeul++8iS0tLS0KZmlsbF9tdWx0aXJjKCkgewogICAgbG9jYWwgdGFnPSQxIG1vZGVsPSQyCiAgICBsb2NhbCBFWFA9JFJFUE8vbXlfZGF0YV9xd2VuL2V4cGVyaW1lbnRfc2VkcG9fJHt0YWd9L3JlYWRpbmdfbmV3CiAgICBweXRob24gL3Jvb3QvYXV0b2RsLXRtcC9jb21wdXRlX3Jlcy5weSBcCiAgICAgICAgIiRFWFAvcHJlZHNfZm9yX3JlYWRpbmdfbmV3L211bHRpcmNfcHJvbXB0czNfcmV0cmlldmVyc2UyX3ByZWRzXzAuanNvbiIgXAogICAgICAgICIkRVhQL2V2YWxfcmVzX2Zvcl9yZWFkaW5nX25ldy50eHQiIFwKICAgICAgICBtdWx0aXJjICIkbW9kZWwiIDI+JjEgfCB0ZWUgLWEgIiRMT0ciCn0KCiMgLS0tLSBvcGVuYm9va3FhIOajgOe0oiArIOaOqOeQhiAtLS0tCnJ1bl9vcGVuYm9va3FhKCkgewogICAgbG9jYWwgdGFnPSQxIG1vZGVsPSQyIHBvcnQ9JDMKICAgIGxvY2FsIEVYUD0kUkVQTy9teV9kYXRhX3F3ZW4vZXhwZXJpbWVudF9zZWRwb18ke3RhZ30vcmVhZGluZ19uZXcKCiAgICBpZiBbICEgLWYgIiRFWFAvbW9kZWwvZHByX2JpZW5jb2Rlci5iZXN0X3ZhbGlkIiBdOyB0aGVuCiAgICAgICAgbG9nICJb6Lez6L+HXSAkdGFnL3JlYWRpbmdfbmV3IOe8uiBiZXN0X3ZhbGlkIOadg+mHjSIKICAgICAgICByZXR1cm4gMQogICAgZmkKCiAgICBsb2cgIi0tLSAkdGFnIG9wZW5ib29rcWEg5qOA57Si5byA5aeLIgogICAgcHl0aG9uIERQUi9kZW5zZV9yZXRyaWV2ZXJfYmVhbV9zY29yZS5weSBcCiAgICAgICAgbW9kZWxfZmlsZT0kRVhQL21vZGVsL2Rwcl9iaWVuY29kZXIuYmVzdF92YWxpZCBcCiAgICAgICAgcWFfZGF0YXNldD1xYV9zZTIgY3R4X2RhdGF0c2V0cz1bZHByX3NlMl0gXAogICAgICAgICJlbmNvZGVkX2N0eF9maWxlcz1bXCIkRVhQL21vZGVsL2Rwcl9lbmNfaW5kZXhfKlwiXSIgXAogICAgICAgIG91dF9maWxlPSRFWFAvc2UyX3Byb21wdHNfZm9yX3JlYWRpbmdfbmV3L29wZW5ib29rcWFfcHJvbXB0cy5qc29uIFwKICAgICAgICBkYXRhc2V0cy5xYV9zZTIudGFza19uYW1lPW9wZW5ib29rcWEgXAogICAgICAgIGRhdGFzZXRzLnFhX3NlMi50YXNrX3NldHVwX3R5cGU9cSBcCiAgICAgICAgZGF0YXNldHMucWFfc2UyLmNhY2hlX2Rpcj0kUkVQTy9jYWNoZSBiZWFtX3NpemU9MyBcCiAgICAgICAgc2hvdF9udW09MyBcCiAgICAgICAgY3R4X3NvdXJjZXMuZHByX3NlMi5wcm9tcHRfcG9vbF9wYXRoPSRSRVBPL215X2RhdGFfcXdlbi9wcm9tcHRfcG9vbF9zZWRwbyBcCiAgICAgICAgY3R4X3NvdXJjZXMuZHByX3NlMi50cmFpbl9jbHVzdGVycz1yZWFkaW5nX25ldyBcCiAgICAgICAgY3R4X3NvdXJjZXMuZHByX3NlMi5wcm9tcHRfc2V0dXBfdHlwZT1xYSBcCiAgICAgICAgZW5jb2Rlci5jYWNoZV9kaXI9JFJFUE8vY2FjaGUgXAogICAgICAgIGh5ZHJhLnJ1bi5kaXI9bXlfZGF0YV9xd2VuL2V4cGVyaW1lbnRfc2VkcG9fJHt0YWd9L3JlYWRpbmdfbmV3ID4+ICIkTE9HIiAyPiYxCiAgICBsb2NhbCByYz0kPwogICAgbG9nICItLS0gJHRhZyBvcGVuYm9va3FhIOajgOe0oue7k+adnyByYz0kcmMiCiAgICBbICRyYyAtbmUgMCBdICYmIHJldHVybiAkcmMKCiAgICBsb2cgIi0tLSAkdGFnIG9wZW5ib29rcWEg5o6o55CG5byA5aeLIgogICAgYWNjZWxlcmF0ZSBsYXVuY2ggLS1udW1fcHJvY2Vzc2VzIDEgLS1tYWluX3Byb2Nlc3NfcG9ydCAiJHBvcnQiIFwKICAgICAgICBzY3JpcHRzL2luZmVyZW5jZS5weSBcCiAgICAgICAgcHJvbXB0X2ZpbGU9JEVYUC9zZTJfcHJvbXB0c19mb3JfcmVhZGluZ19uZXcvb3BlbmJvb2txYV9wcm9tcHRzX2JlYW1fc2NvcmVfMC5qc29uIFwKICAgICAgICB0YXNrX25hbWU9b3BlbmJvb2txYSBcCiAgICAgICAgb3V0cHV0X2ZpbGU9JEVYUC9wcmVkc19mb3JfcmVhZGluZ19uZXcvb3BlbmJvb2txYV9wcm9tcHRzM19yZXRyaWV2ZXJzZTJfcHJlZHNfMC5qc29uIFwKICAgICAgICByZXNfZmlsZT0kRVhQL2V2YWxfcmVzX2Zvcl9yZWFkaW5nX25ldy50eHQgXAogICAgICAgIGJhdGNoX3NpemU9MSB0cmFpbl9jbHVzdGVycz1yZWFkaW5nX25ldyBcCiAgICAgICAgbW9kZWxfbmFtZT0kbW9kZWwgXAogICAgICAgIHByb21wdF9wb29sX3BhdGg9JFJFUE8vbXlfZGF0YV9xd2VuL3Byb21wdF9wb29sX3NlZHBvIFwKICAgICAgICByYW5kb21fc2FtcGxlPUZhbHNlIHJhbmRvbV9zZWVkPTQyIFwKICAgICAgICBjYWNoZV9kaXI9JFJFUE8vY2FjaGUgXAogICAgICAgIGh5ZHJhLnJ1bi5kaXI9JEVYUCA+PiAiJExPRyIgMj4mMQogICAgcmM9JD8KICAgIGxvZyAiLS0tICR0YWcgb3BlbmJvb2txYSDmjqjnkIbnu5PmnZ8gcmM9JHJjIgogICAgcmV0dXJuICRyYwp9CgojIC0tLS0gcXdlbi9jbG9zZV9xYSDlhajmtYHnqIvvvIjnvLogaW5kZXggKyBwcm9tcHRzICsgcHJlZHPvvIktLS0tCnJ1bl9jbG9zZV9xYV9xd2VuKCkgewogICAgbG9jYWwgRVhQPSRSRVBPL215X2RhdGFfcXdlbi9leHBlcmltZW50X3NlZHBvX3F3ZW4vY2xvc2VfcWEKICAgIGlmIFsgISAtZiAiJEVYUC9tb2RlbC9kcHJfYmllbmNvZGVyLmJlc3RfdmFsaWQiIF07IHRoZW4KICAgICAgICBsb2cgIlvot7Pov4ddIHF3ZW4vY2xvc2VfcWEg57y6IGJlc3RfdmFsaWQg5p2D6YeNIgogICAgICAgIHJldHVybiAxCiAgICBmaQogICAgbG9nICItLS0gcXdlbi9jbG9zZV9xYSDlhajmtYHnqIvlvIDlp4vvvIhpbmRleCDihpIg5qOA57SiIOKGkiDmjqjnkIbvvIkiCiAgICBiYXNoICIkRVhQL2luZmVyLnNoIiA+PiAiJExPRyIgMj4mMQogICAgbG9jYWwgcmM9JD8KICAgIGxvZyAiLS0tIHF3ZW4vY2xvc2VfcWEg5YWo5rWB56iL57uT5p2fIHJjPSRyYyIKICAgIHJldHVybiAkcmMKfQoKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09IOaJp+ihjCA9PT09PT09PT09PT09PT09PT09PT09PT09PT09CiMg6aG65bqP77ya5YWI6KGl5Lik57uEIG9wZW5ib29rcWHvvIjlkITnuqYgMjAtNDAg5YiG6ZKf77yJ77yM5pyA5ZCO6LeRIHF3ZW4gY2xvc2VfcWEg5YWo5rWB56iLCiMg6L+Z5qC36IO95pyA5b+r5oqKIHJlYWRpbmdfbmV3IOS4pOe7hOaUtuWPo++8jHBlcm1pdCBqYW5pdG9yIOmHiuaUvuadg+mHjeiFvuepuumXtAoKbG9nICI9PT09PSBbMS80XSBsbGFtYS9yZWFkaW5nX25ldyBvcGVuYm9va3FhID09PT09IgpydW5fb3BlbmJvb2txYSBsbGFtYSAiJExMQU1BIiAyNDAwMQpsb2cgIj09PT09IFsyLzRdIHF3ZW4vcmVhZGluZ19uZXcgb3BlbmJvb2txYSA9PT09PSIKcnVuX29wZW5ib29rcWEgcXdlbiAiJFFXRU4iIDI0MDAyCmxvZyAiPT09PT0gWzMvNF0g5Y+N566XIE11bHRpUkMg5oyH5qCHID09PT09IgpmaWxsX211bHRpcmMgbGxhbWEgIiRMTEFNQSIKZmlsbF9tdWx0aXJjIHF3ZW4gIiRRV0VOIgpsb2cgIj09PT09IFs0LzRdIHF3ZW4vY2xvc2VfcWEg5YWo5rWB56iLID09PT09IgpydW5fY2xvc2VfcWFfcXdlbgoKbG9nICI9PT09PSDlhajpg6jmraXpqqTnu5PmnZ/vvIzmjIfmoIfmsYfmgLsgPT09PT0iCmZvciBmIGluICRSRVBPL215X2RhdGFfcXdlbi9leHBlcmltZW50X3NlZHBvXyove2Nsb3NlX3FhLHJlYWRpbmdfbmV3fS9ldmFsX3Jlc19mb3JfKi50eHQ7IGRvCiAgICBbIC1mICIkZiIgXSAmJiB7IGxvZyAiPT0gJGYiOyBzZWQgJ3MvXi8gICAgLycgIiRmIiB8IHRlZSAtYSAiJExPRyI7IH0KZG9uZQpsb2cgIj09PT09IGZpbmlzaF92MiDlrozmiJAgPT09PT0iCg==
+#!/bin/bash
+# =============================================================================
+# finish_v2.sh — 2026-11-07 17:5x
+# 目的：补齐 SeDPO 四组缺失的推理与指标，不重训、不重跑已有 preds。
+#
+# 为什么重写 v1：v1 直接 bash infer.sh，但没激活 conda 环境，
+#   infer.sh 里裸调 python / accelerate 全部 command not found（rc=127），
+#   六个步骤在 1 秒内连环失败，等于什么都没跑。
+#
+# 本版做法：
+#   1. 显式导出 se_dpo 环境的 PATH / PYTHONPATH / SeDPO 版本变量
+#   2. 只补缺口：qwen/close_qa 全流程；两组 reading_new 的 openbookqa 段
+#   3. MultiRC 的 preds 已存在 → 用 compute_res.py 反算指标，不重跑推理
+# =============================================================================
+REPO=/root/autodl-tmp/SeDPO_NIPS25
+LOG=/root/autodl-tmp/finish_v2.log
+PYBIN=/root/autodl-tmp/envs/se_dpo/bin
+QWEN=/root/autodl-tmp/models/qwen2.5-7b
+LLAMA=/root/autodl-tmp/models/llama3-8b
+
+log() { echo "[$(date '+%F %T')] $*" | tee -a "$LOG"; }
+
+# ---- 环境 ----
+export PATH=$PYBIN:$PATH
+export PYTHONPATH=$REPO:${PYTHONPATH:-}
+export HYDRA_FULL_ERROR=1
+export TOKENIZERS_PARALLELISM=false
+export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
+# SeDPO 版本信息（决定 res_file 里写 dp2-r1.0-b0.1，必须与之前一致）
+export IF_PREFER_LOSS=2
+export PEFT_BETA=0.1
+export DIV_REJECT=1
+export SCORE_RATIO=1.0
+
+cd "$REPO" || exit 1
+log "===== finish_v2 启动 ====="
+log "python: $(which python) $(python -V 2>&1)"
+log "accelerate: $(which accelerate)"
+
+# ---- 补 MultiRC 指标行（preds 已存在，只需反算）----
+fill_multirc() {
+    local tag=$1 model=$2
+    local EXP=$REPO/my_data_qwen/experiment_sedpo_${tag}/reading_new
+    python /root/autodl-tmp/compute_res.py \
+        "$EXP/preds_for_reading_new/multirc_prompts3_retrieverse2_preds_0.json" \
+        "$EXP/eval_res_for_reading_new.txt" \
+        multirc "$model" 2>&1 | tee -a "$LOG"
+}
+
+# ---- openbookqa 检索 + 推理 ----
+run_openbookqa() {
+    local tag=$1 model=$2 port=$3
+    local EXP=$REPO/my_data_qwen/experiment_sedpo_${tag}/reading_new
+
+    if [ ! -f "$EXP/model/dpr_biencoder.best_valid" ]; then
+        log "[跳过] $tag/reading_new 缺 best_valid 权重"
+        return 1
+    fi
+
+    log "--- $tag openbookqa 检索开始"
+    python DPR/dense_retriever_beam_score.py \
+        model_file=$EXP/model/dpr_biencoder.best_valid \
+        qa_dataset=qa_se2 ctx_datatsets=[dpr_se2] \
+        "encoded_ctx_files=[\"$EXP/model/dpr_enc_index_*\"]" \
+        out_file=$EXP/se2_prompts_for_reading_new/openbookqa_prompts.json \
+        datasets.qa_se2.task_name=openbookqa \
+        datasets.qa_se2.task_setup_type=q \
+        datasets.qa_se2.cache_dir=$REPO/cache beam_size=3 \
+        shot_num=3 \
+        ctx_sources.dpr_se2.prompt_pool_path=$REPO/my_data_qwen/prompt_pool_sedpo \
+        ctx_sources.dpr_se2.train_clusters=reading_new \
+        ctx_sources.dpr_se2.prompt_setup_type=qa \
+        encoder.cache_dir=$REPO/cache \
+        hydra.run.dir=my_data_qwen/experiment_sedpo_${tag}/reading_new >> "$LOG" 2>&1
+    local rc=$?
+    log "--- $tag openbookqa 检索结束 rc=$rc"
+    [ $rc -ne 0 ] && return $rc
+
+    log "--- $tag openbookqa 推理开始"
+    accelerate launch --num_processes 1 --main_process_port "$port" \
+        scripts/inference.py \
+        prompt_file=$EXP/se2_prompts_for_reading_new/openbookqa_prompts_beam_score_0.json \
+        task_name=openbookqa \
+        output_file=$EXP/preds_for_reading_new/openbookqa_prompts3_retrieverse2_preds_0.json \
+        res_file=$EXP/eval_res_for_reading_new.txt \
+        batch_size=1 train_clusters=reading_new \
+        model_name=$model \
+        prompt_pool_path=$REPO/my_data_qwen/prompt_pool_sedpo \
+        random_sample=False random_seed=42 \
+        cache_dir=$REPO/cache \
+        hydra.run.dir=$EXP >> "$LOG" 2>&1
+    rc=$?
+    log "--- $tag openbookqa 推理结束 rc=$rc"
+    return $rc
+}
+
+# ---- qwen/close_qa 全流程（缺 index + prompts + preds）----
+run_close_qa_qwen() {
+    local EXP=$REPO/my_data_qwen/experiment_sedpo_qwen/close_qa
+    if [ ! -f "$EXP/model/dpr_biencoder.best_valid" ]; then
+        log "[跳过] qwen/close_qa 缺 best_valid 权重"
+        return 1
+    fi
+    log "--- qwen/close_qa 全流程开始（index → 检索 → 推理）"
+    bash "$EXP/infer.sh" >> "$LOG" 2>&1
+    local rc=$?
+    log "--- qwen/close_qa 全流程结束 rc=$rc"
+    return $rc
+}
+
+# ============================ 执行 ============================
+# 顺序：先补两组 openbookqa（各约 20-40 分钟），最后跑 qwen close_qa 全流程
+# 这样能最快把 reading_new 两组收口，permit janitor 释放权重腾空间
+
+log "===== [1/4] llama/reading_new openbookqa ====="
+run_openbookqa llama "$LLAMA" 24001
+log "===== [2/4] qwen/reading_new openbookqa ====="
+run_openbookqa qwen "$QWEN" 24002
+log "===== [3/4] 反算 MultiRC 指标 ====="
+fill_multirc llama "$LLAMA"
+fill_multirc qwen "$QWEN"
+log "===== [4/4] qwen/close_qa 全流程 ====="
+run_close_qa_qwen
+
+log "===== 全部步骤结束，指标汇总 ====="
+for f in $REPO/my_data_qwen/experiment_sedpo_*/{close_qa,reading_new}/eval_res_for_*.txt; do
+    [ -f "$f" ] && { log "== $f"; sed 's/^/    /' "$f" | tee -a "$LOG"; }
+done
+log "===== finish_v2 完成 ====="

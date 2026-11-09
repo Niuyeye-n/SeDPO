@@ -1,1 +1,23 @@
-aW1wb3J0IHRvcmNoCmZyb20gdHJhbnNmb3JtZXJzIGltcG9ydCBBdXRvTW9kZWxGb3JDYXVzYWxMTQoKZGVmIG5vX2luaXQobG9hZGluZ19jb2RlKToKICAgIGRlZiBkdW1teShzZWxmKToKICAgICAgICByZXR1cm4KICAgIAogICAgbW9kdWxlcyA9IFt0b3JjaC5ubi5MaW5lYXIsIHRvcmNoLm5uLkVtYmVkZGluZywgdG9yY2gubm4uTGF5ZXJOb3JtXQogICAgb3JpZ2luYWwgPSB7fQogICAgZm9yIG1vZCBpbiBtb2R1bGVzOgogICAgICAgIG9yaWdpbmFsW21vZF0gPSBtb2QucmVzZXRfcGFyYW1ldGVycwogICAgICAgIG1vZC5yZXNldF9wYXJhbWV0ZXJzID0gZHVtbXkKICAgIAogICAgcmVzdWx0ID0gbG9hZGluZ19jb2RlKCkKICAgIGZvciBtb2QgaW4gbW9kdWxlczoKICAgICAgICBtb2QucmVzZXRfcGFyYW1ldGVycyA9IG9yaWdpbmFsW21vZF0KICAgIAogICAgcmV0dXJuIHJlc3VsdAoKCmRlZiBnZXRfbW9kZWwoKiprd2FyZ3MpOgogICAgcmV0dXJuIG5vX2luaXQobGFtYmRhOiBBdXRvTW9kZWxGb3JDYXVzYWxMTS5mcm9tX3ByZXRyYWluZWQodG9yY2hfZHR5cGU9dG9yY2guZmxvYXQxNiwgZGV2aWNlX21hcD0nYXV0bycsKiprd2FyZ3MpKQogICAg
+import torch
+from transformers import AutoModelForCausalLM
+
+def no_init(loading_code):
+    def dummy(self):
+        return
+    
+    modules = [torch.nn.Linear, torch.nn.Embedding, torch.nn.LayerNorm]
+    original = {}
+    for mod in modules:
+        original[mod] = mod.reset_parameters
+        mod.reset_parameters = dummy
+    
+    result = loading_code()
+    for mod in modules:
+        mod.reset_parameters = original[mod]
+    
+    return result
+
+
+def get_model(**kwargs):
+    return no_init(lambda: AutoModelForCausalLM.from_pretrained(torch_dtype=torch.float16, device_map='auto',**kwargs))
+    

@@ -1,1 +1,52 @@
-JycnCmZvciBrbm4gc2VhcmNoCicnJwpmcm9tIGRhdGFzZXRzIGltcG9ydCBsb2FkX2RhdGFzZXQKZnJvbSB0eXBpbmcgaW1wb3J0IEFueSwgRGljdCwgSXRlcmFibGUKaW1wb3J0IHRvcmNoCmltcG9ydCBwYW5kYXMgYXMgcGQKaW1wb3J0IHRxZG0KCmNsYXNzIEluZGV4ZXJEYXRhc2V0UmVhZGVyKHRvcmNoLnV0aWxzLmRhdGEuRGF0YXNldCk6CiAgICBkZWYgX19pbml0X18oc2VsZiwgdG9rZW5pemVyLCBkYXRhKSAtPiBOb25lOgogICAgICAgIHNlbGYudG9rZW5pemVyID0gdG9rZW5pemVyCiAgICAgICAgc2VsZi5kYXRhc2V0PWRhdGEKICAgICAgICAgICAgICAgICAKICAgIGRlZiBfX2dldGl0ZW1fXyhzZWxmLCBpbmRleCk6CiAgICAgICAgcmV0dXJuIHNlbGYudGV4dF90b19pbnN0YW5jZShzZWxmLmRhdGFzZXRbaW5kZXhdLGluZGV4PWluZGV4KQoKICAgIGRlZiBfX2xlbl9fKHNlbGYpOgogICAgICAgIHJldHVybiBsZW4oc2VsZi5kYXRhc2V0KQoKICAgIGRlZiB0ZXh0X3RvX2luc3RhbmNlKHNlbGYsIGVudHJ5OiBEaWN0W3N0ciwgQW55XSxpbmRleD0tMSk6CiAgICAgICAgZW5jX3RleHQgPSBlbnRyeVsnaW5zdHJ1Y3Rpb24nXQogICAgICAgIHRva2VuaXplZF9pbnB1dHMgPSBzZWxmLnRva2VuaXplci5lbmNvZGVfcGx1cyhlbmNfdGV4dCx0cnVuY2F0aW9uPVRydWUscmV0dXJuX3RlbnNvcnM9J3B0JykKICAgICAgICByZXR1cm4gewogICAgICAgICAgICAgICAgICAgICAgICAnaW5wdXRfaWRzJzogdG9rZW5pemVkX2lucHV0cy5pbnB1dF9pZHMuc3F1ZWV6ZSgpLAogICAgICAgICAgICAgICAgICAgICAgICAnYXR0ZW50aW9uX21hc2snOiB0b2tlbml6ZWRfaW5wdXRzLmF0dGVudGlvbl9tYXNrLnNxdWVlemUoKSwKICAgICAgICAgICAgICAgICAgICAgICAgIm1ldGFkYXRhIjp7ImlkIjppbmRleH0KICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAKY2xhc3MgSW5zdHJ1Y3RvckluZGV4ZXJEYXRhc2V0UmVhZGVyKHRvcmNoLnV0aWxzLmRhdGEuRGF0YXNldCk6CiAgICBkZWYgX19pbml0X18oc2VsZiwgdG9rZW5pemVyLCBkYXRhKSAtPiBOb25lOgogICAgICAgIHNlbGYudG9rZW5pemVyID0gdG9rZW5pemVyCiAgICAgICAgc2VsZi5kYXRhc2V0PWRhdGEKICAgICAgICAgICAgICAgICAKICAgIGRlZiBfX2dldGl0ZW1fXyhzZWxmLCBpbmRleCk6CiAgICAgICAgcmV0dXJuIHNlbGYudGV4dF90b19pbnN0YW5jZShzZWxmLmRhdGFzZXRbaW5kZXhdLGluZGV4PWluZGV4KQoKICAgIGRlZiBfX2xlbl9fKHNlbGYpOgogICAgICAgIHJldHVybiBsZW4oc2VsZi5kYXRhc2V0KQoKICAgIGRlZiB0ZXh0X3RvX2luc3RhbmNlKHNlbGYsIGVudHJ5OiBEaWN0W3N0ciwgQW55XSxpbmRleD0tMSk6CiAgICAgICAgZW5jX3RleHQgPSBlbnRyeVsnaW5zdHJ1Y3Rpb24nXQogICAgICAgIHRva2VuaXplZF9pbnB1dHMgPSBzZWxmLnRva2VuaXplci5lbmNvZGVfcGx1cyhlbmNfdGV4dCx0cnVuY2F0aW9uPVRydWUscmV0dXJuX3RlbnNvcnM9J3B0JykKICAgICAgICByZXR1cm4gewogICAgICAgICAgICAgICAgJ2lucHV0X2lkcyc6IHRva2VuaXplZF9pbnB1dHMuaW5wdXRfaWRzLnNxdWVlemUoKSwKICAgICAgICAgICAgICAgICdhdHRlbnRpb25fbWFzayc6IHRva2VuaXplZF9pbnB1dHMuYXR0ZW50aW9uX21hc2suc3F1ZWV6ZSgpLAogICAgICAgICAgICAgICAgIm1ldGFkYXRhIjp7ImlkIjppbmRleCwgImVuY190ZXh0IjogZW5jX3RleHR9LAogICAgICAgICAgICB9CgogICAgICAgIA==
+'''
+for knn search
+'''
+from datasets import load_dataset
+from typing import Any, Dict, Iterable
+import torch
+import pandas as pd
+import tqdm
+
+class IndexerDatasetReader(torch.utils.data.Dataset):
+    def __init__(self, tokenizer, data) -> None:
+        self.tokenizer = tokenizer
+        self.dataset=data
+                 
+    def __getitem__(self, index):
+        return self.text_to_instance(self.dataset[index],index=index)
+
+    def __len__(self):
+        return len(self.dataset)
+
+    def text_to_instance(self, entry: Dict[str, Any],index=-1):
+        enc_text = entry['instruction']
+        tokenized_inputs = self.tokenizer.encode_plus(enc_text,truncation=True,return_tensors='pt')
+        return {
+                        'input_ids': tokenized_inputs.input_ids.squeeze(),
+                        'attention_mask': tokenized_inputs.attention_mask.squeeze(),
+                        "metadata":{"id":index}
+                        
+                    }
+
+        
+class InstructorIndexerDatasetReader(torch.utils.data.Dataset):
+    def __init__(self, tokenizer, data) -> None:
+        self.tokenizer = tokenizer
+        self.dataset=data
+                 
+    def __getitem__(self, index):
+        return self.text_to_instance(self.dataset[index],index=index)
+
+    def __len__(self):
+        return len(self.dataset)
+
+    def text_to_instance(self, entry: Dict[str, Any],index=-1):
+        enc_text = entry['instruction']
+        tokenized_inputs = self.tokenizer.encode_plus(enc_text,truncation=True,return_tensors='pt')
+        return {
+                'input_ids': tokenized_inputs.input_ids.squeeze(),
+                'attention_mask': tokenized_inputs.attention_mask.squeeze(),
+                "metadata":{"id":index, "enc_text": enc_text},
+            }
+
+        

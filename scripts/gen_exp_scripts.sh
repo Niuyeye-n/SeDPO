@@ -1,1 +1,37 @@
-IyEvYmluL2Jhc2gKIyDnlJ/miJDluKblj6/osIPop4TmqKHnmoTlrp7pqozohJrmnKzvvIhzY29yZS90cmFpbi9pbmZlcu+8ie+8jOS+m+S4jeWQjOaooeWei+S4juS4jeWQjOinhOaooeWkjeeUqOOAggojCiMg55So5rOVOiBiYXNoIC9yb290L2F1dG9kbC10bXAvZ2VuX2V4cF9zY3JpcHRzLnNoIDxtb2RlbF90YWc+IDxtb2RlbF9wYXRoPiA8Y2x1c3Rlcj4gPEw+IDxkc19zaXplPgojICAgbW9kZWxfdGFnOiBxd2VuIHwgbGxhbWEKIyAgIGNsdXN0ZXI6ICAgY2xvc2VfcWEgfCByZWFkaW5nX25ldwojICAgTDogICAgICAgICBmaW5kZXJfTO+8iOavj+S4qiBxdWVyeSDmiZPlpJrlsJHkuKrlgJnpgInvvIkKIyAgIGRzX3NpemU6ICAg6K6t57uD6ZuG77yI5YCZ6YCJ5rGgICsg5omT5YiG5qC35pys5pWw77yJ5LiK6ZmQCiMKIyDnlJ/miJDnm67lvZU6IG15X2RhdGFfcXdlbi9leHBlcmltZW50Xzx0YWc+LzxjbHVzdGVyPi8KIyDlhbPplK7ngrnvvJpwcm9tcHRfcG9vbCDkv53mjIHlhajph4/vvIjmo4DntKLor63mlpnkuI7ln7rnur/lj6/mr5TvvInvvIzlj6rosIMgTCDkuI4gZHNfc2l6ZSDmjqfliLbmiZPliIblvIDplIDjgIIKc2V0IC1ldQoKTU9ERUxfVEFHPSQxCk1PREVMX1BBVEg9JDIKQ0xVU1RFUj0kMwpMPSQ0CkRTX1NJWkU9JDUKClJFUE89L3Jvb3QvYXV0b2RsLXRtcC9TZURQT19OSVBTMjUKU1JDRVhQPSRSRVBPL215X2RhdGFfcXdlbi9leHBlcmltZW50LyRDTFVTVEVSCkVYUD0kUkVQTy9teV9kYXRhX3F3ZW4vZXhwZXJpbWVudF8ke01PREVMX1RBR30vJENMVVNURVIKbWtkaXIgLXAgJEVYUAoKZm9yIGYgaW4gc2NvcmUuc2ggdHJhaW4uc2ggaW5mZXIuc2g7IGRvCiAgICBzZWQgLWUgInMjL3Jvb3QvYXV0b2RsLXRtcC9tb2RlbHMvcXdlbjIuNS03YiMkTU9ERUxfUEFUSCNnIiBcCiAgICAgICAgLWUgInMjbXlfZGF0YV9xd2VuL2V4cGVyaW1lbnQvJENMVVNURVIjbXlfZGF0YV9xd2VuL2V4cGVyaW1lbnRfJHtNT0RFTF9UQUd9LyRDTFVTVEVSI2ciIFwKICAgICAgICAtZSAicyNteV9kYXRhX3F3ZW4vc2NvcmVkI215X2RhdGFfcXdlbi9zY29yZWRfJHtNT0RFTF9UQUd9I2ciIFwKICAgICAgICAtZSAicyNteV9kYXRhX3F3ZW4vZmluZF9yYW5kb20jbXlfZGF0YV9xd2VuL2ZpbmRfcmFuZG9tXyR7TU9ERUxfVEFHfSNnIiBcCiAgICAgICAgLWUgInMjK2RzX3NpemU9WzAtOV0qIEw9WzAtOV0qIytkc19zaXplPSREU19TSVpFIEw9JEwjZyIgXAogICAgICAgICRTUkNFWFAvJGYgPiAkRVhQLyRmCiAgICBjaG1vZCAreCAkRVhQLyRmCmRvbmUKCmVjaG8gIltPS10g5bey55Sf5oiQICRFWFAve3Njb3JlLHRyYWluLGluZmVyfS5zaCAgKEw9JEwgZHNfc2l6ZT0kRFNfU0laRSBtb2RlbD0kTU9ERUxfUEFUSCkiCmdyZXAgLW9FICJcK2RzX3NpemU9WzAtOV0rIEw9WzAtOV0rIiAkRVhQL3Njb3JlLnNoIHwgc29ydCAtdQpncmVwIC1jICJtb2RlbF9uYW1lPSRNT0RFTF9QQVRIIiAkRVhQL3Njb3JlLnNoIHwgeGFyZ3MgZWNobyAic2NvcmUuc2gg5Lit5qih5Z6L6Lev5b6E5Ye6546w5qyh5pWwOiIK
+#!/bin/bash
+# 生成带可调规模的实验脚本（score/train/infer），供不同模型与不同规模复用。
+#
+# 用法: bash /root/autodl-tmp/gen_exp_scripts.sh <model_tag> <model_path> <cluster> <L> <ds_size>
+#   model_tag: qwen | llama
+#   cluster:   close_qa | reading_new
+#   L:         finder_L（每个 query 打多少个候选）
+#   ds_size:   训练集（候选池 + 打分样本数）上限
+#
+# 生成目录: my_data_qwen/experiment_<tag>/<cluster>/
+# 关键点：prompt_pool 保持全量（检索语料与基线可比），只调 L 与 ds_size 控制打分开销。
+set -eu
+
+MODEL_TAG=$1
+MODEL_PATH=$2
+CLUSTER=$3
+L=$4
+DS_SIZE=$5
+
+REPO=/root/autodl-tmp/SeDPO_NIPS25
+SRCEXP=$REPO/my_data_qwen/experiment/$CLUSTER
+EXP=$REPO/my_data_qwen/experiment_${MODEL_TAG}/$CLUSTER
+mkdir -p $EXP
+
+for f in score.sh train.sh infer.sh; do
+    sed -e "s#/root/autodl-tmp/models/qwen2.5-7b#$MODEL_PATH#g" \
+        -e "s#my_data_qwen/experiment/$CLUSTER#my_data_qwen/experiment_${MODEL_TAG}/$CLUSTER#g" \
+        -e "s#my_data_qwen/scored#my_data_qwen/scored_${MODEL_TAG}#g" \
+        -e "s#my_data_qwen/find_random#my_data_qwen/find_random_${MODEL_TAG}#g" \
+        -e "s#+ds_size=[0-9]* L=[0-9]*#+ds_size=$DS_SIZE L=$L#g" \
+        $SRCEXP/$f > $EXP/$f
+    chmod +x $EXP/$f
+done
+
+echo "[OK] 已生成 $EXP/{score,train,infer}.sh  (L=$L ds_size=$DS_SIZE model=$MODEL_PATH)"
+grep -oE "\+ds_size=[0-9]+ L=[0-9]+" $EXP/score.sh | sort -u
+grep -c "model_name=$MODEL_PATH" $EXP/score.sh | xargs echo "score.sh 中模型路径出现次数:"

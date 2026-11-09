@@ -1,1 +1,14 @@
-dHJhaW5fY2x1c3RlcnM6IAp0YXNrX25hbWU6CnByb21wdF9wb29sX3BhdGg6ID8/PwpjdWRhX2RldmljZTogJ2N1ZGE6MCcKb3V0X2ZpbGU6ID8/PwpuX2RvY3M6ID8/Pwpwcm9tcHRfc2V0dXBfdHlwZTogPz8/CmJhdGNoX3NpemU6IDUwCm1vZGVsX25hbWU6ICdzZW50ZW5jZS10cmFuc2Zvcm1lcnMvcGFyYXBocmFzZS1tcG5ldC1iYXNlLXYyJwpjYWNoZV9kaXI6ID8/Pwptb2RlbDoKICBfdGFyZ2V0Xzogc3JjLm1vZGVscy5lbWJlZGRlci5JbmRleEVtYmVkZGVyCiAgbW9kZWxfbmFtZTogJHttb2RlbF9uYW1lfQogIGNhY2hlX2RpcjogJHtjYWNoZV9kaXJ9Cg==
+train_clusters: 
+task_name:
+prompt_pool_path: ???
+cuda_device: 'cuda:0'
+out_file: ???
+n_docs: ???
+prompt_setup_type: ???
+batch_size: 50
+model_name: 'sentence-transformers/paraphrase-mpnet-base-v2'
+cache_dir: ???
+model:
+  _target_: src.models.embedder.IndexEmbedder
+  model_name: ${model_name}
+  cache_dir: ${cache_dir}

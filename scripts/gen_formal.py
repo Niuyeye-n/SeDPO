@@ -1,1 +1,77 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwojIC0qLSBjb2Rpbmc6IHV0Zi04IC0qLQoiIiIK55Sf5oiQ5q2j5byP5a6e6aqM6ISa5pys77yIc2NvcmUvdHJhaW4vaW5mZXLvvInvvIzluKbop4TmqKHmjqfliLblj4LmlbDjgIIKCuWFs+mUruiuvuiuoe+8mioq5YCZ6YCJ5rGg5L+d5oyB5YWo6YeP77yM5Y+q6ZmQ5Yi25omT5YiGIHF1ZXJ5IOaVsO+8iG5fc2NvcmXvvIkqKgogIC0g5YCZ6YCJ5rGgID0gcHJvbXB0X3Bvb2wgPSDmo4DntKLor63mlpnvvIzkuI7ln7rnur8gcmFuZG9tMyDmir3moLfmnaXmupDkuIDoh7Qg4oaSIOWvueeFp+WFrOW5swogIC0gbl9zY29yZSA9IOiiq+aJk+WIhueahCBxdWVyeSDmlbDvvIzlhrPlrprmiZPliIblvIDplIAKICAtIEwgPSBmaW5kZXJfTO+8jOavj+S4qiBxdWVyeSDnmoTlgJnpgInmlbDvvIzlhrPlrprmjpLluo/kv6Hlj7flvLrluqbvvIjmsr/nlKjorrrmlocv5a6Y5pa55Y6f5YC877yJCgrnlKggUHl0aG9uIOWBmuabv+aNouiAjOmdniBzZWTvvIzpgb/lhY0gc2hlbGwg6L2s5LmJ5Zyw54ux77yIIyDkuI4gJiDlnKggc2VkIOabv+aNouS4sumHjOacieeJueauiuWQq+S5ie+8ieOAggoK55So5rOVOgogIHB5dGhvbiBnZW5fZm9ybWFsLnB5IC0tbW9kZWxfdGFnIHF3ZW4gLS1tb2RlbF9wYXRoIC9yb290L2F1dG9kbC10bXAvbW9kZWxzL3F3ZW4yLjUtN2IgXAogICAgICAtLWNsdXN0ZXIgY2xvc2VfcWEgLS1uc19hcmMgMTUwIC0tbnNfb2JxIDE1MCAtLW5zX211bCAxNTAKIiIiCmltcG9ydCBhcmdwYXJzZQppbXBvcnQgb3MKaW1wb3J0IHJlCgpSRVBPID0gIi9yb290L2F1dG9kbC10bXAvU2VEUE9fTklQUzI1IgoKIyDlkITku7vliqHnmoQgTCDkuI4gbl9zY29yZe+8muaMiSB0YXNrX25hbWUg5YiG5Yir5pu/5o2i77yM6YG/5YWN5Liy5pS5CkxfQllfVEFTSyA9IHsiYXJjX2MiOiA0MDAsICJvcGVuYm9va3FhIjogMjAwLCAibXVsdGlyYyI6IDUwfQoKCmRlZiBtYWluKCk6CiAgICBhcCA9IGFyZ3BhcnNlLkFyZ3VtZW50UGFyc2VyKCkKICAgIGFwLmFkZF9hcmd1bWVudCgiLS1tb2RlbF90YWciLCByZXF1aXJlZD1UcnVlKQogICAgYXAuYWRkX2FyZ3VtZW50KCItLW1vZGVsX3BhdGgiLCByZXF1aXJlZD1UcnVlKQogICAgYXAuYWRkX2FyZ3VtZW50KCItLWNsdXN0ZXIiLCByZXF1aXJlZD1UcnVlKQogICAgYXAuYWRkX2FyZ3VtZW50KCItLW5zX2FyYyIsIHR5cGU9aW50LCBkZWZhdWx0PTE1MCkKICAgIGFwLmFkZF9hcmd1bWVudCgiLS1uc19vYnEiLCB0eXBlPWludCwgZGVmYXVsdD0xNTApCiAgICBhcC5hZGRfYXJndW1lbnQoIi0tbnNfbXVsIiwgdHlwZT1pbnQsIGRlZmF1bHQ9MTUwKQogICAgYXJncyA9IGFwLnBhcnNlX2FyZ3MoKQoKICAgIHRhZywgY2x1c3RlciA9IGFyZ3MubW9kZWxfdGFnLCBhcmdzLmNsdXN0ZXIKICAgIHNyY2V4cCA9IGYie1JFUE99L215X2RhdGFfcXdlbi9leHBlcmltZW50L3tjbHVzdGVyfSIKICAgIGV4cCA9IGYie1JFUE99L215X2RhdGFfcXdlbi9leHBlcmltZW50X3t0YWd9L3tjbHVzdGVyfSIKICAgIG9zLm1ha2VkaXJzKGV4cCwgZXhpc3Rfb2s9VHJ1ZSkKCiAgICBuc19ieV90YXNrID0geyJhcmNfYyI6IGFyZ3MubnNfYXJjLCAib3BlbmJvb2txYSI6IGFyZ3MubnNfb2JxLCAibXVsdGlyYyI6IGFyZ3MubnNfbXVsfQoKICAgIGZvciBmbmFtZSBpbiAoInNjb3JlLnNoIiwgInRyYWluLnNoIiwgImluZmVyLnNoIik6CiAgICAgICAgc3JjID0gb3Blbihvcy5wYXRoLmpvaW4oc3JjZXhwLCBmbmFtZSksIGVuY29kaW5nPSJ1dGYtOCIpLnJlYWQoKQoKICAgICAgICAjIOaooeWei+i3r+W+hAogICAgICAgIHNyYyA9IHNyYy5yZXBsYWNlKCIvcm9vdC9hdXRvZGwtdG1wL21vZGVscy9xd2VuMi41LTdiIiwgYXJncy5tb2RlbF9wYXRoKQogICAgICAgICMg55uu5b2V6ZqU56a777ya5LiN5ZCM5qih5Z6L55qE5Lit6Ze05Lqn54mp5LqS5LiN6KaG55uWCiAgICAgICAgc3JjID0gc3JjLnJlcGxhY2UoZiJteV9kYXRhX3F3ZW4vZXhwZXJpbWVudC97Y2x1c3Rlcn0iLAogICAgICAgICAgICAgICAgICAgICAgICAgIGYibXlfZGF0YV9xd2VuL2V4cGVyaW1lbnRfe3RhZ30ve2NsdXN0ZXJ9IikKICAgICAgICBzcmMgPSBzcmMucmVwbGFjZSgibXlfZGF0YV9xd2VuL3Njb3JlZCIsIGYibXlfZGF0YV9xd2VuL3Njb3JlZF97dGFnfSIpCiAgICAgICAgc3JjID0gc3JjLnJlcGxhY2UoIm15X2RhdGFfcXdlbi9maW5kX3JhbmRvbSIsIGYibXlfZGF0YV9xd2VuL2ZpbmRfcmFuZG9tX3t0YWd9IikKCiAgICAgICAgIyDop4TmqKHlj4LmlbDvvJrpgJDku7vliqHmm7/mjaIgTCDkuI4gbl9zY29yZQogICAgICAgIGZvciB0YXNrLCBucyBpbiBuc19ieV90YXNrLml0ZW1zKCk6CiAgICAgICAgICAgIHNyYyA9IHJlLnN1YigKICAgICAgICAgICAgICAgIHJmInRhc2tfbmFtZT17dGFza30gXCtkc19zaXplPVxkKyBMPVxkKyIsCiAgICAgICAgICAgICAgICBmInRhc2tfbmFtZT17dGFza30gK2RzX3NpemU9MTAwMDAgTD17TF9CWV9UQVNLW3Rhc2tdfSArbl9zY29yZT17bnN9IiwKICAgICAgICAgICAgICAgIHNyYykKCiAgICAgICAgb3V0ID0gb3MucGF0aC5qb2luKGV4cCwgZm5hbWUpCiAgICAgICAgd2l0aCBvcGVuKG91dCwgInciLCBlbmNvZGluZz0idXRmLTgiKSBhcyBmOgogICAgICAgICAgICBmLndyaXRlKHNyYykKICAgICAgICBvcy5jaG1vZChvdXQsIDBvNzU1KQoKICAgIHByaW50KGYiW09LXSDlt7LnlJ/miJAge2V4cH0ve3tzY29yZSx0cmFpbixpbmZlcn19LnNoIikKICAgIHByaW50KGYiICAgICDmqKHlnos9e2FyZ3MubW9kZWxfcGF0aH0iKQogICAgcHJpbnQoIi0tLSDlkITku7vliqHop4TmqKHlj4LmlbAgLS0tIikKICAgIGZvciBsaW5lIGluIG9wZW4ob3MucGF0aC5qb2luKGV4cCwgInNjb3JlLnNoIiksIGVuY29kaW5nPSJ1dGYtOCIpOgogICAgICAgIG0gPSByZS5zZWFyY2gociJ0YXNrX25hbWU9XHcrIFwrZHNfc2l6ZT1cZCsgTD1cZCsgXCtuX3Njb3JlPVxkKyIsIGxpbmUpCiAgICAgICAgaWYgbToKICAgICAgICAgICAgcHJpbnQoIiAgICIsIG0uZ3JvdXAoMCkpCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIG1haW4oKQo=
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+生成正式实验脚本（score/train/infer），带规模控制参数。
+
+关键设计：**候选池保持全量，只限制打分 query 数（n_score）**
+  - 候选池 = prompt_pool = 检索语料，与基线 random3 抽样来源一致 → 对照公平
+  - n_score = 被打分的 query 数，决定打分开销
+  - L = finder_L，每个 query 的候选数，决定排序信号强度（沿用论文/官方原值）
+
+用 Python 做替换而非 sed，避免 shell 转义地狱（# 与 & 在 sed 替换串里有特殊含义）。
+
+用法:
+  python gen_formal.py --model_tag qwen --model_path /root/autodl-tmp/models/qwen2.5-7b \
+      --cluster close_qa --ns_arc 150 --ns_obq 150 --ns_mul 150
+"""
+import argparse
+import os
+import re
+
+REPO = "/root/autodl-tmp/SeDPO_NIPS25"
+
+# 各任务的 L 与 n_score：按 task_name 分别替换，避免串改
+L_BY_TASK = {"arc_c": 400, "openbookqa": 200, "multirc": 50}
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--model_tag", required=True)
+    ap.add_argument("--model_path", required=True)
+    ap.add_argument("--cluster", required=True)
+    ap.add_argument("--ns_arc", type=int, default=150)
+    ap.add_argument("--ns_obq", type=int, default=150)
+    ap.add_argument("--ns_mul", type=int, default=150)
+    args = ap.parse_args()
+
+    tag, cluster = args.model_tag, args.cluster
+    srcexp = f"{REPO}/my_data_qwen/experiment/{cluster}"
+    exp = f"{REPO}/my_data_qwen/experiment_{tag}/{cluster}"
+    os.makedirs(exp, exist_ok=True)
+
+    ns_by_task = {"arc_c": args.ns_arc, "openbookqa": args.ns_obq, "multirc": args.ns_mul}
+
+    for fname in ("score.sh", "train.sh", "infer.sh"):
+        src = open(os.path.join(srcexp, fname), encoding="utf-8").read()
+
+        # 模型路径
+        src = src.replace("/root/autodl-tmp/models/qwen2.5-7b", args.model_path)
+        # 目录隔离：不同模型的中间产物互不覆盖
+        src = src.replace(f"my_data_qwen/experiment/{cluster}",
+                          f"my_data_qwen/experiment_{tag}/{cluster}")
+        src = src.replace("my_data_qwen/scored", f"my_data_qwen/scored_{tag}")
+        src = src.replace("my_data_qwen/find_random", f"my_data_qwen/find_random_{tag}")
+
+        # 规模参数：逐任务替换 L 与 n_score
+        for task, ns in ns_by_task.items():
+            src = re.sub(
+                rf"task_name={task} \+ds_size=\d+ L=\d+",
+                f"task_name={task} +ds_size=10000 L={L_BY_TASK[task]} +n_score={ns}",
+                src)
+
+        out = os.path.join(exp, fname)
+        with open(out, "w", encoding="utf-8") as f:
+            f.write(src)
+        os.chmod(out, 0o755)
+
+    print(f"[OK] 已生成 {exp}/{{score,train,infer}}.sh")
+    print(f"     模型={args.model_path}")
+    print("--- 各任务规模参数 ---")
+    for line in open(os.path.join(exp, "score.sh"), encoding="utf-8"):
+        m = re.search(r"task_name=\w+ \+ds_size=\d+ L=\d+ \+n_score=\d+", line)
+        if m:
+            print("   ", m.group(0))
+
+
+if __name__ == "__main__":
+    main()

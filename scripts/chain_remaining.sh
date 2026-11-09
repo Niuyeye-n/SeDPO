@@ -1,1 +1,33 @@
-IyEvYmluL2Jhc2gKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQojIOWJqeS9memYn+WIl++8iDIwMjYtMTEtMDcgMDc6MzDvvIkKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQojIOiDjOaZr++8mjQg57uEIFNlRFBPIOeahOaJk+WIhihRMS9RMi9RMynlt7Llhajpg6jlrozmiJDvvIzkvYborq3nu4PkuInmrKHooqvml6cgamFuaXRvciDnmoQKIyAgICAgICDjgIzntKfmgKXmqKHlvI/jgI3liKDmjokgbW9kZWwg55uu5b2V6ICM5Lit5pat44CC546w5Zyo77yaCiMgICAtIGxsYW1hOmNsb3NlX3FhIOato+WcqOeUseS4u+e8luaOkui3ke+8iOmihOiuoSAwNzo1NSDorq3nu4PlrozvvIzpmo/lkI4gaW5mZXLvvIkKIyAgIC0g5Ymp5L2Z5b6F6KGl77yacXdlbjpjbG9zZV9xYeOAgXF3ZW46cmVhZGluZ19uZXfjgIFsbGFtYTpyZWFkaW5nX25ldwojCiMg5pys6ISa5pys77ya562J5Li757yW5o6S5b275bqV6YCA5Ye65ZCO77yM5Liy6KGM6KGl6LeR6L+Z5LiJ57uE77yIc2NvcmUg5Lya5YWo6YOo6Lez6L+H77yM55u05o6l6K6t57uD77yJ44CCCiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0Kc2V0IC11Ck1BSU5fUElEPSR7TUFJTl9QSUQ6LTI2NTI4Nn0KTE9HPS9yb290L2F1dG9kbC10bXAvY2hhaW5fcmVtYWluaW5nLmxvZwpSRU1PVEU9L3Jvb3QvYXV0b2RsLXRtcC9ydW5fc2VkcG9fdjNfcmVzdW1lLnNoClNFTEVDVD0icXdlbjpjbG9zZV9xYSxxd2VuOnJlYWRpbmdfbmV3LGxsYW1hOnJlYWRpbmdfbmV3IgoKZWNobyAiWyQoZGF0ZSAnKyVGICVUJyldIOmYn+WIl+WQr+WKqO+8muetieW+heS4u+e8luaOkiBQSUQ9JE1BSU5fUElEIOe7k+adnyIgPj4gJExPRwoKd2hpbGUga2lsbCAtMCAiJE1BSU5fUElEIiAyPi9kZXYvbnVsbDsgZG8KICAgIHNsZWVwIDYwCmRvbmUKIyDlj4zkv53pmanvvJrnrYnliLDnoa7lrp7msqHmnIkgcnVuX3NlZHBvX3YzIOe8luaOkui/m+eoi++8iOaOkumZpOiHqui6q++8iQp3aGlsZSBwZ3JlcCAtZiAiYmFzaCBydW5fc2VkcG9fdjMuc2giID4vZGV2L251bGwgMj4mMTsgZG8KICAgIHNsZWVwIDMwCmRvbmUKCmVjaG8gIlskKGRhdGUgJyslRiAlVCcpXSDkuLvnvJbmjpLlt7Lnu5PmnZ/vvIzlvIDlp4vooaXot5HvvJokU0VMRUNUIiA+PiAkTE9HCmRmIC1oIC9yb290L2F1dG9kbC10bXAgfCB0YWlsIC0xID4+ICRMT0cKClNFTEVDVD0iJFNFTEVDVCIgYmFzaCAiJFJFTU9URSIgPj4gJExPRyAyPiYxCnJjPSQ/CmVjaG8gIlskKGRhdGUgJyslRiAlVCcpXSDooaXot5HpmJ/liJfnu5PmnZ8gcmM9JHJjIiA+PiAkTE9HCg==
+#!/bin/bash
+# =============================================================================
+# 剩余队列（2026-11-07 07:30）
+# =============================================================================
+# 背景：4 组 SeDPO 的打分(Q1/Q2/Q3)已全部完成，但训练三次被旧 janitor 的
+#       「紧急模式」删掉 model 目录而中断。现在：
+#   - llama:close_qa 正在由主编排跑（预计 07:55 训练完，随后 infer）
+#   - 剩余待补：qwen:close_qa、qwen:reading_new、llama:reading_new
+#
+# 本脚本：等主编排彻底退出后，串行补跑这三组（score 会全部跳过，直接训练）。
+# =============================================================================
+set -u
+MAIN_PID=${MAIN_PID:-265286}
+LOG=/root/autodl-tmp/chain_remaining.log
+REMOTE=/root/autodl-tmp/run_sedpo_v3_resume.sh
+SELECT="qwen:close_qa,qwen:reading_new,llama:reading_new"
+
+echo "[$(date '+%F %T')] 队列启动：等待主编排 PID=$MAIN_PID 结束" >> $LOG
+
+while kill -0 "$MAIN_PID" 2>/dev/null; do
+    sleep 60
+done
+# 双保险：等到确实没有 run_sedpo_v3 编排进程（排除自身）
+while pgrep -f "bash run_sedpo_v3.sh" >/dev/null 2>&1; do
+    sleep 30
+done
+
+echo "[$(date '+%F %T')] 主编排已结束，开始补跑：$SELECT" >> $LOG
+df -h /root/autodl-tmp | tail -1 >> $LOG
+
+SELECT="$SELECT" bash "$REMOTE" >> $LOG 2>&1
+rc=$?
+echo "[$(date '+%F %T')] 补跑队列结束 rc=$rc" >> $LOG

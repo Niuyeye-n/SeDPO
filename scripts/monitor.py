@@ -1,1 +1,99 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwojIC0qLSBjb2Rpbmc6IHV0Zi04IC0qLQoiIiIK5a6e6aqM6L+b5bqm55uR5o6n77ya5LiA5p2h5ZG95Luk55yL5riFIFNlRFBPIOWunumqjOi3keWIsOWTquS6huOAggoK55So5rOVOiBweXRob24gbW9uaXRvci5weQoiIiIKaW1wb3J0IGpzb24KaW1wb3J0IG9zCmltcG9ydCByZQppbXBvcnQgc3VicHJvY2VzcwppbXBvcnQgc3lzCgpSRVBPID0gIi9yb290L2F1dG9kbC10bXAvU2VEUE9fTklQUzI1IgpSRVNVTFRTID0gZiJ7UkVQT30vcmVzdWx0c19zZWRwb192MyIKTE9HID0gIi9yb290L2F1dG9kbC10bXAvc2VkcG9fdjMubG9nIgoKCmRlZiBzaChjbWQpOgogICAgdHJ5OgogICAgICAgIHIgPSBzdWJwcm9jZXNzLnJ1bihjbWQsIHNoZWxsPVRydWUsIGNhcHR1cmVfb3V0cHV0PVRydWUsIHRleHQ9VHJ1ZSwgdGltZW91dD0zMCkKICAgICAgICByZXR1cm4gci5zdGRvdXQuc3RyaXAoKQogICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICByZXR1cm4gIiIKCgpwcmludCgiPSIgKiA3MikKcHJpbnQoIlNlRFBPIOWunumqjOi/m+W6puebkeaOpyIpCnByaW50KCI9IiAqIDcyKQoKIyAtLS0tIDEuIOS4u+e8luaOkuaXpeW/lyAtLS0tCmlmIG9zLnBhdGguZXhpc3RzKExPRyk6CiAgICBsaW5lcyA9IFtsIGZvciBsIGluIG9wZW4oTE9HLCBlbmNvZGluZz0idXRmLTgiLCBlcnJvcnM9Imlnbm9yZSIpLnJlYWQoKS5zcGxpdCgiXG4iKQogICAgICAgICAgICAgaWYgbC5zdHJpcCgpIGFuZCBub3QgcmUuc2VhcmNoKHIiaXQvc3xeXHMqJCIsIGwpXQogICAgcHJpbnQoIlxuLS0tIOe8luaOkuaXpeW/l++8iOacgOWQjiA4IOihjO+8iS0tLSIpCiAgICBmb3IgbCBpbiBsaW5lc1stODpdOgogICAgICAgIHByaW50KCIgICIgKyBsWzoxMTBdKQoKIyAtLS0tIDIuIOWQhOe7hOaJk+WIhui/m+W6piAtLS0tCnByaW50KCJcbi0tLSDlkITnu4TmiZPliIbov5vluqYgLS0tIikKZm91bmQgPSBGYWxzZQppbXBvcnQgZ2xvYgpmb3IgdGFnIGluIFsic2VkcG9fcXdlbiIsICJzZWRwb19sbGFtYSJdOgogICAgc2hvcnQgPSB0YWcucmVwbGFjZSgic2VkcG9fIiwgIiIpCiAgICBmb3IgY2x1c3RlciBpbiBbImNsb3NlX3FhIiwgInJlYWRpbmdfbmV3Il06CiAgICAgICAgbG9ncyA9IHNvcnRlZChnbG9iLmdsb2IoZiJ7UkVTVUxUU30vbG9ncy97Y2x1c3Rlcn1fe3Nob3J0fV8qIikpCiAgICAgICAgZm9yIGxnIGluIGxvZ3M6CiAgICAgICAgICAgIHNjb3JlX2xvZyA9IG9zLnBhdGguam9pbihsZywgInNlZHBvX3Njb3JlLmxvZyIpCiAgICAgICAgICAgIGlmIG5vdCBvcy5wYXRoLmlzZmlsZShzY29yZV9sb2cpOgogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgZm91bmQgPSBUcnVlCiAgICAgICAgICAgIHR4dCA9IG9wZW4oc2NvcmVfbG9nLCBlbmNvZGluZz0idXRmLTgiLCBlcnJvcnM9Imlnbm9yZSIpLnJlYWQoKQogICAgICAgICAgICAjIOi/m+W6puadoeW9ouWmgjogU2NvcmluZzogIDEyJXwjIyAgfCAyNDAwLzIwMDAwIFswMzoyMDwwMDowMCwgMTIuMDBpdC9zXQogICAgICAgICAgICBzYyA9IHJlLmZpbmRhbGwociJTY29yaW5nOlxzKihcZCspJS4qP1x8XHMqKFxkKykvKFxkKylccypcWyhbXGQ6XSspPChbXGQ6XSspLFxzKihbXGQuXSspXHMqKGl0L3N8cy9pdCkiLCB0eHQpCiAgICAgICAgICAgIGlmIHNjOgogICAgICAgICAgICAgICAgZyA9IHNjWy0xXQogICAgICAgICAgICAgICAgcCwgY3VyLCB0b3QsIGV0YSwgcmF0ZSA9IGdbMF0sIGdbMV0sIGdbMl0sIGdbNF0sIGdbNV0KICAgICAgICAgICAgICAgIHByaW50KGYiICB7Y2x1c3Rlcn0ve3Nob3J0fToge3B9JSAoe2N1cn0ve3RvdH0pIOmAn+eOhyB7cmF0ZX0g6aKE6K6h5Ymp5L2ZIHtldGF9IikKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIHByaW50KGYiICB7Y2x1c3Rlcn0ve3Nob3J0fTogKOaXoOi/m+W6puadoe+8jOaXpeW/lyB7b3MucGF0aC5iYXNlbmFtZShsZyl9KSIpCmlmIG5vdCBmb3VuZDoKICAgIHByaW50KCIgICjov5jmsqHmnInml6Xlv5fnm67lvZUpIikKCiMgLS0tLSAzLiDlt7LlrozmiJDnu5PmnpwgLS0tLQpwcmludCgiXG4tLS0g5bey5Ye657uT5p6cIC0tLSIpCnJvd3MgPSBbXQppZiBvcy5wYXRoLmlzZGlyKFJFU1VMVFMpOgogICAgZm9yIGQgaW4gc29ydGVkKG9zLmxpc3RkaXIoUkVTVUxUUykpOgogICAgICAgIG9kID0gb3MucGF0aC5qb2luKFJFU1VMVFMsIGQpCiAgICAgICAgaWYgbm90IG9zLnBhdGguaXNkaXIob2QpOgogICAgICAgICAgICBjb250aW51ZQogICAgICAgIG1mID0gb3MucGF0aC5qb2luKG9kLCAibWV0cmljc19zZWRwby5qc29uIikKICAgICAgICBpZiBub3Qgb3MucGF0aC5leGlzdHMobWYpOgogICAgICAgICAgICBjb250aW51ZQogICAgICAgIHRyeToKICAgICAgICAgICAgbSA9IGpzb24ubG9hZChvcGVuKG1mLCBlbmNvZGluZz0idXRmLTgiKSkKICAgICAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgICAgICBjb250aW51ZQogICAgICAgIGFjYyA9IG0uZ2V0KCJhY2N1cmFjeSIsIG0uZ2V0KCJhY2MiLCAiPyIpKQogICAgICAgIGYxID0gbS5nZXQoImYxIiwgIj8iKQogICAgICAgIHJvd3MuYXBwZW5kKChkLCBhY2MsIGYxKSkKaWYgcm93czoKICAgIHByaW50KGYiICB7J+e7hCc6PDI2fXsnYWNjdXJhY3knOj4xMH17J0YxJzo+MTB9IikKICAgIGZvciBkLCBhLCBmIGluIHJvd3M6CiAgICAgICAgcHJpbnQoZiIgIHtkOjwyNn17c3RyKGEpOj4xMH17c3RyKGYpOj4xMH0iKQplbHNlOgogICAgcHJpbnQoIiAgKOi/mOayoeacieWujOaIkOeahOe7k+aenCkiKQoKIyAtLS0tIDQuIOi1hOa6kOeKtuaAgSAtLS0tCnByaW50KCJcbi0tLSDotYTmupAgLS0tIikKZ3B1ID0gc2goIm52aWRpYS1zbWkgLS1xdWVyeS1ncHU9bWVtb3J5LnVzZWQsbWVtb3J5LnRvdGFsLHV0aWxpemF0aW9uLmdwdSAtLWZvcm1hdD1jc3Ysbm9oZWFkZXIiKQpwcmludChmIiAgR1BVOiB7Z3B1fSIpCmRpc2sgPSBzaCgiZGYgLWggL3Jvb3QvYXV0b2RsLXRtcCB8IHRhaWwgLTEgfCBhd2sgJ3twcmludCAkNFwiIOWPr+eUqCAvIFwiJDVcIiDlt7LnlKhcIn0nIikKcHJpbnQoZiIgIOejgeebmDoge2Rpc2t9IikKcHJvY3MgPSBzaCgicHMgLWVvIGV0aW1lLGNtZCB8IGdyZXAgLUUgJ3Njb3Jlci5weXx0cmFpbl9kZW5zZV9lbmNvZGVyfGluZmVyZW5jZS5weScgfCBncmVwIC12IGdyZXAgfCBoZWFkIC0yIikKZm9yIHAgaW4gcHJvY3Muc3BsaXQoIlxuIilbOjJdOgogICAgaWYgcC5zdHJpcCgpOgogICAgICAgIHByaW50KGYiICDov5DooYzkuK06IHtwWzoxMDBdfSIpCnByaW50KCkK
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+实验进度监控：一条命令看清 SeDPO 实验跑到哪了。
+
+用法: python monitor.py
+"""
+import json
+import os
+import re
+import subprocess
+import sys
+
+REPO = "/root/autodl-tmp/SeDPO_NIPS25"
+RESULTS = f"{REPO}/results_sedpo_v3"
+LOG = "/root/autodl-tmp/sedpo_v3.log"
+
+
+def sh(cmd):
+    try:
+        r = subprocess.run(cmd, shell=True, capture_output=True, text=True, timeout=30)
+        return r.stdout.strip()
+    except Exception:
+        return ""
+
+
+print("=" * 72)
+print("SeDPO 实验进度监控")
+print("=" * 72)
+
+# ---- 1. 主编排日志 ----
+if os.path.exists(LOG):
+    lines = [l for l in open(LOG, encoding="utf-8", errors="ignore").read().split("\n")
+             if l.strip() and not re.search(r"it/s|^\s*$", l)]
+    print("\n--- 编排日志（最后 8 行）---")
+    for l in lines[-8:]:
+        print("  " + l[:110])
+
+# ---- 2. 各组打分进度 ----
+print("\n--- 各组打分进度 ---")
+found = False
+import glob
+for tag in ["sedpo_qwen", "sedpo_llama"]:
+    short = tag.replace("sedpo_", "")
+    for cluster in ["close_qa", "reading_new"]:
+        logs = sorted(glob.glob(f"{RESULTS}/logs/{cluster}_{short}_*"))
+        for lg in logs:
+            score_log = os.path.join(lg, "sedpo_score.log")
+            if not os.path.isfile(score_log):
+                continue
+            found = True
+            txt = open(score_log, encoding="utf-8", errors="ignore").read()
+            # 进度条形如: Scoring:  12%|##  | 2400/20000 [03:20<00:00, 12.00it/s]
+            sc = re.findall(r"Scoring:\s*(\d+)%.*?\|\s*(\d+)/(\d+)\s*\[([\d:]+)<([\d:]+),\s*([\d.]+)\s*(it/s|s/it)", txt)
+            if sc:
+                g = sc[-1]
+                p, cur, tot, eta, rate = g[0], g[1], g[2], g[4], g[5]
+                print(f"  {cluster}/{short}: {p}% ({cur}/{tot}) 速率 {rate} 预计剩余 {eta}")
+            else:
+                print(f"  {cluster}/{short}: (无进度条，日志 {os.path.basename(lg)})")
+if not found:
+    print("  (还没有日志目录)")
+
+# ---- 3. 已完成结果 ----
+print("\n--- 已出结果 ---")
+rows = []
+if os.path.isdir(RESULTS):
+    for d in sorted(os.listdir(RESULTS)):
+        od = os.path.join(RESULTS, d)
+        if not os.path.isdir(od):
+            continue
+        mf = os.path.join(od, "metrics_sedpo.json")
+        if not os.path.exists(mf):
+            continue
+        try:
+            m = json.load(open(mf, encoding="utf-8"))
+        except Exception:
+            continue
+        acc = m.get("accuracy", m.get("acc", "?"))
+        f1 = m.get("f1", "?")
+        rows.append((d, acc, f1))
+if rows:
+    print(f"  {'组':<26}{'accuracy':>10}{'F1':>10}")
+    for d, a, f in rows:
+        print(f"  {d:<26}{str(a):>10}{str(f):>10}")
+else:
+    print("  (还没有完成的结果)")
+
+# ---- 4. 资源状态 ----
+print("\n--- 资源 ---")
+gpu = sh("nvidia-smi --query-gpu=memory.used,memory.total,utilization.gpu --format=csv,noheader")
+print(f"  GPU: {gpu}")
+disk = sh("df -h /root/autodl-tmp | tail -1 | awk '{print $4\" 可用 / \"$5\" 已用\"}'")
+print(f"  磁盘: {disk}")
+procs = sh("ps -eo etime,cmd | grep -E 'scorer.py|train_dense_encoder|inference.py' | grep -v grep | head -2")
+for p in procs.split("\n")[:2]:
+    if p.strip():
+        print(f"  运行中: {p[:100]}")
+print()

@@ -1,1 +1,458 @@
-aW1wb3J0IGNvbGxlY3Rpb25zCmltcG9ydCBjc3YKaW1wb3J0IGpzb24KaW1wb3J0IGxvZ2dpbmcKaW1wb3J0IHBpY2tsZQpmcm9tIHR5cGluZyBpbXBvcnQgRGljdAoKaW1wb3J0IGh5ZHJhCmltcG9ydCBqc29ubGluZXMKaW1wb3J0IHRvcmNoCmZyb20gb21lZ2Fjb25mIGltcG9ydCBEaWN0Q29uZmlnCgpmcm9tIGRwci51dGlscy5kYXRhX3V0aWxzIGltcG9ydCByZWFkX2RhdGFfZnJvbV9qc29uX2ZpbGVzCmZyb20gZHByLmRhdGEuYmllbmNvZGVyX2RhdGEgaW1wb3J0ICgKICAgIEJpRW5jb2RlclBhc3NhZ2UsCiAgICBub3JtYWxpemVfcGFzc2FnZSwKICAgIG5vcm1hbGl6ZV9xdWVzdGlvbiwKICAgIGdldF9kcHJfZmlsZXMsCiAgICByZWFkX25xX3RhYmxlc19qc29ubCwKICAgIHNwbGl0X3RhYmxlc190b19jaHVua3MsCiAgICByZW1vdmVfZG91YmxlX3NwYWNlLAopCmZyb20gZHByLnV0aWxzLnRhc2tzIGltcG9ydCAoCiAgICB0YXNrX21hcCwKICAgIGdldF9wcm9tcHRfZmlsZXMsCikKCmxvZ2dlciA9IGxvZ2dpbmcuZ2V0TG9nZ2VyKF9fbmFtZV9fKQpRQVNhbXBsZSA9IGNvbGxlY3Rpb25zLm5hbWVkdHVwbGUoCiAgICAiUXVlcnlTYW1wbGUiLCBbInF1ZXJ5IiwgImlkIiwgImFuc3dlcnMiLCAibWV0YV9kYXRhIl0KKQpUYWJsZUNodW5rID0gY29sbGVjdGlvbnMubmFtZWR0dXBsZSgiVGFibGVDaHVuayIsIFsidGV4dCIsICJ0aXRsZSIsICJ0YWJsZV9pZCJdKQoKCmNsYXNzIFJldHJpZXZlckRhdGEodG9yY2gudXRpbHMuZGF0YS5EYXRhc2V0KToKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBmaWxlOiBzdHIpOgogICAgICAgICIiIgogICAgICAgIDpwYXJhbSBmaWxlOiAtIHJlYWwgZmlsZSBuYW1lIG9yIHRoZSByZXNvdXJjZSBuYW1lIGFzIHRoZXkgYXJlIGRlZmluZWQgaW4gZG93bmxvYWRfZGF0YS5weQogICAgICAgICIiIgogICAgICAgIHNlbGYuZmlsZSA9IGZpbGUKICAgICAgICBzZWxmLmRhdGFfZmlsZXMgPSBbXQoKICAgIGRlZiBsb2FkX2RhdGEoc2VsZik6CiAgICAgICAgc2VsZi5kYXRhX2ZpbGVzID0gZ2V0X2Rwcl9maWxlcyhzZWxmLmZpbGUpCiAgICAgICAgYXNzZXJ0ICgKICAgICAgICAgICAgbGVuKHNlbGYuZGF0YV9maWxlcykgPT0gMQogICAgICAgICksICJSZXRyaWV2ZXJEYXRhIHNvdXJjZSBjdXJyZW50bHkgd29ya3Mgd2l0aCBzaW5nbGUgZmlsZXMgb25seS4gRmlsZXMgc3BlY2lmaWVkOiB7fSIuZm9ybWF0KAogICAgICAgICAgICBzZWxmLmRhdGFfZmlsZXMKICAgICAgICApCiAgICAgICAgc2VsZi5maWxlID0gc2VsZi5kYXRhX2ZpbGVzWzBdCgoKY2xhc3MgUUFTcmMoUmV0cmlldmVyRGF0YSk6CiAgICBkZWYgX19pbml0X18oCiAgICAgICAgc2VsZiwKICAgICAgICBmaWxlOiBzdHIsCiAgICAgICAgc2VsZWN0b3I6IERpY3RDb25maWcgPSBOb25lLAogICAgICAgIHNwZWNpYWxfcXVlcnlfdG9rZW46IHN0ciA9IE5vbmUsCiAgICAgICAgcXVlcnlfc3BlY2lhbF9zdWZmaXg6IHN0ciA9IE5vbmUsCiAgICApOgogICAgICAgIHN1cGVyKCkuX19pbml0X18oZmlsZSkKICAgICAgICBzZWxmLmRhdGEgPSBOb25lCiAgICAgICAgc2VsZi5zZWxlY3RvciA9IGh5ZHJhLnV0aWxzLmluc3RhbnRpYXRlKHNlbGVjdG9yKSBpZiBzZWxlY3RvciBlbHNlIE5vbmUKICAgICAgICBzZWxmLnNwZWNpYWxfcXVlcnlfdG9rZW4gPSBzcGVjaWFsX3F1ZXJ5X3Rva2VuCiAgICAgICAgc2VsZi5xdWVyeV9zcGVjaWFsX3N1ZmZpeCA9IHF1ZXJ5X3NwZWNpYWxfc3VmZml4CgogICAgZGVmIF9fZ2V0aXRlbV9fKHNlbGYsIGluZGV4KSAtPiBRQVNhbXBsZToKICAgICAgICByZXR1cm4gc2VsZi5kYXRhW2luZGV4XQoKICAgIGRlZiBfX2xlbl9fKHNlbGYpOgogICAgICAgIHJldHVybiBsZW4oc2VsZi5kYXRhKQoKICAgIGRlZiBfcHJvY2Vzc19xdWVzdGlvbihzZWxmLCBxdWVzdGlvbjogc3RyKToKICAgICAgICAjIGFzIG9mIG5vdywgYWx3YXlzIG5vcm1hbGl6ZSBxdWVyeQogICAgICAgIHF1ZXN0aW9uID0gbm9ybWFsaXplX3F1ZXN0aW9uKHF1ZXN0aW9uKQogICAgICAgIGlmIHNlbGYucXVlcnlfc3BlY2lhbF9zdWZmaXggYW5kIG5vdCBxdWVzdGlvbi5lbmRzd2l0aCgKICAgICAgICAgICAgc2VsZi5xdWVyeV9zcGVjaWFsX3N1ZmZpeAogICAgICAgICk6CiAgICAgICAgICAgIHF1ZXN0aW9uICs9IHNlbGYucXVlcnlfc3BlY2lhbF9zdWZmaXgKICAgICAgICByZXR1cm4gcXVlc3Rpb24KCgpjbGFzcyBDc3ZRQVNyYyhRQVNyYyk6CiAgICBkZWYgX19pbml0X18oCiAgICAgICAgc2VsZiwKICAgICAgICBmaWxlOiBzdHIsCiAgICAgICAgcXVlc3Rpb25fY29sOiBpbnQgPSAwLAogICAgICAgIGFuc3dlcnNfY29sOiBpbnQgPSAxLAogICAgICAgIGlkX2NvbDogaW50ID0gLTEsCiAgICAgICAgc2VsZWN0b3I6IERpY3RDb25maWcgPSBOb25lLAogICAgICAgIHNwZWNpYWxfcXVlcnlfdG9rZW46IHN0ciA9IE5vbmUsCiAgICAgICAgcXVlcnlfc3BlY2lhbF9zdWZmaXg6IHN0ciA9IE5vbmUsCiAgICApOgogICAgICAgIHN1cGVyKCkuX19pbml0X18oZmlsZSwgc2VsZWN0b3IsIHNwZWNpYWxfcXVlcnlfdG9rZW4sIHF1ZXJ5X3NwZWNpYWxfc3VmZml4KQogICAgICAgIHNlbGYucXVlc3Rpb25fY29sID0gcXVlc3Rpb25fY29sCiAgICAgICAgc2VsZi5hbnN3ZXJzX2NvbCA9IGFuc3dlcnNfY29sCiAgICAgICAgc2VsZi5pZF9jb2wgPSBpZF9jb2wKCiAgICBkZWYgbG9hZF9kYXRhKHNlbGYpOgogICAgICAgIHN1cGVyKCkubG9hZF9kYXRhKCkKICAgICAgICBkYXRhID0gW10KICAgICAgICB3aXRoIG9wZW4oc2VsZi5maWxlKSBhcyBpZmlsZToKICAgICAgICAgICAgcmVhZGVyID0gY3N2LnJlYWRlcihpZmlsZSwgZGVsaW1pdGVyPSJcdCIpCiAgICAgICAgICAgIGZvciByb3cgaW4gcmVhZGVyOgogICAgICAgICAgICAgICAgcXVlc3Rpb24gPSByb3dbc2VsZi5xdWVzdGlvbl9jb2xdCiAgICAgICAgICAgICAgICBhbnN3ZXJzID0gZXZhbChyb3dbc2VsZi5hbnN3ZXJzX2NvbF0pCiAgICAgICAgICAgICAgICBpZCA9IE5vbmUKICAgICAgICAgICAgICAgIGlmIHNlbGYuaWRfY29sID49IDA6CiAgICAgICAgICAgICAgICAgICAgaWQgPSByb3dbc2VsZi5pZF9jb2xdCiAgICAgICAgICAgICAgICBkYXRhLmFwcGVuZChRQVNhbXBsZShzZWxmLl9wcm9jZXNzX3F1ZXN0aW9uKHF1ZXN0aW9uKSwgaWQsIGFuc3dlcnMpKQogICAgICAgIHNlbGYuZGF0YSA9IGRhdGEKCgpjbGFzcyBKc29ubFFBU3JjKFFBU3JjKToKICAgIGRlZiBfX2luaXRfXygKICAgICAgICBzZWxmLAogICAgICAgIGZpbGU6IHN0ciwKICAgICAgICBzZWxlY3RvcjogRGljdENvbmZpZyA9IE5vbmUsCiAgICAgICAgcXVlc3Rpb25fYXR0cjogc3RyID0gInF1ZXN0aW9uIiwKICAgICAgICBhbnN3ZXJzX2F0dHI6IHN0ciA9ICJhbnN3ZXJzIiwKICAgICAgICBpZF9hdHRyOiBzdHIgPSAiaWQiLAogICAgICAgIHNwZWNpYWxfcXVlcnlfdG9rZW46IHN0ciA9IE5vbmUsCiAgICAgICAgcXVlcnlfc3BlY2lhbF9zdWZmaXg6IHN0ciA9IE5vbmUsCiAgICApOgogICAgICAgIHN1cGVyKCkuX19pbml0X18oZmlsZSwgc2VsZWN0b3IsIHNwZWNpYWxfcXVlcnlfdG9rZW4sIHF1ZXJ5X3NwZWNpYWxfc3VmZml4KQogICAgICAgIHNlbGYucXVlc3Rpb25fYXR0ciA9IHF1ZXN0aW9uX2F0dHIKICAgICAgICBzZWxmLmFuc3dlcnNfYXR0ciA9IGFuc3dlcnNfYXR0cgogICAgICAgIHNlbGYuaWRfYXR0ciA9IGlkX2F0dHIKCiAgICBkZWYgbG9hZF9kYXRhKHNlbGYpOgogICAgICAgIHN1cGVyKCkubG9hZF9kYXRhKCkKICAgICAgICBkYXRhID0gW10KICAgICAgICB3aXRoIGpzb25saW5lcy5vcGVuKHNlbGYuZmlsZSwgbW9kZT0iciIpIGFzIGpzb25sX3JlYWRlcjoKICAgICAgICAgICAgZm9yIGpsaW5lIGluIGpzb25sX3JlYWRlcjoKICAgICAgICAgICAgICAgIHF1ZXN0aW9uID0gamxpbmVbc2VsZi5xdWVzdGlvbl9hdHRyXQogICAgICAgICAgICAgICAgYW5zd2VycyA9IGpsaW5lW3NlbGYuYW5zd2Vyc19hdHRyXSBpZiBzZWxmLmFuc3dlcnNfYXR0ciBpbiBqbGluZSBlbHNlIFtdCiAgICAgICAgICAgICAgICBpZCA9IE5vbmUKICAgICAgICAgICAgICAgIGlmIHNlbGYuaWRfYXR0ciBpbiBqbGluZToKICAgICAgICAgICAgICAgICAgICBpZCA9IGpsaW5lW3NlbGYuaWRfYXR0cl0KICAgICAgICAgICAgICAgIGRhdGEuYXBwZW5kKFFBU2FtcGxlKHNlbGYuX3Byb2Nlc3NfcXVlc3Rpb24ocXVlc3Rpb24pLCBpZCwgYW5zd2VycykpCiAgICAgICAgc2VsZi5kYXRhID0gZGF0YQoKCmNsYXNzIEtpbHRDc3ZRQVNyYyhDc3ZRQVNyYyk6CiAgICBkZWYgX19pbml0X18oCiAgICAgICAgc2VsZiwKICAgICAgICBmaWxlOiBzdHIsCiAgICAgICAga2lsdF9nb2xkX2ZpbGU6IHN0ciwKICAgICAgICBxdWVzdGlvbl9jb2w6IGludCA9IDAsCiAgICAgICAgYW5zd2Vyc19jb2w6IGludCA9IDEsCiAgICAgICAgaWRfY29sOiBpbnQgPSAtMSwKICAgICAgICBzZWxlY3RvcjogRGljdENvbmZpZyA9IE5vbmUsCiAgICAgICAgc3BlY2lhbF9xdWVyeV90b2tlbjogc3RyID0gTm9uZSwKICAgICAgICBxdWVyeV9zcGVjaWFsX3N1ZmZpeDogc3RyID0gTm9uZSwKICAgICk6CiAgICAgICAgc3VwZXIoKS5fX2luaXRfXygKICAgICAgICAgICAgZmlsZSwKICAgICAgICAgICAgcXVlc3Rpb25fY29sLAogICAgICAgICAgICBhbnN3ZXJzX2NvbCwKICAgICAgICAgICAgaWRfY29sLAogICAgICAgICAgICBzZWxlY3RvciwKICAgICAgICAgICAgc3BlY2lhbF9xdWVyeV90b2tlbiwKICAgICAgICAgICAgcXVlcnlfc3BlY2lhbF9zdWZmaXgsCiAgICAgICAgKQogICAgICAgIHNlbGYua2lsdF9nb2xkX2ZpbGUgPSBraWx0X2dvbGRfZmlsZQoKCmNsYXNzIEtpbHRKc29ubFFBU3JjKEpzb25sUUFTcmMpOgogICAgZGVmIF9faW5pdF9fKAogICAgICAgIHNlbGYsCiAgICAgICAgZmlsZTogc3RyLAogICAgICAgIGtpbHRfZ29sZF9maWxlOiBzdHIsCiAgICAgICAgcXVlc3Rpb25fYXR0cjogc3RyID0gImlucHV0IiwKICAgICAgICBhbnN3ZXJzX2F0dHI6IHN0ciA9ICJhbnN3ZXIiLAogICAgICAgIGlkX2F0dHI6IHN0ciA9ICJpZCIsCiAgICAgICAgc2VsZWN0b3I6IERpY3RDb25maWcgPSBOb25lLAogICAgICAgIHNwZWNpYWxfcXVlcnlfdG9rZW46IHN0ciA9IE5vbmUsCiAgICAgICAgcXVlcnlfc3BlY2lhbF9zdWZmaXg6IHN0ciA9IE5vbmUsCiAgICApOgogICAgICAgIHN1cGVyKCkuX19pbml0X18oCiAgICAgICAgICAgIGZpbGUsCiAgICAgICAgICAgIHNlbGVjdG9yLAogICAgICAgICAgICBxdWVzdGlvbl9hdHRyLAogICAgICAgICAgICBhbnN3ZXJzX2F0dHIsCiAgICAgICAgICAgIGlkX2F0dHIsCiAgICAgICAgICAgIHNwZWNpYWxfcXVlcnlfdG9rZW4sCiAgICAgICAgICAgIHF1ZXJ5X3NwZWNpYWxfc3VmZml4LAogICAgICAgICkKICAgICAgICBzZWxmLmtpbHRfZ29sZF9maWxlID0ga2lsdF9nb2xkX2ZpbGUKCiAgICBkZWYgbG9hZF9kYXRhKHNlbGYpOgogICAgICAgIHN1cGVyKCkubG9hZF9kYXRhKCkKICAgICAgICBkYXRhID0gW10KICAgICAgICB3aXRoIGpzb25saW5lcy5vcGVuKHNlbGYuZmlsZSwgbW9kZT0iciIpIGFzIGpzb25sX3JlYWRlcjoKICAgICAgICAgICAgZm9yIGpsaW5lIGluIGpzb25sX3JlYWRlcjoKICAgICAgICAgICAgICAgIHF1ZXN0aW9uID0gamxpbmVbc2VsZi5xdWVzdGlvbl9hdHRyXQogICAgICAgICAgICAgICAgb3V0ID0gamxpbmVbIm91dHB1dCJdCiAgICAgICAgICAgICAgICBhbnN3ZXJzID0gW29bImFuc3dlciJdIGZvciBvIGluIG91dCBpZiAiYW5zd2VyIiBpbiBvXQogICAgICAgICAgICAgICAgaWQgPSBOb25lCiAgICAgICAgICAgICAgICBpZiBzZWxmLmlkX2F0dHIgaW4gamxpbmU6CiAgICAgICAgICAgICAgICAgICAgaWQgPSBqbGluZVtzZWxmLmlkX2F0dHJdCiAgICAgICAgICAgICAgICBkYXRhLmFwcGVuZChRQVNhbXBsZShzZWxmLl9wcm9jZXNzX3F1ZXN0aW9uKHF1ZXN0aW9uKSwgaWQsIGFuc3dlcnMpKQogICAgICAgIHNlbGYuZGF0YSA9IGRhdGEKCgpjbGFzcyBUVFNfQVNSX1FBU3JjKFFBU3JjKToKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBmaWxlOiBzdHIsIHRyYW5zX2ZpbGU6IHN0cik6CiAgICAgICAgc3VwZXIoKS5fX2luaXRfXyhmaWxlKQogICAgICAgIHNlbGYudHJhbnNfZmlsZSA9IHRyYW5zX2ZpbGUKCiAgICBkZWYgbG9hZF9kYXRhKHNlbGYpOgogICAgICAgIHN1cGVyKCkubG9hZF9kYXRhKCkKICAgICAgICBvcmlnX2RhdGFfZGljdCA9IHt9CiAgICAgICAgd2l0aCBvcGVuKHNlbGYuZmlsZSwgInIiKSBhcyBpZmlsZToKICAgICAgICAgICAgcmVhZGVyID0gY3N2LnJlYWRlcihpZmlsZSwgZGVsaW1pdGVyPSJcdCIpCiAgICAgICAgICAgIGlkID0gMAogICAgICAgICAgICBmb3Igcm93IGluIHJlYWRlcjoKICAgICAgICAgICAgICAgIHF1ZXN0aW9uID0gcm93WzBdCiAgICAgICAgICAgICAgICBhbnN3ZXJzID0gZXZhbChyb3dbMV0pCiAgICAgICAgICAgICAgICBvcmlnX2RhdGFfZGljdFtpZF0gPSAocXVlc3Rpb24sIGFuc3dlcnMpCiAgICAgICAgICAgICAgICBpZCArPSAxCiAgICAgICAgZGF0YSA9IFtdCiAgICAgICAgd2l0aCBvcGVuKHNlbGYudHJhbnNfZmlsZSwgInIiKSBhcyB0ZmlsZToKICAgICAgICAgICAgcmVhZGVyID0gY3N2LnJlYWRlcih0ZmlsZSwgZGVsaW1pdGVyPSJcdCIpCiAgICAgICAgICAgIGZvciByIGluIHJlYWRlcjoKICAgICAgICAgICAgICAgIHJvd19zdHIgPSByWzBdCiAgICAgICAgICAgICAgICBpZHggPSByb3dfc3RyLmluZGV4KCIoTm9uZS0iKQogICAgICAgICAgICAgICAgcV9pZCA9IGludChyb3dfc3RyW2lkeCArIGxlbigiKE5vbmUtIikgOiAtMV0pCiAgICAgICAgICAgICAgICBvcmlnX2RhdGEgPSBvcmlnX2RhdGFfZGljdFtxX2lkXQogICAgICAgICAgICAgICAgYW5zd2VycyA9IG9yaWdfZGF0YVsxXQogICAgICAgICAgICAgICAgcSA9IHJvd19zdHJbOmlkeF0uc3RyaXAoKS5sb3dlcigpCiAgICAgICAgICAgICAgICBkYXRhLmFwcGVuZChRQVNhbXBsZShxLCBpZHgsIGFuc3dlcnMpKQogICAgICAgIHNlbGYuZGF0YSA9IGRhdGEKCgpjbGFzcyBDc3ZDdHhTcmMoUmV0cmlldmVyRGF0YSk6CiAgICBkZWYgX19pbml0X18oCiAgICAgICAgc2VsZiwKICAgICAgICBmaWxlOiBzdHIsCiAgICAgICAgaWRfY29sOiBpbnQgPSAwLAogICAgICAgIHRleHRfY29sOiBpbnQgPSAxLAogICAgICAgIHRpdGxlX2NvbDogaW50ID0gMiwKICAgICAgICBpZF9wcmVmaXg6IHN0ciA9IE5vbmUsCiAgICAgICAgbm9ybWFsaXplOiBib29sID0gRmFsc2UsCiAgICApOgogICAgICAgIHN1cGVyKCkuX19pbml0X18oZmlsZSkKICAgICAgICBzZWxmLnRleHRfY29sID0gdGV4dF9jb2wKICAgICAgICBzZWxmLnRpdGxlX2NvbCA9IHRpdGxlX2NvbAogICAgICAgIHNlbGYuaWRfY29sID0gaWRfY29sCiAgICAgICAgc2VsZi5pZF9wcmVmaXggPSBpZF9wcmVmaXgKICAgICAgICBzZWxmLm5vcm1hbGl6ZSA9IG5vcm1hbGl6ZQoKICAgIGRlZiBsb2FkX2RhdGFfdG8oc2VsZiwgY3R4czogRGljdFtvYmplY3QsIEJpRW5jb2RlclBhc3NhZ2VdKToKICAgICAgICBzdXBlcigpLmxvYWRfZGF0YSgpCiAgICAgICAgd2l0aCBvcGVuKHNlbGYuZmlsZSkgYXMgaWZpbGU6CiAgICAgICAgICAgIHJlYWRlciA9IGNzdi5yZWFkZXIoaWZpbGUsIGRlbGltaXRlcj0iXHQiKQogICAgICAgICAgICBmb3Igcm93IGluIHJlYWRlcjoKICAgICAgICAgICAgICAgIGlmIHJvd1tzZWxmLmlkX2NvbF0gPT0gImlkIjoKICAgICAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICAgICAgaWYgc2VsZi5pZF9wcmVmaXg6CiAgICAgICAgICAgICAgICAgICAgc2FtcGxlX2lkID0gc2VsZi5pZF9wcmVmaXggKyBzdHIocm93W3NlbGYuaWRfY29sXSkKICAgICAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICAgICAgc2FtcGxlX2lkID0gcm93W3NlbGYuaWRfY29sXQogICAgICAgICAgICAgICAgcGFzc2FnZSA9IHJvd1tzZWxmLnRleHRfY29sXQogICAgICAgICAgICAgICAgaWYgc2VsZi5ub3JtYWxpemU6CiAgICAgICAgICAgICAgICAgICAgcGFzc2FnZSA9IG5vcm1hbGl6ZV9wYXNzYWdlKHBhc3NhZ2UpCiAgICAgICAgICAgICAgICBjdHhzW3NhbXBsZV9pZF0gPSBCaUVuY29kZXJQYXNzYWdlKHBhc3NhZ2UsIHJvd1tzZWxmLnRpdGxlX2NvbF0pCgoKY2xhc3MgU2UyUUFTcmMoUUFTcmMpOgogICAgZGVmIF9faW5pdF9fKAogICAgICAgIHNlbGYsCiAgICAgICAgdGFza19uYW1lLAogICAgICAgIGZpbGU9IiIsCiAgICAgICAgc2VsZWN0b3I6IERpY3RDb25maWcgPSBOb25lLAogICAgICAgIHF1ZXN0aW9uX2F0dHI6IHN0ciA9ICJxdWVzdGlvbiIsCiAgICAgICAgYW5zd2Vyc19hdHRyOiBzdHIgPSAiYW5zd2VycyIsCiAgICAgICAgaWRfYXR0cjogc3RyID0gImlkIiwKICAgICAgICBzcGVjaWFsX3F1ZXJ5X3Rva2VuOiBzdHIgPSBOb25lLAogICAgICAgIHF1ZXJ5X3NwZWNpYWxfc3VmZml4OiBzdHIgPSBOb25lLAogICAgICAgIGNhY2hlX2Rpcjogc3RyID0gTm9uZSwKICAgICAgICB0YXNrX3NldHVwX3R5cGU6IHN0ciA9ICJxIiwKICAgICk6CiAgICAgICAgc3VwZXIoKS5fX2luaXRfXyhmaWxlLCBzZWxlY3Rvciwgc3BlY2lhbF9xdWVyeV90b2tlbiwgcXVlcnlfc3BlY2lhbF9zdWZmaXgpCiAgICAgICAgc2VsZi50YXNrID0gdGFza19tYXAuY2xzX2RpY1t0YXNrX25hbWVdKCkKICAgICAgICBsb2dnZXIuaW5mbygibG9hZGluZyB0YXNrIGV2YWx1YXRpb24gc3BsaXQuLi4iKQogICAgICAgICMgbG9hZCBldmFsdWF0aW9uIHNwbGl0IGRlZmluZWQgaW4gdGFzay5weQogICAgICAgIHNlbGYuZGF0YSA9IHNlbGYudGFzay5nZXRfZGF0YXNldCggCiAgICAgICAgICAgIHNwbGl0PU5vbmUsIGNhY2hlX2Rpcj1jYWNoZV9kaXIKICAgICAgICApCiAgICAgICAgc2VsZi5nZXRfcXVlc3Rpb24gPSBzZWxmLnRhc2suZ2V0X3F1ZXN0aW9uCiAgICAgICAgYXNzZXJ0ICgKICAgICAgICAgICAgdGFza19zZXR1cF90eXBlID09ICJxIgogICAgICAgICksICJ3aGVuIHRlc3RpbmcsIHRoZSBzZXR1cCBzaG91bGQgb25seSBiZSBxLCBubyBhbnN3ZXIgY2FuIGJlIGluY2x1ZGVkIgoKICAgIGRlZiBsb2FkX2RhdGEoc2VsZik6CiAgICAgICAgZGF0YSA9IFtdCiAgICAgICAgZm9yIGlkLCBqbGluZSBpbiBlbnVtZXJhdGUoc2VsZi5kYXRhKToKICAgICAgICAgICAgamxpbmVbImlkIl0gPSBpZAogICAgICAgICAgICBxdWVzdGlvbiA9IHNlbGYuZ2V0X3F1ZXN0aW9uKGpsaW5lKQogICAgICAgICAgICBxdWVzdGlvbiA9IHJlbW92ZV9kb3VibGVfc3BhY2UocXVlc3Rpb24pCiAgICAgICAgICAgIGFuc3dlcnMgPSBbIk5vbmUiXQogICAgICAgICAgICBkYXRhLmFwcGVuZChRQVNhbXBsZShxdWVzdGlvbiwgaWQsIGFuc3dlcnMsIGpsaW5lKSkKICAgICAgICBzZWxmLmRhdGEgPSBkYXRhCgoKZGVmIHJlZm9ybWF0KHRleHQpOgogICAgcmV0dXJuICIgIi5qb2luKFtmIntpKzF9Iykge3guc3RyaXAoKX0iIGZvciBpLCB4IGluIGVudW1lcmF0ZSh0ZXh0LnNwbGl0KCI7IikpXSkKCgpjbGFzcyBTZTJDdHhTcmMoUmV0cmlldmVyRGF0YSk6CiAgICBkZWYgX19pbml0X18oCiAgICAgICAgc2VsZiwKICAgICAgICBmaWxlPSIiLAogICAgICAgIGlkX2NvbDogaW50ID0gMCwKICAgICAgICB0ZXh0X2NvbDogaW50ID0gMSwKICAgICAgICB0aXRsZV9jb2w6IGludCA9IDIsCiAgICAgICAgaWRfcHJlZml4OiBzdHIgPSBOb25lLAogICAgICAgIHByb21wdF9wb29sX3BhdGg6IHN0ciA9IE5vbmUsCiAgICAgICAgcHJvbXB0X3NldHVwX3R5cGU9Tm9uZSwKICAgICAgICB0cmFpbl9jbHVzdGVyczogc3RyID0gTm9uZSwKICAgICk6CiAgICAgICAgc3VwZXIoKS5fX2luaXRfXyhmaWxlKQogICAgICAgIHNlbGYuZmlsZSA9IGZpbGUKICAgICAgICBzZWxmLnRleHRfY29sID0gdGV4dF9jb2wKICAgICAgICBzZWxmLnRpdGxlX2NvbCA9IHRpdGxlX2NvbAogICAgICAgIHNlbGYuaWRfY29sID0gaWRfY29sCiAgICAgICAgc2VsZi5pZF9wcmVmaXggPSBpZF9wcmVmaXgKICAgICAgICBzZWxmLnByb21wdF9zZXR1cF90eXBlID0gcHJvbXB0X3NldHVwX3R5cGUKICAgICAgICBpZiB0cmFpbl9jbHVzdGVycyAhPSBOb25lOgogICAgICAgICAgICBwcm9tcHRfcG9vbF9wYXRoID0gZ2V0X3Byb21wdF9maWxlcyhwcm9tcHRfcG9vbF9wYXRoLCB0cmFpbl9jbHVzdGVycykKICAgICAgICBsb2dnZXIuaW5mbygicHJvbXB0IGZpbGVzOiAlcyIsIHByb21wdF9wb29sX3BhdGgpCiAgICAgICAgc2VsZi5wcm9tcHRfcG9vbCA9IHJlYWRfZGF0YV9mcm9tX2pzb25fZmlsZXMocHJvbXB0X3Bvb2xfcGF0aCkKICAgICAgICBsb2dnZXIuaW5mbygicHJvbXB0IHBhc3NhZ2VzIG51bSA6ICVkIiwgbGVuKHNlbGYucHJvbXB0X3Bvb2wpKQoKICAgIGRlZiBsb2FkX2RhdGFfdG8oc2VsZiwgY3R4czogRGljdFtvYmplY3QsIEJpRW5jb2RlclBhc3NhZ2VdKToKICAgICAgICBmb3Igc2FtcGxlX2lkLCBlbnRyeSBpbiBlbnVtZXJhdGUoc2VsZi5wcm9tcHRfcG9vbCk6CiAgICAgICAgICAgIHRhc2sgPSB0YXNrX21hcC5jbHNfZGljW2VudHJ5WyJ0YXNrX25hbWUiXV0oKQogICAgICAgICAgICAKICAgICAgICAgICAgaWYgc2VsZi5wcm9tcHRfc2V0dXBfdHlwZSA9PSAicSI6CiAgICAgICAgICAgICAgICBwYXNzYWdlID0gdGFzay5nZXRfcXVlc3Rpb24oZW50cnkpCiAgICAgICAgICAgIGVsaWYgc2VsZi5wcm9tcHRfc2V0dXBfdHlwZSA9PSAiYSI6CiAgICAgICAgICAgICAgICBwYXNzYWdlID0gdGFzay5nZXRfYW5zd2VyKGVudHJ5KQogICAgICAgICAgICBlbGlmIHNlbGYucHJvbXB0X3NldHVwX3R5cGUgPT0gInFhIjoKICAgICAgICAgICAgICAgIHBhc3NhZ2UgPSAoCiAgICAgICAgICAgICAgICAgICAgdGFzay5nZXRfcXVlc3Rpb24oZW50cnkpCiAgICAgICAgICAgICAgICAgICAgKyB0YXNrLmdldF9hbnN3ZXIoZW50cnkpCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIHBhc3NhZ2UgPSByZW1vdmVfZG91YmxlX3NwYWNlKHBhc3NhZ2UpCiAgICAgICAgICAgIGN0eHNbc2FtcGxlX2lkXSA9IEJpRW5jb2RlclBhc3NhZ2UoCiAgICAgICAgICAgICAgICBwYXNzYWdlLCAiIiwgZW50cnkKICAgICAgICAgICAgKSAjIHBhc3MgdGhlIGVudHJ5IGFzIG1ldGFkYXRhCgpjbGFzcyBKc29uQ3R4U3JjKFJldHJpZXZlckRhdGEpOgogICAgZGVmIF9faW5pdF9fKAogICAgICAgIHNlbGYsCiAgICAgICAgZmlsZTogc3RyLAogICAgICAgIGlkX2NvbDogaW50ID0gMCwKICAgICAgICB0ZXh0X2NvbDogaW50ID0gMSwKICAgICAgICB0aXRsZV9jb2w6IGludCA9IDIsCiAgICAgICAgaWRfcHJlZml4OiBzdHIgPSBOb25lLAogICAgICAgIG5vcm1hbGl6ZTogYm9vbCA9IEZhbHNlLAogICAgKToKICAgICAgICBzdXBlcigpLl9faW5pdF9fKGZpbGUpCiAgICAgICAgc2VsZi50ZXh0X2NvbCA9IHRleHRfY29sCiAgICAgICAgc2VsZi50aXRsZV9jb2wgPSB0aXRsZV9jb2wKICAgICAgICBzZWxmLmlkX2NvbCA9IGlkX2NvbAogICAgICAgIHNlbGYuaWRfcHJlZml4ID0gaWRfcHJlZml4CiAgICAgICAgc2VsZi5ub3JtYWxpemUgPSBub3JtYWxpemUKCiAgICBkZWYgbG9hZF9kYXRhX3RvKHNlbGYsIGN0eHM6IERpY3Rbb2JqZWN0LCBCaUVuY29kZXJQYXNzYWdlXSk6CiAgICAgICAgc3VwZXIoKS5sb2FkX2RhdGEoKQogICAgICAgIHdpdGggb3BlbihzZWxmLmZpbGUpIGFzIGlmaWxlOgogICAgICAgICAgICByZWFkZXIgPSBqc29uLmxvYWQoaWZpbGUpCiAgICAgICAgICAgIGZvciByb3cgaW4gcmVhZGVyOgogICAgICAgICAgICAgICAgc2FtcGxlX2lkID0gcm93WyJpZCJdCiAgICAgICAgICAgICAgICBwYXNzYWdlID0gcm93WyJ0ZXh0Il0KICAgICAgICAgICAgICAgIGlmIHNlbGYubm9ybWFsaXplOgogICAgICAgICAgICAgICAgICAgIHBhc3NhZ2UgPSBub3JtYWxpemVfcGFzc2FnZShwYXNzYWdlKQogICAgICAgICAgICAgICAgY3R4c1tzYW1wbGVfaWRdID0gQmlFbmNvZGVyUGFzc2FnZShwYXNzYWdlLCByb3dbInRpdGxlIl0pCgoKY2xhc3MgS2lsdENzdkN0eFNyYyhDc3ZDdHhTcmMpOgogICAgZGVmIF9faW5pdF9fKAogICAgICAgIHNlbGYsCiAgICAgICAgZmlsZTogc3RyLAogICAgICAgIG1hcHBpbmdfZmlsZTogc3RyLAogICAgICAgIGlkX2NvbDogaW50ID0gMCwKICAgICAgICB0ZXh0X2NvbDogaW50ID0gMSwKICAgICAgICB0aXRsZV9jb2w6IGludCA9IDIsCiAgICAgICAgaWRfcHJlZml4OiBzdHIgPSBOb25lLAogICAgICAgIG5vcm1hbGl6ZTogYm9vbCA9IEZhbHNlLAogICAgKToKICAgICAgICBzdXBlcigpLl9faW5pdF9fKAogICAgICAgICAgICBmaWxlLCBpZF9jb2wsIHRleHRfY29sLCB0aXRsZV9jb2wsIGlkX3ByZWZpeCwgbm9ybWFsaXplPW5vcm1hbGl6ZQogICAgICAgICkKICAgICAgICBzZWxmLm1hcHBpbmdfZmlsZSA9IG1hcHBpbmdfZmlsZQoKICAgIGRlZiBjb252ZXJ0X3RvX2tpbHQoc2VsZiwga2lsdF9nb2xkX2ZpbGUsIGRwcl9vdXRwdXQsIGtpbHRfb3V0X2ZpbGUpOgogICAgICAgIGxvZ2dlci5pbmZvKCJDb252ZXJ0aW5nIHRvIEtJTFQgZm9ybWF0IGZpbGU6ICVzIiwgZHByX291dHB1dCkKCiAgICAgICAgd2l0aCBvcGVuKGRwcl9vdXRwdXQsICJydCIpIGFzIGZpbjoKICAgICAgICAgICAgZHByX291dHB1dCA9IGpzb24ubG9hZChmaW4pCgogICAgICAgIHdpdGgganNvbmxpbmVzLm9wZW4oa2lsdF9nb2xkX2ZpbGUsICJyIikgYXMgcmVhZGVyOgogICAgICAgICAgICBraWx0X2dvbGRfZmlsZSA9IGxpc3QocmVhZGVyKQogICAgICAgIGFzc2VydCBsZW4oa2lsdF9nb2xkX2ZpbGUpID09IGxlbihkcHJfb3V0cHV0KQogICAgICAgIG1hcF9wYXRoID0gc2VsZi5tYXBwaW5nX2ZpbGUKICAgICAgICB3aXRoIG9wZW4obWFwX3BhdGgsICJyYiIpIGFzIGZpbjoKICAgICAgICAgICAgbWFwcGluZyA9IHBpY2tsZS5sb2FkKGZpbikKCiAgICAgICAgd2l0aCBqc29ubGluZXMub3BlbihraWx0X291dF9maWxlLCBtb2RlPSJ3IikgYXMgd3JpdGVyOgogICAgICAgICAgICBmb3IgZHByX2VudHJ5LCBraWx0X2dvbGRfZW50cnkgaW4gemlwKGRwcl9vdXRwdXQsIGtpbHRfZ29sZF9maWxlKToKICAgICAgICAgICAgICAgIGFzc2VydCBkcHJfZW50cnlbInF1ZXN0aW9uIl0gPT0ga2lsdF9nb2xkX2VudHJ5WyJpbnB1dCJdCiAgICAgICAgICAgICAgICBwcm92ZW5hbmNlID0gW10KICAgICAgICAgICAgICAgIGZvciBjdHggaW4gZHByX2VudHJ5WyJjdHhzIl06CiAgICAgICAgICAgICAgICAgICAgd2lraXBlZGlhX2lkLCBlbmRfcGFyYWdyYXBoX2lkID0gbWFwcGluZ1tpbnQoY3R4WyJpZCJdKV0KICAgICAgICAgICAgICAgICAgICBwcm92ZW5hbmNlLmFwcGVuZCgKICAgICAgICAgICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgIndpa2lwZWRpYV9pZCI6IHdpa2lwZWRpYV9pZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJlbmRfcGFyYWdyYXBoX2lkIjogZW5kX3BhcmFncmFwaF9pZCwKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIGtpbHRfZW50cnkgPSB7CiAgICAgICAgICAgICAgICAgICAgImlkIjoga2lsdF9nb2xkX2VudHJ5WyJpZCJdLAogICAgICAgICAgICAgICAgICAgICJpbnB1dCI6IGRwcl9lbnRyeVsicXVlc3Rpb24iXSwKICAgICAgICAgICAgICAgICAgICAib3V0cHV0IjogW3sicHJvdmVuYW5jZSI6IHByb3ZlbmFuY2V9XSwKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHdyaXRlci53cml0ZShraWx0X2VudHJ5KQoKICAgICAgICBsb2dnZXIuaW5mbygiU2F2ZWQgS0lMVCBmb3JtYXR0ZWQgcmVzdWx0cyB0bzogJXMiLCBraWx0X291dF9maWxlKQoKCmNsYXNzIEpzb25sVGFibGVzQ3R4U3JjKG9iamVjdCk6CiAgICBkZWYgX19pbml0X18oCiAgICAgICAgc2VsZiwKICAgICAgICBmaWxlOiBzdHIsCiAgICAgICAgdGFibGVzX2NodW5rX3N6OiBpbnQgPSAxMDAsCiAgICAgICAgc3BsaXRfdHlwZTogc3RyID0gInR5cGUxIiwKICAgICAgICBpZF9wcmVmaXg6IHN0ciA9IE5vbmUsCiAgICApOgogICAgICAgIHNlbGYudGFibGVzX2NodW5rX3N6ID0gdGFibGVzX2NodW5rX3N6CiAgICAgICAgc2VsZi5zcGxpdF90eXBlID0gc3BsaXRfdHlwZQogICAgICAgIHNlbGYuZmlsZSA9IGZpbGUKICAgICAgICBzZWxmLmlkX3ByZWZpeCA9IGlkX3ByZWZpeAoKICAgIGRlZiBsb2FkX2RhdGFfdG8oc2VsZiwgY3R4czogRGljdCk6CiAgICAgICAgZG9jcyA9IHt9CiAgICAgICAgbG9nZ2VyLmluZm8oIlBhcnNpbmcgVGFibGVzIGRhdGEgZnJvbTogJXMiLCBzZWxmLmZpbGUpCiAgICAgICAgdGFibGVzX2RpY3QgPSByZWFkX25xX3RhYmxlc19qc29ubChzZWxmLmZpbGUpCiAgICAgICAgdGFibGVfY2h1bmtzID0gc3BsaXRfdGFibGVzX3RvX2NodW5rcygKICAgICAgICAgICAgdGFibGVzX2RpY3QsIHNlbGYudGFibGVzX2NodW5rX3N6LCBzcGxpdF90eXBlPXNlbGYuc3BsaXRfdHlwZQogICAgICAgICkKICAgICAgICBmb3IgY2h1bmsgaW4gdGFibGVfY2h1bmtzOgogICAgICAgICAgICBzYW1wbGVfaWQgPSBzZWxmLmlkX3ByZWZpeCArIHN0cihjaHVua1swXSkKICAgICAgICAgICAgZG9jc1tzYW1wbGVfaWRdID0gVGFibGVDaHVuayhjaHVua1sxXSwgY2h1bmtbMl0sIGNodW5rWzNdKQogICAgICAgIGxvZ2dlci5pbmZvKCJMb2FkZWQgJWQgdGFibGVzIGNodW5rcyIsIGxlbihkb2NzKSkKICAgICAgICBjdHhzLnVwZGF0ZShkb2NzKQo=
+import collections
+import csv
+import json
+import logging
+import pickle
+from typing import Dict
+
+import hydra
+import jsonlines
+import torch
+from omegaconf import DictConfig
+
+from dpr.utils.data_utils import read_data_from_json_files
+from dpr.data.biencoder_data import (
+    BiEncoderPassage,
+    normalize_passage,
+    normalize_question,
+    get_dpr_files,
+    read_nq_tables_jsonl,
+    split_tables_to_chunks,
+    remove_double_space,
+)
+from dpr.utils.tasks import (
+    task_map,
+    get_prompt_files,
+)
+
+logger = logging.getLogger(__name__)
+QASample = collections.namedtuple(
+    "QuerySample", ["query", "id", "answers", "meta_data"]
+)
+TableChunk = collections.namedtuple("TableChunk", ["text", "title", "table_id"])
+
+
+class RetrieverData(torch.utils.data.Dataset):
+    def __init__(self, file: str):
+        """
+        :param file: - real file name or the resource name as they are defined in download_data.py
+        """
+        self.file = file
+        self.data_files = []
+
+    def load_data(self):
+        self.data_files = get_dpr_files(self.file)
+        assert (
+            len(self.data_files) == 1
+        ), "RetrieverData source currently works with single files only. Files specified: {}".format(
+            self.data_files
+        )
+        self.file = self.data_files[0]
+
+
+class QASrc(RetrieverData):
+    def __init__(
+        self,
+        file: str,
+        selector: DictConfig = None,
+        special_query_token: str = None,
+        query_special_suffix: str = None,
+    ):
+        super().__init__(file)
+        self.data = None
+        self.selector = hydra.utils.instantiate(selector) if selector else None
+        self.special_query_token = special_query_token
+        self.query_special_suffix = query_special_suffix
+
+    def __getitem__(self, index) -> QASample:
+        return self.data[index]
+
+    def __len__(self):
+        return len(self.data)
+
+    def _process_question(self, question: str):
+        # as of now, always normalize query
+        question = normalize_question(question)
+        if self.query_special_suffix and not question.endswith(
+            self.query_special_suffix
+        ):
+            question += self.query_special_suffix
+        return question
+
+
+class CsvQASrc(QASrc):
+    def __init__(
+        self,
+        file: str,
+        question_col: int = 0,
+        answers_col: int = 1,
+        id_col: int = -1,
+        selector: DictConfig = None,
+        special_query_token: str = None,
+        query_special_suffix: str = None,
+    ):
+        super().__init__(file, selector, special_query_token, query_special_suffix)
+        self.question_col = question_col
+        self.answers_col = answers_col
+        self.id_col = id_col
+
+    def load_data(self):
+        super().load_data()
+        data = []
+        with open(self.file) as ifile:
+            reader = csv.reader(ifile, delimiter="\t")
+            for row in reader:
+                question = row[self.question_col]
+                answers = eval(row[self.answers_col])
+                id = None
+                if self.id_col >= 0:
+                    id = row[self.id_col]
+                data.append(QASample(self._process_question(question), id, answers))
+        self.data = data
+
+
+class JsonlQASrc(QASrc):
+    def __init__(
+        self,
+        file: str,
+        selector: DictConfig = None,
+        question_attr: str = "question",
+        answers_attr: str = "answers",
+        id_attr: str = "id",
+        special_query_token: str = None,
+        query_special_suffix: str = None,
+    ):
+        super().__init__(file, selector, special_query_token, query_special_suffix)
+        self.question_attr = question_attr
+        self.answers_attr = answers_attr
+        self.id_attr = id_attr
+
+    def load_data(self):
+        super().load_data()
+        data = []
+        with jsonlines.open(self.file, mode="r") as jsonl_reader:
+            for jline in jsonl_reader:
+                question = jline[self.question_attr]
+                answers = jline[self.answers_attr] if self.answers_attr in jline else []
+                id = None
+                if self.id_attr in jline:
+                    id = jline[self.id_attr]
+                data.append(QASample(self._process_question(question), id, answers))
+        self.data = data
+
+
+class KiltCsvQASrc(CsvQASrc):
+    def __init__(
+        self,
+        file: str,
+        kilt_gold_file: str,
+        question_col: int = 0,
+        answers_col: int = 1,
+        id_col: int = -1,
+        selector: DictConfig = None,
+        special_query_token: str = None,
+        query_special_suffix: str = None,
+    ):
+        super().__init__(
+            file,
+            question_col,
+            answers_col,
+            id_col,
+            selector,
+            special_query_token,
+            query_special_suffix,
+        )
+        self.kilt_gold_file = kilt_gold_file
+
+
+class KiltJsonlQASrc(JsonlQASrc):
+    def __init__(
+        self,
+        file: str,
+        kilt_gold_file: str,
+        question_attr: str = "input",
+        answers_attr: str = "answer",
+        id_attr: str = "id",
+        selector: DictConfig = None,
+        special_query_token: str = None,
+        query_special_suffix: str = None,
+    ):
+        super().__init__(
+            file,
+            selector,
+            question_attr,
+            answers_attr,
+            id_attr,
+            special_query_token,
+            query_special_suffix,
+        )
+        self.kilt_gold_file = kilt_gold_file
+
+    def load_data(self):
+        super().load_data()
+        data = []
+        with jsonlines.open(self.file, mode="r") as jsonl_reader:
+            for jline in jsonl_reader:
+                question = jline[self.question_attr]
+                out = jline["output"]
+                answers = [o["answer"] for o in out if "answer" in o]
+                id = None
+                if self.id_attr in jline:
+                    id = jline[self.id_attr]
+                data.append(QASample(self._process_question(question), id, answers))
+        self.data = data
+
+
+class TTS_ASR_QASrc(QASrc):
+    def __init__(self, file: str, trans_file: str):
+        super().__init__(file)
+        self.trans_file = trans_file
+
+    def load_data(self):
+        super().load_data()
+        orig_data_dict = {}
+        with open(self.file, "r") as ifile:
+            reader = csv.reader(ifile, delimiter="\t")
+            id = 0
+            for row in reader:
+                question = row[0]
+                answers = eval(row[1])
+                orig_data_dict[id] = (question, answers)
+                id += 1
+        data = []
+        with open(self.trans_file, "r") as tfile:
+            reader = csv.reader(tfile, delimiter="\t")
+            for r in reader:
+                row_str = r[0]
+                idx = row_str.index("(None-")
+                q_id = int(row_str[idx + len("(None-") : -1])
+                orig_data = orig_data_dict[q_id]
+                answers = orig_data[1]
+                q = row_str[:idx].strip().lower()
+                data.append(QASample(q, idx, answers))
+        self.data = data
+
+
+class CsvCtxSrc(RetrieverData):
+    def __init__(
+        self,
+        file: str,
+        id_col: int = 0,
+        text_col: int = 1,
+        title_col: int = 2,
+        id_prefix: str = None,
+        normalize: bool = False,
+    ):
+        super().__init__(file)
+        self.text_col = text_col
+        self.title_col = title_col
+        self.id_col = id_col
+        self.id_prefix = id_prefix
+        self.normalize = normalize
+
+    def load_data_to(self, ctxs: Dict[object, BiEncoderPassage]):
+        super().load_data()
+        with open(self.file) as ifile:
+            reader = csv.reader(ifile, delimiter="\t")
+            for row in reader:
+                if row[self.id_col] == "id":
+                    continue
+                if self.id_prefix:
+                    sample_id = self.id_prefix + str(row[self.id_col])
+                else:
+                    sample_id = row[self.id_col]
+                passage = row[self.text_col]
+                if self.normalize:
+                    passage = normalize_passage(passage)
+                ctxs[sample_id] = BiEncoderPassage(passage, row[self.title_col])
+
+
+class Se2QASrc(QASrc):
+    def __init__(
+        self,
+        task_name,
+        file="",
+        selector: DictConfig = None,
+        question_attr: str = "question",
+        answers_attr: str = "answers",
+        id_attr: str = "id",
+        special_query_token: str = None,
+        query_special_suffix: str = None,
+        cache_dir: str = None,
+        task_setup_type: str = "q",
+    ):
+        super().__init__(file, selector, special_query_token, query_special_suffix)
+        self.task = task_map.cls_dic[task_name]()
+        logger.info("loading task evaluation split...")
+        # load evaluation split defined in task.py
+        self.data = self.task.get_dataset( 
+            split=None, cache_dir=cache_dir
+        )
+        self.get_question = self.task.get_question
+        assert (
+            task_setup_type == "q"
+        ), "when testing, the setup should only be q, no answer can be included"
+
+    def load_data(self):
+        data = []
+        for id, jline in enumerate(self.data):
+            jline["id"] = id
+            question = self.get_question(jline)
+            question = remove_double_space(question)
+            answers = ["None"]
+            data.append(QASample(question, id, answers, jline))
+        self.data = data
+
+
+def reformat(text):
+    return " ".join([f"{i+1}#) {x.strip()}" for i, x in enumerate(text.split(";"))])
+
+
+class Se2CtxSrc(RetrieverData):
+    def __init__(
+        self,
+        file="",
+        id_col: int = 0,
+        text_col: int = 1,
+        title_col: int = 2,
+        id_prefix: str = None,
+        prompt_pool_path: str = None,
+        prompt_setup_type=None,
+        train_clusters: str = None,
+    ):
+        super().__init__(file)
+        self.file = file
+        self.text_col = text_col
+        self.title_col = title_col
+        self.id_col = id_col
+        self.id_prefix = id_prefix
+        self.prompt_setup_type = prompt_setup_type
+        if train_clusters != None:
+            prompt_pool_path = get_prompt_files(prompt_pool_path, train_clusters)
+        logger.info("prompt files: %s", prompt_pool_path)
+        self.prompt_pool = read_data_from_json_files(prompt_pool_path)
+        logger.info("prompt passages num : %d", len(self.prompt_pool))
+
+    def load_data_to(self, ctxs: Dict[object, BiEncoderPassage]):
+        for sample_id, entry in enumerate(self.prompt_pool):
+            task = task_map.cls_dic[entry["task_name"]]()
+            
+            if self.prompt_setup_type == "q":
+                passage = task.get_question(entry)
+            elif self.prompt_setup_type == "a":
+                passage = task.get_answer(entry)
+            elif self.prompt_setup_type == "qa":
+                passage = (
+                    task.get_question(entry)
+                    + task.get_answer(entry)
+                )
+            passage = remove_double_space(passage)
+            ctxs[sample_id] = BiEncoderPassage(
+                passage, "", entry
+            ) # pass the entry as metadata
+
+class JsonCtxSrc(RetrieverData):
+    def __init__(
+        self,
+        file: str,
+        id_col: int = 0,
+        text_col: int = 1,
+        title_col: int = 2,
+        id_prefix: str = None,
+        normalize: bool = False,
+    ):
+        super().__init__(file)
+        self.text_col = text_col
+        self.title_col = title_col
+        self.id_col = id_col
+        self.id_prefix = id_prefix
+        self.normalize = normalize
+
+    def load_data_to(self, ctxs: Dict[object, BiEncoderPassage]):
+        super().load_data()
+        with open(self.file) as ifile:
+            reader = json.load(ifile)
+            for row in reader:
+                sample_id = row["id"]
+                passage = row["text"]
+                if self.normalize:
+                    passage = normalize_passage(passage)
+                ctxs[sample_id] = BiEncoderPassage(passage, row["title"])
+
+
+class KiltCsvCtxSrc(CsvCtxSrc):
+    def __init__(
+        self,
+        file: str,
+        mapping_file: str,
+        id_col: int = 0,
+        text_col: int = 1,
+        title_col: int = 2,
+        id_prefix: str = None,
+        normalize: bool = False,
+    ):
+        super().__init__(
+            file, id_col, text_col, title_col, id_prefix, normalize=normalize
+        )
+        self.mapping_file = mapping_file
+
+    def convert_to_kilt(self, kilt_gold_file, dpr_output, kilt_out_file):
+        logger.info("Converting to KILT format file: %s", dpr_output)
+
+        with open(dpr_output, "rt") as fin:
+            dpr_output = json.load(fin)
+
+        with jsonlines.open(kilt_gold_file, "r") as reader:
+            kilt_gold_file = list(reader)
+        assert len(kilt_gold_file) == len(dpr_output)
+        map_path = self.mapping_file
+        with open(map_path, "rb") as fin:
+            mapping = pickle.load(fin)
+
+        with jsonlines.open(kilt_out_file, mode="w") as writer:
+            for dpr_entry, kilt_gold_entry in zip(dpr_output, kilt_gold_file):
+                assert dpr_entry["question"] == kilt_gold_entry["input"]
+                provenance = []
+                for ctx in dpr_entry["ctxs"]:
+                    wikipedia_id, end_paragraph_id = mapping[int(ctx["id"])]
+                    provenance.append(
+                        {
+                            "wikipedia_id": wikipedia_id,
+                            "end_paragraph_id": end_paragraph_id,
+                        }
+                    )
+                kilt_entry = {
+                    "id": kilt_gold_entry["id"],
+                    "input": dpr_entry["question"],
+                    "output": [{"provenance": provenance}],
+                }
+                writer.write(kilt_entry)
+
+        logger.info("Saved KILT formatted results to: %s", kilt_out_file)
+
+
+class JsonlTablesCtxSrc(object):
+    def __init__(
+        self,
+        file: str,
+        tables_chunk_sz: int = 100,
+        split_type: str = "type1",
+        id_prefix: str = None,
+    ):
+        self.tables_chunk_sz = tables_chunk_sz
+        self.split_type = split_type
+        self.file = file
+        self.id_prefix = id_prefix
+
+    def load_data_to(self, ctxs: Dict):
+        docs = {}
+        logger.info("Parsing Tables data from: %s", self.file)
+        tables_dict = read_nq_tables_jsonl(self.file)
+        table_chunks = split_tables_to_chunks(
+            tables_dict, self.tables_chunk_sz, split_type=self.split_type
+        )
+        for chunk in table_chunks:
+            sample_id = self.id_prefix + str(chunk[0])
+            docs[sample_id] = TableChunk(chunk[1], chunk[2], chunk[3])
+        logger.info("Loaded %d tables chunks", len(docs))
+        ctxs.update(docs)

@@ -1,1 +1,52 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uCiMgLSotIGNvZGluZzogdXRmLTggLSotCiIiIgrku47lt7LlrZjlnKjnmoQgcHJlZHMg5paH5Lu25Y+N566X5oyH5qCH5bm26L+95Yqg5YiwIGV2YWxfcmVzIOaWh+S7tuOAggrnlKjpgJTvvJppbmZlcmVuY2UucHkg5Y+q5Zyo6LeR5o6o55CG5pe25YaZIHJlc19maWxl77yb6IulIHByZWRzIOW3sueUn+aIkOS9hiByZXMg6KGM57y65aSx77yMCiAgICAgIOaXoOmcgOmHjei3ke+8iOmHjei3keimgeiKseWHoOWNgeWIhumSn++8ie+8jOebtOaOpeWkjeeUqCBwcmVkcyDorqHnrpfljbPlj6/jgIIK55So5rOV77yacHl0aG9uIGNvbXB1dGVfcmVzLnB5IDxwcmVkc19qc29uPiA8cmVzX2ZpbGU+IDx0YXNrX25hbWU+IDxtb2RlbF9uYW1lPgoiIiIKaW1wb3J0IGpzb24KaW1wb3J0IG9zCmltcG9ydCBzeXMKCnN5cy5wYXRoLmluc2VydCgwLCBvcy5lbnZpcm9uLmdldCgiUkVQTyIsICIvcm9vdC9hdXRvZGwtdG1wL1NlRFBPX05JUFMyNSIpKQoKZnJvbSBzcmMudXRpbHMubWV0cmljIGltcG9ydCBjb21wdXRlX3Njb3JlcyAgIyBub3FhOiBFNDAyCgoKZGVmIG1haW4oKToKICAgIGlmIGxlbihzeXMuYXJndikgPCA1OgogICAgICAgIHByaW50KF9fZG9jX18pCiAgICAgICAgcmV0dXJuIDIKICAgIHByZWRzX3BhdGgsIHJlc19wYXRoLCB0YXNrLCBtb2RlbCA9IHN5cy5hcmd2WzE6NV0KICAgIGlmIG5vdCBvcy5wYXRoLmV4aXN0cyhwcmVkc19wYXRoKToKICAgICAgICBwcmludChmIltTS0lQXSBwcmVkcyDkuI3lrZjlnKg6IHtwcmVkc19wYXRofSIpCiAgICAgICAgcmV0dXJuIDEKCiAgICBkYXRhID0ganNvbi5sb2FkKG9wZW4ocHJlZHNfcGF0aCkpCiAgICBpZiBub3QgZGF0YToKICAgICAgICBwcmludChmIltTS0lQXSBwcmVkcyDkuLrnqbo6IHtwcmVkc19wYXRofSIpCiAgICAgICAgcmV0dXJuIDEKCiAgICBzY29yZXMgPSBjb21wdXRlX3Njb3Jlcygic2ltcGxlX2FjY3VyYWN5IiwgZGF0YSkKICAgIG5fcHJvbXB0cyA9IG1heChpbnQoYVsibl9wcm9tcHRzIl0pIGZvciBhIGluIGRhdGEpCiAgICBsaW5lID0gKAogICAgICAgIGYicmV0cmlldmVyOiBTZURQTyhkcDItcjEuMC1iMC4xKTsgbW9kZWw6IHttb2RlbH07ICIKICAgICAgICBmInRhc2tfbmFtZToge3Rhc2t9OyBzaG90X251bToge25fcHJvbXB0c307IHNjb3Jlczoge3N0cihzY29yZXMpfSIKICAgICkKICAgIHByaW50KGYie3Rhc2t9OiB7c2NvcmVzfSAgKG49e2xlbihkYXRhKX0sIHNob3Q9e25fcHJvbXB0c30pIikKCiAgICBpZiBvcy5wYXRoLmV4aXN0cyhyZXNfcGF0aCk6CiAgICAgICAgdHh0ID0gb3BlbihyZXNfcGF0aCkucmVhZCgpCiAgICAgICAgaWYgZiJ0YXNrX25hbWU6IHt0YXNrfSIgaW4gdHh0OgogICAgICAgICAgICBwcmludChmIltPS10ge3Jlc19wYXRofSDlt7LmnIkge3Rhc2t9IOeahOaMh+agh+ihjO+8jOS4jemHjeWkjeWGmeWFpSIpCiAgICAgICAgICAgIHJldHVybiAwCiAgICB3aXRoIG9wZW4ocmVzX3BhdGgsICJhIikgYXMgZjoKICAgICAgICBmLndyaXRlKGxpbmUgKyAiXG4iKQogICAgcHJpbnQoZiJbT0tdIOW3sui/veWKoOWIsCB7cmVzX3BhdGh9IikKICAgIHJldHVybiAwCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIHN5cy5leGl0KG1haW4oKSkK
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+从已存在的 preds 文件反算指标并追加到 eval_res 文件。
+用途：inference.py 只在跑推理时写 res_file；若 preds 已生成但 res 行缺失，
+      无需重跑（重跑要花几十分钟），直接复用 preds 计算即可。
+用法：python compute_res.py <preds_json> <res_file> <task_name> <model_name>
+"""
+import json
+import os
+import sys
+
+sys.path.insert(0, os.environ.get("REPO", "/root/autodl-tmp/SeDPO_NIPS25"))
+
+from src.utils.metric import compute_scores  # noqa: E402
+
+
+def main():
+    if len(sys.argv) < 5:
+        print(__doc__)
+        return 2
+    preds_path, res_path, task, model = sys.argv[1:5]
+    if not os.path.exists(preds_path):
+        print(f"[SKIP] preds 不存在: {preds_path}")
+        return 1
+
+    data = json.load(open(preds_path))
+    if not data:
+        print(f"[SKIP] preds 为空: {preds_path}")
+        return 1
+
+    scores = compute_scores("simple_accuracy", data)
+    n_prompts = max(int(a["n_prompts"]) for a in data)
+    line = (
+        f"retriever: SeDPO(dp2-r1.0-b0.1); model: {model}; "
+        f"task_name: {task}; shot_num: {n_prompts}; scores: {str(scores)}"
+    )
+    print(f"{task}: {scores}  (n={len(data)}, shot={n_prompts})")
+
+    if os.path.exists(res_path):
+        txt = open(res_path).read()
+        if f"task_name: {task}" in txt:
+            print(f"[OK] {res_path} 已有 {task} 的指标行，不重复写入")
+            return 0
+    with open(res_path, "a") as f:
+        f.write(line + "\n")
+    print(f"[OK] 已追加到 {res_path}")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

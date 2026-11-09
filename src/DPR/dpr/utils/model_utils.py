@@ -1,1 +1,175 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwojIENvcHlyaWdodCAoYykgRmFjZWJvb2ssIEluYy4gYW5kIGl0cyBhZmZpbGlhdGVzLgojIEFsbCByaWdodHMgcmVzZXJ2ZWQuCiMKIyBUaGlzIHNvdXJjZSBjb2RlIGlzIGxpY2Vuc2VkIHVuZGVyIHRoZSBsaWNlbnNlIGZvdW5kIGluIHRoZQojIExJQ0VOU0UgZmlsZSBpbiB0aGUgcm9vdCBkaXJlY3Rvcnkgb2YgdGhpcyBzb3VyY2UgdHJlZS4KCmltcG9ydCBjb2xsZWN0aW9ucwppbXBvcnQgZ2xvYgppbXBvcnQgbG9nZ2luZwppbXBvcnQgb3MKZnJvbSB0eXBpbmcgaW1wb3J0IExpc3QKCmltcG9ydCB0b3JjaApmcm9tIHRvcmNoIGltcG9ydCBubgpmcm9tIHRvcmNoLm9wdGltLmxyX3NjaGVkdWxlciBpbXBvcnQgTGFtYmRhTFIKZnJvbSB0b3JjaC5zZXJpYWxpemF0aW9uIGltcG9ydCBkZWZhdWx0X3Jlc3RvcmVfbG9jYXRpb24KCmxvZ2dlciA9IGxvZ2dpbmcuZ2V0TG9nZ2VyKCkKCkNoZWNrcG9pbnRTdGF0ZSA9IGNvbGxlY3Rpb25zLm5hbWVkdHVwbGUoCiAgICAiQ2hlY2twb2ludFN0YXRlIiwKICAgIFsKICAgICAgICAibW9kZWxfZGljdCIsCiAgICAgICAgIm9wdGltaXplcl9kaWN0IiwKICAgICAgICAic2NoZWR1bGVyX2RpY3QiLAogICAgICAgICJvZmZzZXQiLAogICAgICAgICJlcG9jaCIsCiAgICAgICAgImVuY29kZXJfcGFyYW1zIiwKICAgIF0sCikKCgpkZWYgc2V0dXBfZm9yX2Rpc3RyaWJ1dGVkX21vZGUoCiAgICBtb2RlbDogbm4uTW9kdWxlLAogICAgb3B0aW1pemVyOiB0b3JjaC5vcHRpbS5PcHRpbWl6ZXIsCiAgICBkZXZpY2U6IG9iamVjdCwKICAgIG5fZ3B1OiBpbnQgPSAxLAogICAgbG9jYWxfcmFuazogaW50ID0gLTEsCiAgICBmcDE2OiBib29sID0gRmFsc2UsCiAgICBmcDE2X29wdF9sZXZlbDogc3RyID0gIk8xIiwKKSAtPiAobm4uTW9kdWxlLCB0b3JjaC5vcHRpbS5PcHRpbWl6ZXIpOgogICAgbW9kZWwudG8oZGV2aWNlKQogICAgaWYgZnAxNjoKICAgICAgICB0cnk6CiAgICAgICAgICAgIGltcG9ydCBhcGV4CiAgICAgICAgICAgIGZyb20gYXBleCBpbXBvcnQgYW1wCgogICAgICAgICAgICBhcGV4LmFtcC5yZWdpc3Rlcl9oYWxmX2Z1bmN0aW9uKHRvcmNoLCAiZWluc3VtIikKICAgICAgICBleGNlcHQgSW1wb3J0RXJyb3I6CiAgICAgICAgICAgIHJhaXNlIEltcG9ydEVycm9yKAogICAgICAgICAgICAgICAgIlBsZWFzZSBpbnN0YWxsIGFwZXggZnJvbSBodHRwczovL3d3dy5naXRodWIuY29tL252aWRpYS9hcGV4IHRvIHVzZSBmcDE2IHRyYWluaW5nLiIKICAgICAgICAgICAgKQoKICAgICAgICBtb2RlbCwgb3B0aW1pemVyID0gYW1wLmluaXRpYWxpemUobW9kZWwsIG9wdGltaXplciwgb3B0X2xldmVsPWZwMTZfb3B0X2xldmVsKQoKICAgIGlmIG5fZ3B1ID4gMToKICAgICAgICBtb2RlbCA9IHRvcmNoLm5uLkRhdGFQYXJhbGxlbChtb2RlbCkKCiAgICBpZiBsb2NhbF9yYW5rICE9IC0xOgogICAgICAgIG1vZGVsID0gdG9yY2gubm4ucGFyYWxsZWwuRGlzdHJpYnV0ZWREYXRhUGFyYWxsZWwoCiAgICAgICAgICAgIG1vZGVsLAogICAgICAgICAgICBkZXZpY2VfaWRzPVtkZXZpY2UgaWYgZGV2aWNlIGVsc2UgbG9jYWxfcmFua10sCiAgICAgICAgICAgIG91dHB1dF9kZXZpY2U9bG9jYWxfcmFuaywKICAgICAgICAgICAgZmluZF91bnVzZWRfcGFyYW1ldGVycz1UcnVlLAogICAgICAgICkKICAgIHJldHVybiBtb2RlbCwgb3B0aW1pemVyCgoKZGVmIG1vdmVfdG9fY3VkYShzYW1wbGUpOgogICAgaWYgbGVuKHNhbXBsZSkgPT0gMDoKICAgICAgICByZXR1cm4ge30KCiAgICBkZWYgX21vdmVfdG9fY3VkYShtYXliZV90ZW5zb3IpOgogICAgICAgIGlmIHRvcmNoLmlzX3RlbnNvcihtYXliZV90ZW5zb3IpOgogICAgICAgICAgICByZXR1cm4gbWF5YmVfdGVuc29yLmN1ZGEoKQogICAgICAgIGVsaWYgaXNpbnN0YW5jZShtYXliZV90ZW5zb3IsIGRpY3QpOgogICAgICAgICAgICByZXR1cm4ge2tleTogX21vdmVfdG9fY3VkYSh2YWx1ZSkgZm9yIGtleSwgdmFsdWUgaW4gbWF5YmVfdGVuc29yLml0ZW1zKCl9CiAgICAgICAgZWxpZiBpc2luc3RhbmNlKG1heWJlX3RlbnNvciwgbGlzdCk6CiAgICAgICAgICAgIHJldHVybiBbX21vdmVfdG9fY3VkYSh4KSBmb3IgeCBpbiBtYXliZV90ZW5zb3JdCiAgICAgICAgZWxpZiBpc2luc3RhbmNlKG1heWJlX3RlbnNvciwgdHVwbGUpOgogICAgICAgICAgICByZXR1cm4gW19tb3ZlX3RvX2N1ZGEoeCkgZm9yIHggaW4gbWF5YmVfdGVuc29yXQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHJldHVybiBtYXliZV90ZW5zb3IKCiAgICByZXR1cm4gX21vdmVfdG9fY3VkYShzYW1wbGUpCgoKZGVmIG1vdmVfdG9fZGV2aWNlKHNhbXBsZSwgZGV2aWNlKToKICAgIGlmIGxlbihzYW1wbGUpID09IDA6CiAgICAgICAgcmV0dXJuIHt9CgogICAgZGVmIF9tb3ZlX3RvX2RldmljZShtYXliZV90ZW5zb3IsIGRldmljZSk6CiAgICAgICAgaWYgdG9yY2guaXNfdGVuc29yKG1heWJlX3RlbnNvcik6CiAgICAgICAgICAgIHJldHVybiBtYXliZV90ZW5zb3IudG8oZGV2aWNlKQogICAgICAgIGVsaWYgaXNpbnN0YW5jZShtYXliZV90ZW5zb3IsIGRpY3QpOgogICAgICAgICAgICByZXR1cm4gewogICAgICAgICAgICAgICAga2V5OiBfbW92ZV90b19kZXZpY2UodmFsdWUsIGRldmljZSkKICAgICAgICAgICAgICAgIGZvciBrZXksIHZhbHVlIGluIG1heWJlX3RlbnNvci5pdGVtcygpCiAgICAgICAgICAgIH0KICAgICAgICBlbGlmIGlzaW5zdGFuY2UobWF5YmVfdGVuc29yLCBsaXN0KToKICAgICAgICAgICAgcmV0dXJuIFtfbW92ZV90b19kZXZpY2UoeCwgZGV2aWNlKSBmb3IgeCBpbiBtYXliZV90ZW5zb3JdCiAgICAgICAgZWxpZiBpc2luc3RhbmNlKG1heWJlX3RlbnNvciwgdHVwbGUpOgogICAgICAgICAgICByZXR1cm4gW19tb3ZlX3RvX2RldmljZSh4LCBkZXZpY2UpIGZvciB4IGluIG1heWJlX3RlbnNvcl0KICAgICAgICBlbHNlOgogICAgICAgICAgICByZXR1cm4gbWF5YmVfdGVuc29yCgogICAgcmV0dXJuIF9tb3ZlX3RvX2RldmljZShzYW1wbGUsIGRldmljZSkKCgpkZWYgZ2V0X3NjaGVkdWxlX2xpbmVhcigKICAgIG9wdGltaXplciwKICAgIHdhcm11cF9zdGVwcywKICAgIHRvdGFsX3RyYWluaW5nX3N0ZXBzLAogICAgc3RlcHNfc2hpZnQ9MCwKICAgIGxhc3RfZXBvY2g9LTEsCik6CgogICAgIiIiQ3JlYXRlIGEgc2NoZWR1bGUgd2l0aCBhIGxlYXJuaW5nIHJhdGUgdGhhdCBkZWNyZWFzZXMgbGluZWFybHkgYWZ0ZXIKICAgIGxpbmVhcmx5IGluY3JlYXNpbmcgZHVyaW5nIGEgd2FybXVwIHBlcmlvZC4KICAgICIiIgoKICAgIGRlZiBscl9sYW1iZGEoY3VycmVudF9zdGVwKToKICAgICAgICBjdXJyZW50X3N0ZXAgKz0gc3RlcHNfc2hpZnQKICAgICAgICBpZiBjdXJyZW50X3N0ZXAgPCB3YXJtdXBfc3RlcHM6CiAgICAgICAgICAgIHJldHVybiBmbG9hdChjdXJyZW50X3N0ZXApIC8gZmxvYXQobWF4KDEsIHdhcm11cF9zdGVwcykpCiAgICAgICAgcmV0dXJuIG1heCgKICAgICAgICAgICAgMWUtNywKICAgICAgICAgICAgZmxvYXQodG90YWxfdHJhaW5pbmdfc3RlcHMgLSBjdXJyZW50X3N0ZXApCiAgICAgICAgICAgIC8gZmxvYXQobWF4KDEsIHRvdGFsX3RyYWluaW5nX3N0ZXBzIC0gd2FybXVwX3N0ZXBzKSksCiAgICAgICAgKQoKICAgIHJldHVybiBMYW1iZGFMUihvcHRpbWl6ZXIsIGxyX2xhbWJkYSwgbGFzdF9lcG9jaCkKCgpkZWYgaW5pdF93ZWlnaHRzKG1vZHVsZXM6IExpc3QpOgogICAgZm9yIG1vZHVsZSBpbiBtb2R1bGVzOgogICAgICAgIGlmIGlzaW5zdGFuY2UobW9kdWxlLCAobm4uTGluZWFyLCBubi5FbWJlZGRpbmcpKToKICAgICAgICAgICAgbW9kdWxlLndlaWdodC5kYXRhLm5vcm1hbF8obWVhbj0wLjAsIHN0ZD0wLjAyKQogICAgICAgIGVsaWYgaXNpbnN0YW5jZShtb2R1bGUsIG5uLkxheWVyTm9ybSk6CiAgICAgICAgICAgIG1vZHVsZS5iaWFzLmRhdGEuemVyb18oKQogICAgICAgICAgICBtb2R1bGUud2VpZ2h0LmRhdGEuZmlsbF8oMS4wKQogICAgICAgIGlmIGlzaW5zdGFuY2UobW9kdWxlLCBubi5MaW5lYXIpIGFuZCBtb2R1bGUuYmlhcyBpcyBub3QgTm9uZToKICAgICAgICAgICAgbW9kdWxlLmJpYXMuZGF0YS56ZXJvXygpCgoKZGVmIGdldF9tb2RlbF9vYmoobW9kZWw6IG5uLk1vZHVsZSk6CiAgICByZXR1cm4gbW9kZWwubW9kdWxlIGlmIGhhc2F0dHIobW9kZWwsICJtb2R1bGUiKSBlbHNlIG1vZGVsCgoKZGVmIGdldF9tb2RlbF9maWxlKGFyZ3MsIGZpbGVfcHJlZml4KSAtPiBzdHI6CiAgICBpZiBhcmdzLm1vZGVsX2ZpbGUgYW5kIG9zLnBhdGguZXhpc3RzKGFyZ3MubW9kZWxfZmlsZSk6CiAgICAgICAgcmV0dXJuIGFyZ3MubW9kZWxfZmlsZQogICAgYXJncy5tb2RlbF9maWxlID0gTm9uZQogICAgb3V0X2NwX2ZpbGVzID0gKAogICAgICAgIGdsb2IuZ2xvYihvcy5wYXRoLmpvaW4oYXJncy5vdXRwdXRfZGlyLCBmaWxlX3ByZWZpeCArICIqIikpCiAgICAgICAgaWYgYXJncy5vdXRwdXRfZGlyCiAgICAgICAgZWxzZSBbXQogICAgKQogICAgbG9nZ2VyLmluZm8oIkNoZWNrcG9pbnQgZmlsZXMgJXMiLCBvdXRfY3BfZmlsZXMpCiAgICBtb2RlbF9maWxlID0gTm9uZQoKICAgIGlmIGxlbihvdXRfY3BfZmlsZXMpID4gMDoKICAgICAgICBtb2RlbF9maWxlID0gbWF4KG91dF9jcF9maWxlcykgIywga2V5PW9zLnBhdGguZ2V0Y3RpbWUpCiAgICAjIHByaW50KCIqKioqKioqKioqKioqOiIsIG1heChvdXRfY3BfZmlsZXMpLCBtaW4ob3V0X2NwX2ZpbGVzKSkKICAgIHJldHVybiBtb2RlbF9maWxlCgoKZGVmIGxvYWRfc3RhdGVzX2Zyb21fY2hlY2twb2ludChtb2RlbF9maWxlOiBzdHIpIC0+IENoZWNrcG9pbnRTdGF0ZToKICAgIGxvZ2dlci5pbmZvKCJSZWFkaW5nIHNhdmVkIG1vZGVsIGZyb20gJXMiLCBtb2RlbF9maWxlKQogICAgc3RhdGVfZGljdCA9IHRvcmNoLmxvYWQoCiAgICAgICAgbW9kZWxfZmlsZSwgbWFwX2xvY2F0aW9uPWxhbWJkYSBzLCBsOiBkZWZhdWx0X3Jlc3RvcmVfbG9jYXRpb24ocywgImNwdSIpCiAgICApCiAgICBsb2dnZXIuaW5mbygibW9kZWxfc3RhdGVfZGljdCBrZXlzICVzIiwgc3RhdGVfZGljdC5rZXlzKCkpCiAgICByZXR1cm4gQ2hlY2twb2ludFN0YXRlKCoqc3RhdGVfZGljdCkK
+#!/usr/bin/env python3
+# Copyright (c) Facebook, Inc. and its affiliates.
+# All rights reserved.
+#
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+
+import collections
+import glob
+import logging
+import os
+from typing import List
+
+import torch
+from torch import nn
+from torch.optim.lr_scheduler import LambdaLR
+from torch.serialization import default_restore_location
+
+logger = logging.getLogger()
+
+CheckpointState = collections.namedtuple(
+    "CheckpointState",
+    [
+        "model_dict",
+        "optimizer_dict",
+        "scheduler_dict",
+        "offset",
+        "epoch",
+        "encoder_params",
+    ],
+)
+
+
+def setup_for_distributed_mode(
+    model: nn.Module,
+    optimizer: torch.optim.Optimizer,
+    device: object,
+    n_gpu: int = 1,
+    local_rank: int = -1,
+    fp16: bool = False,
+    fp16_opt_level: str = "O1",
+) -> (nn.Module, torch.optim.Optimizer):
+    model.to(device)
+    if fp16:
+        try:
+            import apex
+            from apex import amp
+
+            apex.amp.register_half_function(torch, "einsum")
+        except ImportError:
+            raise ImportError(
+                "Please install apex from https://www.github.com/nvidia/apex to use fp16 training."
+            )
+
+        model, optimizer = amp.initialize(model, optimizer, opt_level=fp16_opt_level)
+
+    if n_gpu > 1:
+        model = torch.nn.DataParallel(model)
+
+    if local_rank != -1:
+        model = torch.nn.parallel.DistributedDataParallel(
+            model,
+            device_ids=[device if device else local_rank],
+            output_device=local_rank,
+            find_unused_parameters=True,
+        )
+    return model, optimizer
+
+
+def move_to_cuda(sample):
+    if len(sample) == 0:
+        return {}
+
+    def _move_to_cuda(maybe_tensor):
+        if torch.is_tensor(maybe_tensor):
+            return maybe_tensor.cuda()
+        elif isinstance(maybe_tensor, dict):
+            return {key: _move_to_cuda(value) for key, value in maybe_tensor.items()}
+        elif isinstance(maybe_tensor, list):
+            return [_move_to_cuda(x) for x in maybe_tensor]
+        elif isinstance(maybe_tensor, tuple):
+            return [_move_to_cuda(x) for x in maybe_tensor]
+        else:
+            return maybe_tensor
+
+    return _move_to_cuda(sample)
+
+
+def move_to_device(sample, device):
+    if len(sample) == 0:
+        return {}
+
+    def _move_to_device(maybe_tensor, device):
+        if torch.is_tensor(maybe_tensor):
+            return maybe_tensor.to(device)
+        elif isinstance(maybe_tensor, dict):
+            return {
+                key: _move_to_device(value, device)
+                for key, value in maybe_tensor.items()
+            }
+        elif isinstance(maybe_tensor, list):
+            return [_move_to_device(x, device) for x in maybe_tensor]
+        elif isinstance(maybe_tensor, tuple):
+            return [_move_to_device(x, device) for x in maybe_tensor]
+        else:
+            return maybe_tensor
+
+    return _move_to_device(sample, device)
+
+
+def get_schedule_linear(
+    optimizer,
+    warmup_steps,
+    total_training_steps,
+    steps_shift=0,
+    last_epoch=-1,
+):
+
+    """Create a schedule with a learning rate that decreases linearly after
+    linearly increasing during a warmup period.
+    """
+
+    def lr_lambda(current_step):
+        current_step += steps_shift
+        if current_step < warmup_steps:
+            return float(current_step) / float(max(1, warmup_steps))
+        return max(
+            1e-7,
+            float(total_training_steps - current_step)
+            / float(max(1, total_training_steps - warmup_steps)),
+        )
+
+    return LambdaLR(optimizer, lr_lambda, last_epoch)
+
+
+def init_weights(modules: List):
+    for module in modules:
+        if isinstance(module, (nn.Linear, nn.Embedding)):
+            module.weight.data.normal_(mean=0.0, std=0.02)
+        elif isinstance(module, nn.LayerNorm):
+            module.bias.data.zero_()
+            module.weight.data.fill_(1.0)
+        if isinstance(module, nn.Linear) and module.bias is not None:
+            module.bias.data.zero_()
+
+
+def get_model_obj(model: nn.Module):
+    return model.module if hasattr(model, "module") else model
+
+
+def get_model_file(args, file_prefix) -> str:
+    if args.model_file and os.path.exists(args.model_file):
+        return args.model_file
+    args.model_file = None
+    out_cp_files = (
+        glob.glob(os.path.join(args.output_dir, file_prefix + "*"))
+        if args.output_dir
+        else []
+    )
+    logger.info("Checkpoint files %s", out_cp_files)
+    model_file = None
+
+    if len(out_cp_files) > 0:
+        model_file = max(out_cp_files) #, key=os.path.getctime)
+    # print("*************:", max(out_cp_files), min(out_cp_files))
+    return model_file
+
+
+def load_states_from_checkpoint(model_file: str) -> CheckpointState:
+    logger.info("Reading saved model from %s", model_file)
+    state_dict = torch.load(
+        model_file, map_location=lambda s, l: default_restore_location(s, "cpu")
+    )
+    logger.info("model_state_dict keys %s", state_dict.keys())
+    return CheckpointState(**state_dict)

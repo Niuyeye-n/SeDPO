@@ -1,1 +1,120 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0KIiIiCkY0IOaJk+WIhuWQnuWQkOWfuuWHhu+8muS/ruWkjeWJjSB2cyDkv67lpI3lkI4K5rWLIDMg5Lu25LqL77yaCiAgMS4g5Y2VIGJhdGNoIOWzsOWAvOaYvuWtmAogIDIuIOWPr+eUqOeahOacgOWkpyBiYXRjaF9zaXplCiAgMy4g5Y2V5L2N5pe26Ze05ZCe5ZCQ77yI5omT5YiG5a6e5L6LL+enku+8ieKAlOKAlCDnm7TmjqXlhrPlrprlrp7pqozop4TmqKHog73mlL7lpKflpJrlsJEKCueUqOazle+8mnB5dGhvbiBiZW5jaF9zY29yZXIucHkgPHJlcG9fcGF0aD4gPG1vZGVsX3BhdGg+CiIiIgppbXBvcnQgb3MKaW1wb3J0IHN5cwppbXBvcnQgdGltZQoKUkVQTyA9IHN5cy5hcmd2WzFdIGlmIGxlbihzeXMuYXJndikgPiAxIGVsc2UgIi9yb290L2F1dG9kbC10bXAvU2VEUE9fTklQUzI1IgpNT0RFTCA9IHN5cy5hcmd2WzJdIGlmIGxlbihzeXMuYXJndikgPiAyIGVsc2UgIi9yb290L2F1dG9kbC10bXAvbW9kZWxzL3F3ZW4yLjUtN2IiCnN5cy5wYXRoLmluc2VydCgwLCBSRVBPKQpvcy5jaGRpcihSRVBPKQoKaW1wb3J0IHRvcmNoCmZyb20gdHJhbnNmb3JtZXJzIGltcG9ydCBBdXRvTW9kZWxGb3JDYXVzYWxMTSwgQXV0b1Rva2VuaXplcgoKU0VRID0gMTAyNCAgICAgICMg5YW45Z6L5omT5YiG5bqP5YiX6ZW/5bqm77yIQVJDLUMg5bimIDMtc2hvdCDlpKfnuqblh6Dnmb7liLAgMWvvvIkKT1BUID0gNCAgICAgICAgICMgQVJDLUMgLyBPcGVuQm9va1FBIOmDveaYryA0IOmAiemhuQpWT0NBQiA9IDE1MjA2NCAgIyBRd2VuMi41IOeahOivjeihqAoKcHJpbnQoZiJtb2RlbD17TU9ERUx9ICBzZXE9e1NFUX0gIG9wdGlvbj17T1BUfSIpCm1vZGVsID0gQXV0b01vZGVsRm9yQ2F1c2FsTE0uZnJvbV9wcmV0cmFpbmVkKAogICAgTU9ERUwsIGNhY2hlX2Rpcj1vcy5wYXRoLmpvaW4oUkVQTywgImNhY2hlIiksIHRvcmNoX2R0eXBlPXRvcmNoLmZsb2F0MTYKKS5oYWxmKCkuY3VkYSgpLmV2YWwoKQoKCmRlZiBvbGRfbG9zcyhsb2dpdHMsIGlucHV0X2lkcywgbG9zc19tYXNrKToKICAgIGJzeiwgb3B0aW9uX251bSwgc2VxX2xlbiwgXyA9IGxvZ2l0cy5zaGFwZQogICAgdGFyZ2V0cyA9IGlucHV0X2lkc1s6LCA6LCAxOl0udW5zcXVlZXplKC0xKQogICAgbGcgPSBsb2dpdHNbOiwgOiwgOi0xLCA6XQogICAgbG9naXRfcHJvYnMgPSB0b3JjaC5ubi5mdW5jdGlvbmFsLmxvZ19zb2Z0bWF4KGxnLmZsb2F0KCksIGRpbT0tMSkKICAgIGxtID0gbG9zc19tYXNrWzosIDosIDE6XQogICAgbG9zcyA9IC10b3JjaC5nYXRoZXIobG9naXRfcHJvYnMsIC0xLCB0YXJnZXRzKS5zcXVlZXplKC0xKSAqIGxtCiAgICByZXR1cm4gbG9zcy5zdW0oLTEpIC8gbG0uc3VtKC0xKQoKCmRlZiBuZXdfbG9zcyhsb2dpdHMsIGlucHV0X2lkcywgbG9zc19tYXNrKToKICAgIGJzeiwgb3B0aW9uX251bSwgc2VxX2xlbiwgXyA9IGxvZ2l0cy5zaGFwZQogICAgdGFyZ2V0cyA9IGlucHV0X2lkc1s6LCA6LCAxOl0udW5zcXVlZXplKC0xKQogICAgbGcgPSBsb2dpdHNbOiwgOiwgOi0xLCA6XQogICAgbG0gPSBsb3NzX21hc2tbOiwgOiwgMTpdCiAgICBmbGF0X2xvZ2l0cyA9IGxnLnJlc2hhcGUoLTEsIGxnLnNoYXBlWy0xXSkKICAgIGZsYXRfdGFyZ2V0cyA9IHRhcmdldHMucmVzaGFwZSgtMSkKICAgIGZsYXRfbWFzayA9IGxtLnJlc2hhcGUoLTEpLmJvb2woKQogICAgc2VsX2xvZ2l0cyA9IGZsYXRfbG9naXRzW2ZsYXRfbWFza10KICAgIHNlbF90YXJnZXRzID0gZmxhdF90YXJnZXRzW2ZsYXRfbWFza10uc3F1ZWV6ZSgtMSkKICAgIGxzZSA9IHRvcmNoLmxvZ3N1bWV4cChzZWxfbG9naXRzLmZsb2F0KCksIGRpbT0tMSkKICAgIHRndCA9IHRvcmNoLmdhdGhlcihzZWxfbG9naXRzLCAtMSwgc2VsX3RhcmdldHMudW5zcXVlZXplKC0xKSkuc3F1ZWV6ZSgtMSkuZmxvYXQoKQogICAgbmxsID0gbHNlIC0gdGd0CiAgICBsb3NzID0gdG9yY2guemVyb3MoZmxhdF9sb2dpdHMuc2hhcGVbMF0sIGRldmljZT1sZy5kZXZpY2UsIGR0eXBlPXRvcmNoLmZsb2F0MzIpCiAgICBsb3NzW2ZsYXRfbWFza10gPSBubGwKICAgIGxvc3MgPSBsb3NzLnZpZXcoYnN6LCBvcHRpb25fbnVtLCAtMSkKICAgIHJldHVybiBsb3NzLnN1bSgtMSkgLyBsbS5zdW0oLTEpLmNsYW1wKG1pbj0xKQoKCmRlZiBiZW5jaChmbiwgYnN6LCBuX2l0ZXI9Myk6CiAgICB0b3JjaC5jdWRhLmVtcHR5X2NhY2hlKCkKICAgIHRvcmNoLmN1ZGEucmVzZXRfcGVha19tZW1vcnlfc3RhdHMoKQogICAgaW5wdXRfaWRzID0gdG9yY2gucmFuZGludCgwLCBWT0NBQiwgKGJzeiwgT1BULCBTRVEpLCBkZXZpY2U9ImN1ZGEiKQogICAgbG9zc19tYXNrID0gdG9yY2guemVyb3MoYnN6LCBPUFQsIFNFUSwgZGV2aWNlPSJjdWRhIikKICAgIGxvc3NfbWFza1s6LCA6LCAtODpdID0gMQogICAgdHJ5OgogICAgICAgIHdpdGggdG9yY2gubm9fZ3JhZCgpOgogICAgICAgICAgICBmb3IgXyBpbiByYW5nZShuX2l0ZXIpOgogICAgICAgICAgICAgICAgb3V0ID0gbW9kZWwoaW5wdXRfaWRzPWlucHV0X2lkcy5yZXNoYXBlKGJzeiAqIE9QVCwgU0VRKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF0dGVudGlvbl9tYXNrPXRvcmNoLm9uZXMoYnN6ICogT1BULCBTRVEsIGR0eXBlPXRvcmNoLmxvbmcsIGRldmljZT0iY3VkYSIpKQogICAgICAgICAgICAgICAgbG9naXRzID0gb3V0LmxvZ2l0cy5yZXNoYXBlKGJzeiwgT1BULCBTRVEsIC0xKQogICAgICAgICAgICAgICAgbG9zcyA9IGZuKGxvZ2l0cywgaW5wdXRfaWRzLCBsb3NzX21hc2spCiAgICAgICAgICAgICAgICBkZWwgb3V0LCBsb2dpdHMsIGxvc3MKICAgICAgICB0b3JjaC5jdWRhLnN5bmNocm9uaXplKCkKICAgICAgICBwZWFrID0gdG9yY2guY3VkYS5tYXhfbWVtb3J5X2FsbG9jYXRlZCgpIC8gMWU5CiAgICAgICAgIyDorqHml7YKICAgICAgICB0b3JjaC5jdWRhLnN5bmNocm9uaXplKCkKICAgICAgICB0MCA9IHRpbWUudGltZSgpCiAgICAgICAgd2l0aCB0b3JjaC5ub19ncmFkKCk6CiAgICAgICAgICAgIGZvciBfIGluIHJhbmdlKG5faXRlcik6CiAgICAgICAgICAgICAgICBvdXQgPSBtb2RlbChpbnB1dF9pZHM9aW5wdXRfaWRzLnJlc2hhcGUoYnN6ICogT1BULCBTRVEpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0ZW50aW9uX21hc2s9dG9yY2gub25lcyhic3ogKiBPUFQsIFNFUSwgZHR5cGU9dG9yY2gubG9uZywgZGV2aWNlPSJjdWRhIikpCiAgICAgICAgICAgICAgICBsb2dpdHMgPSBvdXQubG9naXRzLnJlc2hhcGUoYnN6LCBPUFQsIFNFUSwgLTEpCiAgICAgICAgICAgICAgICBsb3NzID0gZm4obG9naXRzLCBpbnB1dF9pZHMsIGxvc3NfbWFzaykKICAgICAgICAgICAgICAgIGRlbCBvdXQsIGxvZ2l0cywgbG9zcwogICAgICAgIHRvcmNoLmN1ZGEuc3luY2hyb25pemUoKQogICAgICAgIGR0ID0gKHRpbWUudGltZSgpIC0gdDApIC8gbl9pdGVyCiAgICAgICAgcmV0dXJuIHBlYWssIGR0LCBic3ogLyBkdAogICAgZXhjZXB0IHRvcmNoLmN1ZGEuT3V0T2ZNZW1vcnlFcnJvcjoKICAgICAgICB0b3JjaC5jdWRhLmVtcHR5X2NhY2hlKCkKICAgICAgICByZXR1cm4gTm9uZSwgTm9uZSwgTm9uZQoKCnByaW50KCkKcHJpbnQoZiJ7J+WunueOsCc6PDEwfXsnYnN6Jzo+Nn17J+WzsOWAvOaYvuWtmEdCJzo+MTR9eyfnp5IvYmF0Y2gnOj4xMn17J+WunuS+iy/np5InOj4xMn0iKQpwcmludCgiLSIgKiA1NikKCnJlc3VsdHMgPSB7fQpmb3IgbmFtZSwgZm4gaW4gWygi5Y6f5a6e546wIiwgb2xkX2xvc3MpLCAoIuS/ruWkjeWQjiIsIG5ld19sb3NzKV06CiAgICBiZXN0ID0gTm9uZQogICAgZm9yIGJzeiBpbiBbMiwgNSwgOCwgMTIsIDE2LCAyNCwgMzJdOgogICAgICAgIHBlYWssIGR0LCB0cHMgPSBiZW5jaChmbiwgYnN6KQogICAgICAgIGlmIHBlYWsgaXMgTm9uZToKICAgICAgICAgICAgcHJpbnQoZiJ7bmFtZTo8MTB9e2Jzejo+Nn17J09PTSc6PjE0fSIpCiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgcHJpbnQoZiJ7bmFtZTo8MTB9e2Jzejo+Nn17cGVhazo+MTQuMmZ9e2R0Oj4xMi4zZn17dHBzOj4xMi4xZn0iKQogICAgICAgIGlmIGJlc3QgaXMgTm9uZSBvciB0cHMgPiBiZXN0WzJdOgogICAgICAgICAgICBiZXN0ID0gKGJzeiwgcGVhaywgdHBzLCBkdCkKICAgIHJlc3VsdHNbbmFtZV0gPSBiZXN0CiAgICBwcmludCgpCgpwcmludCgiPSIgKiA1NikKZm9yIG5hbWUsIGJlc3QgaW4gcmVzdWx0cy5pdGVtcygpOgogICAgaWYgYmVzdDoKICAgICAgICBwcmludChmIntuYW1lfTog5pyA5LyYIGJzej17YmVzdFswXX0sIOWzsOWAvOaYvuWtmCB7YmVzdFsxXTouMmZ9R0IsIHtiZXN0WzJdOi4xZn0g5a6e5L6LL+enkiIpCmlmIHJlc3VsdHMuZ2V0KCLljp/lrp7njrAiKSBhbmQgcmVzdWx0cy5nZXQoIuS/ruWkjeWQjiIpOgogICAgc3AgPSByZXN1bHRzWyLkv67lpI3lkI4iXVsyXSAvIHJlc3VsdHNbIuWOn+WunueOsCJdWzJdCiAgICBwcmludChmIlxuPT4g5ZCe5ZCQ5o+Q5Y2HIHtzcDouMmZ9eCIpCg==
+# -*- coding: utf-8 -*-
+"""
+F4 打分吞吐基准：修复前 vs 修复后
+测 3 件事：
+  1. 单 batch 峰值显存
+  2. 可用的最大 batch_size
+  3. 单位时间吞吐（打分实例/秒）—— 直接决定实验规模能放大多少
+
+用法：python bench_scorer.py <repo_path> <model_path>
+"""
+import os
+import sys
+import time
+
+REPO = sys.argv[1] if len(sys.argv) > 1 else "/root/autodl-tmp/SeDPO_NIPS25"
+MODEL = sys.argv[2] if len(sys.argv) > 2 else "/root/autodl-tmp/models/qwen2.5-7b"
+sys.path.insert(0, REPO)
+os.chdir(REPO)
+
+import torch
+from transformers import AutoModelForCausalLM, AutoTokenizer
+
+SEQ = 1024      # 典型打分序列长度（ARC-C 带 3-shot 大约几百到 1k）
+OPT = 4         # ARC-C / OpenBookQA 都是 4 选项
+VOCAB = 152064  # Qwen2.5 的词表
+
+print(f"model={MODEL}  seq={SEQ}  option={OPT}")
+model = AutoModelForCausalLM.from_pretrained(
+    MODEL, cache_dir=os.path.join(REPO, "cache"), torch_dtype=torch.float16
+).half().cuda().eval()
+
+
+def old_loss(logits, input_ids, loss_mask):
+    bsz, option_num, seq_len, _ = logits.shape
+    targets = input_ids[:, :, 1:].unsqueeze(-1)
+    lg = logits[:, :, :-1, :]
+    logit_probs = torch.nn.functional.log_softmax(lg.float(), dim=-1)
+    lm = loss_mask[:, :, 1:]
+    loss = -torch.gather(logit_probs, -1, targets).squeeze(-1) * lm
+    return loss.sum(-1) / lm.sum(-1)
+
+
+def new_loss(logits, input_ids, loss_mask):
+    bsz, option_num, seq_len, _ = logits.shape
+    targets = input_ids[:, :, 1:].unsqueeze(-1)
+    lg = logits[:, :, :-1, :]
+    lm = loss_mask[:, :, 1:]
+    flat_logits = lg.reshape(-1, lg.shape[-1])
+    flat_targets = targets.reshape(-1)
+    flat_mask = lm.reshape(-1).bool()
+    sel_logits = flat_logits[flat_mask]
+    sel_targets = flat_targets[flat_mask].squeeze(-1)
+    lse = torch.logsumexp(sel_logits.float(), dim=-1)
+    tgt = torch.gather(sel_logits, -1, sel_targets.unsqueeze(-1)).squeeze(-1).float()
+    nll = lse - tgt
+    loss = torch.zeros(flat_logits.shape[0], device=lg.device, dtype=torch.float32)
+    loss[flat_mask] = nll
+    loss = loss.view(bsz, option_num, -1)
+    return loss.sum(-1) / lm.sum(-1).clamp(min=1)
+
+
+def bench(fn, bsz, n_iter=3):
+    torch.cuda.empty_cache()
+    torch.cuda.reset_peak_memory_stats()
+    input_ids = torch.randint(0, VOCAB, (bsz, OPT, SEQ), device="cuda")
+    loss_mask = torch.zeros(bsz, OPT, SEQ, device="cuda")
+    loss_mask[:, :, -8:] = 1
+    try:
+        with torch.no_grad():
+            for _ in range(n_iter):
+                out = model(input_ids=input_ids.reshape(bsz * OPT, SEQ),
+                            attention_mask=torch.ones(bsz * OPT, SEQ, dtype=torch.long, device="cuda"))
+                logits = out.logits.reshape(bsz, OPT, SEQ, -1)
+                loss = fn(logits, input_ids, loss_mask)
+                del out, logits, loss
+        torch.cuda.synchronize()
+        peak = torch.cuda.max_memory_allocated() / 1e9
+        # 计时
+        torch.cuda.synchronize()
+        t0 = time.time()
+        with torch.no_grad():
+            for _ in range(n_iter):
+                out = model(input_ids=input_ids.reshape(bsz * OPT, SEQ),
+                            attention_mask=torch.ones(bsz * OPT, SEQ, dtype=torch.long, device="cuda"))
+                logits = out.logits.reshape(bsz, OPT, SEQ, -1)
+                loss = fn(logits, input_ids, loss_mask)
+                del out, logits, loss
+        torch.cuda.synchronize()
+        dt = (time.time() - t0) / n_iter
+        return peak, dt, bsz / dt
+    except torch.cuda.OutOfMemoryError:
+        torch.cuda.empty_cache()
+        return None, None, None
+
+
+print()
+print(f"{'实现':<10}{'bsz':>6}{'峰值显存GB':>14}{'秒/batch':>12}{'实例/秒':>12}")
+print("-" * 56)
+
+results = {}
+for name, fn in [("原实现", old_loss), ("修复后", new_loss)]:
+    best = None
+    for bsz in [2, 5, 8, 12, 16, 24, 32]:
+        peak, dt, tps = bench(fn, bsz)
+        if peak is None:
+            print(f"{name:<10}{bsz:>6}{'OOM':>14}")
+            continue
+        print(f"{name:<10}{bsz:>6}{peak:>14.2f}{dt:>12.3f}{tps:>12.1f}")
+        if best is None or tps > best[2]:
+            best = (bsz, peak, tps, dt)
+    results[name] = best
+    print()
+
+print("=" * 56)
+for name, best in results.items():
+    if best:
+        print(f"{name}: 最优 bsz={best[0]}, 峰值显存 {best[1]:.2f}GB, {best[2]:.1f} 实例/秒")
+if results.get("原实现") and results.get("修复后"):
+    sp = results["修复后"][2] / results["原实现"][2]
+    print(f"\n=> 吞吐提升 {sp:.2f}x")

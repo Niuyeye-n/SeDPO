@@ -1,1 +1,5 @@
-CgpkZWYgZ2V0X2xlbmd0aCh0b2tlbml6ZXIsIHRleHQpOgogICAgICAgIHRva2VuaXplZF9leGFtcGxlID0gdG9rZW5pemVyLmVuY29kZV9wbHVzKHRleHQsdHJ1bmNhdGlvbj1GYWxzZSxyZXR1cm5fdGVuc29ycz0ncHQnKQogICAgICAgIHJldHVybiBpbnQodG9rZW5pemVkX2V4YW1wbGUuaW5wdXRfaWRzLnNxdWVlemUoKS5zaGFwZVswXSk=
+
+
+def get_length(tokenizer, text):
+        tokenized_example = tokenizer.encode_plus(text,truncation=False,return_tensors='pt')
+        return int(tokenized_example.input_ids.squeeze().shape[0])

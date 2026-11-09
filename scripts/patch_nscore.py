@@ -1,1 +1,61 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0KIiIiCue7mSBmaW5kX3JhbmRvbV9zdGVwMS5weSDmiZPooaXkuIHvvJrmlrDlop7lj6/pgInlj4LmlbAgbl9zY29yZeOAggoK55uu55qE77yaKirop6PogKbjgIzmo4DntKLor63mlpnmsaDlpKflsI/jgI3kuI7jgIzooqvmiZPliIbnmoQgcXVlcnkg5pWw44CNKirjgIIKCuiDjOaZr++8mgogIC0gZmluZF9yYW5kb21fc3RlcDEucHkg6YeMIHByb21wdF9wb29sIOWwseaYryB0cmFpbl9kYXRhc2V0Wzpkc19zaXplXe+8jAogICAg5ZCM5pe26KKr5omT5YiG55qEIHF1ZXJ5IOS5n+aYr+WQjOS4gOaJuSDihpIg57yp5bCPIGRzX3NpemUg5Lya5ZCM5pe257yp5bCP5qOA57Si6K+t5paZ77yMCiAgICDlr7zoh7QgU2VEUE8g55qE5qOA57Si6Zq+5bqm5Y+Y5YyW77yM5LiU5LiO5Z+657q/IHJhbmRvbTPvvIjku44gcHJvbXB0X3Bvb2wg6ZqP5py65oq977yJ6K+t5paZ5LiN5LiA6Ie077yMCiAgICDlr7nnhafkuI3lhazlubPjgIIKICAtIOacrOihpeS4geiuqSBwcm9tcHRfcG9vbCDkv53mjIHlhajph4/vvIjmo4DntKLor63mlpnkuI3lj5jjgIHkuI7ln7rnur/lj6/mr5TvvInvvIwKICAgIOWPquaKiuOAjOmcgOimgeaJk+WIhueahCBxdWVyeSDmnaHmlbDjgI3pmZDliLbkuLrliY0gbl9zY29yZSDmnaHjgIIKICAtIG5fc2NvcmUg5pyq6K6+572u5pe26KGM5Li65LiO5Y6f5p2l5a6M5YWo5LiA6Ie077yI5ZCR5ZCO5YW85a6577yJ44CCCgrnlKjms5XvvJpweXRob24gcGF0Y2hfbnNjb3JlLnB5IDxyZXBvX3BhdGg+CiIiIgppbXBvcnQgaW8KaW1wb3J0IHN5cwoKUkVQTyA9IHN5cy5hcmd2WzFdIGlmIGxlbihzeXMuYXJndikgPiAxIGVsc2UgIi9yb290L2F1dG9kbC10bXAvU2VEUE9fTklQUzI1IgpQQVRIID0gUkVQTyArICIvc2NyaXB0cy9maW5kX3JhbmRvbV9zdGVwMS5weSIKCnNyYyA9IGlvLm9wZW4oUEFUSCwgZW5jb2Rpbmc9InV0Zi04IikucmVhZCgpCgppZiAibl9zY29yZSIgaW4gc3JjOgogICAgcHJpbnQoIltTS0lQXSDooaXkuIHlt7LlrZjlnKgiKQogICAgc3lzLmV4aXQoMCkKCm9sZCA9ICIiImRlZiBmaW5kKGNmZyk6CiAgICByYW5kb21fZmluZGVyID0gUmFuZG9tRmluZGVyKGNmZykKICAgIGRhdGFfbGlzdCA9IHJhbmRvbV9maW5kZXIudHJhaW5fZGF0YXNldAogICAgaWR4X2xpc3QgPSBsaXN0KHJhbmdlKGxlbihyYW5kb21fZmluZGVyLnByb21wdF9wb29sKSkpCiIiIgoKbmV3ID0gIiIiZGVmIGZpbmQoY2ZnKToKICAgIHJhbmRvbV9maW5kZXIgPSBSYW5kb21GaW5kZXIoY2ZnKQogICAgZGF0YV9saXN0ID0gcmFuZG9tX2ZpbmRlci50cmFpbl9kYXRhc2V0CiAgICBpZHhfbGlzdCA9IGxpc3QocmFuZ2UobGVuKHJhbmRvbV9maW5kZXIucHJvbXB0X3Bvb2wpKSkKCiAgICAjIDIwMjYtMTEtMDUg6KeE5qih5o6n5Yi277ya5YCZ6YCJ5rGgKHByb21wdF9wb29sKeS/neaMgeWFqOmHj++8jOWPqumZkOWItuOAjOiiq+aJk+WIhueahCBxdWVyeSDmnaHmlbDjgI3jgIIKICAgICMg55uu55qE77ya566X5Yqb5Y+X6ZmQ5pe25Y6L57yp5omT5YiG5byA6ZSA77yM5L2G5L+d5oyB5qOA57Si6K+t5paZ5LiO5Z+657q/IHJhbmRvbTMg5a6M5YWo5LiA6Ie077yMCiAgICAjIOS/neivgSBTZURQTyDkuI7ln7rnur/nmoTlr7nnhaflhazlubPjgILmnKrorr7nva4gbl9zY29yZSDml7booYzkuLrkuI7ljp/niYjlrozlhajkuIDoh7TjgIIKICAgIG5fc2NvcmUgPSBjZmcuZ2V0KCJuX3Njb3JlIiwgTm9uZSkKICAgIGlmIG5fc2NvcmUgaXMgbm90IE5vbmUgYW5kIGludChuX3Njb3JlKSA+IDA6CiAgICAgICAgbl9zY29yZSA9IGludChuX3Njb3JlKQogICAgICAgIGlmIG5fc2NvcmUgPCBsZW4oZGF0YV9saXN0KToKICAgICAgICAgICAgcHJpbnQoZiJbSU5GT10g6KeE5qih5o6n5Yi277ya5omT5YiGIHF1ZXJ5IOaVsCB7bGVuKGRhdGFfbGlzdCl9IC0+IHtuX3Njb3JlfSIKICAgICAgICAgICAgICAgICAgZiLvvIjlgJnpgInmsaDku43kuLoge2xlbihyYW5kb21fZmluZGVyLnByb21wdF9wb29sKX0g5p2h77yM5LiN5Y+Y77yJIikKICAgICAgICAgICAgZGF0YV9saXN0ID0gZGF0YV9saXN0WzpuX3Njb3JlXQoiIiIKCmFzc2VydCBvbGQgaW4gc3JjLCAi5pyq5om+5Yiw55uu5qCH5Luj56CB5Z2X77yM5rqQ5paH5Lu25Y+v6IO95bey5Y+Y5YqoIgpzcmMgPSBzcmMucmVwbGFjZShvbGQsIG5ldykKCiMg5aSH5Lu9CmlvLm9wZW4oUEFUSCArICIub3JpZyIsICJ3IiwgZW5jb2Rpbmc9InV0Zi04Iikud3JpdGUoCiAgICBpby5vcGVuKFBBVEgsIGVuY29kaW5nPSJ1dGYtOCIpLnJlYWQoKSkKaW8ub3BlbihQQVRILCAidyIsIGVuY29kaW5nPSJ1dGYtOCIpLndyaXRlKHNyYykKcHJpbnQoIltPS10g5bey5Li6IGZpbmRfcmFuZG9tX3N0ZXAxLnB5IOaJk+S4iiBuX3Njb3JlIOihpeS4gSIpCnByaW50KCIgICAgIOWkh+S7vToiLCBQQVRIICsgIi5vcmlnIikK
+# -*- coding: utf-8 -*-
+"""
+给 find_random_step1.py 打补丁：新增可选参数 n_score。
+
+目的：**解耦「检索语料池大小」与「被打分的 query 数」**。
+
+背景：
+  - find_random_step1.py 里 prompt_pool 就是 train_dataset[:ds_size]，
+    同时被打分的 query 也是同一批 → 缩小 ds_size 会同时缩小检索语料，
+    导致 SeDPO 的检索难度变化，且与基线 random3（从 prompt_pool 随机抽）语料不一致，
+    对照不公平。
+  - 本补丁让 prompt_pool 保持全量（检索语料不变、与基线可比），
+    只把「需要打分的 query 条数」限制为前 n_score 条。
+  - n_score 未设置时行为与原来完全一致（向后兼容）。
+
+用法：python patch_nscore.py <repo_path>
+"""
+import io
+import sys
+
+REPO = sys.argv[1] if len(sys.argv) > 1 else "/root/autodl-tmp/SeDPO_NIPS25"
+PATH = REPO + "/scripts/find_random_step1.py"
+
+src = io.open(PATH, encoding="utf-8").read()
+
+if "n_score" in src:
+    print("[SKIP] 补丁已存在")
+    sys.exit(0)
+
+old = """def find(cfg):
+    random_finder = RandomFinder(cfg)
+    data_list = random_finder.train_dataset
+    idx_list = list(range(len(random_finder.prompt_pool)))
+"""
+
+new = """def find(cfg):
+    random_finder = RandomFinder(cfg)
+    data_list = random_finder.train_dataset
+    idx_list = list(range(len(random_finder.prompt_pool)))
+
+    # 2026-11-05 规模控制：候选池(prompt_pool)保持全量，只限制「被打分的 query 条数」。
+    # 目的：算力受限时压缩打分开销，但保持检索语料与基线 random3 完全一致，
+    # 保证 SeDPO 与基线的对照公平。未设置 n_score 时行为与原版完全一致。
+    n_score = cfg.get("n_score", None)
+    if n_score is not None and int(n_score) > 0:
+        n_score = int(n_score)
+        if n_score < len(data_list):
+            print(f"[INFO] 规模控制：打分 query 数 {len(data_list)} -> {n_score}"
+                  f"（候选池仍为 {len(random_finder.prompt_pool)} 条，不变）")
+            data_list = data_list[:n_score]
+"""
+
+assert old in src, "未找到目标代码块，源文件可能已变动"
+src = src.replace(old, new)
+
+# 备份
+io.open(PATH + ".orig", "w", encoding="utf-8").write(
+    io.open(PATH, encoding="utf-8").read())
+io.open(PATH, "w", encoding="utf-8").write(src)
+print("[OK] 已为 find_random_step1.py 打上 n_score 补丁")
+print("     备份:", PATH + ".orig")

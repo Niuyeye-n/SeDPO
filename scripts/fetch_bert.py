@@ -1,1 +1,133 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwojIC0qLSBjb2Rpbmc6IHV0Zi04IC0qLQoiIiIK5LuOIE1vZGVsU2NvcGUg5ouJ5Y+WIGdvb2dsZS1iZXJ0L2JlcnQtYmFzZS11bmNhc2Vk77yM5aGr5YWF5YiwIEh1Z2dpbmdGYWNlIOe8k+WtmOW4g+WxgArvvIhjYWNoZS9tb2RlbHMtLWdvb2dsZS1iZXJ0LS1iZXJ0LWJhc2UtdW5jYXNlZC97c25hcHNob3RzLHJlZnMsYmxvYnN977yJ77yMCuiuqSBEUFIg55qEIEhGX0JlcnRFbmNvZGVyIOWcqOemu+e6v+eOr+Wig+S4i+S5n+iDveWKoOi9veWIsOmihOiuree7g+adg+mHjeOAggoK5Li65LuA5LmI6ZyA6KaB77yaaHVnZ2luZ2ZhY2UuY28g5Zyo5pys5py66KKr5aKZ77yMdHJhbnNmb3JtZXJzIOaXoOazleiHquWKqOS4i+i9veOAggoK55So5rOVOgogIHB5dGhvbiBmZXRjaF9iZXJ0LnB5IC0tY2FjaGVfZGlyIC9yb290L2F1dG9kbC10bXAvU2VEUE9fTklQUzI1L2NhY2hlCiIiIgppbXBvcnQgYXJncGFyc2UKaW1wb3J0IGhhc2hsaWIKaW1wb3J0IGpzb24KaW1wb3J0IG9zCmltcG9ydCBzdWJwcm9jZXNzCmltcG9ydCBzeXMKaW1wb3J0IHVybGxpYi5yZXF1ZXN0CgpNUyA9ICJodHRwczovL3d3dy5tb2RlbHNjb3BlLmNuL2FwaS92MS9tb2RlbHMve3JlcG99L3JlcG8/UmV2aXNpb249bWFzdGVyJkZpbGVQYXRoPXtmfSIKCkZJTEVTID0gWwogICAgImNvbmZpZy5qc29uIiwKICAgICJ2b2NhYi50eHQiLAogICAgInRva2VuaXplci5qc29uIiwKICAgICJ0b2tlbml6ZXJfY29uZmlnLmpzb24iLAogICAgInNwZWNpYWxfdG9rZW5zX21hcC5qc29uIiwKICAgICJtb2RlbC5zYWZldGVuc29ycyIsCiAgICAicHl0b3JjaF9tb2RlbC5iaW4iLApdCgoKZGVmIGxvZyhtKToKICAgIHByaW50KGYiW2JlcnRdIHttfSIsIGZsdXNoPVRydWUpCgoKZGVmIGZldGNoKHJlcG8sIGZuYW1lLCBkZXN0KToKICAgIHVybCA9IE1TLmZvcm1hdChyZXBvPXJlcG8sIGY9Zm5hbWUpCiAgICBmb3IgYXR0ZW1wdCBpbiByYW5nZSgxLCA4KToKICAgICAgICByID0gc3VicHJvY2Vzcy5ydW4oCiAgICAgICAgICAgIFsiY3VybCIsICItc1NMIiwgIi0tcmV0cnkiLCAiNCIsICItLXJldHJ5LWRlbGF5IiwgIjMiLCAiLS1yZXRyeS1hbGwtZXJyb3JzIiwKICAgICAgICAgICAgICItLW1heC10aW1lIiwgIjYwMCIsICItbyIsIGRlc3QsIHVybF0sCiAgICAgICAgICAgIGNhcHR1cmVfb3V0cHV0PVRydWUpCiAgICAgICAgaWYgci5yZXR1cm5jb2RlID09IDAgYW5kIG9zLnBhdGguZXhpc3RzKGRlc3QpIGFuZCBvcy5wYXRoLmdldHNpemUoZGVzdCkgPiAwOgogICAgICAgICAgICByZXR1cm4gVHJ1ZQogICAgICAgIGxvZyhmIiAge2ZuYW1lfSDnrKx7YXR0ZW1wdH3mrKHlpLHotKXvvIzph43or5UiKQogICAgcmV0dXJuIEZhbHNlCgoKZGVmIG1haW4oKToKICAgIGFwID0gYXJncGFyc2UuQXJndW1lbnRQYXJzZXIoKQogICAgYXAuYWRkX2FyZ3VtZW50KCItLWNhY2hlX2RpciIsIHJlcXVpcmVkPVRydWUpCiAgICBhcC5hZGRfYXJndW1lbnQoIi0tcmVwbyIsIGRlZmF1bHQ9Imdvb2dsZS1iZXJ0L2JlcnQtYmFzZS11bmNhc2VkIikKICAgIGFyZ3MgPSBhcC5wYXJzZV9hcmdzKCkKCiAgICBjYWNoZSA9IG9zLnBhdGguYWJzcGF0aChhcmdzLmNhY2hlX2RpcikKICAgIHJlcG9fZGlyID0gIm1vZGVscy0tIiArIGFyZ3MucmVwby5yZXBsYWNlKCIvIiwgIi0tIikKICAgIHJvb3QgPSBvcy5wYXRoLmpvaW4oY2FjaGUsIHJlcG9fZGlyKQogICAgYmxvYnMgPSBvcy5wYXRoLmpvaW4ocm9vdCwgImJsb2JzIikKICAgIHJlZnMgPSBvcy5wYXRoLmpvaW4ocm9vdCwgInJlZnMiKQogICAgb3MubWFrZWRpcnMoYmxvYnMsIGV4aXN0X29rPVRydWUpCiAgICBvcy5tYWtlZGlycyhyZWZzLCBleGlzdF9vaz1UcnVlKQoKICAgICMg5Y+WIE1vZGVsU2NvcGUg5L6n55qEIGNvbW1pdCByZXZpc2lvbgogICAgcmV2ID0gIm1haW4iCiAgICB0cnk6CiAgICAgICAgYXBpID0gZiJodHRwczovL3d3dy5tb2RlbHNjb3BlLmNuL2FwaS92MS9tb2RlbHMve2FyZ3MucmVwb30vcmVwby9maWxlcz9SZXZpc2lvbj1tYXN0ZXIiCiAgICAgICAgd2l0aCB1cmxsaWIucmVxdWVzdC51cmxvcGVuKGFwaSwgdGltZW91dD02MCkgYXMgcjoKICAgICAgICAgICAgZGF0YSA9IGpzb24ubG9hZHMoci5yZWFkKCkuZGVjb2RlKCkpCiAgICAgICAgZm9yIGYgaW4gZGF0YVsiRGF0YSJdWyJGaWxlcyJdOgogICAgICAgICAgICBpZiBmWyJQYXRoIl0gPT0gImNvbmZpZy5qc29uIjoKICAgICAgICAgICAgICAgIHJldiA9IGYuZ2V0KCJSZXZpc2lvbiIsICJtYWluIikKICAgICAgICAgICAgICAgIGJyZWFrCiAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGV4YzogICMgbm9xYTogQkxFMDAxCiAgICAgICAgbG9nKGYi5Y+WIHJldmlzaW9uIOWksei0pe+8jOeUqCBtYWlu77yae2V4Y30iKQoKICAgICMgSEYg57yT5a2Y57qm5a6a77yacmVmcy9tYWluIOWtmCBjb21taXQgaGFzaO+8jOWunumZheaWh+S7tuaUvuWcqCBzbmFwc2hvdHMvPGNvbW1pdF9oYXNoPi8KICAgIHNuYXBzID0gb3MucGF0aC5qb2luKHJvb3QsICJzbmFwc2hvdHMiLCByZXYpCiAgICBvcy5tYWtlZGlycyhzbmFwcywgZXhpc3Rfb2s9VHJ1ZSkKICAgIHdpdGggb3Blbihvcy5wYXRoLmpvaW4ocmVmcywgIm1haW4iKSwgInciKSBhcyBmOgogICAgICAgIGYud3JpdGUocmV2KQogICAgbG9nKGYi57yT5a2Y55uu5b2VIHtyb290fSAgcmV2aXNpb249e3Jldn0iKQogICAgbG9nKGYic25hcHNob3Qg55uu5b2VIHtzbmFwc30iKQoKICAgIGdvdF9hbnkgPSBGYWxzZQogICAgZm9yIGZuYW1lIGluIEZJTEVTOgogICAgICAgIHRhcmdldCA9IG9zLnBhdGguam9pbihzbmFwcywgZm5hbWUpCiAgICAgICAgaWYgb3MucGF0aC5leGlzdHModGFyZ2V0KSBhbmQgb3MucGF0aC5nZXRzaXplKHRhcmdldCkgPiAwOgogICAgICAgICAgICBsb2coZiJbU0tJUF0ge2ZuYW1lfSIpCiAgICAgICAgICAgIGdvdF9hbnkgPSBUcnVlCiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgdG1wID0gb3MucGF0aC5qb2luKGJsb2JzLCBmbmFtZSArICIuZGwiKQogICAgICAgIGxvZyhmIltETF0ge2ZuYW1lfSIpCiAgICAgICAgaWYgbm90IGZldGNoKGFyZ3MucmVwbywgZm5hbWUsIHRtcCk6CiAgICAgICAgICAgIGxvZyhmIltGQUlMXSB7Zm5hbWV9IOS4i+i9veWksei0pSIpCiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgIyBIRiDnvJPlrZjnlKggc2hhMjU2IOS9nOS4uiBibG9iIOWQjQogICAgICAgIGggPSBoYXNobGliLnNoYTI1NigpCiAgICAgICAgd2l0aCBvcGVuKHRtcCwgInJiIikgYXMgZjoKICAgICAgICAgICAgd2hpbGUgVHJ1ZToKICAgICAgICAgICAgICAgIGIgPSBmLnJlYWQoMSA8PCAyMCkKICAgICAgICAgICAgICAgIGlmIG5vdCBiOgogICAgICAgICAgICAgICAgICAgIGJyZWFrCiAgICAgICAgICAgICAgICBoLnVwZGF0ZShiKQogICAgICAgIGJsb2JfbmFtZSA9IGguaGV4ZGlnZXN0KCkKICAgICAgICBibG9iX3BhdGggPSBvcy5wYXRoLmpvaW4oYmxvYnMsIGJsb2JfbmFtZSkKICAgICAgICBpZiBvcy5wYXRoLmV4aXN0cyhibG9iX3BhdGgpOgogICAgICAgICAgICBvcy5yZW1vdmUodG1wKQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIG9zLnJlcGxhY2UodG1wLCBibG9iX3BhdGgpCiAgICAgICAgIyBzbmFwc2hvdCDph4zlgZrnrKblj7fpk77mjqUKICAgICAgICBpZiBvcy5wYXRoLmV4aXN0cyh0YXJnZXQpIG9yIG9zLnBhdGguaXNsaW5rKHRhcmdldCk6CiAgICAgICAgICAgIG9zLnJlbW92ZSh0YXJnZXQpCiAgICAgICAgb3Muc3ltbGluayhibG9iX3BhdGgsIHRhcmdldCkKICAgICAgICBsb2coZiJbT0tdIHtmbmFtZX0g4oaSIGJsb2Ige2Jsb2JfbmFtZVs6MTJdfeKApiAoe29zLnBhdGguZ2V0c2l6ZShibG9iX3BhdGgpfSDlrZfoioIpIikKICAgICAgICBnb3RfYW55ID0gVHJ1ZQoKICAgICMg5YiX5Ye657uT5p6cCiAgICBsb2coIi0tLSBzbmFwc2hvdCDlhoXlrrkgLS0tIikKICAgIGZvciBmbiBpbiBzb3J0ZWQob3MubGlzdGRpcihzbmFwcykpOgogICAgICAgIHAgPSBvcy5wYXRoLmpvaW4oc25hcHMsIGZuKQogICAgICAgIGxvZyhmIiAge2ZufSAgKHtvcy5wYXRoLmdldHNpemUocCl9IOWtl+iKgikiKQoKICAgIGlmIG5vdCBnb3RfYW55OgogICAgICAgIGxvZygi5YWo6YOo5aSx6LSlIikKICAgICAgICByZXR1cm4gMQogICAgbG9nKCLlrozmiJAiKQogICAgcmV0dXJuIDAKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgc3lzLmV4aXQobWFpbigpKQo=
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+从 ModelScope 拉取 google-bert/bert-base-uncased，填充到 HuggingFace 缓存布局
+（cache/models--google-bert--bert-base-uncased/{snapshots,refs,blobs}），
+让 DPR 的 HF_BertEncoder 在离线环境下也能加载到预训练权重。
+
+为什么需要：huggingface.co 在本机被墙，transformers 无法自动下载。
+
+用法:
+  python fetch_bert.py --cache_dir /root/autodl-tmp/SeDPO_NIPS25/cache
+"""
+import argparse
+import hashlib
+import json
+import os
+import subprocess
+import sys
+import urllib.request
+
+MS = "https://www.modelscope.cn/api/v1/models/{repo}/repo?Revision=master&FilePath={f}"
+
+FILES = [
+    "config.json",
+    "vocab.txt",
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "special_tokens_map.json",
+    "model.safetensors",
+    "pytorch_model.bin",
+]
+
+
+def log(m):
+    print(f"[bert] {m}", flush=True)
+
+
+def fetch(repo, fname, dest):
+    url = MS.format(repo=repo, f=fname)
+    for attempt in range(1, 8):
+        r = subprocess.run(
+            ["curl", "-sSL", "--retry", "4", "--retry-delay", "3", "--retry-all-errors",
+             "--max-time", "600", "-o", dest, url],
+            capture_output=True)
+        if r.returncode == 0 and os.path.exists(dest) and os.path.getsize(dest) > 0:
+            return True
+        log(f"  {fname} 第{attempt}次失败，重试")
+    return False
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--cache_dir", required=True)
+    ap.add_argument("--repo", default="google-bert/bert-base-uncased")
+    args = ap.parse_args()
+
+    cache = os.path.abspath(args.cache_dir)
+    repo_dir = "models--" + args.repo.replace("/", "--")
+    root = os.path.join(cache, repo_dir)
+    blobs = os.path.join(root, "blobs")
+    refs = os.path.join(root, "refs")
+    os.makedirs(blobs, exist_ok=True)
+    os.makedirs(refs, exist_ok=True)
+
+    # 取 ModelScope 侧的 commit revision
+    rev = "main"
+    try:
+        api = f"https://www.modelscope.cn/api/v1/models/{args.repo}/repo/files?Revision=master"
+        with urllib.request.urlopen(api, timeout=60) as r:
+            data = json.loads(r.read().decode())
+        for f in data["Data"]["Files"]:
+            if f["Path"] == "config.json":
+                rev = f.get("Revision", "main")
+                break
+    except Exception as exc:  # noqa: BLE001
+        log(f"取 revision 失败，用 main：{exc}")
+
+    # HF 缓存约定：refs/main 存 commit hash，实际文件放在 snapshots/<commit_hash>/
+    snaps = os.path.join(root, "snapshots", rev)
+    os.makedirs(snaps, exist_ok=True)
+    with open(os.path.join(refs, "main"), "w") as f:
+        f.write(rev)
+    log(f"缓存目录 {root}  revision={rev}")
+    log(f"snapshot 目录 {snaps}")
+
+    got_any = False
+    for fname in FILES:
+        target = os.path.join(snaps, fname)
+        if os.path.exists(target) and os.path.getsize(target) > 0:
+            log(f"[SKIP] {fname}")
+            got_any = True
+            continue
+        tmp = os.path.join(blobs, fname + ".dl")
+        log(f"[DL] {fname}")
+        if not fetch(args.repo, fname, tmp):
+            log(f"[FAIL] {fname} 下载失败")
+            continue
+        # HF 缓存用 sha256 作为 blob 名
+        h = hashlib.sha256()
+        with open(tmp, "rb") as f:
+            while True:
+                b = f.read(1 << 20)
+                if not b:
+                    break
+                h.update(b)
+        blob_name = h.hexdigest()
+        blob_path = os.path.join(blobs, blob_name)
+        if os.path.exists(blob_path):
+            os.remove(tmp)
+        else:
+            os.replace(tmp, blob_path)
+        # snapshot 里做符号链接
+        if os.path.exists(target) or os.path.islink(target):
+            os.remove(target)
+        os.symlink(blob_path, target)
+        log(f"[OK] {fname} → blob {blob_name[:12]}… ({os.path.getsize(blob_path)} 字节)")
+        got_any = True
+
+    # 列出结果
+    log("--- snapshot 内容 ---")
+    for fn in sorted(os.listdir(snaps)):
+        p = os.path.join(snaps, fn)
+        log(f"  {fn}  ({os.path.getsize(p)} 字节)")
+
+    if not got_any:
+        log("全部失败")
+        return 1
+    log("完成")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

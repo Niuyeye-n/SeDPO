@@ -1,1 +1,194 @@
-IyBTZURQTzogTGVhcm5pbmcgdG8gUmFuayBmb3IgSW4tQ29udGV4dCBFeGFtcGxlIFJldHJpZXZhbAoKPGRpdiBpZD0idG9wIiBhbGlnbj0iY2VudGVyIj4KPHAgYWxpZ249ImNlbnRlciI+CjxpbWcgc3JjPSJmaWd1cmVzL2ZyYW1ld29yay5wbmciIHdpZHRoPSIxMDAwcHgiID4KPC9wPgo8L2Rpdj4KCj4g8J+TnSAqKlBhcGVyKio6IGh0dHBzOi8vb3BlbnJldmlldy5uZXQvcGRmP2lkPVd5UTIwYWRiVWI8YnIvPgo+IPCfkLkgKipQb3N0ZXIqKjogaHR0cHM6Ly9uZXVyaXBzLmNjL3ZpcnR1YWwvMjAyNS9wb3N0ZXIvMTE3NTU3PGJyLz4KPiDwn5OxICoqQmxvZyoqOiBodHRwczovL21wLndlaXhpbi5xcS5jb20vcy9FVEhfcGdUM0Jyd3JXT3VXMWFyaE13PGJyLz4KPiDwn5C2ICoqR2l0aHViKio6IGh0dHBzOi8vZ2l0aHViLmNvbS8yMDIybmVvL1NlRFBPX05JUFMyNTxici8+Cj4g4pyS77iPICoqQXV0aG9ycyoqOiBZdXdlbiBKaTxzdXA+ICo8L3N1cD4sIEx1b2RhbiBaaGFuZzxzdXA+ICo8L3N1cD4sIEFtYnllciBIYW48c3VwPiAqPC9zdXA+LCBIYW9yYW4gUXVlLCBMZWkgU2hpLCBXYW5nIENoYW8sIFl1ZSBaaGFuZyA8c3VwPuKAoDwvc3VwPiA8YnIvPgo+IPCfk6cgKipDb250YWN0Kio6IHt6aGFuZ2x1b2Rhbiwgemhhbmd5dWUsIGppeXV3ZW59QHdlc3RsYWtlLmVkdS5jbjxici8+CgoKIyMg8J+ToiBOZXdzIQotICoqWzIwMjUvMTAvMThdKiogV2UgcmVsZWFzZWQgb3VyIGNvZGVzICEgCi0gKipbMjAyNS85LzE4XSoqIFNlRFBPIGhhcyBiZWVuIGFjY2VwdGVkIHRvIE5ldXJJUFMnMjAyNSBNYWluIFRyYWNrICEgCgojIyDwn5OEIEludHJvZHVjdGlvbgoKLSBBIG5vdmVsIGFwcHJvYWNoIHRvIGluLWNvbnRleHQgbGVhcm5pbmcgZXhhbXBsZSBzZWxlY3Rpb24vb3JkZXJpbmcgdGhyb3VnaCB0aGUgZXh0ZW5zaW9uIG9mIERQTy4gCi0gRXhwZXJpbWVudGFsIHJlc3VsdHMgZGVtb25zdHJhdGUgdGhlIHRvcC0xIHBlcmZvcm1hbmNlIGFjcm9zcyA0IE5MUCB0YXNrcyBpbmNsdWRpbmcgOSBzdWJzZXRzLCB3aXRoIGFibGF0aW9uIHN0dWRpZXMgZnVydGhlciB2YWxpZGF0aW5nIHRoZSBlZmZlY3RpdmVuZXNzIG9mIG91ciBkZXNpZ24uICAKICAgIGBgYHRleHQKICAgICJwYXJhcGhyYXNlIjogWyJtcnBjIiwgInBhd3MiLCAicXFwIl0sCiAgICAibmxpIjogWyJtbmxpLW0iLCBtbmxpLW1tXSwKICAgICJjb3JlZmVyZW5jZSI6IFsid3NjIl0sCiAgICAicmVhZGluZyI6IFsibXVsdGlyYyIsICJib29scSIsICJhZ19uZXdzIl0sCiAgICBgYGAKCgojIyDimpnvuI8gUHJlcGFyYXRpb24gYmVmb3JlIFN0YXJ0CiMjIyBJbnN0YWxsIERlcGVuZGVuY2llcwpgYGBiYXNoCmNkIFNlRFBPX05JUFMyNQpjb25kYSBjcmVhdGUgLW4gc2VfZHBvIHB5dGhvbj0zLjEyCmNvbmRhIGFjdGl2YXRlIHNlX2RwbwpwaXAgaW5zdGFsbCAtciByZXF1aXJlbWVudHMudHh0CmBgYAoKIyMjIEVudmlyb25tZW50IFNldHRpbmdzClRoZSBkZWZhdWx0IGVudmlyb25tZW50IHNldHRpbmdzIGlzOgpgYGBiYXNoCmV4cG9ydCBOVU1fT0ZfR1BVUz04ICMgTnVtYmVyIG9mIGF2YWlsYWJsZSBHUFVzIGZvciBwYXJhbGxlbCAoRERQKSB0cmFpbmluZwpleHBvcnQgUkVUUklFVkVSX0JTWj0zMiAjIFRoaXMgaXMgcGVyLUdQVSBiYXRjaCBzaXplLCBhbmQgaXQgcmVxdWlyZXMgYXBwcm94aW1hdGVseSAzMioxLjJHQiBvZiBtZW1vcnkgcGVyIEdQVQoKIyBZb3UgY2FuIGlnbm9yZSB0aGUgZm9sbG93aW5nIHNldHRpbmdzIHdoZW4gZG93bmxvYWRpbmcgdGhlIHNjb3JlZCBkYXRhc2V0IHdlIHByb3ZpZGUuCmV4cG9ydCBTQ09SRVJfQlNaPTEwCmV4cG9ydCBTQ09SRV9MTE09J0VsZXV0aGVyQUkvZ3B0LW5lby0yLjdCJwpleHBvcnQgSU5GX0xMTT0nRWxldXRoZXJBSS9ncHQtbmVvLTIuN0InCiMgY29uZmlnIGZvciBodWdnaW5nZmFjZSBiaWVuY29kZXI6IGAke1BXRH0vRFBSL2NvbmYvZW5jb2Rlci9oZl9iZXJ0LnlhbWxgCiMgd2UgYmFzZSB0aGUgcmV0cmlldmVyIG9uIGdvb2dsZS1iZXJ0L2JlcnQtYmFzZS11bmNhc2VkCmBgYApZb3UgY2FuIGNoYW5nZSB0aGVzZSBlbnZpcm9ubWVudCBzZXR0aW5ncyBhdCBgLi9nZXRjbWQuc2hgLiAKCiMjIyBHZW5lcmF0ZSBFeHBlcmltZW50IFNjcmlwdHMKR2VuZXJhdGUgZXhwZXJpbWVudCBzY3JpcHRzIHRvIGAuL215X2RhdGEvZXhwZXJpbWVudGAgYnkgcnVubmluZzoKYGBgYmFzaApzaCBnZXRjbWQuc2gKYGBgCioqQXR0ZW50aW9uISoqIFlvdSBtdXN0ICoqcmVydW4qKiB0aGlzIGNvbW1hbmQgb25jZSBlbnZpcm9ubWVudCBzZXR0aW5ncyBjaGFuZ2UuCgojIyBRdWljayBTdGFydCBTZURQTyAKCiMjIyBTdGFnZSAxOiBTY29yaW5nCkRvd25sb2FkIFtzY29yZWRdKGh0dHBzOi8vZHJpdmUuZ29vZ2xlLmNvbS9kcml2ZS9mb2xkZXJzLzF5dVlYY0VDZERjWDFTZVJ5RzFHa3N6R2lNN3FWeHJEVD91c3A9ZHJpdmVfbGluaykgYW5kIFtwcm9tcHRfcG9vbF0oaHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMVRpdTFCRnJmdUlrdG1iUGR5enRWT2k4ZjhzQndpSW9TP3VzcD1kcml2ZV9saW5rKSBmb2xkZXJzIHRvIGAuL215X2RhdGEvc2NvcmVkYCBhbmQgYC4vbXlfZGF0YS9wcm9tcHRfcG9vbGAgcmVzcGVjdGl2ZWx5LgoKCioqKE5vdCByZWNvbW1lbmRlZCkqKiBPciB5b3UgY2FuIGdlbmVyYXRlIGAuL215X2RhdGEvc2NvcmVkYCBhbmQgYC4vbXlfZGF0YS9wcm9tcHRfcG9vbGAgZnJvbSBzY3JhdGNoIGJ5IHJ1bm5pbmc6CmBgYGJhc2gKc2ggZ2V0X3Njb3JlLnNoICR7dGFza30KIyB0YXNrOiBwYXJhcGhyYXNlLCByZWFkaW5nLCBubGksIGNvcmVmZXJlbmNlCgojIHN1Y2ggYXM6IApzaCBnZXRfc2NvcmUuc2ggcGFyYXBocmFzZQpgYGAKCgojIyMgU3RhZ2UgMiAmIDM6IFRyYWluaW5nICYgSW5mZXJlbmNlCmBgYGJhc2gKc2ggcnVuX3NlZHBvLnNoICR7dGFza30gJHtwcmVmX2JldGF9CiMgcHJlZl9iZXRhOiBpbnRlcnZhbChbMS4wLCAwLjAwMV0pCgojIHN1Y2ggYXM6CnNoIHJ1bl9zZWRwby5zaCBwYXJhcGhyYXNlIDAuMDIKc2ggcnVuX3NlZHBvLnNoIGNvcmVmZXJlbmNlIDAuMQpzaCBydW5fc2VkcG8uc2ggbmxpIDAuMDEKc2ggcnVuX3NlZHBvLnNoIHJlYWRpbmcgMC4wNQpgYGAKVHJhaW5lZCBja3B0IHdpbGwgYmUgc2F2ZWQgdG8gYC4vbXlfZGF0YS9leHBlcmltZW50L3BhcmFwaHJhc2Uvc2F2ZXMvZHAyLXIxZDAtYjBkMDJgCgpJbmZlcmVuY2UgcmVzdWx0IHdpbGwgYmUgc2F2ZWQgdG8gYC4vbXlfZGF0YS9leHBlcmltZW50L3BhcmFwaHJhc2UvZXZhbF9yZXNfZm9yX3BhcmFwaHJhc2UudHh0YAoKIyMjIENoZWNrIExvZ3MKU2NvcmluZyBMb2cgd2lsbCBiZSBzYXZlZCB0byBgbXlfZGF0YS9leHBlcmltZW50L3BhcmFwaHJhc2Uvc2NvcmVyLmxvZ2AsCgpUcmFpbmluZyBMb2cgd2lsbCBiZSBzYXZlZCB0byBgbXlfZGF0YS9leHBlcmltZW50L3BhcmFwaHJhc2UvdHJhaW5fZGVuc2VfZW5jb2Rlci5sb2dgLgoKRm9yIGEgc3BlY2lmaWMgdGFzaywgY2hlY2sgVHJhaW5pbmcgTG9nIHRvIGVuc3VyZSBhbGwgc3Vic2V0cyBhcmUgaW5jbHVkZWQgaW4gImRwciBmaWxlcyIuIEZvciBleGFtcGxlLCBwYXJhcGhyYXNlIHRhc2sgY29uc2lzdHMgb2YgMyBzdWJzZXRzICggbXJwYywgcGF3cywgcXFwICksIHRoZSBsb2cgc2hvdWxkIGJlOgpgYGBsb2cKWzIwMjQtMTItMTUgMTA6NTk6MjUsNDUzXVtkcHIuZGF0YS5iaWVuY29kZXJfZGF0YV1bSU5GT10gLSBjbHVzdGVyIGZpbGVzOiBbJyR7UFdEfS9teV9kYXRhL3Njb3JlZC9wYXJhcGhyYXNlLypfc2NvcmVkX3RyYWluLmpzb24nXQpbMjAyNC0xMi0xNSAxMDo1OToyNSw0NTVdW2Rwci5kYXRhLmJpZW5jb2Rlcl9kYXRhXVtJTkZPXSAtIFRvYWwgZmlsZXMgbnVtIDMKWzIwMjQtMTItMTUgMTA6NTk6MjUsNDU1XVtkcHIuZGF0YS5iaWVuY29kZXJfZGF0YV1bSU5GT10gLSBkcHIgZmlsZXM6IFsnJHtQV0R9L215X2RhdGEvc2NvcmVkL3BhcmFwaHJhc2UvcXFwX3Njb3JlZF90cmFpbi5qc29uJywgJyR7UFdEfS9teV9kYXRhL3Njb3JlZC9wYXJhcGhyYXNlL3Bhd3Nfc2NvcmVkX3RyYWluLmpzb24nLCAnJHtQV0R9L215X2RhdGEvc2NvcmVkL3BhcmFwaHJhc2UvbXJwY19zY29yZWRfdHJhaW4uanNvbiddCmBgYAoKIyMgQmFzZWxpbmUgJFNlXjIkCiMjIyBTdGFnZSAxOiBTY29yaW5nClRoZSBzYW1lIGFzIFNlRFBPLCBwcmVwYXJlIGAuL215X2RhdGEvc2NvcmVkYCBhbmQgYC4vbXlfZGF0YS9wcm9tcHRfcG9vbGAgZm9sZGVycy4KIyMjIFN0YWdlIDIgJiAzOiBUcmFpbmluZyAmIEluZmVyZW5jZQoKYGBgYmFzaApzaCBydW5fc2UyLnNoICR7dGFza30KIyB0YXNrOiBwYXJhcGhyYXNlLCByZWFkaW5nLCBubGksIGNvcmVmZXJlbmNlCgojIHN1Y2ggYXM6CnNoIHJ1bl9zZTIuc2ggcGFyYXBocmFzZQpgYGAKVHJhaW5lZCBja3B0IHdpbGwgYmUgc2F2ZWQgdG8gYC4vbXlfZGF0YS9leHBlcmltZW50L3BhcmFwaHJhc2Uvc2F2ZXMvcDAtcjFkMGAuCgpJbmZlcmVuY2UgcmVzdWx0IHdpbGwgYmUgc2F2ZWQgdG8gYC4vbXlfZGF0YS9leHBlcmltZW50L3BhcmFwaHJhc2UvZXZhbF9yZXNfZm9yX3BhcmFwaHJhc2UudHh0YC4KCiMjIE1haW4gUmVzdWx0cwoKfCBNZXRob2QgfCBNUlBDIChhY2MpIHwgTVJQQyAoZjEpIHwgUEFXUyAoYWNjKSB8IFFRUCAoYWNjKSB8IFFRUCAoZjEpIHwgUGFyYXBocmFzZSBBdmcuIHwgV1NDIChhY2MpIHwKfC0tLS0tLS0tfC0tLS0tLS0tLS0tLXwtLS0tLS0tLS0tLXwtLS0tLS0tLS0tLS18LS0tLS0tLS0tLS18LS0tLS0tLS0tLXwtLS0tLS0tLS0tLS0tLS0tLXwtLS0tLS0tLS0tLXwKfCBaZXJvc2hvdCB8IDQ2LjHCsTAuMCB8IDQ1LjPCsTAuMCB8IDUxLjjCsTAuMCB8IDQ4LjTCsTAuMCB8IDQyLjHCsTAuMCB8IDQ2LjfCsTAuMCB8IDU5LjbCsTAuMCB8CnwgUmFuZG9tIHwgNjYuOMKxMy4wIHwgNzkuNcKxNC4xIHwgNTAuMcKxMy44IHwgNDAuNsKxNC44IHwgNTAuOcKxNy44IHwgNTcuNsKxMy44IHwgNDguM8KxOC4yIHwKfCBCTTI1IHwgNTcuOMKxMC4wIHwgNjkuMcKxMC4wIHwgNDguOcKxMC4wIHwgNTQuOMKxMC4wIHwgNTUuNMKxMC4wIHwgNTcuMsKxMC4wIHwgNTIuNMKxMC4wIHwKfCBTQkVSVCB8IDU2LjTCsTAuMCB8IDY2LjnCsTAuMCB8IDQ5LjTCsTAuMCB8IDUxLjLCsTAuMCB8IDU2LjLCsTAuMCB8IDU2LjDCsTAuMCB8IDQ2LjLCsTAuMCB8CnwgVURSIHwgNjUuOcKxNC42IHwgNzUuNMKxMy41IHwgNTEuOMKxMS4yIHwgNzQuMcKxMS45IHwgNjcuOcKxMi40IHwgNjcuMMKxMS4yIHwgNTIuMMKxNC43IHwKfCBVUFJJU0UgfCA3NC4wwrEwLjggfCA4My4zwrEwLjEgfCA0OS4xwrEwLjAgfCA3MS4wwrExLjAgfCA2OS44wrEwLjEgfCA2OS40wrEwLjIgfCA0Ni41wrEyLjIgfAp8IFNlwrIgfCA3Ny42wrEwLjQgfCA4NS40wrEwLjMgfCA1NC43wrEwLjEgfCA3NS41wrEwLjEgfCA3Mi44wrEwLjAgfCA3My4ywrEwLjIgfCA1NS4xwrEwLjkgfAp8ICoqU2VEUE8qKiB8ICoqNzcuOcKxMC45KiogfCAqKjg1LjbCsTAuMioqIHwgKio3My4wwrEyLjkqKiB8ICoqNzcuNsKxMC42KiogfCAqKjc1LjDCsTAuMioqIHwgKio3Ny45wrEwLjYqKiB8ICoqNjIuNcKxMC4yKiogfAoKfCBNZXRob2QgfCBNdWx0aVJDIChmMSkgfCBCb29sUSAoYWNjKSB8IEFHTmV3cyAoYWNjKSB8IFJlYWRpbmcgQXZnLiB8IE1OTEktbSAoYWNjKSB8IE1OTEktbW0gKGFjYykgfCBOTEkgQXZnLiB8CnwtLS0tLS0tLXwtLS0tLS0tLS0tLS0tLXwtLS0tLS0tLS0tLS0tfC0tLS0tLS0tLS0tLS0tfC0tLS0tLS0tLS0tLS0tfC0tLS0tLS0tLS0tLS0tfC0tLS0tLS0tLS0tLS0tLXwtLS0tLS0tLS0tfAp8IFplcm9zaG90IHwgNTcuMcKxMC4wIHwgNTQuNsKxMC4wIHwgMzguNMKxMC4wIHwgNTAuMMKxMC4wIHwgMzUuMsKxMC4wIHwgMzYuNMKxMC4wIHwgMzUuOMKxMC4wIHwKfCBSYW5kb20gfCA1Ny43wrEyLjUgfCA1NC44wrE2LjcgfCAyNS44wrExLjEgfCA0Ni4xwrExLjIgfCAzNC4ywrEzLjAgfCAzNC45wrEzLjkgfCAzNC42wrExLjYgfAp8IEJNMjUgfCA0Ni41wrEwLjAgfCA2MC4zwrEwLjAgfCA4MS43wrEwLjAgfCA2Mi44wrEwLjAgfCAzNS4zwrEwLjAgfCAzNS42wrEwLjAgfCAzNS41wrEwLjAgfAp8IFNCRVJUIHwgNDkuM8KxMC4wIHwgNTguMcKxMC4wIHwgODQuN8KxMC4wIHwgNjQuMMKxMC4wIHwgMzcuM8KxMC4wIHwgMzcuM8KxMC4wIHwgMzcuM8KxMC4wIHwKfCBVRFIgfCA1NS4zwrEzLjEgfCA1NC42wrExLjkgfCA4OC41wrExLjAgfCA2Ni4xwrEwLjkgfCA2Mi43wrExLjUgfCA2NS4wwrExLjMgfCA2My44wrExLjQgfAp8IFVQUklTRSB8IDU1LjTCsTAuMiB8IDYxLjXCsTAuMSB8IDkwLjbCsTAuOCB8IDY5LjLCsTAuMSB8IDY4LjXCsTAuMSB8IDcwLjPCsTAuMyB8IDY5LjTCsTAuMiB8CnwgU2XCsiB8IDUyLjHCsTIuMyB8IDYzLjbCsTAuMiB8IDkwLjjCsTAuMyB8IDY4LjjCsTAuNyB8IDY5LjTCsTAuMiB8IDcwLjTCsTAuMSB8IDY5LjnCsTAuMiB8CnwgKipTZURQTyoqIHwgKio2MC4zwrEwLjQqKiB8ICoqNjQuNsKxMS43KiogfCAqKjkxLjDCsTAuMioqIHwgKio3Mi4wwrEwLjYqKiB8ICoqNzAuNsKxMC4xKiogfCAqKjcyLjDCsTAuMyoqIHwgKio3MS4zwrEwLjIqKiB8CgojIyBBYmxhdGlvbiBTdHVkeQotIEZpbmV0dW5lIHRyYWluZWQgU2VEUE8gdXNpbmcgJFNlXjIkLgogICAgYGBgYmFzaAogICAgc2ggcnVuX3NlZHBvX3NlMi5zaCAke3Rhc2t9ICR7c2VkcG9fbW9kZWx9CgogICAgIyBzdWNoIGFzOgogICAgc2ggcnVuX3NlZHBvX3NlMi5zaCBwYXJhcGhyYXNlIG15X2RhdGEvZXhwZXJpbWVudC9wYXJhcGhyYXNlL3NhdmVzL2RwMi1yMWQwLWIwZDAyL2Rwcl9iaWVuY29kZXIuYmVzdF92YWxpZAogICAgYGBgCiAgICBJbmZlcmVuY2UgcmVzdWx0IHdpbGwgYmUgc2F2ZWQgdG8gYC4vbXlfZGF0YS9leHBlcmltZW50L3BhcmFwaHJhc2UvZXZhbF9yZXNfZm9yX3BhcmFwaHJhc2UudHh0YAoKLSBGaW5ldHVuZSB0cmFpbmVkICRTZV4yJCB1c2luZyBTZURQTy4KICAgIGBgYGJhc2gKICAgIHNoIHJ1bl9zZTJfc2VkcG8uc2ggJHt0YXNrfSAke3NlMl9tb2RlbH0gJHtwcmVmX2JldGF9CiAgICAjIHByZWZfYmV0YTogaW50ZXJ2YWwoWzEuMCwgMC4wMDFdKQoKICAgICMgc3VjaCBhczoKICAgIHNoIHJ1bl9zZTJfc2VkcG8uc2ggcGFyYXBocmFzZSBteV9kYXRhL2V4cGVyaW1lbnQvcGFyYXBocmFzZS9zYXZlcy9wMC1yMWQwL2Rwcl9iaWVuY29kZXIuYmVzdF92YWxpZCAwLjAyCiAgICBgYGAKICAgIEluZmVyZW5jZSByZXN1bHQgd2lsbCBiZSBzYXZlZCB0byBgLi9teV9kYXRhL2V4cGVyaW1lbnQvcGFyYXBocmFzZS9ldmFsX3Jlc19mb3JfcGFyYXBocmFzZS50eHRgCgojIyBFbmhhbmNlIFNlRFBPIHdpdGggUm9CRVJUYQpDaGFuZ2UgdGhlIHNldHRpbmcgaW4gYC4vRFBSL2NvbmYvZW5jb2Rlci9oZl9iZXJ0LnlhbWxgIGFzIGZvbGxvd3M6CgpgYGBiYXNoCiMgZW5jb2Rlcl9tb2RlbF90eXBlOiBoZl9iZXJ0CiMgcHJldHJhaW5lZF9tb2RlbF9jZmc6IGdvb2dsZS1iZXJ0L2JlcnQtYmFzZS11bmNhc2VkCiMgcHJldHJhaW5lZF9maWxlOgoKIyBkb3dubG9hZCByb2JlcnRhIGZyb20gaXRzIG9mZmljYWwgc291cmNlcwplbmNvZGVyX21vZGVsX3R5cGU6IGZhaXJzZXFfcm9iZXJ0YQpwcmV0cmFpbmVkX21vZGVsX2NmZzogJHtQV0R9L2NhY2hlL0ZhY2Vib29rQUkvcm9iZXJ0YS1iYXNlCnByZXRyYWluZWRfZmlsZTogJHtQV0R9L2NhY2hlL3JvYmVydGEuYmFzZQpgYGAKCgojIyBDaXRhdGlvbgoKT3VyIGNvZGUgaXMgbGFyZ2VseSBib3Jyb3dlZCBmcm9tIFsqU2XCsipdKGh0dHBzOi8vZ2l0aHViLmNvbS9taWNyb3NvZnQvTE1PcHMvdHJlZS9tYWluL3NlMikgYW5kIFtEUFJdKGh0dHBzOi8vZ2l0aHViLmNvbS9mYWNlYm9va3Jlc2VhcmNoL0RQUikuIFRoYW5rcyBmb3IgdGhlaXIgYXdlc29tZSBjb2RlYmFzZXMuIElmIHlvdSBmaW5kIG91ciBjb2RlIG9yIG1vZGVscyB1c2VmdWwgaW4geW91ciB3b3JrLCBwbGVhc2UgY2l0ZSBvdXIgcGFwZXIuCmBgYGJpYnRleApAaW5wcm9jZWVkaW5nc3sKamkyMDI1bGVhcm5pbmcsCnRpdGxlPXtMZWFybmluZyB0byBSYW5rIGZvciBJbi1Db250ZXh0IEV4YW1wbGUgUmV0cmlldmFsfSwKYXV0aG9yPXtZdXdlbiBKaSBhbmQgTHVvZGFuIFpoYW5nIGFuZCBBbWJ5ZXJoYW4gYW5kIEhhb3JhbiBRdWUgYW5kIExlaSBTaGkgYW5kIFdhbmcgQ2hhbyBhbmQgWXVlIFpoYW5nfSwKYm9va3RpdGxlPXtUaGUgVGhpcnR5LW5pbnRoIEFubnVhbCBDb25mZXJlbmNlIG9uIE5ldXJhbCBJbmZvcm1hdGlvbiBQcm9jZXNzaW5nIFN5c3RlbXN9LAp5ZWFyPXsyMDI1fSwKdXJsPXtodHRwczovL29wZW5yZXZpZXcubmV0L2ZvcnVtP2lkPVd5UTIwYWRiVWJ9Cn0KYGBgCg==
+# SeDPO: Learning to Rank for In-Context Example Retrieval
+
+<div id="top" align="center">
+<p align="center">
+<img src="figures/framework.png" width="1000px" >
+</p>
+</div>
+
+> 📝 **Paper**: https://openreview.net/pdf?id=WyQ20adbUb<br/>
+> 🐹 **Poster**: https://neurips.cc/virtual/2025/poster/117557<br/>
+> 📱 **Blog**: https://mp.weixin.qq.com/s/ETH_pgT3BrwrWOuW1arhMw<br/>
+> 🐶 **Github**: https://github.com/2022neo/SeDPO_NIPS25<br/>
+> ✒️ **Authors**: Yuwen Ji<sup> *</sup>, Luodan Zhang<sup> *</sup>, Ambyer Han<sup> *</sup>, Haoran Que, Lei Shi, Wang Chao, Yue Zhang <sup>†</sup> <br/>
+> 📧 **Contact**: {zhangluodan, zhangyue, jiyuwen}@westlake.edu.cn<br/>
+
+
+## 📢 News!
+- **[2025/10/18]** We released our codes ! 
+- **[2025/9/18]** SeDPO has been accepted to NeurIPS'2025 Main Track ! 
+
+## 📄 Introduction
+
+- A novel approach to in-context learning example selection/ordering through the extension of DPO. 
+- Experimental results demonstrate the top-1 performance across 4 NLP tasks including 9 subsets, with ablation studies further validating the effectiveness of our design.  
+    ```text
+    "paraphrase": ["mrpc", "paws", "qqp"],
+    "nli": ["mnli-m", mnli-mm],
+    "coreference": ["wsc"],
+    "reading": ["multirc", "boolq", "ag_news"],
+    ```
+
+
+## ⚙️ Preparation before Start
+### Install Dependencies
+```bash
+cd SeDPO_NIPS25
+conda create -n se_dpo python=3.12
+conda activate se_dpo
+pip install -r requirements.txt
+```
+
+### Environment Settings
+The default environment settings is:
+```bash
+export NUM_OF_GPUS=8 # Number of available GPUs for parallel (DDP) training
+export RETRIEVER_BSZ=32 # This is per-GPU batch size, and it requires approximately 32*1.2GB of memory per GPU
+
+# You can ignore the following settings when downloading the scored dataset we provide.
+export SCORER_BSZ=10
+export SCORE_LLM='EleutherAI/gpt-neo-2.7B'
+export INF_LLM='EleutherAI/gpt-neo-2.7B'
+# config for huggingface biencoder: `${PWD}/DPR/conf/encoder/hf_bert.yaml`
+# we base the retriever on google-bert/bert-base-uncased
+```
+You can change these environment settings at `./getcmd.sh`. 
+
+### Generate Experiment Scripts
+Generate experiment scripts to `./my_data/experiment` by running:
+```bash
+sh getcmd.sh
+```
+**Attention!** You must **rerun** this command once environment settings change.
+
+## Quick Start SeDPO 
+
+### Stage 1: Scoring
+Download [scored](https://drive.google.com/drive/folders/1yuYXcECdDcX1SeRyG1GkszGiM7qVxrDT?usp=drive_link) and [prompt_pool](https://drive.google.com/drive/folders/1Tiu1BFrfuIktmbPdyztVOi8f8sBwiIoS?usp=drive_link) folders to `./my_data/scored` and `./my_data/prompt_pool` respectively.
+
+
+**(Not recommended)** Or you can generate `./my_data/scored` and `./my_data/prompt_pool` from scratch by running:
+```bash
+sh get_score.sh ${task}
+# task: paraphrase, reading, nli, coreference
+
+# such as: 
+sh get_score.sh paraphrase
+```
+
+
+### Stage 2 & 3: Training & Inference
+```bash
+sh run_sedpo.sh ${task} ${pref_beta}
+# pref_beta: interval([1.0, 0.001])
+
+# such as:
+sh run_sedpo.sh paraphrase 0.02
+sh run_sedpo.sh coreference 0.1
+sh run_sedpo.sh nli 0.01
+sh run_sedpo.sh reading 0.05
+```
+Trained ckpt will be saved to `./my_data/experiment/paraphrase/saves/dp2-r1d0-b0d02`
+
+Inference result will be saved to `./my_data/experiment/paraphrase/eval_res_for_paraphrase.txt`
+
+### Check Logs
+Scoring Log will be saved to `my_data/experiment/paraphrase/scorer.log`,
+
+Training Log will be saved to `my_data/experiment/paraphrase/train_dense_encoder.log`.
+
+For a specific task, check Training Log to ensure all subsets are included in "dpr files". For example, paraphrase task consists of 3 subsets ( mrpc, paws, qqp ), the log should be:
+```log
+[2024-12-15 10:59:25,453][dpr.data.biencoder_data][INFO] - cluster files: ['${PWD}/my_data/scored/paraphrase/*_scored_train.json']
+[2024-12-15 10:59:25,455][dpr.data.biencoder_data][INFO] - Toal files num 3
+[2024-12-15 10:59:25,455][dpr.data.biencoder_data][INFO] - dpr files: ['${PWD}/my_data/scored/paraphrase/qqp_scored_train.json', '${PWD}/my_data/scored/paraphrase/paws_scored_train.json', '${PWD}/my_data/scored/paraphrase/mrpc_scored_train.json']
+```
+
+## Baseline $Se^2$
+### Stage 1: Scoring
+The same as SeDPO, prepare `./my_data/scored` and `./my_data/prompt_pool` folders.
+### Stage 2 & 3: Training & Inference
+
+```bash
+sh run_se2.sh ${task}
+# task: paraphrase, reading, nli, coreference
+
+# such as:
+sh run_se2.sh paraphrase
+```
+Trained ckpt will be saved to `./my_data/experiment/paraphrase/saves/p0-r1d0`.
+
+Inference result will be saved to `./my_data/experiment/paraphrase/eval_res_for_paraphrase.txt`.
+
+## Main Results
+
+| Method | MRPC (acc) | MRPC (f1) | PAWS (acc) | QQP (acc) | QQP (f1) | Paraphrase Avg. | WSC (acc) |
+|--------|------------|-----------|------------|-----------|----------|-----------------|-----------|
+| Zeroshot | 46.1±0.0 | 45.3±0.0 | 51.8±0.0 | 48.4±0.0 | 42.1±0.0 | 46.7±0.0 | 59.6±0.0 |
+| Random | 66.8±3.0 | 79.5±4.1 | 50.1±3.8 | 40.6±4.8 | 50.9±7.8 | 57.6±3.8 | 48.3±8.2 |
+| BM25 | 57.8±0.0 | 69.1±0.0 | 48.9±0.0 | 54.8±0.0 | 55.4±0.0 | 57.2±0.0 | 52.4±0.0 |
+| SBERT | 56.4±0.0 | 66.9±0.0 | 49.4±0.0 | 51.2±0.0 | 56.2±0.0 | 56.0±0.0 | 46.2±0.0 |
+| UDR | 65.9±4.6 | 75.4±3.5 | 51.8±1.2 | 74.1±1.9 | 67.9±2.4 | 67.0±1.2 | 52.0±4.7 |
+| UPRISE | 74.0±0.8 | 83.3±0.1 | 49.1±0.0 | 71.0±1.0 | 69.8±0.1 | 69.4±0.2 | 46.5±2.2 |
+| Se² | 77.6±0.4 | 85.4±0.3 | 54.7±0.1 | 75.5±0.1 | 72.8±0.0 | 73.2±0.2 | 55.1±0.9 |
+| **SeDPO** | **77.9±0.9** | **85.6±0.2** | **73.0±2.9** | **77.6±0.6** | **75.0±0.2** | **77.9±0.6** | **62.5±0.2** |
+
+| Method | MultiRC (f1) | BoolQ (acc) | AGNews (acc) | Reading Avg. | MNLI-m (acc) | MNLI-mm (acc) | NLI Avg. |
+|--------|--------------|-------------|--------------|--------------|--------------|---------------|----------|
+| Zeroshot | 57.1±0.0 | 54.6±0.0 | 38.4±0.0 | 50.0±0.0 | 35.2±0.0 | 36.4±0.0 | 35.8±0.0 |
+| Random | 57.7±2.5 | 54.8±6.7 | 25.8±1.1 | 46.1±1.2 | 34.2±3.0 | 34.9±3.9 | 34.6±1.6 |
+| BM25 | 46.5±0.0 | 60.3±0.0 | 81.7±0.0 | 62.8±0.0 | 35.3±0.0 | 35.6±0.0 | 35.5±0.0 |
+| SBERT | 49.3±0.0 | 58.1±0.0 | 84.7±0.0 | 64.0±0.0 | 37.3±0.0 | 37.3±0.0 | 37.3±0.0 |
+| UDR | 55.3±3.1 | 54.6±1.9 | 88.5±1.0 | 66.1±0.9 | 62.7±1.5 | 65.0±1.3 | 63.8±1.4 |
+| UPRISE | 55.4±0.2 | 61.5±0.1 | 90.6±0.8 | 69.2±0.1 | 68.5±0.1 | 70.3±0.3 | 69.4±0.2 |
+| Se² | 52.1±2.3 | 63.6±0.2 | 90.8±0.3 | 68.8±0.7 | 69.4±0.2 | 70.4±0.1 | 69.9±0.2 |
+| **SeDPO** | **60.3±0.4** | **64.6±1.7** | **91.0±0.2** | **72.0±0.6** | **70.6±0.1** | **72.0±0.3** | **71.3±0.2** |
+
+## Ablation Study
+- Finetune trained SeDPO using $Se^2$.
+    ```bash
+    sh run_sedpo_se2.sh ${task} ${sedpo_model}
+
+    # such as:
+    sh run_sedpo_se2.sh paraphrase my_data/experiment/paraphrase/saves/dp2-r1d0-b0d02/dpr_biencoder.best_valid
+    ```
+    Inference result will be saved to `./my_data/experiment/paraphrase/eval_res_for_paraphrase.txt`
+
+- Finetune trained $Se^2$ using SeDPO.
+    ```bash
+    sh run_se2_sedpo.sh ${task} ${se2_model} ${pref_beta}
+    # pref_beta: interval([1.0, 0.001])
+
+    # such as:
+    sh run_se2_sedpo.sh paraphrase my_data/experiment/paraphrase/saves/p0-r1d0/dpr_biencoder.best_valid 0.02
+    ```
+    Inference result will be saved to `./my_data/experiment/paraphrase/eval_res_for_paraphrase.txt`
+
+## Enhance SeDPO with RoBERTa
+Change the setting in `./DPR/conf/encoder/hf_bert.yaml` as follows:
+
+```bash
+# encoder_model_type: hf_bert
+# pretrained_model_cfg: google-bert/bert-base-uncased
+# pretrained_file:
+
+# download roberta from its offical sources
+encoder_model_type: fairseq_roberta
+pretrained_model_cfg: ${PWD}/cache/FacebookAI/roberta-base
+pretrained_file: ${PWD}/cache/roberta.base
+```
+
+
+## Citation
+
+Our code is largely borrowed from [*Se²*](https://github.com/microsoft/LMOps/tree/main/se2) and [DPR](https://github.com/facebookresearch/DPR). Thanks for their awesome codebases. If you find our code or models useful in your work, please cite our paper.
+```bibtex
+@inproceedings{
+ji2025learning,
+title={Learning to Rank for In-Context Example Retrieval},
+author={Yuwen Ji and Luodan Zhang and Ambyerhan and Haoran Que and Lei Shi and Wang Chao and Yue Zhang},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=WyQ20adbUb}
+}
+```

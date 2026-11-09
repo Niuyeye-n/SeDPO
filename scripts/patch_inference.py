@@ -1,1 +1,77 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uCiMgLSotIGNvZGluZzogdXRmLTggLSotCiIiIgpwYXRjaF9pbmZlcmVuY2UucHkg4oCUIDIwMjYtMTEtMDcKCumXrumimO+8mnNjcmlwdHMvaW5mZXJlbmNlLnB5IOeahCBjaG9pY2VfbG9zc2VzIOmHjOacieS4gOauteatu+S7o+eggeKAlOKAlAoKICAgIGxvZ2l0X3Byb2JzID0gbG9nX3NvZnRtYXgobG9naXRzLmZsb2F0KCksIGRpbT0tMSkKICAgICMgdGVzdAogICAgcHJvYnMgPSBzb2Z0bWF4KGxvZ2l0cy5mbG9hdCgpLCBkaW09LTEpICAgICAgICAgICMg4oaQIOWPquS4uueulyB0YXJnZXRzX3Byb2JzCiAgICB0YXJnZXRzX3Byb2JzID0gZ2F0aGVyKHByb2JzLCAtMSwgdGFyZ2V0cykgLi4uCiAgICB0YXJnZXRzX3Byb2JzID0gd2hlcmUoLi4uKQogICAgdGFyZ2V0c19wcm9icyA9IGN1bXByb2QoLi4uKQoKdGFyZ2V0c19wcm9icyDnrpflrozkuYvlkI4qKuS7juacquiiq+S9v+eUqCoq77yI5ZCO6Z2i55qEIGxvc3MvcHJlZHMg5YWo6YOo5Z+65LqOIGxvZ2l0X3Byb2Jz77yJ77yMCuS9huWug+S8mumineWkluWIhumFjeS4gOS7vSBbYnN6LCBvcHRpb25fbnVtLCBzZXFfbGVuLCB2b2NhYl0g55qEIGZsb2F0MzIg5byg6YeP44CCCm1heF9sZW5ndGg9MjA0OOOAgXZvY2FiPTE1Mmsg5pe26L+Z5LiA5Lu95bCx5pivIDIuNSBHQu+8jOato+WlveaYryBNdWx0aVJDIOaOqOeQhgrkuKTmrKEgT09NIOaKpemUmemHjOeUs+ivt+Wksei0peeahOWtl+iKguaVsOOAggoK5pS55Yqo77ya5Y+q5Yig6Zmk6L+Z5q615q275Luj56CB77yM5L+d55WZIGxvZ2l0X3Byb2Jz44CCcHJlZGljdGlvbnMg5LiOIGxvc3Mg55qE5pWw5a2m5a6M5YWo5LiN5Y+Y44CCCiIiIgppbXBvcnQgb3MKaW1wb3J0IHJlCmltcG9ydCBzaHV0aWwKaW1wb3J0IHN5cwoKVEFSR0VUID0gIi9yb290L2F1dG9kbC10bXAvU2VEUE9fTklQUzI1L3NjcmlwdHMvaW5mZXJlbmNlLnB5IgpCQUsgPSBUQVJHRVQgKyAiLmJha19iZWZvcmVfZGVhZGNvZGVfMjAyNjExMDciCgpERUFEID0gIiIiICAgICAgICAjIHRlc3QKICAgICAgICBwcm9icyA9IHRvcmNoLm5uLmZ1bmN0aW9uYWwuc29mdG1heChsb2dpdHMuZmxvYXQoKSwgZGltPS0xKQogICAgICAgIHRhcmdldHNfcHJvYnMgPSB0b3JjaC5nYXRoZXIocHJvYnMsIC0xLCB0YXJnZXRzKS5zcXVlZXplKC0xKSAqIGxvc3NfbWFzawogICAgICAgIHRhcmdldHNfcHJvYnMgPSB0b3JjaC53aGVyZShhYnModGFyZ2V0c19wcm9icyk+MWUtNiwgdGFyZ2V0c19wcm9icywgMS4pCiAgICAgICAgdGFyZ2V0c19wcm9icyA9IHRvcmNoLmN1bXByb2QodGFyZ2V0c19wcm9icywgLTEpWzosOiwtMV0KCiIiIgoKCmRlZiBtYWluKCk6CiAgICBzcmMgPSBvcGVuKFRBUkdFVCwgZW5jb2Rpbmc9InV0Zi04IikucmVhZCgpCgogICAgaWYgInRhcmdldHNfcHJvYnMiIG5vdCBpbiBzcmM6CiAgICAgICAgcHJpbnQoIltTS0lQXSDlt7Lml6Dmrbvku6PnoIHvvIzlj6/og73lt7LmiZPov4fooaXkuIEiKQogICAgICAgIHJldHVybiAwCgogICAgaWYgREVBRCBub3QgaW4gc3JjOgogICAgICAgIHByaW50KCJbRkFJTF0g5pyq5Yy56YWN5Yiw6aKE5pyf5paH5pys5Z2X77yM5pyq5YGa5L+u5pS544CC6K+35Lq65bel5qC45a+5IDkzLTk5IOihjCIpCiAgICAgICAgZm9yIGksIGxpbmUgaW4gZW51bWVyYXRlKHNyYy5zcGxpdGxpbmVzKClbOTE6MTAwXSwgc3RhcnQ9OTIpOgogICAgICAgICAgICBwcmludChmIiAge2l9OiB7bGluZX0iKQogICAgICAgIHJldHVybiAxCgogICAgaWYgbm90IG9zLnBhdGguZXhpc3RzKEJBSyk6CiAgICAgICAgc2h1dGlsLmNvcHkyKFRBUkdFVCwgQkFLKQogICAgICAgIHByaW50KGYiW09LXSDlt7LlpIfku70gLT4ge0JBS30iKQoKICAgIG91dCA9IHNyYy5yZXBsYWNlKERFQUQsICIiKQogICAgb3BlbihUQVJHRVQsICJ3IiwgZW5jb2Rpbmc9InV0Zi04Iikud3JpdGUob3V0KQoKICAgICMg5qCh6aqM77ya6K+t5rOV5Y+v57yW6K+RICsg5q275Luj56CB5raI5aSxICsgbG9naXRfcHJvYnMg5LuN5ZyoCiAgICBjb21waWxlKG91dCwgVEFSR0VULCAiZXhlYyIpCiAgICBhc3NlcnQgInRhcmdldHNfcHJvYnMiIG5vdCBpbiBvdXQsICLmrbvku6PnoIHmnKrmuIXpmaTlubLlh4AiCiAgICBhc3NlcnQgImxvZ2l0X3Byb2JzID0gdG9yY2gubm4uZnVuY3Rpb25hbC5sb2dfc29mdG1heCIgaW4gb3V0LCAibG9naXRfcHJvYnMg6KKr6K+v5YigIgoKICAgIG4gPSBsZW4ocmUuZmluZGFsbChyIl5ccypwcm9icyA9IHRvcmNoXC5ublwuZnVuY3Rpb25hbFwuc29mdG1heCIsIG91dCwgcmUuTSkpCiAgICBwcmludChmIltPS10g6KGl5LiB5a6M5oiQ77yb5Ymp5L2ZIHNvZnRtYXgocHJvYnMpIOiwg+eUqOaVsCA9IHtufe+8iOW6lOS4uiAw77yJIikKCiAgICBpZHggPSBvdXQuc3BsaXRsaW5lcygpLmluZGV4KAogICAgICAgICIgICAgICAgIGxvZ2l0X3Byb2JzID0gdG9yY2gubm4uZnVuY3Rpb25hbC5sb2dfc29mdG1heChsb2dpdHMuZmxvYXQoKSwgZGltPS0xKSIKICAgICkKICAgIHByaW50KCItLS0g5L+u5pS55ZCO5LiK5LiL5paHIC0tLSIpCiAgICBmb3IgaSwgbGluZSBpbiBlbnVtZXJhdGUob3V0LnNwbGl0bGluZXMoKVtpZHggLSAyIDogaWR4ICsgNV0sIHN0YXJ0PWlkeCAtIDEpOgogICAgICAgIHByaW50KGYiICB7aSArIDF9OiB7bGluZX0iKQogICAgcmV0dXJuIDAKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgc3lzLmV4aXQobWFpbigpKQo=
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+patch_inference.py — 2026-11-07
+
+问题：scripts/inference.py 的 choice_losses 里有一段死代码——
+
+    logit_probs = log_softmax(logits.float(), dim=-1)
+    # test
+    probs = softmax(logits.float(), dim=-1)          # ← 只为算 targets_probs
+    targets_probs = gather(probs, -1, targets) ...
+    targets_probs = where(...)
+    targets_probs = cumprod(...)
+
+targets_probs 算完之后**从未被使用**（后面的 loss/preds 全部基于 logit_probs），
+但它会额外分配一份 [bsz, option_num, seq_len, vocab] 的 float32 张量。
+max_length=2048、vocab=152k 时这一份就是 2.5 GB，正好是 MultiRC 推理
+两次 OOM 报错里申请失败的字节数。
+
+改动：只删除这段死代码，保留 logit_probs。predictions 与 loss 的数学完全不变。
+"""
+import os
+import re
+import shutil
+import sys
+
+TARGET = "/root/autodl-tmp/SeDPO_NIPS25/scripts/inference.py"
+BAK = TARGET + ".bak_before_deadcode_20261107"
+
+DEAD = """        # test
+        probs = torch.nn.functional.softmax(logits.float(), dim=-1)
+        targets_probs = torch.gather(probs, -1, targets).squeeze(-1) * loss_mask
+        targets_probs = torch.where(abs(targets_probs)>1e-6, targets_probs, 1.)
+        targets_probs = torch.cumprod(targets_probs, -1)[:,:,-1]
+
+"""
+
+
+def main():
+    src = open(TARGET, encoding="utf-8").read()
+
+    if "targets_probs" not in src:
+        print("[SKIP] 已无死代码，可能已打过补丁")
+        return 0
+
+    if DEAD not in src:
+        print("[FAIL] 未匹配到预期文本块，未做修改。请人工核对 93-99 行")
+        for i, line in enumerate(src.splitlines()[91:100], start=92):
+            print(f"  {i}: {line}")
+        return 1
+
+    if not os.path.exists(BAK):
+        shutil.copy2(TARGET, BAK)
+        print(f"[OK] 已备份 -> {BAK}")
+
+    out = src.replace(DEAD, "")
+    open(TARGET, "w", encoding="utf-8").write(out)
+
+    # 校验：语法可编译 + 死代码消失 + logit_probs 仍在
+    compile(out, TARGET, "exec")
+    assert "targets_probs" not in out, "死代码未清除干净"
+    assert "logit_probs = torch.nn.functional.log_softmax" in out, "logit_probs 被误删"
+
+    n = len(re.findall(r"^\s*probs = torch\.nn\.functional\.softmax", out, re.M))
+    print(f"[OK] 补丁完成；剩余 softmax(probs) 调用数 = {n}（应为 0）")
+
+    idx = out.splitlines().index(
+        "        logit_probs = torch.nn.functional.log_softmax(logits.float(), dim=-1)"
+    )
+    print("--- 修改后上下文 ---")
+    for i, line in enumerate(out.splitlines()[idx - 2 : idx + 5], start=idx - 1):
+        print(f"  {i + 1}: {line}")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

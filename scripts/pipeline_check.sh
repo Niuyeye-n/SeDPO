@@ -1,1 +1,185 @@
-IyEvYmluL2Jhc2gKIyDlhajpk77ot6/ov57pgJrmgKfmo4Dmn6XvvIjmnoHlsI/op4TmqKEgZHNfc2l6ZT0zMCwgTD0yMO+8ie+8mgojICAgZmluZF9yYW5kb20gc3RlcDEg4oaSIHNjb3JlciBzdGVwMSDihpIgZmluZF9yYW5kb20gc3RlcDIg4oaSIHNjb3JlciBzdGVwMgojICAg4oaSIGZpbmRfcmFuZG9tIHN0ZXAzIOKGkiBzY29yZXIgc3RlcDMg4oaSIG1lcmdlX2RhdGEKIyAgIOKGkiB0cmFpbl9kZW5zZV9lbmNvZGVyIOKGkiBnZW5lcmF0ZV9kZW5zZV9lbWJlZGRpbmdzCiMgICDihpIgZGVuc2VfcmV0cmlldmVyX2JlYW1fc2NvcmUg4oaSIGluZmVyZW5jZSDihpIgY29tcHV0ZV9tZXRyaWNzCiMKIyDnm67nmoTvvJrlnKjmipXlhaXmraPlvI/lrp7pqozliY3vvIznoa7orqTorq3nu4Mv5qOA57SiL+aOqOeQhuS4ieS4qumYtuauteS4jeS8muWboOmFjee9ruaIlui3r+W+hOmXrumimOWksei0peOAggojIOeUqOazlTogYmFzaCAvcm9vdC9hdXRvZGwtdG1wL3BpcGVsaW5lX2NoZWNrLnNoIDx0YXNrPiA8bW9kZWxfcGF0aD4gPHRhZz4Kc2V0IC1ldQoKVEFTSz0kMQpNT0RFTF9QQVRIPSQyClRBRz0kMwoKUkVQTz0vcm9vdC9hdXRvZGwtdG1wL1NlRFBPX05JUFMyNQpDSz0kUkVQTy9teV9kYXRhX2NoZWNrCkRTPTMwCkw9MjAKCnNvdXJjZSAvcm9vdC9taW5pY29uZGEzL2V0Yy9wcm9maWxlLmQvY29uZGEuc2gKY29uZGEgYWN0aXZhdGUgL3Jvb3QvYXV0b2RsLXRtcC9lbnZzL3NlX2RwbwpleHBvcnQgUFlUSE9OUEFUSD0kUkVQTzoke1BZVEhPTlBBVEg6LX0KZXhwb3J0IEZJTkRFUl9MPSRMCmV4cG9ydCBJRl9QUkVGRVJfTE9TUz0yCmV4cG9ydCBQRUZUX0JFVEE9MC4xCmV4cG9ydCBESVZfUkVKRUNUPTEKZXhwb3J0IEhZRFJBX0ZVTExfRVJST1I9MQpleHBvcnQgVE9LRU5JWkVSU19QQVJBTExFTElTTT1mYWxzZQoKY2QgJFJFUE8KCmNhc2UgJFRBU0sgaW4KICAgIGFyY19jKSAgICAgIENMVVNURVI9Y2xvc2VfcWEgOzsKICAgIG9wZW5ib29rcWEpIENMVVNURVI9cmVhZGluZ19uZXcgOzsKICAgIG11bHRpcmMpICAgIENMVVNURVI9cmVhZGluZ19uZXcgOzsKZXNhYwoKbWtkaXIgLXAgJENLL3tmaW5kX3JhbmRvbSxzY29yZWQsZXhwLG1vZGVsfQpta2RpciAtcCAkQ0svc2NvcmVkLyRDTFVTVEVSCm1rZGlyIC1wICRDSy9wcm9tcHRfcG9vbC8kQ0xVU1RFUgoKUE9PTD0kQ0svcHJvbXB0X3Bvb2wvJENMVVNURVIvJHtUQVNLfV9wcm9tcHRzLmpzb24KCnN0ZXAoKSB7IGVjaG8gIj09PSBbJDFdICQyID09PSI7IH0KCiMgLS0tLS0tLS0tLS0tLS0tLSBzdGVwMSAtLS0tLS0tLS0tLS0tLS0tCnN0ZXAgMS8xMSAiZmluZF9yYW5kb21fc3RlcDEiClMxPSRDSy9maW5kX3JhbmRvbS8ke1RBU0t9X3N0ZXAxLmpzb24Kcm0gLWYgJFMxCnB5dGhvbiBzY3JpcHRzL2ZpbmRfcmFuZG9tX3N0ZXAxLnB5IG91dHB1dF9wYXRoPSRTMSB0YXNrX25hbWU9JFRBU0sgXAogICAgK2RzX3NpemU9JERTIEw9JEwgcHJvbXB0X3Bvb2xfcGF0aD0kUE9PTCBjYWNoZV9kaXI9JFBXRC9jYWNoZSBcCiAgICBoeWRyYS5ydW4uZGlyPSRDSy9leHAgPiAkQ0svbG9nXzFfZmluZHJhbmRvbS50eHQgMj4mMQoKc3RlcCAyLzExICJzY29yZXIgc3RlcDEiClQxPSRDSy9zY29yZWQvJENMVVNURVIvJHtUQVNLfV9zY29yZWRfdHJhaW5fc3RlcDEuanNvbgpWMT0kQ0svc2NvcmVkLyRDTFVTVEVSLyR7VEFTS31fc2NvcmVkX3ZhbGlkX3N0ZXAxLmpzb24Kcm0gLWYgJFQxICRWMSAke1QxfXRtcF8qLmJpbgphY2NlbGVyYXRlIGxhdW5jaCAtLW51bV9wcm9jZXNzZXMgMSAtLW1haW5fcHJvY2Vzc19wb3J0IDI0NTc5IHNjcmlwdHMvc2NvcmVyLnB5IFwKICAgIGV4YW1wbGVfZmlsZT0kUzEgb3V0cHV0X3RyYWluX2ZpbGU9JFQxIG91dHB1dF92YWxpZF9maWxlPSRWMSBcCiAgICBiYXRjaF9zaXplPTEgdGFza19uYW1lPSRUQVNLIG1vZGVsX25hbWU9JE1PREVMX1BBVEggXAogICAgcHJvbXB0X3Bvb2xfcGF0aD0kUE9PTCBjYWNoZV9kaXI9JFBXRC9jYWNoZSBcCiAgICBoeWRyYS5ydW4uZGlyPSRDSy9leHAgPiAkQ0svbG9nXzJfc2NvcmVyMS50eHQgMj4mMQoKIyAtLS0tLS0tLS0tLS0tLS0tIHN0ZXAyIC0tLS0tLS0tLS0tLS0tLS0Kc3RlcCAzLzExICJmaW5kX3JhbmRvbV9zdGVwMiIKUzI9JENLL2ZpbmRfcmFuZG9tLyR7VEFTS31fc3RlcDIuanNvbgpybSAtZiAkUzIKcHl0aG9uIHNjcmlwdHMvZmluZF9yYW5kb21fc3RlcDIucHkgb3V0cHV0X3BhdGg9JFMyIFwKICAgIHRyYWluX3BhdGg9JFQxIHZhbGlkX3BhdGg9JFYxIFwKICAgIHRhc2tfbmFtZT0kVEFTSyArZHNfc2l6ZT0kRFMgTD0kTCBwcm9tcHRfcG9vbF9wYXRoPSRQT09MIFwKICAgIGNhY2hlX2Rpcj0kUFdEL2NhY2hlIGh5ZHJhLnJ1bi5kaXI9JENLL2V4cCA+ICRDSy9sb2dfM19maW5kcmFuZG9tMi50eHQgMj4mMQoKc3RlcCA0LzExICJzY29yZXIgc3RlcDIiClQyPSRDSy9zY29yZWQvJENMVVNURVIvJHtUQVNLfV9zY29yZWRfdHJhaW5fc3RlcDIuanNvbgpWMj0kQ0svc2NvcmVkLyRDTFVTVEVSLyR7VEFTS31fc2NvcmVkX3ZhbGlkX3N0ZXAyLmpzb24Kcm0gLWYgJFQyICRWMiAke1QyfXRtcF8qLmJpbgphY2NlbGVyYXRlIGxhdW5jaCAtLW51bV9wcm9jZXNzZXMgMSAtLW1haW5fcHJvY2Vzc19wb3J0IDI0NTc5IHNjcmlwdHMvc2NvcmVyLnB5IFwKICAgIGV4YW1wbGVfZmlsZT0kUzIgb3V0cHV0X3RyYWluX2ZpbGU9JFQyIG91dHB1dF92YWxpZF9maWxlPSRWMiBcCiAgICBiYXRjaF9zaXplPTEgdGFza19uYW1lPSRUQVNLIG1vZGVsX25hbWU9JE1PREVMX1BBVEggXAogICAgcHJvbXB0X3Bvb2xfcGF0aD0kUE9PTCBjYWNoZV9kaXI9JFBXRC9jYWNoZSBcCiAgICBoeWRyYS5ydW4uZGlyPSRDSy9leHAgPiAkQ0svbG9nXzRfc2NvcmVyMi50eHQgMj4mMQoKIyAtLS0tLS0tLS0tLS0tLS0tIHN0ZXAzIC0tLS0tLS0tLS0tLS0tLS0Kc3RlcCA1LzExICJmaW5kX3JhbmRvbV9zdGVwMyIKUzM9JENLL2ZpbmRfcmFuZG9tLyR7VEFTS31fc3RlcDMuanNvbgpybSAtZiAkUzMKcHl0aG9uIHNjcmlwdHMvZmluZF9yYW5kb21fc3RlcDMucHkgb3V0cHV0X3BhdGg9JFMzIFwKICAgIHRyYWluX3BhdGg9JFQyIHZhbGlkX3BhdGg9JFYyIFwKICAgIHRhc2tfbmFtZT0kVEFTSyArZHNfc2l6ZT0kRFMgTD0kTCBwcm9tcHRfcG9vbF9wYXRoPSRQT09MIFwKICAgIGNhY2hlX2Rpcj0kUFdEL2NhY2hlIGh5ZHJhLnJ1bi5kaXI9JENLL2V4cCA+ICRDSy9sb2dfNV9maW5kcmFuZG9tMy50eHQgMj4mMQoKc3RlcCA2LzExICJzY29yZXIgc3RlcDMiClQzPSRDSy9zY29yZWQvJENMVVNURVIvJHtUQVNLfV9zY29yZWRfdHJhaW5fc3RlcDMuanNvbgpWMz0kQ0svc2NvcmVkLyRDTFVTVEVSLyR7VEFTS31fc2NvcmVkX3ZhbGlkX3N0ZXAzLmpzb24Kcm0gLWYgJFQzICRWMyAke1QzfXRtcF8qLmJpbgphY2NlbGVyYXRlIGxhdW5jaCAtLW51bV9wcm9jZXNzZXMgMSAtLW1haW5fcHJvY2Vzc19wb3J0IDI0NTc5IHNjcmlwdHMvc2NvcmVyLnB5IFwKICAgIGV4YW1wbGVfZmlsZT0kUzMgb3V0cHV0X3RyYWluX2ZpbGU9JFQzIG91dHB1dF92YWxpZF9maWxlPSRWMyBcCiAgICBiYXRjaF9zaXplPTEgdGFza19uYW1lPSRUQVNLIG1vZGVsX25hbWU9JE1PREVMX1BBVEggXAogICAgcHJvbXB0X3Bvb2xfcGF0aD0kUE9PTCBjYWNoZV9kaXI9JFBXRC9jYWNoZSBcCiAgICBoeWRyYS5ydW4uZGlyPSRDSy9leHAgPiAkQ0svbG9nXzZfc2NvcmVyMy50eHQgMj4mMQoKIyAtLS0tLS0tLS0tLS0tLS0tIG1lcmdlIC0tLS0tLS0tLS0tLS0tLS0Kc3RlcCA3LzExICJtZXJnZV9kYXRhIgpNVD0kQ0svc2NvcmVkLyRDTFVTVEVSLyR7VEFTS31fc2NvcmVkX3RyYWluLmpzb24KTVY9JENLL3Njb3JlZC8kQ0xVU1RFUi8ke1RBU0t9X3Njb3JlZF92YWxpZC5qc29uCnB5dGhvbiBzY3JpcHRzL21lcmdlX2RhdGEucHkgXAogICAgc3RlcDFfdHJhaW49JFQxIHN0ZXAxX3ZhbGlkPSRWMSBcCiAgICBzdGVwMl90cmFpbj0kVDIgc3RlcDJfdmFsaWQ9JFYyIFwKICAgIHN0ZXAzX3RyYWluPSRUMyBzdGVwM192YWxpZD0kVjMgXAogICAgdHJhaW5fb3V0cHV0X3BhdGg9JE1UIHZhbGlkX291dHB1dF9wYXRoPSRNViBcCiAgICBoeWRyYS5ydW4uZGlyPSRDSy9leHAgPiAkQ0svbG9nXzdfbWVyZ2UudHh0IDI+JjEKCiMgLS0tLS0tLS0tLS0tLS0tLSB0cmFpbiAtLS0tLS0tLS0tLS0tLS0tCnN0ZXAgOC8xMSAidHJhaW5fZGVuc2VfZW5jb2RlciIKcm0gLXJmICRDSy9tb2RlbApweXRob24gRFBSL3RyYWluX2RlbnNlX2VuY29kZXIucHkgdHJhaW5fZGF0YXNldHM9W3NlMl9kYXRhc2V0XSBcCiAgICBkZXZfZGF0YXNldHM9W3NlMl92YWxpZF9kYXRhc2V0XSB0cmFpbj1iaWVuY29kZXJfc2UyIFwKICAgIG91dHB1dF9kaXI9JENLL21vZGVsIFwKICAgIGRhdGFzZXRzLnRyYWluX2NsdXN0ZXJzPSRDTFVTVEVSIFwKICAgIGRhdGFzZXRzLnRyYWluX2ZpbGU9JENLL3Njb3JlZCBcCiAgICBkYXRhc2V0cy52YWxpZF9maWxlPSRDSy9zY29yZWQgXAogICAgZGF0YXNldHMuaGFyZF9uZWc9dHJ1ZSBkYXRhc2V0cy50b3Bfaz0yMCBcCiAgICB0cmFpbi5oYXJkX25lZ2F0aXZlcz0yMCB0cmFpbi5iYXRjaF9zaXplPTEgXAogICAgdHJhaW4ubnVtX3RyYWluX2Vwb2Nocz0xIHRyYWluLmxlYXJuaW5nX3JhdGU9MWUtMDUgXAogICAgZGF0YXNldHMucHJvbXB0X3Bvb2xfcGF0aD0kQ0svcHJvbXB0X3Bvb2wgXAogICAgZGF0YXNldHMucHJvbXB0X3NldHVwX3R5cGU9cWEgZGF0YXNldHMudGFza19zZXR1cF90eXBlPXEgXAogICAgZW5jb2Rlci5jYWNoZV9kaXI9JFBXRC9jYWNoZSBcCiAgICBoeWRyYS5ydW4uZGlyPSRDSy9leHAgPiAkQ0svbG9nXzhfdHJhaW4udHh0IDI+JjEKCiMgLS0tLS0tLS0tLS0tLS0tLSBlbWJlZCAtLS0tLS0tLS0tLS0tLS0tCnN0ZXAgOS8xMSAiZ2VuZXJhdGVfZGVuc2VfZW1iZWRkaW5ncyIKcHl0aG9uIERQUi9nZW5lcmF0ZV9kZW5zZV9lbWJlZGRpbmdzLnB5IFwKICAgIG1vZGVsX2ZpbGU9JENLL21vZGVsL2Rwcl9iaWVuY29kZXIuYmVzdF92YWxpZCBcCiAgICBjdHhfc3JjPWRwcl9zZTIgc2hhcmRfaWQ9MCBudW1fc2hhcmRzPTEgXAogICAgb3V0X2ZpbGU9JENLL21vZGVsL2Rwcl9lbmNfaW5kZXggXAogICAgY3R4X3NvdXJjZXMuZHByX3NlMi50cmFpbl9jbHVzdGVycz0kQ0xVU1RFUiBcCiAgICBjdHhfc291cmNlcy5kcHJfc2UyLnByb21wdF9wb29sX3BhdGg9JENLL3Byb21wdF9wb29sIFwKICAgIGN0eF9zb3VyY2VzLmRwcl9zZTIucHJvbXB0X3NldHVwX3R5cGU9cWEgXAogICAgZW5jb2Rlci5jYWNoZV9kaXI9JFBXRC9jYWNoZSBcCiAgICBoeWRyYS5ydW4uZGlyPSRDSy9leHAgPiAkQ0svbG9nXzlfZW1iZWQudHh0IDI+JjEKCiMgLS0tLS0tLS0tLS0tLS0tLSByZXRyaWV2ZSAtLS0tLS0tLS0tLS0tLS0tCnN0ZXAgMTAvMTEgImRlbnNlX3JldHJpZXZlcl9iZWFtX3Njb3JlIgpweXRob24gRFBSL2RlbnNlX3JldHJpZXZlcl9iZWFtX3Njb3JlLnB5IFwKICAgIG1vZGVsX2ZpbGU9JENLL21vZGVsL2Rwcl9iaWVuY29kZXIuYmVzdF92YWxpZCBcCiAgICBxYV9kYXRhc2V0PXFhX3NlMiBjdHhfZGF0YXRzZXRzPVtkcHJfc2UyXSBcCiAgICBlbmNvZGVkX2N0eF9maWxlcz1bIiRDSy9tb2RlbC9kcHJfZW5jX2luZGV4XyoiXSBcCiAgICBvdXRfZmlsZT0kQ0svc2UyX3Byb21wdHMvJHtUQVNLfV9wcm9tcHRzLmpzb24gXAogICAgZGF0YXNldHMucWFfc2UyLnRhc2tfbmFtZT0kVEFTSyBcCiAgICBkYXRhc2V0cy5xYV9zZTIudGFza19zZXR1cF90eXBlPXEgXAogICAgZGF0YXNldHMucWFfc2UyLmNhY2hlX2Rpcj0kUFdEL2NhY2hlIGJlYW1fc2l6ZT0zIFwKICAgIHNob3RfbnVtPTMgXAogICAgY3R4X3NvdXJjZXMuZHByX3NlMi5wcm9tcHRfcG9vbF9wYXRoPSRDSy9wcm9tcHRfcG9vbCBcCiAgICBjdHhfc291cmNlcy5kcHJfc2UyLnRyYWluX2NsdXN0ZXJzPSRDTFVTVEVSIFwKICAgIGN0eF9zb3VyY2VzLmRwcl9zZTIucHJvbXB0X3NldHVwX3R5cGU9cWEgXAogICAgZW5jb2Rlci5jYWNoZV9kaXI9JFBXRC9jYWNoZSBcCiAgICBoeWRyYS5ydW4uZGlyPSRDSy9leHAgPiAkQ0svbG9nXzEwX3JldHJpZXZlLnR4dCAyPiYxCgojIC0tLS0tLS0tLS0tLS0tLS0gaW5mZXJlbmNlIC0tLS0tLS0tLS0tLS0tLS0Kc3RlcCAxMS8xMSAiaW5mZXJlbmNlICsgbWV0cmljcyIKYWNjZWxlcmF0ZSBsYXVuY2ggLS1udW1fcHJvY2Vzc2VzIDEgLS1tYWluX3Byb2Nlc3NfcG9ydCAyNDU3OSBzY3JpcHRzL2luZmVyZW5jZS5weSBcCiAgICBwcm9tcHRfZmlsZT0kQ0svc2UyX3Byb21wdHMvJHtUQVNLfV9wcm9tcHRzX2JlYW1fc2NvcmVfMC5qc29uIFwKICAgIHRhc2tfbmFtZT0kVEFTSyBcCiAgICBvdXRwdXRfZmlsZT0kQ0svcHJlZHMvJHtUQVNLfV9wcmVkcy5qc29uIFwKICAgIHJlc19maWxlPSRDSy9ldmFsX3Jlcy50eHQgXAogICAgYmF0Y2hfc2l6ZT0xIHRyYWluX2NsdXN0ZXJzPSRDTFVTVEVSIFwKICAgIG1vZGVsX25hbWU9JE1PREVMX1BBVEggXAogICAgcHJvbXB0X3Bvb2xfcGF0aD0kQ0svcHJvbXB0X3Bvb2wgXAogICAgcmFuZG9tX3NhbXBsZT1GYWxzZSByYW5kb21fc2VlZD00MiBcCiAgICBjYWNoZV9kaXI9JFBXRC9jYWNoZSBcCiAgICBoeWRyYS5ydW4uZGlyPSRDSy9leHAgPiAkQ0svbG9nXzExX2luZmVyZW5jZS50eHQgMj4mMQoKZWNobyAiPT09IOivhOa1i+e7k+aenCA9PT0iCmNhdCAkQ0svZXZhbF9yZXMudHh0IDI+L2Rldi9udWxsIHx8IGVjaG8gIijml6AgZXZhbF9yZXMpIgplY2hvCmVjaG8gIj09PSBjb21wdXRlX21ldHJpY3MgPT09IgpweXRob24gJFJFUE8vMjAyNjExMDVfY29tcHV0ZV9tZXRyaWNzLnB5IFwKICAgIC0tcHJlZHMgJENLL3ByZWRzLyR7VEFTS31fcHJlZHMuanNvbiAtLXRhc2sgJFRBU0sgXAogICAgLS1vdXRfanNvbiAkQ0svbWV0cmljcy5qc29uIC0tb3V0X3RleHQgJENLL21ldHJpY3MudHh0IDI+JjEgfCB0YWlsIC0xNAplY2hvCmVjaG8gIj09PSDorq3nu4MgbG9zc++8iOacgOWQjiA1IOadoe+8iT09PSIKZ3JlcCAtb0UgImxvc3NbJ1wiXT9ccypbOj1dXHMqWzAtOS5dKyIgJENLL2xvZ184X3RyYWluLnR4dCAyPi9kZXYvbnVsbCB8IHRhaWwgLTUKZWNobwplY2hvICIjIyMjIyMgUElQRUxJTkVfQ0hFQ0tfUEFTU0VEICMjIyMjIyIK
+#!/bin/bash
+# 全链路连通性检查（极小规模 ds_size=30, L=20）：
+#   find_random step1 → scorer step1 → find_random step2 → scorer step2
+#   → find_random step3 → scorer step3 → merge_data
+#   → train_dense_encoder → generate_dense_embeddings
+#   → dense_retriever_beam_score → inference → compute_metrics
+#
+# 目的：在投入正式实验前，确认训练/检索/推理三个阶段不会因配置或路径问题失败。
+# 用法: bash /root/autodl-tmp/pipeline_check.sh <task> <model_path> <tag>
+set -eu
+
+TASK=$1
+MODEL_PATH=$2
+TAG=$3
+
+REPO=/root/autodl-tmp/SeDPO_NIPS25
+CK=$REPO/my_data_check
+DS=30
+L=20
+
+source /root/miniconda3/etc/profile.d/conda.sh
+conda activate /root/autodl-tmp/envs/se_dpo
+export PYTHONPATH=$REPO:${PYTHONPATH:-}
+export FINDER_L=$L
+export IF_PREFER_LOSS=2
+export PEFT_BETA=0.1
+export DIV_REJECT=1
+export HYDRA_FULL_ERROR=1
+export TOKENIZERS_PARALLELISM=false
+
+cd $REPO
+
+case $TASK in
+    arc_c)      CLUSTER=close_qa ;;
+    openbookqa) CLUSTER=reading_new ;;
+    multirc)    CLUSTER=reading_new ;;
+esac
+
+mkdir -p $CK/{find_random,scored,exp,model}
+mkdir -p $CK/scored/$CLUSTER
+mkdir -p $CK/prompt_pool/$CLUSTER
+
+POOL=$CK/prompt_pool/$CLUSTER/${TASK}_prompts.json
+
+step() { echo "=== [$1] $2 ==="; }
+
+# ---------------- step1 ----------------
+step 1/11 "find_random_step1"
+S1=$CK/find_random/${TASK}_step1.json
+rm -f $S1
+python scripts/find_random_step1.py output_path=$S1 task_name=$TASK \
+    +ds_size=$DS L=$L prompt_pool_path=$POOL cache_dir=$PWD/cache \
+    hydra.run.dir=$CK/exp > $CK/log_1_findrandom.txt 2>&1
+
+step 2/11 "scorer step1"
+T1=$CK/scored/$CLUSTER/${TASK}_scored_train_step1.json
+V1=$CK/scored/$CLUSTER/${TASK}_scored_valid_step1.json
+rm -f $T1 $V1 ${T1}tmp_*.bin
+accelerate launch --num_processes 1 --main_process_port 24579 scripts/scorer.py \
+    example_file=$S1 output_train_file=$T1 output_valid_file=$V1 \
+    batch_size=1 task_name=$TASK model_name=$MODEL_PATH \
+    prompt_pool_path=$POOL cache_dir=$PWD/cache \
+    hydra.run.dir=$CK/exp > $CK/log_2_scorer1.txt 2>&1
+
+# ---------------- step2 ----------------
+step 3/11 "find_random_step2"
+S2=$CK/find_random/${TASK}_step2.json
+rm -f $S2
+python scripts/find_random_step2.py output_path=$S2 \
+    train_path=$T1 valid_path=$V1 \
+    task_name=$TASK +ds_size=$DS L=$L prompt_pool_path=$POOL \
+    cache_dir=$PWD/cache hydra.run.dir=$CK/exp > $CK/log_3_findrandom2.txt 2>&1
+
+step 4/11 "scorer step2"
+T2=$CK/scored/$CLUSTER/${TASK}_scored_train_step2.json
+V2=$CK/scored/$CLUSTER/${TASK}_scored_valid_step2.json
+rm -f $T2 $V2 ${T2}tmp_*.bin
+accelerate launch --num_processes 1 --main_process_port 24579 scripts/scorer.py \
+    example_file=$S2 output_train_file=$T2 output_valid_file=$V2 \
+    batch_size=1 task_name=$TASK model_name=$MODEL_PATH \
+    prompt_pool_path=$POOL cache_dir=$PWD/cache \
+    hydra.run.dir=$CK/exp > $CK/log_4_scorer2.txt 2>&1
+
+# ---------------- step3 ----------------
+step 5/11 "find_random_step3"
+S3=$CK/find_random/${TASK}_step3.json
+rm -f $S3
+python scripts/find_random_step3.py output_path=$S3 \
+    train_path=$T2 valid_path=$V2 \
+    task_name=$TASK +ds_size=$DS L=$L prompt_pool_path=$POOL \
+    cache_dir=$PWD/cache hydra.run.dir=$CK/exp > $CK/log_5_findrandom3.txt 2>&1
+
+step 6/11 "scorer step3"
+T3=$CK/scored/$CLUSTER/${TASK}_scored_train_step3.json
+V3=$CK/scored/$CLUSTER/${TASK}_scored_valid_step3.json
+rm -f $T3 $V3 ${T3}tmp_*.bin
+accelerate launch --num_processes 1 --main_process_port 24579 scripts/scorer.py \
+    example_file=$S3 output_train_file=$T3 output_valid_file=$V3 \
+    batch_size=1 task_name=$TASK model_name=$MODEL_PATH \
+    prompt_pool_path=$POOL cache_dir=$PWD/cache \
+    hydra.run.dir=$CK/exp > $CK/log_6_scorer3.txt 2>&1
+
+# ---------------- merge ----------------
+step 7/11 "merge_data"
+MT=$CK/scored/$CLUSTER/${TASK}_scored_train.json
+MV=$CK/scored/$CLUSTER/${TASK}_scored_valid.json
+python scripts/merge_data.py \
+    step1_train=$T1 step1_valid=$V1 \
+    step2_train=$T2 step2_valid=$V2 \
+    step3_train=$T3 step3_valid=$V3 \
+    train_output_path=$MT valid_output_path=$MV \
+    hydra.run.dir=$CK/exp > $CK/log_7_merge.txt 2>&1
+
+# ---------------- train ----------------
+step 8/11 "train_dense_encoder"
+rm -rf $CK/model
+python DPR/train_dense_encoder.py train_datasets=[se2_dataset] \
+    dev_datasets=[se2_valid_dataset] train=biencoder_se2 \
+    output_dir=$CK/model \
+    datasets.train_clusters=$CLUSTER \
+    datasets.train_file=$CK/scored \
+    datasets.valid_file=$CK/scored \
+    datasets.hard_neg=true datasets.top_k=20 \
+    train.hard_negatives=20 train.batch_size=1 \
+    train.num_train_epochs=1 train.learning_rate=1e-05 \
+    datasets.prompt_pool_path=$CK/prompt_pool \
+    datasets.prompt_setup_type=qa datasets.task_setup_type=q \
+    encoder.cache_dir=$PWD/cache \
+    hydra.run.dir=$CK/exp > $CK/log_8_train.txt 2>&1
+
+# ---------------- embed ----------------
+step 9/11 "generate_dense_embeddings"
+python DPR/generate_dense_embeddings.py \
+    model_file=$CK/model/dpr_biencoder.best_valid \
+    ctx_src=dpr_se2 shard_id=0 num_shards=1 \
+    out_file=$CK/model/dpr_enc_index \
+    ctx_sources.dpr_se2.train_clusters=$CLUSTER \
+    ctx_sources.dpr_se2.prompt_pool_path=$CK/prompt_pool \
+    ctx_sources.dpr_se2.prompt_setup_type=qa \
+    encoder.cache_dir=$PWD/cache \
+    hydra.run.dir=$CK/exp > $CK/log_9_embed.txt 2>&1
+
+# ---------------- retrieve ----------------
+step 10/11 "dense_retriever_beam_score"
+python DPR/dense_retriever_beam_score.py \
+    model_file=$CK/model/dpr_biencoder.best_valid \
+    qa_dataset=qa_se2 ctx_datatsets=[dpr_se2] \
+    encoded_ctx_files=["$CK/model/dpr_enc_index_*"] \
+    out_file=$CK/se2_prompts/${TASK}_prompts.json \
+    datasets.qa_se2.task_name=$TASK \
+    datasets.qa_se2.task_setup_type=q \
+    datasets.qa_se2.cache_dir=$PWD/cache beam_size=3 \
+    shot_num=3 \
+    ctx_sources.dpr_se2.prompt_pool_path=$CK/prompt_pool \
+    ctx_sources.dpr_se2.train_clusters=$CLUSTER \
+    ctx_sources.dpr_se2.prompt_setup_type=qa \
+    encoder.cache_dir=$PWD/cache \
+    hydra.run.dir=$CK/exp > $CK/log_10_retrieve.txt 2>&1
+
+# ---------------- inference ----------------
+step 11/11 "inference + metrics"
+accelerate launch --num_processes 1 --main_process_port 24579 scripts/inference.py \
+    prompt_file=$CK/se2_prompts/${TASK}_prompts_beam_score_0.json \
+    task_name=$TASK \
+    output_file=$CK/preds/${TASK}_preds.json \
+    res_file=$CK/eval_res.txt \
+    batch_size=1 train_clusters=$CLUSTER \
+    model_name=$MODEL_PATH \
+    prompt_pool_path=$CK/prompt_pool \
+    random_sample=False random_seed=42 \
+    cache_dir=$PWD/cache \
+    hydra.run.dir=$CK/exp > $CK/log_11_inference.txt 2>&1
+
+echo "=== 评测结果 ==="
+cat $CK/eval_res.txt 2>/dev/null || echo "(无 eval_res)"
+echo
+echo "=== compute_metrics ==="
+python $REPO/20261105_compute_metrics.py \
+    --preds $CK/preds/${TASK}_preds.json --task $TASK \
+    --out_json $CK/metrics.json --out_text $CK/metrics.txt 2>&1 | tail -14
+echo
+echo "=== 训练 loss（最后 5 条）==="
+grep -oE "loss['\"]?\s*[:=]\s*[0-9.]+" $CK/log_8_train.txt 2>/dev/null | tail -5
+echo
+echo "###### PIPELINE_CHECK_PASSED ######"

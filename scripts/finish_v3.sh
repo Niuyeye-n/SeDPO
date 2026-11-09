@@ -1,1 +1,146 @@
-IyEvYmluL2Jhc2gKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQojIGZpbmlzaF92My5zaCDigJQgMjAyNi0xMS0wNyAxODoweAojIOihpem9kCBTZURQTyDlm5vnu4TnvLrlpLHnmoTmjqjnkIbkuI7mjIfmoIfjgILkuI3ph43orq3ku7vkvZXlt7LlrozmiJDnmoTnu4TjgIIKIwojIOS4jiB2MiDnmoTlt67liKvvvIh2MiDmnKrot5HvvIzpl67popjlt7Lmn6XmuIXvvInvvJoKIyAgIHYxIOebtOaOpSBiYXNoIGluZmVyLnNoIOayoea/gOa0uyBjb25kYSDihpIgcHl0aG9uL2FjY2VsZXJhdGUg5YWo6YOoIGNvbW1hbmQgbm90IGZvdW5kCiMgICB2MiDkv67kuobnjq/looPvvIzkvYYgTXVsdGlSQyDnmoQgcHJlZHMg5piv5ZyoIDEwOjI2IC8gMTI6NTYg5Lik5qyhIENVREEgT09NIOaXtuS4reaWreeahAojICAgICAg5q6L55WZ5Lit6Ze05paH5Lu277yIbGxhbWEgNTQyIOadoeOAgXF3ZW4gNTE2IOadoe+8jOadoeaVsOmDveS4jeWvue+8ie+8jOaMh+agh+S4jeWPr+eUqAojICAgdjMgPSDlhYjmiZMgaW5mZXJlbmNlLnB5IOatu+S7o+eggeihpeS4gemZjeaYvuWtmCDihpIg6YeN6LeRIE11bHRpUkMg4oaSIOWGjeihpSBPcGVuQm9va1JDCiMgICAgICAgIOKGkiDmnIDlkI7ot5EgcXdlbi9jbG9zZV9xYSDlhajmtYHnqIsKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQpSRVBPPS9yb290L2F1dG9kbC10bXAvU2VEUE9fTklQUzI1CkxPRz0vcm9vdC9hdXRvZGwtdG1wL2ZpbmlzaF92My5sb2cKUFlCSU49L3Jvb3QvYXV0b2RsLXRtcC9lbnZzL3NlX2Rwby9iaW4KUVdFTj0vcm9vdC9hdXRvZGwtdG1wL21vZGVscy9xd2VuMi41LTdiCkxMQU1BPS9yb290L2F1dG9kbC10bXAvbW9kZWxzL2xsYW1hMy04YgoKbG9nKCkgeyBlY2hvICJbJChkYXRlICcrJUYgJVQnKV0gJCoiIHwgdGVlIC1hICIkTE9HIjsgfQoKZXhwb3J0IFBBVEg9JFBZQklOOiRQQVRICmV4cG9ydCBQWVRIT05QQVRIPSRSRVBPOiR7UFlUSE9OUEFUSDotfQpleHBvcnQgSFlEUkFfRlVMTF9FUlJPUj0xCmV4cG9ydCBUT0tFTklaRVJTX1BBUkFMTEVMSVNNPWZhbHNlCmV4cG9ydCBQWVRPUkNIX0NVREFfQUxMT0NfQ09ORj1leHBhbmRhYmxlX3NlZ21lbnRzOlRydWUKZXhwb3J0IElGX1BSRUZFUl9MT1NTPTIKZXhwb3J0IFBFRlRfQkVUQT0wLjEKZXhwb3J0IERJVl9SRUpFQ1Q9MQpleHBvcnQgU0NPUkVfUkFUSU89MS4wCgpjZCAiJFJFUE8iIHx8IGV4aXQgMQpsb2cgIj09PT09IGZpbmlzaF92MyDlkK/liqggPT09PT0iCmxvZyAicHl0aG9uPSQod2hpY2ggcHl0aG9uKSAkKHB5dGhvbiAtViAyPiYxKSB8IGFjY2VsZXJhdGU9JCh3aGljaCBhY2NlbGVyYXRlKSIKCiMgLS0tLSDmiorkuI3lrozmlbTnmoQgcHJlZHMg56e75YWl5Zue5pS256uZ77yI5LiN54mp55CG5Yig6Zmk77yJLS0tLQp0cmFzaF9wYXJ0aWFsKCkgewogICAgbG9jYWwgdGFnPSQxIHRhc2s9JDIKICAgIGxvY2FsIEU9JFJFUE8vbXlfZGF0YV9xd2VuL2V4cGVyaW1lbnRfc2VkcG9fJHt0YWd9L3JlYWRpbmdfbmV3CiAgICBsb2NhbCBmPSRFL3ByZWRzX2Zvcl9yZWFkaW5nX25ldy8ke3Rhc2t9X3Byb21wdHMzX3JldHJpZXZlcnNlMl9wcmVkc18wLmpzb24KICAgIGlmIFsgLWYgIiRmIiBdOyB0aGVuCiAgICAgICAgbWtkaXIgLXAgIiRFL190cmFzaF9wYXJ0aWFsIgogICAgICAgIG12ICIkZiIgIiRFL190cmFzaF9wYXJ0aWFsLyR7dGFza31fcGFydGlhbF8kKGRhdGUgKyVIJU0pLmpzb24iCiAgICAgICAgbG9nICIgIOW3suenu+i1sOS4jeWujOaVtOeahCAke3RhZ30vJHt0YXNrfSBwcmVkcyAtPiBfdHJhc2hfcGFydGlhbC8iCiAgICBmaQp9CgojIC0tLS0gcmVhZGluZ19uZXcg55qE5Y2V5Liq5Lu75Yqh5o6o55CG77yIcHJvbXB0cyDlt7LlrZjlnKjvvIzkuI3lho3mo4DntKLvvIktLS0tCnJ1bl9pbmZlcl9yZWFkaW5nKCkgewogICAgbG9jYWwgdGFnPSQxIG1vZGVsPSQyIHRhc2s9JDMgcG9ydD0kNAogICAgbG9jYWwgRT0kUkVQTy9teV9kYXRhX3F3ZW4vZXhwZXJpbWVudF9zZWRwb18ke3RhZ30vcmVhZGluZ19uZXcKICAgIGxvY2FsIFBGPSRFL3NlMl9wcm9tcHRzX2Zvcl9yZWFkaW5nX25ldy8ke3Rhc2t9X3Byb21wdHNfYmVhbV9zY29yZV8wLmpzb24KCiAgICBpZiBbICEgLWYgIiRQRiIgXTsgdGhlbgogICAgICAgIGxvZyAiW+i3s+i/h10gJHRhZy8kdGFzayDnvLogcHJvbXB0IOaWh+S7tiIKICAgICAgICByZXR1cm4gMQogICAgZmkKICAgIGxvZyAiLS0tICR0YWcvJHRhc2sg5o6o55CG5byA5aeLIgogICAgYWNjZWxlcmF0ZSBsYXVuY2ggLS1udW1fcHJvY2Vzc2VzIDEgLS1tYWluX3Byb2Nlc3NfcG9ydCAiJHBvcnQiIFwKICAgICAgICBzY3JpcHRzL2luZmVyZW5jZS5weSBcCiAgICAgICAgcHJvbXB0X2ZpbGU9JFBGIFwKICAgICAgICB0YXNrX25hbWU9JHRhc2sgXAogICAgICAgIG91dHB1dF9maWxlPSRFL3ByZWRzX2Zvcl9yZWFkaW5nX25ldy8ke3Rhc2t9X3Byb21wdHMzX3JldHJpZXZlcnNlMl9wcmVkc18wLmpzb24gXAogICAgICAgIHJlc19maWxlPSRFL2V2YWxfcmVzX2Zvcl9yZWFkaW5nX25ldy50eHQgXAogICAgICAgIGJhdGNoX3NpemU9MSB0cmFpbl9jbHVzdGVycz1yZWFkaW5nX25ldyBcCiAgICAgICAgbW9kZWxfbmFtZT0kbW9kZWwgXAogICAgICAgIHByb21wdF9wb29sX3BhdGg9JFJFUE8vbXlfZGF0YV9xd2VuL3Byb21wdF9wb29sX3NlZHBvIFwKICAgICAgICByYW5kb21fc2FtcGxlPUZhbHNlIHJhbmRvbV9zZWVkPTQyIFwKICAgICAgICBjYWNoZV9kaXI9JFJFUE8vY2FjaGUgXAogICAgICAgIGh5ZHJhLnJ1bi5kaXI9JEUgPj4gIiRMT0ciIDI+JjEKICAgIGxvY2FsIHJjPSQ/CiAgICBsb2cgIi0tLSAkdGFnLyR0YXNrIOaOqOeQhue7k+adnyByYz0kcmMiCiAgICBudmlkaWEtc21pIC0tcXVlcnktZ3B1PW1lbW9yeS51c2VkIC0tZm9ybWF0PWNzdixub2hlYWRlciB8IHNlZCAicy9eLyAgICDls7DlgLzlkI7mmL7lrZg6IC8iIHwgdGVlIC1hICIkTE9HIgogICAgcmV0dXJuICRyYwp9CgojIC0tLS0gb3BlbmJvb2txYSDmo4DntKIgKyDmjqjnkIYgLS0tLQpydW5fb3BlbmJvb2txYSgpIHsKICAgIGxvY2FsIHRhZz0kMSBtb2RlbD0kMiBwb3J0PSQzCiAgICBsb2NhbCBFPSRSRVBPL215X2RhdGFfcXdlbi9leHBlcmltZW50X3NlZHBvXyR7dGFnfS9yZWFkaW5nX25ldwoKICAgIGlmIFsgISAtZiAiJEUvbW9kZWwvZHByX2JpZW5jb2Rlci5iZXN0X3ZhbGlkIiBdOyB0aGVuCiAgICAgICAgbG9nICJb6Lez6L+HXSAkdGFnL3JlYWRpbmdfbmV3IOe8uiBiZXN0X3ZhbGlkIgogICAgICAgIHJldHVybiAxCiAgICBmaQoKICAgIGxvZyAiLS0tICR0YWcvb3BlbmJvb2txYSDmo4DntKLlvIDlp4siCiAgICBweXRob24gRFBSL2RlbnNlX3JldHJpZXZlcl9iZWFtX3Njb3JlLnB5IFwKICAgICAgICBtb2RlbF9maWxlPSRFL21vZGVsL2Rwcl9iaWVuY29kZXIuYmVzdF92YWxpZCBcCiAgICAgICAgcWFfZGF0YXNldD1xYV9zZTIgY3R4X2RhdGF0c2V0cz1bZHByX3NlMl0gXAogICAgICAgICJlbmNvZGVkX2N0eF9maWxlcz1bXCIkRS9tb2RlbC9kcHJfZW5jX2luZGV4XypcIl0iIFwKICAgICAgICBvdXRfZmlsZT0kRS9zZTJfcHJvbXB0c19mb3JfcmVhZGluZ19uZXcvb3BlbmJvb2txYV9wcm9tcHRzLmpzb24gXAogICAgICAgIGRhdGFzZXRzLnFhX3NlMi50YXNrX25hbWU9b3BlbmJvb2txYSBcCiAgICAgICAgZGF0YXNldHMucWFfc2UyLnRhc2tfc2V0dXBfdHlwZT1xIFwKICAgICAgICBkYXRhc2V0cy5xYV9zZTIuY2FjaGVfZGlyPSRSRVBPL2NhY2hlIGJlYW1fc2l6ZT0zIFwKICAgICAgICBzaG90X251bT0zIFwKICAgICAgICBjdHhfc291cmNlcy5kcHJfc2UyLnByb21wdF9wb29sX3BhdGg9JFJFUE8vbXlfZGF0YV9xd2VuL3Byb21wdF9wb29sX3NlZHBvIFwKICAgICAgICBjdHhfc291cmNlcy5kcHJfc2UyLnRyYWluX2NsdXN0ZXJzPXJlYWRpbmdfbmV3IFwKICAgICAgICBjdHhfc291cmNlcy5kcHJfc2UyLnByb21wdF9zZXR1cF90eXBlPXFhIFwKICAgICAgICBlbmNvZGVyLmNhY2hlX2Rpcj0kUkVQTy9jYWNoZSBcCiAgICAgICAgaHlkcmEucnVuLmRpcj1teV9kYXRhX3F3ZW4vZXhwZXJpbWVudF9zZWRwb18ke3RhZ30vcmVhZGluZ19uZXcgPj4gIiRMT0ciIDI+JjEKICAgIGxvY2FsIHJjPSQ/CiAgICBsb2cgIi0tLSAkdGFnL29wZW5ib29rcWEg5qOA57Si57uT5p2fIHJjPSRyYyIKICAgIFsgJHJjIC1uZSAwIF0gJiYgcmV0dXJuICRyYwoKICAgIHJ1bl9pbmZlcl9yZWFkaW5nICIkdGFnIiAiJG1vZGVsIiBvcGVuYm9va3FhICIkcG9ydCIKfQoKIyAtLS0tIHF3ZW4vY2xvc2VfcWEg5YWo5rWB56iL77yI57y6IGluZGV4ICsgcHJvbXB0cyArIHByZWRz77yJLS0tLQpydW5fY2xvc2VfcWFfcXdlbigpIHsKICAgIGxvY2FsIEU9JFJFUE8vbXlfZGF0YV9xd2VuL2V4cGVyaW1lbnRfc2VkcG9fcXdlbi9jbG9zZV9xYQogICAgaWYgWyAhIC1mICIkRS9tb2RlbC9kcHJfYmllbmNvZGVyLmJlc3RfdmFsaWQiIF07IHRoZW4KICAgICAgICBsb2cgIlvot7Pov4ddIHF3ZW4vY2xvc2VfcWEg57y6IGJlc3RfdmFsaWQiCiAgICAgICAgcmV0dXJuIDEKICAgIGZpCiAgICBsb2cgIi0tLSBxd2VuL2Nsb3NlX3FhIOWFqOa1geeoi+W8gOWni++8iGluZGV4IOKGkiDmo4DntKIg4oaSIOaOqOeQhu+8iSIKICAgIGJhc2ggIiRFL2luZmVyLnNoIiA+PiAiJExPRyIgMj4mMQogICAgbG9jYWwgcmM9JD8KICAgIGxvZyAiLS0tIHF3ZW4vY2xvc2VfcWEg5YWo5rWB56iL57uT5p2fIHJjPSRyYyIKICAgIHJldHVybiAkcmMKfQoKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09IOaJp+ihjCA9PT09PT09PT09PT09PT09PT09PT09PT09PT09CmxvZyAiPT09PT0gWzFdIOa4heeQhuS4jeWujOaVtOeahCBNdWx0aVJDIHByZWRzID09PT09Igp0cmFzaF9wYXJ0aWFsIGxsYW1hIG11bHRpcmMKdHJhc2hfcGFydGlhbCBxd2VuICBtdWx0aXJjCgpsb2cgIj09PT09IFsyXSDph43ot5EgTXVsdGlSQ++8mmxsYW1hID09PT09IgpydW5faW5mZXJfcmVhZGluZyBsbGFtYSAiJExMQU1BIiBtdWx0aXJjIDI0MTAxCgpsb2cgIj09PT09IFszXSDph43ot5EgTXVsdGlSQ++8mnF3ZW4gPT09PT0iCnJ1bl9pbmZlcl9yZWFkaW5nIHF3ZW4gIiRRV0VOIiBtdWx0aXJjIDI0MTAyCgpsb2cgIj09PT09IFs0XSBPcGVuQm9va1JD77yabGxhbWEgPT09PT0iCnJ1bl9vcGVuYm9va3FhIGxsYW1hICIkTExBTUEiIDI0MTAzCgpsb2cgIj09PT09IFs1XSBPcGVuQm9va1JD77yacXdlbiA9PT09PSIKcnVuX29wZW5ib29rcWEgcXdlbiAiJFFXRU4iIDI0MTA0Cgpsb2cgIj09PT09IFs2XSBxd2VuL2Nsb3NlX3FhIOWFqOa1geeoiyA9PT09PSIKcnVuX2Nsb3NlX3FhX3F3ZW4KCmxvZyAiPT09PT0g5YWo6YOo5q2l6aqk57uT5p2f77yM5oyH5qCH5rGH5oC7ID09PT09Igpmb3IgZiBpbiAkUkVQTy9teV9kYXRhX3F3ZW4vZXhwZXJpbWVudF9zZWRwb18qL3tjbG9zZV9xYSxyZWFkaW5nX25ld30vZXZhbF9yZXNfZm9yXyoudHh0OyBkbwogICAgWyAtZiAiJGYiIF0gJiYgeyBsb2cgIj09ICRmIjsgc2VkICdzL14vICAgIC8nICIkZiIgfCB0ZWUgLWEgIiRMT0ciOyB9CmRvbmUKbG9nICI9PT09PSBmaW5pc2hfdjMg5a6M5oiQID09PT09Igo=
+#!/bin/bash
+# =============================================================================
+# finish_v3.sh — 2026-11-07 18:0x
+# 补齐 SeDPO 四组缺失的推理与指标。不重训任何已完成的组。
+#
+# 与 v2 的差别（v2 未跑，问题已查清）：
+#   v1 直接 bash infer.sh 没激活 conda → python/accelerate 全部 command not found
+#   v2 修了环境，但 MultiRC 的 preds 是在 10:26 / 12:56 两次 CUDA OOM 时中断的
+#      残留中间文件（llama 542 条、qwen 516 条，条数都不对），指标不可用
+#   v3 = 先打 inference.py 死代码补丁降显存 → 重跑 MultiRC → 再补 OpenBookRC
+#        → 最后跑 qwen/close_qa 全流程
+# =============================================================================
+REPO=/root/autodl-tmp/SeDPO_NIPS25
+LOG=/root/autodl-tmp/finish_v3.log
+PYBIN=/root/autodl-tmp/envs/se_dpo/bin
+QWEN=/root/autodl-tmp/models/qwen2.5-7b
+LLAMA=/root/autodl-tmp/models/llama3-8b
+
+log() { echo "[$(date '+%F %T')] $*" | tee -a "$LOG"; }
+
+export PATH=$PYBIN:$PATH
+export PYTHONPATH=$REPO:${PYTHONPATH:-}
+export HYDRA_FULL_ERROR=1
+export TOKENIZERS_PARALLELISM=false
+export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
+export IF_PREFER_LOSS=2
+export PEFT_BETA=0.1
+export DIV_REJECT=1
+export SCORE_RATIO=1.0
+
+cd "$REPO" || exit 1
+log "===== finish_v3 启动 ====="
+log "python=$(which python) $(python -V 2>&1) | accelerate=$(which accelerate)"
+
+# ---- 把不完整的 preds 移入回收站（不物理删除）----
+trash_partial() {
+    local tag=$1 task=$2
+    local E=$REPO/my_data_qwen/experiment_sedpo_${tag}/reading_new
+    local f=$E/preds_for_reading_new/${task}_prompts3_retrieverse2_preds_0.json
+    if [ -f "$f" ]; then
+        mkdir -p "$E/_trash_partial"
+        mv "$f" "$E/_trash_partial/${task}_partial_$(date +%H%M).json"
+        log "  已移走不完整的 ${tag}/${task} preds -> _trash_partial/"
+    fi
+}
+
+# ---- reading_new 的单个任务推理（prompts 已存在，不再检索）----
+run_infer_reading() {
+    local tag=$1 model=$2 task=$3 port=$4
+    local E=$REPO/my_data_qwen/experiment_sedpo_${tag}/reading_new
+    local PF=$E/se2_prompts_for_reading_new/${task}_prompts_beam_score_0.json
+
+    if [ ! -f "$PF" ]; then
+        log "[跳过] $tag/$task 缺 prompt 文件"
+        return 1
+    fi
+    log "--- $tag/$task 推理开始"
+    accelerate launch --num_processes 1 --main_process_port "$port" \
+        scripts/inference.py \
+        prompt_file=$PF \
+        task_name=$task \
+        output_file=$E/preds_for_reading_new/${task}_prompts3_retrieverse2_preds_0.json \
+        res_file=$E/eval_res_for_reading_new.txt \
+        batch_size=1 train_clusters=reading_new \
+        model_name=$model \
+        prompt_pool_path=$REPO/my_data_qwen/prompt_pool_sedpo \
+        random_sample=False random_seed=42 \
+        cache_dir=$REPO/cache \
+        hydra.run.dir=$E >> "$LOG" 2>&1
+    local rc=$?
+    log "--- $tag/$task 推理结束 rc=$rc"
+    nvidia-smi --query-gpu=memory.used --format=csv,noheader | sed "s/^/    峰值后显存: /" | tee -a "$LOG"
+    return $rc
+}
+
+# ---- openbookqa 检索 + 推理 ----
+run_openbookqa() {
+    local tag=$1 model=$2 port=$3
+    local E=$REPO/my_data_qwen/experiment_sedpo_${tag}/reading_new
+
+    if [ ! -f "$E/model/dpr_biencoder.best_valid" ]; then
+        log "[跳过] $tag/reading_new 缺 best_valid"
+        return 1
+    fi
+
+    log "--- $tag/openbookqa 检索开始"
+    python DPR/dense_retriever_beam_score.py \
+        model_file=$E/model/dpr_biencoder.best_valid \
+        qa_dataset=qa_se2 ctx_datatsets=[dpr_se2] \
+        "encoded_ctx_files=[\"$E/model/dpr_enc_index_*\"]" \
+        out_file=$E/se2_prompts_for_reading_new/openbookqa_prompts.json \
+        datasets.qa_se2.task_name=openbookqa \
+        datasets.qa_se2.task_setup_type=q \
+        datasets.qa_se2.cache_dir=$REPO/cache beam_size=3 \
+        shot_num=3 \
+        ctx_sources.dpr_se2.prompt_pool_path=$REPO/my_data_qwen/prompt_pool_sedpo \
+        ctx_sources.dpr_se2.train_clusters=reading_new \
+        ctx_sources.dpr_se2.prompt_setup_type=qa \
+        encoder.cache_dir=$REPO/cache \
+        hydra.run.dir=my_data_qwen/experiment_sedpo_${tag}/reading_new >> "$LOG" 2>&1
+    local rc=$?
+    log "--- $tag/openbookqa 检索结束 rc=$rc"
+    [ $rc -ne 0 ] && return $rc
+
+    run_infer_reading "$tag" "$model" openbookqa "$port"
+}
+
+# ---- qwen/close_qa 全流程（缺 index + prompts + preds）----
+run_close_qa_qwen() {
+    local E=$REPO/my_data_qwen/experiment_sedpo_qwen/close_qa
+    if [ ! -f "$E/model/dpr_biencoder.best_valid" ]; then
+        log "[跳过] qwen/close_qa 缺 best_valid"
+        return 1
+    fi
+    log "--- qwen/close_qa 全流程开始（index → 检索 → 推理）"
+    bash "$E/infer.sh" >> "$LOG" 2>&1
+    local rc=$?
+    log "--- qwen/close_qa 全流程结束 rc=$rc"
+    return $rc
+}
+
+# ============================ 执行 ============================
+log "===== [1] 清理不完整的 MultiRC preds ====="
+trash_partial llama multirc
+trash_partial qwen  multirc
+
+log "===== [2] 重跑 MultiRC：llama ====="
+run_infer_reading llama "$LLAMA" multirc 24101
+
+log "===== [3] 重跑 MultiRC：qwen ====="
+run_infer_reading qwen "$QWEN" multirc 24102
+
+log "===== [4] OpenBookRC：llama ====="
+run_openbookqa llama "$LLAMA" 24103
+
+log "===== [5] OpenBookRC：qwen ====="
+run_openbookqa qwen "$QWEN" 24104
+
+log "===== [6] qwen/close_qa 全流程 ====="
+run_close_qa_qwen
+
+log "===== 全部步骤结束，指标汇总 ====="
+for f in $REPO/my_data_qwen/experiment_sedpo_*/{close_qa,reading_new}/eval_res_for_*.txt; do
+    [ -f "$f" ] && { log "== $f"; sed 's/^/    /' "$f" | tee -a "$LOG"; }
+done
+log "===== finish_v3 完成 ====="

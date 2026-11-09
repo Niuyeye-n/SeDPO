@@ -1,1 +1,259 @@
-aW1wb3J0IG9zCmltcG9ydCBzeXMKc3lzLnBhdGguaW5zZXJ0KDAsIG9zLmdldGN3ZCgpKQoKaW1wb3J0IHRvcmNoCmltcG9ydCB0cWRtCmZyb20gdG9yY2gudXRpbHMuZGF0YSBpbXBvcnQgRGF0YUxvYWRlcgpmcm9tIHNyYy5kYXRhLmNvbGxhdG9ycyBpbXBvcnQgRGF0YUNvbGxhdG9yV2l0aFBhZGRpbmdBbmRDdWRhCmltcG9ydCBoeWRyYS51dGlscyBhcyBodQppbXBvcnQgaHlkcmEKaW1wb3J0IGpzb24KaW1wb3J0IG9zCmZyb20gb21lZ2Fjb25mIGltcG9ydCBPbWVnYUNvbmYKaW1wb3J0IHJhbmRvbSAKZnJvbSBzcmMudXRpbHMuY2FjaGVfdXRpbCBpbXBvcnQgQnVmZmVyZWRKc29uV3JpdGVyLCBCdWZmZXJlZEpzb25SZWFkZXIKZnJvbSBzcmMudXRpbHMubWV0cmljIGltcG9ydCBtZXRyaWNfZGljdApmcm9tIGFjY2VsZXJhdGUgaW1wb3J0IEFjY2VsZXJhdG9yCmltcG9ydCBnbG9iCmltcG9ydCBsb2dnaW5nCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAppbXBvcnQgc2h1dGlsCmZyb20gdHJhbnNmb3JtZXJzIGltcG9ydCAgQXV0b01vZGVsRm9yQ2F1c2FsTE0KbG9nZ2VyID0gbG9nZ2luZy5nZXRMb2dnZXIoX19uYW1lX18pCgoKY2xhc3MgU2NvcmVyOgogICAgZGVmIF9faW5pdF9fKHNlbGYsY2ZnLCBhY2NlbGVyYXRvcikgLT4gTm9uZToKICAgICAgICBzZWxmLmNmZyA9IGNmZwogICAgICAgIHNlbGYub3V0cHV0X3RyYWluX2ZpbGUgPSBjZmcub3V0cHV0X3RyYWluX2ZpbGUKICAgICAgICBzZWxmLm91dHB1dF92YWxpZF9maWxlID0gY2ZnLm91dHB1dF92YWxpZF9maWxlCiAgICAgICAgb3MubWFrZWRpcnMob3MucGF0aC5kaXJuYW1lKGNmZy5vdXRwdXRfdHJhaW5fZmlsZSksIGV4aXN0X29rPVRydWUpCgogICAgICAgIHNlbGYuYWNjZWxlcmF0b3IgPSBhY2NlbGVyYXRvcgoKICAgICAgICBzZWxmLmRhdGFzZXRfcmVhZGVyID0gaHUuaW5zdGFudGlhdGUoY2ZnLmRhdGFzZXRfcmVhZGVyKQogICAgICAgIHNlbGYuZGF0YXNldF9yZWFkZXIuc2hhcmQoYWNjZWxlcmF0b3IpCiAgICAgICAgc2VsZi5kYXRhc2V0X3JlYWRlci50b2tlbml6ZXIucGFkX3Rva2VuX2lkID0gc2VsZi5kYXRhc2V0X3JlYWRlci50b2tlbml6ZXIuZW9zX3Rva2VuX2lkCiAgICAgICAgY28gPSBEYXRhQ29sbGF0b3JXaXRoUGFkZGluZ0FuZEN1ZGEodG9rZW5pemVyPXNlbGYuZGF0YXNldF9yZWFkZXIudG9rZW5pemVyLGRldmljZT1hY2NlbGVyYXRvci5kZXZpY2UpCiAgICAgICAgc2VsZi5kYXRhbG9hZGVyID0gRGF0YUxvYWRlcihzZWxmLmRhdGFzZXRfcmVhZGVyLGJhdGNoX3NpemU9Y2ZnLmJhdGNoX3NpemUsY29sbGF0ZV9mbj1jbykKCiAgICAgICAgc2VsZi50b2tlbml6ZXI9c2VsZi5kYXRhc2V0X3JlYWRlci50b2tlbml6ZXIKICAgICAgICBwcmludChjZmcubW9kZWxfbmFtZSkKICAgICAgICBzZWxmLm1vZGVsID0gQXV0b01vZGVsRm9yQ2F1c2FsTE0uZnJvbV9wcmV0cmFpbmVkKHByZXRyYWluZWRfbW9kZWxfbmFtZV9vcl9wYXRoPWNmZy5tb2RlbF9uYW1lLCBjYWNoZV9kaXI9Y2ZnLmNhY2hlX2RpcikKICAgICAgICBzZWxmLm1vZGVsID0gc2VsZi5tb2RlbC5oYWxmKCkudG8oc2VsZi5hY2NlbGVyYXRvci5kZXZpY2UpCiAgICAgICAgc2VsZi5tb2RlbCA9IHNlbGYubW9kZWwuZXZhbCgpCgogICAgICAgIHNlbGYubWF4X2xlbmd0aD1jZmcubWF4X2xlbmd0aCAjdXNlZCBmb3IgdGV4dCBjb21wbGV0aW9uIHRhc2ssCiAgICAgICAgc2VsZi5nZW5lcmF0ZV9tYXhfbGVuPWNmZy5nZW5lcmF0ZV9tYXhfbGVuICMgbWF4IHNlcSBsZW4gdG8gYmUgZ2VuZXJhdGVkICAgICAgICAKICAgICAgICBzZWxmLm9wdGlvbl9udW09c2VsZi5kYXRhc2V0X3JlYWRlci50YXNrLmNsYXNzX251bQoKICAgIGRlZiBjaG9pY2VfbG9zc2VzKHNlbGYsaW5wdXRfaWRzLCBpbnB1dF9hdHRlbl9tYXNrLCBsb3NzX21hc2ssIGxhYmVscyk6CiAgICAgICAgYnN6LCBvcHRpb25fbnVtLCBzZXFfbGVuID0gaW5wdXRfaWRzLnNoYXBlCiAgICAgICAgaWYgc2VsZi5vcHRpb25fbnVtIGlzIG5vdCBOb25lOiBhc3NlcnQgb3B0aW9uX251bSA9PSBzZWxmLm9wdGlvbl9udW0KICAgICAgICB3aXRoIHRvcmNoLm5vX2dyYWQoKToKICAgICAgICAgICAgb3V0cHV0PXNlbGYubW9kZWwoaW5wdXRfaWRzPWlucHV0X2lkcy5yZXNoYXBlKGJzeipvcHRpb25fbnVtLCBzZXFfbGVuKSwgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF0dGVudGlvbl9tYXNrPWlucHV0X2F0dGVuX21hc2sucmVzaGFwZShic3oqb3B0aW9uX251bSwgc2VxX2xlbikpCiAgICAgICAgCiAgICAgICAgdGFyZ2V0cz1pbnB1dF9pZHNbOiw6LDE6XS51bnNxdWVlemUoLTEpCiAgICAgICAgbG9naXRzPW91dHB1dC5sb2dpdHMucmVzaGFwZShic3osIG9wdGlvbl9udW0sIHNlcV9sZW4sIC0xKSAgICAgICAgICAgIAogICAgICAgIGxvZ2l0cz1sb2dpdHNbOiw6LCA6LTEsIDpdCiAgICAgICAgbG9naXRfcHJvYnM9IHRvcmNoLm5uLmZ1bmN0aW9uYWwubG9nX3NvZnRtYXgobG9naXRzLmZsb2F0KCksIGRpbT0tMSkKCgogICAgICAgIGxvc3NfbWFzaz1sb3NzX21hc2tbOiw6LDE6XQogICAgICAgIGxvc3M9IC10b3JjaC5nYXRoZXIobG9naXRfcHJvYnMsIC0xLCB0YXJnZXRzKS5zcXVlZXplKC0xKSAqIGxvc3NfbWFzawogICAgICAgIGxvc3MgPSBsb3NzLnN1bSgtMSkgLyBsb3NzX21hc2suc3VtKC0xKQoKICAgICAgICBwcmVkcz0gdG9yY2guYXJnbWluKGxvc3MsIGRpbT0tMSkKICAgICAgICBub3JtZWRfbG9zcyA9IHRvcmNoLm5uLmZ1bmN0aW9uYWwubm9ybWFsaXplKGxvc3MsIHA9MSwgZGltPS0xKQogICAgICAgIGxhYmVsc19sb3NzZXMgPSB0b3JjaC5nYXRoZXIobm9ybWVkX2xvc3MsIC0xLCBsYWJlbHMpLnNxdWVlemUoLTEpLnRvbGlzdCgpCiAgICAgICAgYWNjdXJhdGVfbGlzdD0ocHJlZHM9PWxhYmVscy5zcXVlZXplKC0xKSkuaW50KCkudG9saXN0KCkKCiAgICAgICAgcmV0dXJuICB7CiAgICAgICAgICAgICAgICAibGFiZWxzX2xvc3NlcyI6IGxhYmVsc19sb3NzZXMsCiAgICAgICAgICAgICAgICAiYWNjdXJhdGVfbGlzdCI6IGFjY3VyYXRlX2xpc3QsCiAgICAgICAgICAgICAgICAicHJlZHMiOiBwcmVkcy50b2xpc3QoKSwKICAgICAgICAgICAgICAgIH0KCiAgICBkZWYgY29tcGxldGlvbl9sb3NzZXMoc2VsZixpbnB1dF9pZHMsaW5wdXRfYXR0ZW5fbWFzayxsYWJlbHMpOgogICAgICAgIHdpdGggdG9yY2gubm9fZ3JhZCgpOgogICAgICAgICAgICBhbnN3ZXJfc3RhcnQgPSBpbnQoaW5wdXRfYXR0ZW5fbWFzay5zaGFwZVstMV0pIAogICAgICAgICAgICByZXMgPSBzZWxmLm1vZGVsLmdlbmVyYXRlKGlucHV0X2lkcz1pbnB1dF9pZHMuc3F1ZWV6ZSgxKSwgI3JlbW92ZSB0aGUgZGltIGZvciBvcHRpb25fbnVtCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRlbnRpb25fbWFzaz1pbnB1dF9hdHRlbl9tYXNrLnNxdWVlemUoMSksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlb3NfdG9rZW5faWQ9c2VsZi5kYXRhc2V0X3JlYWRlci50b2tlbml6ZXIuZW5jb2RlKCJcbiIpWzBdLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFkX3Rva2VuX2lkPXNlbGYuZGF0YXNldF9yZWFkZXIudG9rZW5pemVyLnBhZF90b2tlbl9pZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1heF9sZW5ndGg9bWluKHNlbGYubWF4X2xlbmd0aCxhbnN3ZXJfc3RhcnQrc2VsZi5nZW5lcmF0ZV9tYXhfbGVuKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRvX3NhbXBsZT1GYWxzZSkKICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgcHJlZF9pZHM9cmVzWzosYW5zd2VyX3N0YXJ0Ol0KICAgICAgICBwcmVkcz1bXQogICAgICAgIGZvciBpIGluIHJhbmdlKGxlbihwcmVkX2lkcykpOgogICAgICAgICAgICBwcmVkPXNlbGYuZGF0YXNldF9yZWFkZXIudG9rZW5pemVyLmRlY29kZShwcmVkX2lkc1tpXSxza2lwX3NwZWNpYWxfdG9rZW5zPVRydWUpCiAgICAgICAgICAgICMgYXZvaWQgZW1wdHkgcHJlZGljdGlvbiB0byBhdm9pZCBlcnJvcnMgd2hlbiBjYWxjdWxhdGluZyBSb3VnZSBtZXRyaWMgc2NvcmVzCiAgICAgICAgICAgIGlmICdcbicgbm90IGluIHByZWQ6IHByZWQrPSdcbicgCiAgICAgICAgICAgIHByZWRzLmFwcGVuZChwcmVkKQogICAgICAgIGNvbXB1dGVfbWV0cmljPW1ldHJpY19kaWN0W3NlbGYuZGF0YXNldF9yZWFkZXIudGFzay5tZXRyaWNdCiAgICAgICAgc2NvcmVzPWNvbXB1dGVfbWV0cmljKHByZWRzPXByZWRzLCBsYWJlbHM9bGFiZWxzLCByZXR1cm5fbGlzdD1UcnVlKQogICAgICAgIHJldHVybiAgewogICAgICAgICAgICAgICAgImxhYmVsc19sb3NzZXMiOiBbMS1zY29yZSBmb3Igc2NvcmUgaW4gc2NvcmVzXSwKICAgICAgICAgICAgICAgICJhY2N1cmF0ZV9saXN0Ijogc2NvcmVzLAogICAgICAgICAgICAgICAgInByZWRzIjogcHJlZHMKICAgICAgICAgICAgICAgIH0KCiAgICBkZWYgY29tcGxldGlvbl9sb2dpdHNfbG9zcyhzZWxmLCBpbnB1dF9pZHMsIGlucHV0X2F0dGVuX21hc2ssIGxvc3NfbWFzaywgbGFiZWxzKToKICAgICAgICBpbnB1dF9pZHM9aW5wdXRfaWRzLnNxdWVlemUoMSkKICAgICAgICBpbnB1dF9hdHRlbnRpb25fbWFzaz1pbnB1dF9hdHRlbl9tYXNrLnNxdWVlemUoMSkKICAgICAgICB3aXRoIHRvcmNoLm5vX2dyYWQoKToKICAgICAgICAgICAgb3V0cHV0PXNlbGYubW9kZWwoaW5wdXRfaWRzPWlucHV0X2lkcywgYXR0ZW50aW9uX21hc2s9aW5wdXRfYXR0ZW50aW9uX21hc2spCgogICAgICAgIHBhZF9tYXNrID0gdG9yY2gubm4uZnVuY3Rpb25hbC5wYWQobGFiZWxzLChpbnB1dF9pZHMuc2hhcGVbLTFdLWxhYmVscy5zaGFwZVstMV0tMSwwKSx2YWx1ZT0wKQogICAgICAgIGxvc3NfbGlzdCA9IHNlcXVlbmNlX2Nyb3NzX2VudHJvcHlfd2l0aF9sb2dpdHMobG9naXRzPW91dHB1dC5sb2dpdHMsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdGFyZ2V0cz1lbnRyeS5pbnB1dF9pZHNbOiwxOl0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgd2VpZ2h0cz1wYWRfbWFzaywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhdmVyYWdlPU5vbmUpCiAgICAgICAgaWYgbGVuKGxvc3NfbGlzdC5zaGFwZSk9PTA6CiAgICAgICAgICAgIGxvc3NfbGlzdCA9IGxvc3NfbGlzdC51bnNxdWVlemUoMCkKICAgICAgICBmb3IgbWRhdGEsIGxvc3MgaW4gemlwKG1ldGFkYXRhLGxvc3NfbGlzdCk6CiAgICAgICAgICAgIG1kYXRhWydzY29yZSddID0gZmxvYXQobG9zcy5pdGVtKCkpCgoKICAgIGRlZiBmb3J3YXJkKHNlbGYpOgogICAgICAgIGlmIHNlbGYuYWNjZWxlcmF0b3IuaXNfbWFpbl9wcm9jZXNzOgogICAgICAgICAgICBkYXRhbG9hZGVyID0gdHFkbS50cWRtKHNlbGYuZGF0YWxvYWRlcixkZXNjPSJTY29yaW5nIikKICAgICAgICBlbHNlOgogICAgICAgICAgICBkYXRhbG9hZGVyID0gc2VsZi5kYXRhbG9hZGVyCiAgICAgICAgCiAgICAgICAgYnVmZmVyX3BhdGggPSBmIntzZWxmLm91dHB1dF90cmFpbl9maWxlfXRtcF97c2VsZi5hY2NlbGVyYXRvci5kZXZpY2V9LmJpbiIKICAgICAgICBxY2lkX3NldD1zZXQoW10pCiAgICAgICAgaWYgUGF0aChidWZmZXJfcGF0aCkuZXhpc3RzKCk6CiAgICAgICAgICAgIHdpdGggQnVmZmVyZWRKc29uUmVhZGVyKGJ1ZmZlcl9wYXRoKSBhcyBmOgogICAgICAgICAgICAgICAgZm9yIGRhdGFzIGluIGYucmVhZCgpOgogICAgICAgICAgICAgICAgICAgIGZvciBlbnRyeSBpbiBkYXRhczoKICAgICAgICAgICAgICAgICAgICAgICAgcWNpZCA9IGdldF9xY2lkKGVudHJ5KQogICAgICAgICAgICAgICAgICAgICAgICBhc3NlcnQgcWNpZCBub3QgaW4gcWNpZF9zZXQKICAgICAgICAgICAgICAgICAgICAgICAgcWNpZF9zZXQuYWRkKHFjaWQpCiAgICAgICAgaWYgbGVuKHFjaWRfc2V0KT4wOgogICAgICAgICAgICBsb2dnZXIuaW5mbyhmJ3Jlc3VtZSBmcm9tIHBhcnNlZCBiaW4gd2l0aCBzaXplIG9mIHtsZW4ocWNpZF9zZXQpfScpCgogICAgICAgIHdpdGggQnVmZmVyZWRKc29uV3JpdGVyKGJ1ZmZlcl9wYXRoKSBhcyBidWZmZXI6CiAgICAgICAgICAgIGZvciBpLGVudHJ5IGluIGVudW1lcmF0ZShkYXRhbG9hZGVyKTogIyBkaWN0CiAgICAgICAgICAgICAgICBpZiAic3RvcCIgaW4gc2VsZi5jZmcgYW5kIHNlbGYuY2ZnLnN0b3A9PWk6ICMgcGFzcyBzdG9wIGZvciBkZWJ1ZwogICAgICAgICAgICAgICAgICAgIGJyZWFrCiAgICAgICAgICAgICAgICBpZiBlbnRyeS5pbnB1dF9pZHMuc2hhcGVbLTFdPj1zZWxmLm1heF9sZW5ndGg6CiAgICAgICAgICAgICAgICAgICAgbG9nZ2VyLmluZm8oZidlbnRyeS5pbnB1dF9pZHMuc2hhcGU6IHtlbnRyeS5pbnB1dF9pZHMuc2hhcGV9JykKICAgICAgICAgICAgICAgIG1ldGFkYXRhID0gZW50cnkucG9wKCJtZXRhZGF0YSIpCiAgICAgICAgICAgICAgICBpZiBhbGwoW2dldF9xY2lkKGEpIGluIHFjaWRfc2V0IGZvciBhIGluIG1ldGFkYXRhXSk6CiAgICAgICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIGlmIHNlbGYuZGF0YXNldF9yZWFkZXIudGFzay5jbGFzc19udW09PTE6CiAgICAgICAgICAgICAgICAgICAgb25lX3Nob3RfcmVzPXNlbGYuY29tcGxldGlvbl9sb3NzZXMoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbnB1dF9pZHM9ZW50cnkuaW5wdXRfaWRzLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaW5wdXRfYXR0ZW5fbWFzaz1lbnRyeS5pbnB1dF9hdHRlbl9tYXNrLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbGFiZWxzPVt4LnBvcCgndGVtcF9sYWJlbCcpIGZvciB4IGluIG1ldGFkYXRhXSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICAgICAgb25lX3Nob3RfcmVzPXNlbGYuY2hvaWNlX2xvc3NlcygKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlucHV0X2lkcz1lbnRyeS5pbnB1dF9pZHMsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbnB1dF9hdHRlbl9tYXNrPWVudHJ5LmlucHV0X2F0dGVuX21hc2ssCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsb3NzX21hc2s9ZW50cnkuaW5wdXRfbG9zc19tYXNrLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbGFiZWxzPWVudHJ5LmxhYmVscywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIG9uZV9zaG90X2xvc3Nlcz1vbmVfc2hvdF9yZXNbImxhYmVsc19sb3NzZXMiXQogICAgICAgICAgICAgICAgcmVzdW1lZF9tZXRhZGF0YT1bXQogICAgICAgICAgICAgICAgZm9yIGkgaW4gcmFuZ2UobGVuKG1ldGFkYXRhKSk6ICNic3oKICAgICAgICAgICAgICAgICAgICBtZXRhZGF0YVtpXVsncHJlZCddPW9uZV9zaG90X3Jlc1sicHJlZHMiXVtpXQogICAgICAgICAgICAgICAgICAgIG1ldGFkYXRhW2ldWydsb3NzJ109b25lX3Nob3RfbG9zc2VzW2ldCiAgICAgICAgICAgICAgICAgICAgbWV0YWRhdGFbaV1bJ29uZV9zaG90X2FjYyddPW9uZV9zaG90X3Jlc1siYWNjdXJhdGVfbGlzdCJdW2ldCiAgICAgICAgICAgICAgICAgICAgcWNpZCA9IGdldF9xY2lkKG1ldGFkYXRhW2ldKQogICAgICAgICAgICAgICAgICAgIGlmIHFjaWQgbm90IGluIHFjaWRfc2V0OgogICAgICAgICAgICAgICAgICAgICAgICByZXN1bWVkX21ldGFkYXRhLmFwcGVuZChtZXRhZGF0YVtpXSkKICAgICAgICAgICAgICAgICAgICAgICAgIyBxY2lkX3NldC5hZGQocWNpZCkKICAgICAgICAgICAgICAgIGJ1ZmZlci53cml0ZShyZXN1bWVkX21ldGFkYXRhKQoKICAgIGRlZiB3cml0ZV9yZXN1bHRzKHNlbGYpOgogICAgICAgIGRlZiBzcGxpdF9leGFtcGxlKGVudHJ5KToKICAgICAgICAgICAgdGVzdF9leGFtcGxlID0ge30KICAgICAgICAgICAgcHJvbXB0X2V4YW1wbGUgPSB7fQogICAgICAgICAgICBmb3Iga2V5LHZhbCBpbiBlbnRyeS5pdGVtcygpOgogICAgICAgICAgICAgICAgaWYga2V5LnN0YXJ0c3dpdGgoInRlc3RfIikgb3Iga2V5LnN0YXJ0c3dpdGgoImhhdmVfIik6CiAgICAgICAgICAgICAgICAgICAgdGVzdF9leGFtcGxlW2tleVtsZW4oInRlc3RfIik6XV0gPSB2YWwKICAgICAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICAgICAgcHJvbXB0X2V4YW1wbGVba2V5XSA9IHZhbAogICAgICAgICAgICByZXR1cm4gdGVzdF9leGFtcGxlLCBwcm9tcHRfZXhhbXBsZQogICAgICAgIAogICAgICAgIGRhdGEgPSBbXQogICAgICAgIGZvciBwYXRoIGluIGdsb2IuZ2xvYihmIntzZWxmLm91dHB1dF90cmFpbl9maWxlfXRtcF8qLmJpbiIpOgogICAgICAgICAgICB3aXRoIEJ1ZmZlcmVkSnNvblJlYWRlcihwYXRoKSBhcyBmOgogICAgICAgICAgICAgICAgZm9yIHggaW4gZi5yZWFkKCk6CiAgICAgICAgICAgICAgICAgICAgZGF0YS5leHRlbmQoeCkgCiAgICAgICAgbG9nZ2VyLmluZm8oJ2xlbihkYXRhKTogJWQnLCBsZW4oZGF0YSkpCgogICAgICAgIHFpZDJpbmZvID0ge30KICAgICAgICBvbmVfc2hvdF90cnVlPTAKICAgICAgICBmb3IgZW50cnkgaW4gZGF0YToKICAgICAgICAgICAgcWlkID0gZ2V0X3FpZChlbnRyeSkKICAgICAgICAgICAgaWYgcWlkIG5vdCBpbiBxaWQyaW5mbzoKICAgICAgICAgICAgICAgIHRlc3RfZXhhbXBsZSwgcHJvbXB0X2V4YW1wbGUgPSBzcGxpdF9leGFtcGxlKGVudHJ5KQogICAgICAgICAgICAgICAgdGVzdF9leGFtcGxlWydjdHhzJ10gPSBbcHJvbXB0X2V4YW1wbGVdCiAgICAgICAgICAgICAgICBxaWQyaW5mb1txaWRdID0gdGVzdF9leGFtcGxlCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBfLCBwcm9tcHRfZXhhbXBsZSA9IHNwbGl0X2V4YW1wbGUoZW50cnkpCiAgICAgICAgICAgICAgICBxaWQyaW5mb1txaWRdWydjdHhzJ10uYXBwZW5kKHByb21wdF9leGFtcGxlKQogICAgICAgICAgICBvbmVfc2hvdF90cnVlKz1wcm9tcHRfZXhhbXBsZVsib25lX3Nob3RfYWNjIl0KCiAgICAgICAgbG9nZ2VyLmluZm8oJ3Rhc2sgbmFtZTogJXMnLCBzZWxmLmNmZy50YXNrX25hbWUpCiAgICAgICAgbG9nZ2VyLmluZm8oJ29uZV9zaG90X2FjYzogJWYnLCBvbmVfc2hvdF90cnVlL2xlbihkYXRhKSkKCiAgICAgICAgZmlyc3RfcmFua190cnVlPTAKICAgICAgICBleGFtcGxlX2xpc3QgPSBsaXN0KHFpZDJpbmZvLnZhbHVlcygpKQogICAgICAgIGZvciBlbnRyeSBpbiBleGFtcGxlX2xpc3Q6CiAgICAgICAgICAgIGVudHJ5Wyd0YXNrX25hbWUnXT1zZWxmLmNmZy50YXNrX25hbWUKICAgICAgICAgICAgIyByYW5rIGxvc3MgZnJvbSBsb3cgdG8gaGlnaCwgdGhlIGxvd2VyIHRoZSBsb3NzLCB0aGUgaGlnaGVyIHRoZSBlZmZpY2llbmN5IG9mIHByb21wdAogICAgICAgICAgICBlbnRyeVsnY3R4cyddID0gc29ydGVkKGVudHJ5WydjdHhzJ10sa2V5ID0gbGFtYmRhIHg6IHhbJ2xvc3MnXSkgCgogICAgICAgICAgICAjIGNoZWNrIHdoZXRoZXIgdGhlIGZpcnN0LXJhbmtlZCBwcm9tcHQgY2FuIGxlYWQgdG8gdGhlIGdvbGQgcHJlZGljdGlvbgogICAgICAgICAgICBmaXJzdF9yYW5rX3RydWUrPWVudHJ5WydjdHhzJ11bMF1bIm9uZV9zaG90X2FjYyJdCgogICAgICAgIGxvZ2dlci5pbmZvKCdsZW4oZXhhbXBsZV9saXN0KTogJWQnLGxlbihleGFtcGxlX2xpc3QpKQogICAgICAgIGxvZ2dlci5pbmZvKCdmaXJzdF9yYW5rX2FjYzogJWYnLCBmaXJzdF9yYW5rX3RydWUvbGVuKGV4YW1wbGVfbGlzdCkpCiAgICAgICAgIyBzcGxpdCB0aGUgc2NvcmVkIGRhdGEgdG8gOTAlIDogMTAlIGZvciB0cmFpbmluZyBhbmQgdmFsaWRhdGlvbiByZXNwZWN0aXZlbHkKICAgICAgICByYW5kb20uUmFuZG9tKDQyKS5zaHVmZmxlKGV4YW1wbGVfbGlzdCkKICAgICAgICBzcGxpdF9yYXRpbz0wLjkKICAgICAgICBuX3RyYWluPWludChsZW4oZXhhbXBsZV9saXN0KSpzcGxpdF9yYXRpbykKICAgICAgICB3aXRoIG9wZW4oc2VsZi5vdXRwdXRfdHJhaW5fZmlsZSwidyIpIGFzIHdyaXRlcjoKICAgICAgICAgICAgd3JpdGVyLndyaXRlKGpzb24uZHVtcHMoZXhhbXBsZV9saXN0WzpuX3RyYWluXSwgaW5kZW50PTQpICsgIlxuIikKICAgICAgICB3aXRoIG9wZW4oc2VsZi5vdXRwdXRfdmFsaWRfZmlsZSwidyIpIGFzIHdyaXRlcjoKICAgICAgICAgICAgd3JpdGVyLndyaXRlKGpzb24uZHVtcHMoZXhhbXBsZV9saXN0W25fdHJhaW46XSwgaW5kZW50PTQpICsgIlxuIikKICAgICAgICBmb3IgcGF0aCBpbiBnbG9iLmdsb2IoZiJ7c2VsZi5vdXRwdXRfdHJhaW5fZmlsZX10bXBfKi5iaW4iKToKICAgICAgICAgICAgb3MucmVtb3ZlKHBhdGgpCiAgICAgICAgICAgIApkZWYgZ2V0X3FpZChlbnRyeSk6CiAgICBxaWQgPSAiIgogICAgaWYgImhhdmVfY2hvb3NlbiIgaW4gZW50cnk6IAogICAgICAgIGZvciBpZCBpbiBlbnRyeVsnaGF2ZV9jaG9vc2VuJ106IHFpZCArPSBzdHIoaWQpICsgIisiCiAgICBxaWQgKz0gc3RyKGVudHJ5Wyd0ZXN0X2lkJ10pCiAgICByZXR1cm4gcWlkCgpkZWYgZ2V0X3FjaWQobWl0ZW0pOgogICAgcWlkID0gZ2V0X3FpZChtaXRlbSkKICAgIGNpZCA9IG1pdGVtWyJpZCJdCiAgICBxY2lkID0gKHFpZCxjaWQpCiAgICByZXR1cm4gcWNpZAoKQGh5ZHJhLm1haW4oY29uZmlnX3BhdGg9Ii4uL2NvbmZpZ3MiLGNvbmZpZ19uYW1lPSJzY29yZXIiKQpkZWYgbWFpbihjZmcpOgogICAgbG9nZ2VyLmluZm8oY2ZnKQogICAgaWYgUGF0aChjZmcub3V0cHV0X3RyYWluX2ZpbGUpLmV4aXN0cygpIGFuZCBQYXRoKGNmZy5vdXRwdXRfdmFsaWRfZmlsZSkuZXhpc3RzKCk6CiAgICAgICAgcHJpbnQoZiJTS0lQIGV4aXN0ZWQgZmlsZXM6IHtjZmcub3V0cHV0X3RyYWluX2ZpbGV9LCB7Y2ZnLm91dHB1dF92YWxpZF9maWxlfSIpCiAgICAgICAgcmV0dXJuCiAgICBhY2NlbGVyYXRvciA9IEFjY2VsZXJhdG9yKCkKICAgIHNjb3JlciA9IFNjb3JlcihjZmcsIGFjY2VsZXJhdG9yKQogICAgc2NvcmVyLmZvcndhcmQoKQogICAgYWNjZWxlcmF0b3Iud2FpdF9mb3JfZXZlcnlvbmUoKQogICAgaWYgYWNjZWxlcmF0b3IuaXNfbWFpbl9wcm9jZXNzOgogICAgICAgIHNjb3Jlci53cml0ZV9yZXN1bHRzKCkKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBtYWluKCkKCg==
+import os
+import sys
+sys.path.insert(0, os.getcwd())
+
+import torch
+import tqdm
+from torch.utils.data import DataLoader
+from src.data.collators import DataCollatorWithPaddingAndCuda
+import hydra.utils as hu
+import hydra
+import json
+import os
+from omegaconf import OmegaConf
+import random 
+from src.utils.cache_util import BufferedJsonWriter, BufferedJsonReader
+from src.utils.metric import metric_dict
+from accelerate import Accelerator
+import glob
+import logging
+from pathlib import Path
+import shutil
+from transformers import  AutoModelForCausalLM
+logger = logging.getLogger(__name__)
+
+
+class Scorer:
+    def __init__(self,cfg, accelerator) -> None:
+        self.cfg = cfg
+        self.output_train_file = cfg.output_train_file
+        self.output_valid_file = cfg.output_valid_file
+        os.makedirs(os.path.dirname(cfg.output_train_file), exist_ok=True)
+
+        self.accelerator = accelerator
+
+        self.dataset_reader = hu.instantiate(cfg.dataset_reader)
+        self.dataset_reader.shard(accelerator)
+        self.dataset_reader.tokenizer.pad_token_id = self.dataset_reader.tokenizer.eos_token_id
+        co = DataCollatorWithPaddingAndCuda(tokenizer=self.dataset_reader.tokenizer,device=accelerator.device)
+        self.dataloader = DataLoader(self.dataset_reader,batch_size=cfg.batch_size,collate_fn=co)
+
+        self.tokenizer=self.dataset_reader.tokenizer
+        print(cfg.model_name)
+        self.model = AutoModelForCausalLM.from_pretrained(pretrained_model_name_or_path=cfg.model_name, cache_dir=cfg.cache_dir)
+        self.model = self.model.half().to(self.accelerator.device)
+        self.model = self.model.eval()
+
+        self.max_length=cfg.max_length #used for text completion task,
+        self.generate_max_len=cfg.generate_max_len # max seq len to be generated        
+        self.option_num=self.dataset_reader.task.class_num
+
+    def choice_losses(self,input_ids, input_atten_mask, loss_mask, labels):
+        bsz, option_num, seq_len = input_ids.shape
+        if self.option_num is not None: assert option_num == self.option_num
+        with torch.no_grad():
+            output=self.model(input_ids=input_ids.reshape(bsz*option_num, seq_len), 
+                              attention_mask=input_atten_mask.reshape(bsz*option_num, seq_len))
+        
+        targets=input_ids[:,:,1:].unsqueeze(-1)
+        logits=output.logits.reshape(bsz, option_num, seq_len, -1)            
+        logits=logits[:,:, :-1, :]
+        logit_probs= torch.nn.functional.log_softmax(logits.float(), dim=-1)
+
+
+        loss_mask=loss_mask[:,:,1:]
+        loss= -torch.gather(logit_probs, -1, targets).squeeze(-1) * loss_mask
+        loss = loss.sum(-1) / loss_mask.sum(-1)
+
+        preds= torch.argmin(loss, dim=-1)
+        normed_loss = torch.nn.functional.normalize(loss, p=1, dim=-1)
+        labels_losses = torch.gather(normed_loss, -1, labels).squeeze(-1).tolist()
+        accurate_list=(preds==labels.squeeze(-1)).int().tolist()
+
+        return  {
+                "labels_losses": labels_losses,
+                "accurate_list": accurate_list,
+                "preds": preds.tolist(),
+                }
+
+    def completion_losses(self,input_ids,input_atten_mask,labels):
+        with torch.no_grad():
+            answer_start = int(input_atten_mask.shape[-1]) 
+            res = self.model.generate(input_ids=input_ids.squeeze(1), #remove the dim for option_num
+                                        attention_mask=input_atten_mask.squeeze(1),
+                                        eos_token_id=self.dataset_reader.tokenizer.encode("\n")[0],
+                                        pad_token_id=self.dataset_reader.tokenizer.pad_token_id,
+                                        max_length=min(self.max_length,answer_start+self.generate_max_len),
+                                        do_sample=False)
+                        
+        pred_ids=res[:,answer_start:]
+        preds=[]
+        for i in range(len(pred_ids)):
+            pred=self.dataset_reader.tokenizer.decode(pred_ids[i],skip_special_tokens=True)
+            # avoid empty prediction to avoid errors when calculating Rouge metric scores
+            if '\n' not in pred: pred+='\n' 
+            preds.append(pred)
+        compute_metric=metric_dict[self.dataset_reader.task.metric]
+        scores=compute_metric(preds=preds, labels=labels, return_list=True)
+        return  {
+                "labels_losses": [1-score for score in scores],
+                "accurate_list": scores,
+                "preds": preds
+                }
+
+    def completion_logits_loss(self, input_ids, input_atten_mask, loss_mask, labels):
+        input_ids=input_ids.squeeze(1)
+        input_attention_mask=input_atten_mask.squeeze(1)
+        with torch.no_grad():
+            output=self.model(input_ids=input_ids, attention_mask=input_attention_mask)
+
+        pad_mask = torch.nn.functional.pad(labels,(input_ids.shape[-1]-labels.shape[-1]-1,0),value=0)
+        loss_list = sequence_cross_entropy_with_logits(logits=output.logits,
+                                                        targets=entry.input_ids[:,1:],
+                                                        weights=pad_mask,
+                                                        average=None)
+        if len(loss_list.shape)==0:
+            loss_list = loss_list.unsqueeze(0)
+        for mdata, loss in zip(metadata,loss_list):
+            mdata['score'] = float(loss.item())
+
+
+    def forward(self):
+        if self.accelerator.is_main_process:
+            dataloader = tqdm.tqdm(self.dataloader,desc="Scoring")
+        else:
+            dataloader = self.dataloader
+        
+        buffer_path = f"{self.output_train_file}tmp_{self.accelerator.device}.bin"
+        qcid_set=set([])
+        if Path(buffer_path).exists():
+            with BufferedJsonReader(buffer_path) as f:
+                for datas in f.read():
+                    for entry in datas:
+                        qcid = get_qcid(entry)
+                        assert qcid not in qcid_set
+                        qcid_set.add(qcid)
+        if len(qcid_set)>0:
+            logger.info(f'resume from parsed bin with size of {len(qcid_set)}')
+
+        with BufferedJsonWriter(buffer_path) as buffer:
+            for i,entry in enumerate(dataloader): # dict
+                if "stop" in self.cfg and self.cfg.stop==i: # pass stop for debug
+                    break
+                if entry.input_ids.shape[-1]>=self.max_length:
+                    logger.info(f'entry.input_ids.shape: {entry.input_ids.shape}')
+                metadata = entry.pop("metadata")
+                if all([get_qcid(a) in qcid_set for a in metadata]):
+                    continue
+                    
+                if self.dataset_reader.task.class_num==1:
+                    one_shot_res=self.completion_losses(
+                                                    input_ids=entry.input_ids,
+                                                    input_atten_mask=entry.input_atten_mask,
+                                                    labels=[x.pop('temp_label') for x in metadata],
+                                                    )
+                else:
+                    one_shot_res=self.choice_losses(
+                                                    input_ids=entry.input_ids,
+                                                    input_atten_mask=entry.input_atten_mask,
+                                                    loss_mask=entry.input_loss_mask,
+                                                    labels=entry.labels,
+                                                    )
+                one_shot_losses=one_shot_res["labels_losses"]
+                resumed_metadata=[]
+                for i in range(len(metadata)): #bsz
+                    metadata[i]['pred']=one_shot_res["preds"][i]
+                    metadata[i]['loss']=one_shot_losses[i]
+                    metadata[i]['one_shot_acc']=one_shot_res["accurate_list"][i]
+                    qcid = get_qcid(metadata[i])
+                    if qcid not in qcid_set:
+                        resumed_metadata.append(metadata[i])
+                        # qcid_set.add(qcid)
+                buffer.write(resumed_metadata)
+
+    def write_results(self):
+        def split_example(entry):
+            test_example = {}
+            prompt_example = {}
+            for key,val in entry.items():
+                if key.startswith("test_") or key.startswith("have_"):
+                    test_example[key[len("test_"):]] = val
+                else:
+                    prompt_example[key] = val
+            return test_example, prompt_example
+        
+        data = []
+        for path in glob.glob(f"{self.output_train_file}tmp_*.bin"):
+            with BufferedJsonReader(path) as f:
+                for x in f.read():
+                    data.extend(x) 
+        logger.info('len(data): %d', len(data))
+
+        qid2info = {}
+        one_shot_true=0
+        for entry in data:
+            qid = get_qid(entry)
+            if qid not in qid2info:
+                test_example, prompt_example = split_example(entry)
+                test_example['ctxs'] = [prompt_example]
+                qid2info[qid] = test_example
+            else:
+                _, prompt_example = split_example(entry)
+                qid2info[qid]['ctxs'].append(prompt_example)
+            one_shot_true+=prompt_example["one_shot_acc"]
+
+        logger.info('task name: %s', self.cfg.task_name)
+        logger.info('one_shot_acc: %f', one_shot_true/len(data))
+
+        first_rank_true=0
+        example_list = list(qid2info.values())
+        for entry in example_list:
+            entry['task_name']=self.cfg.task_name
+            # rank loss from low to high, the lower the loss, the higher the efficiency of prompt
+            entry['ctxs'] = sorted(entry['ctxs'],key = lambda x: x['loss']) 
+
+            # check whether the first-ranked prompt can lead to the gold prediction
+            first_rank_true+=entry['ctxs'][0]["one_shot_acc"]
+
+        logger.info('len(example_list): %d',len(example_list))
+        logger.info('first_rank_acc: %f', first_rank_true/len(example_list))
+        # split the scored data to 90% : 10% for training and validation respectively
+        random.Random(42).shuffle(example_list)
+        split_ratio=0.9
+        n_train=int(len(example_list)*split_ratio)
+        with open(self.output_train_file,"w") as writer:
+            writer.write(json.dumps(example_list[:n_train], indent=4) + "\n")
+        with open(self.output_valid_file,"w") as writer:
+            writer.write(json.dumps(example_list[n_train:], indent=4) + "\n")
+        for path in glob.glob(f"{self.output_train_file}tmp_*.bin"):
+            os.remove(path)
+            
+def get_qid(entry):
+    qid = ""
+    if "have_choosen" in entry: 
+        for id in entry['have_choosen']: qid += str(id) + "+"
+    qid += str(entry['test_id'])
+    return qid
+
+def get_qcid(mitem):
+    qid = get_qid(mitem)
+    cid = mitem["id"]
+    qcid = (qid,cid)
+    return qcid
+
+@hydra.main(config_path="../configs",config_name="scorer")
+def main(cfg):
+    logger.info(cfg)
+    if Path(cfg.output_train_file).exists() and Path(cfg.output_valid_file).exists():
+        print(f"SKIP existed files: {cfg.output_train_file}, {cfg.output_valid_file}")
+        return
+    accelerator = Accelerator()
+    scorer = Scorer(cfg, accelerator)
+    scorer.forward()
+    accelerator.wait_for_everyone()
+    if accelerator.is_main_process:
+        scorer.write_results()
+
+if __name__ == "__main__":
+    main()
+

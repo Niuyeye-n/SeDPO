@@ -1,1 +1,84 @@
-IyEvYmluL2Jhc2gKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQojIFNlRFBPIOWunumqjOiHquWKqOW3oeajgO+8iDIwMjYtMTEtMDXvvIkKIyDkvZznlKjvvJrlrprmnJ/mo4Dmn6Xlrp7pqozlgaXlurfluqbvvJvlj5HnjrDjgIzov5vnqIvmrbvkuobkvYbnvJbmjpLmsqHpgIDlh7rjgI3ml7boh6rliqjmi4notbfvvJsKIyAgICAgICDno4Hnm5jkuI3otrPml7bmuIXnkIbvvJvmiormr4/mrKHlt6Hmo4Dlv6vnhaflhpnov5vml6Xlv5fkvr/kuo7lm57muq/jgIIKIwojIOiuvuiuoeimgeeCue+8iOmSiOWvueW3sui4qei/h+eahOWdke+8ie+8mgojICAgMS4g5LiN5L2/55SoIHdoaWxlK3NsZWVwIOaXoOmZkOW+queOr++8iOmBv+WFjeaIkOS4uiBQUElEPTEg55qE5a2k5YS/5a6I5oqk6L+b56iL77yJ77yMCiMgICAgICDmlLnkuLrmnInpmZDova7mrKEgKyDlpJbpg6ggY3JvbiDop6blj5HjgIIKIyAgIDIuIOWPqumHjeWQr+OAjOe8luaOkuiEmuacrOW3suatu+S9hiBHUFUg56m66Zey44CN55qE5oOF5Ya177yM57ud5LiN6YeN5ZCv5q2j5Zyo5q2j5bi46LeR55qE5omT5YiG44CCCiMgICAzLiDmr4/mrKHliqjkvZzpg73orrDml6Xlv5fvvIzlh7rpl67popjog73mn6XjgIIKIwojIOeUqOazlTogYmFzaCAvcm9vdC9hdXRvZGwtdG1wL3dhdGNoZG9nX3YzLnNoIFvova7mlbBdIFvpl7TpmpTnp5JdCiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0Kc2V0IC11CgpSRVBPPS9yb290L2F1dG9kbC10bXAvU2VEUE9fTklQUzI1ClJFU1VMVFM9JFJFUE8vcmVzdWx0c19zZWRwb192MwpMT0c9L3Jvb3QvYXV0b2RsLXRtcC93YXRjaGRvZ192My5sb2cKUk9VTkRTPSR7MTotMjg4MH0gICAgICAgICAgIyAyODgwIOi9riDDlyA2MHMg4omIIDQ4IOWwj+aXtgpJTlRFUlZBTD0kezI6LTYwfQoKbWtkaXIgLXAgL3Jvb3QvYXV0b2RsLXRtcAoKbG9nKCkgewogICAgZWNobyAiWyQoZGF0ZSArJVktJW0tJWRfJUg6JU06JVMpXSAkKiIgPj4gJExPRwp9Cgpsb2cgIj09PT09IHdhdGNoZG9nX3YzIOWQr+WKqCAocm91bmRzPSRST1VORFMgaW50ZXJ2YWw9JHtJTlRFUlZBTH1zKSA9PT09PSIKCmZvciByIGluICQoc2VxIDEgJFJPVU5EUyk7IGRvCiAgICAjIC0tLS0gMS4g56OB55uY5a6I5oqk77ya5L2O5LqOIDNHIOaXtua4heeQhuW3suWujOaIkOeahCBtb2RlbCDnm67lvZUgLS0tLQogICAgQVZBSUw9JChkZiAtQkcgL3Jvb3QvYXV0b2RsLXRtcCB8IHRhaWwgLTEgfCBhd2sgJ3tnc3ViKCJHIiwiIiwkNCk7IHByaW50ICQ0fScpCiAgICBpZiBbICIke0FWQUlMOi0wfSIgLWx0IDMgXTsgdGhlbgogICAgICAgIGxvZyAiW+ejgeebmF0g5LuF5YmpICR7QVZBSUx9RyDihpIg5riF55CG5bey5a6M5oiQ55qEIG1vZGVsIOebruW9lSIKICAgICAgICBmaW5kICRSRVBPL215X2RhdGFfcXdlbi9leHBlcmltZW50X3NlZHBvXyovIC1tYXhkZXB0aCAyIC10eXBlIGQgLW5hbWUgbW9kZWwgXAogICAgICAgICAgICAgLWV4ZWMgcm0gLXJmIHt9ICsgMj4vZGV2L251bGwKICAgICAgICAjIOWGjeS4jeWkn+Wwsea4hSBlcG9jaCBjaGVja3BvaW5077yI5Y+q55WZIGJlc3RfdmFsaWTvvIkKICAgICAgICBmaW5kICRSRVBPL215X2RhdGFfcXdlbi9leHBlcmltZW50X3NlZHBvXyovIC1tYXhkZXB0aCAzIC1uYW1lICdkcHJfYmllbmNvZGVyLlswLTldKicgXAogICAgICAgICAgICAgLWRlbGV0ZSAyPi9kZXYvbnVsbAogICAgICAgIEFWQUlMPSQoZGYgLUJHIC9yb290L2F1dG9kbC10bXAgfCB0YWlsIC0xIHwgYXdrICd7Z3N1YigiRyIsIiIsJDQpOyBwcmludCAkNH0nKQogICAgICAgIGxvZyAiW+ejgeebmF0g5riF55CG5ZCO5Ymp5L2ZICR7QVZBSUx9RyIKICAgIGZpCgogICAgIyAtLS0tIDIuIOWBpeW6t+ajgOafpe+8mue8luaOkui/m+eoi+aYr+WQpui/mOa0u+edgCAtLS0tCiAgICBSVU5ORVI9JChwcyAtZW8gcGlkLGNtZCB8IGdyZXAgJ3J1bl9zZWRwb192My5zaCcgfCBncmVwIC12IGdyZXAgfCBoZWFkIC0xIHwgYXdrICd7cHJpbnQgJDF9JykKICAgIFdPUktFUj0kKHBzIC1lbyBwaWQsY21kIHwgZ3JlcCAtRSAnc2NvcmVyLnB5fHRyYWluX2RlbnNlX2VuY29kZXIucHl8aW5mZXJlbmNlLnB5JyB8IGdyZXAgLXYgZ3JlcCB8IGhlYWQgLTEgfCBhd2sgJ3twcmludCAkMX0nKQoKICAgIGlmIFsgLXogIiRSVU5ORVIiIF07IHRoZW4KICAgICAgICAjIOe8luaOkuW3sumAgOWHuu+8muWMuuWIhuOAjOWFqOmDqOWujOaIkOOAjeS4juOAjOS4remAlOatu+aOieOAjQogICAgICAgIERPTkU9JChncmVwIC1jICIjIOWFqOmDqOe7k+adnyIgJFJFU1VMVFMvLi4vc2VkcG9fdjMubG9nIDI+L2Rldi9udWxsIHx8IGVjaG8gMCkKICAgICAgICBpZiBbICIke0RPTkU6LTB9IiAtZ3QgMCBdOyB0aGVuCiAgICAgICAgICAgIGxvZyAiW+WujOaIkF0g57yW5o6S5bey5q2j5bi457uT5p2f77yI5qOA5rWL5YiwJ+WFqOmDqOe7k+adnyfmoIforrDvvInvvIzpgIDlh7rlt6Hmo4AiCiAgICAgICAgICAgIGJyZWFrCiAgICAgICAgZmkKICAgICAgICAjIOS4remAlOatu+aOiSDihpIg5qOA5p+lIEdQVSDmmK/lkKbnqbrpl7LvvIznqbrpl7LliJnph43lkK8KICAgICAgICBVU0VEPSQobnZpZGlhLXNtaSAtLXF1ZXJ5LWdwdT1tZW1vcnkudXNlZCAtLWZvcm1hdD1jc3Ysbm9oZWFkZXIsbm91bml0cyB8IGhlYWQgLTEpCiAgICAgICAgaWYgWyAiJHtVU0VEOi05OTk5fSIgLWx0IDUwMCBdOyB0aGVuCiAgICAgICAgICAgIGxvZyAiW+W8guW4uF0g57yW5o6S5bey5q275LiUIEdQVSDnqbrpl7IoJHtVU0VEfU1pQikg4oaSIOiHquWKqOmHjeWQryIKICAgICAgICAgICAgY2QgL3Jvb3QvYXV0b2RsLXRtcCAmJiBzZXRzaWQgbm9odXAgYmFzaCBydW5fc2VkcG9fdjMuc2ggXAogICAgICAgICAgICAgICAgPj4gL3Jvb3QvYXV0b2RsLXRtcC9zZWRwb192My5sb2cgMj4mMSA8IC9kZXYvbnVsbCAmCiAgICAgICAgICAgIHNsZWVwIDMwCiAgICAgICAgICAgIGxvZyAiW+W8guW4uF0g6YeN5ZCv5a6M5oiQIgogICAgICAgIGVsc2UKICAgICAgICAgICAgbG9nICJb5byC5bi4XSDnvJbmjpLlt7LmrbvkvYYgR1BVIOS7jeWNoOeUqCgke1VTRUR9TWlCKSDihpIg5LiN6YeN5ZCv77yM562J5b6F5a2Q6L+b56iL5pS25bC+IgogICAgICAgIGZpCiAgICBlbGlmIFsgLXogIiRXT1JLRVIiIF07IHRoZW4KICAgICAgICAjIOe8luaOkua0u+edgOS9huayoeacieW3peS9nOi/m+eoiyDihpIg5Y+v6IO95Y2h5Zyo6Zi25q615YiH5o2i77yM5Yqg5pel5b+X5L2G5LiN6YeN5ZCvCiAgICAgICAgbG9nICJb6KeC5a+fXSDnvJbmjpLlrZjmtLvkvYbmmoLml6Dlt6XkvZzov5vnqIvvvIjlj6/og73lnKjpmLbmrrXliIfmjaIv6aKE5aSE55CG77yJIgogICAgZmkKCiAgICAjIC0tLS0gMy4g57uT5p6c6Ieq5Yqo5YWl6KGo77ya5q+P6L2u5qOA5p+l5piv5ZCm5pyJ5paw5a6M5oiQ55qE57uE77yM5bmC562J6L+95Yqg6L+bIHJ1bnNfbG9nLmNzdiAtLS0tCiAgICBpZiBbIC1mICRSRVBPLzIwMjYxMTA1X2FwcGVuZF9yZXN1bHRzLnB5IF07IHRoZW4KICAgICAgICBBUFA9JCgvcm9vdC9hdXRvZGwtdG1wL2VudnMvc2VfZHBvL2Jpbi9weXRob24gJFJFUE8vMjAyNjExMDVfYXBwZW5kX3Jlc3VsdHMucHkgXAogICAgICAgICAgICAgICRSRVNVTFRTICRSRVBPL2V4cGVyaW1lbnRfbG9nL3J1bnNfbG9nLmNzdiAyPiYxKQogICAgICAgIGNhc2UgIiRBUFAiIGluCiAgICAgICAgICAgICoiW09LXSDlt7Lov73liqAiKikgbG9nICJb5YWl6KGoXSAkQVBQIiA7OwogICAgICAgIGVzYWMKICAgIGZpCgogICAgc2xlZXAgJElOVEVSVkFMCmRvbmUKCmxvZyAiPT09PT0gd2F0Y2hkb2dfdjMg57uT5p2fID09PT09Igo=
+#!/bin/bash
+# =============================================================================
+# SeDPO 实验自动巡检（2026-11-05）
+# 作用：定期检查实验健康度；发现「进程死了但编排没退出」时自动拉起；
+#       磁盘不足时清理；把每次巡检快照写进日志便于回溯。
+#
+# 设计要点（针对已踩过的坑）：
+#   1. 不使用 while+sleep 无限循环（避免成为 PPID=1 的孤儿守护进程），
+#      改为有限轮次 + 外部 cron 触发。
+#   2. 只重启「编排脚本已死但 GPU 空闲」的情况，绝不重启正在正常跑的打分。
+#   3. 每次动作都记日志，出问题能查。
+#
+# 用法: bash /root/autodl-tmp/watchdog_v3.sh [轮数] [间隔秒]
+# =============================================================================
+set -u
+
+REPO=/root/autodl-tmp/SeDPO_NIPS25
+RESULTS=$REPO/results_sedpo_v3
+LOG=/root/autodl-tmp/watchdog_v3.log
+ROUNDS=${1:-2880}          # 2880 轮 × 60s ≈ 48 小时
+INTERVAL=${2:-60}
+
+mkdir -p /root/autodl-tmp
+
+log() {
+    echo "[$(date +%Y-%m-%d_%H:%M:%S)] $*" >> $LOG
+}
+
+log "===== watchdog_v3 启动 (rounds=$ROUNDS interval=${INTERVAL}s) ====="
+
+for r in $(seq 1 $ROUNDS); do
+    # ---- 1. 磁盘守护：低于 3G 时清理已完成的 model 目录 ----
+    AVAIL=$(df -BG /root/autodl-tmp | tail -1 | awk '{gsub("G","",$4); print $4}')
+    if [ "${AVAIL:-0}" -lt 3 ]; then
+        log "[磁盘] 仅剩 ${AVAIL}G → 清理已完成的 model 目录"
+        find $REPO/my_data_qwen/experiment_sedpo_*/ -maxdepth 2 -type d -name model \
+             -exec rm -rf {} + 2>/dev/null
+        # 再不够就清 epoch checkpoint（只留 best_valid）
+        find $REPO/my_data_qwen/experiment_sedpo_*/ -maxdepth 3 -name 'dpr_biencoder.[0-9]*' \
+             -delete 2>/dev/null
+        AVAIL=$(df -BG /root/autodl-tmp | tail -1 | awk '{gsub("G","",$4); print $4}')
+        log "[磁盘] 清理后剩余 ${AVAIL}G"
+    fi
+
+    # ---- 2. 健康检查：编排进程是否还活着 ----
+    RUNNER=$(ps -eo pid,cmd | grep 'run_sedpo_v3.sh' | grep -v grep | head -1 | awk '{print $1}')
+    WORKER=$(ps -eo pid,cmd | grep -E 'scorer.py|train_dense_encoder.py|inference.py' | grep -v grep | head -1 | awk '{print $1}')
+
+    if [ -z "$RUNNER" ]; then
+        # 编排已退出：区分「全部完成」与「中途死掉」
+        DONE=$(grep -c "# 全部结束" $RESULTS/../sedpo_v3.log 2>/dev/null || echo 0)
+        if [ "${DONE:-0}" -gt 0 ]; then
+            log "[完成] 编排已正常结束（检测到'全部结束'标记），退出巡检"
+            break
+        fi
+        # 中途死掉 → 检查 GPU 是否空闲，空闲则重启
+        USED=$(nvidia-smi --query-gpu=memory.used --format=csv,noheader,nounits | head -1)
+        if [ "${USED:-9999}" -lt 500 ]; then
+            log "[异常] 编排已死且 GPU 空闲(${USED}MiB) → 自动重启"
+            cd /root/autodl-tmp && setsid nohup bash run_sedpo_v3.sh \
+                >> /root/autodl-tmp/sedpo_v3.log 2>&1 < /dev/null &
+            sleep 30
+            log "[异常] 重启完成"
+        else
+            log "[异常] 编排已死但 GPU 仍占用(${USED}MiB) → 不重启，等待子进程收尾"
+        fi
+    elif [ -z "$WORKER" ]; then
+        # 编排活着但没有工作进程 → 可能卡在阶段切换，加日志但不重启
+        log "[观察] 编排存活但暂无工作进程（可能在阶段切换/预处理）"
+    fi
+
+    # ---- 3. 结果自动入表：每轮检查是否有新完成的组，幂等追加进 runs_log.csv ----
+    if [ -f $REPO/20261105_append_results.py ]; then
+        APP=$(/root/autodl-tmp/envs/se_dpo/bin/python $REPO/20261105_append_results.py \
+              $RESULTS $REPO/experiment_log/runs_log.csv 2>&1)
+        case "$APP" in
+            *"[OK] 已追加"*) log "[入表] $APP" ;;
+        esac
+    fi
+
+    sleep $INTERVAL
+done
+
+log "===== watchdog_v3 结束 ====="

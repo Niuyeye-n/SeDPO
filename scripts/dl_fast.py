@@ -1,1 +1,349 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwojIC0qLSBjb2Rpbmc6IHV0Zi04IC0qLQoiIiIKTW9kZWxTY29wZSDliIblnZfnu63kvKDkuIvovb3lmajvvIjlsLHlnLDov73liqDvvIzoioLnnIHno4Hnm5jvvInjgIIKCuiuvuiuoeimgeeCue+8mgogIDEpIOWkjeeUqOacrOWcsOW3suS4i+i9veeahOacieaViOWJjee8gO+8iOeUsSBmaW5kX3ByZWZpeC5weSDmoIflrpogLnByZWZpeO+8ie+8jOS4jeS7juWktOmHjeS4i++8mwogIDIpIOWJqeS9memDqOWIhuWIh+aIkCAxMjhNQiDlnZfvvIzlubblj5HkuIvovb3liLDni6znq4vkuLTml7bmlofku7bvvIzlnZflhoXkuKXmoLzmoKHpqozlrZfoioLmlbDvvJsKICAzKSDmjInluo8gYXBwZW5kIOi/m+ebruagh+aWh+S7tuW5tueri+WIu+WIoOmZpOS4tOaXtuWdlyDigJTigJQg5bOw5YC86aKd5aSW56OB55uY5LuFIOKJiCDlubblj5HmlbDDl+Wdl+Wkp+Wwj++8mwogIDQpIOWFqOmDqOWIhueJh+WujOaIkOWQjueUqCBNb2RlbFNjb3BlIOWumOaWuSBTaGEyNTYg5YGa5pW05paH5Lu25qCh6aqM44CCCgrnlKjms5XvvJoKICBweXRob24gZGxfZmFzdC5weSAtLXJlcG8gUXdlbi9Rd2VuMi41LTdCIC0tZGVzdCAvcm9vdC9hdXRvZGwtdG1wL21vZGVscy9xd2VuMi41LTdiIFwKICAgICAgLS1zaGFyZHMgbW9kZWwtMDAwMDEtb2YtMDAwMDQuc2FmZXRlbnNvcnMsLi4uIC0tdGhyZWFkcyA4IC0tY2h1bmstbWIgMTI4CiIiIgppbXBvcnQgYXJncGFyc2UKaW1wb3J0IGhhc2hsaWIKaW1wb3J0IGpzb24KaW1wb3J0IG9zCmltcG9ydCBzdWJwcm9jZXNzCmltcG9ydCBzeXMKaW1wb3J0IHRpbWUKaW1wb3J0IHVybGxpYi5yZXF1ZXN0CmZyb20gY29uY3VycmVudC5mdXR1cmVzIGltcG9ydCBUaHJlYWRQb29sRXhlY3V0b3IKCk1TX1VSTCA9ICJodHRwczovL3d3dy5tb2RlbHNjb3BlLmNuL2FwaS92MS9tb2RlbHMve3JlcG99L3JlcG8/UmV2aXNpb249bWFzdGVyJkZpbGVQYXRoPXtmaWxlfSIKCgpkZWYgbG9nKG1zZyk6CiAgICBwcmludChmIlt7dGltZS5zdHJmdGltZSgnJUg6JU06JVMnKX1dIHttc2d9IiwgZmx1c2g9VHJ1ZSkKCgpkZWYgdXJsX2ZvcihyZXBvLCBmbmFtZSk6CiAgICByZXR1cm4gTVNfVVJMLmZvcm1hdChyZXBvPXJlcG8sIGZpbGU9Zm5hbWUpCgoKZGVmIGhlYWRfc2l6ZShyZXBvLCBmbmFtZSk6CiAgICBmb3IgXyBpbiByYW5nZSg1KToKICAgICAgICByID0gc3VicHJvY2Vzcy5ydW4oWyJjdXJsIiwgIi1zSUwiLCAiLS1tYXgtdGltZSIsICI0MCIsIHVybF9mb3IocmVwbywgZm5hbWUpXSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgY2FwdHVyZV9vdXRwdXQ9VHJ1ZSwgdGV4dD1UcnVlKQogICAgICAgIHNpemVzID0gW10KICAgICAgICBmb3IgbGluZSBpbiByLnN0ZG91dC5zcGxpdGxpbmVzKCk6CiAgICAgICAgICAgIGlmIGxpbmUubG93ZXIoKS5zdGFydHN3aXRoKCJjb250ZW50LWxlbmd0aCIpOgogICAgICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgICAgIHNpemVzLmFwcGVuZChpbnQobGluZS5zcGxpdCgiOiIsIDEpWzFdLnN0cmlwKCkpKQogICAgICAgICAgICAgICAgZXhjZXB0IFZhbHVlRXJyb3I6CiAgICAgICAgICAgICAgICAgICAgcGFzcwogICAgICAgIGlmIHNpemVzOgogICAgICAgICAgICByZXR1cm4gbWF4KHNpemVzKQogICAgICAgIHRpbWUuc2xlZXAoMykKICAgIHJldHVybiBOb25lCgoKZGVmIGZldGNoX3JhbmdlKHJlcG8sIGZuYW1lLCBzdGFydCwgZW5kLCB0bXAsIHRyaWVzPTIwKToKICAgICIiIuS4i+i9vSBbc3RhcnQsZW5kXSDliLAgdG1w77yM5qCh6aqM5a2X6IqC5pWw77yb5aSx6LSl6YeN6K+V77yI5Z2X57qn77yM5LiN6YeN5LiL5pW05paH5Lu277yJ44CCIiIiCiAgICBleHBlY3QgPSBlbmQgLSBzdGFydCArIDEKICAgIGZvciBhdHRlbXB0IGluIHJhbmdlKDEsIHRyaWVzICsgMSk6CiAgICAgICAgaWYgb3MucGF0aC5leGlzdHModG1wKSBhbmQgb3MucGF0aC5nZXRzaXplKHRtcCkgPT0gZXhwZWN0OgogICAgICAgICAgICByZXR1cm4gVHJ1ZQogICAgICAgIGlmIG9zLnBhdGguZXhpc3RzKHRtcCk6CiAgICAgICAgICAgIG9zLnJlbW92ZSh0bXApCiAgICAgICAgciA9IHN1YnByb2Nlc3MucnVuKAogICAgICAgICAgICBbImN1cmwiLCAiLXNTTCIsICItLXJldHJ5IiwgIjQiLCAiLS1yZXRyeS1kZWxheSIsICIzIiwgIi0tcmV0cnktYWxsLWVycm9ycyIsCiAgICAgICAgICAgICAiLXIiLCBmIntzdGFydH0te2VuZH0iLCAiLW8iLCB0bXAsICItdyIsICIle2h0dHBfY29kZX0iLCB1cmxfZm9yKHJlcG8sIGZuYW1lKV0sCiAgICAgICAgICAgIGNhcHR1cmVfb3V0cHV0PVRydWUsIHRleHQ9VHJ1ZSkKICAgICAgICBjb2RlID0gci5zdGRvdXQuc3RyaXAoKVstMzpdIGlmIHIuc3Rkb3V0LnN0cmlwKCkgZWxzZSAiMDAwIgogICAgICAgIGdvdCA9IG9zLnBhdGguZ2V0c2l6ZSh0bXApIGlmIG9zLnBhdGguZXhpc3RzKHRtcCkgZWxzZSAwCiAgICAgICAgaWYgZ290ID09IGV4cGVjdCBhbmQgY29kZSBpbiAoIjIwNiIsICIyMDAiKToKICAgICAgICAgICAgcmV0dXJuIFRydWUKICAgICAgICBsb2coZiIgICAg5Z2XW3tzdGFydH0te2VuZH1dIOesrHthdHRlbXB0feasoeWksei0pSBjb2RlPXtjb2RlfSB7Z290fS97ZXhwZWN0fe+8jOmHjeivlSIpCiAgICAgICAgdGltZS5zbGVlcCg0KQogICAgcmV0dXJuIEZhbHNlCgoKZGVmIHNoYTI1Nl9vZihwYXRoKToKICAgIGggPSBoYXNobGliLnNoYTI1NigpCiAgICB3aXRoIG9wZW4ocGF0aCwgInJiIikgYXMgZjoKICAgICAgICB3aGlsZSBUcnVlOgogICAgICAgICAgICBiID0gZi5yZWFkKDEgPDwgMjQpCiAgICAgICAgICAgIGlmIG5vdCBiOgogICAgICAgICAgICAgICAgYnJlYWsKICAgICAgICAgICAgaC51cGRhdGUoYikKICAgIHJldHVybiBoLmhleGRpZ2VzdCgpCgoKZGVmIG9mZmljaWFsX3NoYShyZXBvKToKICAgICIiIuWPliBNb2RlbFNjb3BlIOWumOaWuSBTaGEyNTYg5pig5bCE44CCIiIiCiAgICBhcGkgPSBmImh0dHBzOi8vd3d3Lm1vZGVsc2NvcGUuY24vYXBpL3YxL21vZGVscy97cmVwb30vcmVwby9maWxlcz9SZXZpc2lvbj1tYXN0ZXIiCiAgICB0cnk6CiAgICAgICAgd2l0aCB1cmxsaWIucmVxdWVzdC51cmxvcGVuKGFwaSwgdGltZW91dD02MCkgYXMgcjoKICAgICAgICAgICAgZGF0YSA9IGpzb24ubG9hZHMoci5yZWFkKCkuZGVjb2RlKCkpCiAgICAgICAgb3V0ID0ge30KICAgICAgICBmb3IgZiBpbiBkYXRhWyJEYXRhIl1bIkZpbGVzIl06CiAgICAgICAgICAgIGlmIGYuZ2V0KCJTaGEyNTYiKToKICAgICAgICAgICAgICAgIG91dFtmWyJQYXRoIl1dID0gZlsiU2hhMjU2Il0KICAgICAgICByZXR1cm4gb3V0CiAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGV4YzogICMgbm9xYTogQkxFMDAxCiAgICAgICAgbG9nKGYiW1dBUk5dIOWPluWumOaWuSBzaGEyNTYg5aSx6LSlOiB7ZXhjfSIpCiAgICAgICAgcmV0dXJuIHt9CgoKZGVmIHBpY2tfYmFzZShkZXN0LCBmbmFtZSwgY2FuZGlkYXRlcyk6CiAgICAiIiLlnKjlgJnpgInmlofku7bkuK3mjJHmnInmlYjliY3nvIDmnIDplb/nmoTpgqPkuKrkvZzkuLrnu63kvKDln7rluqfjgIIiIiIKICAgIGJlc3QgPSBOb25lCiAgICBmb3IgYyBpbiBjYW5kaWRhdGVzOgogICAgICAgIHAgPSBvcy5wYXRoLmpvaW4oZGVzdCwgYykKICAgICAgICBpZiBub3Qgb3MucGF0aC5leGlzdHMocCk6CiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgcGZ4X2ZpbGUgPSBwICsgIi5wcmVmaXgiCiAgICAgICAgcGZ4ID0gTm9uZQogICAgICAgIGlmIG9zLnBhdGguZXhpc3RzKHBmeF9maWxlKToKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgcGZ4ID0gaW50KG9wZW4ocGZ4X2ZpbGUpLnJlYWQoKS5zdHJpcCgpKQogICAgICAgICAgICBleGNlcHQgVmFsdWVFcnJvcjoKICAgICAgICAgICAgICAgIHBmeCA9IE5vbmUKICAgICAgICBpZiBwZnggaXMgTm9uZToKICAgICAgICAgICAgcGZ4ID0gb3MucGF0aC5nZXRzaXplKHApICAjIOaXoOaJq+aPj+e7k+aenOaXtuS/neWuiOiupOS4uuaVtOS9k+acieaViAogICAgICAgIGlmIGJlc3QgaXMgTm9uZSBvciBwZnggPiBiZXN0WzFdOgogICAgICAgICAgICBiZXN0ID0gKHAsIHBmeCkKICAgIHJldHVybiBiZXN0CgoKZGVmIHZlcmlmeV9wcmVmaXhfYm91bmRhcnkocmVwbywgcGF0aCwgcGZ4LCBmbmFtZSwgcHJvYmU9MSA8PCAyMCk6CiAgICAiIiIKICAgIOiHquagoemqjOWJjee8gOi+ueeVjO+8muavlOWvueacrOWcsCBbcGZ4LXByb2JlLCBwZngpIOS4jua6kOWQjOWMuumXtOOAggogICAg5LiN5LiA6Ie06K+05piOIC5wcmVmaXgg5qCH5a6a5LiN5Y+v5L+h77yI5pen55qE5LqM5YiG5rOV5ZyoIuWMuumXtOmUmeS9jSLlnLrmma/kuIvkvJrpq5jkvLDvvInvvIwKICAgIOatpOaXtueUqOS6jOWIhuWQkeS4i+aUtue8qeWIsOecn+WunuacieaViOmVv+W6pu+8jOe7neS4jeaKiuaNn+Wdj+Wtl+iKguW4pui/m+acgOe7iOaWh+S7tuOAggogICAg6L+U5Zue5Y+v5L+h55qEIHBmeOOAggogICAgIiIiCiAgICBpZiBwZnggPD0gMDoKICAgICAgICByZXR1cm4gMAogICAgbG9jYWwgPSBvcy5wYXRoLmdldHNpemUocGF0aCkKICAgIGhpID0gbWluKHBmeCwgbG9jYWwpCiAgICB3aGlsZSBoaSA+IDA6CiAgICAgICAgcyA9IG1heCgwLCBoaSAtIHByb2JlKQogICAgICAgIHJlZiA9IGZldGNoX3JhbmdlX2J5dGVzKHJlcG8sIGZuYW1lLCBzLCBoaSAtIDEpCiAgICAgICAgaWYgcmVmIGlzIE5vbmU6CiAgICAgICAgICAgICMg572R57uc5o6i5rWL5aSx6LSl77ya5L+d5a6I6K6k5Li6IGhpIOS5i+WJjeeahOS4jeWPr+S/oe+8jOmAgOWIsCAwCiAgICAgICAgICAgIGxvZyhmIiAgICBb6L6555WM5qCh6aqMXSDmjqLmtYvlpLHotKXvvIzpgIDlm54gMCIpCiAgICAgICAgICAgIHJldHVybiAwCiAgICAgICAgd2l0aCBvcGVuKHBhdGgsICJyYiIpIGFzIGY6CiAgICAgICAgICAgIGYuc2VlayhzKQogICAgICAgICAgICBnb3QgPSBmLnJlYWQoaGkgLSBzKQogICAgICAgIGlmIGdvdCA9PSByZWY6CiAgICAgICAgICAgIHJldHVybiBoaQogICAgICAgICMg5Z2P5Yy66Ze05Zyo6L+Z5LiA5q615YaF77yM5LqM5YiG5pS257ypCiAgICAgICAgbG8gPSBzCiAgICAgICAgd2hpbGUgbG8gPCBoaToKICAgICAgICAgICAgbWlkID0gKGxvICsgaGkpIC8vIDIKICAgICAgICAgICAgczIgPSBtYXgoMCwgbWlkIC0gcHJvYmUpCiAgICAgICAgICAgIHJlZjIgPSBmZXRjaF9yYW5nZV9ieXRlcyhyZXBvLCBmbmFtZSwgczIsIG1pZCAtIDEpCiAgICAgICAgICAgIGlmIHJlZjIgaXMgTm9uZToKICAgICAgICAgICAgICAgIHJldHVybiAwCiAgICAgICAgICAgIHdpdGggb3BlbihwYXRoLCAicmIiKSBhcyBmOgogICAgICAgICAgICAgICAgZi5zZWVrKHMyKQogICAgICAgICAgICAgICAgZ290MiA9IGYucmVhZChtaWQgLSBzMikKICAgICAgICAgICAgaWYgZ290MiA9PSByZWYyOgogICAgICAgICAgICAgICAgbG8gPSBtaWQKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIGhpID0gbWlkCiAgICAgICAgaGkgPSBsbwogICAgcmV0dXJuIDAKCgpkZWYgZmV0Y2hfcmFuZ2VfYnl0ZXMocmVwbywgZm5hbWUsIHN0YXJ0LCBlbmQsIHRyaWVzPTUpOgogICAgZm9yIF8gaW4gcmFuZ2UodHJpZXMpOgogICAgICAgIHAgPSBzdWJwcm9jZXNzLnJ1bigKICAgICAgICAgICAgWyJjdXJsIiwgIi1zU0wiLCAiLS1tYXgtdGltZSIsICIxMjAiLCAiLXIiLCBmIntzdGFydH0te2VuZH0iLAogICAgICAgICAgICAgdXJsX2ZvcihyZXBvLCBmbmFtZSldLCBjYXB0dXJlX291dHB1dD1UcnVlKQogICAgICAgIGlmIHAucmV0dXJuY29kZSA9PSAwIGFuZCBsZW4ocC5zdGRvdXQpID09IGVuZCAtIHN0YXJ0ICsgMToKICAgICAgICAgICAgcmV0dXJuIHAuc3Rkb3V0CiAgICByZXR1cm4gTm9uZQoKCmRlZiBkb19zaGFyZChyZXBvLCBmbmFtZSwgZGVzdCwgY2h1bmssIHRocmVhZHMsIGhhc2hlcywgZm9yY2VfZnJlc2gpOgogICAgb3V0ID0gb3MucGF0aC5qb2luKGRlc3QsIGZuYW1lKQogICAgc2l6ZSA9IGhlYWRfc2l6ZShyZXBvLCBmbmFtZSkKICAgIGlmIHNpemUgaXMgTm9uZToKICAgICAgICBsb2coZiJbRkFJTC1IRUFEXSB7Zm5hbWV9IikKICAgICAgICByZXR1cm4gRmFsc2UKCiAgICBpZiBvcy5wYXRoLmV4aXN0cyhvdXQpIGFuZCBvcy5wYXRoLmdldHNpemUob3V0KSA9PSBzaXplOgogICAgICAgIGxvZyhmIltTS0lQXSB7Zm5hbWV9IOW3suaYr+WujOaVtOWwuuWvuO+8jOagoemqjCBzaGEyNTYiKQogICAgICAgIHJldHVybiB2ZXJpZnkob3V0LCBmbmFtZSwgc2l6ZSwgaGFzaGVzKQoKICAgIGxvZyhmIltJTkZPXSB7Zm5hbWV9IOaAu+Wkp+WwjyB7c2l6ZX0g5a2X6IqCICh7c2l6ZS8xMDI0LzEwMjQ6LjFmfSBNQikiKQoKICAgIGJhc2UgPSBOb25lCiAgICBpZiBub3QgZm9yY2VfZnJlc2g6CiAgICAgICAgY2FuZHMgPSBbZm5hbWUsIGZuYW1lICsgIi5wYXJ0MCIsIGZuYW1lICsgIi5wYXJ0MSIsIGZuYW1lICsgIi5wYXJ0MiIsIGZuYW1lICsgIi5wYXJ0MyJdCiAgICAgICAgYmFzZSA9IHBpY2tfYmFzZShkZXN0LCBmbmFtZSwgY2FuZHMpCiAgICBpZiBiYXNlIGlzIE5vbmU6CiAgICAgICAgYmFzZSA9IChvdXQsIDApCiAgICBiYXNlX3BhdGgsIHBmeCA9IGJhc2UKICAgIGlmIHBmeCA+IHNpemU6CiAgICAgICAgcGZ4ID0gMAoKICAgICMg57uf5LiA5YiwIG91dCDkvZzkuLrln7rluqfvvJroi6Xln7rluqfmmK8gcGFydCDmlofku7bvvIzlhYjmkKzov4fmnaUKICAgIGlmIGJhc2VfcGF0aCAhPSBvdXQ6CiAgICAgICAgaWYgb3MucGF0aC5leGlzdHMob3V0KToKICAgICAgICAgICAgb3MucmVtb3ZlKG91dCkKICAgICAgICBvcy5yZW5hbWUoYmFzZV9wYXRoLCBvdXQpCiAgICAgICAgYmFzZV9wYXRoID0gb3V0CiAgICAjIOaIquaWreWIsOacieaViOWJjee8gAogICAgaWYgb3MucGF0aC5leGlzdHMob3V0KSBhbmQgb3MucGF0aC5nZXRzaXplKG91dCkgIT0gcGZ4OgogICAgICAgIHdpdGggb3BlbihvdXQsICJyK2IiKSBhcyBmOgogICAgICAgICAgICBmLnRydW5jYXRlKHBmeCkKCiAgICAjIOiHquagoemqjOi+ueeVjO+8jOmYsuatoiAucHJlZml4IOagh+WumuS4jeWPr+S/oeWvvOiHtOW4puWFpeaNn+Wdj+Wtl+iKggogICAgaWYgcGZ4ID4gMDoKICAgICAgICBsb2coZiIgICAg5qCh6aqM5YmN57yA6L6555WMIC4uLiIpCiAgICAgICAgZ29vZCA9IHZlcmlmeV9wcmVmaXhfYm91bmRhcnkocmVwbywgb3V0LCBwZngsIGZuYW1lKQogICAgICAgIGlmIGdvb2QgIT0gcGZ4OgogICAgICAgICAgICBsb2coZiIgICAgW+itpuWRil0g6L6555WM5qCh6aqM5pyq6YCa6L+H77yMcGZ4IHtwZnh9IOKGkiB7Z29vZH3vvIzmjInlj6/kv6HlgLzph43mlrDmiKrmlq0iKQogICAgICAgICAgICBwZnggPSBnb29kCiAgICAgICAgICAgIHdpdGggb3BlbihvdXQsICJyK2IiKSBhcyBmOgogICAgICAgICAgICAgICAgZi50cnVuY2F0ZShwZngpCiAgICBsb2coZiIgICAg5pyJ5pWI5YmN57yAIHtwZnh9IOWtl+iKgiAoe3BmeC8xMDI0LzEwMjQ6LjFmfSBNQinvvIzpnIDooaUge3NpemUgLSBwZnh9IOWtl+iKgiIpCgogICAgIyDmuIXnkIblhpfkvZnnmoQgcGFydCDmlofku7bvvIjlroPku6zmmK/lkIzkuIDmlofku7bnmoTliY3nvIDlia/mnKzvvIznlZnnnYDmtarotLnno4Hnm5jvvIkKICAgIGZvciBqdW5rIGluIFtmIntvdXR9LnBhcnQwIiwgZiJ7b3V0fS5wYXJ0MSIsIGYie291dH0ucGFydDIiLCBmIntvdXR9LnBhcnQzIl06CiAgICAgICAgaWYgb3MucGF0aC5leGlzdHMoanVuayk6CiAgICAgICAgICAgIG9zLnJlbW92ZShqdW5rKQoKICAgIHJlbWFpbmluZyA9IHNpemUgLSBwZngKICAgIGlmIHJlbWFpbmluZyA+IDA6CiAgICAgICAgY2h1bmtzID0gW10KICAgICAgICBzID0gcGZ4CiAgICAgICAgaWR4ID0gMAogICAgICAgIHdoaWxlIHMgPCBzaXplOgogICAgICAgICAgICBlID0gbWluKHMgKyBjaHVuayAtIDEsIHNpemUgLSAxKQogICAgICAgICAgICBjaHVua3MuYXBwZW5kKChzLCBlLCBmIntvdXR9LmJsa3tpZHh9IikpCiAgICAgICAgICAgIGlkeCArPSAxCiAgICAgICAgICAgIHMgPSBlICsgMQogICAgICAgIGxvZyhmIiAgICDliIYge2xlbihjaHVua3MpfSDlnZfkuIvovb3vvIzlubblj5Ege3RocmVhZHN9IikKCiAgICAgICAgd2l0aCBUaHJlYWRQb29sRXhlY3V0b3IobWF4X3dvcmtlcnM9dGhyZWFkcykgYXMgZXg6CiAgICAgICAgICAgIGZ1dHMgPSB7fQogICAgICAgICAgICBmb3IgcywgZSwgcCBpbiBjaHVua3M6CiAgICAgICAgICAgICAgICBmdXRzW2V4LnN1Ym1pdChmZXRjaF9yYW5nZSwgcmVwbywgZm5hbWUsIHMsIGUsIHApXSA9IChzLCBlLCBwKQogICAgICAgICAgICBmYWlsZWQgPSBbXQogICAgICAgICAgICBkb25lID0gMAogICAgICAgICAgICBmb3IgZnUgaW4gZnV0czoKICAgICAgICAgICAgICAgIHBhc3MKICAgICAgICAgICAgZm9yIGZ1LCBtZXRhIGluIGZ1dHMuaXRlbXMoKToKICAgICAgICAgICAgICAgIHIgPSBmdS5yZXN1bHQoKQogICAgICAgICAgICAgICAgZG9uZSArPSAxCiAgICAgICAgICAgICAgICBpZiBub3QgcjoKICAgICAgICAgICAgICAgICAgICBmYWlsZWQuYXBwZW5kKG1ldGEpCiAgICAgICAgICAgICAgICBlbGlmIGRvbmUgJSA1ID09IDAgb3IgZG9uZSA9PSBsZW4oY2h1bmtzKToKICAgICAgICAgICAgICAgICAgICBsb2coZiIgICAg5LiL6L296L+b5bqmIHtkb25lfS97bGVuKGNodW5rcyl9IOWdlyIpCiAgICAgICAgaWYgZmFpbGVkOgogICAgICAgICAgICBsb2coZiJbV0FSTl0ge2ZuYW1lfSDmnIkge2xlbihmYWlsZWQpfSDlnZflpLHotKXvvIzkv53nlZnnjrDlnLrlj6/ph43ot5Hnu63kvKAiKQogICAgICAgICAgICByZXR1cm4gRmFsc2UKCiAgICAgICAgIyDmjInluo8gYXBwZW5kIOi/m+ebruagh+aWh+S7tu+8jOW5tueri+WIu+WIoOmZpOS4tOaXtuWdlwogICAgICAgIGxvZyhmIiAgICDlkIjlubYge2xlbihjaHVua3MpfSDlnZfliLDnm67moIfmlofku7YiKQogICAgICAgIGFsbHBhcnRzID0gW3AgZm9yIChfcywgX2UsIHApIGluIGNodW5rc10KICAgICAgICB3aXRoIG9wZW4ob3V0LCAiYWIiKSBhcyB3OgogICAgICAgICAgICBmb3IgcCBpbiBhbGxwYXJ0czoKICAgICAgICAgICAgICAgIHdpdGggb3BlbihwLCAicmIiKSBhcyByOgogICAgICAgICAgICAgICAgICAgIHdoaWxlIFRydWU6CiAgICAgICAgICAgICAgICAgICAgICAgIGIgPSByLnJlYWQoMSA8PCAyNCkKICAgICAgICAgICAgICAgICAgICAgICAgaWYgbm90IGI6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBicmVhawogICAgICAgICAgICAgICAgICAgICAgICB3LndyaXRlKGIpCiAgICAgICAgICAgICAgICBvcy5yZW1vdmUocCkKCiAgICBmaW5hbCA9IG9zLnBhdGguZ2V0c2l6ZShvdXQpCiAgICBpZiBmaW5hbCAhPSBzaXplOgogICAgICAgIGxvZyhmIltGQUlMLVNJWkVdIHtmbmFtZX0g5ZCI5bm25ZCOIHtmaW5hbH0gIT0ge3NpemV9IikKICAgICAgICByZXR1cm4gRmFsc2UKICAgIHJldHVybiB2ZXJpZnkob3V0LCBmbmFtZSwgc2l6ZSwgaGFzaGVzKQoKCmRlZiB2ZXJpZnkocGF0aCwgZm5hbWUsIHNpemUsIGhhc2hlcyk6CiAgICB3YW50ID0gaGFzaGVzLmdldChmbmFtZSkKICAgIGlmIG5vdCB3YW50OgogICAgICAgIGxvZyhmIltPSy1TSVpFXSB7Zm5hbWV9IOWwuuWvuOato+ehru+8iOaXoOWumOaWuSBzaGEyNTYg5Y+v5q+U77yJIikKICAgICAgICByZXR1cm4gVHJ1ZQogICAgbG9nKGYiICAgIOagoemqjCBzaGEyNTYgLi4uIikKICAgIGdvdCA9IHNoYTI1Nl9vZihwYXRoKQogICAgaWYgZ290ID09IHdhbnQ6CiAgICAgICAgbG9nKGYiW09LXSB7Zm5hbWV9IHNoYTI1NiDljLnphY0g4pyTIikKICAgICAgICByZXR1cm4gVHJ1ZQogICAgbG9nKGYiW0ZBSUwtU0hBXSB7Zm5hbWV9IHNoYTI1NiDkuI3ljLnphY0gZ290PXtnb3R9IHdhbnQ9e3dhbnR9IikKICAgIHJldHVybiBGYWxzZQoKCmRlZiBtYWluKCk6CiAgICBhcCA9IGFyZ3BhcnNlLkFyZ3VtZW50UGFyc2VyKCkKICAgIGFwLmFkZF9hcmd1bWVudCgiLS1yZXBvIiwgcmVxdWlyZWQ9VHJ1ZSkKICAgIGFwLmFkZF9hcmd1bWVudCgiLS1kZXN0IiwgcmVxdWlyZWQ9VHJ1ZSkKICAgIGFwLmFkZF9hcmd1bWVudCgiLS1zaGFyZHMiLCByZXF1aXJlZD1UcnVlLCBoZWxwPSLpgJflj7fliIbpmpTmlofku7blkI0iKQogICAgYXAuYWRkX2FyZ3VtZW50KCItLWV4dHJhIiwgZGVmYXVsdD0iIiwgaGVscD0i6YCX5Y+35YiG6ZqU55qE5bCP5paH5Lu277yIY29uZmlnIOetie+8iSIpCiAgICBhcC5hZGRfYXJndW1lbnQoIi0tdGhyZWFkcyIsIHR5cGU9aW50LCBkZWZhdWx0PTgpCiAgICBhcC5hZGRfYXJndW1lbnQoIi0tY2h1bmstbWIiLCB0eXBlPWludCwgZGVmYXVsdD0xMjgpCiAgICBhcC5hZGRfYXJndW1lbnQoIi0tZnJlc2giLCBhY3Rpb249InN0b3JlX3RydWUiKQogICAgYXJncyA9IGFwLnBhcnNlX2FyZ3MoKQoKICAgIG9zLm1ha2VkaXJzKGFyZ3MuZGVzdCwgZXhpc3Rfb2s9VHJ1ZSkKICAgIGhhc2hlcyA9IG9mZmljaWFsX3NoYShhcmdzLnJlcG8pCiAgICBsb2coZiLlrpjmlrkgc2hhMjU2IOWIl+ihqO+8mntsZW4oaGFzaGVzKX0g5Liq5paH5Lu2IikKICAgIGNodW5rID0gYXJncy5jaHVua19tYiAqIDEwMjQgKiAxMDI0CgogICAgb2sgPSBUcnVlCiAgICAjIOWwj+aWh+S7tuWFiOS4i++8iOS9k+enr+Wwj+OAgeW/q++8iQogICAgZm9yIGYgaW4gW3guc3RyaXAoKSBmb3IgeCBpbiBhcmdzLmV4dHJhLnNwbGl0KCIsIikgaWYgeC5zdHJpcCgpXToKICAgICAgICBvdXQgPSBvcy5wYXRoLmpvaW4oYXJncy5kZXN0LCBmKQogICAgICAgIGlmIG9zLnBhdGguZXhpc3RzKG91dCkgYW5kIG9zLnBhdGguZ2V0c2l6ZShvdXQpID4gMDoKICAgICAgICAgICAgY29udGludWUKICAgICAgICBzaXplID0gaGVhZF9zaXplKGFyZ3MucmVwbywgZikKICAgICAgICBpZiBub3Qgc2l6ZToKICAgICAgICAgICAgY29udGludWUKICAgICAgICB0bXAgPSBvdXQgKyAiLnRtcCIKICAgICAgICBpZiBmZXRjaF9yYW5nZShhcmdzLnJlcG8sIGYsIDAsIHNpemUgLSAxLCB0bXApOgogICAgICAgICAgICBvcy5yZXBsYWNlKHRtcCwgb3V0KQogICAgICAgICAgICBsb2coZiJbT0tdIHtmfSAoe3NpemV9IOWtl+iKgikiKQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIG9rID0gRmFsc2UKCiAgICBmb3IgZm5hbWUgaW4gW3guc3RyaXAoKSBmb3IgeCBpbiBhcmdzLnNoYXJkcy5zcGxpdCgiLCIpIGlmIHguc3RyaXAoKV06CiAgICAgICAgdHJ5OgogICAgICAgICAgICBpZiBub3QgZG9fc2hhcmQoYXJncy5yZXBvLCBmbmFtZSwgYXJncy5kZXN0LCBjaHVuaywgYXJncy50aHJlYWRzLCBoYXNoZXMsIGFyZ3MuZnJlc2gpOgogICAgICAgICAgICAgICAgb2sgPSBGYWxzZQogICAgICAgICAgICAgICAgIyBzaGEyNTYg5LiN5Yy56YWNIOKGkiDor6XliIbniYfmnInmrovnlZnmjZ/lnY/vvIzmlbTkuKrliIbniYfph43kuIvvvIjliKDlubLlh4Dph43mnaXvvIkKICAgICAgICAgICAgICAgIGlmIHZlcmlmeShhcmdzLmRlc3QgYW5kIG9zLnBhdGguam9pbihhcmdzLmRlc3QsIGZuYW1lKSwgZm5hbWUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgb3MucGF0aC5nZXRzaXplKG9zLnBhdGguam9pbihhcmdzLmRlc3QsIGZuYW1lKSksIGhhc2hlcykgaXMgRmFsc2U6CiAgICAgICAgICAgICAgICAgICAgbG9nKGYiW1JFVFJZXSB7Zm5hbWV9IHNoYTI1NiDmoKHpqozlpLHotKXvvIzliKDpmaTlkI7mlbTniYfph43kuIsiKQogICAgICAgICAgICAgICAgICAgIHAgPSBvcy5wYXRoLmpvaW4oYXJncy5kZXN0LCBmbmFtZSkKICAgICAgICAgICAgICAgICAgICBmb3IgZXh0cmEgaW4gKHAgKyAiLnN0YXJ0IiwgcCArICIucHJlZml4Iik6CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIG9zLnBhdGguZXhpc3RzKGV4dHJhKToKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9zLnJlbW92ZShleHRyYSkKICAgICAgICAgICAgICAgICAgICBpZiBvcy5wYXRoLmV4aXN0cyhwKToKICAgICAgICAgICAgICAgICAgICAgICAgb3MucmVtb3ZlKHApCiAgICAgICAgICAgICAgICAgICAgaWYgZG9fc2hhcmQoYXJncy5yZXBvLCBmbmFtZSwgYXJncy5kZXN0LCBjaHVuaywgYXJncy50aHJlYWRzLCBoYXNoZXMsIFRydWUpOgogICAgICAgICAgICAgICAgICAgICAgICBsb2coZiJbUkVUUlktT0tdIHtmbmFtZX0g6YeN5LiL5ZCO5qCh6aqM6YCa6L+HIikKICAgICAgICAgICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgICAgICAgICBvayA9IEZhbHNlCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBleGM6ICAjIG5vcWE6IEJMRTAwMQogICAgICAgICAgICBsb2coZiJbRVJST1JdIHtmbmFtZX06IHtleGN9IikKICAgICAgICAgICAgb2sgPSBGYWxzZQoKICAgIGxvZygiQUxMX0RPTkUiIGlmIG9rIGVsc2UgIkRPTkVfV0lUSF9FUlJPUlMiKQogICAgcmV0dXJuIDAgaWYgb2sgZWxzZSAxCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIHN5cy5leGl0KG1haW4oKSkK
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+ModelScope 分块续传下载器（就地追加，节省磁盘）。
+
+设计要点：
+  1) 复用本地已下载的有效前缀（由 find_prefix.py 标定 .prefix），不从头重下；
+  2) 剩余部分切成 128MB 块，并发下载到独立临时文件，块内严格校验字节数；
+  3) 按序 append 进目标文件并立刻删除临时块 —— 峰值额外磁盘仅 ≈ 并发数×块大小；
+  4) 全部分片完成后用 ModelScope 官方 Sha256 做整文件校验。
+
+用法：
+  python dl_fast.py --repo Qwen/Qwen2.5-7B --dest /root/autodl-tmp/models/qwen2.5-7b \
+      --shards model-00001-of-00004.safetensors,... --threads 8 --chunk-mb 128
+"""
+import argparse
+import hashlib
+import json
+import os
+import subprocess
+import sys
+import time
+import urllib.request
+from concurrent.futures import ThreadPoolExecutor
+
+MS_URL = "https://www.modelscope.cn/api/v1/models/{repo}/repo?Revision=master&FilePath={file}"
+
+
+def log(msg):
+    print(f"[{time.strftime('%H:%M:%S')}] {msg}", flush=True)
+
+
+def url_for(repo, fname):
+    return MS_URL.format(repo=repo, file=fname)
+
+
+def head_size(repo, fname):
+    for _ in range(5):
+        r = subprocess.run(["curl", "-sIL", "--max-time", "40", url_for(repo, fname)],
+                           capture_output=True, text=True)
+        sizes = []
+        for line in r.stdout.splitlines():
+            if line.lower().startswith("content-length"):
+                try:
+                    sizes.append(int(line.split(":", 1)[1].strip()))
+                except ValueError:
+                    pass
+        if sizes:
+            return max(sizes)
+        time.sleep(3)
+    return None
+
+
+def fetch_range(repo, fname, start, end, tmp, tries=20):
+    """下载 [start,end] 到 tmp，校验字节数；失败重试（块级，不重下整文件）。"""
+    expect = end - start + 1
+    for attempt in range(1, tries + 1):
+        if os.path.exists(tmp) and os.path.getsize(tmp) == expect:
+            return True
+        if os.path.exists(tmp):
+            os.remove(tmp)
+        r = subprocess.run(
+            ["curl", "-sSL", "--retry", "4", "--retry-delay", "3", "--retry-all-errors",
+             "-r", f"{start}-{end}", "-o", tmp, "-w", "%{http_code}", url_for(repo, fname)],
+            capture_output=True, text=True)
+        code = r.stdout.strip()[-3:] if r.stdout.strip() else "000"
+        got = os.path.getsize(tmp) if os.path.exists(tmp) else 0
+        if got == expect and code in ("206", "200"):
+            return True
+        log(f"    块[{start}-{end}] 第{attempt}次失败 code={code} {got}/{expect}，重试")
+        time.sleep(4)
+    return False
+
+
+def sha256_of(path):
+    h = hashlib.sha256()
+    with open(path, "rb") as f:
+        while True:
+            b = f.read(1 << 24)
+            if not b:
+                break
+            h.update(b)
+    return h.hexdigest()
+
+
+def official_sha(repo):
+    """取 ModelScope 官方 Sha256 映射。"""
+    api = f"https://www.modelscope.cn/api/v1/models/{repo}/repo/files?Revision=master"
+    try:
+        with urllib.request.urlopen(api, timeout=60) as r:
+            data = json.loads(r.read().decode())
+        out = {}
+        for f in data["Data"]["Files"]:
+            if f.get("Sha256"):
+                out[f["Path"]] = f["Sha256"]
+        return out
+    except Exception as exc:  # noqa: BLE001
+        log(f"[WARN] 取官方 sha256 失败: {exc}")
+        return {}
+
+
+def pick_base(dest, fname, candidates):
+    """在候选文件中挑有效前缀最长的那个作为续传基座。"""
+    best = None
+    for c in candidates:
+        p = os.path.join(dest, c)
+        if not os.path.exists(p):
+            continue
+        pfx_file = p + ".prefix"
+        pfx = None
+        if os.path.exists(pfx_file):
+            try:
+                pfx = int(open(pfx_file).read().strip())
+            except ValueError:
+                pfx = None
+        if pfx is None:
+            pfx = os.path.getsize(p)  # 无扫描结果时保守认为整体有效
+        if best is None or pfx > best[1]:
+            best = (p, pfx)
+    return best
+
+
+def verify_prefix_boundary(repo, path, pfx, fname, probe=1 << 20):
+    """
+    自校验前缀边界：比对本地 [pfx-probe, pfx) 与源同区间。
+    不一致说明 .prefix 标定不可信（旧的二分法在"区间错位"场景下会高估），
+    此时用二分向下收缩到真实有效长度，绝不把损坏字节带进最终文件。
+    返回可信的 pfx。
+    """
+    if pfx <= 0:
+        return 0
+    local = os.path.getsize(path)
+    hi = min(pfx, local)
+    while hi > 0:
+        s = max(0, hi - probe)
+        ref = fetch_range_bytes(repo, fname, s, hi - 1)
+        if ref is None:
+            # 网络探测失败：保守认为 hi 之前的不可信，退到 0
+            log(f"    [边界校验] 探测失败，退回 0")
+            return 0
+        with open(path, "rb") as f:
+            f.seek(s)
+            got = f.read(hi - s)
+        if got == ref:
+            return hi
+        # 坏区间在这一段内，二分收缩
+        lo = s
+        while lo < hi:
+            mid = (lo + hi) // 2
+            s2 = max(0, mid - probe)
+            ref2 = fetch_range_bytes(repo, fname, s2, mid - 1)
+            if ref2 is None:
+                return 0
+            with open(path, "rb") as f:
+                f.seek(s2)
+                got2 = f.read(mid - s2)
+            if got2 == ref2:
+                lo = mid
+            else:
+                hi = mid
+        hi = lo
+    return 0
+
+
+def fetch_range_bytes(repo, fname, start, end, tries=5):
+    for _ in range(tries):
+        p = subprocess.run(
+            ["curl", "-sSL", "--max-time", "120", "-r", f"{start}-{end}",
+             url_for(repo, fname)], capture_output=True)
+        if p.returncode == 0 and len(p.stdout) == end - start + 1:
+            return p.stdout
+    return None
+
+
+def do_shard(repo, fname, dest, chunk, threads, hashes, force_fresh):
+    out = os.path.join(dest, fname)
+    size = head_size(repo, fname)
+    if size is None:
+        log(f"[FAIL-HEAD] {fname}")
+        return False
+
+    if os.path.exists(out) and os.path.getsize(out) == size:
+        log(f"[SKIP] {fname} 已是完整尺寸，校验 sha256")
+        return verify(out, fname, size, hashes)
+
+    log(f"[INFO] {fname} 总大小 {size} 字节 ({size/1024/1024:.1f} MB)")
+
+    base = None
+    if not force_fresh:
+        cands = [fname, fname + ".part0", fname + ".part1", fname + ".part2", fname + ".part3"]
+        base = pick_base(dest, fname, cands)
+    if base is None:
+        base = (out, 0)
+    base_path, pfx = base
+    if pfx > size:
+        pfx = 0
+
+    # 统一到 out 作为基座：若基座是 part 文件，先搬过来
+    if base_path != out:
+        if os.path.exists(out):
+            os.remove(out)
+        os.rename(base_path, out)
+        base_path = out
+    # 截断到有效前缀
+    if os.path.exists(out) and os.path.getsize(out) != pfx:
+        with open(out, "r+b") as f:
+            f.truncate(pfx)
+
+    # 自校验边界，防止 .prefix 标定不可信导致带入损坏字节
+    if pfx > 0:
+        log(f"    校验前缀边界 ...")
+        good = verify_prefix_boundary(repo, out, pfx, fname)
+        if good != pfx:
+            log(f"    [警告] 边界校验未通过，pfx {pfx} → {good}，按可信值重新截断")
+            pfx = good
+            with open(out, "r+b") as f:
+                f.truncate(pfx)
+    log(f"    有效前缀 {pfx} 字节 ({pfx/1024/1024:.1f} MB)，需补 {size - pfx} 字节")
+
+    # 清理冗余的 part 文件（它们是同一文件的前缀副本，留着浪费磁盘）
+    for junk in [f"{out}.part0", f"{out}.part1", f"{out}.part2", f"{out}.part3"]:
+        if os.path.exists(junk):
+            os.remove(junk)
+
+    remaining = size - pfx
+    if remaining > 0:
+        chunks = []
+        s = pfx
+        idx = 0
+        while s < size:
+            e = min(s + chunk - 1, size - 1)
+            chunks.append((s, e, f"{out}.blk{idx}"))
+            idx += 1
+            s = e + 1
+        log(f"    分 {len(chunks)} 块下载，并发 {threads}")
+
+        with ThreadPoolExecutor(max_workers=threads) as ex:
+            futs = {}
+            for s, e, p in chunks:
+                futs[ex.submit(fetch_range, repo, fname, s, e, p)] = (s, e, p)
+            failed = []
+            done = 0
+            for fu in futs:
+                pass
+            for fu, meta in futs.items():
+                r = fu.result()
+                done += 1
+                if not r:
+                    failed.append(meta)
+                elif done % 5 == 0 or done == len(chunks):
+                    log(f"    下载进度 {done}/{len(chunks)} 块")
+        if failed:
+            log(f"[WARN] {fname} 有 {len(failed)} 块失败，保留现场可重跑续传")
+            return False
+
+        # 按序 append 进目标文件，并立刻删除临时块
+        log(f"    合并 {len(chunks)} 块到目标文件")
+        allparts = [p for (_s, _e, p) in chunks]
+        with open(out, "ab") as w:
+            for p in allparts:
+                with open(p, "rb") as r:
+                    while True:
+                        b = r.read(1 << 24)
+                        if not b:
+                            break
+                        w.write(b)
+                os.remove(p)
+
+    final = os.path.getsize(out)
+    if final != size:
+        log(f"[FAIL-SIZE] {fname} 合并后 {final} != {size}")
+        return False
+    return verify(out, fname, size, hashes)
+
+
+def verify(path, fname, size, hashes):
+    want = hashes.get(fname)
+    if not want:
+        log(f"[OK-SIZE] {fname} 尺寸正确（无官方 sha256 可比）")
+        return True
+    log(f"    校验 sha256 ...")
+    got = sha256_of(path)
+    if got == want:
+        log(f"[OK] {fname} sha256 匹配 ✓")
+        return True
+    log(f"[FAIL-SHA] {fname} sha256 不匹配 got={got} want={want}")
+    return False
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--repo", required=True)
+    ap.add_argument("--dest", required=True)
+    ap.add_argument("--shards", required=True, help="逗号分隔文件名")
+    ap.add_argument("--extra", default="", help="逗号分隔的小文件（config 等）")
+    ap.add_argument("--threads", type=int, default=8)
+    ap.add_argument("--chunk-mb", type=int, default=128)
+    ap.add_argument("--fresh", action="store_true")
+    args = ap.parse_args()
+
+    os.makedirs(args.dest, exist_ok=True)
+    hashes = official_sha(args.repo)
+    log(f"官方 sha256 列表：{len(hashes)} 个文件")
+    chunk = args.chunk_mb * 1024 * 1024
+
+    ok = True
+    # 小文件先下（体积小、快）
+    for f in [x.strip() for x in args.extra.split(",") if x.strip()]:
+        out = os.path.join(args.dest, f)
+        if os.path.exists(out) and os.path.getsize(out) > 0:
+            continue
+        size = head_size(args.repo, f)
+        if not size:
+            continue
+        tmp = out + ".tmp"
+        if fetch_range(args.repo, f, 0, size - 1, tmp):
+            os.replace(tmp, out)
+            log(f"[OK] {f} ({size} 字节)")
+        else:
+            ok = False
+
+    for fname in [x.strip() for x in args.shards.split(",") if x.strip()]:
+        try:
+            if not do_shard(args.repo, fname, args.dest, chunk, args.threads, hashes, args.fresh):
+                ok = False
+                # sha256 不匹配 → 该分片有残留损坏，整个分片重下（删干净重来）
+                if verify(args.dest and os.path.join(args.dest, fname), fname,
+                          os.path.getsize(os.path.join(args.dest, fname)), hashes) is False:
+                    log(f"[RETRY] {fname} sha256 校验失败，删除后整片重下")
+                    p = os.path.join(args.dest, fname)
+                    for extra in (p + ".start", p + ".prefix"):
+                        if os.path.exists(extra):
+                            os.remove(extra)
+                    if os.path.exists(p):
+                        os.remove(p)
+                    if do_shard(args.repo, fname, args.dest, chunk, args.threads, hashes, True):
+                        log(f"[RETRY-OK] {fname} 重下后校验通过")
+                    else:
+                        ok = False
+        except Exception as exc:  # noqa: BLE001
+            log(f"[ERROR] {fname}: {exc}")
+            ok = False
+
+    log("ALL_DONE" if ok else "DONE_WITH_ERRORS")
+    return 0 if ok else 1
+
+
+if __name__ == "__main__":
+    sys.exit(main())

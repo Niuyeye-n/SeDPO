@@ -1,1 +1,7 @@
-dHJhaW5fY2x1c3RlcnM6CnRhc2tfbmFtZToKcHJvbXB0X3Bvb2xfcGF0aDogPz8/Cm91dF9maWxlOiA/Pz8KcHJvbXB0X3NldHVwX3R5cGU6ID8/PwpuX2RvY3M6ID8/PwpjYWNoZV9kaXI6ID8/Pw==
+train_clusters:
+task_name:
+prompt_pool_path: ???
+out_file: ???
+prompt_setup_type: ???
+n_docs: ???
+cache_dir: ???

@@ -1,1 +1,218 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwojIENvcHlyaWdodCAoYykgRmFjZWJvb2ssIEluYy4gYW5kIGl0cyBhZmZpbGlhdGVzLgojIEFsbCByaWdodHMgcmVzZXJ2ZWQuCiMKIyBUaGlzIHNvdXJjZSBjb2RlIGlzIGxpY2Vuc2VkIHVuZGVyIHRoZSBsaWNlbnNlIGZvdW5kIGluIHRoZQojIExJQ0VOU0UgZmlsZSBpbiB0aGUgcm9vdCBkaXJlY3Rvcnkgb2YgdGhpcyBzb3VyY2UgdHJlZS4KCiIiIgogU2V0IG9mIHV0aWxpdGllcyBmb3IgUSZBIHJlc3VsdHMgdmFsaWRhdGlvbiB0YXNrcyAtIFJldHJpdmVyIHBhc3NhZ2UgdmFsaWRhdGlvbiBhbmQgUmVhZGVyIHByZWRpY3RlZCBhbnN3ZXIgdmFsaWRhdGlvbgoiIiIKCmltcG9ydCBjb2xsZWN0aW9ucwppbXBvcnQgbG9nZ2luZwppbXBvcnQgc3RyaW5nCmltcG9ydCB1bmljb2RlZGF0YQpmcm9tIG11bHRpcHJvY2Vzc2luZyBpbXBvcnQgUG9vbCBhcyBQcm9jZXNzUG9vbAoKaW1wb3J0IHJlZ2V4IGFzIHJlCmZyb20gZnVuY3Rvb2xzIGltcG9ydCBwYXJ0aWFsCmZyb20gdHlwaW5nIGltcG9ydCBUdXBsZSwgTGlzdCwgRGljdAoKZnJvbSBkcHIuZGF0YS5yZXRyaWV2ZXJfZGF0YSBpbXBvcnQgVGFibGVDaHVuawpmcm9tIGRwci51dGlscy50b2tlbml6ZXJzIGltcG9ydCBTaW1wbGVUb2tlbml6ZXIKCmxvZ2dlciA9IGxvZ2dpbmcuZ2V0TG9nZ2VyKF9fbmFtZV9fKQoKUUFNYXRjaFN0YXRzID0gY29sbGVjdGlvbnMubmFtZWR0dXBsZSgKICAgICJRQU1hdGNoU3RhdHMiLCBbInRvcF9rX2hpdHMiLCAicXVlc3Rpb25zX2RvY19oaXRzIl0KKQoKUUFUYWJsZU1hdGNoU3RhdHMgPSBjb2xsZWN0aW9ucy5uYW1lZHR1cGxlKAogICAgIlFBTWF0Y2hTdGF0cyIsIFsidG9wX2tfY2h1bmtfaGl0cyIsICJ0b3Bfa190YWJsZV9oaXRzIiwgInF1ZXN0aW9uc19kb2NfaGl0cyJdCikKCgpkZWYgY2FsY3VsYXRlX21hdGNoZXMoCiAgICBhbGxfZG9jczogRGljdFtvYmplY3QsIFR1cGxlW3N0ciwgc3RyXV0sCiAgICBhbnN3ZXJzOiBMaXN0W0xpc3Rbc3RyXV0sCiAgICBjbG9zZXN0X2RvY3M6IExpc3RbVHVwbGVbTGlzdFtvYmplY3RdLCBMaXN0W2Zsb2F0XV1dLAogICAgd29ya2Vyc19udW06IGludCwKICAgIG1hdGNoX3R5cGU6IHN0ciwKKSAtPiBRQU1hdGNoU3RhdHM6CiAgICAiIiIKICAgIEV2YWx1YXRlcyBhbnN3ZXJzIHByZXNlbmNlIGluIHRoZSBzZXQgb2YgZG9jdW1lbnRzLiBUaGlzIGZ1bmN0aW9uIGlzIHN1cHBvc2VkIHRvIGJlIHVzZWQgd2l0aCBhIGxhcmdlIGNvbGxlY3Rpb24gb2YKICAgIGRvY3VtZW50cyBhbmQgcmVzdWx0cy4gSXQgaW50ZXJuYWxseSBmb3JrcyBtdWx0aXBsZSBzdWItcHJvY2Vzc2VzIGZvciBldmFsdWF0aW9uIGFuZCB0aGVuIG1lcmdlcyByZXN1bHRzCiAgICA6cGFyYW0gYWxsX2RvY3M6IGRpY3Rpb25hcnkgb2YgdGhlIGVudGlyZSBkb2N1bWVudHMgZGF0YWJhc2UuIGRvY19pZCAtPiAoZG9jX3RleHQsIHRpdGxlKQogICAgOnBhcmFtIGFuc3dlcnM6IGxpc3Qgb2YgYW5zd2VycydzIGxpc3QuIE9uZSBsaXN0IHBlciBxdWVzdGlvbgogICAgOnBhcmFtIGNsb3Nlc3RfZG9jczogZG9jdW1lbnQgaWRzIG9mIHRoZSB0b3AgcmVzdWx0cyBhbG9uZyB3aXRoIHRoZWlyIHNjb3JlcwogICAgOnBhcmFtIHdvcmtlcnNfbnVtOiBhbW91bnQgb2YgcGFyYWxsZWwgdGhyZWFkcyB0byBwcm9jZXNzIGRhdGEKICAgIDpwYXJhbSBtYXRjaF90eXBlOiB0eXBlIG9mIGFuc3dlciBtYXRjaGluZy4gUmVmZXIgdG8gaGFzX2Fuc3dlciBjb2RlIGZvciBhdmFpbGFibGUgb3B0aW9ucwogICAgOnJldHVybjogbWF0Y2hpbmcgaW5mb3JtYXRpb24gdHVwbGUuCiAgICB0b3Bfa19oaXRzIC0gYSBsaXN0IHdoZXJlIHRoZSBpbmRleCBpcyB0aGUgYW1vdW50IG9mIHRvcCBkb2N1bWVudHMgcmV0cmlldmVkIGFuZCB0aGUgdmFsdWUgaXMgdGhlIHRvdGFsIGFtb3VudCBvZgogICAgdmFsaWQgbWF0Y2hlcyBhY3Jvc3MgYW4gZW50aXJlIGRhdGFzZXQuCiAgICBxdWVzdGlvbnNfZG9jX2hpdHMgLSBtb3JlIGRldGFpbGVkIGluZm8gd2l0aCBhbnN3ZXIgbWF0Y2hlcyBmb3IgZXZlcnkgcXVlc3Rpb24gYW5kIGV2ZXJ5IHJldHJpZXZlZCBkb2N1bWVudAogICAgIiIiCiAgICBnbG9iYWwgZHByX2FsbF9kb2N1bWVudHMKICAgIGRwcl9hbGxfZG9jdW1lbnRzID0gYWxsX2RvY3MKICAgIGxvZ2dlci5pbmZvKCJkcHJfYWxsX2RvY3VtZW50cyBzaXplICVkIiwgbGVuKGRwcl9hbGxfZG9jdW1lbnRzKSkKCiAgICB0b2tfb3B0cyA9IHt9CiAgICB0b2tlbml6ZXIgPSBTaW1wbGVUb2tlbml6ZXIoKip0b2tfb3B0cykKCiAgICBwcm9jZXNzZXMgPSBQcm9jZXNzUG9vbChwcm9jZXNzZXM9d29ya2Vyc19udW0pCiAgICBsb2dnZXIuaW5mbygiTWF0Y2hpbmcgYW5zd2VycyBpbiB0b3AgZG9jcy4uLiIpCiAgICBnZXRfc2NvcmVfcGFydGlhbCA9IHBhcnRpYWwoCiAgICAgICAgY2hlY2tfYW5zd2VyLCBtYXRjaF90eXBlPW1hdGNoX3R5cGUsIHRva2VuaXplcj10b2tlbml6ZXIKICAgICkKCiAgICBxdWVzdGlvbnNfYW5zd2Vyc19kb2NzID0gemlwKGFuc3dlcnMsIGNsb3Nlc3RfZG9jcykKICAgIHNjb3JlcyA9IHByb2Nlc3Nlcy5tYXAoZ2V0X3Njb3JlX3BhcnRpYWwsIHF1ZXN0aW9uc19hbnN3ZXJzX2RvY3MpCgogICAgbG9nZ2VyLmluZm8oIlBlciBxdWVzdGlvbiB2YWxpZGF0aW9uIHJlc3VsdHMgbGVuPSVkIiwgbGVuKHNjb3JlcykpCgogICAgbl9kb2NzID0gbGVuKGNsb3Nlc3RfZG9jc1swXVswXSkKICAgIHRvcF9rX2hpdHMgPSBbMF0gKiBuX2RvY3MKICAgIGZvciBxdWVzdGlvbl9oaXRzIGluIHNjb3JlczoKICAgICAgICBiZXN0X2hpdCA9IG5leHQoKGkgZm9yIGksIHggaW4gZW51bWVyYXRlKHF1ZXN0aW9uX2hpdHMpIGlmIHgpLCBOb25lKQogICAgICAgIGlmIGJlc3RfaGl0IGlzIG5vdCBOb25lOgogICAgICAgICAgICB0b3Bfa19oaXRzW2Jlc3RfaGl0Ol0gPSBbdiArIDEgZm9yIHYgaW4gdG9wX2tfaGl0c1tiZXN0X2hpdDpdXQoKICAgIHJldHVybiBRQU1hdGNoU3RhdHModG9wX2tfaGl0cywgc2NvcmVzKQoKCmRlZiBjaGVja19hbnN3ZXIocXVlc3Rpb25zX2Fuc3dlcnNfZG9jcywgdG9rZW5pemVyLCBtYXRjaF90eXBlKSAtPiBMaXN0W2Jvb2xdOgogICAgIiIiU2VhcmNoIHRocm91Z2ggYWxsIHRoZSB0b3AgZG9jcyB0byBzZWUgaWYgdGhleSBoYXZlIGFueSBvZiB0aGUgYW5zd2Vycy4iIiIKICAgIGFuc3dlcnMsIChkb2NfaWRzLCBkb2Nfc2NvcmVzKSA9IHF1ZXN0aW9uc19hbnN3ZXJzX2RvY3MKCiAgICBnbG9iYWwgZHByX2FsbF9kb2N1bWVudHMKICAgIGhpdHMgPSBbXQoKICAgIGZvciBpLCBkb2NfaWQgaW4gZW51bWVyYXRlKGRvY19pZHMpOgogICAgICAgIGRvYyA9IGRwcl9hbGxfZG9jdW1lbnRzW2RvY19pZF0KICAgICAgICB0ZXh0ID0gZG9jWzBdCgogICAgICAgIGFuc3dlcl9mb3VuZCA9IEZhbHNlCiAgICAgICAgaWYgdGV4dCBpcyBOb25lOiAgIyBjYW5ub3QgZmluZCB0aGUgZG9jdW1lbnQgZm9yIHNvbWUgcmVhc29uCiAgICAgICAgICAgIGxvZ2dlci53YXJuaW5nKCJubyBkb2MgaW4gZGIiKQogICAgICAgICAgICBoaXRzLmFwcGVuZChGYWxzZSkKICAgICAgICAgICAgY29udGludWUKCiAgICAgICAgaWYgaGFzX2Fuc3dlcihhbnN3ZXJzLCB0ZXh0LCB0b2tlbml6ZXIsIG1hdGNoX3R5cGUpOgogICAgICAgICAgICBhbnN3ZXJfZm91bmQgPSBUcnVlCiAgICAgICAgaGl0cy5hcHBlbmQoYW5zd2VyX2ZvdW5kKQogICAgcmV0dXJuIGhpdHMKCgpkZWYgaGFzX2Fuc3dlcihhbnN3ZXJzLCB0ZXh0LCB0b2tlbml6ZXIsIG1hdGNoX3R5cGUpIC0+IGJvb2w6CiAgICAiIiJDaGVjayBpZiBhIGRvY3VtZW50IGNvbnRhaW5zIGFuIGFuc3dlciBzdHJpbmcuCiAgICBJZiBgbWF0Y2hfdHlwZWAgaXMgc3RyaW5nLCB0b2tlbiBtYXRjaGluZyBpcyBkb25lIGJldHdlZW4gdGhlIHRleHQgYW5kIGFuc3dlci4KICAgIElmIGBtYXRjaF90eXBlYCBpcyByZWdleCwgd2Ugc2VhcmNoIHRoZSB3aG9sZSB0ZXh0IHdpdGggdGhlIHJlZ2V4LgogICAgIiIiCiAgICB0ZXh0ID0gX25vcm1hbGl6ZSh0ZXh0KQoKICAgIGlmIG1hdGNoX3R5cGUgPT0gInN0cmluZyI6CiAgICAgICAgIyBBbnN3ZXIgaXMgYSBsaXN0IG9mIHBvc3NpYmxlIHN0cmluZ3MKICAgICAgICB0ZXh0ID0gdG9rZW5pemVyLnRva2VuaXplKHRleHQpLndvcmRzKHVuY2FzZWQ9VHJ1ZSkKCiAgICAgICAgZm9yIHNpbmdsZV9hbnN3ZXIgaW4gYW5zd2VyczoKICAgICAgICAgICAgc2luZ2xlX2Fuc3dlciA9IF9ub3JtYWxpemUoc2luZ2xlX2Fuc3dlcikKICAgICAgICAgICAgc2luZ2xlX2Fuc3dlciA9IHRva2VuaXplci50b2tlbml6ZShzaW5nbGVfYW5zd2VyKQogICAgICAgICAgICBzaW5nbGVfYW5zd2VyID0gc2luZ2xlX2Fuc3dlci53b3Jkcyh1bmNhc2VkPVRydWUpCiAgICAgICAgICAgIGlmIHNpbmdsZV9hbnN3ZXI9PXRleHQ6CiAgICAgICAgICAgICAgICByZXR1cm4gIFRydWUKICAgICAgICByZXR1cm4gRmFsc2UKICAgICAgICAgICAgIyBmb3IgaSBpbiByYW5nZSgwLCBsZW4odGV4dCkgLSBsZW4oc2luZ2xlX2Fuc3dlcikgKyAxKToKICAgICAgICAgICAgIyAgICAgaWYgc2luZ2xlX2Fuc3dlciA9PSB0ZXh0W2kgOiBpICsgbGVuKHNpbmdsZV9hbnN3ZXIpXToKICAgICAgICAgICAgIyAgICAgICAgIHJldHVybiBUcnVlCgogICAgZWxpZiBtYXRjaF90eXBlID09ICJyZWdleCI6CiAgICAgICAgIyBBbnN3ZXIgaXMgYSByZWdleAogICAgICAgIGZvciBzaW5nbGVfYW5zd2VyIGluIGFuc3dlcnM6CiAgICAgICAgICAgIHNpbmdsZV9hbnN3ZXIgPSBfbm9ybWFsaXplKHNpbmdsZV9hbnN3ZXIpCiAgICAgICAgICAgIGlmIHJlZ2V4X21hdGNoKHRleHQsIHNpbmdsZV9hbnN3ZXIpOgogICAgICAgICAgICAgICAgcmV0dXJuIFRydWUKICAgIHJldHVybiBGYWxzZQoKCmRlZiByZWdleF9tYXRjaCh0ZXh0LCBwYXR0ZXJuKToKICAgICIiIlRlc3QgaWYgYSByZWdleCBwYXR0ZXJuIGlzIGNvbnRhaW5lZCB3aXRoaW4gYSB0ZXh0LiIiIgogICAgdHJ5OgogICAgICAgIHBhdHRlcm4gPSByZS5jb21waWxlKHBhdHRlcm4sIGZsYWdzPXJlLklHTk9SRUNBU0UgKyByZS5VTklDT0RFICsgcmUuTVVMVElMSU5FKQogICAgZXhjZXB0IEJhc2VFeGNlcHRpb246CiAgICAgICAgcmV0dXJuIEZhbHNlCiAgICByZXR1cm4gcGF0dGVybi5zZWFyY2godGV4dCkgaXMgbm90IE5vbmUKCgojIGZ1bmN0aW9uIGZvciB0aGUgcmVhZGVyIG1vZGVsIGFuc3dlciB2YWxpZGF0aW9uCmRlZiBleGFjdF9tYXRjaF9zY29yZShwcmVkaWN0aW9uLCBncm91bmRfdHJ1dGgpOgogICAgcmV0dXJuIF9ub3JtYWxpemVfYW5zd2VyKHByZWRpY3Rpb24pID09IF9ub3JtYWxpemVfYW5zd2VyKGdyb3VuZF90cnV0aCkKCgpkZWYgX25vcm1hbGl6ZV9hbnN3ZXIocyk6CiAgICBkZWYgcmVtb3ZlX2FydGljbGVzKHRleHQpOgogICAgICAgIHJldHVybiByZS5zdWIociJcYihhfGFufHRoZSlcYiIsICIgIiwgdGV4dCkKCiAgICBkZWYgd2hpdGVfc3BhY2VfZml4KHRleHQpOgogICAgICAgIHJldHVybiAiICIuam9pbih0ZXh0LnNwbGl0KCkpCgogICAgZGVmIHJlbW92ZV9wdW5jKHRleHQpOgogICAgICAgIGV4Y2x1ZGUgPSBzZXQoc3RyaW5nLnB1bmN0dWF0aW9uKQogICAgICAgIHJldHVybiAiIi5qb2luKGNoIGZvciBjaCBpbiB0ZXh0IGlmIGNoIG5vdCBpbiBleGNsdWRlKQoKICAgIGRlZiBsb3dlcih0ZXh0KToKICAgICAgICByZXR1cm4gdGV4dC5sb3dlcigpCgogICAgcmV0dXJuIHdoaXRlX3NwYWNlX2ZpeChyZW1vdmVfYXJ0aWNsZXMocmVtb3ZlX3B1bmMobG93ZXIocykpKSkKCgpkZWYgX25vcm1hbGl6ZSh0ZXh0KToKICAgIHJldHVybiB1bmljb2RlZGF0YS5ub3JtYWxpemUoIk5GRCIsIHRleHQpCgoKZGVmIGNhbGN1bGF0ZV9jaHVua2VkX21hdGNoZXMoCiAgICBhbGxfZG9jczogRGljdFtvYmplY3QsIFRhYmxlQ2h1bmtdLAogICAgYW5zd2VyczogTGlzdFtMaXN0W3N0cl1dLAogICAgY2xvc2VzdF9kb2NzOiBMaXN0W1R1cGxlW0xpc3Rbb2JqZWN0XSwgTGlzdFtmbG9hdF1dXSwKICAgIHdvcmtlcnNfbnVtOiBpbnQsCiAgICBtYXRjaF90eXBlOiBzdHIsCikgLT4gUUFUYWJsZU1hdGNoU3RhdHM6CiAgICBnbG9iYWwgZHByX2FsbF9kb2N1bWVudHMKICAgIGRwcl9hbGxfZG9jdW1lbnRzID0gYWxsX2RvY3MKCiAgICBnbG9iYWwgZHByX2FsbF90YWJsZXMKICAgIGRwcl9hbGxfdGFibGVzID0ge30KCiAgICBmb3Iga2V5LCB0YWJsZV9jaHVuayBpbiBhbGxfZG9jcy5pdGVtcygpOgogICAgICAgIHRhYmxlX3N0ciwgdGl0bGUsIHRhYmxlX2lkID0gdGFibGVfY2h1bmsKICAgICAgICB0YWJsZV9jaHVua3MgPSBkcHJfYWxsX3RhYmxlcy5nZXQodGFibGVfaWQsIFtdKQogICAgICAgIHRhYmxlX2NodW5rcy5hcHBlbmQoKHRhYmxlX3N0ciwgdGl0bGUpKQogICAgICAgIGRwcl9hbGxfdGFibGVzW3RhYmxlX2lkXSA9IHRhYmxlX2NodW5rcwoKICAgIHRva19vcHRzID0ge30KICAgIHRva2VuaXplciA9IFNpbXBsZVRva2VuaXplcigqKnRva19vcHRzKQoKICAgIHByb2Nlc3NlcyA9IFByb2Nlc3NQb29sKHByb2Nlc3Nlcz13b3JrZXJzX251bSkKCiAgICBsb2dnZXIuaW5mbygiTWF0Y2hpbmcgYW5zd2VycyBpbiB0b3AgZG9jcy4uLiIpCiAgICBnZXRfc2NvcmVfcGFydGlhbCA9IHBhcnRpYWwoCiAgICAgICAgY2hlY2tfY2h1bmtlZF9kb2NzX2Fuc3dlciwgbWF0Y2hfdHlwZT1tYXRjaF90eXBlLCB0b2tlbml6ZXI9dG9rZW5pemVyCiAgICApCiAgICBxdWVzdGlvbnNfYW5zd2Vyc19kb2NzID0gemlwKGFuc3dlcnMsIGNsb3Nlc3RfZG9jcykKICAgIHNjb3JlcyA9IHByb2Nlc3Nlcy5tYXAoZ2V0X3Njb3JlX3BhcnRpYWwsIHF1ZXN0aW9uc19hbnN3ZXJzX2RvY3MpCiAgICBsb2dnZXIuaW5mbygiUGVyIHF1ZXN0aW9uIHZhbGlkYXRpb24gcmVzdWx0cyBsZW49JWQiLCBsZW4oc2NvcmVzKSkKCiAgICBuX2RvY3MgPSBsZW4oY2xvc2VzdF9kb2NzWzBdWzBdKQogICAgdG9wX2tfaGl0cyA9IFswXSAqIG5fZG9jcwogICAgdG9wX2tfb3JpZ19oaXRzID0gWzBdICogbl9kb2NzCiAgICBmb3IgcyBpbiBzY29yZXM6CiAgICAgICAgcXVlc3Rpb25faGl0cywgcXVlc3Rpb25fb3JpZ19kb2NfaGl0cyA9IHMKICAgICAgICBiZXN0X2hpdCA9IG5leHQoKGkgZm9yIGksIHggaW4gZW51bWVyYXRlKHF1ZXN0aW9uX2hpdHMpIGlmIHgpLCBOb25lKQogICAgICAgIGlmIGJlc3RfaGl0IGlzIG5vdCBOb25lOgogICAgICAgICAgICB0b3Bfa19oaXRzW2Jlc3RfaGl0Ol0gPSBbdiArIDEgZm9yIHYgaW4gdG9wX2tfaGl0c1tiZXN0X2hpdDpdXQoKICAgICAgICBiZXN0X2hpdCA9IG5leHQoKGkgZm9yIGksIHggaW4gZW51bWVyYXRlKHF1ZXN0aW9uX29yaWdfZG9jX2hpdHMpIGlmIHgpLCBOb25lKQogICAgICAgIGlmIGJlc3RfaGl0IGlzIG5vdCBOb25lOgogICAgICAgICAgICB0b3Bfa19vcmlnX2hpdHNbYmVzdF9oaXQ6XSA9IFt2ICsgMSBmb3IgdiBpbiB0b3Bfa19vcmlnX2hpdHNbYmVzdF9oaXQ6XV0KCiAgICByZXR1cm4gUUFUYWJsZU1hdGNoU3RhdHModG9wX2tfaGl0cywgdG9wX2tfb3JpZ19oaXRzLCBzY29yZXMpCg==
+#!/usr/bin/env python3
+# Copyright (c) Facebook, Inc. and its affiliates.
+# All rights reserved.
+#
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+
+"""
+ Set of utilities for Q&A results validation tasks - Retriver passage validation and Reader predicted answer validation
+"""
+
+import collections
+import logging
+import string
+import unicodedata
+from multiprocessing import Pool as ProcessPool
+
+import regex as re
+from functools import partial
+from typing import Tuple, List, Dict
+
+from dpr.data.retriever_data import TableChunk
+from dpr.utils.tokenizers import SimpleTokenizer
+
+logger = logging.getLogger(__name__)
+
+QAMatchStats = collections.namedtuple(
+    "QAMatchStats", ["top_k_hits", "questions_doc_hits"]
+)
+
+QATableMatchStats = collections.namedtuple(
+    "QAMatchStats", ["top_k_chunk_hits", "top_k_table_hits", "questions_doc_hits"]
+)
+
+
+def calculate_matches(
+    all_docs: Dict[object, Tuple[str, str]],
+    answers: List[List[str]],
+    closest_docs: List[Tuple[List[object], List[float]]],
+    workers_num: int,
+    match_type: str,
+) -> QAMatchStats:
+    """
+    Evaluates answers presence in the set of documents. This function is supposed to be used with a large collection of
+    documents and results. It internally forks multiple sub-processes for evaluation and then merges results
+    :param all_docs: dictionary of the entire documents database. doc_id -> (doc_text, title)
+    :param answers: list of answers's list. One list per question
+    :param closest_docs: document ids of the top results along with their scores
+    :param workers_num: amount of parallel threads to process data
+    :param match_type: type of answer matching. Refer to has_answer code for available options
+    :return: matching information tuple.
+    top_k_hits - a list where the index is the amount of top documents retrieved and the value is the total amount of
+    valid matches across an entire dataset.
+    questions_doc_hits - more detailed info with answer matches for every question and every retrieved document
+    """
+    global dpr_all_documents
+    dpr_all_documents = all_docs
+    logger.info("dpr_all_documents size %d", len(dpr_all_documents))
+
+    tok_opts = {}
+    tokenizer = SimpleTokenizer(**tok_opts)
+
+    processes = ProcessPool(processes=workers_num)
+    logger.info("Matching answers in top docs...")
+    get_score_partial = partial(
+        check_answer, match_type=match_type, tokenizer=tokenizer
+    )
+
+    questions_answers_docs = zip(answers, closest_docs)
+    scores = processes.map(get_score_partial, questions_answers_docs)
+
+    logger.info("Per question validation results len=%d", len(scores))
+
+    n_docs = len(closest_docs[0][0])
+    top_k_hits = [0] * n_docs
+    for question_hits in scores:
+        best_hit = next((i for i, x in enumerate(question_hits) if x), None)
+        if best_hit is not None:
+            top_k_hits[best_hit:] = [v + 1 for v in top_k_hits[best_hit:]]
+
+    return QAMatchStats(top_k_hits, scores)
+
+
+def check_answer(questions_answers_docs, tokenizer, match_type) -> List[bool]:
+    """Search through all the top docs to see if they have any of the answers."""
+    answers, (doc_ids, doc_scores) = questions_answers_docs
+
+    global dpr_all_documents
+    hits = []
+
+    for i, doc_id in enumerate(doc_ids):
+        doc = dpr_all_documents[doc_id]
+        text = doc[0]
+
+        answer_found = False
+        if text is None:  # cannot find the document for some reason
+            logger.warning("no doc in db")
+            hits.append(False)
+            continue
+
+        if has_answer(answers, text, tokenizer, match_type):
+            answer_found = True
+        hits.append(answer_found)
+    return hits
+
+
+def has_answer(answers, text, tokenizer, match_type) -> bool:
+    """Check if a document contains an answer string.
+    If `match_type` is string, token matching is done between the text and answer.
+    If `match_type` is regex, we search the whole text with the regex.
+    """
+    text = _normalize(text)
+
+    if match_type == "string":
+        # Answer is a list of possible strings
+        text = tokenizer.tokenize(text).words(uncased=True)
+
+        for single_answer in answers:
+            single_answer = _normalize(single_answer)
+            single_answer = tokenizer.tokenize(single_answer)
+            single_answer = single_answer.words(uncased=True)
+            if single_answer==text:
+                return  True
+        return False
+            # for i in range(0, len(text) - len(single_answer) + 1):
+            #     if single_answer == text[i : i + len(single_answer)]:
+            #         return True
+
+    elif match_type == "regex":
+        # Answer is a regex
+        for single_answer in answers:
+            single_answer = _normalize(single_answer)
+            if regex_match(text, single_answer):
+                return True
+    return False
+
+
+def regex_match(text, pattern):
+    """Test if a regex pattern is contained within a text."""
+    try:
+        pattern = re.compile(pattern, flags=re.IGNORECASE + re.UNICODE + re.MULTILINE)
+    except BaseException:
+        return False
+    return pattern.search(text) is not None
+
+
+# function for the reader model answer validation
+def exact_match_score(prediction, ground_truth):
+    return _normalize_answer(prediction) == _normalize_answer(ground_truth)
+
+
+def _normalize_answer(s):
+    def remove_articles(text):
+        return re.sub(r"\b(a|an|the)\b", " ", text)
+
+    def white_space_fix(text):
+        return " ".join(text.split())
+
+    def remove_punc(text):
+        exclude = set(string.punctuation)
+        return "".join(ch for ch in text if ch not in exclude)
+
+    def lower(text):
+        return text.lower()
+
+    return white_space_fix(remove_articles(remove_punc(lower(s))))
+
+
+def _normalize(text):
+    return unicodedata.normalize("NFD", text)
+
+
+def calculate_chunked_matches(
+    all_docs: Dict[object, TableChunk],
+    answers: List[List[str]],
+    closest_docs: List[Tuple[List[object], List[float]]],
+    workers_num: int,
+    match_type: str,
+) -> QATableMatchStats:
+    global dpr_all_documents
+    dpr_all_documents = all_docs
+
+    global dpr_all_tables
+    dpr_all_tables = {}
+
+    for key, table_chunk in all_docs.items():
+        table_str, title, table_id = table_chunk
+        table_chunks = dpr_all_tables.get(table_id, [])
+        table_chunks.append((table_str, title))
+        dpr_all_tables[table_id] = table_chunks
+
+    tok_opts = {}
+    tokenizer = SimpleTokenizer(**tok_opts)
+
+    processes = ProcessPool(processes=workers_num)
+
+    logger.info("Matching answers in top docs...")
+    get_score_partial = partial(
+        check_chunked_docs_answer, match_type=match_type, tokenizer=tokenizer
+    )
+    questions_answers_docs = zip(answers, closest_docs)
+    scores = processes.map(get_score_partial, questions_answers_docs)
+    logger.info("Per question validation results len=%d", len(scores))
+
+    n_docs = len(closest_docs[0][0])
+    top_k_hits = [0] * n_docs
+    top_k_orig_hits = [0] * n_docs
+    for s in scores:
+        question_hits, question_orig_doc_hits = s
+        best_hit = next((i for i, x in enumerate(question_hits) if x), None)
+        if best_hit is not None:
+            top_k_hits[best_hit:] = [v + 1 for v in top_k_hits[best_hit:]]
+
+        best_hit = next((i for i, x in enumerate(question_orig_doc_hits) if x), None)
+        if best_hit is not None:
+            top_k_orig_hits[best_hit:] = [v + 1 for v in top_k_orig_hits[best_hit:]]
+
+    return QATableMatchStats(top_k_hits, top_k_orig_hits, scores)

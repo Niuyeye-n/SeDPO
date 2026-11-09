@@ -1,1 +1,70 @@
-IyEvYmluL2Jhc2gKIyBTbW9rZSB0ZXN0IOesrOS6jOaute+8muiuree7gyDihpIg5qOA57SiIOKGkiDmjqjnkIYg4oaSIOaMh+agh++8iOWkjeeUqOesrOS4gOauteW3suS6p+WHuueahOaJk+WIhuaVsOaNru+8iQojIOWJjeaPkO+8mnNtb2tlX3YyLnNoIOeahOaJk+WIhumYtuauteW3suWujOaIkOS4lOS6p+eJqeWtmOWcqOOAggpzZXQgLXUKClJFUE89L3Jvb3QvYXV0b2RsLXRtcC9TZURQT19OSVBTMjUKU01PS0U9JFJFUE8vc21va2VfdjIKVEFHPXNtb2tlCkVYUD0kUkVQTy9teV9kYXRhX3F3ZW4vZXhwZXJpbWVudF8ke1RBR30vY2xvc2VfcWEKCmNkICRSRVBPCnNvdXJjZSAvcm9vdC9taW5pY29uZGEzL2V0Yy9wcm9maWxlLmQvY29uZGEuc2gKY29uZGEgYWN0aXZhdGUgL3Jvb3QvYXV0b2RsLXRtcC9lbnZzL3NlX2RwbwpleHBvcnQgUFlUSE9OUEFUSD0kUkVQTzoke1BZVEhPTlBBVEg6LX0KZXhwb3J0IEhZRFJBX0ZVTExfRVJST1I9MQpleHBvcnQgVE9LRU5JWkVSU19QQVJBTExFTElTTT1mYWxzZQpleHBvcnQgUFlUT1JDSF9DVURBX0FMTE9DX0NPTkY9ZXhwYW5kYWJsZV9zZWdtZW50czpUcnVlCmV4cG9ydCBQRUZUX0JFVEE9MC4xCmV4cG9ydCBESVZfUkVKRUNUPTEKCmVjaG8gIiMjIyMjIyMjIyMjIyBTTU9LRSBTVEFHRTIg5byA5aeLICQoZGF0ZSArJUg6JU06JVMpICMjIyMjIyMjIyMjIyIKCmVjaG8gIlskKGRhdGUgKyVIOiVNOiVTKV0gNC83IOiuree7g+ajgOe0ouWZqO+8iElGX1BSRUZFUl9MT1NTPTLvvIkiClQwPSQoZGF0ZSArJXMpCklGX1BSRUZFUl9MT1NTPTIgYmFzaCAkRVhQL3RyYWluLnNoID4gJFNNT0tFL3RyYWluLmxvZyAyPiYxClRSQUlOX1JDPSQ/OyBUMT0kKGRhdGUgKyVzKQplY2hvICJbJChkYXRlICslSDolTTolUyldIHRyYWluIHJjPSRUUkFJTl9SQyDogJfml7YgJCgoVDEtVDApKSDnp5IiCmlmIFsgJFRSQUlOX1JDIC1uZSAwIF07IHRoZW4KICAgIGVjaG8gIiEhISB0cmFpbiDlpLHotKXvvJoiOyB0YWlsIC0zMCAkU01PS0UvdHJhaW4ubG9nIHwgdHIgIlxyIiAiXG4iIHwgdGFpbCAtMTU7IGV4aXQgMQpmaQpncmVwIC1FICJiZXN0X3ZhbGlkfGRldl9iZXN0fEFjY3VyYWN5fFRvdGFsIGZpbHRlcmVkIiAkU01PS0UvdHJhaW4ubG9nIHwgdGFpbCAtNgoKZWNobyAiIgplY2hvICJbJChkYXRlICslSDolTTolUyldIDUvNyDnqKDlr4bmo4DntKIgKyDmjqjnkIYiClQwPSQoZGF0ZSArJXMpCklGX1BSRUZFUl9MT1NTPTIgYmFzaCAkRVhQL2luZmVyLnNoID4gJFNNT0tFL2luZmVyLmxvZyAyPiYxCklORkVSX1JDPSQ/OyBUMT0kKGRhdGUgKyVzKQplY2hvICJbJChkYXRlICslSDolTTolUyldIGluZmVyIHJjPSRJTkZFUl9SQyDogJfml7YgJCgoVDEtVDApKSDnp5IiCmlmIFsgJElORkVSX1JDIC1uZSAwIF07IHRoZW4KICAgIGVjaG8gIiEhISBpbmZlciDlpLHotKXvvJoiOyB0YWlsIC0zMCAkU01PS0UvaW5mZXIubG9nIHwgdHIgIlxyIiAiXG4iIHwgdGFpbCAtMTU7IGV4aXQgMQpmaQoKZWNobyAiIgplY2hvICJbJChkYXRlICslSDolTTolUyldIDYvNyDorqHnrpfmjIfmoIciClBSRURTPSQobHMgJEVYUC9wcmVkc19mb3JfKi9hcmNfY19wcm9tcHRzM19yZXRyaWV2ZXJzZTJfcHJlZHNfMC5qc29uIDI+L2Rldi9udWxsIHwgaGVhZCAtMSkKaWYgWyAtbiAiJFBSRURTIiBdOyB0aGVuCiAgICBweXRob24gJFJFUE8vMjAyNjExMDVfY29tcHV0ZV9tZXRyaWNzLnB5IC0tcHJlZHMgIiRQUkVEUyIgLS10YXNrIGFyY19jIFwKICAgICAgICAtLW91dF9qc29uICRTTU9LRS9tZXRyaWNzLmpzb24gLS1vdXRfdGV4dCAkU01PS0UvbWV0cmljcy50eHQgMj4mMSB8IHRhaWwgLTYKZWxzZQogICAgZWNobyAiISEhIOaJvuS4jeWIsCBwcmVkcyI7IGV4aXQgMQpmaQoKZWNobyAiIgplY2hvICJbJChkYXRlICslSDolTTolUyldIDcvNyDmoKHpqowgRjPvvIhSYW5kb20g5q+P6Zeu6aKY56S65L6L5LiN5ZCM77yJIgovcm9vdC9hdXRvZGwtdG1wL2VudnMvc2VfZHBvL2Jpbi9weXRob24gLSA8PCdQWScKaW1wb3J0IHN5cywgb3MsIHJhbmRvbSwgaW5zcGVjdApSRVBPID0gIi9yb290L2F1dG9kbC10bXAvU2VEUE9fTklQUzI1IgpzeXMucGF0aC5pbnNlcnQoMCwgUkVQTyk7IG9zLmNoZGlyKFJFUE8pCmZyb20gc3JjLmRhdGFzZXRfcmVhZGVycy5mZXdfc2hvdF9kc3IgaW1wb3J0IEZld1Nob3REYXRhc2V0UmVhZGVyCnNyYyA9IGluc3BlY3QuZ2V0c291cmNlKEZld1Nob3REYXRhc2V0UmVhZGVyLmdldF9maWVsZHMpCnByaW50KCIgIOWQq+aMiemXrumimOa0vueUn+enjeWtkDoiLCAic2VsZi5yYW5kb21fc2VlZCAqIDEwMDAwMDMiIGluIHNyYykKcG9vbCA9IGxpc3QocmFuZ2UoMTAwMCkpCmRyYXdzID0gW3JhbmRvbS5SYW5kb20oNDIqMTAwMDAwMyArIGkpLnNhbXBsZShwb29sLCBrPTMpIGZvciBpIGluIHJhbmdlKDUpXQpwcmludCgiICDliY016aKY56S65L6LOiIsIGRyYXdzKQpwcmludCgiICDkupLkuI3nm7jlkIw6IiwgbGVuKHt0dXBsZShkKSBmb3IgZCBpbiBkcmF3c30pID09IDUpClBZCgplY2hvICIiCmVjaG8gIiMjIyMjIyMjIyMjIyBTTU9LRSBTVEFHRTIg5YWo6YOo6YCa6L+HICQoZGF0ZSArJUg6JU06JVMpICMjIyMjIyMjIyMjIyIKY2F0ICRTTU9LRS9tZXRyaWNzLnR4dCAyPi9kZXYvbnVsbCB8IGhlYWQgLTIyCg==
+#!/bin/bash
+# Smoke test 第二段：训练 → 检索 → 推理 → 指标（复用第一段已产出的打分数据）
+# 前提：smoke_v2.sh 的打分阶段已完成且产物存在。
+set -u
+
+REPO=/root/autodl-tmp/SeDPO_NIPS25
+SMOKE=$REPO/smoke_v2
+TAG=smoke
+EXP=$REPO/my_data_qwen/experiment_${TAG}/close_qa
+
+cd $REPO
+source /root/miniconda3/etc/profile.d/conda.sh
+conda activate /root/autodl-tmp/envs/se_dpo
+export PYTHONPATH=$REPO:${PYTHONPATH:-}
+export HYDRA_FULL_ERROR=1
+export TOKENIZERS_PARALLELISM=false
+export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
+export PEFT_BETA=0.1
+export DIV_REJECT=1
+
+echo "############ SMOKE STAGE2 开始 $(date +%H:%M:%S) ############"
+
+echo "[$(date +%H:%M:%S)] 4/7 训练检索器（IF_PREFER_LOSS=2）"
+T0=$(date +%s)
+IF_PREFER_LOSS=2 bash $EXP/train.sh > $SMOKE/train.log 2>&1
+TRAIN_RC=$?; T1=$(date +%s)
+echo "[$(date +%H:%M:%S)] train rc=$TRAIN_RC 耗时 $((T1-T0)) 秒"
+if [ $TRAIN_RC -ne 0 ]; then
+    echo "!!! train 失败："; tail -30 $SMOKE/train.log | tr "\r" "\n" | tail -15; exit 1
+fi
+grep -E "best_valid|dev_best|Accuracy|Total filtered" $SMOKE/train.log | tail -6
+
+echo ""
+echo "[$(date +%H:%M:%S)] 5/7 稠密检索 + 推理"
+T0=$(date +%s)
+IF_PREFER_LOSS=2 bash $EXP/infer.sh > $SMOKE/infer.log 2>&1
+INFER_RC=$?; T1=$(date +%s)
+echo "[$(date +%H:%M:%S)] infer rc=$INFER_RC 耗时 $((T1-T0)) 秒"
+if [ $INFER_RC -ne 0 ]; then
+    echo "!!! infer 失败："; tail -30 $SMOKE/infer.log | tr "\r" "\n" | tail -15; exit 1
+fi
+
+echo ""
+echo "[$(date +%H:%M:%S)] 6/7 计算指标"
+PREDS=$(ls $EXP/preds_for_*/arc_c_prompts3_retrieverse2_preds_0.json 2>/dev/null | head -1)
+if [ -n "$PREDS" ]; then
+    python $REPO/20261105_compute_metrics.py --preds "$PREDS" --task arc_c \
+        --out_json $SMOKE/metrics.json --out_text $SMOKE/metrics.txt 2>&1 | tail -6
+else
+    echo "!!! 找不到 preds"; exit 1
+fi
+
+echo ""
+echo "[$(date +%H:%M:%S)] 7/7 校验 F3（Random 每问题示例不同）"
+/root/autodl-tmp/envs/se_dpo/bin/python - <<'PY'
+import sys, os, random, inspect
+REPO = "/root/autodl-tmp/SeDPO_NIPS25"
+sys.path.insert(0, REPO); os.chdir(REPO)
+from src.dataset_readers.few_shot_dsr import FewShotDatasetReader
+src = inspect.getsource(FewShotDatasetReader.get_fields)
+print("  含按问题派生种子:", "self.random_seed * 1000003" in src)
+pool = list(range(1000))
+draws = [random.Random(42*1000003 + i).sample(pool, k=3) for i in range(5)]
+print("  前5题示例:", draws)
+print("  互不相同:", len({tuple(d) for d in draws}) == 5)
+PY
+
+echo ""
+echo "############ SMOKE STAGE2 全部通过 $(date +%H:%M:%S) ############"
+cat $SMOKE/metrics.txt 2>/dev/null | head -22

@@ -1,1 +1,21 @@
-aW1wb3J0IGpzb24KaW1wb3J0IHN5cwoKUkVQTyA9ICIvcm9vdC9hdXRvZGwtdG1wL1NlRFBPX05JUFMyNSIKc3lzLnBhdGguaW5zZXJ0KDAsIFJFUE8pCmZyb20gc3JjLnV0aWxzLm1ldHJpYyBpbXBvcnQgY29tcHV0ZV9zY29yZXMgICMgbm9xYTogRTQwMgoKY2FzZXMgPSBbCiAgICAoImFyY19jKOW3suWujOaIkOeahCBsbGFtYSkiLCBSRVBPICsgIi9teV9kYXRhX3F3ZW4vZXhwZXJpbWVudF9zZWRwb19sbGFtYS9jbG9zZV9xYS9wcmVkc19mb3JfY2xvc2VfcWEvYXJjX2NfcHJvbXB0czNfcmV0cmlldmVyc2UyX3ByZWRzXzAuanNvbiIpLAogICAgKCJtdWx0aXJjKGxsYW1hKSIsIFJFUE8gKyAiL215X2RhdGFfcXdlbi9leHBlcmltZW50X3NlZHBvX2xsYW1hL3JlYWRpbmdfbmV3L3ByZWRzX2Zvcl9yZWFkaW5nX25ldy9tdWx0aXJjX3Byb21wdHMzX3JldHJpZXZlcnNlMl9wcmVkc18wLmpzb24iKSwKICAgICgibXVsdGlyYyhxd2VuKSIsIFJFUE8gKyAiL215X2RhdGFfcXdlbi9leHBlcmltZW50X3NlZHBvX3F3ZW4vcmVhZGluZ19uZXcvcHJlZHNfZm9yX3JlYWRpbmdfbmV3L211bHRpcmNfcHJvbXB0czNfcmV0cmlldmVyc2UyX3ByZWRzXzAuanNvbiIpLApdCgpmb3IgbmFtZSwgcGF0aCBpbiBjYXNlczoKICAgIHRyeToKICAgICAgICBkID0ganNvbi5sb2FkKG9wZW4ocGF0aCkpCiAgICAgICAgcHJpbnQobmFtZSwgIuadoeaVsD0iLCBsZW4oZCksICLlrZfmrrU9IiwgbGlzdChkWzBdLmtleXMoKSkpCiAgICAgICAgcHJpbnQoIiAgIHNjb3JlcyA9IiwgY29tcHV0ZV9zY29yZXMoInNpbXBsZV9hY2N1cmFjeSIsIGQpKQogICAgICAgIHByaW50KCIgICBuX3Byb21wdHMgPSIsIGRbMF0uZ2V0KCJuX3Byb21wdHMiKSkKICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICBwcmludChuYW1lLCAiW+Wksei0pV0iLCByZXByKGUpKQo=
+import json
+import sys
+
+REPO = "/root/autodl-tmp/SeDPO_NIPS25"
+sys.path.insert(0, REPO)
+from src.utils.metric import compute_scores  # noqa: E402
+
+cases = [
+    ("arc_c(已完成的 llama)", REPO + "/my_data_qwen/experiment_sedpo_llama/close_qa/preds_for_close_qa/arc_c_prompts3_retrieverse2_preds_0.json"),
+    ("multirc(llama)", REPO + "/my_data_qwen/experiment_sedpo_llama/reading_new/preds_for_reading_new/multirc_prompts3_retrieverse2_preds_0.json"),
+    ("multirc(qwen)", REPO + "/my_data_qwen/experiment_sedpo_qwen/reading_new/preds_for_reading_new/multirc_prompts3_retrieverse2_preds_0.json"),
+]
+
+for name, path in cases:
+    try:
+        d = json.load(open(path))
+        print(name, "条数=", len(d), "字段=", list(d[0].keys()))
+        print("   scores =", compute_scores("simple_accuracy", d))
+        print("   n_prompts =", d[0].get("n_prompts"))
+    except Exception as e:
+        print(name, "[失败]", repr(e))

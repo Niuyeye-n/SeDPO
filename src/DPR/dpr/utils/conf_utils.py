@@ -1,1 +1,31 @@
-aW1wb3J0IGxvZ2dpbmcKCmltcG9ydCBoeWRyYQpmcm9tIG9tZWdhY29uZiBpbXBvcnQgRGljdENvbmZpZwoKbG9nZ2VyID0gbG9nZ2luZy5nZXRMb2dnZXIoX19uYW1lX18pCgoKY2xhc3MgQmllbmNvZGVyRGF0YXNldHNDZmcob2JqZWN0KToKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBjZmc6IERpY3RDb25maWcpOgogICAgICAgIGRhdGFzZXRzID0gY2ZnLmRhdGFzZXRzICMgZW5jb2Rlcl90cmFpbl9kZWZhdWx0X3Rlc3QKICAgICAgICBzZWxmLnRyYWluX2RhdGFzZXRzX25hbWVzID0gY2ZnLnRyYWluX2RhdGFzZXRzCiAgICAgICAgbG9nZ2VyLmluZm8oInRyYWluX2RhdGFzZXRzOiAlcyIsIHNlbGYudHJhaW5fZGF0YXNldHNfbmFtZXMpCiAgICAgICAgIyBwcmludChkYXRhc2V0cykKICAgICAgICBpZiBzZWxmLnRyYWluX2RhdGFzZXRzX25hbWVzOgogICAgICAgICAgICBzZWxmLnRyYWluX2RhdGFzZXRzID0gWwogICAgICAgICAgICBdCiAgICAgICAgICAgIGZvciBkc19uYW1lIGluIHNlbGYudHJhaW5fZGF0YXNldHNfbmFtZXM6CiAgICAgICAgICAgICAgICBkYXRhc2V0c1tkc19uYW1lXVsnbG9zc190eXBlJ10gPSBjZmcubG9zc190eXBlCiAgICAgICAgICAgICAgICB0bXBfZGF0YXNldCA9IGh5ZHJhLnV0aWxzLmluc3RhbnRpYXRlKGRhdGFzZXRzW2RzX25hbWVdKQogICAgICAgICAgICAgICAgc2VsZi50cmFpbl9kYXRhc2V0cy5hcHBlbmQodG1wX2RhdGFzZXQpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgc2VsZi50cmFpbl9kYXRhc2V0cyA9IFtdCiAgICAgICAgaWYgY2ZnLmRldl9kYXRhc2V0czoKICAgICAgICAgICAgc2VsZi5kZXZfZGF0YXNldHNfbmFtZXMgPSBjZmcuZGV2X2RhdGFzZXRzCiAgICAgICAgICAgIGxvZ2dlci5pbmZvKCJkZXZfZGF0YXNldHM6ICVzIiwgc2VsZi5kZXZfZGF0YXNldHNfbmFtZXMpCiAgICAgICAgICAgIHNlbGYuZGV2X2RhdGFzZXRzID0gWwogICAgICAgICAgICAgICAgaHlkcmEudXRpbHMuaW5zdGFudGlhdGUoZGF0YXNldHNbZHNfbmFtZV0pCiAgICAgICAgICAgICAgICBmb3IgZHNfbmFtZSBpbiBzZWxmLmRldl9kYXRhc2V0c19uYW1lcwogICAgICAgICAgICBdCiAgICAgICAgc2VsZi5zYW1wbGluZ19yYXRlcyA9IGNmZy50cmFpbl9zYW1wbGluZ19yYXRlcwo=
+import logging
+
+import hydra
+from omegaconf import DictConfig
+
+logger = logging.getLogger(__name__)
+
+
+class BiencoderDatasetsCfg(object):
+    def __init__(self, cfg: DictConfig):
+        datasets = cfg.datasets # encoder_train_default_test
+        self.train_datasets_names = cfg.train_datasets
+        logger.info("train_datasets: %s", self.train_datasets_names)
+        # print(datasets)
+        if self.train_datasets_names:
+            self.train_datasets = [
+            ]
+            for ds_name in self.train_datasets_names:
+                datasets[ds_name]['loss_type'] = cfg.loss_type
+                tmp_dataset = hydra.utils.instantiate(datasets[ds_name])
+                self.train_datasets.append(tmp_dataset)
+        else:
+            self.train_datasets = []
+        if cfg.dev_datasets:
+            self.dev_datasets_names = cfg.dev_datasets
+            logger.info("dev_datasets: %s", self.dev_datasets_names)
+            self.dev_datasets = [
+                hydra.utils.instantiate(datasets[ds_name])
+                for ds_name in self.dev_datasets_names
+            ]
+        self.sampling_rates = cfg.train_sampling_rates

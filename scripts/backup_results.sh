@@ -1,1 +1,70 @@
-IyEvYmluL2Jhc2gKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQojIOWunumqjOe7k+aenOW/q+eFp++8iDIwMjYtMTEtMDfvvIkKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQojIOebrueahO+8muWunumqjOe7k+aenO+8iOajgOe0ouWIsOeahCAzLXNob3QgcHJvbXB0c+OAgeacgOe7iCBwcmVkc+OAgWV2YWxfcmVzIOaMh+agh++8iee7neS4jeiDveWGjeS4ouOAggojCiMg5Li65LuA5LmI6ZyA6KaB77yaMTEtMDZ+MTEtMDcg6K6t57uD5LiJ5qyh6KKr5penIGphbml0b3Ig5Yig55uu5b2V6ICM5Lit5pat77yb5q2k5aSWIEF1dG9ETCDlrp7kvosKIyAgIOS4gOaXpumHiuaUvu+8jC9yb290L2F1dG9kbC10bXAg5YWo55uY5raI5aSx44CC5omA5Lul5oqK44CM57uT5p6c57G75paH5Lu244CN5Y2V54us5omT5YyF5Yiw57O757uf55uYCiMgICAvcm9vdC9yZXN1bHRzX2JhY2t1cC/vvIzlubbnlLHmnKzlnLDmr4/lsI/ml7blm57kvKDkuIDku73jgIIKIwojIOWPquaUtue7k+aenO+8jOS4jeaUtuadg+mHje+8iOadg+mHjeWPr+S7jiBiZXN0X3ZhbGlkIOmHjeeOsO+8jOe7k+aenOS4jeiDve+8ie+8mgojICAgLSAqL3ByZWRzX2Zvcl8qLyoqICAgICAgICAgIOacgOe7iOmihOa1i++8iOWQq+etlOahiOS4juaMh+agh+e7n+iuoeaJgOmcgOWtl+aute+8iQojICAgLSAqL2V2YWxfcmVzXyoudHh0ICAgICAgICAgIOWumOaWueivhOa1i+aMh+agh+i+k+WHugojICAgLSAqL3NlMl9wcm9tcHRzX2Zvcl8qLyoqICAgIOWunumZheWWgue7meaooeWei+eahCAzLXNob3QgcHJvbXB077yI5Y+v5aSN546w5oCn5Yet6K+B77yJCiMgICAtIHJlc3VsdHNfc2VkcG9fdjMvKiogICAgICAg57yW5o6S5pel5b+X5LiO5rGH5oC7CiMgICAtIOWQhOe7hCAqLmxvZyAgICAgICAgICAgICAgICDorq3nu4Mv5o6o55CG5pel5b+XCiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0Kc2V0IC11ClJFUE89L3Jvb3QvYXV0b2RsLXRtcC9TZURQT19OSVBTMjUKQks9L3Jvb3QvcmVzdWx0c19iYWNrdXAKTE9HPSRCSy9iYWNrdXAubG9nCm1rZGlyIC1wICIkQksiCgpUUz0kKGRhdGUgKyVZJW0lZF8lSCVNJVMpCkxJU1Q9L3RtcC9fcmVzbGlzdF8kJC50eHQKOiA+ICIkTElTVCIKCmZvciB0IGluIHF3ZW4gbGxhbWE7IGRvCiAgICBmb3IgYyBpbiBjbG9zZV9xYSByZWFkaW5nX25ldzsgZG8KICAgICAgICBleHA9IiRSRVBPL215X2RhdGFfcXdlbi9leHBlcmltZW50X3NlZHBvXyR0LyRjIgogICAgICAgIFsgLWQgIiRleHAiIF0gfHwgY29udGludWUKICAgICAgICAjIOe7k+aenOexu+aWh+S7tu+8iHByZWRzIC8gZXZhbCDmjIfmoIcgLyBwcm9tcHRz77yJCiAgICAgICAgZmluZCAiJGV4cCIgLXR5cGUgZiBcKCAtbmFtZSAiKl9wcmVkc18qLmpzb24iIC1vIC1uYW1lICJldmFsX3Jlc18qLnR4dCIgXAogICAgICAgICAgICAgLW8gLW5hbWUgIipfcHJvbXB0cyouanNvbiIgXCkgPj4gIiRMSVNUIiAyPi9kZXYvbnVsbAogICAgICAgICMg5pel5b+X5Y2V54us5pS277yM5L6/5LqO5Zue5rqvCiAgICAgICAgZmluZCAiJGV4cCIgLW1heGRlcHRoIDEgLXR5cGUgZiAtbmFtZSAiKi5sb2ciID4+ICIkTElTVCIgMj4vZGV2L251bGwKICAgIGRvbmUKZG9uZQpmaW5kICIkUkVQTy9yZXN1bHRzX3NlZHBvX3YzIiAtdHlwZSBmID4+ICIkTElTVCIgMj4vZGV2L251bGwKCm5fZmlsZXM9JCh3YyAtbCA8ICIkTElTVCIpCiMg5rOo5oSP77yaZ3JlcCAtYyDml6DljLnphY3ml7bkvJrmiZPljbAgMCDlubbov5Tlm54gMe+8jOebtOaOpeaOpSBgfHwgZWNobyAwYCDkvJrlpJrmiZPkuIDkuKogMApuX3ByZWRzPSQoZ3JlcCAtYyAiX3ByZWRzXyIgIiRMSVNUIiAyPi9kZXYvbnVsbCkgfHwgdHJ1ZQpuX3ByZWRzPSR7bl9wcmVkczotMH0KCmlmIFsgIiRuX2ZpbGVzIiAtZXEgMCBdOyB0aGVuCiAgICBlY2hvICJbJChkYXRlICcrJUYgJVQnKV0g5pqC5peg5Y+v5aSH5Lu95paH5Lu2IiA+PiAiJExPRyIKICAgIHJtIC1mICIkTElTVCIKICAgIGV4aXQgMApmaQoKIyDlhoXlrrnmjIfnurnvvJrmlofku7bot6/lvoQr5aSn5bCPK+S/ruaUueaXtumXtO+8jOmBv+WFjee7k+aenOayoeWPmOWMluaXtuWPjeWkjeWGmeebmApGUD0kKHdoaWxlIHJlYWQgLXIgZjsgZG8gcHJpbnRmICIlcyAlcyAlc1xuIiAiJChzdGF0IC1jICclcyAlWScgIiRmIiAyPi9kZXYvbnVsbCkiICIkZiI7IGRvbmUgPCAiJExJU1QiIHwgc29ydCB8IG1kNXN1bSB8IGN1dCAtZCIgIiAtZjEpCkxBU1RfRlA9JChjYXQgIiRCSy8ubGFzdF9mcCIgMj4vZGV2L251bGwgfHwgZWNobyBub25lKQppZiBbICIkRlAiID0gIiRMQVNUX0ZQIiBdOyB0aGVuCiAgICBlY2hvICJbJChkYXRlICcrJUYgJVQnKV0g5peg5Y+Y5YyW77yM6Lez6L+H77yIcHJlZHM9JG5fcHJlZHMgZmlsZXM9JG5fZmlsZXPvvIkiID4+ICIkTE9HIgogICAgcm0gLWYgIiRMSVNUIgogICAgZXhpdCAwCmZpCgp0YXIgLWN6ZiAiJEJLL3NuYXBfJFRTLnRneiIgLVQgIiRMSVNUIiAyPi9kZXYvbnVsbApzej0kKGR1IC1zbSAiJEJLL3NuYXBfJFRTLnRneiIgMj4vZGV2L251bGwgfCBjdXQgLWYxKQpjcCAtZiAiJEJLL3NuYXBfJFRTLnRneiIgIiRCSy9sYXRlc3QudGd6IgplY2hvICIkRlAiID4gIiRCSy8ubGFzdF9mcCIKCiMg5Y+q5L+d55WZ5pyA6L+RIDEyIOS4quW/q+eFp++8iOe6piAyIOWwj+aXtu+8ie+8jGxhdGVzdC50Z3og5aeL57uI5piv5pyA5pawCmxzIC0xdCAiJEJLIi9zbmFwXyoudGd6IDI+L2Rldi9udWxsIHwgdGFpbCAtbiArMTMgfCB4YXJncyAtciBybSAtZgoKZWNobyAiWyQoZGF0ZSAnKyVGICVUJyldIOW/q+eFpyBzbmFwXyRUUy50Z3ogKCR7c3p9IE1CLCBwcmVkcz0kbl9wcmVkcywgZmlsZXM9JG5fZmlsZXMpIiA+PiAiJExPRyIKcm0gLWYgIiRMSVNUIgo=
+#!/bin/bash
+# =============================================================================
+# 实验结果快照（2026-11-07）
+# =============================================================================
+# 目的：实验结果（检索到的 3-shot prompts、最终 preds、eval_res 指标）绝不能再丢。
+#
+# 为什么需要：11-06~11-07 训练三次被旧 janitor 删目录而中断；此外 AutoDL 实例
+#   一旦释放，/root/autodl-tmp 全盘消失。所以把「结果类文件」单独打包到系统盘
+#   /root/results_backup/，并由本地每小时回传一份。
+#
+# 只收结果，不收权重（权重可从 best_valid 重现，结果不能）：
+#   - */preds_for_*/**          最终预测（含答案与指标统计所需字段）
+#   - */eval_res_*.txt          官方评测指标输出
+#   - */se2_prompts_for_*/**    实际喂给模型的 3-shot prompt（可复现性凭证）
+#   - results_sedpo_v3/**       编排日志与汇总
+#   - 各组 *.log                训练/推理日志
+# =============================================================================
+set -u
+REPO=/root/autodl-tmp/SeDPO_NIPS25
+BK=/root/results_backup
+LOG=$BK/backup.log
+mkdir -p "$BK"
+
+TS=$(date +%Y%m%d_%H%M%S)
+LIST=/tmp/_reslist_$$.txt
+: > "$LIST"
+
+for t in qwen llama; do
+    for c in close_qa reading_new; do
+        exp="$REPO/my_data_qwen/experiment_sedpo_$t/$c"
+        [ -d "$exp" ] || continue
+        # 结果类文件（preds / eval 指标 / prompts）
+        find "$exp" -type f \( -name "*_preds_*.json" -o -name "eval_res_*.txt" \
+             -o -name "*_prompts*.json" \) >> "$LIST" 2>/dev/null
+        # 日志单独收，便于回溯
+        find "$exp" -maxdepth 1 -type f -name "*.log" >> "$LIST" 2>/dev/null
+    done
+done
+find "$REPO/results_sedpo_v3" -type f >> "$LIST" 2>/dev/null
+
+n_files=$(wc -l < "$LIST")
+# 注意：grep -c 无匹配时会打印 0 并返回 1，直接接 `|| echo 0` 会多打一个 0
+n_preds=$(grep -c "_preds_" "$LIST" 2>/dev/null) || true
+n_preds=${n_preds:-0}
+
+if [ "$n_files" -eq 0 ]; then
+    echo "[$(date '+%F %T')] 暂无可备份文件" >> "$LOG"
+    rm -f "$LIST"
+    exit 0
+fi
+
+# 内容指纹：文件路径+大小+修改时间，避免结果没变化时反复写盘
+FP=$(while read -r f; do printf "%s %s %s\n" "$(stat -c '%s %Y' "$f" 2>/dev/null)" "$f"; done < "$LIST" | sort | md5sum | cut -d" " -f1)
+LAST_FP=$(cat "$BK/.last_fp" 2>/dev/null || echo none)
+if [ "$FP" = "$LAST_FP" ]; then
+    echo "[$(date '+%F %T')] 无变化，跳过（preds=$n_preds files=$n_files）" >> "$LOG"
+    rm -f "$LIST"
+    exit 0
+fi
+
+tar -czf "$BK/snap_$TS.tgz" -T "$LIST" 2>/dev/null
+sz=$(du -sm "$BK/snap_$TS.tgz" 2>/dev/null | cut -f1)
+cp -f "$BK/snap_$TS.tgz" "$BK/latest.tgz"
+echo "$FP" > "$BK/.last_fp"
+
+# 只保留最近 12 个快照（约 2 小时），latest.tgz 始终是最新
+ls -1t "$BK"/snap_*.tgz 2>/dev/null | tail -n +13 | xargs -r rm -f
+
+echo "[$(date '+%F %T')] 快照 snap_$TS.tgz (${sz} MB, preds=$n_preds, files=$n_files)" >> "$LOG"
+rm -f "$LIST"

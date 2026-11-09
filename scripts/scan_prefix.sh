@@ -1,1 +1,24 @@
-IyEvYmluL2Jhc2gKIyDmib7lh7rmr4/kuKrliIbniYfnmoTmnInmlYjliY3nvIDvvIjnm7jlr7kgTW9kZWxTY29wZSDmupDvvInvvIzlubbmiormlofku7bmiKrmlq3liLDmnInmlYjplb/luqbvvIwKIyDkuYvlkI4gZGxfZmFzdC5weSDkvJrlnKjmraTln7rnoYDkuIrnu63kvKDliankvZnpg6jliIbjgIIKc2V0IC11CkxPRz0vcm9vdC9hdXRvZGwtdG1wL3ByZWZpeF9zY2FuLmxvZwo6ID4gJExPRwoKc2NhbigpIHsKICBSRVBPPSIkMSI7IERJUj0iJDIiOyBGPSIkMyIKICBlY2hvICI9PT0gJERJUi8kRiA9PT0iID4+ICRMT0cKICAvcm9vdC9taW5pY29uZGEzL2Jpbi9weXRob24gL3Jvb3QvYXV0b2RsLXRtcC9maW5kX3ByZWZpeC5weSAtLXJlcG8gIiRSRVBPIiAtLWZpbGUgIiRESVIvJEYiID4+ICRMT0cgMj4mMQp9CgojIGxsYW1hMy04Ygpmb3IgaSBpbiAxIDIgMyA0OyBkbwogIGY9JChwcmludGYgIm1vZGVsLSUwNWQtb2YtMDAwMDQuc2FmZXRlbnNvcnMiICRpKQogIHNjYW4gIk5vdXNSZXNlYXJjaC9NZXRhLUxsYW1hLTMtOEIiIC9yb290L2F1dG9kbC10bXAvbW9kZWxzL2xsYW1hMy04YiAiJGYiCmRvbmUKIyBxd2VuMi41LTdiCmZvciBpIGluIDEgMiAzIDQ7IGRvCiAgZj0kKHByaW50ZiAibW9kZWwtJTA1ZC1vZi0wMDAwNC5zYWZldGVuc29ycyIgJGkpCiAgc2NhbiAiUXdlbi9Rd2VuMi41LTdCIiAvcm9vdC9hdXRvZGwtdG1wL21vZGVscy9xd2VuMi41LTdiICIkZiIKZG9uZQplY2hvICJQUkVGSVhfU0NBTl9ET05FIiA+PiAkTE9HCg==
+#!/bin/bash
+# 找出每个分片的有效前缀（相对 ModelScope 源），并把文件截断到有效长度，
+# 之后 dl_fast.py 会在此基础上续传剩余部分。
+set -u
+LOG=/root/autodl-tmp/prefix_scan.log
+: > $LOG
+
+scan() {
+  REPO="$1"; DIR="$2"; F="$3"
+  echo "=== $DIR/$F ===" >> $LOG
+  /root/miniconda3/bin/python /root/autodl-tmp/find_prefix.py --repo "$REPO" --file "$DIR/$F" >> $LOG 2>&1
+}
+
+# llama3-8b
+for i in 1 2 3 4; do
+  f=$(printf "model-%05d-of-00004.safetensors" $i)
+  scan "NousResearch/Meta-Llama-3-8B" /root/autodl-tmp/models/llama3-8b "$f"
+done
+# qwen2.5-7b
+for i in 1 2 3 4; do
+  f=$(printf "model-%05d-of-00004.safetensors" $i)
+  scan "Qwen/Qwen2.5-7B" /root/autodl-tmp/models/qwen2.5-7b "$f"
+done
+echo "PREFIX_SCAN_DONE" >> $LOG

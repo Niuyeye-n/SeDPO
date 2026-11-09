@@ -1,1 +1,630 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwojIENvcHlyaWdodCAoYykgRmFjZWJvb2ssIEluYy4gYW5kIGl0cyBhZmZpbGlhdGVzLgojIEFsbCByaWdodHMgcmVzZXJ2ZWQuCiMKIyBUaGlzIHNvdXJjZSBjb2RlIGlzIGxpY2Vuc2VkIHVuZGVyIHRoZSBsaWNlbnNlIGZvdW5kIGluIHRoZQojIExJQ0VOU0UgZmlsZSBpbiB0aGUgcm9vdCBkaXJlY3Rvcnkgb2YgdGhpcyBzb3VyY2UgdHJlZS4KCgoiIiIKIFBpcGVsaW5lIHRvIHRyYWluIHRoZSByZWFkZXIgbW9kZWwgb24gdG9wIG9mIHRoZSByZXRyaWV2ZXIgcmVzdWx0cwoiIiIKCmltcG9ydCBjb2xsZWN0aW9ucwppbXBvcnQganNvbgppbXBvcnQgc3lzCgppbXBvcnQgaHlkcmEKaW1wb3J0IGxvZ2dpbmcKaW1wb3J0IG51bXB5IGFzIG5wCmltcG9ydCBvcwppbXBvcnQgdG9yY2gKCmZyb20gY29sbGVjdGlvbnMgaW1wb3J0IGRlZmF1bHRkaWN0CmZyb20gb21lZ2Fjb25mIGltcG9ydCBEaWN0Q29uZmlnLCBPbWVnYUNvbmYKZnJvbSB0eXBpbmcgaW1wb3J0IExpc3QKCgpmcm9tIGRwci5kYXRhLnFhX3ZhbGlkYXRpb24gaW1wb3J0IGV4YWN0X21hdGNoX3Njb3JlCmZyb20gZHByLmRhdGEucmVhZGVyX2RhdGEgaW1wb3J0ICgKICAgIFJlYWRlclNhbXBsZSwKICAgIGdldF9iZXN0X3NwYW5zLAogICAgU3BhblByZWRpY3Rpb24sCiAgICBFeHRyYWN0aXZlUmVhZGVyRGF0YXNldCwKKQpmcm9tIGRwci5tb2RlbHMgaW1wb3J0IGluaXRfcmVhZGVyX2NvbXBvbmVudHMKZnJvbSBkcHIubW9kZWxzLnJlYWRlciBpbXBvcnQgY3JlYXRlX3JlYWRlcl9pbnB1dCwgUmVhZGVyQmF0Y2gsIGNvbXB1dGVfbG9zcwpmcm9tIGRwci5vcHRpb25zIGltcG9ydCAoCiAgICBzZXR1cF9jZmdfZ3B1LAogICAgc2V0X3NlZWQsCiAgICBzZXRfY2ZnX3BhcmFtc19mcm9tX3N0YXRlLAogICAgZ2V0X2VuY29kZXJfcGFyYW1zX3N0YXRlX2Zyb21fY2ZnLAogICAgc2V0dXBfbG9nZ2VyLAopCmZyb20gZHByLnV0aWxzLmRhdGFfdXRpbHMgaW1wb3J0ICgKICAgIFNoYXJkZWREYXRhSXRlcmF0b3IsCikKZnJvbSBkcHIudXRpbHMubW9kZWxfdXRpbHMgaW1wb3J0ICgKICAgIGdldF9zY2hlZHVsZV9saW5lYXIsCiAgICBsb2FkX3N0YXRlc19mcm9tX2NoZWNrcG9pbnQsCiAgICBtb3ZlX3RvX2RldmljZSwKICAgIENoZWNrcG9pbnRTdGF0ZSwKICAgIGdldF9tb2RlbF9maWxlLAogICAgc2V0dXBfZm9yX2Rpc3RyaWJ1dGVkX21vZGUsCiAgICBnZXRfbW9kZWxfb2JqLAopCgpsb2dnZXIgPSBsb2dnaW5nLmdldExvZ2dlcigpCnNldHVwX2xvZ2dlcihsb2dnZXIpCgpSZWFkZXJRdWVzdGlvblByZWRpY3Rpb25zID0gY29sbGVjdGlvbnMubmFtZWR0dXBsZSgKICAgICJSZWFkZXJRdWVzdGlvblByZWRpY3Rpb25zIiwgWyJpZCIsICJwcmVkaWN0aW9ucyIsICJnb2xkX2Fuc3dlcnMiXQopCgoKY2xhc3MgUmVhZGVyVHJhaW5lcihvYmplY3QpOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGNmZzogRGljdENvbmZpZyk6CiAgICAgICAgc2VsZi5jZmcgPSBjZmcKCiAgICAgICAgc2VsZi5zaGFyZF9pZCA9IGNmZy5sb2NhbF9yYW5rIGlmIGNmZy5sb2NhbF9yYW5rICE9IC0xIGVsc2UgMAogICAgICAgIHNlbGYuZGlzdHJpYnV0ZWRfZmFjdG9yID0gY2ZnLmRpc3RyaWJ1dGVkX3dvcmxkX3NpemUgb3IgMQoKICAgICAgICBsb2dnZXIuaW5mbygiKioqKiogSW5pdGlhbGl6aW5nIGNvbXBvbmVudHMgZm9yIHRyYWluaW5nICoqKioqIikKCiAgICAgICAgbW9kZWxfZmlsZSA9IGdldF9tb2RlbF9maWxlKHNlbGYuY2ZnLCBzZWxmLmNmZy5jaGVja3BvaW50X2ZpbGVfbmFtZSkKICAgICAgICBzYXZlZF9zdGF0ZSA9IE5vbmUKICAgICAgICBpZiBtb2RlbF9maWxlOgogICAgICAgICAgICBzYXZlZF9zdGF0ZSA9IGxvYWRfc3RhdGVzX2Zyb21fY2hlY2twb2ludChtb2RlbF9maWxlKQogICAgICAgICAgICBzZXRfY2ZnX3BhcmFtc19mcm9tX3N0YXRlKHNhdmVkX3N0YXRlLmVuY29kZXJfcGFyYW1zLCBjZmcpCgogICAgICAgIHRlbnNvcml6ZXIsIHJlYWRlciwgb3B0aW1pemVyID0gaW5pdF9yZWFkZXJfY29tcG9uZW50cygKICAgICAgICAgICAgY2ZnLmVuY29kZXIuZW5jb2Rlcl9tb2RlbF90eXBlLCBjZmcKICAgICAgICApCgogICAgICAgIHJlYWRlciwgb3B0aW1pemVyID0gc2V0dXBfZm9yX2Rpc3RyaWJ1dGVkX21vZGUoCiAgICAgICAgICAgIHJlYWRlciwKICAgICAgICAgICAgb3B0aW1pemVyLAogICAgICAgICAgICBjZmcuZGV2aWNlLAogICAgICAgICAgICBjZmcubl9ncHUsCiAgICAgICAgICAgIGNmZy5sb2NhbF9yYW5rLAogICAgICAgICAgICBjZmcuZnAxNiwKICAgICAgICAgICAgY2ZnLmZwMTZfb3B0X2xldmVsLAogICAgICAgICkKICAgICAgICBzZWxmLnJlYWRlciA9IHJlYWRlcgogICAgICAgIHNlbGYub3B0aW1pemVyID0gb3B0aW1pemVyCiAgICAgICAgc2VsZi50ZW5zb3JpemVyID0gdGVuc29yaXplcgogICAgICAgIHNlbGYuc3RhcnRfZXBvY2ggPSAwCiAgICAgICAgc2VsZi5zdGFydF9iYXRjaCA9IDAKICAgICAgICBzZWxmLnNjaGVkdWxlcl9zdGF0ZSA9IE5vbmUKICAgICAgICBzZWxmLmJlc3RfdmFsaWRhdGlvbl9yZXN1bHQgPSBOb25lCiAgICAgICAgc2VsZi5iZXN0X2NwX25hbWUgPSBOb25lCiAgICAgICAgaWYgc2F2ZWRfc3RhdGU6CiAgICAgICAgICAgIHNlbGYuX2xvYWRfc2F2ZWRfc3RhdGUoc2F2ZWRfc3RhdGUpCgogICAgZGVmIGdldF9kYXRhX2l0ZXJhdG9yKAogICAgICAgIHNlbGYsCiAgICAgICAgcGF0aDogc3RyLAogICAgICAgIGJhdGNoX3NpemU6IGludCwKICAgICAgICBpc190cmFpbjogYm9vbCwKICAgICAgICBzaHVmZmxlPVRydWUsCiAgICAgICAgc2h1ZmZsZV9zZWVkOiBpbnQgPSAwLAogICAgICAgIG9mZnNldDogaW50ID0gMCwKICAgICkgLT4gU2hhcmRlZERhdGFJdGVyYXRvcjoKCiAgICAgICAgcnVuX3ByZXByb2Nlc3NpbmcgPSAoCiAgICAgICAgICAgIFRydWUKICAgICAgICAgICAgaWYgc2VsZi5kaXN0cmlidXRlZF9mYWN0b3IgPT0gMSBvciBzZWxmLmNmZy5sb2NhbF9yYW5rIGluIFstMSwgMF0KICAgICAgICAgICAgZWxzZSBGYWxzZQogICAgICAgICkKCiAgICAgICAgZ29sZF9wYXNzYWdlc19zcmMgPSBzZWxmLmNmZy5nb2xkX3Bhc3NhZ2VzX3NyYwogICAgICAgIGlmIGdvbGRfcGFzc2FnZXNfc3JjOgogICAgICAgICAgICBpZiBub3QgaXNfdHJhaW46CiAgICAgICAgICAgICAgICBnb2xkX3Bhc3NhZ2VzX3NyYyA9IHNlbGYuY2ZnLmdvbGRfcGFzc2FnZXNfc3JjX2RldgoKICAgICAgICAgICAgYXNzZXJ0IG9zLnBhdGguZXhpc3RzKAogICAgICAgICAgICAgICAgZ29sZF9wYXNzYWdlc19zcmMKICAgICAgICAgICAgKSwgIlBsZWFzZSBzcGVjaWZ5IHZhbGlkIGdvbGRfcGFzc2FnZXNfc3JjL2dvbGRfcGFzc2FnZXNfc3JjX2RldiIKCiAgICAgICAgZGF0YXNldCA9IEV4dHJhY3RpdmVSZWFkZXJEYXRhc2V0KAogICAgICAgICAgICBwYXRoLAogICAgICAgICAgICBpc190cmFpbiwKICAgICAgICAgICAgZ29sZF9wYXNzYWdlc19zcmMsCiAgICAgICAgICAgIHNlbGYudGVuc29yaXplciwKICAgICAgICAgICAgcnVuX3ByZXByb2Nlc3NpbmcsCiAgICAgICAgICAgIHNlbGYuY2ZnLm51bV93b3JrZXJzLAogICAgICAgICkKCiAgICAgICAgZGF0YXNldC5sb2FkX2RhdGEoKQoKICAgICAgICBpdGVyYXRvciA9IFNoYXJkZWREYXRhSXRlcmF0b3IoCiAgICAgICAgICAgIGRhdGFzZXQsCiAgICAgICAgICAgIHNoYXJkX2lkPXNlbGYuc2hhcmRfaWQsCiAgICAgICAgICAgIG51bV9zaGFyZHM9c2VsZi5kaXN0cmlidXRlZF9mYWN0b3IsCiAgICAgICAgICAgIGJhdGNoX3NpemU9YmF0Y2hfc2l6ZSwKICAgICAgICAgICAgc2h1ZmZsZT1zaHVmZmxlLAogICAgICAgICAgICBzaHVmZmxlX3NlZWQ9c2h1ZmZsZV9zZWVkLAogICAgICAgICAgICBvZmZzZXQ9b2Zmc2V0LAogICAgICAgICkKCiAgICAgICAgIyBhcHBseSBkZXNlcmlhbGl6YXRpb24gaG9vawogICAgICAgIGl0ZXJhdG9yLmFwcGx5KGxhbWJkYSBzYW1wbGU6IHNhbXBsZS5vbl9kZXNlcmlhbGl6ZSgpKQogICAgICAgIHJldHVybiBpdGVyYXRvcgoKICAgIGRlZiBydW5fdHJhaW4oc2VsZik6CiAgICAgICAgY2ZnID0gc2VsZi5jZmcKCiAgICAgICAgdHJhaW5faXRlcmF0b3IgPSBzZWxmLmdldF9kYXRhX2l0ZXJhdG9yKAogICAgICAgICAgICBjZmcudHJhaW5fZmlsZXMsCiAgICAgICAgICAgIGNmZy50cmFpbi5iYXRjaF9zaXplLAogICAgICAgICAgICBUcnVlLAogICAgICAgICAgICBzaHVmZmxlPVRydWUsCiAgICAgICAgICAgIHNodWZmbGVfc2VlZD1jZmcuc2VlZCwKICAgICAgICAgICAgb2Zmc2V0PXNlbGYuc3RhcnRfYmF0Y2gsCiAgICAgICAgKQoKICAgICAgICAjIG51bV90cmFpbl9lcG9jaHMgPSBjZmcudHJhaW4ubnVtX3RyYWluX2Vwb2NocyAtIHNlbGYuc3RhcnRfZXBvY2gKCiAgICAgICAgbG9nZ2VyLmluZm8oIlRvdGFsIGl0ZXJhdGlvbnMgcGVyIGVwb2NoPSVkIiwgdHJhaW5faXRlcmF0b3IubWF4X2l0ZXJhdGlvbnMpCiAgICAgICAgdXBkYXRlc19wZXJfZXBvY2ggPSAoCiAgICAgICAgICAgIHRyYWluX2l0ZXJhdG9yLm1heF9pdGVyYXRpb25zIC8vIGNmZy50cmFpbi5ncmFkaWVudF9hY2N1bXVsYXRpb25fc3RlcHMKICAgICAgICApCgogICAgICAgIHRvdGFsX3VwZGF0ZXMgPSB1cGRhdGVzX3Blcl9lcG9jaCAqIGNmZy50cmFpbi5udW1fdHJhaW5fZXBvY2hzCiAgICAgICAgbG9nZ2VyLmluZm8oIiBUb3RhbCB1cGRhdGVzPSVkIiwgdG90YWxfdXBkYXRlcykKCiAgICAgICAgd2FybXVwX3N0ZXBzID0gY2ZnLnRyYWluLndhcm11cF9zdGVwcwoKICAgICAgICBpZiBzZWxmLnNjaGVkdWxlcl9zdGF0ZToKICAgICAgICAgICAgbG9nZ2VyLmluZm8oIkxvYWRpbmcgc2NoZWR1bGVyIHN0YXRlICVzIiwgc2VsZi5zY2hlZHVsZXJfc3RhdGUpCiAgICAgICAgICAgIHNoaWZ0ID0gaW50KHNlbGYuc2NoZWR1bGVyX3N0YXRlWyJsYXN0X2Vwb2NoIl0pCiAgICAgICAgICAgIGxvZ2dlci5pbmZvKCJTdGVwcyBzaGlmdCAlZCIsIHNoaWZ0KQogICAgICAgICAgICBzY2hlZHVsZXIgPSBnZXRfc2NoZWR1bGVfbGluZWFyKAogICAgICAgICAgICAgICAgc2VsZi5vcHRpbWl6ZXIsCiAgICAgICAgICAgICAgICB3YXJtdXBfc3RlcHMsCiAgICAgICAgICAgICAgICB0b3RhbF91cGRhdGVzLAogICAgICAgICAgICApCiAgICAgICAgZWxzZToKICAgICAgICAgICAgc2NoZWR1bGVyID0gZ2V0X3NjaGVkdWxlX2xpbmVhcihzZWxmLm9wdGltaXplciwgd2FybXVwX3N0ZXBzLCB0b3RhbF91cGRhdGVzKQoKICAgICAgICBldmFsX3N0ZXAgPSBjZmcudHJhaW4uZXZhbF9zdGVwCiAgICAgICAgbG9nZ2VyLmluZm8oIiAgRXZhbCBzdGVwID0gJWQiLCBldmFsX3N0ZXApCiAgICAgICAgbG9nZ2VyLmluZm8oIioqKioqIFRyYWluaW5nICoqKioqIikKCiAgICAgICAgZ2xvYmFsX3N0ZXAgPSBzZWxmLnN0YXJ0X2Vwb2NoICogdXBkYXRlc19wZXJfZXBvY2ggKyBzZWxmLnN0YXJ0X2JhdGNoCgogICAgICAgIGZvciBlcG9jaCBpbiByYW5nZShzZWxmLnN0YXJ0X2Vwb2NoLCBjZmcudHJhaW4ubnVtX3RyYWluX2Vwb2Nocyk6CiAgICAgICAgICAgIGxvZ2dlci5pbmZvKCIqKioqKiBFcG9jaCAlZCAqKioqKiIsIGVwb2NoKQogICAgICAgICAgICBnbG9iYWxfc3RlcCA9IHNlbGYuX3RyYWluX2Vwb2NoKAogICAgICAgICAgICAgICAgc2NoZWR1bGVyLCBlcG9jaCwgZXZhbF9zdGVwLCB0cmFpbl9pdGVyYXRvciwgZ2xvYmFsX3N0ZXAKICAgICAgICAgICAgKQoKICAgICAgICBpZiBjZmcubG9jYWxfcmFuayBpbiBbLTEsIDBdOgogICAgICAgICAgICBsb2dnZXIuaW5mbygKICAgICAgICAgICAgICAgICJUcmFpbmluZyBmaW5pc2hlZC4gQmVzdCB2YWxpZGF0aW9uIGNoZWNrcG9pbnQgJXMiLCBzZWxmLmJlc3RfY3BfbmFtZQogICAgICAgICAgICApCgogICAgICAgIHJldHVybgoKICAgIGRlZiB2YWxpZGF0ZV9hbmRfc2F2ZShzZWxmLCBlcG9jaDogaW50LCBpdGVyYXRpb246IGludCwgc2NoZWR1bGVyKToKICAgICAgICBjZmcgPSBzZWxmLmNmZwogICAgICAgICMgaW4gZGlzdHJpYnV0ZWQgRERQIG1vZGUsIHNhdmUgY2hlY2twb2ludCBmb3Igb25seSBvbmUgcHJvY2VzcwogICAgICAgIHNhdmVfY3AgPSBjZmcubG9jYWxfcmFuayBpbiBbLTEsIDBdCiAgICAgICAgcmVhZGVyX3ZhbGlkYXRpb25fc2NvcmUgPSBzZWxmLnZhbGlkYXRlKCkKCiAgICAgICAgaWYgc2F2ZV9jcDoKICAgICAgICAgICAgY3BfbmFtZSA9IHNlbGYuX3NhdmVfY2hlY2twb2ludChzY2hlZHVsZXIsIGVwb2NoLCBpdGVyYXRpb24pCiAgICAgICAgICAgIGxvZ2dlci5pbmZvKCJTYXZlZCBjaGVja3BvaW50IHRvICVzIiwgY3BfbmFtZSkKCiAgICAgICAgICAgIGlmIHJlYWRlcl92YWxpZGF0aW9uX3Njb3JlIDwgKHNlbGYuYmVzdF92YWxpZGF0aW9uX3Jlc3VsdCBvciAwKToKICAgICAgICAgICAgICAgIHNlbGYuYmVzdF92YWxpZGF0aW9uX3Jlc3VsdCA9IHJlYWRlcl92YWxpZGF0aW9uX3Njb3JlCiAgICAgICAgICAgICAgICBzZWxmLmJlc3RfY3BfbmFtZSA9IGNwX25hbWUKICAgICAgICAgICAgICAgIGxvZ2dlci5pbmZvKCJOZXcgQmVzdCB2YWxpZGF0aW9uIGNoZWNrcG9pbnQgJXMiLCBjcF9uYW1lKQoKICAgIGRlZiB2YWxpZGF0ZShzZWxmKToKICAgICAgICBsb2dnZXIuaW5mbygiVmFsaWRhdGlvbiAuLi4iKQogICAgICAgIGNmZyA9IHNlbGYuY2ZnCiAgICAgICAgc2VsZi5yZWFkZXIuZXZhbCgpCiAgICAgICAgZGF0YV9pdGVyYXRvciA9IHNlbGYuZ2V0X2RhdGFfaXRlcmF0b3IoCiAgICAgICAgICAgIGNmZy5kZXZfZmlsZXMsIGNmZy50cmFpbi5kZXZfYmF0Y2hfc2l6ZSwgRmFsc2UsIHNodWZmbGU9RmFsc2UKICAgICAgICApCgogICAgICAgIGxvZ19yZXN1bHRfc3RlcCA9IGNmZy50cmFpbi5sb2dfYmF0Y2hfc3RlcAogICAgICAgIGFsbF9yZXN1bHRzID0gW10KCiAgICAgICAgZXZhbF90b3BfZG9jcyA9IGNmZy5ldmFsX3RvcF9kb2NzCiAgICAgICAgZm9yIGksIHNhbXBsZXNfYmF0Y2ggaW4gZW51bWVyYXRlKGRhdGFfaXRlcmF0b3IuaXRlcmF0ZV9kc19kYXRhKCkpOgogICAgICAgICAgICBpbnB1dCA9IGNyZWF0ZV9yZWFkZXJfaW5wdXQoCiAgICAgICAgICAgICAgICBzZWxmLnRlbnNvcml6ZXIuZ2V0X3BhZF9pZCgpLAogICAgICAgICAgICAgICAgc2FtcGxlc19iYXRjaCwKICAgICAgICAgICAgICAgIGNmZy5wYXNzYWdlc19wZXJfcXVlc3Rpb25fcHJlZGljdCwKICAgICAgICAgICAgICAgIGNmZy5lbmNvZGVyLnNlcXVlbmNlX2xlbmd0aCwKICAgICAgICAgICAgICAgIGNmZy5tYXhfbl9hbnN3ZXJzLAogICAgICAgICAgICAgICAgaXNfdHJhaW49RmFsc2UsCiAgICAgICAgICAgICAgICBzaHVmZmxlPUZhbHNlLAogICAgICAgICAgICApCgogICAgICAgICAgICBpbnB1dCA9IFJlYWRlckJhdGNoKCoqbW92ZV90b19kZXZpY2UoaW5wdXQuX2FzZGljdCgpLCBjZmcuZGV2aWNlKSkKICAgICAgICAgICAgYXR0bl9tYXNrID0gc2VsZi50ZW5zb3JpemVyLmdldF9hdHRuX21hc2soaW5wdXQuaW5wdXRfaWRzKQoKICAgICAgICAgICAgd2l0aCB0b3JjaC5ub19ncmFkKCk6CiAgICAgICAgICAgICAgICBzdGFydF9sb2dpdHMsIGVuZF9sb2dpdHMsIHJlbGV2YW5jZV9sb2dpdHMgPSBzZWxmLnJlYWRlcigKICAgICAgICAgICAgICAgICAgICBpbnB1dC5pbnB1dF9pZHMsIGF0dG5fbWFzawogICAgICAgICAgICAgICAgKQoKICAgICAgICAgICAgYmF0Y2hfcHJlZGljdGlvbnMgPSBzZWxmLl9nZXRfYmVzdF9wcmVkaWN0aW9uKAogICAgICAgICAgICAgICAgc3RhcnRfbG9naXRzLAogICAgICAgICAgICAgICAgZW5kX2xvZ2l0cywKICAgICAgICAgICAgICAgIHJlbGV2YW5jZV9sb2dpdHMsCiAgICAgICAgICAgICAgICBzYW1wbGVzX2JhdGNoLAogICAgICAgICAgICAgICAgcGFzc2FnZV90aHJlc2hvbGRzPWV2YWxfdG9wX2RvY3MsCiAgICAgICAgICAgICkKCiAgICAgICAgICAgIGFsbF9yZXN1bHRzLmV4dGVuZChiYXRjaF9wcmVkaWN0aW9ucykKCiAgICAgICAgICAgIGlmIChpICsgMSkgJSBsb2dfcmVzdWx0X3N0ZXAgPT0gMDoKICAgICAgICAgICAgICAgIGxvZ2dlci5pbmZvKCJFdmFsIHN0ZXA6ICVkICIsIGkpCgogICAgICAgIGVtcyA9IGRlZmF1bHRkaWN0KGxpc3QpCgogICAgICAgIGZvciBxX3ByZWRpY3Rpb25zIGluIGFsbF9yZXN1bHRzOgogICAgICAgICAgICBnb2xkX2Fuc3dlcnMgPSBxX3ByZWRpY3Rpb25zLmdvbGRfYW5zd2VycwogICAgICAgICAgICBzcGFuX3ByZWRpY3Rpb25zID0gKAogICAgICAgICAgICAgICAgcV9wcmVkaWN0aW9ucy5wcmVkaWN0aW9ucwogICAgICAgICAgICApICAjIHt0b3AgZG9jcyB0aHJlc2hvbGQgLT4gU3BhblByZWRpY3Rpb24oKX0KICAgICAgICAgICAgZm9yIChuLCBzcGFuX3ByZWRpY3Rpb24pIGluIHNwYW5fcHJlZGljdGlvbnMuaXRlbXMoKToKICAgICAgICAgICAgICAgIGVtX2hpdCA9IG1heCgKICAgICAgICAgICAgICAgICAgICBbCiAgICAgICAgICAgICAgICAgICAgICAgIGV4YWN0X21hdGNoX3Njb3JlKHNwYW5fcHJlZGljdGlvbi5wcmVkaWN0aW9uX3RleHQsIGdhKQogICAgICAgICAgICAgICAgICAgICAgICBmb3IgZ2EgaW4gZ29sZF9hbnN3ZXJzCiAgICAgICAgICAgICAgICAgICAgXQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgZW1zW25dLmFwcGVuZChlbV9oaXQpCiAgICAgICAgZW0gPSAwCiAgICAgICAgZm9yIG4gaW4gc29ydGVkKGVtcy5rZXlzKCkpOgogICAgICAgICAgICBlbSA9IG5wLm1lYW4oZW1zW25dKQogICAgICAgICAgICBsb2dnZXIuaW5mbygibj0lZFx0RU0gJS4yZiIgJSAobiwgZW0gKiAxMDApKQoKICAgICAgICBpZiBjZmcucHJlZGljdGlvbl9yZXN1bHRzX2ZpbGU6CiAgICAgICAgICAgIHNlbGYuX3NhdmVfcHJlZGljdGlvbnMoY2ZnLnByZWRpY3Rpb25fcmVzdWx0c19maWxlLCBhbGxfcmVzdWx0cykKCiAgICAgICAgcmV0dXJuIGVtCgogICAgZGVmIF90cmFpbl9lcG9jaCgKICAgICAgICBzZWxmLAogICAgICAgIHNjaGVkdWxlciwKICAgICAgICBlcG9jaDogaW50LAogICAgICAgIGV2YWxfc3RlcDogaW50LAogICAgICAgIHRyYWluX2RhdGFfaXRlcmF0b3I6IFNoYXJkZWREYXRhSXRlcmF0b3IsCiAgICAgICAgZ2xvYmFsX3N0ZXA6IGludCwKICAgICk6CiAgICAgICAgY2ZnID0gc2VsZi5jZmcKICAgICAgICByb2xsaW5nX3RyYWluX2xvc3MgPSAwLjAKICAgICAgICBlcG9jaF9sb3NzID0gMAogICAgICAgIGxvZ19yZXN1bHRfc3RlcCA9IGNmZy50cmFpbi5sb2dfYmF0Y2hfc3RlcAogICAgICAgIHJvbGxpbmdfbG9zc19zdGVwID0gY2ZnLnRyYWluLnRyYWluX3JvbGxpbmdfbG9zc19zdGVwCgogICAgICAgIHNlbGYucmVhZGVyLnRyYWluKCkKICAgICAgICBlcG9jaF9iYXRjaGVzID0gdHJhaW5fZGF0YV9pdGVyYXRvci5tYXhfaXRlcmF0aW9ucwoKICAgICAgICBmb3IgaSwgc2FtcGxlc19iYXRjaCBpbiBlbnVtZXJhdGUoCiAgICAgICAgICAgIHRyYWluX2RhdGFfaXRlcmF0b3IuaXRlcmF0ZV9kc19kYXRhKGVwb2NoPWVwb2NoKQogICAgICAgICk6CgogICAgICAgICAgICBkYXRhX2l0ZXJhdGlvbiA9IHRyYWluX2RhdGFfaXRlcmF0b3IuZ2V0X2l0ZXJhdGlvbigpCgogICAgICAgICAgICAjIGVuYWJsZXMgdG8gcmVzdW1lIHRvIGV4YWN0bHkgc2FtZSB0cmFpbiBzdGF0ZQogICAgICAgICAgICBpZiBjZmcuZnVsbHlfcmVzdW1hYmxlOgogICAgICAgICAgICAgICAgbnAucmFuZG9tLnNlZWQoY2ZnLnNlZWQgKyBnbG9iYWxfc3RlcCkKICAgICAgICAgICAgICAgIHRvcmNoLm1hbnVhbF9zZWVkKGNmZy5zZWVkICsgZ2xvYmFsX3N0ZXApCiAgICAgICAgICAgICAgICBpZiBjZmcubl9ncHUgPiAwOgogICAgICAgICAgICAgICAgICAgIHRvcmNoLmN1ZGEubWFudWFsX3NlZWRfYWxsKGNmZy5zZWVkICsgZ2xvYmFsX3N0ZXApCgogICAgICAgICAgICBpbnB1dCA9IGNyZWF0ZV9yZWFkZXJfaW5wdXQoCiAgICAgICAgICAgICAgICBzZWxmLnRlbnNvcml6ZXIuZ2V0X3BhZF9pZCgpLAogICAgICAgICAgICAgICAgc2FtcGxlc19iYXRjaCwKICAgICAgICAgICAgICAgIGNmZy5wYXNzYWdlc19wZXJfcXVlc3Rpb24sCiAgICAgICAgICAgICAgICBjZmcuZW5jb2Rlci5zZXF1ZW5jZV9sZW5ndGgsCiAgICAgICAgICAgICAgICBjZmcubWF4X25fYW5zd2VycywKICAgICAgICAgICAgICAgIGlzX3RyYWluPVRydWUsCiAgICAgICAgICAgICAgICBzaHVmZmxlPVRydWUsCiAgICAgICAgICAgICkKCiAgICAgICAgICAgIGxvc3MgPSBzZWxmLl9jYWxjX2xvc3MoaW5wdXQpCgogICAgICAgICAgICBlcG9jaF9sb3NzICs9IGxvc3MuaXRlbSgpCiAgICAgICAgICAgIHJvbGxpbmdfdHJhaW5fbG9zcyArPSBsb3NzLml0ZW0oKQoKICAgICAgICAgICAgbWF4X2dyYWRfbm9ybSA9IGNmZy50cmFpbi5tYXhfZ3JhZF9ub3JtCiAgICAgICAgICAgIGlmIGNmZy5mcDE2OgogICAgICAgICAgICAgICAgZnJvbSBhcGV4IGltcG9ydCBhbXAKCiAgICAgICAgICAgICAgICB3aXRoIGFtcC5zY2FsZV9sb3NzKGxvc3MsIHNlbGYub3B0aW1pemVyKSBhcyBzY2FsZWRfbG9zczoKICAgICAgICAgICAgICAgICAgICBzY2FsZWRfbG9zcy5iYWNrd2FyZCgpCiAgICAgICAgICAgICAgICBpZiBtYXhfZ3JhZF9ub3JtID4gMDoKICAgICAgICAgICAgICAgICAgICB0b3JjaC5ubi51dGlscy5jbGlwX2dyYWRfbm9ybV8oCiAgICAgICAgICAgICAgICAgICAgICAgIGFtcC5tYXN0ZXJfcGFyYW1zKHNlbGYub3B0aW1pemVyKSwgbWF4X2dyYWRfbm9ybQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIGxvc3MuYmFja3dhcmQoKQogICAgICAgICAgICAgICAgaWYgbWF4X2dyYWRfbm9ybSA+IDA6CiAgICAgICAgICAgICAgICAgICAgdG9yY2gubm4udXRpbHMuY2xpcF9ncmFkX25vcm1fKAogICAgICAgICAgICAgICAgICAgICAgICBzZWxmLnJlYWRlci5wYXJhbWV0ZXJzKCksIG1heF9ncmFkX25vcm0KICAgICAgICAgICAgICAgICAgICApCgogICAgICAgICAgICBpZiAoaSArIDEpICUgY2ZnLnRyYWluLmdyYWRpZW50X2FjY3VtdWxhdGlvbl9zdGVwcyA9PSAwOgogICAgICAgICAgICAgICAgc2VsZi5vcHRpbWl6ZXIuc3RlcCgpCiAgICAgICAgICAgICAgICBzY2hlZHVsZXIuc3RlcCgpCiAgICAgICAgICAgICAgICBzZWxmLnJlYWRlci56ZXJvX2dyYWQoKQogICAgICAgICAgICAgICAgZ2xvYmFsX3N0ZXAgKz0gMQoKICAgICAgICAgICAgaWYgaSAlIGxvZ19yZXN1bHRfc3RlcCA9PSAwOgogICAgICAgICAgICAgICAgbHIgPSBzZWxmLm9wdGltaXplci5wYXJhbV9ncm91cHNbMF1bImxyIl0KICAgICAgICAgICAgICAgIGV4cGVyaW1lbnQubG9nX21ldHJpYygibHIiLCBscikKICAgICAgICAgICAgICAgIGxvZ2dlci5pbmZvKAogICAgICAgICAgICAgICAgICAgICJFcG9jaDogJWQ6IFN0ZXA6ICVkLyVkLCBnbG9iYWxfc3RlcD0lZCwgbHI9JWYiLAogICAgICAgICAgICAgICAgICAgIGVwb2NoLAogICAgICAgICAgICAgICAgICAgIGRhdGFfaXRlcmF0aW9uLAogICAgICAgICAgICAgICAgICAgIGVwb2NoX2JhdGNoZXMsCiAgICAgICAgICAgICAgICAgICAgZ2xvYmFsX3N0ZXAsCiAgICAgICAgICAgICAgICAgICAgbHIsCiAgICAgICAgICAgICAgICApCgogICAgICAgICAgICBpZiAoaSArIDEpICUgcm9sbGluZ19sb3NzX3N0ZXAgPT0gMDoKICAgICAgICAgICAgICAgIGxvZ2dlci5pbmZvKCJUcmFpbiBiYXRjaCAlZCIsIGRhdGFfaXRlcmF0aW9uKQogICAgICAgICAgICAgICAgbGF0ZXN0X3JvbGxpbmdfdHJhaW5fYXZfbG9zcyA9IHJvbGxpbmdfdHJhaW5fbG9zcyAvIHJvbGxpbmdfbG9zc19zdGVwCiAgICAgICAgICAgICAgICBsb2dnZXIuaW5mbygKICAgICAgICAgICAgICAgICAgICAiQXZnLiBsb3NzIHBlciBsYXN0ICVkIGJhdGNoZXM6ICVmIiwKICAgICAgICAgICAgICAgICAgICByb2xsaW5nX2xvc3Nfc3RlcCwKICAgICAgICAgICAgICAgICAgICBsYXRlc3Rfcm9sbGluZ190cmFpbl9hdl9sb3NzLAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgcm9sbGluZ190cmFpbl9sb3NzID0gMC4wCgogICAgICAgICAgICBpZiBnbG9iYWxfc3RlcCAlIGV2YWxfc3RlcCA9PSAwOgogICAgICAgICAgICAgICAgbG9nZ2VyLmluZm8oCiAgICAgICAgICAgICAgICAgICAgIlZhbGlkYXRpb246IEVwb2NoOiAlZCBTdGVwOiAlZC8lZCIsCiAgICAgICAgICAgICAgICAgICAgZXBvY2gsCiAgICAgICAgICAgICAgICAgICAgZGF0YV9pdGVyYXRpb24sCiAgICAgICAgICAgICAgICAgICAgZXBvY2hfYmF0Y2hlcywKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIHNlbGYudmFsaWRhdGVfYW5kX3NhdmUoCiAgICAgICAgICAgICAgICAgICAgZXBvY2gsIHRyYWluX2RhdGFfaXRlcmF0b3IuZ2V0X2l0ZXJhdGlvbigpLCBzY2hlZHVsZXIKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIHNlbGYucmVhZGVyLnRyYWluKCkKCiAgICAgICAgZXBvY2hfbG9zcyA9IChlcG9jaF9sb3NzIC8gZXBvY2hfYmF0Y2hlcykgaWYgZXBvY2hfYmF0Y2hlcyA+IDAgZWxzZSAwCiAgICAgICAgbG9nZ2VyLmluZm8oIkF2IExvc3MgcGVyIGVwb2NoPSVmIiwgZXBvY2hfbG9zcykKICAgICAgICBleHBlcmltZW50LmxvZ19tZXRyaWMoImVwb2NoX2xvc3MiLCBlcG9jaF9sb3NzKQoKICAgICAgICAKICAgICAgICByZXR1cm4gZ2xvYmFsX3N0ZXAKCiAgICBkZWYgX3NhdmVfY2hlY2twb2ludChzZWxmLCBzY2hlZHVsZXIsIGVwb2NoOiBpbnQsIG9mZnNldDogaW50KSAtPiBzdHI6CiAgICAgICAgY2ZnID0gc2VsZi5jZmcKICAgICAgICBtb2RlbF90b19zYXZlID0gZ2V0X21vZGVsX29iaihzZWxmLnJlYWRlcikKICAgICAgICBjcCA9IG9zLnBhdGguam9pbigKICAgICAgICAgICAgY2ZnLm91dHB1dF9kaXIsCiAgICAgICAgICAgIGNmZy5jaGVja3BvaW50X2ZpbGVfbmFtZQogICAgICAgICAgICArICIuIgogICAgICAgICAgICArIHN0cihlcG9jaCkKICAgICAgICAgICAgKyAoIi4iICsgc3RyKG9mZnNldCkgaWYgb2Zmc2V0ID4gMCBlbHNlICIiKSwKICAgICAgICApCgogICAgICAgIG1ldGFfcGFyYW1zID0gZ2V0X2VuY29kZXJfcGFyYW1zX3N0YXRlX2Zyb21fY2ZnKGNmZykKCiAgICAgICAgc3RhdGUgPSBDaGVja3BvaW50U3RhdGUoCiAgICAgICAgICAgIG1vZGVsX3RvX3NhdmUuc3RhdGVfZGljdCgpLAogICAgICAgICAgICBzZWxmLm9wdGltaXplci5zdGF0ZV9kaWN0KCksCiAgICAgICAgICAgIHNjaGVkdWxlci5zdGF0ZV9kaWN0KCksCiAgICAgICAgICAgIG9mZnNldCwKICAgICAgICAgICAgZXBvY2gsCiAgICAgICAgICAgIG1ldGFfcGFyYW1zLAogICAgICAgICkKICAgICAgICB0b3JjaC5zYXZlKHN0YXRlLl9hc2RpY3QoKSwgY3ApCiAgICAgICAgcmV0dXJuIGNwCgogICAgZGVmIF9sb2FkX3NhdmVkX3N0YXRlKHNlbGYsIHNhdmVkX3N0YXRlOiBDaGVja3BvaW50U3RhdGUpOgogICAgICAgIGVwb2NoID0gc2F2ZWRfc3RhdGUuZXBvY2gKICAgICAgICBvZmZzZXQgPSBzYXZlZF9zdGF0ZS5vZmZzZXQKICAgICAgICBpZiBvZmZzZXQgPT0gMDogICMgZXBvY2ggaGFzIGJlZW4gY29tcGxldGVkCiAgICAgICAgICAgIGVwb2NoICs9IDEKICAgICAgICBsb2dnZXIuaW5mbygiTG9hZGluZyBjaGVja3BvaW50IEAgYmF0Y2g9JXMgYW5kIGVwb2NoPSVzIiwgb2Zmc2V0LCBlcG9jaCkKICAgICAgICBzZWxmLnN0YXJ0X2Vwb2NoID0gZXBvY2gKICAgICAgICBzZWxmLnN0YXJ0X2JhdGNoID0gb2Zmc2V0CgogICAgICAgIG1vZGVsX3RvX2xvYWQgPSBnZXRfbW9kZWxfb2JqKHNlbGYucmVhZGVyKQogICAgICAgIGlmIHNhdmVkX3N0YXRlLm1vZGVsX2RpY3Q6CiAgICAgICAgICAgIGxvZ2dlci5pbmZvKCJMb2FkaW5nIG1vZGVsIHdlaWdodHMgZnJvbSBzYXZlZCBzdGF0ZSAuLi4iKQogICAgICAgICAgICBtb2RlbF90b19sb2FkLmxvYWRfc3RhdGVfZGljdChzYXZlZF9zdGF0ZS5tb2RlbF9kaWN0KQoKICAgICAgICBsb2dnZXIuaW5mbygiTG9hZGluZyBzYXZlZCBvcHRpbWl6ZXIgc3RhdGUgLi4uIikKICAgICAgICBpZiBzYXZlZF9zdGF0ZS5vcHRpbWl6ZXJfZGljdDoKICAgICAgICAgICAgc2VsZi5vcHRpbWl6ZXIubG9hZF9zdGF0ZV9kaWN0KHNhdmVkX3N0YXRlLm9wdGltaXplcl9kaWN0KQogICAgICAgIHNlbGYuc2NoZWR1bGVyX3N0YXRlID0gc2F2ZWRfc3RhdGUuc2NoZWR1bGVyX2RpY3QKCiAgICBkZWYgX2dldF9iZXN0X3ByZWRpY3Rpb24oCiAgICAgICAgc2VsZiwKICAgICAgICBzdGFydF9sb2dpdHMsCiAgICAgICAgZW5kX2xvZ2l0cywKICAgICAgICByZWxldmFuY2VfbG9naXRzLAogICAgICAgIHNhbXBsZXNfYmF0Y2g6IExpc3RbUmVhZGVyU2FtcGxlXSwKICAgICAgICBwYXNzYWdlX3RocmVzaG9sZHM6IExpc3RbaW50XSA9IE5vbmUsCiAgICApIC0+IExpc3RbUmVhZGVyUXVlc3Rpb25QcmVkaWN0aW9uc106CgogICAgICAgIGNmZyA9IHNlbGYuY2ZnCiAgICAgICAgbWF4X2Fuc3dlcl9sZW5ndGggPSBjZmcubWF4X2Fuc3dlcl9sZW5ndGgKICAgICAgICBxdWVzdGlvbnNfbnVtLCBwYXNzYWdlc19wZXJfcXVlc3Rpb24gPSByZWxldmFuY2VfbG9naXRzLnNpemUoKQoKICAgICAgICBfLCBpZHhzID0gdG9yY2guc29ydCgKICAgICAgICAgICAgcmVsZXZhbmNlX2xvZ2l0cywKICAgICAgICAgICAgZGltPTEsCiAgICAgICAgICAgIGRlc2NlbmRpbmc9VHJ1ZSwKICAgICAgICApCgogICAgICAgIGJhdGNoX3Jlc3VsdHMgPSBbXQogICAgICAgIGZvciBxIGluIHJhbmdlKHF1ZXN0aW9uc19udW0pOgogICAgICAgICAgICBzYW1wbGUgPSBzYW1wbGVzX2JhdGNoW3FdCgogICAgICAgICAgICBub25fZW1wdHlfcGFzc2FnZXNfbnVtID0gbGVuKHNhbXBsZS5wYXNzYWdlcykKICAgICAgICAgICAgbmJlc3QgPSBbXQogICAgICAgICAgICBmb3IgcCBpbiByYW5nZShwYXNzYWdlc19wZXJfcXVlc3Rpb24pOgogICAgICAgICAgICAgICAgcGFzc2FnZV9pZHggPSBpZHhzW3EsIHBdLml0ZW0oKQogICAgICAgICAgICAgICAgaWYgKAogICAgICAgICAgICAgICAgICAgIHBhc3NhZ2VfaWR4ID49IG5vbl9lbXB0eV9wYXNzYWdlc19udW0KICAgICAgICAgICAgICAgICk6ICAjIGVtcHR5IHBhc3NhZ2Ugc2VsZWN0ZWQsIHNraXAKICAgICAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICAgICAgcmVhZGVyX3Bhc3NhZ2UgPSBzYW1wbGUucGFzc2FnZXNbcGFzc2FnZV9pZHhdCiAgICAgICAgICAgICAgICBzZXF1ZW5jZV9pZHMgPSByZWFkZXJfcGFzc2FnZS5zZXF1ZW5jZV9pZHMKICAgICAgICAgICAgICAgIHNlcXVlbmNlX2xlbiA9IHNlcXVlbmNlX2lkcy5zaXplKDApCiAgICAgICAgICAgICAgICAjIGFzc3VtaW5nIHF1ZXN0aW9uICYgdGl0bGUgaW5mb3JtYXRpb24gaXMgYXQgdGhlIGJlZ2lubmluZyBvZiB0aGUgc2VxdWVuY2UKICAgICAgICAgICAgICAgIHBhc3NhZ2Vfb2Zmc2V0ID0gcmVhZGVyX3Bhc3NhZ2UucGFzc2FnZV9vZmZzZXQKCiAgICAgICAgICAgICAgICBwX3N0YXJ0X2xvZ2l0cyA9IHN0YXJ0X2xvZ2l0c1txLCBwYXNzYWdlX2lkeF0udG9saXN0KClbCiAgICAgICAgICAgICAgICAgICAgcGFzc2FnZV9vZmZzZXQ6c2VxdWVuY2VfbGVuCiAgICAgICAgICAgICAgICBdCiAgICAgICAgICAgICAgICBwX2VuZF9sb2dpdHMgPSBlbmRfbG9naXRzW3EsIHBhc3NhZ2VfaWR4XS50b2xpc3QoKVsKICAgICAgICAgICAgICAgICAgICBwYXNzYWdlX29mZnNldDpzZXF1ZW5jZV9sZW4KICAgICAgICAgICAgICAgIF0KCiAgICAgICAgICAgICAgICBjdHhfaWRzID0gc2VxdWVuY2VfaWRzLnRvbGlzdCgpW3Bhc3NhZ2Vfb2Zmc2V0Ol0KICAgICAgICAgICAgICAgIGJlc3Rfc3BhbnMgPSBnZXRfYmVzdF9zcGFucygKICAgICAgICAgICAgICAgICAgICBzZWxmLnRlbnNvcml6ZXIsCiAgICAgICAgICAgICAgICAgICAgcF9zdGFydF9sb2dpdHMsCiAgICAgICAgICAgICAgICAgICAgcF9lbmRfbG9naXRzLAogICAgICAgICAgICAgICAgICAgIGN0eF9pZHMsCiAgICAgICAgICAgICAgICAgICAgbWF4X2Fuc3dlcl9sZW5ndGgsCiAgICAgICAgICAgICAgICAgICAgcGFzc2FnZV9pZHgsCiAgICAgICAgICAgICAgICAgICAgcmVsZXZhbmNlX2xvZ2l0c1txLCBwYXNzYWdlX2lkeF0uaXRlbSgpLAogICAgICAgICAgICAgICAgICAgIHRvcF9zcGFucz0xMCwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIG5iZXN0LmV4dGVuZChiZXN0X3NwYW5zKQogICAgICAgICAgICAgICAgaWYgbGVuKG5iZXN0KSA+IDAgYW5kIG5vdCBwYXNzYWdlX3RocmVzaG9sZHM6CiAgICAgICAgICAgICAgICAgICAgYnJlYWsKCiAgICAgICAgICAgIGlmIHBhc3NhZ2VfdGhyZXNob2xkczoKICAgICAgICAgICAgICAgIHBhc3NhZ2VfcmFua19tYXRjaGVzID0ge30KICAgICAgICAgICAgICAgIGZvciBuIGluIHBhc3NhZ2VfdGhyZXNob2xkczoKICAgICAgICAgICAgICAgICAgICBjdXJyX25iZXN0ID0gW3ByZWQgZm9yIHByZWQgaW4gbmJlc3QgaWYgcHJlZC5wYXNzYWdlX2luZGV4IDwgbl0KICAgICAgICAgICAgICAgICAgICBwYXNzYWdlX3JhbmtfbWF0Y2hlc1tuXSA9IGN1cnJfbmJlc3RbMF0KICAgICAgICAgICAgICAgIHByZWRpY3Rpb25zID0gcGFzc2FnZV9yYW5rX21hdGNoZXMKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIGlmIGxlbihuYmVzdCkgPT0gMDoKICAgICAgICAgICAgICAgICAgICBwcmVkaWN0aW9ucyA9IHsKICAgICAgICAgICAgICAgICAgICAgICAgcGFzc2FnZXNfcGVyX3F1ZXN0aW9uOiBTcGFuUHJlZGljdGlvbigiIiwgLTEsIC0xLCAtMSwgIiIpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgICAgICBwcmVkaWN0aW9ucyA9IHtwYXNzYWdlc19wZXJfcXVlc3Rpb246IG5iZXN0WzBdfQogICAgICAgICAgICBiYXRjaF9yZXN1bHRzLmFwcGVuZCgKICAgICAgICAgICAgICAgIFJlYWRlclF1ZXN0aW9uUHJlZGljdGlvbnMoc2FtcGxlLnF1ZXN0aW9uLCBwcmVkaWN0aW9ucywgc2FtcGxlLmFuc3dlcnMpCiAgICAgICAgICAgICkKICAgICAgICByZXR1cm4gYmF0Y2hfcmVzdWx0cwoKICAgIGRlZiBfY2FsY19sb3NzKHNlbGYsIGlucHV0OiBSZWFkZXJCYXRjaCkgLT4gdG9yY2guVGVuc29yOgogICAgICAgIGNmZyA9IHNlbGYuY2ZnCiAgICAgICAgaW5wdXQgPSBSZWFkZXJCYXRjaCgqKm1vdmVfdG9fZGV2aWNlKGlucHV0Ll9hc2RpY3QoKSwgY2ZnLmRldmljZSkpCiAgICAgICAgYXR0bl9tYXNrID0gc2VsZi50ZW5zb3JpemVyLmdldF9hdHRuX21hc2soaW5wdXQuaW5wdXRfaWRzKQogICAgICAgIHF1ZXN0aW9uc19udW0sIHBhc3NhZ2VzX3Blcl9xdWVzdGlvbiwgXyA9IGlucHV0LmlucHV0X2lkcy5zaXplKCkKCiAgICAgICAgaWYgc2VsZi5yZWFkZXIudHJhaW5pbmc6CiAgICAgICAgICAgICMgc3RhcnRfbG9naXRzLCBlbmRfbG9naXRzLCByYW5rX2xvZ2l0cyA9IHNlbGYucmVhZGVyKGlucHV0LmlucHV0X2lkcywgYXR0bl9tYXNrKQogICAgICAgICAgICBsb3NzID0gc2VsZi5yZWFkZXIoCiAgICAgICAgICAgICAgICBpbnB1dC5pbnB1dF9pZHMsCiAgICAgICAgICAgICAgICBhdHRuX21hc2ssCiAgICAgICAgICAgICAgICBpbnB1dC5zdGFydF9wb3NpdGlvbnMsCiAgICAgICAgICAgICAgICBpbnB1dC5lbmRfcG9zaXRpb25zLAogICAgICAgICAgICAgICAgaW5wdXQuYW5zd2Vyc19tYXNrLAogICAgICAgICAgICApCgogICAgICAgIGVsc2U6CiAgICAgICAgICAgICMgVE9ETzogcmVtb3ZlPwogICAgICAgICAgICB3aXRoIHRvcmNoLm5vX2dyYWQoKToKICAgICAgICAgICAgICAgIHN0YXJ0X2xvZ2l0cywgZW5kX2xvZ2l0cywgcmFua19sb2dpdHMgPSBzZWxmLnJlYWRlcigKICAgICAgICAgICAgICAgICAgICBpbnB1dC5pbnB1dF9pZHMsIGF0dG5fbWFzawogICAgICAgICAgICAgICAgKQoKICAgICAgICAgICAgbG9zcyA9IGNvbXB1dGVfbG9zcygKICAgICAgICAgICAgICAgIGlucHV0LnN0YXJ0X3Bvc2l0aW9ucywKICAgICAgICAgICAgICAgIGlucHV0LmVuZF9wb3NpdGlvbnMsCiAgICAgICAgICAgICAgICBpbnB1dC5hbnN3ZXJzX21hc2ssCiAgICAgICAgICAgICAgICBzdGFydF9sb2dpdHMsCiAgICAgICAgICAgICAgICBlbmRfbG9naXRzLAogICAgICAgICAgICAgICAgcmFua19sb2dpdHMsCiAgICAgICAgICAgICAgICBxdWVzdGlvbnNfbnVtLAogICAgICAgICAgICAgICAgcGFzc2FnZXNfcGVyX3F1ZXN0aW9uLAogICAgICAgICAgICApCiAgICAgICAgaWYgY2ZnLm5fZ3B1ID4gMToKICAgICAgICAgICAgbG9zcyA9IGxvc3MubWVhbigpCiAgICAgICAgaWYgY2ZnLnRyYWluLmdyYWRpZW50X2FjY3VtdWxhdGlvbl9zdGVwcyA+IDE6CiAgICAgICAgICAgIGxvc3MgPSBsb3NzIC8gY2ZnLnRyYWluLmdyYWRpZW50X2FjY3VtdWxhdGlvbl9zdGVwcwoKICAgICAgICByZXR1cm4gbG9zcwoKICAgIGRlZiBfc2F2ZV9wcmVkaWN0aW9ucygKICAgICAgICBzZWxmLCBvdXRfZmlsZTogc3RyLCBwcmVkaWN0aW9uX3Jlc3VsdHM6IExpc3RbUmVhZGVyUXVlc3Rpb25QcmVkaWN0aW9uc10KICAgICk6CiAgICAgICAgbG9nZ2VyLmluZm8oIlNhdmluZyBwcmVkaWN0aW9uIHJlc3VsdHMgdG8gICVzIiwgb3V0X2ZpbGUpCiAgICAgICAgd2l0aCBvcGVuKG91dF9maWxlLCAidyIsIGVuY29kaW5nPSJ1dGYtOCIpIGFzIG91dHB1dDoKICAgICAgICAgICAgc2F2ZV9yZXN1bHRzID0gW10KICAgICAgICAgICAgZm9yIHIgaW4gcHJlZGljdGlvbl9yZXN1bHRzOgogICAgICAgICAgICAgICAgc2F2ZV9yZXN1bHRzLmFwcGVuZCgKICAgICAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgICAgICJxdWVzdGlvbiI6IHIuaWQsCiAgICAgICAgICAgICAgICAgICAgICAgICJnb2xkX2Fuc3dlcnMiOiByLmdvbGRfYW5zd2VycywKICAgICAgICAgICAgICAgICAgICAgICAgInByZWRpY3Rpb25zIjogWwogICAgICAgICAgICAgICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJ0b3BfayI6IHRvcF9rLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJwcmVkaWN0aW9uIjogewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAidGV4dCI6IHNwYW5fcHJlZC5wcmVkaWN0aW9uX3RleHQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJzY29yZSI6IHNwYW5fcHJlZC5zcGFuX3Njb3JlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAicmVsZXZhbmNlX3Njb3JlIjogc3Bhbl9wcmVkLnJlbGV2YW5jZV9zY29yZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgInBhc3NhZ2VfaWR4Ijogc3Bhbl9wcmVkLnBhc3NhZ2VfaW5kZXgsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJwYXNzYWdlIjogc2VsZi50ZW5zb3JpemVyLnRvX3N0cmluZygKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNwYW5fcHJlZC5wYXNzYWdlX3Rva2VuX2lkcwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb3IgdG9wX2ssIHNwYW5fcHJlZCBpbiByLnByZWRpY3Rpb25zLml0ZW1zKCkKICAgICAgICAgICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIG91dHB1dC53cml0ZShqc29uLmR1bXBzKHNhdmVfcmVzdWx0cywgaW5kZW50PTQpICsgIlxuIikKCgpAaHlkcmEubWFpbihjb25maWdfcGF0aD0iY29uZiIsIGNvbmZpZ19uYW1lPSJleHRyYWN0aXZlX3JlYWRlcl90cmFpbl9jZmciKQpkZWYgbWFpbihjZmc6IERpY3RDb25maWcpOgoKICAgIGlmIGNmZy5vdXRwdXRfZGlyIGlzIG5vdCBOb25lOgogICAgICAgIG9zLm1ha2VkaXJzKGNmZy5vdXRwdXRfZGlyLCBleGlzdF9vaz1UcnVlKQoKICAgIGNmZyA9IHNldHVwX2NmZ19ncHUoY2ZnKQogICAgc2V0X3NlZWQoY2ZnKQoKICAgIGlmIGNmZy5sb2NhbF9yYW5rIGluIFstMSwgMF06CiAgICAgICAgbG9nZ2VyLmluZm8oIkNGRyAoYWZ0ZXIgZ3B1ICBjb25maWd1cmF0aW9uKToiKQogICAgICAgIGxvZ2dlci5pbmZvKCIlcyIsIE9tZWdhQ29uZi50b195YW1sKGNmZykpCgogICAgdHJhaW5lciA9IFJlYWRlclRyYWluZXIoY2ZnKQoKICAgIGlmIGNmZy50cmFpbl9maWxlcyBpcyBub3QgTm9uZToKICAgICAgICB0cmFpbmVyLnJ1bl90cmFpbigpCiAgICBlbGlmIGNmZy5kZXZfZmlsZXM6CiAgICAgICAgbG9nZ2VyLmluZm8oIk5vIHRyYWluIGZpbGVzIGFyZSBzcGVjaWZpZWQuIFJ1biB2YWxpZGF0aW9uLiIpCiAgICAgICAgdHJhaW5lci52YWxpZGF0ZSgpCiAgICBlbHNlOgogICAgICAgIGxvZ2dlci53YXJuaW5nKAogICAgICAgICAgICAiTmVpdGhlciB0cmFpbl9maWxlIG9yIChtb2RlbF9maWxlICYgZGV2X2ZpbGUpIHBhcmFtZXRlcnMgYXJlIHNwZWNpZmllZC4gTm90aGluZyB0byBkby4iCiAgICAgICAgKQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBsb2dnZXIuaW5mbygiU3lzLmFyZ3Y6ICVzIiwgc3lzLmFyZ3YpCiAgICBoeWRyYV9mb3JtYXR0ZWRfYXJncyA9IFtdCiAgICAjIGNvbnZlcnQgdGhlIGNsaSBwYXJhbXMgYWRkZWQgYnkgdG9yY2guZGlzdHJpYnV0ZWQubGF1bmNoIGludG8gSHlkcmEgZm9ybWF0CiAgICBmb3IgYXJnIGluIHN5cy5hcmd2OgogICAgICAgIGlmIGFyZy5zdGFydHN3aXRoKCItLSIpOgogICAgICAgICAgICBoeWRyYV9mb3JtYXR0ZWRfYXJncy5hcHBlbmQoYXJnW2xlbigiLS0iKSA6XSkKICAgICAgICBlbHNlOgogICAgICAgICAgICBoeWRyYV9mb3JtYXR0ZWRfYXJncy5hcHBlbmQoYXJnKQogICAgbG9nZ2VyLmluZm8oIkh5ZHJhIGZvcm1hdHRlZCBTeXMuYXJndjogJXMiLCBoeWRyYV9mb3JtYXR0ZWRfYXJncykKICAgIHN5cy5hcmd2ID0gaHlkcmFfZm9ybWF0dGVkX2FyZ3MKICAgIG1haW4oKQo=
+#!/usr/bin/env python3
+# Copyright (c) Facebook, Inc. and its affiliates.
+# All rights reserved.
+#
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+
+
+"""
+ Pipeline to train the reader model on top of the retriever results
+"""
+
+import collections
+import json
+import sys
+
+import hydra
+import logging
+import numpy as np
+import os
+import torch
+
+from collections import defaultdict
+from omegaconf import DictConfig, OmegaConf
+from typing import List
+
+
+from dpr.data.qa_validation import exact_match_score
+from dpr.data.reader_data import (
+    ReaderSample,
+    get_best_spans,
+    SpanPrediction,
+    ExtractiveReaderDataset,
+)
+from dpr.models import init_reader_components
+from dpr.models.reader import create_reader_input, ReaderBatch, compute_loss
+from dpr.options import (
+    setup_cfg_gpu,
+    set_seed,
+    set_cfg_params_from_state,
+    get_encoder_params_state_from_cfg,
+    setup_logger,
+)
+from dpr.utils.data_utils import (
+    ShardedDataIterator,
+)
+from dpr.utils.model_utils import (
+    get_schedule_linear,
+    load_states_from_checkpoint,
+    move_to_device,
+    CheckpointState,
+    get_model_file,
+    setup_for_distributed_mode,
+    get_model_obj,
+)
+
+logger = logging.getLogger()
+setup_logger(logger)
+
+ReaderQuestionPredictions = collections.namedtuple(
+    "ReaderQuestionPredictions", ["id", "predictions", "gold_answers"]
+)
+
+
+class ReaderTrainer(object):
+    def __init__(self, cfg: DictConfig):
+        self.cfg = cfg
+
+        self.shard_id = cfg.local_rank if cfg.local_rank != -1 else 0
+        self.distributed_factor = cfg.distributed_world_size or 1
+
+        logger.info("***** Initializing components for training *****")
+
+        model_file = get_model_file(self.cfg, self.cfg.checkpoint_file_name)
+        saved_state = None
+        if model_file:
+            saved_state = load_states_from_checkpoint(model_file)
+            set_cfg_params_from_state(saved_state.encoder_params, cfg)
+
+        tensorizer, reader, optimizer = init_reader_components(
+            cfg.encoder.encoder_model_type, cfg
+        )
+
+        reader, optimizer = setup_for_distributed_mode(
+            reader,
+            optimizer,
+            cfg.device,
+            cfg.n_gpu,
+            cfg.local_rank,
+            cfg.fp16,
+            cfg.fp16_opt_level,
+        )
+        self.reader = reader
+        self.optimizer = optimizer
+        self.tensorizer = tensorizer
+        self.start_epoch = 0
+        self.start_batch = 0
+        self.scheduler_state = None
+        self.best_validation_result = None
+        self.best_cp_name = None
+        if saved_state:
+            self._load_saved_state(saved_state)
+
+    def get_data_iterator(
+        self,
+        path: str,
+        batch_size: int,
+        is_train: bool,
+        shuffle=True,
+        shuffle_seed: int = 0,
+        offset: int = 0,
+    ) -> ShardedDataIterator:
+
+        run_preprocessing = (
+            True
+            if self.distributed_factor == 1 or self.cfg.local_rank in [-1, 0]
+            else False
+        )
+
+        gold_passages_src = self.cfg.gold_passages_src
+        if gold_passages_src:
+            if not is_train:
+                gold_passages_src = self.cfg.gold_passages_src_dev
+
+            assert os.path.exists(
+                gold_passages_src
+            ), "Please specify valid gold_passages_src/gold_passages_src_dev"
+
+        dataset = ExtractiveReaderDataset(
+            path,
+            is_train,
+            gold_passages_src,
+            self.tensorizer,
+            run_preprocessing,
+            self.cfg.num_workers,
+        )
+
+        dataset.load_data()
+
+        iterator = ShardedDataIterator(
+            dataset,
+            shard_id=self.shard_id,
+            num_shards=self.distributed_factor,
+            batch_size=batch_size,
+            shuffle=shuffle,
+            shuffle_seed=shuffle_seed,
+            offset=offset,
+        )
+
+        # apply deserialization hook
+        iterator.apply(lambda sample: sample.on_deserialize())
+        return iterator
+
+    def run_train(self):
+        cfg = self.cfg
+
+        train_iterator = self.get_data_iterator(
+            cfg.train_files,
+            cfg.train.batch_size,
+            True,
+            shuffle=True,
+            shuffle_seed=cfg.seed,
+            offset=self.start_batch,
+        )
+
+        # num_train_epochs = cfg.train.num_train_epochs - self.start_epoch
+
+        logger.info("Total iterations per epoch=%d", train_iterator.max_iterations)
+        updates_per_epoch = (
+            train_iterator.max_iterations // cfg.train.gradient_accumulation_steps
+        )
+
+        total_updates = updates_per_epoch * cfg.train.num_train_epochs
+        logger.info(" Total updates=%d", total_updates)
+
+        warmup_steps = cfg.train.warmup_steps
+
+        if self.scheduler_state:
+            logger.info("Loading scheduler state %s", self.scheduler_state)
+            shift = int(self.scheduler_state["last_epoch"])
+            logger.info("Steps shift %d", shift)
+            scheduler = get_schedule_linear(
+                self.optimizer,
+                warmup_steps,
+                total_updates,
+            )
+        else:
+            scheduler = get_schedule_linear(self.optimizer, warmup_steps, total_updates)
+
+        eval_step = cfg.train.eval_step
+        logger.info("  Eval step = %d", eval_step)
+        logger.info("***** Training *****")
+
+        global_step = self.start_epoch * updates_per_epoch + self.start_batch
+
+        for epoch in range(self.start_epoch, cfg.train.num_train_epochs):
+            logger.info("***** Epoch %d *****", epoch)
+            global_step = self._train_epoch(
+                scheduler, epoch, eval_step, train_iterator, global_step
+            )
+
+        if cfg.local_rank in [-1, 0]:
+            logger.info(
+                "Training finished. Best validation checkpoint %s", self.best_cp_name
+            )
+
+        return
+
+    def validate_and_save(self, epoch: int, iteration: int, scheduler):
+        cfg = self.cfg
+        # in distributed DDP mode, save checkpoint for only one process
+        save_cp = cfg.local_rank in [-1, 0]
+        reader_validation_score = self.validate()
+
+        if save_cp:
+            cp_name = self._save_checkpoint(scheduler, epoch, iteration)
+            logger.info("Saved checkpoint to %s", cp_name)
+
+            if reader_validation_score < (self.best_validation_result or 0):
+                self.best_validation_result = reader_validation_score
+                self.best_cp_name = cp_name
+                logger.info("New Best validation checkpoint %s", cp_name)
+
+    def validate(self):
+        logger.info("Validation ...")
+        cfg = self.cfg
+        self.reader.eval()
+        data_iterator = self.get_data_iterator(
+            cfg.dev_files, cfg.train.dev_batch_size, False, shuffle=False
+        )
+
+        log_result_step = cfg.train.log_batch_step
+        all_results = []
+
+        eval_top_docs = cfg.eval_top_docs
+        for i, samples_batch in enumerate(data_iterator.iterate_ds_data()):
+            input = create_reader_input(
+                self.tensorizer.get_pad_id(),
+                samples_batch,
+                cfg.passages_per_question_predict,
+                cfg.encoder.sequence_length,
+                cfg.max_n_answers,
+                is_train=False,
+                shuffle=False,
+            )
+
+            input = ReaderBatch(**move_to_device(input._asdict(), cfg.device))
+            attn_mask = self.tensorizer.get_attn_mask(input.input_ids)
+
+            with torch.no_grad():
+                start_logits, end_logits, relevance_logits = self.reader(
+                    input.input_ids, attn_mask
+                )
+
+            batch_predictions = self._get_best_prediction(
+                start_logits,
+                end_logits,
+                relevance_logits,
+                samples_batch,
+                passage_thresholds=eval_top_docs,
+            )
+
+            all_results.extend(batch_predictions)
+
+            if (i + 1) % log_result_step == 0:
+                logger.info("Eval step: %d ", i)
+
+        ems = defaultdict(list)
+
+        for q_predictions in all_results:
+            gold_answers = q_predictions.gold_answers
+            span_predictions = (
+                q_predictions.predictions
+            )  # {top docs threshold -> SpanPrediction()}
+            for (n, span_prediction) in span_predictions.items():
+                em_hit = max(
+                    [
+                        exact_match_score(span_prediction.prediction_text, ga)
+                        for ga in gold_answers
+                    ]
+                )
+                ems[n].append(em_hit)
+        em = 0
+        for n in sorted(ems.keys()):
+            em = np.mean(ems[n])
+            logger.info("n=%d\tEM %.2f" % (n, em * 100))
+
+        if cfg.prediction_results_file:
+            self._save_predictions(cfg.prediction_results_file, all_results)
+
+        return em
+
+    def _train_epoch(
+        self,
+        scheduler,
+        epoch: int,
+        eval_step: int,
+        train_data_iterator: ShardedDataIterator,
+        global_step: int,
+    ):
+        cfg = self.cfg
+        rolling_train_loss = 0.0
+        epoch_loss = 0
+        log_result_step = cfg.train.log_batch_step
+        rolling_loss_step = cfg.train.train_rolling_loss_step
+
+        self.reader.train()
+        epoch_batches = train_data_iterator.max_iterations
+
+        for i, samples_batch in enumerate(
+            train_data_iterator.iterate_ds_data(epoch=epoch)
+        ):
+
+            data_iteration = train_data_iterator.get_iteration()
+
+            # enables to resume to exactly same train state
+            if cfg.fully_resumable:
+                np.random.seed(cfg.seed + global_step)
+                torch.manual_seed(cfg.seed + global_step)
+                if cfg.n_gpu > 0:
+                    torch.cuda.manual_seed_all(cfg.seed + global_step)
+
+            input = create_reader_input(
+                self.tensorizer.get_pad_id(),
+                samples_batch,
+                cfg.passages_per_question,
+                cfg.encoder.sequence_length,
+                cfg.max_n_answers,
+                is_train=True,
+                shuffle=True,
+            )
+
+            loss = self._calc_loss(input)
+
+            epoch_loss += loss.item()
+            rolling_train_loss += loss.item()
+
+            max_grad_norm = cfg.train.max_grad_norm
+            if cfg.fp16:
+                from apex import amp
+
+                with amp.scale_loss(loss, self.optimizer) as scaled_loss:
+                    scaled_loss.backward()
+                if max_grad_norm > 0:
+                    torch.nn.utils.clip_grad_norm_(
+                        amp.master_params(self.optimizer), max_grad_norm
+                    )
+            else:
+                loss.backward()
+                if max_grad_norm > 0:
+                    torch.nn.utils.clip_grad_norm_(
+                        self.reader.parameters(), max_grad_norm
+                    )
+
+            if (i + 1) % cfg.train.gradient_accumulation_steps == 0:
+                self.optimizer.step()
+                scheduler.step()
+                self.reader.zero_grad()
+                global_step += 1
+
+            if i % log_result_step == 0:
+                lr = self.optimizer.param_groups[0]["lr"]
+                experiment.log_metric("lr", lr)
+                logger.info(
+                    "Epoch: %d: Step: %d/%d, global_step=%d, lr=%f",
+                    epoch,
+                    data_iteration,
+                    epoch_batches,
+                    global_step,
+                    lr,
+                )
+
+            if (i + 1) % rolling_loss_step == 0:
+                logger.info("Train batch %d", data_iteration)
+                latest_rolling_train_av_loss = rolling_train_loss / rolling_loss_step
+                logger.info(
+                    "Avg. loss per last %d batches: %f",
+                    rolling_loss_step,
+                    latest_rolling_train_av_loss,
+                )
+                rolling_train_loss = 0.0
+
+            if global_step % eval_step == 0:
+                logger.info(
+                    "Validation: Epoch: %d Step: %d/%d",
+                    epoch,
+                    data_iteration,
+                    epoch_batches,
+                )
+                self.validate_and_save(
+                    epoch, train_data_iterator.get_iteration(), scheduler
+                )
+                self.reader.train()
+
+        epoch_loss = (epoch_loss / epoch_batches) if epoch_batches > 0 else 0
+        logger.info("Av Loss per epoch=%f", epoch_loss)
+        experiment.log_metric("epoch_loss", epoch_loss)
+
+        
+        return global_step
+
+    def _save_checkpoint(self, scheduler, epoch: int, offset: int) -> str:
+        cfg = self.cfg
+        model_to_save = get_model_obj(self.reader)
+        cp = os.path.join(
+            cfg.output_dir,
+            cfg.checkpoint_file_name
+            + "."
+            + str(epoch)
+            + ("." + str(offset) if offset > 0 else ""),
+        )
+
+        meta_params = get_encoder_params_state_from_cfg(cfg)
+
+        state = CheckpointState(
+            model_to_save.state_dict(),
+            self.optimizer.state_dict(),
+            scheduler.state_dict(),
+            offset,
+            epoch,
+            meta_params,
+        )
+        torch.save(state._asdict(), cp)
+        return cp
+
+    def _load_saved_state(self, saved_state: CheckpointState):
+        epoch = saved_state.epoch
+        offset = saved_state.offset
+        if offset == 0:  # epoch has been completed
+            epoch += 1
+        logger.info("Loading checkpoint @ batch=%s and epoch=%s", offset, epoch)
+        self.start_epoch = epoch
+        self.start_batch = offset
+
+        model_to_load = get_model_obj(self.reader)
+        if saved_state.model_dict:
+            logger.info("Loading model weights from saved state ...")
+            model_to_load.load_state_dict(saved_state.model_dict)
+
+        logger.info("Loading saved optimizer state ...")
+        if saved_state.optimizer_dict:
+            self.optimizer.load_state_dict(saved_state.optimizer_dict)
+        self.scheduler_state = saved_state.scheduler_dict
+
+    def _get_best_prediction(
+        self,
+        start_logits,
+        end_logits,
+        relevance_logits,
+        samples_batch: List[ReaderSample],
+        passage_thresholds: List[int] = None,
+    ) -> List[ReaderQuestionPredictions]:
+
+        cfg = self.cfg
+        max_answer_length = cfg.max_answer_length
+        questions_num, passages_per_question = relevance_logits.size()
+
+        _, idxs = torch.sort(
+            relevance_logits,
+            dim=1,
+            descending=True,
+        )
+
+        batch_results = []
+        for q in range(questions_num):
+            sample = samples_batch[q]
+
+            non_empty_passages_num = len(sample.passages)
+            nbest = []
+            for p in range(passages_per_question):
+                passage_idx = idxs[q, p].item()
+                if (
+                    passage_idx >= non_empty_passages_num
+                ):  # empty passage selected, skip
+                    continue
+                reader_passage = sample.passages[passage_idx]
+                sequence_ids = reader_passage.sequence_ids
+                sequence_len = sequence_ids.size(0)
+                # assuming question & title information is at the beginning of the sequence
+                passage_offset = reader_passage.passage_offset
+
+                p_start_logits = start_logits[q, passage_idx].tolist()[
+                    passage_offset:sequence_len
+                ]
+                p_end_logits = end_logits[q, passage_idx].tolist()[
+                    passage_offset:sequence_len
+                ]
+
+                ctx_ids = sequence_ids.tolist()[passage_offset:]
+                best_spans = get_best_spans(
+                    self.tensorizer,
+                    p_start_logits,
+                    p_end_logits,
+                    ctx_ids,
+                    max_answer_length,
+                    passage_idx,
+                    relevance_logits[q, passage_idx].item(),
+                    top_spans=10,
+                )
+                nbest.extend(best_spans)
+                if len(nbest) > 0 and not passage_thresholds:
+                    break
+
+            if passage_thresholds:
+                passage_rank_matches = {}
+                for n in passage_thresholds:
+                    curr_nbest = [pred for pred in nbest if pred.passage_index < n]
+                    passage_rank_matches[n] = curr_nbest[0]
+                predictions = passage_rank_matches
+            else:
+                if len(nbest) == 0:
+                    predictions = {
+                        passages_per_question: SpanPrediction("", -1, -1, -1, "")
+                    }
+                else:
+                    predictions = {passages_per_question: nbest[0]}
+            batch_results.append(
+                ReaderQuestionPredictions(sample.question, predictions, sample.answers)
+            )
+        return batch_results
+
+    def _calc_loss(self, input: ReaderBatch) -> torch.Tensor:
+        cfg = self.cfg
+        input = ReaderBatch(**move_to_device(input._asdict(), cfg.device))
+        attn_mask = self.tensorizer.get_attn_mask(input.input_ids)
+        questions_num, passages_per_question, _ = input.input_ids.size()
+
+        if self.reader.training:
+            # start_logits, end_logits, rank_logits = self.reader(input.input_ids, attn_mask)
+            loss = self.reader(
+                input.input_ids,
+                attn_mask,
+                input.start_positions,
+                input.end_positions,
+                input.answers_mask,
+            )
+
+        else:
+            # TODO: remove?
+            with torch.no_grad():
+                start_logits, end_logits, rank_logits = self.reader(
+                    input.input_ids, attn_mask
+                )
+
+            loss = compute_loss(
+                input.start_positions,
+                input.end_positions,
+                input.answers_mask,
+                start_logits,
+                end_logits,
+                rank_logits,
+                questions_num,
+                passages_per_question,
+            )
+        if cfg.n_gpu > 1:
+            loss = loss.mean()
+        if cfg.train.gradient_accumulation_steps > 1:
+            loss = loss / cfg.train.gradient_accumulation_steps
+
+        return loss
+
+    def _save_predictions(
+        self, out_file: str, prediction_results: List[ReaderQuestionPredictions]
+    ):
+        logger.info("Saving prediction results to  %s", out_file)
+        with open(out_file, "w", encoding="utf-8") as output:
+            save_results = []
+            for r in prediction_results:
+                save_results.append(
+                    {
+                        "question": r.id,
+                        "gold_answers": r.gold_answers,
+                        "predictions": [
+                            {
+                                "top_k": top_k,
+                                "prediction": {
+                                    "text": span_pred.prediction_text,
+                                    "score": span_pred.span_score,
+                                    "relevance_score": span_pred.relevance_score,
+                                    "passage_idx": span_pred.passage_index,
+                                    "passage": self.tensorizer.to_string(
+                                        span_pred.passage_token_ids
+                                    ),
+                                },
+                            }
+                            for top_k, span_pred in r.predictions.items()
+                        ],
+                    }
+                )
+            output.write(json.dumps(save_results, indent=4) + "\n")
+
+
+@hydra.main(config_path="conf", config_name="extractive_reader_train_cfg")
+def main(cfg: DictConfig):
+
+    if cfg.output_dir is not None:
+        os.makedirs(cfg.output_dir, exist_ok=True)
+
+    cfg = setup_cfg_gpu(cfg)
+    set_seed(cfg)
+
+    if cfg.local_rank in [-1, 0]:
+        logger.info("CFG (after gpu  configuration):")
+        logger.info("%s", OmegaConf.to_yaml(cfg))
+
+    trainer = ReaderTrainer(cfg)
+
+    if cfg.train_files is not None:
+        trainer.run_train()
+    elif cfg.dev_files:
+        logger.info("No train files are specified. Run validation.")
+        trainer.validate()
+    else:
+        logger.warning(
+            "Neither train_file or (model_file & dev_file) parameters are specified. Nothing to do."
+        )
+
+
+if __name__ == "__main__":
+    logger.info("Sys.argv: %s", sys.argv)
+    hydra_formatted_args = []
+    # convert the cli params added by torch.distributed.launch into Hydra format
+    for arg in sys.argv:
+        if arg.startswith("--"):
+            hydra_formatted_args.append(arg[len("--") :])
+        else:
+            hydra_formatted_args.append(arg)
+    logger.info("Hydra formatted Sys.argv: %s", hydra_formatted_args)
+    sys.argv = hydra_formatted_args
+    main()

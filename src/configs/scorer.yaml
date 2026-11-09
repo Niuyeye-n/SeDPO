@@ -1,1 +1,21 @@
-YmF0Y2hfc2l6ZTogMQptb2RlbF9uYW1lOiAiRWxldXRoZXJBSS9ncHQtbmVvLTIuN0IiCm91dHB1dF90cmFpbl9maWxlOiA/Pz8Kb3V0cHV0X3ZhbGlkX2ZpbGU6ID8/PwpleGFtcGxlX2ZpbGU6ID8/PyAjIGZpbGVzIGNvbnRhaW5pbmcgdGhlIHRhc2sgaW5wdXRzIGFuZCBpdHMgY29ycmVzcG9uZGluZyBzYW1wbGVkIHByb21wdCBpZHMKdGFza19uYW1lOiA/Pz8KcHJvbXB0X3Bvb2xfcGF0aDoKY2FjaGVfZGlyOiA/Pz8KbWF4X2xlbmd0aDogMjA0OCAjIG1heCBzZXEgbGVuZ3RoCmdlbmVyYXRlX21heF9sZW46IDEwMCAjIG1heCBsZW5ndGggdG8gYmUgZ2VuZXJhdGVkCmZld19zaG90X251bTogMwoKZGF0YXNldF9yZWFkZXI6CiAgX3RhcmdldF86IHNyYy5kYXRhc2V0X3JlYWRlcnMuc2NvcmVyX2Rzci5TY29yZXJEYXRhc2V0UmVhZGVyCiAgZXhhbXBsZV9maWxlOiAke2V4YW1wbGVfZmlsZX0KICBtb2RlbF9uYW1lOiAke21vZGVsX25hbWV9CiAgdGFza19uYW1lOiAke3Rhc2tfbmFtZX0gCiAgcHJvbXB0X3Bvb2xfcGF0aDogJHtwcm9tcHRfcG9vbF9wYXRofQogIGNhY2hlX2RpcjogJHtjYWNoZV9kaXJ9CiAgbWF4X2xlbmd0aDogJHttYXhfbGVuZ3RofQogIGZld19zaG90X251bTogJHtmZXdfc2hvdF9udW19Cg==
+batch_size: 1
+model_name: "EleutherAI/gpt-neo-2.7B"
+output_train_file: ???
+output_valid_file: ???
+example_file: ??? # files containing the task inputs and its corresponding sampled prompt ids
+task_name: ???
+prompt_pool_path:
+cache_dir: ???
+max_length: 2048 # max seq length
+generate_max_len: 100 # max length to be generated
+few_shot_num: 3
+
+dataset_reader:
+  _target_: src.dataset_readers.scorer_dsr.ScorerDatasetReader
+  example_file: ${example_file}
+  model_name: ${model_name}
+  task_name: ${task_name} 
+  prompt_pool_path: ${prompt_pool_path}
+  cache_dir: ${cache_dir}
+  max_length: ${max_length}
+  few_shot_num: ${few_shot_num}

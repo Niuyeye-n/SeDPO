@@ -1,1 +1,210 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwojIC0qLSBjb2Rpbmc6IHV0Zi04IC0qLQoiIiIKU2VEUE8g5a6e6aqM5Lqn54mp5pS26ZuGICsg5oyH5qCH5rGH5oC7ICsgQ1NWIOWhq+ihqCArIOaKpeWRiueUn+aIkO+8iOacjeWKoeWZqOerr++8iQoK55So5rOV77yI5Zyo5pyN5Yqh5Zmo5LiK6LeR77yJOgogICAgcHl0aG9uIGNvbGxlY3RfcmVzdWx0cy5weSAtLXJlcG8gL3Jvb3QvYXV0b2RsLXRtcC9TZURQT19OSVBTMjUgXAogICAgICAgIC0tb3V0X2RpciAvcm9vdC9hdXRvZGwtdG1wL1NlRFBPX05JUFMyNS9yZXN1bHRzX25ld190YXNrc18yMDI2MTEwNSBcCiAgICAgICAgLS1jc3YgL3Jvb3QvYXV0b2RsLXRtcC9ydW5zX2xvZ19yb3dzLmNzdgoK5Lqn54mp5biD5bGA77yI5pys5Zyw5LiO5pyN5Yqh5Zmo5LiA6Ie077yJOgogICAgcmVzdWx0c19uZXdfdGFza3NfMjAyNjExMDUvPGRhdGFzZXQ+Xzxtb2RlbD5fPG1ldGhvZD4vCiAgICAgICAgcHJlZHMganNvbiAvIGV2YWxfcmVzKi50eHQgLyB0cmFpbl9kZW5zZV9lbmNvZGVyLmxvZyAvIG1ldHJpY3Nfe2pzb24sdHh0fSAvIHJ1bnRpbWUqLmpzb24KIiIiCmltcG9ydCBhcmdwYXJzZQppbXBvcnQgZ2xvYgppbXBvcnQganNvbgppbXBvcnQgb3MKaW1wb3J0IHJlCmltcG9ydCBzaHV0aWwKaW1wb3J0IHN1YnByb2Nlc3MKaW1wb3J0IHN5cwoKVEFTS19NQVAgPSB7CiAgICAiYXJjX2MiOiB7ImRhdGFzZXQiOiAiQVJDLUMiLCAiY2x1c3RlciI6ICJjbG9zZV9xYSJ9LAogICAgIm9wZW5ib29rcWEiOiB7ImRhdGFzZXQiOiAiT3BlbkJvb2tSQyIsICJjbHVzdGVyIjogInJlYWRpbmdfbmV3In0sCiAgICAibXVsdGlyYyI6IHsiZGF0YXNldCI6ICJNdWx0aVJDIiwgImNsdXN0ZXIiOiAicmVhZGluZ19uZXcifSwKfQpNT0RFTF9UQUcgPSB7InF3ZW4iOiAiUXdlbjIuNS03QiIsICJsbGFtYSI6ICJMbGFtYS0zLThCIn0KCgpkZWYgc2goY21kKToKICAgIHAgPSBzdWJwcm9jZXNzLnJ1bihjbWQsIHNoZWxsPVRydWUsIGNhcHR1cmVfb3V0cHV0PVRydWUsIHRleHQ9VHJ1ZSkKICAgIHJldHVybiBwLnN0ZG91dC5zdHJpcCgpCgoKZGVmIHBhcnNlX21ldHJpY3ModHh0X3BhdGgpOgogICAgIiIi5LuOIGNvbXB1dGVfbWV0cmljcyDnmoTmlofmnKzovpPlh7rph4zmir0gYWNjdXJhY3kgLyBmMSIiIgogICAgaWYgbm90IG9zLnBhdGguZXhpc3RzKHR4dF9wYXRoKToKICAgICAgICByZXR1cm4gTm9uZQogICAgdHh0ID0gb3Blbih0eHRfcGF0aCwgZW5jb2Rpbmc9InV0Zi04IiwgZXJyb3JzPSJpZ25vcmUiKS5yZWFkKCkKICAgIGFjYyA9IGYxID0gTm9uZQogICAgZjFfdHlwZSA9ICIiCiAgICBtID0gcmUuc2VhcmNoKHIiYWNjdXJhY3lccypbOj1dXHMqKFswLTkuXSspIiwgdHh0LCByZS5JKQogICAgaWYgbToKICAgICAgICBhY2MgPSBmbG9hdChtLmdyb3VwKDEpKQogICAgIyBGMSDlj6/og73mnInlpJrnp43vvIhtaWNyby9tYWNyby93ZWlnaHRlZO+8ie+8jOiusOW9leaYr+WTquS4gOenjQogICAgZm0gPSByZS5zZWFyY2gociIobWljcm9bXC1fIF0/ZjF8bWFjcm9bXC1fIF0/ZjF8d2VpZ2h0ZWRbXC1fIF0/ZjF8ZjEpXHMqWzo9XVxzKihbMC05Ll0rKSIsIHR4dCwgcmUuSSkKICAgIGlmIGZtOgogICAgICAgIGYxID0gZmxvYXQoZm0uZ3JvdXAoMikpCiAgICAgICAgZjFfdHlwZSA9IGZtLmdyb3VwKDEpLnJlcGxhY2UoIl8iLCAiLSIpLnJlcGxhY2UoIiAiLCAiLSIpCiAgICBpZiBhY2MgaXMgTm9uZSBhbmQgZjEgaXMgTm9uZToKICAgICAgICAjIOWFnOW6le+8muaKiiAia2V5OiB2YWx1ZSIg5b2i5byP55qE6KGM5YWo5oqT5Ye65p2lCiAgICAgICAgZm9yIGssIHYgaW4gcmUuZmluZGFsbChyIihbQS1aYS16XyBdKylccypbOj1dXHMqKFswLTkuXSspIiwgdHh0KToKICAgICAgICAgICAga2wgPSBrLnN0cmlwKCkubG93ZXIoKQogICAgICAgICAgICBpZiAiYWNjIiBpbiBrbCBhbmQgYWNjIGlzIE5vbmU6CiAgICAgICAgICAgICAgICBhY2MgPSBmbG9hdCh2KQogICAgICAgICAgICBpZiAiZjEiIGluIGtsIGFuZCBmMSBpcyBOb25lOgogICAgICAgICAgICAgICAgZjEgPSBmbG9hdCh2KQogICAgICAgICAgICAgICAgZjFfdHlwZSA9IGsuc3RyaXAoKQogICAgcmV0dXJuIHsiYWNjIjogYWNjLCAiZjEiOiBmMSwgImYxX3R5cGUiOiBmMV90eXBlfQoKCmRlZiBjb2xsZWN0KHJlcG8sIG91dF9kaXIsIHRhZywgdGFzaywgY2x1c3RlciwgbWV0aG9kLCBleHBfZGlyKToKICAgICIiIuaKiuS4gOe7hOWunumqjOeahOS6p+eJqeaUtumbhuWIsCA8b3V0X2Rpcj4vPGRhdGFzZXQ+Xzxtb2RlbD5fPG1ldGhvZD4vIiIiCiAgICBtZXRhID0gVEFTS19NQVBbdGFza10KICAgIGRzdCA9IG9zLnBhdGguam9pbihvdXRfZGlyLCBmInttZXRhWydkYXRhc2V0J119X3tNT0RFTF9UQUdbdGFnXX1fe21ldGhvZH0iKQogICAgb3MubWFrZWRpcnMoZHN0LCBleGlzdF9vaz1UcnVlKQoKICAgICMgcHJlZHMKICAgIGZvciBwYXQgaW4gW2Yie2V4cF9kaXJ9L3ByZWRzX2Zvcl97Y2x1c3Rlcn0ve3Rhc2t9X3Byb21wdHMzX3JldHJpZXZlcnNlMl9wcmVkc18wLmpzb24iLAogICAgICAgICAgICAgICAgZiJ7ZXhwX2Rpcn0vcHJlZHNfZm9yX3tjbHVzdGVyfS97dGFza31fKl9wcmVkc18wLmpzb24iXToKICAgICAgICBmb3IgcCBpbiBnbG9iLmdsb2IocGF0KToKICAgICAgICAgICAgc2h1dGlsLmNvcHkyKHAsIGRzdCkKICAgICAgICAgICAgYnJlYWsKICAgICMgZXZhbF9yZXMKICAgIGZvciBwIGluIGdsb2IuZ2xvYihmIntleHBfZGlyfS9ldmFsX3JlcyoudHh0Iik6CiAgICAgICAgc2h1dGlsLmNvcHkyKHAsIGRzdCkKICAgICMg6K6t57uD5pel5b+XCiAgICBmb3IgcCBpbiBbZiJ7ZXhwX2Rpcn0vdHJhaW5fZGVuc2VfZW5jb2Rlci5sb2ciXToKICAgICAgICBpZiBvcy5wYXRoLmV4aXN0cyhwKToKICAgICAgICAgICAgc2h1dGlsLmNvcHkyKHAsIGRzdCkKICAgICMgcnVudGltZQogICAgZm9yIHAgaW4gZ2xvYi5nbG9iKGYie2V4cF9kaXJ9L3J1bnRpbWUqLmpzb24iKToKICAgICAgICBzaHV0aWwuY29weTIocCwgZHN0KQogICAgIyBtZXRyaWNzCiAgICBmb3IgbSBpbiBbInplcm9zaG90IiwgInJhbmRvbTMiLCAic2VkcG8iXToKICAgICAgICBmb3IgZXh0IGluIFsianNvbiIsICJ0eHQiXToKICAgICAgICAgICAgcCA9IG9zLnBhdGguam9pbihvdXRfZGlyLCBmInt0YXNrfV97dGFnfSIsIGYibWV0cmljc197bX0ue2V4dH0iKQogICAgICAgICAgICBpZiBvcy5wYXRoLmV4aXN0cyhwKToKICAgICAgICAgICAgICAgIHNodXRpbC5jb3B5MihwLCBkc3QpCiAgICAjIOaJk+WIhuaXpeW/l++8iOS9k+enr+Wkp++8jOWPqueVmeWFs+mUruihjO+8iQogICAgZm9yIHAgaW4gZ2xvYi5nbG9iKGYie2V4cF9kaXJ9L3Njb3Jlci5sb2ciKToKICAgICAgICB0cnk6CiAgICAgICAgICAgIHdpdGggb3BlbihwLCBlbmNvZGluZz0idXRmLTgiLCBlcnJvcnM9Imlnbm9yZSIpIGFzIGY6CiAgICAgICAgICAgICAgICBrZWVwID0gW2xuIGZvciBsbiBpbiBmCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIHJlLnNlYXJjaChyIm9uZV9zaG90X2FjY3xmaXJzdF9yYW5rX2FjY3xsZW5cKGV4YW1wbGVfbGlzdFwpfGxlblwoZGF0YVwpIiwgbG4pXQogICAgICAgICAgICB3aXRoIG9wZW4ob3MucGF0aC5qb2luKGRzdCwgInNjb3Jlcl9rZXlsaW5lcy5sb2ciKSwgInciLCBlbmNvZGluZz0idXRmLTgiKSBhcyBmOgogICAgICAgICAgICAgICAgZi53cml0ZSgiXG4iLmpvaW4oa2VlcFstNDA6XSkpCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICAgICAgcGFzcwogICAgcmV0dXJuIGRzdAoKCmRlZiBtYWluKCk6CiAgICBhcCA9IGFyZ3BhcnNlLkFyZ3VtZW50UGFyc2VyKCkKICAgIGFwLmFkZF9hcmd1bWVudCgiLS1yZXBvIiwgZGVmYXVsdD0iL3Jvb3QvYXV0b2RsLXRtcC9TZURQT19OSVBTMjUiKQogICAgYXAuYWRkX2FyZ3VtZW50KCItLW91dF9kaXIiLCBkZWZhdWx0PU5vbmUpCiAgICBhcC5hZGRfYXJndW1lbnQoIi0tY3N2IiwgZGVmYXVsdD0iL3Jvb3QvYXV0b2RsLXRtcC9ydW5zX2xvZ19yb3dzLmNzdiIpCiAgICBhcC5hZGRfYXJndW1lbnQoIi0tZHJ5IiwgYWN0aW9uPSJzdG9yZV90cnVlIikKICAgIGFyZ3MgPSBhcC5wYXJzZV9hcmdzKCkKCiAgICByZXBvID0gYXJncy5yZXBvCiAgICBvdXRfZGlyID0gYXJncy5vdXRfZGlyIG9yIG9zLnBhdGguam9pbihyZXBvLCAicmVzdWx0c19uZXdfdGFza3NfMjAyNjExMDUiKQogICAgb3MubWFrZWRpcnMob3V0X2RpciwgZXhpc3Rfb2s9VHJ1ZSkKCiAgICByb3dzID0gW10KICAgIHByaW50KCI9IiAqIDc4KQogICAgcHJpbnQoIuaUtumbhiBTZURQTyDlrp7pqozkuqfniakiKQogICAgcHJpbnQoIj0iICogNzgpCgogICAgZm9yIHRhZyBpbiBbInF3ZW4iLCAibGxhbWEiXToKICAgICAgICBmb3IgdGFzaywgbWV0YSBpbiBUQVNLX01BUC5pdGVtcygpOgogICAgICAgICAgICBjbHVzdGVyID0gbWV0YVsiY2x1c3RlciJdCiAgICAgICAgICAgIGV4cF9kaXIgPSBmIntyZXBvfS9teV9kYXRhX3F3ZW4vZXhwZXJpbWVudF97dGFnfS97Y2x1c3Rlcn0iCiAgICAgICAgICAgIGlmIG5vdCBvcy5wYXRoLmlzZGlyKGV4cF9kaXIpOgogICAgICAgICAgICAgICAgY29udGludWUKCiAgICAgICAgICAgICMgLS0tLSBTZURQTyAtLS0tCiAgICAgICAgICAgIHNlZHBvX2RpciA9IG9zLnBhdGguam9pbihvdXRfZGlyLCBmInt0YXNrfV97dGFnfSIpCiAgICAgICAgICAgIG1maWxlID0gb3MucGF0aC5qb2luKHNlZHBvX2RpciwgIm1ldHJpY3Nfc2VkcG8udHh0IikKICAgICAgICAgICAgaWYgb3MucGF0aC5leGlzdHMobWZpbGUpOgogICAgICAgICAgICAgICAgaWYgbm90IGFyZ3MuZHJ5OgogICAgICAgICAgICAgICAgICAgIGRzdCA9IGNvbGxlY3QocmVwbywgb3V0X2RpciwgdGFnLCB0YXNrLCBjbHVzdGVyLCAiU2VEUE8iLCBleHBfZGlyKQogICAgICAgICAgICAgICAgICAgIHByaW50KGYiW09LXSBTZURQTyB7dGFza30ve3RhZ30g4oaSIHtkc3R9IikKICAgICAgICAgICAgICAgIG10ID0gcGFyc2VfbWV0cmljcyhtZmlsZSkKICAgICAgICAgICAgICAgIHJ0ID0ge30KICAgICAgICAgICAgICAgIGZvciBwIGluIGdsb2IuZ2xvYihvcy5wYXRoLmpvaW4oc2VkcG9fZGlyLCAicnVudGltZSouanNvbiIpKToKICAgICAgICAgICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICAgICAgICAgIHJ0ID0ganNvbi5sb2FkKG9wZW4ocCwgZW5jb2Rpbmc9InV0Zi04IikpCiAgICAgICAgICAgICAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICAgICAgICAgICAgICAgICAgcGFzcwogICAgICAgICAgICAgICAgbG9zcyA9IE5vbmUKICAgICAgICAgICAgICAgIGxvc3NyZWYgPSAiIgogICAgICAgICAgICAgICAgbG9ncCA9IG9zLnBhdGguam9pbihleHBfZGlyLCAidHJhaW5fZGVuc2VfZW5jb2Rlci5sb2ciKQogICAgICAgICAgICAgICAgaWYgb3MucGF0aC5leGlzdHMobG9ncCk6CiAgICAgICAgICAgICAgICAgICAgbG9zc3JlZiA9ICJ0cmFpbl9kZW5zZV9lbmNvZGVyLmxvZyIKICAgICAgICAgICAgICAgICAgICB0eHQgPSBvcGVuKGxvZ3AsIGVuY29kaW5nPSJ1dGYtOCIsIGVycm9ycz0iaWdub3JlIikucmVhZCgpCiAgICAgICAgICAgICAgICAgICAgbHMgPSByZS5maW5kYWxsKHIibG9zc1snXCJdP1xzKls6PV1ccyooWzAtOS5dKykiLCB0eHQpCiAgICAgICAgICAgICAgICAgICAgaWYgbHM6CiAgICAgICAgICAgICAgICAgICAgICAgIGxvc3MgPSBsc1stMV0KICAgICAgICAgICAgICAgIHJ1bnRpbWVfbWluID0gTm9uZQogICAgICAgICAgICAgICAgaWYgcnQuZ2V0KCJjbHVzdGVyX3RvdGFsX3NlYyIpOgogICAgICAgICAgICAgICAgICAgIHJ1bnRpbWVfbWluID0gcm91bmQocnRbImNsdXN0ZXJfdG90YWxfc2VjIl0gLyA2MCwgMSkKICAgICAgICAgICAgICAgIHJvd3MuYXBwZW5kKHsKICAgICAgICAgICAgICAgICAgICAiZGF0YXNldCI6IG1ldGFbImRhdGFzZXQiXSwKICAgICAgICAgICAgICAgICAgICAidGFza19jb2RlIjogdGFzaywKICAgICAgICAgICAgICAgICAgICAibW9kZWwiOiBNT0RFTF9UQUdbdGFnXSwKICAgICAgICAgICAgICAgICAgICAibWV0aG9kIjogIlNlRFBPIiwKICAgICAgICAgICAgICAgICAgICAic2hvdHMiOiAzLAogICAgICAgICAgICAgICAgICAgICJtZXRyaWNfYWNjIjogbXRbImFjYyJdIGlmIG10IGVsc2UgTm9uZSwKICAgICAgICAgICAgICAgICAgICAibWV0cmljX2YxIjogbXRbImYxIl0gaWYgbXQgZWxzZSBOb25lLAogICAgICAgICAgICAgICAgICAgICJmMV90eXBlIjogKG10WyJmMV90eXBlIl0gaWYgbXQgZWxzZSAiIikgb3IgIk4vQSIsCiAgICAgICAgICAgICAgICAgICAgImxvc3NfZmluYWwiOiBsb3NzIG9yICJOL0EiLAogICAgICAgICAgICAgICAgICAgICJsb3NzX2N1cnZlX3JlZiI6IGxvc3NyZWYgb3IgIk4vQSIsCiAgICAgICAgICAgICAgICAgICAgInJ1bnRpbWVfbWluIjogcnVudGltZV9taW4gaWYgcnVudGltZV9taW4gZWxzZSAiTi9BIiwKICAgICAgICAgICAgICAgICAgICAibl9zY29yZSI6IHJ0LmdldCgibl9zY29yZSIsICJOL0EiKSwKICAgICAgICAgICAgICAgICAgICAiZmluZGVyX0wiOiBydC5nZXQoImZpbmRlcl9MIiwgIk4vQSIpLAogICAgICAgICAgICAgICAgICAgICJub3RlcyI6ICLpgInpobnkvLznhLbmiZPliIbvvIzpnZ7ph4fmoLfnlJ/miJDvvJvlgJnpgInmsaDlhajph4/vvIxuX3Njb3JlIOmZkOWItuaJk+WIhiBxdWVyeSDmlbAiLAogICAgICAgICAgICAgICAgfSkKCiAgICAgICAgICAgICMgLS0tLSDln7rnur/vvIjlt7Lot5HlroznmoTkv53nlZnkvZzlj4LogIPvvIktLS0tCiAgICAgICAgICAgIGZvciBtLCBtbmFtZSBpbiBbKCJ6ZXJvc2hvdCIsICJ6ZXJvc2hvdCIpLCAoInJhbmRvbTMiLCAicmFuZG9tMyIpXToKICAgICAgICAgICAgICAgIG1maWxlID0gb3MucGF0aC5qb2luKHNlZHBvX2RpciwgZiJtZXRyaWNzX3ttfS50eHQiKQogICAgICAgICAgICAgICAgaWYgbm90IG9zLnBhdGguZXhpc3RzKG1maWxlKToKICAgICAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICAgICAgbXQgPSBwYXJzZV9tZXRyaWNzKG1maWxlKQogICAgICAgICAgICAgICAgcm93cy5hcHBlbmQoewogICAgICAgICAgICAgICAgICAgICJkYXRhc2V0IjogbWV0YVsiZGF0YXNldCJdLAogICAgICAgICAgICAgICAgICAgICJ0YXNrX2NvZGUiOiB0YXNrLAogICAgICAgICAgICAgICAgICAgICJtb2RlbCI6IE1PREVMX1RBR1t0YWddLAogICAgICAgICAgICAgICAgICAgICJtZXRob2QiOiBmImJhc2VsaW5lLXttbmFtZX0iLAogICAgICAgICAgICAgICAgICAgICJzaG90cyI6IDAgaWYgbSA9PSAiemVyb3Nob3QiIGVsc2UgMywKICAgICAgICAgICAgICAgICAgICAibWV0cmljX2FjYyI6IG10WyJhY2MiXSBpZiBtdCBlbHNlIE5vbmUsCiAgICAgICAgICAgICAgICAgICAgIm1ldHJpY19mMSI6IG10WyJmMSJdIGlmIG10IGVsc2UgTm9uZSwKICAgICAgICAgICAgICAgICAgICAiZjFfdHlwZSI6IChtdFsiZjFfdHlwZSJdIGlmIG10IGVsc2UgIiIpIG9yICJOL0EiLAogICAgICAgICAgICAgICAgICAgICJsb3NzX2ZpbmFsIjogIk4vQSIsICJsb3NzX2N1cnZlX3JlZiI6ICJOL0EiLAogICAgICAgICAgICAgICAgICAgICJydW50aW1lX21pbiI6ICJOL0EiLCAibl9zY29yZSI6ICJOL0EiLCAiZmluZGVyX0wiOiAiTi9BIiwKICAgICAgICAgICAgICAgICAgICAibm90ZXMiOiAi5Y+C6ICD5YC877yI55So5oi35bey56Gu6K6k5peg6ZyA5YaN6LeR5YW25LuW5Z+657q/77yJIiwKICAgICAgICAgICAgICAgIH0pCgogICAgIyDlhpkgQ1NWCiAgICBjb2xzID0gWyJkYXRhc2V0IiwgInRhc2tfY29kZSIsICJtb2RlbCIsICJtZXRob2QiLCAic2hvdHMiLCAibWV0cmljX2FjYyIsICJtZXRyaWNfZjEiLAogICAgICAgICAgICAiZjFfdHlwZSIsICJsb3NzX2ZpbmFsIiwgImxvc3NfY3VydmVfcmVmIiwgInJ1bnRpbWVfbWluIiwgIm5fc2NvcmUiLAogICAgICAgICAgICAiZmluZGVyX0wiLCAibm90ZXMiXQogICAgaW1wb3J0IGNzdgogICAgd2l0aCBvcGVuKGFyZ3MuY3N2LCAidyIsIG5ld2xpbmU9IiIsIGVuY29kaW5nPSJ1dGYtOC1zaWciKSBhcyBmOgogICAgICAgIHcgPSBjc3YuRGljdFdyaXRlcihmLCBmaWVsZG5hbWVzPWNvbHMpCiAgICAgICAgdy53cml0ZWhlYWRlcigpCiAgICAgICAgZm9yIHIgaW4gcm93czoKICAgICAgICAgICAgdy53cml0ZXJvdyhyKQogICAgcHJpbnQoZiJcbuW3suWGmSB7YXJncy5jc3Z977yIe2xlbihyb3dzKX0g6KGM77yJIikKICAgIGZvciByIGluIHJvd3M6CiAgICAgICAgcHJpbnQoZiIgIHtyWydkYXRhc2V0J106MTFzfSB7clsnbW9kZWwnXToxNHN9IHtyWydtZXRob2QnXToxOHN9ICIKICAgICAgICAgICAgICBmImFjYz17clsnbWV0cmljX2FjYyddfSBmMT17clsnbWV0cmljX2YxJ119IGxvc3M9e3JbJ2xvc3NfZmluYWwnXX0gIgogICAgICAgICAgICAgIGYidD17clsncnVudGltZV9taW4nXX1taW4iKQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBtYWluKCkK
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+SeDPO 实验产物收集 + 指标汇总 + CSV 填表 + 报告生成（服务器端）
+
+用法（在服务器上跑）:
+    python collect_results.py --repo /root/autodl-tmp/SeDPO_NIPS25 \
+        --out_dir /root/autodl-tmp/SeDPO_NIPS25/results_new_tasks_20261105 \
+        --csv /root/autodl-tmp/runs_log_rows.csv
+
+产物布局（本地与服务器一致）:
+    results_new_tasks_20261105/<dataset>_<model>_<method>/
+        preds json / eval_res*.txt / train_dense_encoder.log / metrics_{json,txt} / runtime*.json
+"""
+import argparse
+import glob
+import json
+import os
+import re
+import shutil
+import subprocess
+import sys
+
+TASK_MAP = {
+    "arc_c": {"dataset": "ARC-C", "cluster": "close_qa"},
+    "openbookqa": {"dataset": "OpenBookRC", "cluster": "reading_new"},
+    "multirc": {"dataset": "MultiRC", "cluster": "reading_new"},
+}
+MODEL_TAG = {"qwen": "Qwen2.5-7B", "llama": "Llama-3-8B"}
+
+
+def sh(cmd):
+    p = subprocess.run(cmd, shell=True, capture_output=True, text=True)
+    return p.stdout.strip()
+
+
+def parse_metrics(txt_path):
+    """从 compute_metrics 的文本输出里抽 accuracy / f1"""
+    if not os.path.exists(txt_path):
+        return None
+    txt = open(txt_path, encoding="utf-8", errors="ignore").read()
+    acc = f1 = None
+    f1_type = ""
+    m = re.search(r"accuracy\s*[:=]\s*([0-9.]+)", txt, re.I)
+    if m:
+        acc = float(m.group(1))
+    # F1 可能有多种（micro/macro/weighted），记录是哪一种
+    fm = re.search(r"(micro[\-_ ]?f1|macro[\-_ ]?f1|weighted[\-_ ]?f1|f1)\s*[:=]\s*([0-9.]+)", txt, re.I)
+    if fm:
+        f1 = float(fm.group(2))
+        f1_type = fm.group(1).replace("_", "-").replace(" ", "-")
+    if acc is None and f1 is None:
+        # 兜底：把 "key: value" 形式的行全抓出来
+        for k, v in re.findall(r"([A-Za-z_ ]+)\s*[:=]\s*([0-9.]+)", txt):
+            kl = k.strip().lower()
+            if "acc" in kl and acc is None:
+                acc = float(v)
+            if "f1" in kl and f1 is None:
+                f1 = float(v)
+                f1_type = k.strip()
+    return {"acc": acc, "f1": f1, "f1_type": f1_type}
+
+
+def collect(repo, out_dir, tag, task, cluster, method, exp_dir):
+    """把一组实验的产物收集到 <out_dir>/<dataset>_<model>_<method>/"""
+    meta = TASK_MAP[task]
+    dst = os.path.join(out_dir, f"{meta['dataset']}_{MODEL_TAG[tag]}_{method}")
+    os.makedirs(dst, exist_ok=True)
+
+    # preds
+    for pat in [f"{exp_dir}/preds_for_{cluster}/{task}_prompts3_retrieverse2_preds_0.json",
+                f"{exp_dir}/preds_for_{cluster}/{task}_*_preds_0.json"]:
+        for p in glob.glob(pat):
+            shutil.copy2(p, dst)
+            break
+    # eval_res
+    for p in glob.glob(f"{exp_dir}/eval_res*.txt"):
+        shutil.copy2(p, dst)
+    # 训练日志
+    for p in [f"{exp_dir}/train_dense_encoder.log"]:
+        if os.path.exists(p):
+            shutil.copy2(p, dst)
+    # runtime
+    for p in glob.glob(f"{exp_dir}/runtime*.json"):
+        shutil.copy2(p, dst)
+    # metrics
+    for m in ["zeroshot", "random3", "sedpo"]:
+        for ext in ["json", "txt"]:
+            p = os.path.join(out_dir, f"{task}_{tag}", f"metrics_{m}.{ext}")
+            if os.path.exists(p):
+                shutil.copy2(p, dst)
+    # 打分日志（体积大，只留关键行）
+    for p in glob.glob(f"{exp_dir}/scorer.log"):
+        try:
+            with open(p, encoding="utf-8", errors="ignore") as f:
+                keep = [ln for ln in f
+                        if re.search(r"one_shot_acc|first_rank_acc|len\(example_list\)|len\(data\)", ln)]
+            with open(os.path.join(dst, "scorer_keylines.log"), "w", encoding="utf-8") as f:
+                f.write("\n".join(keep[-40:]))
+        except Exception:
+            pass
+    return dst
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--repo", default="/root/autodl-tmp/SeDPO_NIPS25")
+    ap.add_argument("--out_dir", default=None)
+    ap.add_argument("--csv", default="/root/autodl-tmp/runs_log_rows.csv")
+    ap.add_argument("--dry", action="store_true")
+    args = ap.parse_args()
+
+    repo = args.repo
+    out_dir = args.out_dir or os.path.join(repo, "results_new_tasks_20261105")
+    os.makedirs(out_dir, exist_ok=True)
+
+    rows = []
+    print("=" * 78)
+    print("收集 SeDPO 实验产物")
+    print("=" * 78)
+
+    for tag in ["qwen", "llama"]:
+        for task, meta in TASK_MAP.items():
+            cluster = meta["cluster"]
+            exp_dir = f"{repo}/my_data_qwen/experiment_{tag}/{cluster}"
+            if not os.path.isdir(exp_dir):
+                continue
+
+            # ---- SeDPO ----
+            sedpo_dir = os.path.join(out_dir, f"{task}_{tag}")
+            mfile = os.path.join(sedpo_dir, "metrics_sedpo.txt")
+            if os.path.exists(mfile):
+                if not args.dry:
+                    dst = collect(repo, out_dir, tag, task, cluster, "SeDPO", exp_dir)
+                    print(f"[OK] SeDPO {task}/{tag} → {dst}")
+                mt = parse_metrics(mfile)
+                rt = {}
+                for p in glob.glob(os.path.join(sedpo_dir, "runtime*.json")):
+                    try:
+                        rt = json.load(open(p, encoding="utf-8"))
+                    except Exception:
+                        pass
+                loss = None
+                lossref = ""
+                logp = os.path.join(exp_dir, "train_dense_encoder.log")
+                if os.path.exists(logp):
+                    lossref = "train_dense_encoder.log"
+                    txt = open(logp, encoding="utf-8", errors="ignore").read()
+                    ls = re.findall(r"loss['\"]?\s*[:=]\s*([0-9.]+)", txt)
+                    if ls:
+                        loss = ls[-1]
+                runtime_min = None
+                if rt.get("cluster_total_sec"):
+                    runtime_min = round(rt["cluster_total_sec"] / 60, 1)
+                rows.append({
+                    "dataset": meta["dataset"],
+                    "task_code": task,
+                    "model": MODEL_TAG[tag],
+                    "method": "SeDPO",
+                    "shots": 3,
+                    "metric_acc": mt["acc"] if mt else None,
+                    "metric_f1": mt["f1"] if mt else None,
+                    "f1_type": (mt["f1_type"] if mt else "") or "N/A",
+                    "loss_final": loss or "N/A",
+                    "loss_curve_ref": lossref or "N/A",
+                    "runtime_min": runtime_min if runtime_min else "N/A",
+                    "n_score": rt.get("n_score", "N/A"),
+                    "finder_L": rt.get("finder_L", "N/A"),
+                    "notes": "选项似然打分，非采样生成；候选池全量，n_score 限制打分 query 数",
+                })
+
+            # ---- 基线（已跑完的保留作参考）----
+            for m, mname in [("zeroshot", "zeroshot"), ("random3", "random3")]:
+                mfile = os.path.join(sedpo_dir, f"metrics_{m}.txt")
+                if not os.path.exists(mfile):
+                    continue
+                mt = parse_metrics(mfile)
+                rows.append({
+                    "dataset": meta["dataset"],
+                    "task_code": task,
+                    "model": MODEL_TAG[tag],
+                    "method": f"baseline-{mname}",
+                    "shots": 0 if m == "zeroshot" else 3,
+                    "metric_acc": mt["acc"] if mt else None,
+                    "metric_f1": mt["f1"] if mt else None,
+                    "f1_type": (mt["f1_type"] if mt else "") or "N/A",
+                    "loss_final": "N/A", "loss_curve_ref": "N/A",
+                    "runtime_min": "N/A", "n_score": "N/A", "finder_L": "N/A",
+                    "notes": "参考值（用户已确认无需再跑其他基线）",
+                })
+
+    # 写 CSV
+    cols = ["dataset", "task_code", "model", "method", "shots", "metric_acc", "metric_f1",
+            "f1_type", "loss_final", "loss_curve_ref", "runtime_min", "n_score",
+            "finder_L", "notes"]
+    import csv
+    with open(args.csv, "w", newline="", encoding="utf-8-sig") as f:
+        w = csv.DictWriter(f, fieldnames=cols)
+        w.writeheader()
+        for r in rows:
+            w.writerow(r)
+    print(f"\n已写 {args.csv}（{len(rows)} 行）")
+    for r in rows:
+        print(f"  {r['dataset']:11s} {r['model']:14s} {r['method']:18s} "
+              f"acc={r['metric_acc']} f1={r['metric_f1']} loss={r['loss_final']} "
+              f"t={r['runtime_min']}min")
+
+
+if __name__ == "__main__":
+    main()

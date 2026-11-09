@@ -1,1 +1,48 @@
-IyBjb25maWd1cmF0aW9uIGdyb3VwcwpkZWZhdWx0czoKICAtIGVuY29kZXI6IGhmX2JlcnQKICAtIHRyYWluOiBiaWVuY29kZXJfc2UyCiAgLSBkYXRhc2V0czogZW5jb2Rlcl90cmFpbl9kZWZhdWx0Cgpsb3NzX3R5cGU6IGRwcgoKdHJhaW5fZGF0YXNldHM6CmRldl9kYXRhc2V0czoKb3V0cHV0X2RpcjoKdHJhaW5fc2FtcGxpbmdfcmF0ZXM6Cmxvc3Nfc2NhbGVfZmFjdG9yczoKCiMgV2hldGhlciB0byBsb3dlciBjYXNlIHRoZSBpbnB1dCB0ZXh0LiBTZXQgVHJ1ZSBmb3IgdW5jYXNlZCBtb2RlbHMsIEZhbHNlIGZvciB0aGUgY2FzZWQgb25lcy4KZG9fbG93ZXJfY2FzZTogVHJ1ZQoKZml4X2N0eF9lbmNvZGVyOiBGYWxzZQp2YWxfYXZfcmFua19zdGFydF9lcG9jaDogMCAKc2VlZDogMTIzNDUKY2hlY2twb2ludF9maWxlX25hbWU6IGRwcl9iaWVuY29kZXIKCiMgQSB0cmFpbmVkIGJpLWVuY29kZXIgY2hlY2twb2ludCBmaWxlIHRvIGluaXRpYWxpemUgdGhlIG1vZGVsCm1vZGVsX2ZpbGU6CgojIFRPRE86IG1vdmUgdG8gYSBjb25mIGdyb3VwCiMgbG9jYWxfcmFuayBmb3IgZGlzdHJpYnV0ZWQgdHJhaW5pbmcgb24gZ3B1cwpsb2NhbF9yYW5rOiAtMQpnbG9iYWxfbG9zc19idWZfc3o6IDU5MjAwMApkZXZpY2U6CmRpc3RyaWJ1dGVkX3dvcmxkX3NpemU6CmRpc3RyaWJ1dGVkX3BvcnQ6Cm5vX2N1ZGE6IEZhbHNlCm5fZ3B1OgpmcDE2OiBGYWxzZQoKIyBGb3IgZnAxNjogQXBleCBBTVAgb3B0aW1pemF0aW9uIGxldmVsIHNlbGVjdGVkIGluIFsnTzAnLCAnTzEnLCAnTzInLCBhbmQgJ08zJ10uIgojICAgICAgICAiU2VlIGRldGFpbHMgYXQgaHR0cHM6Ly9udmlkaWEuZ2l0aHViLmlvL2FwZXgvYW1wLmh0bWwKZnAxNl9vcHRfbGV2ZWw6IE8xCgojIHRva2VucyB3aGljaCB3b24ndCBiZSBzcGxpdCBieSB0b2tlbml6ZXIKc3BlY2lhbF90b2tlbnM6CgppZ25vcmVfY2hlY2twb2ludF9vZmZzZXQ6IEZhbHNlCmlnbm9yZV9jaGVja3BvaW50X29wdGltaXplcjogRmFsc2UKCiMgc2V0IHRvID4xIHRvIGVuYWJsZSBtdWx0aXBsZSBxdWVyeSBlbmNvZGVycwptdWx0aV9xX2VuY29kZXI6IEZhbHNlCg==
+# configuration groups
+defaults:
+  - encoder: hf_bert
+  - train: biencoder_se2
+  - datasets: encoder_train_default
+
+loss_type: dpr
+
+train_datasets:
+dev_datasets:
+output_dir:
+train_sampling_rates:
+loss_scale_factors:
+
+# Whether to lower case the input text. Set True for uncased models, False for the cased ones.
+do_lower_case: True
+
+fix_ctx_encoder: False
+val_av_rank_start_epoch: 0 
+seed: 12345
+checkpoint_file_name: dpr_biencoder
+
+# A trained bi-encoder checkpoint file to initialize the model
+model_file:
+
+# TODO: move to a conf group
+# local_rank for distributed training on gpus
+local_rank: -1
+global_loss_buf_sz: 592000
+device:
+distributed_world_size:
+distributed_port:
+no_cuda: False
+n_gpu:
+fp16: False
+
+# For fp16: Apex AMP optimization level selected in ['O0', 'O1', 'O2', and 'O3']."
+#        "See details at https://nvidia.github.io/apex/amp.html
+fp16_opt_level: O1
+
+# tokens which won't be split by tokenizer
+special_tokens:
+
+ignore_checkpoint_offset: False
+ignore_checkpoint_optimizer: False
+
+# set to >1 to enable multiple query encoders
+multi_q_encoder: False

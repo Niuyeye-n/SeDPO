@@ -1,1 +1,96 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwojIENvcHlyaWdodCAoYykgRmFjZWJvb2ssIEluYy4gYW5kIGl0cyBhZmZpbGlhdGVzLgojIEFsbCByaWdodHMgcmVzZXJ2ZWQuCiMKIyBUaGlzIHNvdXJjZSBjb2RlIGlzIGxpY2Vuc2VkIHVuZGVyIHRoZSBsaWNlbnNlIGZvdW5kIGluIHRoZQojIExJQ0VOU0UgZmlsZSBpbiB0aGUgcm9vdCBkaXJlY3Rvcnkgb2YgdGhpcyBzb3VyY2UgdHJlZS4KCiIiIgpVdGlsaXRpZXMgZm9yIGRpc3RyaWJ1dGVkIG1vZGVsIHRyYWluaW5nCiIiIgoKaW1wb3J0IHBpY2tsZQoKaW1wb3J0IHRvcmNoCmltcG9ydCB0b3JjaC5kaXN0cmlidXRlZCBhcyBkaXN0CgoKZGVmIGdldF9yYW5rKCk6CiAgICByZXR1cm4gZGlzdC5nZXRfcmFuaygpCgoKZGVmIGdldF93b3JsZF9zaXplKCk6CiAgICByZXR1cm4gZGlzdC5nZXRfd29ybGRfc2l6ZSgpCgoKZGVmIGdldF9kZWZhdWx0X2dyb3VwKCk6CiAgICByZXR1cm4gZGlzdC5ncm91cC5XT1JMRAoKCmRlZiBhbGxfcmVkdWNlKHRlbnNvciwgZ3JvdXA9Tm9uZSk6CiAgICBpZiBncm91cCBpcyBOb25lOgogICAgICAgIGdyb3VwID0gZ2V0X2RlZmF1bHRfZ3JvdXAoKQogICAgcmV0dXJuIGRpc3QuYWxsX3JlZHVjZSh0ZW5zb3IsIGdyb3VwPWdyb3VwKQoKCmRlZiBhbGxfZ2F0aGVyX2xpc3QoZGF0YSwgZ3JvdXA9Tm9uZSwgbWF4X3NpemU9MTYzODQpOgogICAgIiIiR2F0aGVycyBhcmJpdHJhcnkgZGF0YSBmcm9tIGFsbCBub2RlcyBpbnRvIGEgbGlzdC4KICAgIFNpbWlsYXIgdG8gOmZ1bmM6YH50b3JjaC5kaXN0cmlidXRlZC5hbGxfZ2F0aGVyYCBidXQgZm9yIGFyYml0cmFyeSBQeXRob24KICAgIGRhdGEuIE5vdGUgdGhhdCAqZGF0YSogbXVzdCBiZSBwaWNrbGFibGUuCiAgICBBcmdzOgogICAgICAgIGRhdGEgKEFueSk6IGRhdGEgZnJvbSB0aGUgbG9jYWwgd29ya2VyIHRvIGJlIGdhdGhlcmVkIG9uIG90aGVyIHdvcmtlcnMKICAgICAgICBncm91cCAob3B0aW9uYWwpOiBncm91cCBvZiB0aGUgY29sbGVjdGl2ZQogICAgIiIiCiAgICBTSVpFX1NUT1JBR0VfQllURVMgPSA0ICAjIGludDMyIHRvIGVuY29kZSB0aGUgcGF5bG9hZCBzaXplCgogICAgZW5jID0gcGlja2xlLmR1bXBzKGRhdGEpCiAgICBlbmNfc2l6ZSA9IGxlbihlbmMpCgogICAgaWYgZW5jX3NpemUgKyBTSVpFX1NUT1JBR0VfQllURVMgPiBtYXhfc2l6ZToKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKAogICAgICAgICAgICAnZW5jb2RlZCBkYXRhIGV4Y2VlZHMgbWF4X3NpemUsIHRoaXMgY2FuIGJlIGZpeGVkIGJ5IGluY3JlYXNpbmcgYnVmZmVyIHNpemU6IHt9Jy5mb3JtYXQoZW5jX3NpemUpKQoKICAgIHJhbmsgPSBnZXRfcmFuaygpCiAgICB3b3JsZF9zaXplID0gZ2V0X3dvcmxkX3NpemUoKQogICAgYnVmZmVyX3NpemUgPSBtYXhfc2l6ZSAqIHdvcmxkX3NpemUKCiAgICBpZiBub3QgaGFzYXR0cihhbGxfZ2F0aGVyX2xpc3QsICdfYnVmZmVyJykgb3IgXAogICAgICAgICAgICBhbGxfZ2F0aGVyX2xpc3QuX2J1ZmZlci5udW1lbCgpIDwgYnVmZmVyX3NpemU6CiAgICAgICAgYWxsX2dhdGhlcl9saXN0Ll9idWZmZXIgPSB0b3JjaC5jdWRhLkJ5dGVUZW5zb3IoYnVmZmVyX3NpemUpCiAgICAgICAgYWxsX2dhdGhlcl9saXN0Ll9jcHVfYnVmZmVyID0gdG9yY2guQnl0ZVRlbnNvcihtYXhfc2l6ZSkucGluX21lbW9yeSgpCgogICAgYnVmZmVyID0gYWxsX2dhdGhlcl9saXN0Ll9idWZmZXIKICAgIGJ1ZmZlci56ZXJvXygpCiAgICBjcHVfYnVmZmVyID0gYWxsX2dhdGhlcl9saXN0Ll9jcHVfYnVmZmVyCgogICAgYXNzZXJ0IGVuY19zaXplIDwgMjU2ICoqIFNJWkVfU1RPUkFHRV9CWVRFUywgJ0VuY29kZWQgb2JqZWN0IHNpemUgc2hvdWxkIGJlIGxlc3MgdGhhbiB7fSBieXRlcycuZm9ybWF0KAogICAgICAgIDI1NiAqKiBTSVpFX1NUT1JBR0VfQllURVMpCgogICAgc2l6ZV9ieXRlcyA9IGVuY19zaXplLnRvX2J5dGVzKFNJWkVfU1RPUkFHRV9CWVRFUywgYnl0ZW9yZGVyPSdiaWcnKQoKICAgIGNwdV9idWZmZXJbMDpTSVpFX1NUT1JBR0VfQllURVNdID0gdG9yY2guQnl0ZVRlbnNvcihsaXN0KHNpemVfYnl0ZXMpKQogICAgY3B1X2J1ZmZlcltTSVpFX1NUT1JBR0VfQllURVM6IGVuY19zaXplICsgU0laRV9TVE9SQUdFX0JZVEVTXSA9IHRvcmNoLkJ5dGVUZW5zb3IobGlzdChlbmMpKQoKICAgIHN0YXJ0ID0gcmFuayAqIG1heF9zaXplCiAgICBzaXplID0gZW5jX3NpemUgKyBTSVpFX1NUT1JBR0VfQllURVMKICAgIGJ1ZmZlcltzdGFydDogc3RhcnQgKyBzaXplXS5jb3B5XyhjcHVfYnVmZmVyWzpzaXplXSkKCiAgICBhbGxfcmVkdWNlKGJ1ZmZlciwgZ3JvdXA9Z3JvdXApCgogICAgdHJ5OgogICAgICAgIHJlc3VsdCA9IFtdCiAgICAgICAgZm9yIGkgaW4gcmFuZ2Uod29ybGRfc2l6ZSk6CiAgICAgICAgICAgIG91dF9idWZmZXIgPSBidWZmZXJbaSAqIG1heF9zaXplOiAoaSArIDEpICogbWF4X3NpemVdCiAgICAgICAgICAgIHNpemUgPSBpbnQuZnJvbV9ieXRlcyhvdXRfYnVmZmVyWzA6U0laRV9TVE9SQUdFX0JZVEVTXSwgYnl0ZW9yZGVyPSdiaWcnKQogICAgICAgICAgICBpZiBzaXplID4gMDoKICAgICAgICAgICAgICAgIHJlc3VsdC5hcHBlbmQocGlja2xlLmxvYWRzKGJ5dGVzKG91dF9idWZmZXJbU0laRV9TVE9SQUdFX0JZVEVTOiBzaXplICsgU0laRV9TVE9SQUdFX0JZVEVTXS50b2xpc3QoKSkpKQogICAgICAgIHJldHVybiByZXN1bHQKICAgIGV4Y2VwdCBwaWNrbGUuVW5waWNrbGluZ0Vycm9yOgogICAgICAgIHJhaXNlIEV4Y2VwdGlvbigKICAgICAgICAgICAgJ1VuYWJsZSB0byB1bnBpY2tsZSBkYXRhIGZyb20gb3RoZXIgd29ya2Vycy4gYWxsX2dhdGhlcl9saXN0IHJlcXVpcmVzIGFsbCAnCiAgICAgICAgICAgICd3b3JrZXJzIHRvIGVudGVyIHRoZSBmdW5jdGlvbiB0b2dldGhlciwgc28gdGhpcyBlcnJvciB1c3VhbGx5IGluZGljYXRlcyAnCiAgICAgICAgICAgICd0aGF0IHRoZSB3b3JrZXJzIGhhdmUgZmFsbGVuIG91dCBvZiBzeW5jIHNvbWVob3cuIFdvcmtlcnMgY2FuIGZhbGwgb3V0IG9mICcKICAgICAgICAgICAgJ3N5bmMgaWYgb25lIG9mIHRoZW0gcnVucyBvdXQgb2YgbWVtb3J5LCBvciBpZiB0aGVyZSBhcmUgb3RoZXIgY29uZGl0aW9ucyAnCiAgICAgICAgICAgICdpbiB5b3VyIHRyYWluaW5nIHNjcmlwdCB0aGF0IGNhbiBjYXVzZSBvbmUgd29ya2VyIHRvIGZpbmlzaCBhbiBlcG9jaCAnCiAgICAgICAgICAgICd3aGlsZSBvdGhlciB3b3JrZXJzIGFyZSBzdGlsbCBpdGVyYXRpbmcgb3ZlciB0aGVpciBwb3J0aW9ucyBvZiB0aGUgZGF0YS4nCiAgICAgICAgKQo=
+#!/usr/bin/env python3
+# Copyright (c) Facebook, Inc. and its affiliates.
+# All rights reserved.
+#
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+
+"""
+Utilities for distributed model training
+"""
+
+import pickle
+
+import torch
+import torch.distributed as dist
+
+
+def get_rank():
+    return dist.get_rank()
+
+
+def get_world_size():
+    return dist.get_world_size()
+
+
+def get_default_group():
+    return dist.group.WORLD
+
+
+def all_reduce(tensor, group=None):
+    if group is None:
+        group = get_default_group()
+    return dist.all_reduce(tensor, group=group)
+
+
+def all_gather_list(data, group=None, max_size=16384):
+    """Gathers arbitrary data from all nodes into a list.
+    Similar to :func:`~torch.distributed.all_gather` but for arbitrary Python
+    data. Note that *data* must be picklable.
+    Args:
+        data (Any): data from the local worker to be gathered on other workers
+        group (optional): group of the collective
+    """
+    SIZE_STORAGE_BYTES = 4  # int32 to encode the payload size
+
+    enc = pickle.dumps(data)
+    enc_size = len(enc)
+
+    if enc_size + SIZE_STORAGE_BYTES > max_size:
+        raise ValueError(
+            'encoded data exceeds max_size, this can be fixed by increasing buffer size: {}'.format(enc_size))
+
+    rank = get_rank()
+    world_size = get_world_size()
+    buffer_size = max_size * world_size
+
+    if not hasattr(all_gather_list, '_buffer') or \
+            all_gather_list._buffer.numel() < buffer_size:
+        all_gather_list._buffer = torch.cuda.ByteTensor(buffer_size)
+        all_gather_list._cpu_buffer = torch.ByteTensor(max_size).pin_memory()
+
+    buffer = all_gather_list._buffer
+    buffer.zero_()
+    cpu_buffer = all_gather_list._cpu_buffer
+
+    assert enc_size < 256 ** SIZE_STORAGE_BYTES, 'Encoded object size should be less than {} bytes'.format(
+        256 ** SIZE_STORAGE_BYTES)
+
+    size_bytes = enc_size.to_bytes(SIZE_STORAGE_BYTES, byteorder='big')
+
+    cpu_buffer[0:SIZE_STORAGE_BYTES] = torch.ByteTensor(list(size_bytes))
+    cpu_buffer[SIZE_STORAGE_BYTES: enc_size + SIZE_STORAGE_BYTES] = torch.ByteTensor(list(enc))
+
+    start = rank * max_size
+    size = enc_size + SIZE_STORAGE_BYTES
+    buffer[start: start + size].copy_(cpu_buffer[:size])
+
+    all_reduce(buffer, group=group)
+
+    try:
+        result = []
+        for i in range(world_size):
+            out_buffer = buffer[i * max_size: (i + 1) * max_size]
+            size = int.from_bytes(out_buffer[0:SIZE_STORAGE_BYTES], byteorder='big')
+            if size > 0:
+                result.append(pickle.loads(bytes(out_buffer[SIZE_STORAGE_BYTES: size + SIZE_STORAGE_BYTES].tolist())))
+        return result
+    except pickle.UnpicklingError:
+        raise Exception(
+            'Unable to unpickle data from other workers. all_gather_list requires all '
+            'workers to enter the function together, so this error usually indicates '
+            'that the workers have fallen out of sync somehow. Workers can fall out of '
+            'sync if one of them runs out of memory, or if there are other conditions '
+            'in your training script that can cause one worker to finish an epoch '
+            'while other workers are still iterating over their portions of the data.'
+        )

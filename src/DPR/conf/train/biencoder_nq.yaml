@@ -1,1 +1,27 @@
-IyBAcGFja2FnZSBfZ3JvdXBfCgpiYXRjaF9zaXplOiAxNgpkZXZfYmF0Y2hfc2l6ZTogNjQKYWRhbV9lcHM6IDFlLTgKYWRhbV9iZXRhczogKDAuOSwgMC45OTkpCm1heF9ncmFkX25vcm06IDIuMApsb2dfYmF0Y2hfc3RlcDogMTAwCnRyYWluX3JvbGxpbmdfbG9zc19zdGVwOiAxMDAKd2VpZ2h0X2RlY2F5OiAwLjAKbGVhcm5pbmdfcmF0ZTogMmUtNQoKIyBMaW5lYXIgd2FybXVwIG92ZXIgd2FybXVwX3N0ZXBzLgp3YXJtdXBfc3RlcHM6IDEyMzcKCiMgTnVtYmVyIG9mIHVwZGF0ZXMgc3RlcHMgdG8gYWNjdW11bGF0ZSBiZWZvcmUgcGVyZm9ybWluZyBhIGJhY2t3YXJkL3VwZGF0ZSBwYXNzLgpncmFkaWVudF9hY2N1bXVsYXRpb25fc3RlcHM6IDEKCiMgVG90YWwgbnVtYmVyIG9mIHRyYWluaW5nIGVwb2NocyB0byBwZXJmb3JtLgpudW1fdHJhaW5fZXBvY2hzOiA0MApldmFsX3Blcl9lcG9jaDogMQpoYXJkX25lZ2F0aXZlczogMQpvdGhlcl9uZWdhdGl2ZXM6IDAKdmFsX2F2X3JhbmtfaGFyZF9uZWc6IDMwCnZhbF9hdl9yYW5rX290aGVyX25lZzogMzAKdmFsX2F2X3JhbmtfYnN6OiAxMjgKdmFsX2F2X3JhbmtfbWF4X3FzOiAxMDAwMA==
+# @package _group_
+
+batch_size: 16
+dev_batch_size: 64
+adam_eps: 1e-8
+adam_betas: (0.9, 0.999)
+max_grad_norm: 2.0
+log_batch_step: 100
+train_rolling_loss_step: 100
+weight_decay: 0.0
+learning_rate: 2e-5
+
+# Linear warmup over warmup_steps.
+warmup_steps: 1237
+
+# Number of updates steps to accumulate before performing a backward/update pass.
+gradient_accumulation_steps: 1
+
+# Total number of training epochs to perform.
+num_train_epochs: 40
+eval_per_epoch: 1
+hard_negatives: 1
+other_negatives: 0
+val_av_rank_hard_neg: 30
+val_av_rank_other_neg: 30
+val_av_rank_bsz: 128
+val_av_rank_max_qs: 10000

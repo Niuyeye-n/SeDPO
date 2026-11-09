@@ -1,1 +1,44 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0KIiIi5omT5Y2w5LiJ5Liq5pWw5o2u6ZuG55qE6KeE5qih5LiO57G75Yir5L+h5oGv77yM55So5LqO5a6e6aqM5oql5ZGKIiIiCmltcG9ydCBvcwppbXBvcnQgc3lzCgpSRVBPID0gIi9yb290L2F1dG9kbC10bXAvU2VEUE9fTklQUzI1IgpzeXMucGF0aC5pbnNlcnQoMCwgUkVQTykKb3MuY2hkaXIoUkVQTykKCmZyb20gRFBSLmRwci51dGlscy50YXNrcyBpbXBvcnQgdGFza19tYXAKClBPT0wgPSB7CiAgICAiYXJjX2MiOiAibXlfZGF0YV9xd2VuL3Byb21wdF9wb29sX3NlZHBvL2Nsb3NlX3FhL2FyY19jX3Byb21wdHMuanNvbiIsCiAgICAib3BlbmJvb2txYSI6ICJteV9kYXRhX3F3ZW4vcHJvbXB0X3Bvb2xfc2VkcG8vcmVhZGluZ19uZXcvb3BlbmJvb2txYV9wcm9tcHRzLmpzb24iLAogICAgIm11bHRpcmMiOiAibXlfZGF0YV9xd2VuL3Byb21wdF9wb29sX3NlZHBvL3JlYWRpbmdfbmV3L211bHRpcmNfcHJvbXB0cy5qc29uIiwKfQojIOWAmemAieaxoOiLpeS4jeWtmOWcqOWImemAgOWbnuS4u+axoApQT09MX0ZBTExCQUNLID0gewogICAgImFyY19jIjogIm15X2RhdGFfcXdlbi9wcm9tcHRfcG9vbC9jbG9zZV9xYS9hcmNfY19wcm9tcHRzLmpzb24iLAogICAgIm9wZW5ib29rcWEiOiAibXlfZGF0YV9xd2VuL3Byb21wdF9wb29sL3JlYWRpbmdfbmV3L29wZW5ib29rcWFfcHJvbXB0cy5qc29uIiwKICAgICJtdWx0aXJjIjogIm15X2RhdGFfcXdlbi9wcm9tcHRfcG9vbC9yZWFkaW5nX25ldy9tdWx0aXJjX3Byb21wdHMuanNvbiIsCn0KTF9CWV9UQVNLID0geyJhcmNfYyI6IDQwMCwgIm9wZW5ib29rcWEiOiAyMDAsICJtdWx0aXJjIjogNTB9Cgpmb3IgdCBpbiBbImFyY19jIiwgIm9wZW5ib29rcWEiLCAibXVsdGlyYyJdOgogICAgcCA9IG9zLnBhdGguam9pbihSRVBPLCBQT09MW3RdKQogICAgaWYgbm90IG9zLnBhdGguZXhpc3RzKHApOgogICAgICAgIHAgPSBvcy5wYXRoLmpvaW4oUkVQTywgUE9PTF9GQUxMQkFDS1t0XSkKICAgIGltcG9ydCBqc29uCiAgICBwb29sID0ganNvbi5sb2FkKG9wZW4ocCwgZW5jb2Rpbmc9InV0Zi04IikpCiAgICBjbHMgPSB0YXNrX21hcC5jbHNfZGljW3RdKCkKICAgICMg6K+E5rWL6ZuGCiAgICBkcyA9IGNscy5nZXRfZGF0YXNldChjYWNoZV9kaXI9b3MucGF0aC5qb2luKFJFUE8sICJjYWNoZSIpKQogICAgYW5zID0gY2xzLmdldF9hbnN3ZXJzKHsiYW5zd2VyS2V5IjogIkEiLCAiYW5zd2VycyI6IHsidGV4dCI6IFsieCJdfSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJjaG9pY2VzIjogeyJ0ZXh0IjogWyJhIiwgImIiLCAiYyIsICJkIl19LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImxhYmVsIjogMH0pIGlmIHQgPT0gImFyY19jIiBlbHNlIE5vbmUKICAgIHByaW50KGYiIyMjIHt0fSIpCiAgICBwcmludChmIiAg5YCZ6YCJ5rGgKHRyYWluKeadoeaVsCA6IHtsZW4ocG9vbCl9IikKICAgIHByaW50KGYiICDor4TmtYvpm4bmnaHmlbAgICAgICAgIDoge2xlbihkcyl9IikKICAgIHByaW50KGYiICBjbGFzc19udW0o6YCJ6aG55pWwKSA6IHtjbHMuY2xhc3NfbnVtfSIpCiAgICBwcmludChmIiAgbWV0cmljICAgICAgICAgICAgOiB7Y2xzLm1ldHJpY30iKQogICAgcHJpbnQoZiIgIGZpbmRlcl9MICAgICAgICAgIDoge0xfQllfVEFTS1t0XX0iKQogICAgcHJpbnQoZiIgIOWAmemAieaxoOmmluadoeekuuS+iyAgICA6IHtzdHIocG9vbFswXS5nZXQoJ3F1ZXN0aW9uJywgcG9vbFswXS5nZXQoJ2Nob2ljZXMnLCcnKSkpWzo5MF19IikKICAgIHByaW50KCkK
+# -*- coding: utf-8 -*-
+"""打印三个数据集的规模与类别信息，用于实验报告"""
+import os
+import sys
+
+REPO = "/root/autodl-tmp/SeDPO_NIPS25"
+sys.path.insert(0, REPO)
+os.chdir(REPO)
+
+from DPR.dpr.utils.tasks import task_map
+
+POOL = {
+    "arc_c": "my_data_qwen/prompt_pool_sedpo/close_qa/arc_c_prompts.json",
+    "openbookqa": "my_data_qwen/prompt_pool_sedpo/reading_new/openbookqa_prompts.json",
+    "multirc": "my_data_qwen/prompt_pool_sedpo/reading_new/multirc_prompts.json",
+}
+# 候选池若不存在则退回主池
+POOL_FALLBACK = {
+    "arc_c": "my_data_qwen/prompt_pool/close_qa/arc_c_prompts.json",
+    "openbookqa": "my_data_qwen/prompt_pool/reading_new/openbookqa_prompts.json",
+    "multirc": "my_data_qwen/prompt_pool/reading_new/multirc_prompts.json",
+}
+L_BY_TASK = {"arc_c": 400, "openbookqa": 200, "multirc": 50}
+
+for t in ["arc_c", "openbookqa", "multirc"]:
+    p = os.path.join(REPO, POOL[t])
+    if not os.path.exists(p):
+        p = os.path.join(REPO, POOL_FALLBACK[t])
+    import json
+    pool = json.load(open(p, encoding="utf-8"))
+    cls = task_map.cls_dic[t]()
+    # 评测集
+    ds = cls.get_dataset(cache_dir=os.path.join(REPO, "cache"))
+    ans = cls.get_answers({"answerKey": "A", "answers": {"text": ["x"]},
+                            "choices": {"text": ["a", "b", "c", "d"]},
+                            "label": 0}) if t == "arc_c" else None
+    print(f"### {t}")
+    print(f"  候选池(train)条数 : {len(pool)}")
+    print(f"  评测集条数        : {len(ds)}")
+    print(f"  class_num(选项数) : {cls.class_num}")
+    print(f"  metric            : {cls.metric}")
+    print(f"  finder_L          : {L_BY_TASK[t]}")
+    print(f"  候选池首条示例    : {str(pool[0].get('question', pool[0].get('choices','')))[:90]}")
+    print()

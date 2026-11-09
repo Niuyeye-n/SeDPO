@@ -1,1 +1,12 @@
-CgpjbGFzcyBBcHA6CiAgICBkZWYgX19pbml0X18oc2VsZik6CiAgICAgICAgc2VsZi5mdW5jdGlvbnMgPSB7fQogICAgZGVmIGFkZChzZWxmLCBrZXkpOgogICAgICAgIGRlZiBhZGRlcihmdW5jKToKICAgICAgICAgICAgc2VsZi5mdW5jdGlvbnNba2V5XSA9IGZ1bmMKICAgICAgICAgICAgcmV0dXJuIGZ1bmMKICAgICAgICByZXR1cm4gYWRkZXIKICAgIGRlZiBfX2dldGl0ZW1fXyhzZWxmLCBfX25hbWU6IHN0cikgOgogICAgICAgIHJldHVybiBzZWxmLmZ1bmN0aW9uc1tfX25hbWVdCg==
+
+
+class App:
+    def __init__(self):
+        self.functions = {}
+    def add(self, key):
+        def adder(func):
+            self.functions[key] = func
+            return func
+        return adder
+    def __getitem__(self, __name: str) :
+        return self.functions[__name]

@@ -1,1 +1,55 @@
-aW1wb3J0IGpzb24KaW1wb3J0IG9zCmltcG9ydCBzeXMKClJFUE8gPSAiL3Jvb3QvYXV0b2RsLXRtcC9TZURQT19OSVBTMjUiCnN5cy5wYXRoLmluc2VydCgwLCBSRVBPKQpmcm9tIHNyYy51dGlscy5tZXRyaWMgaW1wb3J0IGNvbXB1dGVfc2NvcmVzICAjIG5vcWE6IEU0MDIKCgpkZWYgbG9hZF9jb25jYXQocGF0aCk6CiAgICAiIiLmlofku7bph4zlj6/og73mi7zmjqXkuoblpJrkuKogSlNPTiDlgLzvvIjmr4/kuKrmmK/kuIDmibnmlbDmja7vvInvvIzlhajpg6jop6PmnpDlubblsZXlubPjgIIiIiIKICAgIHJhdyA9IG9wZW4ocGF0aCwgZW5jb2Rpbmc9InV0Zi04IikucmVhZCgpCiAgICBkZWMgPSBqc29uLkpTT05EZWNvZGVyKCkKICAgIGksIGNodW5rcyA9IDAsIDAKICAgIG91dCA9IFtdCiAgICBuID0gbGVuKHJhdykKICAgIHdoaWxlIGkgPCBuOgogICAgICAgIHdoaWxlIGkgPCBuIGFuZCByYXdbaV0gaW4gIiBcclxuXHQiOgogICAgICAgICAgICBpICs9IDEKICAgICAgICBpZiBpID49IG46CiAgICAgICAgICAgIGJyZWFrCiAgICAgICAgb2JqLCBlbmQgPSBkZWMucmF3X2RlY29kZShyYXcsIGkpCiAgICAgICAgY2h1bmtzICs9IDEKICAgICAgICBzdGFjayA9IFtvYmpdCiAgICAgICAgd2hpbGUgc3RhY2s6CiAgICAgICAgICAgIHggPSBzdGFjay5wb3AoKQogICAgICAgICAgICBpZiBpc2luc3RhbmNlKHgsIGxpc3QpOgogICAgICAgICAgICAgICAgc3RhY2suZXh0ZW5kKHgpCiAgICAgICAgICAgIGVsaWYgaXNpbnN0YW5jZSh4LCBkaWN0KToKICAgICAgICAgICAgICAgIG91dC5hcHBlbmQoeCkKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIHBhc3MKICAgICAgICBpID0gZW5kCiAgICByZXR1cm4gb3V0LCBjaHVua3MKCgpmb3IgdGFnIGluICgibGxhbWEiLCAicXdlbiIpOgogICAgcCA9IGYie1JFUE99L215X2RhdGFfcXdlbi9leHBlcmltZW50X3NlZHBvX3t0YWd9L3JlYWRpbmdfbmV3L3ByZWRzX2Zvcl9yZWFkaW5nX25ldy9tdWx0aXJjX3Byb21wdHMzX3JldHJpZXZlcnNlMl9wcmVkc18wLmpzb24iCiAgICBwcmludCgiPSIgKiA3MCkKICAgIHByaW50KHRhZywgIm11bHRpcmMiLCBvcy5wYXRoLmdldHNpemUocCksICJieXRlcyIpCiAgICBpdGVtcywgY2h1bmtzID0gbG9hZF9jb25jYXQocCkKICAgIHByaW50KCIgIEpTT04g5q615pWwOiIsIGNodW5rcywgIiDlsZXlubPlkI7mnaHnm646IiwgbGVuKGl0ZW1zKSkKICAgIGlmIGl0ZW1zOgogICAgICAgIHByaW50KCIgIOWtl+autToiLCBsaXN0KGl0ZW1zWzBdLmtleXMoKSkpCiAgICAgICAgbnBfc2V0ID0gc29ydGVkKHtzdHIoeC5nZXQoIm5fcHJvbXB0cyIpKSBmb3IgeCBpbiBpdGVtc30pCiAgICAgICAgcHJpbnQoIiAgbl9wcm9tcHRzIOWPluWAvDoiLCBucF9zZXRbOjEwXSkKICAgICAgICBwcmludCgiICBsYWJlbCDliIbluIM6Iiwge2s6IHN1bSgxIGZvciB4IGluIGl0ZW1zIGlmIHguZ2V0KCJsYWJlbCIpID09IGspIGZvciBrIGluIHt4LmdldCgibGFiZWwiKSBmb3IgeCBpbiBpdGVtc319KQogICAgICAgIHByaW50KCIgIHByZWQg5YiG5biDOiIsIHtrOiBzdW0oMSBmb3IgeCBpbiBpdGVtcyBpZiB4LmdldCgicHJlZCIpID09IGspIGZvciBrIGluIHt4LmdldCgicHJlZCIpIGZvciB4IGluIGl0ZW1zfX0pCiAgICAgICAgcHJpbnQoIiAgc2NvcmVzOiIsIGNvbXB1dGVfc2NvcmVzKCJzaW1wbGVfYWNjdXJhY3kiLCBpdGVtcykpCgojIOWPguiAg++8muato+W4uOagvOW8j+eahCBhcmNfYyBwcmVkcwpwID0gZiJ7UkVQT30vbXlfZGF0YV9xd2VuL2V4cGVyaW1lbnRfc2VkcG9fbGxhbWEvY2xvc2VfcWEvcHJlZHNfZm9yX2Nsb3NlX3FhL2FyY19jX3Byb21wdHMzX3JldHJpZXZlcnNlMl9wcmVkc18wLmpzb24iCmQgPSBqc29uLmxvYWQob3BlbihwKSkKcHJpbnQoIj0iICogNzApCnByaW50KCLlr7nnhacgYXJjX2M6IOadoeebriIsIGxlbihkKSwgIm5fcHJvbXB0cyIsIGRbMF0uZ2V0KCJuX3Byb21wdHMiKSkK
+import json
+import os
+import sys
+
+REPO = "/root/autodl-tmp/SeDPO_NIPS25"
+sys.path.insert(0, REPO)
+from src.utils.metric import compute_scores  # noqa: E402
+
+
+def load_concat(path):
+    """文件里可能拼接了多个 JSON 值（每个是一批数据），全部解析并展平。"""
+    raw = open(path, encoding="utf-8").read()
+    dec = json.JSONDecoder()
+    i, chunks = 0, 0
+    out = []
+    n = len(raw)
+    while i < n:
+        while i < n and raw[i] in " \r\n\t":
+            i += 1
+        if i >= n:
+            break
+        obj, end = dec.raw_decode(raw, i)
+        chunks += 1
+        stack = [obj]
+        while stack:
+            x = stack.pop()
+            if isinstance(x, list):
+                stack.extend(x)
+            elif isinstance(x, dict):
+                out.append(x)
+            else:
+                pass
+        i = end
+    return out, chunks
+
+
+for tag in ("llama", "qwen"):
+    p = f"{REPO}/my_data_qwen/experiment_sedpo_{tag}/reading_new/preds_for_reading_new/multirc_prompts3_retrieverse2_preds_0.json"
+    print("=" * 70)
+    print(tag, "multirc", os.path.getsize(p), "bytes")
+    items, chunks = load_concat(p)
+    print("  JSON 段数:", chunks, " 展平后条目:", len(items))
+    if items:
+        print("  字段:", list(items[0].keys()))
+        np_set = sorted({str(x.get("n_prompts")) for x in items})
+        print("  n_prompts 取值:", np_set[:10])
+        print("  label 分布:", {k: sum(1 for x in items if x.get("label") == k) for k in {x.get("label") for x in items}})
+        print("  pred 分布:", {k: sum(1 for x in items if x.get("pred") == k) for k in {x.get("pred") for x in items}})
+        print("  scores:", compute_scores("simple_accuracy", items))
+
+# 参考：正常格式的 arc_c preds
+p = f"{REPO}/my_data_qwen/experiment_sedpo_llama/close_qa/preds_for_close_qa/arc_c_prompts3_retrieverse2_preds_0.json"
+d = json.load(open(p))
+print("=" * 70)
+print("对照 arc_c: 条目", len(d), "n_prompts", d[0].get("n_prompts"))

@@ -1,1 +1,63 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uCiMgLSotIGNvZGluZzogdXRmLTggLSotCiIiIumqjOivgeair+W6puajgOafpeeCueihpeS4ge+8muWxnuaAp+mTvuaYr+WQpuWRveS4rSArIENQVSDkuIrliY3lkJEv5Y+N5ZCR5piv5ZCm5q2j5bi444CCCgrlnKggQ1BVIOS4iui3keWwj+WwuuWvuO+8iGJhdGNoIDQsIHNlcSA2NO+8ie+8jOS4jeWNoOeUqOato+WcqOWBmuaJk+WIhueahCBHUFXjgIIKIiIiCmltcG9ydCBzeXMKCmltcG9ydCB0b3JjaAoKc3lzLnBhdGguaW5zZXJ0KDAsICIvcm9vdC9hdXRvZGwtdG1wL1NlRFBPX05JUFMyNSIpCnN5cy5wYXRoLmluc2VydCgwLCAiL3Jvb3QvYXV0b2RsLXRtcC9TZURQT19OSVBTMjUvRFBSIikKCmZyb20gZHByLm1vZGVscy5iaWVuY29kZXIgaW1wb3J0IEJpRW5jb2RlciAgIyBub3FhOiBFNDAyCmZyb20gZHByLm1vZGVscy5oZl9tb2RlbHMgaW1wb3J0IEhGQmVydEVuY29kZXIgICMgbm9xYTogRTQwMgpmcm9tIERQUi50cmFpbl9kZW5zZV9lbmNvZGVyIGltcG9ydCBfZW5hYmxlX2dyYWRfY2twdCAgIyBub3FhOiBFNDAyCgpNT0RFTCA9ICIvcm9vdC9hdXRvZGwtdG1wL21vZGVscy9iZXJ0LWJhc2UtdW5jYXNlZCIKCgpkZWYgbWFpbigpOgogICAgcSA9IEhGQmVydEVuY29kZXIuaW5pdF9lbmNvZGVyKE1PREVMKQogICAgYyA9IEhGQmVydEVuY29kZXIuaW5pdF9lbmNvZGVyKE1PREVMKQogICAgYmUgPSBCaUVuY29kZXIocSwgYykKICAgIGJlLnRyYWluKCkKCiAgICBwcmludCgicXVlc3Rpb25fbW9kZWwg57G75Z6LOiIsIHR5cGUoYmUucXVlc3Rpb25fbW9kZWwpLl9fbmFtZV9fKQogICAgcHJpbnQoImN0eF9tb2RlbCDnsbvlnos6IiwgdHlwZShiZS5jdHhfbW9kZWwpLl9fbmFtZV9fKQoKICAgIG4gPSBfZW5hYmxlX2dyYWRfY2twdChiZSkKICAgIHByaW50KCLlkK/nlKjnvJbnoIHlmajmlbA6IiwgbikKICAgICMg5qCH5b+X5a6e6ZmF5oyC5Zyo5YaF5bGCIEJlcnRFbmNvZGVyIOS4igogICAgZm9yIG5tIGluICgicXVlc3Rpb25fbW9kZWwiLCAiY3R4X21vZGVsIik6CiAgICAgICAgbSA9IGdldGF0dHIoYmUsIG5tKQogICAgICAgIHByaW50KCIlcy5lbmNvZGVyLmdyYWRpZW50X2NoZWNrcG9pbnRpbmcgPSAlcyIKICAgICAgICAgICAgICAlIChubSwgZ2V0YXR0cihnZXRhdHRyKG0sICJlbmNvZGVyIiwgTm9uZSksICJncmFkaWVudF9jaGVja3BvaW50aW5nIiwgIk4vQSIpKSkKCiAgICBpZiBuICE9IDI6CiAgICAgICAgcHJpbnQoIltGQUlMXSDlsZ7mgKfpk77msqHlkb3kuK3vvIzooaXkuIHml6DmlYgiKQogICAgICAgIHJldHVybiAxCgogICAgYiwgTCA9IDQsIDY0CiAgICBpZHMgPSB0b3JjaC5yYW5kaW50KDAsIDIwMDAsIChiLCBMKSkKICAgIHNlZyA9IHRvcmNoLnplcm9zX2xpa2UoaWRzKQogICAgbWFzayA9IHRvcmNoLm9uZXNfbGlrZShpZHMpCgogICAgcV92ZWMsIGN0eF92ZWMgPSBiZShpZHMsIHNlZywgbWFzaywgaWRzLCBzZWcsIG1hc2ssICJxdWVyeSIpCiAgICBsb3NzID0gcV92ZWMuc3VtKCkgKyBjdHhfdmVjLnN1bSgpCiAgICBsb3NzLmJhY2t3YXJkKCkKCiAgICBncmFkcyA9IHN1bSgxIGZvciBwIGluIGJlLnBhcmFtZXRlcnMoKSBpZiBwLmdyYWQgaXMgbm90IE5vbmUgYW5kIHAuZ3JhZC5hYnMoKS5zdW0oKSA+IDApCiAgICBwcmludCgi5pyJ5qKv5bqm55qE5Y+C5pWw5byg6YeP5pWwOiIsIGdyYWRzKQogICAgcHJpbnQoImxvc3MgPSIsIGZsb2F0KGxvc3MpKQogICAgaWYgZ3JhZHMgPT0gMDoKICAgICAgICBwcmludCgiW0ZBSUxdIOWPjeWQkeayoeacieair+W6pu+8jOair+W6puajgOafpeeCueegtOWdj+S6huiuoeeul+WbviIpCiAgICAgICAgcmV0dXJuIDEKCiAgICBwcmludCgiW09LXSDmoq/luqbmo4Dmn6Xngrnlj6/nlKjvvIzliY3lkJEv5Y+N5ZCR5q2j5bi4IikKICAgIHJldHVybiAwCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIHN5cy5leGl0KG1haW4oKSkK
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""验证梯度检查点补丁：属性链是否命中 + CPU 上前向/反向是否正常。
+
+在 CPU 上跑小尺寸（batch 4, seq 64），不占用正在做打分的 GPU。
+"""
+import sys
+
+import torch
+
+sys.path.insert(0, "/root/autodl-tmp/SeDPO_NIPS25")
+sys.path.insert(0, "/root/autodl-tmp/SeDPO_NIPS25/DPR")
+
+from dpr.models.biencoder import BiEncoder  # noqa: E402
+from dpr.models.hf_models import HFBertEncoder  # noqa: E402
+from DPR.train_dense_encoder import _enable_grad_ckpt  # noqa: E402
+
+MODEL = "/root/autodl-tmp/models/bert-base-uncased"
+
+
+def main():
+    q = HFBertEncoder.init_encoder(MODEL)
+    c = HFBertEncoder.init_encoder(MODEL)
+    be = BiEncoder(q, c)
+    be.train()
+
+    print("question_model 类型:", type(be.question_model).__name__)
+    print("ctx_model 类型:", type(be.ctx_model).__name__)
+
+    n = _enable_grad_ckpt(be)
+    print("启用编码器数:", n)
+    # 标志实际挂在内层 BertEncoder 上
+    for nm in ("question_model", "ctx_model"):
+        m = getattr(be, nm)
+        print("%s.encoder.gradient_checkpointing = %s"
+              % (nm, getattr(getattr(m, "encoder", None), "gradient_checkpointing", "N/A")))
+
+    if n != 2:
+        print("[FAIL] 属性链没命中，补丁无效")
+        return 1
+
+    b, L = 4, 64
+    ids = torch.randint(0, 2000, (b, L))
+    seg = torch.zeros_like(ids)
+    mask = torch.ones_like(ids)
+
+    q_vec, ctx_vec = be(ids, seg, mask, ids, seg, mask, "query")
+    loss = q_vec.sum() + ctx_vec.sum()
+    loss.backward()
+
+    grads = sum(1 for p in be.parameters() if p.grad is not None and p.grad.abs().sum() > 0)
+    print("有梯度的参数张量数:", grads)
+    print("loss =", float(loss))
+    if grads == 0:
+        print("[FAIL] 反向没有梯度，梯度检查点破坏了计算图")
+        return 1
+
+    print("[OK] 梯度检查点可用，前向/反向正常")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

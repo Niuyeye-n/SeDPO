@@ -1,1 +1,24 @@
-IyEvYmluL2Jhc2gKY2QgL3Jvb3QvYXV0b2RsLXRtcC9TZURQT19OSVBTMjUKZWNobyAiPT09PT0gQS4gZ2xvYiDpobrluo8gKOWGs+WumiBwb29sIOaLvOaOpemhuuW6jykgPT09PT0iCi9yb290L2F1dG9kbC10bXAvZW52cy9zZV9kcG8vYmluL3B5dGhvbiAtIDw8J1BZJwppbXBvcnQgZ2xvYgpmb3IgY2x1c3RlciBpbiBbImNsb3NlX3FhIiwicmVhZGluZ19uZXciXToKICAgIHByaW50KGNsdXN0ZXIsICItPiIsIGdsb2IuZ2xvYihmIi9yb290L2F1dG9kbC10bXAvU2VEUE9fTklQUzI1L215X2RhdGFfcXdlbi9wcm9tcHRfcG9vbC97Y2x1c3Rlcn0vKiIpKQpQWQplY2hvICI9PT09PSBCLiDkvp3otZblj6/nlKjmgKcgPT09PT0iCi9yb290L2F1dG9kbC10bXAvZW52cy9zZV9kcG8vYmluL3B5dGhvbiAtYyAiCmltcG9ydCBpbXBvcnRsaWIKZm9yIG0gaW4gWydmYWlzcycsJ3JhbmtfYm0yNScsJ3NlbnRlbmNlX3RyYW5zZm9ybWVycycsJ2RhdGFzZXRzJywndHJhbnNmb3JtZXJzJywnc2tsZWFybiddOgogICAgdHJ5OgogICAgICAgIGltcG9ydGxpYi5pbXBvcnRfbW9kdWxlKG0pOyBwcmludCgnT0sgICcsbSkKICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZTogcHJpbnQoJ01JU1MnLG0sdHlwZShlKS5fX25hbWVfXykKIgplY2hvICI9PT09PSBDLiDmqKHlnovnm67lvZUgPT09PT0iCmxzIC9yb290L2F1dG9kbC10bXAvbW9kZWxzLwplY2hvICI9PT09PSBELiDlhoXlrZgvQ1BVID09PT09IgpmcmVlIC1nIHwgaGVhZCAtMgpucHJvYwplY2hvICI9PT09PSBFLiDmmK/lkKbmnIkgc2JhcnQvbXBuZXQg57yT5a2YID09PT09IgpscyAvcm9vdC9hdXRvZGwtdG1wL1NlRFBPX05JUFMyNS9jYWNoZS8gMj4vZGV2L251bGwgfCBoZWFkIC0yMApmaW5kIC9yb290IC1tYXhkZXB0aCA2IC1pbmFtZSAiKm1wbmV0KiIgMj4vZGV2L251bGwgfCBoZWFkIC01Cg==
+#!/bin/bash
+cd /root/autodl-tmp/SeDPO_NIPS25
+echo "===== A. glob 顺序 (决定 pool 拼接顺序) ====="
+/root/autodl-tmp/envs/se_dpo/bin/python - <<'PY'
+import glob
+for cluster in ["close_qa","reading_new"]:
+    print(cluster, "->", glob.glob(f"/root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/prompt_pool/{cluster}/*"))
+PY
+echo "===== B. 依赖可用性 ====="
+/root/autodl-tmp/envs/se_dpo/bin/python -c "
+import importlib
+for m in ['faiss','rank_bm25','sentence_transformers','datasets','transformers','sklearn']:
+    try:
+        importlib.import_module(m); print('OK  ',m)
+    except Exception as e: print('MISS',m,type(e).__name__)
+"
+echo "===== C. 模型目录 ====="
+ls /root/autodl-tmp/models/
+echo "===== D. 内存/CPU ====="
+free -g | head -2
+nproc
+echo "===== E. 是否有 sbart/mpnet 缓存 ====="
+ls /root/autodl-tmp/SeDPO_NIPS25/cache/ 2>/dev/null | head -20
+find /root -maxdepth 6 -iname "*mpnet*" 2>/dev/null | head -5

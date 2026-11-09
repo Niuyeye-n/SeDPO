@@ -1,1 +1,38 @@
-IyEvYmluL2Jhc2gKIyDlr7nmiYDmnInliIbniYfvvIjlkKsgcXdlbiDnmoQgcGFydDAg5Ymv5pys77yJ5YGa56qX5Y+j5omr5o+P77yM5qCH5a6a5pyJ5pWI5YmN57yA44CCCnNldCAtdQpMT0c9L3Jvb3QvYXV0b2RsLXRtcC9zY2FuX2FsbC5sb2cKOiA+ICRMT0cKUFk9L3Jvb3QvbWluaWNvbmRhMy9iaW4vcHl0aG9uClNDQU49L3Jvb3QvYXV0b2RsLXRtcC9zY2FuX3ByZWZpeC5weQoKcnVuX29uZSgpIHsKICBSRVBPPSIkMSI7IEY9IiQyIjsgVEFHPSIkMyIKICBlY2hvICIjIyMgJFRBRyAkRiIgPj4gJExPRwogICRQWSAkU0NBTiAtLXJlcG8gIiRSRVBPIiAtLWZpbGUgIiRGIiAtLXdpbmRvdy1tYiAxNiAtLXdvcmtlcnMgNCA+PiAkTE9HIDI+JjEKfQoKTEw9Tm91c1Jlc2VhcmNoL01ldGEtTGxhbWEtMy04QgpRVz1Rd2VuL1F3ZW4yLjUtN0IKTERJUj0vcm9vdC9hdXRvZGwtdG1wL21vZGVscy9sbGFtYTMtOGIKUURJUj0vcm9vdC9hdXRvZGwtdG1wL21vZGVscy9xd2VuMi41LTdiCgojIOmYtuautTHvvJpsbGFtYSA0IOS4quWIhueJh++8iOmhuuW6j++8jOeos+Wmpe+8iQpmb3IgaSBpbiAxIDIgMyA0OyBkbwogIGY9JChwcmludGYgIm1vZGVsLSUwNWQtb2YtMDAwMDQuc2FmZXRlbnNvcnMiICRpKQogIHJ1bl9vbmUgIiRMTCIgIiRMRElSLyRmIiAibGxhbWEiCmRvbmUKCiMg6Zi25q61Mu+8mnF3ZW4g5Li75YiG54mHCmZvciBpIGluIDEgMiAzIDQ7IGRvCiAgZj0kKHByaW50ZiAibW9kZWwtJTA1ZC1vZi0wMDAwNC5zYWZldGVuc29ycyIgJGkpCiAgcnVuX29uZSAiJFFXIiAiJFFESVIvJGYiICJxd2VuIgpkb25lCgojIOmYtuautTPvvJpxd2VuIHBhcnQwIOWJr+acrApmb3IgaSBpbiAxIDIgMyA0OyBkbwogIGY9JChwcmludGYgIm1vZGVsLSUwNWQtb2YtMDAwMDQuc2FmZXRlbnNvcnMucGFydDAiICRpKQogIFsgLWYgIiRRRElSLyRmIiBdICYmIHJ1bl9vbmUgIiRRVyIgIiRRRElSLyRmIiAicXdlbi1wYXJ0MCIKZG9uZQoKZWNobyAiU0NBTl9BTExfRE9ORSIgPj4gJExPRwo=
+#!/bin/bash
+# 对所有分片（含 qwen 的 part0 副本）做窗口扫描，标定有效前缀。
+set -u
+LOG=/root/autodl-tmp/scan_all.log
+: > $LOG
+PY=/root/miniconda3/bin/python
+SCAN=/root/autodl-tmp/scan_prefix.py
+
+run_one() {
+  REPO="$1"; F="$2"; TAG="$3"
+  echo "### $TAG $F" >> $LOG
+  $PY $SCAN --repo "$REPO" --file "$F" --window-mb 16 --workers 4 >> $LOG 2>&1
+}
+
+LL=NousResearch/Meta-Llama-3-8B
+QW=Qwen/Qwen2.5-7B
+LDIR=/root/autodl-tmp/models/llama3-8b
+QDIR=/root/autodl-tmp/models/qwen2.5-7b
+
+# 阶段1：llama 4 个分片（顺序，稳妥）
+for i in 1 2 3 4; do
+  f=$(printf "model-%05d-of-00004.safetensors" $i)
+  run_one "$LL" "$LDIR/$f" "llama"
+done
+
+# 阶段2：qwen 主分片
+for i in 1 2 3 4; do
+  f=$(printf "model-%05d-of-00004.safetensors" $i)
+  run_one "$QW" "$QDIR/$f" "qwen"
+done
+
+# 阶段3：qwen part0 副本
+for i in 1 2 3 4; do
+  f=$(printf "model-%05d-of-00004.safetensors.part0" $i)
+  [ -f "$QDIR/$f" ] && run_one "$QW" "$QDIR/$f" "qwen-part0"
+done
+
+echo "SCAN_ALL_DONE" >> $LOG

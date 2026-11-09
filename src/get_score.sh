@@ -1,1 +1,5 @@
-c2V0IC1lCnRhc2tfbmFtZT0kMQpleHBvcnQgSFlEUkFfRlVMTF9FUlJPUj0xCnNoIG15X2RhdGEvZXhwZXJpbWVudC8ke3Rhc2tfbmFtZX0vc2NvcmUuc2gKCg==
+set -e
+task_name=$1
+export HYDRA_FULL_ERROR=1
+sh my_data/experiment/${task_name}/score.sh
+

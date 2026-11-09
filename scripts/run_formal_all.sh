@@ -1,1 +1,204 @@
-IyEvYmluL2Jhc2gKIyDmraPlvI/lrp7pqozmgLvnvJbmjpLvvJrkuInkuKrmlbDmja7pm4Ygw5cg5Lik5Liq5qih5Z6LIMOXICjln7rnur8gemVyb3Nob3QgKyDln7rnur8gcmFuZG9tMyArIFNlRFBPKQojCiMg6KeE5qih6K+05piO77yIMjAyNi0xMS0wNe+8jOWunua1i+WQjuehruWumu+8ie+8mgojICAg5a6e5rWL5omT5YiG6YCf5bqmIDE5LjQg5a6e5L6LL3PvvIg3QiBmcDE2LCBSVFg0MDkwLCBiYXRjaF9zaXplPTHvvIkKIyAgIOWunua1i+aOqOeQhumAn+W6piA0Ljg1IOagt+acrC9z77yI5L+u5aSNIGRldmljZV9tYXA9ImF1dG8iIOWvvOiHtOeahCBDUFUgb2ZmbG9hZCDlkI7vvIkKIyAgIOWunua1i+iuree7g+mAn+W6piBic3o9OCDml7YgODEg5qC35pysIMOXIDYgZXBvY2ggPSA3IOenkgojICAg5YWo6YeP6KeE5qih77yI5YCZ6YCJ5rGg5YWo6YePIMOXIOiuuuaWhyBM77yJ6ZyAIDE2NiDlsI/ml7Yg4omrIDEyIOWwj+aXtumihOeulyDihpIg5b+F6aG76ZmN6KeE5qihCiMKIyDpmY3op4TmqKHmlrnlvI/vvJoqKuWAmemAieaxoOS/neaMgeWFqOmHj+S4jeWPmO+8jOWPqumZkOWItuOAjOiiq+aJk+WIhueahCBxdWVyeSDmlbDjgI1uX3Njb3JlKioKIyAgIC0g5YCZ6YCJ5rGgID0gcHJvbXB0X3Bvb2wgPSDmo4DntKLor63mlpnvvIzkuI7ln7rnur8gcmFuZG9tMyDnmoTmir3moLfmnaXmupDlrozlhajkuIDoh7Qg4oaSIOWvueeFp+WFrOW5swojICAgLSBuX3Njb3JlID0g6KKr5omT5YiG55qEIHF1ZXJ5IOaVsO+8jOebtOaOpeWGs+WumuaJk+WIhuW8gOmUgAojICAgLSBMID0gZmluZGVyX0wg5L+d5oyB6K665paH5Y6f5YC877yM5L+d6K+B5o6S5bqP5L+h5Y+35by65bqm5LiN6ZmNCiMKIyDnlKjms5U6IGJhc2ggL3Jvb3QvYXV0b2RsLXRtcC9ydW5fZm9ybWFsX2FsbC5zaApzZXQgLXUKClJFUE89L3Jvb3QvYXV0b2RsLXRtcC9TZURQT19OSVBTMjUKUkVTVUxUUz0kUkVQTy9yZXN1bHRzX25ld190YXNrc18yMDI2MTEwNQpta2RpciAtcCAkUkVTVUxUUwoKIyAtLS0tIOinhOaooeWPguaVsO+8iOWunua1i+WQjumAieWumu+8iS0tLS0KIyBuX3Njb3Jl77ya5q+P5Liq5pWw5o2u6ZuG6KKr5omT5YiG55qEIHF1ZXJ5IOaVsO+8m+WAmemAieaxoOWni+e7iOWFqOmHjwpOU19BUkM9MTUwCk5TX09CUT0xNTAKTlNfTVVMPTE1MAojIEzvvJpmaW5kZXJfTO+8jOayv+eUqOiuuuaWhy/lrpjmlrnljp/lgLzvvIhhcmNfYz00MDAsIG9wZW5ib29rcWE9MjAwLCBtdWx0aXJjPTUw77yJCkxfQVJDPTQwMApMX09CUT0yMDAKTF9NVUw9NTAKIyDorq3nu4MgYmF0Y2ggc2l6Ze+8iGJzej04IOWuieWFqO+8jGJzej0xNiDkvJogT09N77yJClRSQUlOX0JTWj04CgpRV0VOPS9yb290L2F1dG9kbC10bXAvbW9kZWxzL3F3ZW4yLjUtN2IKTExBTUE9L3Jvb3QvYXV0b2RsLXRtcC9tb2RlbHMvbGxhbWEzLThiCgplY2hvICIjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMiCmVjaG8gIiMg5q2j5byP5a6e6aqM5byA5aeLICQoZGF0ZSArJVktJW0tJWRfJUg6JU06JVMpIgplY2hvICIjIOinhOaooTogbl9zY29yZShhcmNfYz0kTlNfQVJDLCBvYnFhPSROU19PQlEsIG11bD0kTlNfTVVMKSAgTChhcmNfYz0kTF9BUkMsIG9icWE9JExfT0JRLCBtdWw9JExfTVVMKSIKZWNobyAiIyDlgJnpgInmsaDlhajph4/kuI3lj5jvvIhhcmNfYz0xMTE3LCBvYnFhPTQ5NTcsIG11bD0xMDAwMO+8ie+8jOS/neivgeS4juWfuue6v+WvueeFp+WFrOW5syIKZWNobyAiIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIgoKcnVuX2NsdXN0ZXIoKSB7CiAgICBNT0RFTF9UQUc9JDEKICAgIE1PREVMX1BBVEg9JDIKICAgIENMVVNURVI9JDMKCiAgICBlY2hvICIiCiAgICBlY2hvICI9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09IgogICAgZWNobyAiWyQoZGF0ZSArJUg6JU06JVMpXSDpm4bnvqQ9JENMVVNURVIg5qih5Z6LPSRNT0RFTF9UQUciCiAgICBlY2hvICI9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09IgoKICAgICMg55Sf5oiQ6K+l5qih5Z6L5LiT5bGe6ISa5pys77yI6ZqU56a75LiN5ZCM5qih5Z6L55qE5Lit6Ze05Lqn54mp77yJCiAgICAvcm9vdC9taW5pY29uZGEzL2Jpbi9weXRob24gL3Jvb3QvYXV0b2RsLXRtcC9nZW5fZm9ybWFsLnB5IFwKICAgICAgICAtLW1vZGVsX3RhZyAiJE1PREVMX1RBRyIgLS1tb2RlbF9wYXRoICIkTU9ERUxfUEFUSCIgLS1jbHVzdGVyICIkQ0xVU1RFUiIgXAogICAgICAgIC0tbnNfYXJjICROU19BUkMgLS1uc19vYnEgJE5TX09CUSAtLW5zX211bCAkTlNfTVVMCgogICAgRVhQPSRSRVBPL215X2RhdGFfcXdlbi9leHBlcmltZW50XyR7TU9ERUxfVEFHfS8kQ0xVU1RFUgogICAgVFM9JChkYXRlICslWSVtJWRfJUglTSVTKQogICAgTE9HRElSPSRSRVNVTFRTL2xvZ3MvJHtDTFVTVEVSfV8ke01PREVMX1RBR31fJHtUU30KICAgIG1rZGlyIC1wICRMT0dESVIKCiAgICBjYXNlICRDTFVTVEVSIGluCiAgICAgICAgY2xvc2VfcWEpICAgIFRBU0tTPSJhcmNfYyIgOzsKICAgICAgICByZWFkaW5nX25ldykgVEFTS1M9Im9wZW5ib29rcWEgbXVsdGlyYyIgOzsKICAgIGVzYWMKCiAgICBzb3VyY2UgL3Jvb3QvbWluaWNvbmRhMy9ldGMvcHJvZmlsZS5kL2NvbmRhLnNoCiAgICBjb25kYSBhY3RpdmF0ZSAvcm9vdC9hdXRvZGwtdG1wL2VudnMvc2VfZHBvCiAgICBleHBvcnQgUFlUSE9OUEFUSD0kUkVQTzoke1BZVEhPTlBBVEg6LX0KICAgIGV4cG9ydCBIWURSQV9GVUxMX0VSUk9SPTEKICAgIGV4cG9ydCBUT0tFTklaRVJTX1BBUkFMTEVMSVNNPWZhbHNlCiAgICBleHBvcnQgUFlUT1JDSF9DVURBX0FMTE9DX0NPTkY9ZXhwYW5kYWJsZV9zZWdtZW50czpUcnVlCiAgICBleHBvcnQgSUZfUFJFRkVSX0xPU1M9MgogICAgZXhwb3J0IFBFRlRfQkVUQT0wLjEKICAgIGV4cG9ydCBESVZfUkVKRUNUPTEKCiAgICAjIC0tLS0g5Z+657q/IC0tLS0KICAgIGZvciBUQVNLIGluICRUQVNLUzsgZG8KICAgICAgICBmb3IgTU9ERSBpbiB6ZXJvc2hvdCByYW5kb20zOyBkbwogICAgICAgICAgICBlY2hvICJbJChkYXRlICslSDolTTolUyldICAg5Z+657q/ICRUQVNLIC8gJE1PREUiCiAgICAgICAgICAgIFQwPSQoZGF0ZSArJXMpCiAgICAgICAgICAgIGJhc2ggL3Jvb3QvYXV0b2RsLXRtcC9ydW5fYmFzZWxpbmUuc2ggJFRBU0sgJE1PREVMX1BBVEggJE1PREUgJE1PREVMX1RBRyBcCiAgICAgICAgICAgICAgICA+ICRMT0dESVIvYmFzZWxpbmVfJHtUQVNLfV8ke01PREV9LmxvZyAyPiYxCiAgICAgICAgICAgIFJDPSQ/CiAgICAgICAgICAgIFQxPSQoZGF0ZSArJXMpCiAgICAgICAgICAgIGVjaG8gIlskKGRhdGUgKyVIOiVNOiVTKV0gICDihpIgcmM9JFJDIOiAl+aXtiAkKChUMS1UMCkpIOenkiIKICAgICAgICAgICAgaWYgWyAkUkMgLW5lIDAgXTsgdGhlbgogICAgICAgICAgICAgICAgZWNobyAiW+mUmeivr10g5Z+657q/ICRUQVNLLyRNT0RFIOWksei0pe+8jOingSAkTE9HRElSL2Jhc2VsaW5lXyR7VEFTS31fJHtNT0RFfS5sb2ciCiAgICAgICAgICAgICAgICB0YWlsIC0yMCAkTE9HRElSL2Jhc2VsaW5lXyR7VEFTS31fJHtNT0RFfS5sb2cgfCB0ciAiXHIiICJcbiIgfCB0YWlsIC0xMAogICAgICAgICAgICBmaQogICAgICAgIGRvbmUKICAgIGRvbmUKCiAgICAjIC0tLS0gU2VEUE86IHNjb3JlIOKGkiB0cmFpbiDihpIgaW5mZXIgLS0tLQogICAgZWNobyAiWyQoZGF0ZSArJUg6JU06JVMpXSAgIFNlRFBPIHNjb3JlIgogICAgIyDph43or5UgMyDmrKHvvJpzY29yZXIg6Ieq5bimIGJ1ZmZlciDmlq3ngrnnu63kvKDvvIgqLmpzb250bXBfY3VkYS5iaW7vvInvvIwKICAgICMg6KKr5Lit5pat5ZCO6YeN6LeR5Lya5LuO5bey5a6M5oiQ5aSE57un57ut77yM5LiN5Lya5rWq6LS55bey5omT55qE5YiG44CCCiAgICBTQ09SRV9SQz0xCiAgICBmb3IgdHJ5IGluIDEgMiAzOyBkbwogICAgICAgIFQwPSQoZGF0ZSArJXMpCiAgICAgICAgKCBjZCAkUkVQTyAmJiBiYXNoICRFWFAvc2NvcmUuc2ggKSA+PiAkTE9HRElSL3NlZHBvX3Njb3JlLmxvZyAyPiYxCiAgICAgICAgU0NPUkVfUkM9JD8KICAgICAgICBUMT0kKGRhdGUgKyVzKQogICAgICAgIFNDT1JFX1NFQz0kKChUMS1UMCkpCiAgICAgICAgZWNobyAiWyQoZGF0ZSArJUg6JU06JVMpXSAgIOKGkiBzY29yZSByYz0kU0NPUkVfUkMg6ICX5pe2ICRTQ09SRV9TRUMg56eS77yI56ysICR0cnkg5qyh5bCd6K+V77yJIgogICAgICAgIFsgJFNDT1JFX1JDIC1lcSAwIF0gJiYgYnJlYWsKICAgICAgICBlY2hvICJbJChkYXRlICslSDolTTolUyldICAgc2NvcmUg5pyq5oiQ5Yqf77yMMTAg56eS5ZCO57ut6LeR77yI5Y+v5LuOIGJ1ZmZlciDmlq3ngrnnu63kvKDvvIkiCiAgICAgICAgc2xlZXAgMTAKICAgIGRvbmUKICAgIGlmIFsgJFNDT1JFX1JDIC1uZSAwIF07IHRoZW4KICAgICAgICBlY2hvICJb6ZSZ6K+vXSBzY29yZSDkuInmrKHlsJ3or5XlnYflpLHotKXvvIzop4EgJExPR0RJUi9zZWRwb19zY29yZS5sb2ciCiAgICAgICAgdGFpbCAtMjUgJExPR0RJUi9zZWRwb19zY29yZS5sb2cgfCB0ciAiXHIiICJcbiIgfCB0YWlsIC0xMgogICAgICAgIHJldHVybiAxCiAgICBmaQoKICAgICMg6K6t57uDIGJhdGNoIHNpemUg6LCD5LyY77yIYnN6PTgg5a6J5YWo77ybYnN6PTEg5oWiIDIzIOWAje+8iQogICAgc2VkIC1pICJzL3RyYWluLmJhdGNoX3NpemU9MSAvdHJhaW4uYmF0Y2hfc2l6ZT0kVFJBSU5fQlNaIC8iICRFWFAvdHJhaW4uc2gKCiAgICBlY2hvICJbJChkYXRlICslSDolTTolUyldICAgU2VEUE8gdHJhaW4iCiAgICBUMD0kKGRhdGUgKyVzKQogICAgKCBjZCAkUkVQTyAmJiBiYXNoICRFWFAvdHJhaW4uc2ggKSA+ICRMT0dESVIvc2VkcG9fdHJhaW4ubG9nIDI+JjEKICAgIFJDPSQ/CiAgICBUMT0kKGRhdGUgKyVzKQogICAgVFJBSU5fU0VDPSQoKFQxLVQwKSkKICAgIGVjaG8gIlskKGRhdGUgKyVIOiVNOiVTKV0gICDihpIgcmM9JFJDIOiAl+aXtiAkVFJBSU5fU0VDIOenkiIKICAgIGlmIFsgJFJDIC1uZSAwIF07IHRoZW4KICAgICAgICBlY2hvICJb6ZSZ6K+vXSB0cmFpbiDlpLHotKXvvIzop4EgJExPR0RJUi9zZWRwb190cmFpbi5sb2ciCiAgICAgICAgdGFpbCAtMjUgJExPR0RJUi9zZWRwb190cmFpbi5sb2cgfCB0ciAiXHIiICJcbiIgfCB0YWlsIC0xMgogICAgICAgIHJldHVybiAxCiAgICBmaQoKICAgIGVjaG8gIlskKGRhdGUgKyVIOiVNOiVTKV0gICBTZURQTyBpbmZlciIKICAgIFQwPSQoZGF0ZSArJXMpCiAgICAoIGNkICRSRVBPICYmIGJhc2ggJEVYUC9pbmZlci5zaCApID4gJExPR0RJUi9zZWRwb19pbmZlci5sb2cgMj4mMQogICAgUkM9JD8KICAgIFQxPSQoZGF0ZSArJXMpCiAgICBJTkZFUl9TRUM9JCgoVDEtVDApKQogICAgZWNobyAiWyQoZGF0ZSArJUg6JU06JVMpXSAgIOKGkiByYz0kUkMg6ICX5pe2ICRJTkZFUl9TRUMg56eSIgogICAgaWYgWyAkUkMgLW5lIDAgXTsgdGhlbgogICAgICAgIGVjaG8gIlvplJnor69dIGluZmVyIOWksei0pe+8jOingSAkTE9HRElSL3NlZHBvX2luZmVyLmxvZyIKICAgICAgICB0YWlsIC0yNSAkTE9HRElSL3NlZHBvX2luZmVyLmxvZyB8IHRyICJcciIgIlxuIiB8IHRhaWwgLTEyCiAgICAgICAgcmV0dXJuIDEKICAgIGZpCgogICAgIyAtLS0tIOaMh+aghyAtLS0tCiAgICBmb3IgVEFTSyBpbiAkVEFTS1M7IGRvCiAgICAgICAgT1VURD0kUkVTVUxUUy8ke1RBU0t9XyR7TU9ERUxfVEFHfQogICAgICAgIG1rZGlyIC1wICRPVVRECiAgICAgICAgcHl0aG9uICRSRVBPLzIwMjYxMTA1X2NvbXB1dGVfbWV0cmljcy5weSBcCiAgICAgICAgICAgIC0tcHJlZHMgJFJFUE8vbXlfZGF0YV9xd2VuL2Jhc2VsaW5lXyR7TU9ERUxfVEFHfS8ke1RBU0t9X3plcm9zaG90LyR7VEFTS31femVyb3Nob3RfcHJlZHMuanNvbiBcCiAgICAgICAgICAgIC0tdGFzayAkVEFTSyAtLW91dF9qc29uICRPVVREL21ldHJpY3NfemVyb3Nob3QuanNvbiAtLW91dF90ZXh0ICRPVVREL21ldHJpY3NfemVyb3Nob3QudHh0IDI+JjEgfCB0YWlsIC0zCiAgICAgICAgcHl0aG9uICRSRVBPLzIwMjYxMTA1X2NvbXB1dGVfbWV0cmljcy5weSBcCiAgICAgICAgICAgIC0tcHJlZHMgJFJFUE8vbXlfZGF0YV9xd2VuL2Jhc2VsaW5lXyR7TU9ERUxfVEFHfS8ke1RBU0t9X3JhbmRvbTMvJHtUQVNLfV9yYW5kb20zX3ByZWRzLmpzb24gXAogICAgICAgICAgICAtLXRhc2sgJFRBU0sgLS1vdXRfanNvbiAkT1VURC9tZXRyaWNzX3JhbmRvbTMuanNvbiAtLW91dF90ZXh0ICRPVVREL21ldHJpY3NfcmFuZG9tMy50eHQgMj4mMSB8IHRhaWwgLTMKICAgICAgICBTUD0kKGxzICRFWFAvcHJlZHNfZm9yXyovJHtUQVNLfV9wcm9tcHRzM19yZXRyaWV2ZXJzZTJfcHJlZHNfMC5qc29uIDI+L2Rldi9udWxsIHwgaGVhZCAtMSkKICAgICAgICBpZiBbIC1uICIkU1AiIF07IHRoZW4KICAgICAgICAgICAgcHl0aG9uICRSRVBPLzIwMjYxMTA1X2NvbXB1dGVfbWV0cmljcy5weSBcCiAgICAgICAgICAgICAgICAtLXByZWRzICRTUCAtLXRhc2sgJFRBU0sgLS1vdXRfanNvbiAkT1VURC9tZXRyaWNzX3NlZHBvLmpzb24gLS1vdXRfdGV4dCAkT1VURC9tZXRyaWNzX3NlZHBvLnR4dCAyPiYxIHwgdGFpbCAtMwogICAgICAgIGZpCgogICAgICAgIFsgLWYgJEVYUC90cmFpbl9kZW5zZV9lbmNvZGVyLmxvZyBdICYmIGNwICRFWFAvdHJhaW5fZGVuc2VfZW5jb2Rlci5sb2cgJE9VVEQvCiAgICAgICAgZmluZCAkRVhQIC1uYW1lICJldmFsX3JlcyoudHh0IiAtZXhlYyBjcCB7fSAkT1VURC8gXDsgMj4vZGV2L251bGwgfHwgdHJ1ZQogICAgICAgIGZvciBwIGluICRTUCAkUkVQTy9teV9kYXRhX3F3ZW4vYmFzZWxpbmVfJHtNT0RFTF9UQUd9LyR7VEFTS31femVyb3Nob3QvJHtUQVNLfV96ZXJvc2hvdF9wcmVkcy5qc29uIFwKICAgICAgICAgICAgICAgICAkUkVQTy9teV9kYXRhX3F3ZW4vYmFzZWxpbmVfJHtNT0RFTF9UQUd9LyR7VEFTS31fcmFuZG9tMy8ke1RBU0t9X3JhbmRvbTNfcHJlZHMuanNvbjsgZG8KICAgICAgICAgICAgWyAtZiAiJHAiIF0gJiYgY3AgIiRwIiAkT1VURC8gMj4vZGV2L251bGwgfHwgdHJ1ZQogICAgICAgIGRvbmUKICAgICAgICBjcCAkTE9HRElSLyoubG9nICRPVVRELyAyPi9kZXYvbnVsbCB8fCB0cnVlCgogICAgICAgIGNhdCA+ICRPVVREL3J1bnRpbWVfJHtDTFVTVEVSfS5qc29uIDw8RU9GCnsKICAidGFzayI6ICIkVEFTSyIsCiAgIm1vZGVsX3RhZyI6ICIkTU9ERUxfVEFHIiwKICAiY2x1c3RlciI6ICIkQ0xVU1RFUiIsCiAgIm5fc2NvcmUiOiAiJCggWyAiJFRBU0siID0gYXJjX2MgXSAmJiBlY2hvICROU19BUkMgfHwgeyBbICIkVEFTSyIgPSBvcGVuYm9va3FhIF0gJiYgZWNobyAkTlNfT0JRIHx8IGVjaG8gJE5TX01VTDsgfSApIiwKICAiZmluZGVyX0wiOiAiJCggWyAiJFRBU0siID0gYXJjX2MgXSAmJiBlY2hvIDQwMCB8fCB7IFsgIiRUQVNLIiA9IG9wZW5ib29rcWEgXSAmJiBlY2hvIDIwMCB8fCBlY2hvIDUwOyB9ICkiLAogICJwb29sX3NpemVfZnVsbCI6IHRydWUsCiAgInNlZHBvX3Njb3JlX3NlYyI6ICRTQ09SRV9TRUMsCiAgInNlZHBvX3RyYWluX3NlYyI6ICRUUkFJTl9TRUMsCiAgInNlZHBvX2luZmVyX3NlYyI6ICRJTkZFUl9TRUMsCiAgImNsdXN0ZXJfdG90YWxfc2VjIjogJCgoU0NPUkVfU0VDICsgVFJBSU5fU0VDICsgSU5GRVJfU0VDKSksCiAgImxvZ19kaXIiOiAiJExPR0RJUiIKfQpFT0YKICAgICAgICBlY2hvICItLS0gJFRBU0sgLyAkTU9ERUxfVEFHIOaMh+aghyAtLS0iCiAgICAgICAgZm9yIG0gaW4gemVyb3Nob3QgcmFuZG9tMyBzZWRwbzsgZG8KICAgICAgICAgICAgWyAtZiAkT1VURC9tZXRyaWNzXyRtLnR4dCBdICYmIGVjaG8gIlskbV0gJChoZWFkIC1jIDMwMCAkT1VURC9tZXRyaWNzXyRtLnR4dCB8IHRyICdcbicgJyAnKSIKICAgICAgICBkb25lCiAgICBkb25lCiAgICBlY2hvICJbJChkYXRlICslSDolTTolUyldIOmbhue+pCAkQ0xVU1RFUiDDlyAkTU9ERUxfVEFHIOWujOaIkCIKfQoKIyA9PT09PT09PT09PT0g5omn6KGM6aG65bqP77yaQVJDLUMg4oaSIE9wZW5Cb29rUkMvTXVsdGlSQ++8jOS4pOaooeWei+S6pOabvyA9PT09PT09PT09PT0KIyDlhYggQVJDLUMg5omT6YCa5YWo6ZO+6Lev77yI5pyA5bCP5pWw5o2u6ZuG77yJ77yM5YaNIHJlYWRpbmdfbmV3IOmbhue+pO+8iOWQq+S4pOaVsOaNrumbhu+8iQoKcnVuX2NsdXN0ZXIgcXdlbiAgJFFXRU4gIGNsb3NlX3FhCnJ1bl9jbHVzdGVyIGxsYW1hICRMTEFNQSBjbG9zZV9xYQpydW5fY2x1c3RlciBxd2VuICAkUVdFTiAgcmVhZGluZ19uZXcKcnVuX2NsdXN0ZXIgbGxhbWEgJExMQU1BIHJlYWRpbmdfbmV3CgplY2hvICIiCmVjaG8gIiMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyIKZWNobyAiIyDmraPlvI/lrp7pqozlhajpg6jnu5PmnZ8gJChkYXRlICslWS0lbS0lZF8lSDolTTolUykiCmVjaG8gIiMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyIK
+#!/bin/bash
+# 正式实验总编排：三个数据集 × 两个模型 × (基线 zeroshot + 基线 random3 + SeDPO)
+#
+# 规模说明（2026-11-05，实测后确定）：
+#   实测打分速度 19.4 实例/s（7B fp16, RTX4090, batch_size=1）
+#   实测推理速度 4.85 样本/s（修复 device_map="auto" 导致的 CPU offload 后）
+#   实测训练速度 bsz=8 时 81 样本 × 6 epoch = 7 秒
+#   全量规模（候选池全量 × 论文 L）需 166 小时 ≫ 12 小时预算 → 必须降规模
+#
+# 降规模方式：**候选池保持全量不变，只限制「被打分的 query 数」n_score**
+#   - 候选池 = prompt_pool = 检索语料，与基线 random3 的抽样来源完全一致 → 对照公平
+#   - n_score = 被打分的 query 数，直接决定打分开销
+#   - L = finder_L 保持论文原值，保证排序信号强度不降
+#
+# 用法: bash /root/autodl-tmp/run_formal_all.sh
+set -u
+
+REPO=/root/autodl-tmp/SeDPO_NIPS25
+RESULTS=$REPO/results_new_tasks_20261105
+mkdir -p $RESULTS
+
+# ---- 规模参数（实测后选定）----
+# n_score：每个数据集被打分的 query 数；候选池始终全量
+NS_ARC=150
+NS_OBQ=150
+NS_MUL=150
+# L：finder_L，沿用论文/官方原值（arc_c=400, openbookqa=200, multirc=50）
+L_ARC=400
+L_OBQ=200
+L_MUL=50
+# 训练 batch size（bsz=8 安全，bsz=16 会 OOM）
+TRAIN_BSZ=8
+
+QWEN=/root/autodl-tmp/models/qwen2.5-7b
+LLAMA=/root/autodl-tmp/models/llama3-8b
+
+echo "############################################################"
+echo "# 正式实验开始 $(date +%Y-%m-%d_%H:%M:%S)"
+echo "# 规模: n_score(arc_c=$NS_ARC, obqa=$NS_OBQ, mul=$NS_MUL)  L(arc_c=$L_ARC, obqa=$L_OBQ, mul=$L_MUL)"
+echo "# 候选池全量不变（arc_c=1117, obqa=4957, mul=10000），保证与基线对照公平"
+echo "############################################################"
+
+run_cluster() {
+    MODEL_TAG=$1
+    MODEL_PATH=$2
+    CLUSTER=$3
+
+    echo ""
+    echo "================================================================"
+    echo "[$(date +%H:%M:%S)] 集群=$CLUSTER 模型=$MODEL_TAG"
+    echo "================================================================"
+
+    # 生成该模型专属脚本（隔离不同模型的中间产物）
+    /root/miniconda3/bin/python /root/autodl-tmp/gen_formal.py \
+        --model_tag "$MODEL_TAG" --model_path "$MODEL_PATH" --cluster "$CLUSTER" \
+        --ns_arc $NS_ARC --ns_obq $NS_OBQ --ns_mul $NS_MUL
+
+    EXP=$REPO/my_data_qwen/experiment_${MODEL_TAG}/$CLUSTER
+    TS=$(date +%Y%m%d_%H%M%S)
+    LOGDIR=$RESULTS/logs/${CLUSTER}_${MODEL_TAG}_${TS}
+    mkdir -p $LOGDIR
+
+    case $CLUSTER in
+        close_qa)    TASKS="arc_c" ;;
+        reading_new) TASKS="openbookqa multirc" ;;
+    esac
+
+    source /root/miniconda3/etc/profile.d/conda.sh
+    conda activate /root/autodl-tmp/envs/se_dpo
+    export PYTHONPATH=$REPO:${PYTHONPATH:-}
+    export HYDRA_FULL_ERROR=1
+    export TOKENIZERS_PARALLELISM=false
+    export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
+    export IF_PREFER_LOSS=2
+    export PEFT_BETA=0.1
+    export DIV_REJECT=1
+
+    # ---- 基线 ----
+    for TASK in $TASKS; do
+        for MODE in zeroshot random3; do
+            echo "[$(date +%H:%M:%S)]   基线 $TASK / $MODE"
+            T0=$(date +%s)
+            bash /root/autodl-tmp/run_baseline.sh $TASK $MODEL_PATH $MODE $MODEL_TAG \
+                > $LOGDIR/baseline_${TASK}_${MODE}.log 2>&1
+            RC=$?
+            T1=$(date +%s)
+            echo "[$(date +%H:%M:%S)]   → rc=$RC 耗时 $((T1-T0)) 秒"
+            if [ $RC -ne 0 ]; then
+                echo "[错误] 基线 $TASK/$MODE 失败，见 $LOGDIR/baseline_${TASK}_${MODE}.log"
+                tail -20 $LOGDIR/baseline_${TASK}_${MODE}.log | tr "\r" "\n" | tail -10
+            fi
+        done
+    done
+
+    # ---- SeDPO: score → train → infer ----
+    echo "[$(date +%H:%M:%S)]   SeDPO score"
+    # 重试 3 次：scorer 自带 buffer 断点续传（*.jsontmp_cuda.bin），
+    # 被中断后重跑会从已完成处继续，不会浪费已打的分。
+    SCORE_RC=1
+    for try in 1 2 3; do
+        T0=$(date +%s)
+        ( cd $REPO && bash $EXP/score.sh ) >> $LOGDIR/sedpo_score.log 2>&1
+        SCORE_RC=$?
+        T1=$(date +%s)
+        SCORE_SEC=$((T1-T0))
+        echo "[$(date +%H:%M:%S)]   → score rc=$SCORE_RC 耗时 $SCORE_SEC 秒（第 $try 次尝试）"
+        [ $SCORE_RC -eq 0 ] && break
+        echo "[$(date +%H:%M:%S)]   score 未成功，10 秒后续跑（可从 buffer 断点续传）"
+        sleep 10
+    done
+    if [ $SCORE_RC -ne 0 ]; then
+        echo "[错误] score 三次尝试均失败，见 $LOGDIR/sedpo_score.log"
+        tail -25 $LOGDIR/sedpo_score.log | tr "\r" "\n" | tail -12
+        return 1
+    fi
+
+    # 训练 batch size 调优（bsz=8 安全；bsz=1 慢 23 倍）
+    sed -i "s/train.batch_size=1 /train.batch_size=$TRAIN_BSZ /" $EXP/train.sh
+
+    echo "[$(date +%H:%M:%S)]   SeDPO train"
+    T0=$(date +%s)
+    ( cd $REPO && bash $EXP/train.sh ) > $LOGDIR/sedpo_train.log 2>&1
+    RC=$?
+    T1=$(date +%s)
+    TRAIN_SEC=$((T1-T0))
+    echo "[$(date +%H:%M:%S)]   → rc=$RC 耗时 $TRAIN_SEC 秒"
+    if [ $RC -ne 0 ]; then
+        echo "[错误] train 失败，见 $LOGDIR/sedpo_train.log"
+        tail -25 $LOGDIR/sedpo_train.log | tr "\r" "\n" | tail -12
+        return 1
+    fi
+
+    echo "[$(date +%H:%M:%S)]   SeDPO infer"
+    T0=$(date +%s)
+    ( cd $REPO && bash $EXP/infer.sh ) > $LOGDIR/sedpo_infer.log 2>&1
+    RC=$?
+    T1=$(date +%s)
+    INFER_SEC=$((T1-T0))
+    echo "[$(date +%H:%M:%S)]   → rc=$RC 耗时 $INFER_SEC 秒"
+    if [ $RC -ne 0 ]; then
+        echo "[错误] infer 失败，见 $LOGDIR/sedpo_infer.log"
+        tail -25 $LOGDIR/sedpo_infer.log | tr "\r" "\n" | tail -12
+        return 1
+    fi
+
+    # ---- 指标 ----
+    for TASK in $TASKS; do
+        OUTD=$RESULTS/${TASK}_${MODEL_TAG}
+        mkdir -p $OUTD
+        python $REPO/20261105_compute_metrics.py \
+            --preds $REPO/my_data_qwen/baseline_${MODEL_TAG}/${TASK}_zeroshot/${TASK}_zeroshot_preds.json \
+            --task $TASK --out_json $OUTD/metrics_zeroshot.json --out_text $OUTD/metrics_zeroshot.txt 2>&1 | tail -3
+        python $REPO/20261105_compute_metrics.py \
+            --preds $REPO/my_data_qwen/baseline_${MODEL_TAG}/${TASK}_random3/${TASK}_random3_preds.json \
+            --task $TASK --out_json $OUTD/metrics_random3.json --out_text $OUTD/metrics_random3.txt 2>&1 | tail -3
+        SP=$(ls $EXP/preds_for_*/${TASK}_prompts3_retrieverse2_preds_0.json 2>/dev/null | head -1)
+        if [ -n "$SP" ]; then
+            python $REPO/20261105_compute_metrics.py \
+                --preds $SP --task $TASK --out_json $OUTD/metrics_sedpo.json --out_text $OUTD/metrics_sedpo.txt 2>&1 | tail -3
+        fi
+
+        [ -f $EXP/train_dense_encoder.log ] && cp $EXP/train_dense_encoder.log $OUTD/
+        find $EXP -name "eval_res*.txt" -exec cp {} $OUTD/ \; 2>/dev/null || true
+        for p in $SP $REPO/my_data_qwen/baseline_${MODEL_TAG}/${TASK}_zeroshot/${TASK}_zeroshot_preds.json \
+                 $REPO/my_data_qwen/baseline_${MODEL_TAG}/${TASK}_random3/${TASK}_random3_preds.json; do
+            [ -f "$p" ] && cp "$p" $OUTD/ 2>/dev/null || true
+        done
+        cp $LOGDIR/*.log $OUTD/ 2>/dev/null || true
+
+        cat > $OUTD/runtime_${CLUSTER}.json <<EOF
+{
+  "task": "$TASK",
+  "model_tag": "$MODEL_TAG",
+  "cluster": "$CLUSTER",
+  "n_score": "$( [ "$TASK" = arc_c ] && echo $NS_ARC || { [ "$TASK" = openbookqa ] && echo $NS_OBQ || echo $NS_MUL; } )",
+  "finder_L": "$( [ "$TASK" = arc_c ] && echo 400 || { [ "$TASK" = openbookqa ] && echo 200 || echo 50; } )",
+  "pool_size_full": true,
+  "sedpo_score_sec": $SCORE_SEC,
+  "sedpo_train_sec": $TRAIN_SEC,
+  "sedpo_infer_sec": $INFER_SEC,
+  "cluster_total_sec": $((SCORE_SEC + TRAIN_SEC + INFER_SEC)),
+  "log_dir": "$LOGDIR"
+}
+EOF
+        echo "--- $TASK / $MODEL_TAG 指标 ---"
+        for m in zeroshot random3 sedpo; do
+            [ -f $OUTD/metrics_$m.txt ] && echo "[$m] $(head -c 300 $OUTD/metrics_$m.txt | tr '\n' ' ')"
+        done
+    done
+    echo "[$(date +%H:%M:%S)] 集群 $CLUSTER × $MODEL_TAG 完成"
+}
+
+# ============ 执行顺序：ARC-C → OpenBookRC/MultiRC，两模型交替 ============
+# 先 ARC-C 打通全链路（最小数据集），再 reading_new 集群（含两数据集）
+
+run_cluster qwen  $QWEN  close_qa
+run_cluster llama $LLAMA close_qa
+run_cluster qwen  $QWEN  reading_new
+run_cluster llama $LLAMA reading_new
+
+echo ""
+echo "############################################################"
+echo "# 正式实验全部结束 $(date +%Y-%m-%d_%H:%M:%S)"
+echo "############################################################"

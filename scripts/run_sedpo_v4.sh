@@ -1,1 +1,248 @@
-IyEvYmluL2Jhc2gKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQojIFNlRFBPIOato+W8j+WunumqjOaAu+e8luaOkiB2M++8iDIwMjYtMTEtMDXvvIkKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQojIOiMg+WbtO+8muWPquWBmuiuuuaWh+aWueazlSBTZURQT++8iOeUqOaItyAyMDI2LTExLTA1IOaYjuehruaMh+ekuu+8ie+8jOS4jei3keiuuuaWh+WFtuS7luaWueazleOAggojICAg5L+d55WZIHplcm9zaG90IC8gcmFuZG9tMyDkuKTkuKrlt7LlrozmiJDnmoTln7rnur/nu5PmnpzkvZzlj4LogIPvvIhydW5zX2xvZy5jc3Yg5bey6K6w5b2V5a6e5rWL5YC877yJ44CCCiMKIyDkuI7ml6nmnJ/niYjmnKznmoTlt67lvILvvIjmnKzniYjmmK/kv67lpI0gKyDmlL7lpKflkI7nmoTmnIDnu4jniYjvvInvvJoKIyAgIFsxXSA0IOS4que8uumZt+W3suS/ruWkje+8iEYxIEzmiKrmlq0gLyBGMiBpZOmUmemFjSAvIEYzIFJhbmRvbeWQjOenjeWtkCAvIEY0IOaJk+WIhuaYvuWtmO+8iQojICAgWzJdIOaJk+WIhiBiYXRjaF9zaXplIDUg4oaSIDEy77yIRjRiIOaYvuWtmOS8mOWMluWQjuWunua1i+WPr+WIsCAxNu+8iQojICAgWzNdIG5fc2NvcmUg5LuOIDE1MCDihpIgNjAw77yI55yB5LiL6LeR5YW25LuW5pa55rOV55qE566X5Yqb5YWo6YOo5oqV5YWlIFNlRFBPIOiHqui6q+inhOaooe+8iQojICAgWzRdIOWAmemAieaxoOWni+e7iOWFqOmHj++8mmFyY19jPTExMTcgLyBvcGVuYm9va3FhPTQ5NTcgLyBtdWx0aXJjPTEwMDAwCiMgICBbNV0gTCDkv53mjIHorrrmlofljp/lgLzvvJphcmNfYz00MDAgLyBvcGVuYm9va3FhPTIwMCAvIG11bHRpcmM9NTAKIyAgIFs2XSDlpI3nlKggbXlfZGF0YV9xd2VuL2ZpbmRfcmFuZG9tX3NlZHBvX3t0YWd9LyDlt7LmnInkuqfnianvvIhzY29yZXIg5Lya6Lez6L+H5bey5a6M5oiQ5q2l6aqk77yJCiMgICBbN10g5LiN5L2/55SoIHdhdGNoZG9nIOiHquWKqOmHjeWQr++8iOmBv+WFjeaXp+mFjee9ruWkjea0u++8ie+8m+ejgeebmOa4heeQhuS6pOe7mSBqYW5pdG9yLnNoCiMKIyDlhbPplK7vvJpzY29yZS5zaCDph4wgZmluZF9yYW5kb21fc3RlcDEvMi8zIOS4jiBzY29yZXIg6YO95pyJ44CM5bey5a6M5oiQ5YiZ6Lez6L+H44CN6YC76L6R77yMCiMgICAgICAg5Lit5pat5ZCO6YeN6LeR5Lya6Ieq5Yqo57ut6LeR77yM5LiN5rWq6LS55bey5omT55qE5YiG44CCCiMKIyDnlKjms5U6IGJhc2ggL3Jvb3QvYXV0b2RsLXRtcC9ydW5fc2VkcG9fdjMuc2gKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQpzZXQgLXUKClJFUE89L3Jvb3QvYXV0b2RsLXRtcC9TZURQT19OSVBTMjUKUkVTVUxUUz0kUkVQTy9yZXN1bHRzX3NlZHBvX3YzCm1rZGlyIC1wICRSRVNVTFRTCgojIC0tLS0g6KeE5qih5Y+C5pWwIC0tLS0KIyBuX3Njb3Jl77ya6KKr5omT5YiG55qEIHF1ZXJ5IOaVsO+8iOWAmemAieaxoOWni+e7iOWFqOmHj++8ieOAggojICAg6YCJIDYwMCDnmoTnkIbnlLHvvJpBUkMtQyDlgJnpgInmsaAgMTExNyDmnaEg4oaSIOimhuebliA1My43Je+8m09wZW5Cb29rUkMgNDk1NyDihpIgMTIuMSXvvJsKIyAgIE11bHRpUkMgMTAwMDAg4oaSIDYuMCXjgILlrp7mtYvlkJ7lkJAgMjQg5a6e5L6LL3PvvIhic3o9MTLvvInvvIzkuKTmqKHlnovmiZPliIbnuqYgMjcg5bCP5pe277yMCiMgICDkv53lrojkvLDorqEgNTQg5bCP5pe244CC55So5oi35oyH56S644CM5oWi5oWi5YGa77yM5oqK5a6e6aqM5YGa5a6M44CN77yM5pWF5Y+W6KeE5qih5LyY5YWI44CCCiMgICDohJrmnKzmlK/mjIHmlq3ngrnnu63ot5HvvJpzY29yZXIg6Ieq5bimIGJ1ZmZlcu+8iCouanNvbnRtcF9jdWRhLmJpbu+8iSsg5Lqn54mp5a2Y5Zyo5Y2z6Lez6L+H77yMCiMgICDlm6DmraTljbPkvr/kuK3pgJTlrp7kvovph43lkK/vvIzlt7LmiZPnmoTliIbkuI3kvJrmtarotLnjgIIKTlNfQVJDPSR7TlNfQVJDOi0zMDB9ICAgICAgIyBBUkMtQyDooqvmiZPliIYgcXVlcnkg5pWw77yIMjAyNi0xMS0wNSDnlKjmiLfnoa7orqTpmY3moaPvvJo2MDDihpIzMDDvvIkKTlNfT0JRPSR7TlNfT0JROi0zMDB9ICAgICAgIyBPcGVuQm9va1JDCk5TX01VTD0ke05TX01VTDotMzAwfSAgICAgICMgTXVsdGlSQwpMX0FSQz00MDAgICAgICAgICAgICAgICAgICAjIOiuuuaWhy/lrpjmlrnljp/lgLwKTF9PQlE9MjAwCkxfTVVMPTUwClNDT1JFX0JTWj0ke1NDT1JFX0JTWjotMTJ9ICMg5omT5YiGIGJhdGNoIHNpemXvvIhGNGIg5ZCO5a6e5rWLIDE2IOS5n+iDvei3ke+8jDEyIOabtOeos++8iQpUUkFJTl9CU1o9JHtUUkFJTl9CU1o6LTh9ICAjIOiuree7gyBiYXRjaCBzaXpl77yIMTYg5LyaIE9PTe+8iQoKUVdFTj0vcm9vdC9hdXRvZGwtdG1wL21vZGVscy9xd2VuMi41LTdiCkxMQU1BPS9yb290L2F1dG9kbC10bXAvbW9kZWxzL2xsYW1hMy04YgoKZWNobyAiIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIgplY2hvICIjIFNlRFBPIOato+W8j+WunumqjCB2MyDlvIDlp4sgJChkYXRlICslWS0lbS0lZF8lSDolTTolUykiCmVjaG8gIiMg6IyD5Zu077ya5LuFIFNlRFBP77yI6K665paH5pa55rOV77yJIgplY2hvICIjIG5fc2NvcmU6IGFyY19jPSROU19BUkMgb2JxYT0kTlNfT0JRIG11bD0kTlNfTVVMIHwgTDogJExfQVJDLyRMX09CUS8kTF9NVUwiCmVjaG8gIiMg5YCZ6YCJ5rGg5YWo6YePOiBhcmNfYz0xMTE3IG9icWE9NDk1NyBtdWw9MTAwMDAgfCBzY29yZV9ic3o9JFNDT1JFX0JTWiIKZWNobyAiIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIgoKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQojIOinhOaooeS4gOiHtOaAp+iHquajgO+8muW3suacieS6p+eJqeW/hemhu+S4juW9k+WJjSBuX3Njb3JlIOS4gOiHtO+8jOWQpuWImeWIoOmZpOmHjeW7uuOAggojIOWOn+WboO+8mmZpbmRfcmFuZG9tX3N0ZXAxLzIvMyDlnKjovpPlh7rmlofku7blt7LlrZjlnKjml7bkvJrjgIzot7Pov4fjgI3vvIzoi6XkuI3mo4Dmn6XvvIwKIyAgICAgICDmjaIgbl9zY29yZSDlkI7kvJrpnZnpu5jmsr/nlKjml6fop4TmqKHnmoTph4fmoLfmlbDmja4g4oaSIOe7k+aenOS4juiusOW9leS4jeespuOAggojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CmNoZWNrX3NjYWxlX2NvbnNpc3RlbmN5KCkgewogICAgVEFHPSQxOyBDTFVTVEVSPSQyCiAgICBGUj0kUkVQTy9teV9kYXRhX3F3ZW4vZmluZF9yYW5kb21fc2VkcG9fJHtUQUd9LyR7Q0xVU1RFUn0KICAgIFsgLWQgIiRGUiIgXSB8fCByZXR1cm4gMAogICAgZm9yIGYgaW4gIiRGUiIvKi5qc29uOyBkbwogICAgICAgIFsgLWUgIiRmIiBdIHx8IGNvbnRpbnVlCiAgICAgICAgTj0kKC9yb290L2F1dG9kbC10bXAvZW52cy9zZV9kcG8vYmluL3B5dGhvbiAtYyAiCmltcG9ydCBqc29uLHN5cwpkPWpzb24ubG9hZChvcGVuKCckZicpKQpwcmludChsZW4oZCkpIiAyPi9kZXYvbnVsbCkKICAgICAgICBbIC16ICIkTiIgXSAmJiBjb250aW51ZQogICAgICAgICMg6K+l5paH5Lu25a+55bqU55qE5Lu75Yqh5pyf5pyb55qEIG5fc2NvcmUKICAgICAgICBjYXNlICIkZiIgaW4KICAgICAgICAgICAgKmFyY19jKikgICAgICBFWFA9JE5TX0FSQyA7OwogICAgICAgICAgICAqb3BlbmJvb2txYSopIEVYUD0kTlNfT0JRIDs7CiAgICAgICAgICAgICptdWx0aXJjKikgICAgRVhQPSROU19NVUwgOzsKICAgICAgICAgICAgKikgICAgICAgICAgICBFWFA9IiIgOzsKICAgICAgICBlc2FjCiAgICAgICAgaWYgWyAtbiAiJEVYUCIgXSAmJiBbICIkTiIgIT0gIiRFWFAiIF07IHRoZW4KICAgICAgICAgICAgZWNobyAiW+iHquajgF0gJGYg5pyJICROIOadoe+8jOS4juW9k+WJjSBuX3Njb3JlPSRFWFAg5LiN5LiA6Ie0IOKGkiDliKDpmaTph43lu7oiCiAgICAgICAgICAgIHJtIC1mICIkZiIKICAgICAgICAgICAgIyDlr7nlupTnmoQgc2NvcmVkIOS6p+eJqeS5n+imgeWIoO+8jOWQpuWImeS8muWkjeeUqOS4jeWMuemFjeeahOWIhuaVsAogICAgICAgICAgICBmb3Igc2YgaW4gIiRSRVBPL215X2RhdGFfcXdlbi9zY29yZWRfc2VkcG9fJHtUQUd9LyR7Q0xVU1RFUn0iLyokKGJhc2VuYW1lICRmIC5qc29uIHwgc2VkICdzL19yYW5kb21fc2FtcGxlc18vLycpKi5qc29uKjsgZG8KICAgICAgICAgICAgICAgIFsgLWUgIiRzZiIgXSAmJiB7IGVjaG8gIlvoh6rmo4BdICAg6L+e5bim5Yig6ZmkICRzZiI7IHJtIC1mICIkc2YiOyB9CiAgICAgICAgICAgIGRvbmUKICAgICAgICBmaQogICAgZG9uZQp9CgojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CnJ1bl9jbHVzdGVyKCkgewogICAgTU9ERUxfVEFHPSQxCiAgICBNT0RFTF9QQVRIPSQyCiAgICBDTFVTVEVSPSQzCgogICAgZWNobyAiIgogICAgZWNobyAiPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSIKICAgIGVjaG8gIlskKGRhdGUgKyVIOiVNOiVTKV0g6ZuG576kPSRDTFVTVEVSIOaooeWeiz0kTU9ERUxfVEFHIgogICAgZWNobyAiPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSIKCiAgICAjIC0tLS0g5YCZ6YCJ5rGg6ZqU56a755uu5b2V6Ieq5oSIIC0tLS0KICAgICMg6IOM5pmv77yacHJvbXB0X3Bvb2xfc2VkcG8vIOaYr+malOemu+ebruW9le+8jOaNouWunuS+i+aIlua4heeQhuWQjuWPr+iDvee8uuWkse+8jAogICAgIyAgICAgICDnvLrlpLHkvJrlr7zoh7QgZ2V0X3Byb21wdF9maWxlcygpIOaLv+S4jeWIsOWAmemAieaxoCDihpIg5ZCO57ut57uE55u05o6l5aSx6LSl44CCCiAgICAjICAgICAgIOi/memHjOS7juS4u+axoOiHquWKqOihpem9kO+8iOWPquWkjeWItu+8jOS4jeS/ruaUueWGheWuue+8ieOAggogICAgUE9PTF9TUkM9JFJFUE8vbXlfZGF0YV9xd2VuL3Byb21wdF9wb29sLyRDTFVTVEVSCiAgICBQT09MX0RTVD0kUkVQTy9teV9kYXRhX3F3ZW4vcHJvbXB0X3Bvb2xfc2VkcG8vJENMVVNURVIKICAgIGlmIFsgLWQgIiRQT09MX1NSQyIgXTsgdGhlbgogICAgICAgIG1rZGlyIC1wICIkUE9PTF9EU1QiCiAgICAgICAgZm9yIHBmIGluICIkUE9PTF9TUkMiLyouanNvbjsgZG8KICAgICAgICAgICAgWyAtZSAiJHBmIiBdIHx8IGNvbnRpbnVlCiAgICAgICAgICAgIGlmIFsgISAtZiAiJFBPT0xfRFNULyQoYmFzZW5hbWUgJHBmKSIgXTsgdGhlbgogICAgICAgICAgICAgICAgY3AgIiRwZiIgIiRQT09MX0RTVC8iICYmIGVjaG8gIlvoh6rmhIhdIOihpem9kOWAmemAieaxoCAkUE9PTF9EU1QvJChiYXNlbmFtZSAkcGYpIgogICAgICAgICAgICBmaQogICAgICAgIGRvbmUKICAgIGZpCgogICAgY2hlY2tfc2NhbGVfY29uc2lzdGVuY3kgIiRNT0RFTF9UQUciICIkQ0xVU1RFUiIKCiAgICAjIOeUn+aIkOivpeaooeWei+S4k+WxnuiEmuacrO+8iOmalOemu+S4jeWQjOaooeWei+eahOS4remXtOS6p+eJqe+8iQogICAgIyDms6jmhI/vvJpnZW5fZm9ybWFsX3YzLnB5IOWGhemDqOS8muWKoCAic2VkcG9fIiDliY3nvIDvvIzov5nph4zkvKDljp/lp4sgdGFnIOWNs+WPrwogICAgL3Jvb3QvbWluaWNvbmRhMy9iaW4vcHl0aG9uIC9yb290L2F1dG9kbC10bXAvZ2VuX2Zvcm1hbF92My5weSBcCiAgICAgICAgLS1tb2RlbF90YWcgIiRNT0RFTF9UQUciIC0tbW9kZWxfcGF0aCAiJE1PREVMX1BBVEgiIC0tY2x1c3RlciAiJENMVVNURVIiIFwKICAgICAgICAtLW5zX2FyYyAkTlNfQVJDIC0tbnNfb2JxICROU19PQlEgLS1uc19tdWwgJE5TX01VTCBcCiAgICAgICAgLS1zY29yZV9ic3ogJFNDT1JFX0JTWiAtLXRyYWluX2JzeiAkVFJBSU5fQlNaIHx8IHJldHVybiAxCgogICAgRVhQPSRSRVBPL215X2RhdGFfcXdlbi9leHBlcmltZW50X3NlZHBvXyR7TU9ERUxfVEFHfS8ke0NMVVNURVJ9CiAgICBUUz0kKGRhdGUgKyVZJW0lZF8lSCVNJVMpCiAgICBMT0dESVI9JFJFU1VMVFMvbG9ncy8ke0NMVVNURVJ9XyR7TU9ERUxfVEFHfV8ke1RTfQogICAgbWtkaXIgLXAgJExPR0RJUgoKICAgIGNhc2UgJENMVVNURVIgaW4KICAgICAgICBjbG9zZV9xYSkgICAgVEFTS1M9ImFyY19jIiA7OwogICAgICAgIHJlYWRpbmdfbmV3KSBUQVNLUz0ib3BlbmJvb2txYSBtdWx0aXJjIiA7OwogICAgZXNhYwoKICAgIHNvdXJjZSAvcm9vdC9taW5pY29uZGEzL2V0Yy9wcm9maWxlLmQvY29uZGEuc2gKICAgIGNvbmRhIGFjdGl2YXRlIC9yb290L2F1dG9kbC10bXAvZW52cy9zZV9kcG8KICAgIGV4cG9ydCBQWVRIT05QQVRIPSRSRVBPOiR7UFlUSE9OUEFUSDotfQogICAgZXhwb3J0IEhZRFJBX0ZVTExfRVJST1I9MQogICAgZXhwb3J0IFRPS0VOSVpFUlNfUEFSQUxMRUxJU009ZmFsc2UKICAgIGV4cG9ydCBQWVRPUkNIX0NVREFfQUxMT0NfQ09ORj1leHBhbmRhYmxlX3NlZ21lbnRzOlRydWUKICAgIGV4cG9ydCBJRl9QUkVGRVJfTE9TUz0yCiAgICBleHBvcnQgUEVGVF9CRVRBPTAuMQogICAgZXhwb3J0IERJVl9SRUpFQ1Q9MQoKICAgICMgLS0tLS0tLS0tLSBTZURQTzogc2NvcmUgLT4gdHJhaW4gLT4gaW5mZXIgLS0tLS0tLS0tLQogICAgZWNobyAiWyQoZGF0ZSArJUg6JU06JVMpXSAgIFNlRFBPIHNjb3JlIgogICAgIyDph43or5UgNSDmrKHvvJpzY29yZXIg6Ieq5bimIGJ1ZmZlciDmlq3ngrnnu63kvKDvvIgqLmpzb250bXBfY3VkYS5iaW7vvInvvIwKICAgICMg6KKr5Lit5pat5ZCO6YeN6LeR5Lya5LuO5bey5a6M5oiQ5aSE57un57ut77yM5LiN5Lya5rWq6LS55bey5omT55qE5YiG44CCCiAgICBTQ09SRV9SQz0xOyBTQ09SRV9TRUM9MAogICAgZm9yIHRyeSBpbiAxIDIgMyA0IDU7IGRvCiAgICAgICAgVDA9JChkYXRlICslcykKICAgICAgICAoIGNkICRSRVBPICYmIGJhc2ggJEVYUC9zY29yZS5zaCApID4+ICRMT0dESVIvc2VkcG9fc2NvcmUubG9nIDI+JjEKICAgICAgICBTQ09SRV9SQz0kPzsgVDE9JChkYXRlICslcyk7IFNDT1JFX1NFQz0kKChUMS1UMCkpCiAgICAgICAgZWNobyAiWyQoZGF0ZSArJUg6JU06JVMpXSAgIOKGkiBzY29yZSByYz0kU0NPUkVfUkMg6ICX5pe2ICRTQ09SRV9TRUMg56eS77yI56ysICR0cnkg5qyh77yJIgogICAgICAgIFsgJFNDT1JFX1JDIC1lcSAwIF0gJiYgYnJlYWsKICAgICAgICBlY2hvICJbJChkYXRlICslSDolTTolUyldICAgc2NvcmUg5pyq5oiQ5Yqf77yMMzAg56eS5ZCO57ut6LeR77yI5Y+v5LuOIGJ1ZmZlciDmlq3ngrnnu63kvKDvvIkiCiAgICAgICAgc2xlZXAgMzAKICAgIGRvbmUKICAgIGlmIFsgJFNDT1JFX1JDIC1uZSAwIF07IHRoZW4KICAgICAgICBlY2hvICJb6ZSZ6K+vXSBzY29yZSDkupTmrKHlsJ3or5XlnYflpLHotKXvvIzop4EgJExPR0RJUi9zZWRwb19zY29yZS5sb2ciCiAgICAgICAgdGFpbCAtMjUgJExPR0RJUi9zZWRwb19zY29yZS5sb2cgfCB0ciAiXHIiICJcbiIgfCB0YWlsIC0xMgogICAgICAgIHJldHVybiAxCiAgICBmaQoKICAgIGVjaG8gIlskKGRhdGUgKyVIOiVNOiVTKV0gICBTZURQTyB0cmFpbiIKICAgIFQwPSQoZGF0ZSArJXMpCiAgICAoIGNkICRSRVBPICYmIGJhc2ggJEVYUC90cmFpbi5zaCApID4gJExPR0RJUi9zZWRwb190cmFpbi5sb2cgMj4mMQogICAgUkM9JD87IFQxPSQoZGF0ZSArJXMpOyBUUkFJTl9TRUM9JCgoVDEtVDApKQogICAgZWNobyAiWyQoZGF0ZSArJUg6JU06JVMpXSAgIOKGkiByYz0kUkMg6ICX5pe2ICRUUkFJTl9TRUMg56eSIgogICAgaWYgWyAkUkMgLW5lIDAgXTsgdGhlbgogICAgICAgIGVjaG8gIlvplJnor69dIHRyYWluIOWksei0pe+8jOingSAkTE9HRElSL3NlZHBvX3RyYWluLmxvZyIKICAgICAgICB0YWlsIC0yNSAkTE9HRElSL3NlZHBvX3RyYWluLmxvZyB8IHRyICJcciIgIlxuIiB8IHRhaWwgLTEyCiAgICAgICAgcmV0dXJuIDEKICAgIGZpCiAgICAjIOiuree7g+S6p+eJqeW+iOWkp++8iOavjyBlcG9jaCBjaGVja3BvaW50IOWQqyBvcHRpbWl6ZXIgc3RhdGXvvInihpIg56uL5Yi75riF55CG77yM5Y+q55WZIGJlc3RfdmFsaWQKICAgIGlmIFsgLWQgIiRFWFAvbW9kZWwiIF07IHRoZW4KICAgICAgICBybSAtZiAiJEVYUC9tb2RlbCIvZHByX2JpZW5jb2Rlci5bMC05XSogMj4vZGV2L251bGwgfHwgdHJ1ZQogICAgZmkKCiAgICBlY2hvICJbJChkYXRlICslSDolTTolUyldICAgU2VEUE8gaW5mZXIiCiAgICBUMD0kKGRhdGUgKyVzKQogICAgKCBjZCAkUkVQTyAmJiBiYXNoICRFWFAvaW5mZXIuc2ggKSA+ICRMT0dESVIvc2VkcG9faW5mZXIubG9nIDI+JjEKICAgIFJDPSQ/OyBUMT0kKGRhdGUgKyVzKTsgSU5GRVJfU0VDPSQoKFQxLVQwKSkKICAgIGVjaG8gIlskKGRhdGUgKyVIOiVNOiVTKV0gICDihpIgcmM9JFJDIOiAl+aXtiAkSU5GRVJfU0VDIOenkiIKICAgIGlmIFsgJFJDIC1uZSAwIF07IHRoZW4KICAgICAgICBlY2hvICJb6ZSZ6K+vXSBpbmZlciDlpLHotKXvvIzop4EgJExPR0RJUi9zZWRwb19pbmZlci5sb2ciCiAgICAgICAgdGFpbCAtMjUgJExPR0RJUi9zZWRwb19pbmZlci5sb2cgfCB0ciAiXHIiICJcbiIgfCB0YWlsIC0xMgogICAgICAgIHJldHVybiAxCiAgICBmaQoKICAgICMgLS0tLS0tLS0tLSDmsYfmgLvmjIfmoIcgLS0tLS0tLS0tLQogICAgZm9yIFRBU0sgaW4gJFRBU0tTOyBkbwogICAgICAgIE9VVEQ9JFJFU1VMVFMvJHtUQVNLfV8ke01PREVMX1RBR30KICAgICAgICBta2RpciAtcCAkT1VURAogICAgICAgIE5TPSQoIFsgIiRUQVNLIiA9IGFyY19jIF0gJiYgZWNobyAkTlNfQVJDIHx8IHsgWyAiJFRBU0siID0gb3BlbmJvb2txYSBdICYmIGVjaG8gJE5TX09CUSB8fCBlY2hvICROU19NVUw7IH0gKQogICAgICAgIExWPSQoIFsgIiRUQVNLIiA9IGFyY19jIF0gJiYgZWNobyAkTF9BUkMgfHwgeyBbICIkVEFTSyIgPSBvcGVuYm9va3FhIF0gJiYgZWNobyAkTF9PQlEgfHwgZWNobyAkTF9NVUw7IH0gKQoKICAgICAgICBTUD0kKGxzICRFWFAvcHJlZHNfZm9yXyovJHtUQVNLfV9wcm9tcHRzM19yZXRyaWV2ZXJzZTJfcHJlZHNfMC5qc29uIDI+L2Rldi9udWxsIHwgaGVhZCAtMSkKICAgICAgICBpZiBbIC1uICIkU1AiIF07IHRoZW4KICAgICAgICAgICAgcHl0aG9uICRSRVBPLzIwMjYxMTA1X2NvbXB1dGVfbWV0cmljcy5weSAtLXByZWRzICIkU1AiIC0tdGFzayAkVEFTSyBcCiAgICAgICAgICAgICAgICAtLW91dF9qc29uICRPVVREL21ldHJpY3Nfc2VkcG8uanNvbiAtLW91dF90ZXh0ICRPVVREL21ldHJpY3Nfc2VkcG8udHh0IDI+JjEgfCB0YWlsIC00CiAgICAgICAgICAgIGNwICIkU1AiICRPVVREL3ByZWRzX3NlZHBvLmpzb24gMj4vZGV2L251bGwgfHwgdHJ1ZQogICAgICAgIGVsc2UKICAgICAgICAgICAgZWNobyAiW+itpuWRil0g5pyq5om+5YiwICRUQVNLIOeahCBTZURQTyBwcmVkcyIKICAgICAgICBmaQoKICAgICAgICBbIC1mICRFWFAvdHJhaW5fZGVuc2VfZW5jb2Rlci5sb2cgXSAmJiBjcCAkRVhQL3RyYWluX2RlbnNlX2VuY29kZXIubG9nICRPVVRELyAyPi9kZXYvbnVsbCB8fCB0cnVlCiAgICAgICAgZmluZCAkRVhQIC1uYW1lICJldmFsX3JlcyoudHh0IiAtZXhlYyBjcCB7fSAkT1VURC8gXDsgMj4vZGV2L251bGwgfHwgdHJ1ZQogICAgICAgIGNwICRMT0dESVIvKi5sb2cgJE9VVEQvIDI+L2Rldi9udWxsIHx8IHRydWUKCiAgICAgICAgY2F0ID4gJE9VVEQvcnVudGltZS5qc29uIDw8RU9GCnsKICAidGFzayI6ICIkVEFTSyIsCiAgIm1vZGVsX3RhZyI6ICIkTU9ERUxfVEFHIiwKICAiY2x1c3RlciI6ICIkQ0xVU1RFUiIsCiAgIm1ldGhvZCI6ICJTZURQTyIsCiAgIm5fc2NvcmUiOiAkTlMsCiAgImZpbmRlcl9MIjogJExWLAogICJwb29sX3NpemUiOiAiZnVsbCIsCiAgInNjb3JlX2JzeiI6ICRTQ09SRV9CU1osCiAgInRyYWluX2JzeiI6ICRUUkFJTl9CU1osCiAgInNlZHBvX3Njb3JlX3NlYyI6ICRTQ09SRV9TRUMsCiAgInNlZHBvX3RyYWluX3NlYyI6ICRUUkFJTl9TRUMsCiAgInNlZHBvX2luZmVyX3NlYyI6ICRJTkZFUl9TRUMsCiAgImxvZ19kaXIiOiAiJExPR0RJUiIKfQpFT0YKICAgICAgICBlY2hvICItLS0gJFRBU0sgLyAkTU9ERUxfVEFHIOaMh+aghyAtLS0iCiAgICAgICAgWyAtZiAkT1VURC9tZXRyaWNzX3NlZHBvLnR4dCBdICYmIGVjaG8gIiAgW3NlZHBvXSAkKGhlYWQgLWMgMzIwICRPVVREL21ldHJpY3Nfc2VkcG8udHh0IHwgdHIgJ1xuJyAnICcpIgogICAgZG9uZQoKICAgICMgaW5mZXIg5bey5a6M5oiQIOKGkiBtb2RlbCDnm67lvZXvvIjlkKvnqKDlr4bntKLlvJXvvIznuqYgNC03R0LvvInlj6/liKAKICAgIHJtIC1yZiAiJEVYUC9tb2RlbCIKICAgIGVjaG8gIlskKGRhdGUgKyVIOiVNOiVTKV0g6ZuG576kICRDTFVTVEVSIMOXICRNT0RFTF9UQUcg5a6M5oiQIgp9CgojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CiMg5omn6KGM6aG65bqP77yaQVJDLUMg5YWI6KGM77yI5pyA5bCP5pWw5o2u6ZuG77yM5omT6YCa5YWo6ZO+6Lev77yJ77yM5YaNIHJlYWRpbmdfbmV377yI5Lik5pWw5o2u6ZuG77yJCiMg5q+P5a6M5oiQ5LiA57uE56uL5Y2z5Ye657uT5p6c77yM5Y+v6ZqP5pe25p+l55yL6L+b5bqmCiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KcnVuX2NsdXN0ZXIgcXdlbiAgJFFXRU4gIGNsb3NlX3FhICAgIHx8IGVjaG8gIlvplJnor69dIHF3ZW4vY2xvc2VfcWEg5aSx6LSlIgpydW5fY2x1c3RlciBsbGFtYSAkTExBTUEgY2xvc2VfcWEgICAgfHwgZWNobyAiW+mUmeivr10gbGxhbWEvY2xvc2VfcWEg5aSx6LSlIgpydW5fY2x1c3RlciBxd2VuICAkUVdFTiAgcmVhZGluZ19uZXcgfHwgZWNobyAiW+mUmeivr10gcXdlbi9yZWFkaW5nX25ldyDlpLHotKUiCnJ1bl9jbHVzdGVyIGxsYW1hICRMTEFNQSByZWFkaW5nX25ldyB8fCBlY2hvICJb6ZSZ6K+vXSBsbGFtYS9yZWFkaW5nX25ldyDlpLHotKUiCgplY2hvICIiCmVjaG8gIiMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyIKZWNobyAiIyDlhajpg6jnu5PmnZ8gJChkYXRlICslWS0lbS0lZF8lSDolTTolUykgIOe7k+aenOebruW9lTogJFJFU1VMVFMiCmVjaG8gIiMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyIK
+#!/bin/bash
+# =============================================================================
+# SeDPO 正式实验总编排 v3（2026-11-05）
+# =============================================================================
+# 范围：只做论文方法 SeDPO（用户 2026-11-05 明确指示），不跑论文其他方法。
+#   保留 zeroshot / random3 两个已完成的基线结果作参考（runs_log.csv 已记录实测值）。
+#
+# 与早期版本的差异（本版是修复 + 放大后的最终版）：
+#   [1] 4 个缺陷已修复（F1 L截断 / F2 id错配 / F3 Random同种子 / F4 打分显存）
+#   [2] 打分 batch_size 5 → 12（F4b 显存优化后实测可到 16）
+#   [3] n_score 从 150 → 600（省下跑其他方法的算力全部投入 SeDPO 自身规模）
+#   [4] 候选池始终全量：arc_c=1117 / openbookqa=4957 / multirc=10000
+#   [5] L 保持论文原值：arc_c=400 / openbookqa=200 / multirc=50
+#   [6] 复用 my_data_qwen/find_random_sedpo_{tag}/ 已有产物（scorer 会跳过已完成步骤）
+#   [7] 不使用 watchdog 自动重启（避免旧配置复活）；磁盘清理交给 janitor.sh
+#
+# 关键：score.sh 里 find_random_step1/2/3 与 scorer 都有「已完成则跳过」逻辑，
+#       中断后重跑会自动续跑，不浪费已打的分。
+#
+# 用法: bash /root/autodl-tmp/run_sedpo_v3.sh
+# =============================================================================
+set -u
+
+REPO=/root/autodl-tmp/SeDPO_NIPS25
+RESULTS=$REPO/results_sedpo_v3
+mkdir -p $RESULTS
+
+# ---- 规模参数 ----
+# n_score：被打分的 query 数（候选池始终全量）。
+#   选 600 的理由：ARC-C 候选池 1117 条 → 覆盖 53.7%；OpenBookRC 4957 → 12.1%；
+#   MultiRC 10000 → 6.0%。实测吞吐 24 实例/s（bsz=12），两模型打分约 27 小时，
+#   保守估计 54 小时。用户指示「慢慢做，把实验做完」，故取规模优先。
+#   脚本支持断点续跑：scorer 自带 buffer（*.jsontmp_cuda.bin）+ 产物存在即跳过，
+#   因此即便中途实例重启，已打的分不会浪费。
+NS_ARC=${NS_ARC:-300}      # ARC-C 被打分 query 数（2026-11-05 用户确认降档：600→300）
+NS_OBQ=${NS_OBQ:-300}      # OpenBookRC
+NS_MUL=${NS_MUL:-300}      # MultiRC
+L_ARC=400                  # 论文/官方原值
+L_OBQ=200
+L_MUL=50
+SCORE_BSZ=${SCORE_BSZ:-12} # 打分 batch size（F4b 后实测 16 也能跑，12 更稳）
+TRAIN_BSZ=${TRAIN_BSZ:-8}  # 训练 batch size（16 会 OOM）
+
+QWEN=/root/autodl-tmp/models/qwen2.5-7b
+LLAMA=/root/autodl-tmp/models/llama3-8b
+
+echo "############################################################"
+echo "# SeDPO 正式实验 v3 开始 $(date +%Y-%m-%d_%H:%M:%S)"
+echo "# 范围：仅 SeDPO（论文方法）"
+echo "# n_score: arc_c=$NS_ARC obqa=$NS_OBQ mul=$NS_MUL | L: $L_ARC/$L_OBQ/$L_MUL"
+echo "# 候选池全量: arc_c=1117 obqa=4957 mul=10000 | score_bsz=$SCORE_BSZ"
+echo "############################################################"
+
+# =============================================================================
+# 规模一致性自检：已有产物必须与当前 n_score 一致，否则删除重建。
+# 原因：find_random_step1/2/3 在输出文件已存在时会「跳过」，若不检查，
+#       换 n_score 后会静默沿用旧规模的采样数据 → 结果与记录不符。
+# =============================================================================
+check_scale_consistency() {
+    TAG=$1; CLUSTER=$2
+    FR=$REPO/my_data_qwen/find_random_sedpo_${TAG}/${CLUSTER}
+    [ -d "$FR" ] || return 0
+    for f in "$FR"/*.json; do
+        [ -e "$f" ] || continue
+        N=$(/root/autodl-tmp/envs/se_dpo/bin/python -c "
+import json,sys
+d=json.load(open('$f'))
+print(len(d))" 2>/dev/null)
+        [ -z "$N" ] && continue
+        # 该文件对应的任务期望的 n_score
+        case "$f" in
+            *arc_c*)      EXP=$NS_ARC ;;
+            *openbookqa*) EXP=$NS_OBQ ;;
+            *multirc*)    EXP=$NS_MUL ;;
+            *)            EXP="" ;;
+        esac
+        if [ -n "$EXP" ] && [ "$N" != "$EXP" ]; then
+            echo "[自检] $f 有 $N 条，与当前 n_score=$EXP 不一致 → 删除重建"
+            rm -f "$f"
+            # 对应的 scored 产物也要删，否则会复用不匹配的分数
+            for sf in "$REPO/my_data_qwen/scored_sedpo_${TAG}/${CLUSTER}"/*$(basename $f .json | sed 's/_random_samples_//')*.json*; do
+                [ -e "$sf" ] && { echo "[自检]   连带删除 $sf"; rm -f "$sf"; }
+            done
+        fi
+    done
+}
+
+# =============================================================================
+run_cluster() {
+    MODEL_TAG=$1
+    MODEL_PATH=$2
+    CLUSTER=$3
+
+    echo ""
+    echo "================================================================"
+    echo "[$(date +%H:%M:%S)] 集群=$CLUSTER 模型=$MODEL_TAG"
+    echo "================================================================"
+
+    # ---- 候选池隔离目录自愈 ----
+    # 背景：prompt_pool_sedpo/ 是隔离目录，换实例或清理后可能缺失，
+    #       缺失会导致 get_prompt_files() 拿不到候选池 → 后续组直接失败。
+    #       这里从主池自动补齐（只复制，不修改内容）。
+    POOL_SRC=$REPO/my_data_qwen/prompt_pool/$CLUSTER
+    POOL_DST=$REPO/my_data_qwen/prompt_pool_sedpo/$CLUSTER
+    if [ -d "$POOL_SRC" ]; then
+        mkdir -p "$POOL_DST"
+        for pf in "$POOL_SRC"/*.json; do
+            [ -e "$pf" ] || continue
+            if [ ! -f "$POOL_DST/$(basename $pf)" ]; then
+                cp "$pf" "$POOL_DST/" && echo "[自愈] 补齐候选池 $POOL_DST/$(basename $pf)"
+            fi
+        done
+    fi
+
+    check_scale_consistency "$MODEL_TAG" "$CLUSTER"
+
+    # 生成该模型专属脚本（隔离不同模型的中间产物）
+    # 注意：gen_formal_v3.py 内部会加 "sedpo_" 前缀，这里传原始 tag 即可
+    /root/miniconda3/bin/python /root/autodl-tmp/gen_formal_v3.py \
+        --model_tag "$MODEL_TAG" --model_path "$MODEL_PATH" --cluster "$CLUSTER" \
+        --ns_arc $NS_ARC --ns_obq $NS_OBQ --ns_mul $NS_MUL \
+        --score_bsz $SCORE_BSZ --train_bsz $TRAIN_BSZ || return 1
+
+    EXP=$REPO/my_data_qwen/experiment_sedpo_${MODEL_TAG}/${CLUSTER}
+    TS=$(date +%Y%m%d_%H%M%S)
+    LOGDIR=$RESULTS/logs/${CLUSTER}_${MODEL_TAG}_${TS}
+    mkdir -p $LOGDIR
+
+    case $CLUSTER in
+        close_qa)    TASKS="arc_c" ;;
+        reading_new) TASKS="openbookqa multirc" ;;
+    esac
+
+    source /root/miniconda3/etc/profile.d/conda.sh
+    conda activate /root/autodl-tmp/envs/se_dpo
+    export PYTHONPATH=$REPO:${PYTHONPATH:-}
+    export HYDRA_FULL_ERROR=1
+    export TOKENIZERS_PARALLELISM=false
+    export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
+    export IF_PREFER_LOSS=2
+    export PEFT_BETA=0.1
+    export DIV_REJECT=1
+
+    # ---------- SeDPO: score -> train -> infer ----------
+    echo "[$(date +%H:%M:%S)]   SeDPO score"
+    # 重试 5 次：scorer 自带 buffer 断点续传（*.jsontmp_cuda.bin），
+    # 被中断后重跑会从已完成处继续，不会浪费已打的分。
+    SCORE_RC=1; SCORE_SEC=0
+    for try in 1 2 3 4 5; do
+        T0=$(date +%s)
+        ( cd $REPO && bash $EXP/score.sh ) >> $LOGDIR/sedpo_score.log 2>&1
+        SCORE_RC=$?; T1=$(date +%s); SCORE_SEC=$((T1-T0))
+        echo "[$(date +%H:%M:%S)]   → score rc=$SCORE_RC 耗时 $SCORE_SEC 秒（第 $try 次）"
+        [ $SCORE_RC -eq 0 ] && break
+        echo "[$(date +%H:%M:%S)]   score 未成功，30 秒后续跑（可从 buffer 断点续传）"
+        sleep 30
+    done
+    if [ $SCORE_RC -ne 0 ]; then
+        echo "[错误] score 五次尝试均失败，见 $LOGDIR/sedpo_score.log"
+        tail -25 $LOGDIR/sedpo_score.log | tr "\r" "\n" | tail -12
+        return 1
+    fi
+
+    echo "[$(date +%H:%M:%S)]   SeDPO train"
+    T0=$(date +%s)
+    ( cd $REPO && bash $EXP/train.sh ) > $LOGDIR/sedpo_train.log 2>&1
+    RC=$?; T1=$(date +%s); TRAIN_SEC=$((T1-T0))
+    echo "[$(date +%H:%M:%S)]   → rc=$RC 耗时 $TRAIN_SEC 秒"
+    if [ $RC -ne 0 ]; then
+        echo "[错误] train 失败，见 $LOGDIR/sedpo_train.log"
+        tail -25 $LOGDIR/sedpo_train.log | tr "\r" "\n" | tail -12
+        return 1
+    fi
+    # 训练产物很大（每 epoch checkpoint 含 optimizer state）→ 立刻清理，只留 best_valid
+    if [ -d "$EXP/model" ]; then
+        rm -f "$EXP/model"/dpr_biencoder.[0-9]* 2>/dev/null || true
+    fi
+
+    echo "[$(date +%H:%M:%S)]   SeDPO infer"
+    T0=$(date +%s)
+    ( cd $REPO && bash $EXP/infer.sh ) > $LOGDIR/sedpo_infer.log 2>&1
+    RC=$?; T1=$(date +%s); INFER_SEC=$((T1-T0))
+    echo "[$(date +%H:%M:%S)]   → rc=$RC 耗时 $INFER_SEC 秒"
+    if [ $RC -ne 0 ]; then
+        echo "[错误] infer 失败，见 $LOGDIR/sedpo_infer.log"
+        tail -25 $LOGDIR/sedpo_infer.log | tr "\r" "\n" | tail -12
+        return 1
+    fi
+
+    # ---------- 汇总指标 ----------
+    for TASK in $TASKS; do
+        OUTD=$RESULTS/${TASK}_${MODEL_TAG}
+        mkdir -p $OUTD
+        NS=$( [ "$TASK" = arc_c ] && echo $NS_ARC || { [ "$TASK" = openbookqa ] && echo $NS_OBQ || echo $NS_MUL; } )
+        LV=$( [ "$TASK" = arc_c ] && echo $L_ARC || { [ "$TASK" = openbookqa ] && echo $L_OBQ || echo $L_MUL; } )
+
+        SP=$(ls $EXP/preds_for_*/${TASK}_prompts3_retrieverse2_preds_0.json 2>/dev/null | head -1)
+        if [ -n "$SP" ]; then
+            python $REPO/20261105_compute_metrics.py --preds "$SP" --task $TASK \
+                --out_json $OUTD/metrics_sedpo.json --out_text $OUTD/metrics_sedpo.txt 2>&1 | tail -4
+            cp "$SP" $OUTD/preds_sedpo.json 2>/dev/null || true
+        else
+            echo "[警告] 未找到 $TASK 的 SeDPO preds"
+        fi
+
+        [ -f $EXP/train_dense_encoder.log ] && cp $EXP/train_dense_encoder.log $OUTD/ 2>/dev/null || true
+        find $EXP -name "eval_res*.txt" -exec cp {} $OUTD/ \; 2>/dev/null || true
+        cp $LOGDIR/*.log $OUTD/ 2>/dev/null || true
+
+        cat > $OUTD/runtime.json <<EOF
+{
+  "task": "$TASK",
+  "model_tag": "$MODEL_TAG",
+  "cluster": "$CLUSTER",
+  "method": "SeDPO",
+  "n_score": $NS,
+  "finder_L": $LV,
+  "pool_size": "full",
+  "score_bsz": $SCORE_BSZ,
+  "train_bsz": $TRAIN_BSZ,
+  "sedpo_score_sec": $SCORE_SEC,
+  "sedpo_train_sec": $TRAIN_SEC,
+  "sedpo_infer_sec": $INFER_SEC,
+  "log_dir": "$LOGDIR"
+}
+EOF
+        echo "--- $TASK / $MODEL_TAG 指标 ---"
+        [ -f $OUTD/metrics_sedpo.txt ] && echo "  [sedpo] $(head -c 320 $OUTD/metrics_sedpo.txt | tr '\n' ' ')"
+    done
+
+    # infer 已完成 → model 目录（含稠密索引，约 4-7GB）可删
+    rm -rf "$EXP/model"
+    echo "[$(date +%H:%M:%S)] 集群 $CLUSTER × $MODEL_TAG 完成"
+}
+
+# =============================================================================
+# 执行顺序：ARC-C 先行（最小数据集，打通全链路），再 reading_new（两数据集）
+# 每完成一组立即出结果，可随时查看进度
+# =============================================================================
+run_cluster qwen  $QWEN  close_qa    || echo "[错误] qwen/close_qa 失败"
+run_cluster llama $LLAMA close_qa    || echo "[错误] llama/close_qa 失败"
+run_cluster qwen  $QWEN  reading_new || echo "[错误] qwen/reading_new 失败"
+run_cluster llama $LLAMA reading_new || echo "[错误] llama/reading_new 失败"
+
+echo ""
+echo "############################################################"
+echo "# 全部结束 $(date +%Y-%m-%d_%H:%M:%S)  结果目录: $RESULTS"
+echo "############################################################"

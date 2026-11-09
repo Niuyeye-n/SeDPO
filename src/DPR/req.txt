@@ -1,1 +1,1 @@
-ZW4tY29yZS13ZWItc20gQCBodHRwczovL2dpdGh1Yi5jb20vZXhwbG9zaW9uL3NwYWN5LW1vZGVscy9yZWxlYXNlcy9kb3dubG9hZC9lbl9jb3JlX3dlYl9zbS0yLjIuNS9lbl9jb3JlX3dlYl9zbS0yLjIuNS50YXIuZ3o=
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.5/en_core_web_sm-2.2.5.tar.gz

@@ -1,1 +1,97 @@
-aW1wb3J0IG11bHRpcHJvY2Vzc2luZwppbXBvcnQgYXJncGFyc2UKaW1wb3J0IG51bXB5IGFzIG5wCgoKZ2xvYmFsX3N0YXRlID0ge30KZnJvbSBkYXRhY2xhc3NlcyBpbXBvcnQgZGF0YWNsYXNzCgoKIyBmcm9tIGRhdGFmbG93LmNvcmUubGlzcHJlc3MgaW1wb3J0IHRyeV9yb3VuZF90cmlwCiAgIApmcm9tIHNyYy51dGlscyBpbXBvcnQgdG9wX3V0aWxzCgoKZGVmIGV2YWxfc2luZ2xlX210b3AocHJlZDogc3RyLGdvbGQ6IHN0cik6CiAgICByZXR1cm4gcHJlZC5zdHJpcCgpPT1nb2xkCiAgICBwcmVkX2xmID0gdG9wX3V0aWxzLmRlc2VyaWFsaXplX3RvcChwcmVkKQogICAgZ29sZF9sZiA9IHRvcF91dGlscy5kZXNlcmlhbGl6ZV90b3AoZ29sZCkKICAgIGlmIHByZWRfbGYgaXMgTm9uZToKICAgICAgICByZXR1cm4gcHJlZD09Z29sZAogICAgZWxzZToKICAgICAgICByZXR1cm4gcHJlZF9sZi5zZXJpYWxpemUoKT09Z29sZF9sZi5zZXJpYWxpemUoKQoKCgpkZWYgZXZhbF9zaW5nbGVfc21jYWxmbG93KHByZWQ6IHN0cixnb2xkOiBzdHIpOgogICAgcmV0dXJuIHByZWQuc3RyaXAoKT09Z29sZAogICAgcHJlZF9saXNwcmVzcyA9IHRyeV9yb3VuZF90cmlwKHByZWQpCiAgICBnb2xkX2xpc3ByZXNzID0gdHJ5X3JvdW5kX3RyaXAoZ29sZCkKICAgIHJldHVybiBwcmVkX2xpc3ByZXNzPT1nb2xkX2xpc3ByZXNzCgpAZGF0YWNsYXNzCmNsYXNzIEdsb2JhbFN0YXRlOgogICAgY29udmVydGVyID0gTm9uZQogICAgbWF0Y2hlciA9IE5vbmUKICAgIHNjb3JlciA9IE5vbmUKCiAgICBkZWYgX19wb3N0X2luaXRfXyhzZWxmKToKICAgICAgICBzZWxmLmNvbnZlcnRlciA9IFFETVJUb1FETVJTdGVwVG9rZW5zQ29udmVydGVyKCkKICAgICAgICBzZWxmLm1hdGNoZXIgPSBMb2dpY2FsRnJvbVN0cnVjdHVyYWxNYXRjaGVyKCkKICAgICAgICBzZWxmLnNjb3JlciA9IE5vcm1hbGl6ZWRHcmFwaE1hdGNoU2NvcmVyKCkKCgoKCgpkZWYgZXZhbF9zaW5nbGUocXVlc3Rpb24sIGdlbmVyYXRlZCxkZWNvbXBvc2l0aW9uLGluZGV4KToKICAgIHRyeToKICAgICAgICAjIHByaW50KGYiU3RhcnRpbmc6IHtpbmRleH0iKQogICAgICAgIGlmICIjMTMiIGluIGdlbmVyYXRlZDoKICAgICAgICAgICAgcmV0dXJuIEZhbHNlCiAgICAgICAgZGVmIHRyeV9pbnZva2UoZnVuYywgZ3JhcGgsIGRlZmF1bHQ9Tm9uZSk6CiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIHJldHVybiBmdW5jKGdyYXBoKQogICAgICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGV4OgogICAgICAgICAgICAgICAgcmV0dXJuIGRlZmF1bHQKCiAgICAgICAgZ29sZCA9IGZvcm1hdF9xZG1yKGRlY29tcG9zaXRpb24pCiAgICAgICAgcHJlZCA9IGZvcm1hdF9xZG1yKGdlbmVyYXRlZC5yZXBsYWNlKCIgICIsIiAiKS5sb3dlcigpKQogICAgCiAgICAgICAgZGVjb21wX2xmID0gZ2xvYmFsX3N0YXRlLmNvbnZlcnRlci5jb252ZXJ0KHF1ZXN0aW9uX2lkPXN0cihpbmRleCksIHF1ZXN0aW9uX3RleHQ9cXVlc3Rpb24sIGRlY29tcG9zaXRpb249cHJlZC50b19icmVha19zdGFuZGFyZF9zdHJpbmcoKSkKICAgICAgICBnb2xkX2xmID0gZ2xvYmFsX3N0YXRlLmNvbnZlcnRlci5jb252ZXJ0KHF1ZXN0aW9uX2lkPXN0cihpbmRleCksIHF1ZXN0aW9uX3RleHQ9cXVlc3Rpb24sIGRlY29tcG9zaXRpb249Z29sZC50b19icmVha19zdGFuZGFyZF9zdHJpbmcoKSkKICAgICAgICBzID0gZ2xvYmFsX3N0YXRlLm1hdGNoZXIuaXNfbWF0Y2gocXVlc3Rpb25faWQ9c3RyKGluZGV4KSwgcXVlc3Rpb25fdGV4dD1xdWVzdGlvbiwgZ3JhcGgxPWRlY29tcF9sZiwgZ3JhcGgyPWdvbGRfbGYpCiAgICAgICAgcmV0dXJuIHMKICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZXg6CiAgICAgICAgIyBwcmludChmIkZhaWxlZCBvbjoge2luZGV4fSB8IDAiKQogICAgICAgIHJldHVybiBGYWxzZQoKCmRlZiBldmFsX21hbnkocXVlc3Rpb25zLCBwcmVkcyxnb2xkcyxuX3Byb2M9Tm9uZSk6CiAgICBkZWYgc2V0X2dsb2JhbF9vYmplY3QoKToKICAgICAgICBnbG9iYWwgZ2xvYmFsX3N0YXRlCiAgICAgICAgZ2xvYmFsX3N0YXRlID0gR2xvYmFsU3RhdGUoKQoKICAgIHBvb2wgPSBtdWx0aXByb2Nlc3NpbmcuUG9vbChwcm9jZXNzZXM9bl9wcm9jLGluaXRpYWxpemVyPXNldF9nbG9iYWxfb2JqZWN0KQogICAgbXJhbmdlID0gbGlzdChyYW5nZShsZW4ocHJlZHMpKSkKICAgIHJlc3VsdHMgPSBwb29sLnN0YXJtYXBfYXN5bmMoZXZhbF9zaW5nbGUsIGxpc3QoemlwKHF1ZXN0aW9ucywgcHJlZHMsZ29sZHMsbXJhbmdlKSkpCiAgICByZXN1bHRzID0gcmVzdWx0cy5nZXQoTm9uZSkKCiAgICByZXR1cm4gcmVzdWx0cwoKCmRlZiBldmFsX21hbnlfbXRvcChwcmVkcyxnb2xkcyxuX3Byb2M9Tm9uZSk6CgogICAgcG9vbCA9IG11bHRpcHJvY2Vzc2luZy5Qb29sKHByb2Nlc3Nlcz1uX3Byb2MpCiAgICByZXN1bHRzID0gcG9vbC5zdGFybWFwX2FzeW5jKGV2YWxfc2luZ2xlX210b3AsIGxpc3QoemlwKHByZWRzLGdvbGRzKSkpCiAgICByZXN1bHRzID0gcmVzdWx0cy5nZXQoTm9uZSkKCiAgICByZXR1cm4gcmVzdWx0cwoKCmRlZiBldmFsX21hbnlfc21jYWxmbG93KHByZWRzLGdvbGRzLG5fcHJvYz1Ob25lKToKICAgIHBvb2wgPSBtdWx0aXByb2Nlc3NpbmcuUG9vbChwcm9jZXNzZXM9bl9wcm9jKQogICAgcmVzdWx0cyA9IHBvb2wuc3Rhcm1hcF9hc3luYyhldmFsX3NpbmdsZV9zbWNhbGZsb3csIGxpc3QoemlwKHByZWRzLGdvbGRzKSkpCiAgICByZXN1bHRzID0gcmVzdWx0cy5nZXQoTm9uZSkKCiAgICByZXR1cm4gcmVzdWx0cwo=
+import multiprocessing
+import argparse
+import numpy as np
+
+
+global_state = {}
+from dataclasses import dataclass
+
+
+# from dataflow.core.lispress import try_round_trip
+   
+from src.utils import top_utils
+
+
+def eval_single_mtop(pred: str,gold: str):
+    return pred.strip()==gold
+    pred_lf = top_utils.deserialize_top(pred)
+    gold_lf = top_utils.deserialize_top(gold)
+    if pred_lf is None:
+        return pred==gold
+    else:
+        return pred_lf.serialize()==gold_lf.serialize()
+
+
+
+def eval_single_smcalflow(pred: str,gold: str):
+    return pred.strip()==gold
+    pred_lispress = try_round_trip(pred)
+    gold_lispress = try_round_trip(gold)
+    return pred_lispress==gold_lispress
+
+@dataclass
+class GlobalState:
+    converter = None
+    matcher = None
+    scorer = None
+
+    def __post_init__(self):
+        self.converter = QDMRToQDMRStepTokensConverter()
+        self.matcher = LogicalFromStructuralMatcher()
+        self.scorer = NormalizedGraphMatchScorer()
+
+
+
+
+
+def eval_single(question, generated,decomposition,index):
+    try:
+        # print(f"Starting: {index}")
+        if "#13" in generated:
+            return False
+        def try_invoke(func, graph, default=None):
+            try:
+                return func(graph)
+            except Exception as ex:
+                return default
+
+        gold = format_qdmr(decomposition)
+        pred = format_qdmr(generated.replace("  "," ").lower())
+    
+        decomp_lf = global_state.converter.convert(question_id=str(index), question_text=question, decomposition=pred.to_break_standard_string())
+        gold_lf = global_state.converter.convert(question_id=str(index), question_text=question, decomposition=gold.to_break_standard_string())
+        s = global_state.matcher.is_match(question_id=str(index), question_text=question, graph1=decomp_lf, graph2=gold_lf)
+        return s
+    except Exception as ex:
+        # print(f"Failed on: {index} | 0")
+        return False
+
+
+def eval_many(questions, preds,golds,n_proc=None):
+    def set_global_object():
+        global global_state
+        global_state = GlobalState()
+
+    pool = multiprocessing.Pool(processes=n_proc,initializer=set_global_object)
+    mrange = list(range(len(preds)))
+    results = pool.starmap_async(eval_single, list(zip(questions, preds,golds,mrange)))
+    results = results.get(None)
+
+    return results
+
+
+def eval_many_mtop(preds,golds,n_proc=None):
+
+    pool = multiprocessing.Pool(processes=n_proc)
+    results = pool.starmap_async(eval_single_mtop, list(zip(preds,golds)))
+    results = results.get(None)
+
+    return results
+
+
+def eval_many_smcalflow(preds,golds,n_proc=None):
+    pool = multiprocessing.Pool(processes=n_proc)
+    results = pool.starmap_async(eval_single_smcalflow, list(zip(preds,golds)))
+    results = results.get(None)
+
+    return results

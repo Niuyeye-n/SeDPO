@@ -1,1 +1,78 @@
-aW1wb3J0IG9zCmltcG9ydCBzeXMKc3lzLnBhdGguaW5zZXJ0KDAsIG9zLmdldGN3ZCgpKQppbXBvcnQgaHlkcmEKaW1wb3J0IHRxZG0KaW1wb3J0IGpzb24KaW1wb3J0IHJhbmRvbQppbXBvcnQgb3MKZnJvbSBEUFIuZHByLnV0aWxzLnRhc2tzIGltcG9ydCB0YXNrX21hcApmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKCmNsYXNzIFJhbmRvbUZpbmRlcjoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBjZmcpIC0+IE5vbmU6CiAgICAgICAgc2VsZi5jZmcgPSBjZmcKICAgICAgICBvcy5tYWtlZGlycyhvcy5wYXRoLmRpcm5hbWUoY2ZnLnByb21wdF9wb29sX3BhdGgpLCBleGlzdF9vaz1UcnVlKQogICAgICAgIG9zLm1ha2VkaXJzKG9zLnBhdGguZGlybmFtZShjZmcub3V0cHV0X3BhdGgpLCBleGlzdF9vaz1UcnVlKQogICAgICAgIHRhc2sgPSB0YXNrX21hcC5jbHNfZGljW3NlbGYuY2ZnLnRhc2tfbmFtZV0oKQogICAgICAgIHNlbGYudHJhaW5fZGF0YXNldCA9IHRhc2suZ2V0X2RhdGFzZXQoCiAgICAgICAgICAgIHNwbGl0PSJ0cmFpbiIsCiAgICAgICAgICAgIGRzX3NpemU9Tm9uZSBpZiAiZHNfc2l6ZSIgbm90IGluIGNmZyBlbHNlIGNmZy5kc19zaXplLAogICAgICAgICAgICBjYWNoZV9kaXI9Y2ZnLmNhY2hlX2RpciwKICAgICAgICApCgogICAgICAgIHByaW50KCJzdGFydGVkIGNyZWF0aW5nIHRoZSBwcm9tcHQgcG9vbCIpCiAgICAgICAgc2VsZi5nZXRfcHJvbXB0X3Bvb2woKQogICAgICAgIHByaW50KCJmaW5pc2hlZCBjcmVhdGluZyB0aGUgcHJvbXB0IHBvb2wiKQoKICAgICMgc2FtcGxlIGFuZCBzYXZlIHByb21wdCBwb29sCiAgICBkZWYgZ2V0X3Byb21wdF9wb29sKHNlbGYpOgogICAgICAgIHNlbGYucHJvbXB0X3Bvb2wgPSBzZWxmLnRyYWluX2RhdGFzZXQKICAgICAgICBmb3IgaSwgZW50cnkgaW4gZW51bWVyYXRlKHNlbGYucHJvbXB0X3Bvb2wpOgogICAgICAgICAgICBlbnRyeVsiaWQiXSA9IGkKICAgICAgICAgICAgZW50cnlbInRhc2tfbmFtZSJdID0gc2VsZi5jZmcudGFza19uYW1lCiAgICAgICAgcHJpbnQoInByb21wdF9wb29sIHNpemUiLCBsZW4oc2VsZi5wcm9tcHRfcG9vbCkpCiAgICAgICAgd2l0aCBvcGVuKHNlbGYuY2ZnLnByb21wdF9wb29sX3BhdGgsICJ3IikgYXMgZjoKICAgICAgICAgICAganNvbi5kdW1wKHNlbGYucHJvbXB0X3Bvb2wsIGYpCgojIGZvciBlYWNoIHRhc2sgaW5wdXQsIHNhbXBsZSBMIHByb21wdHMgZm9yIHNjb3JpbmcgZnJvbSB0aGUgcHJvbXB0IHBvb2wgKGkuZS4sIHRhc2sgdHJhaW5pbmcgZGF0YSkKZGVmIGZpbmQoY2ZnKToKICAgIHJhbmRvbV9maW5kZXIgPSBSYW5kb21GaW5kZXIoY2ZnKQogICAgZGF0YV9saXN0ID0gcmFuZG9tX2ZpbmRlci50cmFpbl9kYXRhc2V0CiAgICBpZHhfbGlzdCA9IGxpc3QocmFuZ2UobGVuKHJhbmRvbV9maW5kZXIucHJvbXB0X3Bvb2wpKSkKCiAgICAjIDIwMjYtMTEtMDUg6KeE5qih5o6n5Yi277ya5YCZ6YCJ5rGgKHByb21wdF9wb29sKeS/neaMgeWFqOmHj++8jOWPqumZkOWItuOAjOiiq+aJk+WIhueahCBxdWVyeSDmnaHmlbDjgI3jgIIKICAgICMg55uu55qE77ya566X5Yqb5Y+X6ZmQ5pe25Y6L57yp5omT5YiG5byA6ZSA77yM5L2G5L+d5oyB5qOA57Si6K+t5paZ5LiO5Z+657q/IHJhbmRvbTMg5a6M5YWo5LiA6Ie077yMCiAgICAjIOS/neivgSBTZURQTyDkuI7ln7rnur/nmoTlr7nnhaflhazlubPjgILmnKrorr7nva4gbl9zY29yZSDml7booYzkuLrkuI7ljp/niYjlrozlhajkuIDoh7TjgIIKICAgIG5fc2NvcmUgPSBjZmcuZ2V0KCJuX3Njb3JlIiwgTm9uZSkKICAgIGlmIG5fc2NvcmUgaXMgbm90IE5vbmUgYW5kIGludChuX3Njb3JlKSA+IDA6CiAgICAgICAgbl9zY29yZSA9IGludChuX3Njb3JlKQogICAgICAgIGlmIG5fc2NvcmUgPCBsZW4oZGF0YV9saXN0KToKICAgICAgICAgICAgcHJpbnQoZiJbSU5GT10g6KeE5qih5o6n5Yi277ya5omT5YiGIHF1ZXJ5IOaVsCB7bGVuKGRhdGFfbGlzdCl9IC0+IHtuX3Njb3JlfSIKICAgICAgICAgICAgICAgICAgZiLvvIjlgJnpgInmsaDku43kuLoge2xlbihyYW5kb21fZmluZGVyLnByb21wdF9wb29sKX0g5p2h77yM5LiN5Y+Y77yJIikKICAgICAgICAgICAgZGF0YV9saXN0ID0gZGF0YV9saXN0WzpuX3Njb3JlXQoKICAgIGZvciBpLCBlbGVtZW50IGluIHRxZG0udHFkbShlbnVtZXJhdGUoZGF0YV9saXN0KSk6CiAgICAgICAgcmFuZG9tLnNlZWQoaSkKICAgICAgICBlbGVtZW50WyJpZCJdID0gaQogICAgICAgIGVsZW1lbnRbInN0ZXBfMV9oYXZlX2Nob29zZW4iXSA9IFtdCiAgICAgICAgIyBgY3R4c2Agc3RvcmVzIHRoZSBzYW1wbGVkIHByb21wdCBpZHMgCiAgICAgICAgZWxlbWVudFsic3RlcF8xX2N0eHMiXSA9IFsKICAgICAgICAgICAgeyJpZCI6IGludChhKX0KICAgICAgICAgICAgZm9yIGEgaW4gcmFuZG9tLnNhbXBsZShbaWR4IGZvciBpZHggaW4gaWR4X2xpc3QgaWYgaWR4ICE9IGldLCBrPW1pbihjZmcuTCwgbGVuKGRhdGFfbGlzdCktMSkpICMgYXZvaWQgc2VsZWN0aW5nIHRoZSB0YXNrIGlucHV0IGl0c2VsZgogICAgICAgIF0KICAgIHJldHVybiBkYXRhX2xpc3QKCgpAaHlkcmEubWFpbihjb25maWdfcGF0aD0iLi4vY29uZmlncyIsIGNvbmZpZ19uYW1lPSJyYW5kb21fZmluZGVyIikKZGVmIG1haW4oY2ZnKToKICAgIHByaW50KGNmZykKICAgIGlmIFBhdGgoY2ZnLm91dHB1dF9wYXRoKS5leGlzdHMoKSBhbmQgUGF0aChjZmcucHJvbXB0X3Bvb2xfcGF0aCkuZXhpc3RzKCk6CiAgICAgICAgcHJpbnQoZiJza2lwIGV4aXN0ZWQgZmlsZXM6IHtjZmcub3V0cHV0X3BhdGh9IHtjZmcucHJvbXB0X3Bvb2xfcGF0aH0iKQogICAgICAgIHJldHVybgogICAgZGF0YV9saXN0ID0gZmluZChjZmcpCiAgICB3aXRoIG9wZW4oY2ZnLm91dHB1dF9wYXRoLCAidyIpIGFzIHdyaXRlcjoKICAgICAgICB3cml0ZXIud3JpdGUoanNvbi5kdW1wcyhkYXRhX2xpc3QsIGluZGVudD00KSArICJcbiIpCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgbWFpbigp
+import os
+import sys
+sys.path.insert(0, os.getcwd())
+import hydra
+import tqdm
+import json
+import random
+import os
+from DPR.dpr.utils.tasks import task_map
+from pathlib import Path
+
+class RandomFinder:
+    def __init__(self, cfg) -> None:
+        self.cfg = cfg
+        os.makedirs(os.path.dirname(cfg.prompt_pool_path), exist_ok=True)
+        os.makedirs(os.path.dirname(cfg.output_path), exist_ok=True)
+        task = task_map.cls_dic[self.cfg.task_name]()
+        self.train_dataset = task.get_dataset(
+            split="train",
+            ds_size=None if "ds_size" not in cfg else cfg.ds_size,
+            cache_dir=cfg.cache_dir,
+        )
+
+        print("started creating the prompt pool")
+        self.get_prompt_pool()
+        print("finished creating the prompt pool")
+
+    # sample and save prompt pool
+    def get_prompt_pool(self):
+        self.prompt_pool = self.train_dataset
+        for i, entry in enumerate(self.prompt_pool):
+            entry["id"] = i
+            entry["task_name"] = self.cfg.task_name
+        print("prompt_pool size", len(self.prompt_pool))
+        with open(self.cfg.prompt_pool_path, "w") as f:
+            json.dump(self.prompt_pool, f)
+
+# for each task input, sample L prompts for scoring from the prompt pool (i.e., task training data)
+def find(cfg):
+    random_finder = RandomFinder(cfg)
+    data_list = random_finder.train_dataset
+    idx_list = list(range(len(random_finder.prompt_pool)))
+
+    # 2026-11-05 规模控制：候选池(prompt_pool)保持全量，只限制「被打分的 query 条数」。
+    # 目的：算力受限时压缩打分开销，但保持检索语料与基线 random3 完全一致，
+    # 保证 SeDPO 与基线的对照公平。未设置 n_score 时行为与原版完全一致。
+    n_score = cfg.get("n_score", None)
+    if n_score is not None and int(n_score) > 0:
+        n_score = int(n_score)
+        if n_score < len(data_list):
+            print(f"[INFO] 规模控制：打分 query 数 {len(data_list)} -> {n_score}"
+                  f"（候选池仍为 {len(random_finder.prompt_pool)} 条，不变）")
+            data_list = data_list[:n_score]
+
+    for i, element in tqdm.tqdm(enumerate(data_list)):
+        random.seed(i)
+        element["id"] = i
+        element["step_1_have_choosen"] = []
+        # `ctxs` stores the sampled prompt ids 
+        element["step_1_ctxs"] = [
+            {"id": int(a)}
+            for a in random.sample([idx for idx in idx_list if idx != i], k=min(cfg.L, len(data_list)-1)) # avoid selecting the task input itself
+        ]
+    return data_list
+
+
+@hydra.main(config_path="../configs", config_name="random_finder")
+def main(cfg):
+    print(cfg)
+    if Path(cfg.output_path).exists() and Path(cfg.prompt_pool_path).exists():
+        print(f"skip existed files: {cfg.output_path} {cfg.prompt_pool_path}")
+        return
+    data_list = find(cfg)
+    with open(cfg.output_path, "w") as writer:
+        writer.write(json.dumps(data_list, indent=4) + "\n")
+
+if __name__ == "__main__":
+    main()

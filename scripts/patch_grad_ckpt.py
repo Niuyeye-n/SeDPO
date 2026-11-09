@@ -1,1 +1,134 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uCiMgLSotIGNvZGluZzogdXRmLTggLSotCiIiIgrnu5kgRFBSL3RyYWluX2RlbnNlX2VuY29kZXIucHkg5omT44CM5Y+v6YCJ5qKv5bqm5qOA5p+l54K544CN6KGl5LiB77yIdjLvvIzluYLnrYnvvIzlj6/lm57mu5rvvInjgIIKCuS4uuS7gOS5iOmcgOimge+8iDIwMjYtMTEtMDYg5a6a5L2N77yJ77yaCiAgdHJhaW5fZGVuc2VfZW5jb2Rlci5weSDnrKwgfjkwOSDooYzlnKggSUZfUFJFRkVSX0xPU1M+PTEg5pe25oqKIGJhdGNoIOWGjeS5mCA477yaCiAgICAgIGNmZy50cmFpbi5iYXRjaF9zaXplID0gLi4uIGVsc2UgY2ZnLnRyYWluLmJhdGNoX3NpemUqOAogIHJ1bl9zZWRwb192My5zaCDkvKAgdHJhaW4uYmF0Y2hfc2l6ZT04IOKGkiDlrp7pmYUgNjTjgIIKICDlrp7mtYsgQkVSVC1iYXNlIOiuree7gyA2NCDmnaEgNTEyIOmVv+W6j+WIl+WzsOWAvCAxOS43OCBHaULvvIwKICDliqDkuIrlj4LogIPmqKHlnovkuI7kvJjljJblmajnirbmgIHlkI7otoUgMjRHQiDihpIg5Lik5qyh6K6t57uD6YO95Zyo6aaW5LiqIGl0ZXJhdGlvbiBPT03jgIIKCiAg5Li65LuA5LmI5LiN55u05o6l56CNIGJhdGNo77yaCiAgRFBPTG9zcyDlnKggRElWX1JFSkVDVD0xIOaXtuS7juOAjOaVtOaJueWAmemAieOAjemHjOmaj+acuuaKveaLkue7neagt+acrO+8jAogIOe8qeWwjyBiYXRjaCDkvJrmlLnlj5jotJ/kvovmsaDop4TmqKHkuI7pmr7luqbliIbluIPvvIzlsZ7kuo7lrp7pqozor63kuYnlj5jmm7TjgIIKCiAg5qKv5bqm5qOA5p+l54K55Y+q5L+d5a2Y5q+P5bGC6L6T5YWl44CB5Y+N5ZCR6YeN566X5Lit6Ze05r+A5rS777yMCiAg5a6e5rWLIDY0IOadoeW6j+WIl+WzsOWAvCAxOS43OCDihpIgMy45NSBHaULvvIjnuqYgMS8177yJ77yM5pWw5a2m5LiK5a6M5YWo562J5Lu344CCCgrlsZ7mgKfpk77vvIjlt7LmoLjlr7nmupDnoIHvvInvvJoKICBCaUVuY29kZXIucXVlc3Rpb25fbW9kZWwgLyBjdHhfbW9kZWwgIOKGkiAgSEZCZXJ0RW5jb2RlcihCZXJ0TW9kZWwpCiAg5rOo5oSP5LiN5pivIHF1ZXN0aW9uX2VuY29kZXIvY3R4X2VuY29kZXLvvIjpgqPmmK/liKvlpITnmoTlkb3lkI3vvInjgIIKCueUqOazle+8mgogIEdSQURfQ0tQVD0xIOWQr+eUqO+8m+acquiuvue9ruaIluS4uiAwIOaXtuihjOS4uuS4juWOn+Wni+S7o+eggeWujOWFqOS4gOiHtOOAggogIC0tcmVzdG9yZSDku44gLmJha18yMDI2MTEwNiDlm57mu5rjgIIKIiIiCmltcG9ydCBpbwppbXBvcnQgb3MKaW1wb3J0IHNodXRpbAppbXBvcnQgc3lzCgpUQVJHRVQgPSAiL3Jvb3QvYXV0b2RsLXRtcC9TZURQT19OSVBTMjUvRFBSL3RyYWluX2RlbnNlX2VuY29kZXIucHkiCkJBSyA9IFRBUkdFVCArICIuYmFrXzIwMjYxMTA2IgpNQVJLID0gIltQQVRDSC1HUkFELUNLUFQtMjAyNjExMDZdIgoKSEVMUEVSID0gJycnCiMgLS0tLSB7bWFya30gaGVscGVyIC0tLS0KZGVmIF9lbmFibGVfZ3JhZF9ja3B0KG1vZGVsKToKICAgICIiIuWcqCBCaUVuY29kZXIg55qE5Lik5LiqIEhGQmVydEVuY29kZXIg5LiK5ZCv55So5qKv5bqm5qOA5p+l54K577yM6L+U5Zue5ZCv55So5Liq5pWw44CCIiIiCiAgICB0YXJnZXQgPSBtb2RlbAogICAgaWYgaGFzYXR0cih0YXJnZXQsICJtb2R1bGUiKTogICAgICAgICAgIyBEYXRhUGFyYWxsZWwg5YyF6KOFCiAgICAgICAgdGFyZ2V0ID0gdGFyZ2V0Lm1vZHVsZQogICAgbiA9IDAKICAgIGZvciBhdHRyIGluICgicXVlc3Rpb25fbW9kZWwiLCAiY3R4X21vZGVsIiwgInF1ZXN0aW9uX2VuY29kZXIiLCAiY3R4X2VuY29kZXIiKToKICAgICAgICBlbmMgPSBnZXRhdHRyKHRhcmdldCwgYXR0ciwgTm9uZSkKICAgICAgICBpZiBlbmMgaXMgTm9uZSBvciBub3QgaGFzYXR0cihlbmMsICJncmFkaWVudF9jaGVja3BvaW50aW5nX2VuYWJsZSIpOgogICAgICAgICAgICBjb250aW51ZQogICAgICAgIHRyeToKICAgICAgICAgICAgIyB1c2VfcmVlbnRyYW50PUZhbHNlIOWvueaXoOair+W6pui+k+WFpeabtOeos+WBpe+8iHRyYW5zZm9ybWVycz49NC4zNCDmlK/mjIHvvIkKICAgICAgICAgICAgZW5jLmdyYWRpZW50X2NoZWNrcG9pbnRpbmdfZW5hYmxlKAogICAgICAgICAgICAgICAgZ3JhZGllbnRfY2hlY2twb2ludGluZ19rd2FyZ3M9e3sidXNlX3JlZW50cmFudCI6IEZhbHNlfX0KICAgICAgICAgICAgKQogICAgICAgIGV4Y2VwdCBUeXBlRXJyb3I6CiAgICAgICAgICAgIGVuYy5ncmFkaWVudF9jaGVja3BvaW50aW5nX2VuYWJsZSgpCiAgICAgICAgbiArPSAxCiAgICByZXR1cm4gbgojIC0tLS0gL3ttYXJrfSBoZWxwZXIgLS0tLQonJycuZm9ybWF0KG1hcms9TUFSSykKCkNBTEwgPSAnJycKICAgICAgICAjIC0tLS0ge21hcmt9IC0tLS0KICAgICAgICBpZiBpbnQob3MuZW52aXJvbi5nZXQoIkdSQURfQ0tQVCIsICIwIikpID09IDE6CiAgICAgICAgICAgIF9uX2NrID0gX2VuYWJsZV9ncmFkX2NrcHQoc2VsZi5iaWVuY29kZXIpCiAgICAgICAgICAgIGlmIF9uX2NrOgogICAgICAgICAgICAgICAgbG9nZ2VyLmluZm8oIltHUkFEX0NLUFRdIOW3suWQr+eUqOair+W6puajgOafpeeCue+8jOe8lueggeWZqOaVsD0lZO+8iOaYvuWtmOmZjeiHs+e6pjEvNe+8jOiAl+aXtisyMH4yNSUl77yJIiwgX25fY2spCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBsb2dnZXIud2FybmluZygiW0dSQURfQ0tQVF0g5pyq5om+5Yiw5Lu75L2V57yW56CB5Zmo77yM5qKv5bqm5qOA5p+l54K55pyq55Sf5pWIIikKICAgICAgICAjIC0tLS0gL3ttYXJrfSAtLS0tCicnJy5mb3JtYXQobWFyaz1NQVJLKQoKQU5DSE9SX0NBTEwgPSAiICAgICAgICBzZWxmLmJpZW5jb2RlciA9IG1vZGVsXG4iCkFOQ0hPUl9IRUxQRVIgPSAiQGh5ZHJhLm1haW4oY29uZmlnX3BhdGg9XCJjb25mXCIsIGNvbmZpZ19uYW1lPVwiYmllbmNvZGVyX3RyYWluX2NmZ1wiKSIKCgpkZWYgcmVzdG9yZSgpOgogICAgaWYgbm90IG9zLnBhdGguZXhpc3RzKEJBSyk6CiAgICAgICAgcHJpbnQoIltGQUlMXSDlpIfku73kuI3lrZjlnKjvvIzml6Dms5Xlm57mu5o6ICVzIiAlIEJBSykKICAgICAgICByZXR1cm4gMgogICAgc2h1dGlsLmNvcHlmaWxlKEJBSywgVEFSR0VUKQogICAgcHJpbnQoIltPS10g5bey5Zue5rua5Yiw5aSH5Lu9OiAlcyIgJSBUQVJHRVQpCiAgICByZXR1cm4gMAoKCmRlZiBtYWluKCk6CiAgICBpZiAiLS1yZXN0b3JlIiBpbiBzeXMuYXJndjoKICAgICAgICByZXR1cm4gcmVzdG9yZSgpCgogICAgd2l0aCBpby5vcGVuKFRBUkdFVCwgInIiLCBlbmNvZGluZz0idXRmLTgiKSBhcyBmOgogICAgICAgIHNyYyA9IGYucmVhZCgpCgogICAgIyDoi6XlrZjlnKjml6fniYjvvIjlsZ7mgKflkI3plJnor6/nmoTvvInooaXkuIHvvIzlhYjlm57mu5oKICAgIGlmIE1BUksgaW4gc3JjOgogICAgICAgIHByaW50KCJbSU5GT10g5qOA5rWL5Yiw5bey5pyJ6KGl5LiB77yM5YWI5Zue5rua5ZCO6YeN5omTIikKICAgICAgICByZXN0b3JlKCkKICAgICAgICB3aXRoIGlvLm9wZW4oVEFSR0VULCAiciIsIGVuY29kaW5nPSJ1dGYtOCIpIGFzIGY6CiAgICAgICAgICAgIHNyYyA9IGYucmVhZCgpCgogICAgaWYgQU5DSE9SX0NBTEwgbm90IGluIHNyYzoKICAgICAgICBwcmludCgiW0ZBSUxdIOacquaJvuWIsOmUmueCuTogc2VsZi5iaWVuY29kZXIgPSBtb2RlbCIpCiAgICAgICAgcmV0dXJuIDIKICAgIGlmIEFOQ0hPUl9IRUxQRVIgbm90IGluIHNyYzoKICAgICAgICBwcmludCgiW0ZBSUxdIOacquaJvuWIsCBoZWxwZXIg5o+S5YWl54K5OiBAaHlkcmEubWFpbiIpCiAgICAgICAgcmV0dXJuIDIKCiAgICAjIOWkh+S7veWOn+Wni+aWh+S7tu+8iOWPquWcqOmmluasoe+8iQogICAgaWYgbm90IG9zLnBhdGguZXhpc3RzKEJBSyk6CiAgICAgICAgd2l0aCBpby5vcGVuKEJBSywgInciLCBlbmNvZGluZz0idXRmLTgiKSBhcyBmOgogICAgICAgICAgICBmLndyaXRlKHNyYykKCiAgICBuZXcgPSBzcmMucmVwbGFjZShBTkNIT1JfSEVMUEVSLCBIRUxQRVIuc3RyaXAoIlxuIikgKyAiXG5cblxuIiArIEFOQ0hPUl9IRUxQRVIsIDEpCiAgICBuZXcgPSBuZXcucmVwbGFjZShBTkNIT1JfQ0FMTCwgQU5DSE9SX0NBTEwgKyBDQUxMLCAxKQoKICAgIGlmIG5ldyA9PSBzcmM6CiAgICAgICAgcHJpbnQoIltGQUlMXSDmm7/mjaLmnKrnlJ/mlYgiKQogICAgICAgIHJldHVybiAyCgogICAgdHJ5OgogICAgICAgIGNvbXBpbGUobmV3LCBUQVJHRVQsICJleGVjIikKICAgIGV4Y2VwdCBTeW50YXhFcnJvciBhcyBlOgogICAgICAgIHByaW50KCJbRkFJTF0g6K+t5rOV6ZSZ6K+v77yM5pyq5YaZ5YWlOiAlcyIgJSBlKQogICAgICAgIHJldHVybiAzCgogICAgd2l0aCBpby5vcGVuKFRBUkdFVCwgInciLCBlbmNvZGluZz0idXRmLTgiKSBhcyBmOgogICAgICAgIGYud3JpdGUobmV3KQoKICAgIHByaW50KCJbT0tdIOihpeS4geW3suWGmeWFpTogJXMiICUgVEFSR0VUKQogICAgcHJpbnQoIiAgICAg5aSH5Lu9OiAlcyIgJSBCQUspCiAgICBwcmludCgiICAgICDnlKjms5U6IEdSQURfQ0tQVD0xIOaXtuWQr+eUqO+8m+S4jeiuvuWImeihjOS4uuS4jeWPmCIpCiAgICByZXR1cm4gMAoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBzeXMuZXhpdChtYWluKCkpCg==
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+给 DPR/train_dense_encoder.py 打「可选梯度检查点」补丁（v2，幂等，可回滚）。
+
+为什么需要（2026-11-06 定位）：
+  train_dense_encoder.py 第 ~909 行在 IF_PREFER_LOSS>=1 时把 batch 再乘 8：
+      cfg.train.batch_size = ... else cfg.train.batch_size*8
+  run_sedpo_v3.sh 传 train.batch_size=8 → 实际 64。
+  实测 BERT-base 训练 64 条 512 长序列峰值 19.78 GiB，
+  加上参考模型与优化器状态后超 24GB → 两次训练都在首个 iteration OOM。
+
+  为什么不直接砍 batch：
+  DPOLoss 在 DIV_REJECT=1 时从「整批候选」里随机抽拒绝样本，
+  缩小 batch 会改变负例池规模与难度分布，属于实验语义变更。
+
+  梯度检查点只保存每层输入、反向重算中间激活，
+  实测 64 条序列峰值 19.78 → 3.95 GiB（约 1/5），数学上完全等价。
+
+属性链（已核对源码）：
+  BiEncoder.question_model / ctx_model  →  HFBertEncoder(BertModel)
+  注意不是 question_encoder/ctx_encoder（那是别处的命名）。
+
+用法：
+  GRAD_CKPT=1 启用；未设置或为 0 时行为与原始代码完全一致。
+  --restore 从 .bak_20261106 回滚。
+"""
+import io
+import os
+import shutil
+import sys
+
+TARGET = "/root/autodl-tmp/SeDPO_NIPS25/DPR/train_dense_encoder.py"
+BAK = TARGET + ".bak_20261106"
+MARK = "[PATCH-GRAD-CKPT-20261106]"
+
+HELPER = '''
+# ---- {mark} helper ----
+def _enable_grad_ckpt(model):
+    """在 BiEncoder 的两个 HFBertEncoder 上启用梯度检查点，返回启用个数。"""
+    target = model
+    if hasattr(target, "module"):          # DataParallel 包装
+        target = target.module
+    n = 0
+    for attr in ("question_model", "ctx_model", "question_encoder", "ctx_encoder"):
+        enc = getattr(target, attr, None)
+        if enc is None or not hasattr(enc, "gradient_checkpointing_enable"):
+            continue
+        try:
+            # use_reentrant=False 对无梯度输入更稳健（transformers>=4.34 支持）
+            enc.gradient_checkpointing_enable(
+                gradient_checkpointing_kwargs={{"use_reentrant": False}}
+            )
+        except TypeError:
+            enc.gradient_checkpointing_enable()
+        n += 1
+    return n
+# ---- /{mark} helper ----
+'''.format(mark=MARK)
+
+CALL = '''
+        # ---- {mark} ----
+        if int(os.environ.get("GRAD_CKPT", "0")) == 1:
+            _n_ck = _enable_grad_ckpt(self.biencoder)
+            if _n_ck:
+                logger.info("[GRAD_CKPT] 已启用梯度检查点，编码器数=%d（显存降至约1/5，耗时+20~25%%）", _n_ck)
+            else:
+                logger.warning("[GRAD_CKPT] 未找到任何编码器，梯度检查点未生效")
+        # ---- /{mark} ----
+'''.format(mark=MARK)
+
+ANCHOR_CALL = "        self.biencoder = model\n"
+ANCHOR_HELPER = "@hydra.main(config_path=\"conf\", config_name=\"biencoder_train_cfg\")"
+
+
+def restore():
+    if not os.path.exists(BAK):
+        print("[FAIL] 备份不存在，无法回滚: %s" % BAK)
+        return 2
+    shutil.copyfile(BAK, TARGET)
+    print("[OK] 已回滚到备份: %s" % TARGET)
+    return 0
+
+
+def main():
+    if "--restore" in sys.argv:
+        return restore()
+
+    with io.open(TARGET, "r", encoding="utf-8") as f:
+        src = f.read()
+
+    # 若存在旧版（属性名错误的）补丁，先回滚
+    if MARK in src:
+        print("[INFO] 检测到已有补丁，先回滚后重打")
+        restore()
+        with io.open(TARGET, "r", encoding="utf-8") as f:
+            src = f.read()
+
+    if ANCHOR_CALL not in src:
+        print("[FAIL] 未找到锚点: self.biencoder = model")
+        return 2
+    if ANCHOR_HELPER not in src:
+        print("[FAIL] 未找到 helper 插入点: @hydra.main")
+        return 2
+
+    # 备份原始文件（只在首次）
+    if not os.path.exists(BAK):
+        with io.open(BAK, "w", encoding="utf-8") as f:
+            f.write(src)
+
+    new = src.replace(ANCHOR_HELPER, HELPER.strip("\n") + "\n\n\n" + ANCHOR_HELPER, 1)
+    new = new.replace(ANCHOR_CALL, ANCHOR_CALL + CALL, 1)
+
+    if new == src:
+        print("[FAIL] 替换未生效")
+        return 2
+
+    try:
+        compile(new, TARGET, "exec")
+    except SyntaxError as e:
+        print("[FAIL] 语法错误，未写入: %s" % e)
+        return 3
+
+    with io.open(TARGET, "w", encoding="utf-8") as f:
+        f.write(new)
+
+    print("[OK] 补丁已写入: %s" % TARGET)
+    print("     备份: %s" % BAK)
+    print("     用法: GRAD_CKPT=1 时启用；不设则行为不变")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

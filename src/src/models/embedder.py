@@ -1,1 +1,17 @@
-ZnJvbSB0cmFuc2Zvcm1lcnMgaW1wb3J0IEF1dG9Nb2RlbApmcm9tIHR5cGluZyBpbXBvcnQgRGljdAppbXBvcnQgdG9yY2gKCmRlZiBtZWFuX3Bvb2xpbmcobW9kZWxfb3V0cHV0LCBhdHRlbnRpb25fbWFzayk6CiAgICB0b2tlbl9lbWJlZGRpbmdzID0gbW9kZWxfb3V0cHV0WzBdICNGaXJzdCBlbGVtZW50IG9mIG1vZGVsX291dHB1dCBjb250YWlucyBhbGwgdG9rZW4gZW1iZWRkaW5ncwogICAgaW5wdXRfbWFza19leHBhbmRlZCA9IGF0dGVudGlvbl9tYXNrLnVuc3F1ZWV6ZSgtMSkuZXhwYW5kKHRva2VuX2VtYmVkZGluZ3Muc2l6ZSgpKS5mbG9hdCgpCiAgICByZXR1cm4gdG9yY2guc3VtKHRva2VuX2VtYmVkZGluZ3MgKiBpbnB1dF9tYXNrX2V4cGFuZGVkLCAxKSAvIHRvcmNoLmNsYW1wKGlucHV0X21hc2tfZXhwYW5kZWQuc3VtKDEpLCBtaW49MWUtOSkKCmNsYXNzIEluZGV4RW1iZWRkZXIodG9yY2gubm4uTW9kdWxlKToKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBtb2RlbF9uYW1lLGNhY2hlX2RpcikgLT4gTm9uZToKICAgICAgICBzdXBlcigpLl9faW5pdF9fKCkKICAgICAgICBzZWxmLmVtYmVkZGVyID0gIEF1dG9Nb2RlbC5mcm9tX3ByZXRyYWluZWQobW9kZWxfbmFtZSxjYWNoZV9kaXIpCgogICAgZGVmIGZvcndhcmQoc2VsZiwgaW5wdXRfaWRzLCBhdHRlbnRpb25fbWFzaywqKmt3YXJncykgLT4gRGljdFtzdHIsIHRvcmNoLlRlbnNvcl06CiAgICAgICAgZW5jX2VtYiA9IHNlbGYuZW1iZWRkZXIoaW5wdXRfaWRzKQogICAgICAgIHJldHVybiBtZWFuX3Bvb2xpbmcoZW5jX2VtYiwgYXR0ZW50aW9uX21hc2sp
+from transformers import AutoModel
+from typing import Dict
+import torch
+
+def mean_pooling(model_output, attention_mask):
+    token_embeddings = model_output[0] #First element of model_output contains all token embeddings
+    input_mask_expanded = attention_mask.unsqueeze(-1).expand(token_embeddings.size()).float()
+    return torch.sum(token_embeddings * input_mask_expanded, 1) / torch.clamp(input_mask_expanded.sum(1), min=1e-9)
+
+class IndexEmbedder(torch.nn.Module):
+    def __init__(self, model_name,cache_dir) -> None:
+        super().__init__()
+        self.embedder =  AutoModel.from_pretrained(model_name,cache_dir)
+
+    def forward(self, input_ids, attention_mask,**kwargs) -> Dict[str, torch.Tensor]:
+        enc_emb = self.embedder(input_ids)
+        return mean_pooling(enc_emb, attention_mask)

@@ -1,1 +1,236 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwojIENvcHlyaWdodCAoYykgRmFjZWJvb2ssIEluYy4gYW5kIGl0cyBhZmZpbGlhdGVzLgojIEFsbCByaWdodHMgcmVzZXJ2ZWQuCiMKIyBUaGlzIHNvdXJjZSBjb2RlIGlzIGxpY2Vuc2VkIHVuZGVyIHRoZSBsaWNlbnNlIGZvdW5kIGluIHRoZQojIExJQ0VOU0UgZmlsZSBpbiB0aGUgcm9vdCBkaXJlY3Rvcnkgb2YgdGhpcyBzb3VyY2UgdHJlZS4KCiIiIgpUaGUgcmVhZGVyIG1vZGVsIGNvZGUgKyBpdHMgdXRpbGl0aWVzIChsb3NzIGNvbXB1dGF0aW9uIGFuZCBpbnB1dCBiYXRjaCB0ZW5zb3IgZ2VuZXJhdG9yKQoiIiIKCmltcG9ydCBjb2xsZWN0aW9ucwppbXBvcnQgbG9nZ2luZwpmcm9tIHR5cGluZyBpbXBvcnQgTGlzdAoKaW1wb3J0IG51bXB5IGFzIG5wCmltcG9ydCB0b3JjaAppbXBvcnQgdG9yY2gubm4gYXMgbm4KZnJvbSB0b3JjaCBpbXBvcnQgVGVuc29yIGFzIFQKZnJvbSB0b3JjaC5ubiBpbXBvcnQgQ3Jvc3NFbnRyb3B5TG9zcwoKZnJvbSBkcHIuZGF0YS5yZWFkZXJfZGF0YSBpbXBvcnQgUmVhZGVyU2FtcGxlLCBSZWFkZXJQYXNzYWdlCmZyb20gZHByLnV0aWxzLm1vZGVsX3V0aWxzIGltcG9ydCBpbml0X3dlaWdodHMKCmxvZ2dlciA9IGxvZ2dpbmcuZ2V0TG9nZ2VyKCkKClJlYWRlckJhdGNoID0gY29sbGVjdGlvbnMubmFtZWR0dXBsZSgnUmVhZGVyQmF0Y2gnLCBbJ2lucHV0X2lkcycsICdzdGFydF9wb3NpdGlvbnMnLCAnZW5kX3Bvc2l0aW9ucycsICdhbnN3ZXJzX21hc2snXSkKCgpjbGFzcyBSZWFkZXIobm4uTW9kdWxlKToKCiAgICBkZWYgX19pbml0X18oc2VsZiwgZW5jb2Rlcjogbm4uTW9kdWxlLCBoaWRkZW5fc2l6ZSk6CiAgICAgICAgc3VwZXIoUmVhZGVyLCBzZWxmKS5fX2luaXRfXygpCiAgICAgICAgc2VsZi5lbmNvZGVyID0gZW5jb2RlcgogICAgICAgIHNlbGYucWFfb3V0cHV0cyA9IG5uLkxpbmVhcihoaWRkZW5fc2l6ZSwgMikKICAgICAgICBzZWxmLnFhX2NsYXNzaWZpZXIgPSBubi5MaW5lYXIoaGlkZGVuX3NpemUsIDEpCiAgICAgICAgaW5pdF93ZWlnaHRzKFtzZWxmLnFhX291dHB1dHMsIHNlbGYucWFfY2xhc3NpZmllcl0pCgogICAgZGVmIGZvcndhcmQoc2VsZiwgaW5wdXRfaWRzOiBULCBhdHRlbnRpb25fbWFzazogVCwgc3RhcnRfcG9zaXRpb25zPU5vbmUsIGVuZF9wb3NpdGlvbnM9Tm9uZSwgYW5zd2VyX21hc2s9Tm9uZSk6CiAgICAgICAgIyBub3RhdGlvbnM6IE4gLSBudW1iZXIgb2YgcXVlc3Rpb25zIGluIGEgYmF0Y2gsIE0gLSBudW1iZXIgb2YgcGFzc2FnZXMgcGVyIHF1ZXN0aW9ucywgTCAtIHNlcXVlbmNlIGxlbmd0aAogICAgICAgIE4sIE0sIEwgPSBpbnB1dF9pZHMuc2l6ZSgpCiAgICAgICAgc3RhcnRfbG9naXRzLCBlbmRfbG9naXRzLCByZWxldmFuY2VfbG9naXRzID0gc2VsZi5fZm9yd2FyZChpbnB1dF9pZHMudmlldyhOICogTSwgTCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRlbnRpb25fbWFzay52aWV3KE4gKiBNLCBMKSkKICAgICAgICBpZiBzZWxmLnRyYWluaW5nOgogICAgICAgICAgICByZXR1cm4gY29tcHV0ZV9sb3NzKHN0YXJ0X3Bvc2l0aW9ucywgZW5kX3Bvc2l0aW9ucywgYW5zd2VyX21hc2ssIHN0YXJ0X2xvZ2l0cywgZW5kX2xvZ2l0cywgcmVsZXZhbmNlX2xvZ2l0cywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBOLCBNKQoKICAgICAgICByZXR1cm4gc3RhcnRfbG9naXRzLnZpZXcoTiwgTSwgTCksIGVuZF9sb2dpdHMudmlldyhOLCBNLCBMKSwgcmVsZXZhbmNlX2xvZ2l0cy52aWV3KE4sIE0pCgogICAgZGVmIF9mb3J3YXJkKHNlbGYsIGlucHV0X2lkcywgYXR0ZW50aW9uX21hc2spOgogICAgICAgICMgVE9ETzogcHJvdmlkZSBzZWdtZW50IHZhbHVlcwogICAgICAgIHNlcXVlbmNlX291dHB1dCwgX3Bvb2xlZF9vdXRwdXQsIF9oaWRkZW5fc3RhdGVzID0gc2VsZi5lbmNvZGVyKGlucHV0X2lkcywgTm9uZSwgYXR0ZW50aW9uX21hc2spCiAgICAgICAgbG9naXRzID0gc2VsZi5xYV9vdXRwdXRzKHNlcXVlbmNlX291dHB1dCkKICAgICAgICBzdGFydF9sb2dpdHMsIGVuZF9sb2dpdHMgPSBsb2dpdHMuc3BsaXQoMSwgZGltPS0xKQogICAgICAgIHN0YXJ0X2xvZ2l0cyA9IHN0YXJ0X2xvZ2l0cy5zcXVlZXplKC0xKQogICAgICAgIGVuZF9sb2dpdHMgPSBlbmRfbG9naXRzLnNxdWVlemUoLTEpCiAgICAgICAgcmFua19sb2dpdHMgPSBzZWxmLnFhX2NsYXNzaWZpZXIoc2VxdWVuY2Vfb3V0cHV0WzosIDAsIDpdKQogICAgICAgIHJldHVybiBzdGFydF9sb2dpdHMsIGVuZF9sb2dpdHMsIHJhbmtfbG9naXRzCgoKZGVmIGNvbXB1dGVfbG9zcyhzdGFydF9wb3NpdGlvbnMsIGVuZF9wb3NpdGlvbnMsIGFuc3dlcl9tYXNrLCBzdGFydF9sb2dpdHMsIGVuZF9sb2dpdHMsIHJlbGV2YW5jZV9sb2dpdHMsIE4sIE0pOgogICAgc3RhcnRfcG9zaXRpb25zID0gc3RhcnRfcG9zaXRpb25zLnZpZXcoTiAqIE0sIC0xKQogICAgZW5kX3Bvc2l0aW9ucyA9IGVuZF9wb3NpdGlvbnMudmlldyhOICogTSwgLTEpCiAgICBhbnN3ZXJfbWFzayA9IGFuc3dlcl9tYXNrLnZpZXcoTiAqIE0sIC0xKQoKICAgIHN0YXJ0X2xvZ2l0cyA9IHN0YXJ0X2xvZ2l0cy52aWV3KE4gKiBNLCAtMSkKICAgIGVuZF9sb2dpdHMgPSBlbmRfbG9naXRzLnZpZXcoTiAqIE0sIC0xKQogICAgcmVsZXZhbmNlX2xvZ2l0cyA9IHJlbGV2YW5jZV9sb2dpdHMudmlldyhOICogTSkKCiAgICBhbnN3ZXJfbWFzayA9IGFuc3dlcl9tYXNrLnR5cGUodG9yY2guRmxvYXRUZW5zb3IpLmN1ZGEoKQoKICAgIGlnbm9yZWRfaW5kZXggPSBzdGFydF9sb2dpdHMuc2l6ZSgxKQogICAgc3RhcnRfcG9zaXRpb25zLmNsYW1wXygwLCBpZ25vcmVkX2luZGV4KQogICAgZW5kX3Bvc2l0aW9ucy5jbGFtcF8oMCwgaWdub3JlZF9pbmRleCkKICAgIGxvc3NfZmN0ID0gQ3Jvc3NFbnRyb3B5TG9zcyhyZWR1Y2U9RmFsc2UsIGlnbm9yZV9pbmRleD1pZ25vcmVkX2luZGV4KQoKICAgICMgY29tcHV0ZSBzd2l0Y2ggbG9zcwogICAgcmVsZXZhbmNlX2xvZ2l0cyA9IHJlbGV2YW5jZV9sb2dpdHMudmlldyhOLCBNKQogICAgc3dpdGNoX2xhYmVscyA9IHRvcmNoLnplcm9zKE4sIGR0eXBlPXRvcmNoLmxvbmcpLmN1ZGEoKQogICAgc3dpdGNoX2xvc3MgPSB0b3JjaC5zdW0obG9zc19mY3QocmVsZXZhbmNlX2xvZ2l0cywgc3dpdGNoX2xhYmVscykpCgogICAgIyBjb21wdXRlIHNwYW4gbG9zcwogICAgc3RhcnRfbG9zc2VzID0gWyhsb3NzX2ZjdChzdGFydF9sb2dpdHMsIF9zdGFydF9wb3NpdGlvbnMpICogX3NwYW5fbWFzaykKICAgICAgICAgICAgICAgICAgICBmb3IgKF9zdGFydF9wb3NpdGlvbnMsIF9zcGFuX21hc2spCiAgICAgICAgICAgICAgICAgICAgaW4gemlwKHRvcmNoLnVuYmluZChzdGFydF9wb3NpdGlvbnMsIGRpbT0xKSwgdG9yY2gudW5iaW5kKGFuc3dlcl9tYXNrLCBkaW09MSkpXQoKICAgIGVuZF9sb3NzZXMgPSBbKGxvc3NfZmN0KGVuZF9sb2dpdHMsIF9lbmRfcG9zaXRpb25zKSAqIF9zcGFuX21hc2spCiAgICAgICAgICAgICAgICAgIGZvciAoX2VuZF9wb3NpdGlvbnMsIF9zcGFuX21hc2spCiAgICAgICAgICAgICAgICAgIGluIHppcCh0b3JjaC51bmJpbmQoZW5kX3Bvc2l0aW9ucywgZGltPTEpLCB0b3JjaC51bmJpbmQoYW5zd2VyX21hc2ssIGRpbT0xKSldCiAgICBsb3NzX3RlbnNvciA9IHRvcmNoLmNhdChbdC51bnNxdWVlemUoMSkgZm9yIHQgaW4gc3RhcnRfbG9zc2VzXSwgZGltPTEpICsgXAogICAgICAgICAgICAgICAgICB0b3JjaC5jYXQoW3QudW5zcXVlZXplKDEpIGZvciB0IGluIGVuZF9sb3NzZXNdLCBkaW09MSkKCiAgICBsb3NzX3RlbnNvciA9IGxvc3NfdGVuc29yLnZpZXcoTiwgTSwgLTEpLm1heChkaW09MSlbMF0KICAgIHNwYW5fbG9zcyA9IF9jYWxjX21tbChsb3NzX3RlbnNvcikKICAgIHJldHVybiBzcGFuX2xvc3MgKyBzd2l0Y2hfbG9zcwoKCmRlZiBjcmVhdGVfcmVhZGVyX2lucHV0KHBhZF90b2tlbl9pZDogaW50LAogICAgICAgICAgICAgICAgICAgICAgICBzYW1wbGVzOiBMaXN0W1JlYWRlclNhbXBsZV0sCiAgICAgICAgICAgICAgICAgICAgICAgIHBhc3NhZ2VzX3Blcl9xdWVzdGlvbjogaW50LAogICAgICAgICAgICAgICAgICAgICAgICBtYXhfbGVuZ3RoOiBpbnQsCiAgICAgICAgICAgICAgICAgICAgICAgIG1heF9uX2Fuc3dlcnM6IGludCwKICAgICAgICAgICAgICAgICAgICAgICAgaXNfdHJhaW46IGJvb2wsCiAgICAgICAgICAgICAgICAgICAgICAgIHNodWZmbGU6IGJvb2wsCiAgICAgICAgICAgICAgICAgICAgICAgICkgLT4gUmVhZGVyQmF0Y2g6CiAgICAiIiIKICAgIENyZWF0ZXMgYSByZWFkZXIgYmF0Y2ggaW5zdGFuY2Ugb3V0IG9mIGEgbGlzdCBvZiBSZWFkZXJTYW1wbGUtcwogICAgOnBhcmFtIHBhZF90b2tlbl9pZDogaWQgb2YgdGhlIHBhZGRpbmcgdG9rZW4KICAgIDpwYXJhbSBzYW1wbGVzOiBsaXN0IG9mIHNhbXBsZXMgdG8gY3JlYXRlIHRoZSBiYXRjaCBmb3IKICAgIDpwYXJhbSBwYXNzYWdlc19wZXJfcXVlc3Rpb246IGFtb3VudCBvZiBwYXNzYWdlcyBmb3IgZXZlcnkgcXVlc3Rpb24gaW4gYSBiYXRjaAogICAgOnBhcmFtIG1heF9sZW5ndGg6IG1heCBtb2RlbCBpbnB1dCBzZXF1ZW5jZSBsZW5ndGgKICAgIDpwYXJhbSBtYXhfbl9hbnN3ZXJzOiBtYXggbnVtIG9mIGFuc3dlcnMgcGVyIHNpbmdsZSBxdWVzdGlvbgogICAgOnBhcmFtIGlzX3RyYWluOiBpZiB0aGUgc2FtcGxlcyBhcmUgZm9yIGEgdHJhaW4gc2V0CiAgICA6cGFyYW0gc2h1ZmZsZTogc2hvdWxkIHBhc3NhZ2VzIHNlbGVjdGlvbiBiZSByYW5kb21pemVkCiAgICA6cmV0dXJuOiBSZWFkZXJCYXRjaCBpbnN0YW5jZQogICAgIiIiCiAgICBpbnB1dF9pZHMgPSBbXQogICAgc3RhcnRfcG9zaXRpb25zID0gW10KICAgIGVuZF9wb3NpdGlvbnMgPSBbXQogICAgYW5zd2Vyc19tYXNrcyA9IFtdCiAgICBlbXB0eV9zZXF1ZW5jZSA9IHRvcmNoLlRlbnNvcigpLm5ld19mdWxsKChtYXhfbGVuZ3RoLCksIHBhZF90b2tlbl9pZCwgZHR5cGU9dG9yY2gubG9uZykKCiAgICBmb3Igc2FtcGxlIGluIHNhbXBsZXM6CiAgICAgICAgcG9zaXRpdmVfY3R4cyA9IHNhbXBsZS5wb3NpdGl2ZV9wYXNzYWdlcwogICAgICAgIG5lZ2F0aXZlX2N0eHMgPSBzYW1wbGUubmVnYXRpdmVfcGFzc2FnZXMgaWYgaXNfdHJhaW4gZWxzZSBzYW1wbGUucGFzc2FnZXMKCiAgICAgICAgc2FtcGxlX3RlbnNvcnMgPSBfY3JlYXRlX3F1ZXN0aW9uX3Bhc3NhZ2VzX3RlbnNvcnMocG9zaXRpdmVfY3R4cywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuZWdhdGl2ZV9jdHhzLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhc3NhZ2VzX3Blcl9xdWVzdGlvbiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbXB0eV9zZXF1ZW5jZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXhfbl9hbnN3ZXJzLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhZF90b2tlbl9pZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpc190cmFpbiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpc19yYW5kb209c2h1ZmZsZSkKICAgICAgICBpZiBub3Qgc2FtcGxlX3RlbnNvcnM6CiAgICAgICAgICAgIGxvZ2dlci53YXJuaW5nKCdObyB2YWxpZCBwYXNzYWdlcyBjb21iaW5hdGlvbiBmb3IgcXVlc3Rpb249JXMgJywgc2FtcGxlLnF1ZXN0aW9uKQogICAgICAgICAgICBjb250aW51ZQogICAgICAgIHNhbXBsZV9pbnB1dF9pZHMsIHN0YXJ0c190ZW5zb3IsIGVuZHNfdGVuc29yLCBhbnN3ZXJfbWFzayA9IHNhbXBsZV90ZW5zb3JzCiAgICAgICAgaW5wdXRfaWRzLmFwcGVuZChzYW1wbGVfaW5wdXRfaWRzKQogICAgICAgIGlmIGlzX3RyYWluOgogICAgICAgICAgICBzdGFydF9wb3NpdGlvbnMuYXBwZW5kKHN0YXJ0c190ZW5zb3IpCiAgICAgICAgICAgIGVuZF9wb3NpdGlvbnMuYXBwZW5kKGVuZHNfdGVuc29yKQogICAgICAgICAgICBhbnN3ZXJzX21hc2tzLmFwcGVuZChhbnN3ZXJfbWFzaykKICAgIGlucHV0X2lkcyA9IHRvcmNoLmNhdChbaWRzLnVuc3F1ZWV6ZSgwKSBmb3IgaWRzIGluIGlucHV0X2lkc10sIGRpbT0wKQoKICAgIGlmIGlzX3RyYWluOgogICAgICAgIHN0YXJ0X3Bvc2l0aW9ucyA9IHRvcmNoLnN0YWNrKHN0YXJ0X3Bvc2l0aW9ucywgZGltPTApCiAgICAgICAgZW5kX3Bvc2l0aW9ucyA9IHRvcmNoLnN0YWNrKGVuZF9wb3NpdGlvbnMsIGRpbT0wKQogICAgICAgIGFuc3dlcnNfbWFza3MgPSB0b3JjaC5zdGFjayhhbnN3ZXJzX21hc2tzLCBkaW09MCkKCiAgICByZXR1cm4gUmVhZGVyQmF0Y2goaW5wdXRfaWRzLCBzdGFydF9wb3NpdGlvbnMsIGVuZF9wb3NpdGlvbnMsIGFuc3dlcnNfbWFza3MpCgoKZGVmIF9jYWxjX21tbChsb3NzX3RlbnNvcik6CiAgICBtYXJnaW5hbF9saWtlbGlob29kID0gdG9yY2guc3VtKHRvcmNoLmV4cCgKICAgICAgICAtIGxvc3NfdGVuc29yIC0gMWUxMCAqIChsb3NzX3RlbnNvciA9PSAwKS5mbG9hdCgpKSwgMSkKICAgIHJldHVybiAtdG9yY2guc3VtKHRvcmNoLmxvZyhtYXJnaW5hbF9saWtlbGlob29kICsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0b3JjaC5vbmVzKGxvc3NfdGVuc29yLnNpemUoMCkpLmN1ZGEoKSAqIChtYXJnaW5hbF9saWtlbGlob29kID09IDApLmZsb2F0KCkpKQoKCmRlZiBfcGFkX3RvX2xlbihzZXE6IFQsIHBhZF9pZDogaW50LCBtYXhfbGVuOiBpbnQpOgogICAgc19sZW4gPSBzZXEuc2l6ZSgwKQogICAgaWYgc19sZW4gPiBtYXhfbGVuOgogICAgICAgIHJldHVybiBzZXFbMDogbWF4X2xlbl0KICAgIHJldHVybiB0b3JjaC5jYXQoW3NlcSwgdG9yY2guVGVuc29yKCkubmV3X2Z1bGwoKG1heF9sZW4gLSBzX2xlbiwpLCBwYWRfaWQsIGR0eXBlPXRvcmNoLmxvbmcpXSwgZGltPTApCgoKZGVmIF9nZXRfYW5zd2VyX3NwYW5zKGlkeCwgcG9zaXRpdmVzOiBMaXN0W1JlYWRlclBhc3NhZ2VdLCBtYXhfbGVuOiBpbnQpOgogICAgcG9zaXRpdmVfYV9zcGFucyA9IHBvc2l0aXZlc1tpZHhdLmFuc3dlcnNfc3BhbnMKICAgIHJldHVybiBbc3BhbiBmb3Igc3BhbiBpbiBwb3NpdGl2ZV9hX3NwYW5zIGlmIChzcGFuWzBdIDwgbWF4X2xlbiBhbmQgc3BhblsxXSA8IG1heF9sZW4pXQoKCmRlZiBfZ2V0X3Bvc2l0aXZlX2lkeChwb3NpdGl2ZXM6IExpc3RbUmVhZGVyUGFzc2FnZV0sIG1heF9sZW46IGludCwgaXNfcmFuZG9tOiBib29sKToKICAgICMgc2VsZWN0IGp1c3Qgb25lIHBvc2l0aXZlCiAgICBwb3NpdGl2ZV9pZHggPSBucC5yYW5kb20uY2hvaWNlKGxlbihwb3NpdGl2ZXMpKSBpZiBpc19yYW5kb20gZWxzZSAwCgogICAgaWYgbm90IF9nZXRfYW5zd2VyX3NwYW5zKHBvc2l0aXZlX2lkeCwgcG9zaXRpdmVzLCBtYXhfbGVuKToKICAgICAgICAjIHF1ZXN0aW9uIG1heSBiZSB0b28gbG9uZywgZmluZCB0aGUgZmlyc3QgcG9zaXRpdmUgd2l0aCBhdCBsZWFzdCBvbmUgdmFsaWQgc3BhbgogICAgICAgIHBvc2l0aXZlX2lkeCA9IG5leHQoKGkgZm9yIGkgaW4gcmFuZ2UobGVuKHBvc2l0aXZlcykpIGlmIF9nZXRfYW5zd2VyX3NwYW5zKGksIHBvc2l0aXZlcywgbWF4X2xlbikpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgTm9uZSkKICAgIHJldHVybiBwb3NpdGl2ZV9pZHgKCgpkZWYgX2NyZWF0ZV9xdWVzdGlvbl9wYXNzYWdlc190ZW5zb3JzKHBvc2l0aXZlczogTGlzdFtSZWFkZXJQYXNzYWdlXSwgbmVnYXRpdmVzOiBMaXN0W1JlYWRlclBhc3NhZ2VdLCB0b3RhbF9zaXplOiBpbnQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZW1wdHlfaWRzOiBULAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1heF9uX2Fuc3dlcnM6IGludCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYWRfdG9rZW5faWQ6IGludCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpc190cmFpbjogYm9vbCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpc19yYW5kb206IGJvb2wgPSBUcnVlKToKICAgIG1heF9sZW4gPSBlbXB0eV9pZHMuc2l6ZSgwKQogICAgaWYgaXNfdHJhaW46CiAgICAgICAgIyBzZWxlY3QganVzdCBvbmUgcG9zaXRpdmUKICAgICAgICBwb3NpdGl2ZV9pZHggPSBfZ2V0X3Bvc2l0aXZlX2lkeChwb3NpdGl2ZXMsIG1heF9sZW4sIGlzX3JhbmRvbSkKICAgICAgICBpZiBwb3NpdGl2ZV9pZHggaXMgTm9uZToKICAgICAgICAgICAgcmV0dXJuIE5vbmUKCiAgICAgICAgcG9zaXRpdmVfYV9zcGFucyA9IF9nZXRfYW5zd2VyX3NwYW5zKHBvc2l0aXZlX2lkeCwgcG9zaXRpdmVzLCBtYXhfbGVuKVswOiBtYXhfbl9hbnN3ZXJzXQoKICAgICAgICBhbnN3ZXJfc3RhcnRzID0gW3NwYW5bMF0gZm9yIHNwYW4gaW4gcG9zaXRpdmVfYV9zcGFuc10KICAgICAgICBhbnN3ZXJfZW5kcyA9IFtzcGFuWzFdIGZvciBzcGFuIGluIHBvc2l0aXZlX2Ffc3BhbnNdCgogICAgICAgIGFzc2VydCBhbGwocyA8IG1heF9sZW4gZm9yIHMgaW4gYW5zd2VyX3N0YXJ0cykKICAgICAgICBhc3NlcnQgYWxsKGUgPCBtYXhfbGVuIGZvciBlIGluIGFuc3dlcl9lbmRzKQoKICAgICAgICBwb3NpdGl2ZV9pbnB1dF9pZHMgPSBfcGFkX3RvX2xlbihwb3NpdGl2ZXNbcG9zaXRpdmVfaWR4XS5zZXF1ZW5jZV9pZHMsIHBhZF90b2tlbl9pZCwgbWF4X2xlbikKCiAgICAgICAgYW5zd2VyX3N0YXJ0c190ZW5zb3IgPSB0b3JjaC56ZXJvcygodG90YWxfc2l6ZSwgbWF4X25fYW5zd2VycykpLmxvbmcoKQogICAgICAgIGFuc3dlcl9zdGFydHNfdGVuc29yWzAsIDA6bGVuKGFuc3dlcl9zdGFydHMpXSA9IHRvcmNoLnRlbnNvcihhbnN3ZXJfc3RhcnRzKQoKICAgICAgICBhbnN3ZXJfZW5kc190ZW5zb3IgPSB0b3JjaC56ZXJvcygodG90YWxfc2l6ZSwgbWF4X25fYW5zd2VycykpLmxvbmcoKQogICAgICAgIGFuc3dlcl9lbmRzX3RlbnNvclswLCAwOmxlbihhbnN3ZXJfZW5kcyldID0gdG9yY2gudGVuc29yKGFuc3dlcl9lbmRzKQoKICAgICAgICBhbnN3ZXJfbWFzayA9IHRvcmNoLnplcm9zKCh0b3RhbF9zaXplLCBtYXhfbl9hbnN3ZXJzKSwgZHR5cGU9dG9yY2gubG9uZykKICAgICAgICBhbnN3ZXJfbWFza1swLCAwOmxlbihhbnN3ZXJfc3RhcnRzKV0gPSB0b3JjaC50ZW5zb3IoWzEgZm9yIF8gaW4gcmFuZ2UobGVuKGFuc3dlcl9zdGFydHMpKV0pCgogICAgICAgIHBvc2l0aXZlc19zZWxlY3RlZCA9IFtwb3NpdGl2ZV9pbnB1dF9pZHNdCgogICAgZWxzZToKICAgICAgICBwb3NpdGl2ZXNfc2VsZWN0ZWQgPSBbXQogICAgICAgIGFuc3dlcl9zdGFydHNfdGVuc29yID0gTm9uZQogICAgICAgIGFuc3dlcl9lbmRzX3RlbnNvciA9IE5vbmUKICAgICAgICBhbnN3ZXJfbWFzayA9IE5vbmUKCiAgICBwb3NpdGl2ZXNfbnVtID0gbGVuKHBvc2l0aXZlc19zZWxlY3RlZCkKICAgIG5lZ2F0aXZlX2lkeHMgPSBucC5yYW5kb20ucGVybXV0YXRpb24ocmFuZ2UobGVuKG5lZ2F0aXZlcykpKSBpZiBpc19yYW5kb20gZWxzZSByYW5nZSgKICAgICAgICBsZW4obmVnYXRpdmVzKSAtIHBvc2l0aXZlc19udW0pCgogICAgbmVnYXRpdmVfaWR4cyA9IG5lZ2F0aXZlX2lkeHNbOnRvdGFsX3NpemUgLSBwb3NpdGl2ZXNfbnVtXQoKICAgIG5lZ2F0aXZlc19zZWxlY3RlZCA9IFtfcGFkX3RvX2xlbihuZWdhdGl2ZXNbaV0uc2VxdWVuY2VfaWRzLCBwYWRfdG9rZW5faWQsIG1heF9sZW4pIGZvciBpIGluIG5lZ2F0aXZlX2lkeHNdCgogICAgd2hpbGUgbGVuKG5lZ2F0aXZlc19zZWxlY3RlZCkgPCB0b3RhbF9zaXplIC0gcG9zaXRpdmVzX251bToKICAgICAgICBuZWdhdGl2ZXNfc2VsZWN0ZWQuYXBwZW5kKGVtcHR5X2lkcy5jbG9uZSgpKQoKICAgIGlucHV0X2lkcyA9IHRvcmNoLnN0YWNrKFt0IGZvciB0IGluIHBvc2l0aXZlc19zZWxlY3RlZCArIG5lZ2F0aXZlc19zZWxlY3RlZF0sIGRpbT0wKQogICAgcmV0dXJuIGlucHV0X2lkcywgYW5zd2VyX3N0YXJ0c190ZW5zb3IsIGFuc3dlcl9lbmRzX3RlbnNvciwgYW5zd2VyX21hc2sK
+#!/usr/bin/env python3
+# Copyright (c) Facebook, Inc. and its affiliates.
+# All rights reserved.
+#
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+
+"""
+The reader model code + its utilities (loss computation and input batch tensor generator)
+"""
+
+import collections
+import logging
+from typing import List
+
+import numpy as np
+import torch
+import torch.nn as nn
+from torch import Tensor as T
+from torch.nn import CrossEntropyLoss
+
+from dpr.data.reader_data import ReaderSample, ReaderPassage
+from dpr.utils.model_utils import init_weights
+
+logger = logging.getLogger()
+
+ReaderBatch = collections.namedtuple('ReaderBatch', ['input_ids', 'start_positions', 'end_positions', 'answers_mask'])
+
+
+class Reader(nn.Module):
+
+    def __init__(self, encoder: nn.Module, hidden_size):
+        super(Reader, self).__init__()
+        self.encoder = encoder
+        self.qa_outputs = nn.Linear(hidden_size, 2)
+        self.qa_classifier = nn.Linear(hidden_size, 1)
+        init_weights([self.qa_outputs, self.qa_classifier])
+
+    def forward(self, input_ids: T, attention_mask: T, start_positions=None, end_positions=None, answer_mask=None):
+        # notations: N - number of questions in a batch, M - number of passages per questions, L - sequence length
+        N, M, L = input_ids.size()
+        start_logits, end_logits, relevance_logits = self._forward(input_ids.view(N * M, L),
+                                                                   attention_mask.view(N * M, L))
+        if self.training:
+            return compute_loss(start_positions, end_positions, answer_mask, start_logits, end_logits, relevance_logits,
+                                N, M)
+
+        return start_logits.view(N, M, L), end_logits.view(N, M, L), relevance_logits.view(N, M)
+
+    def _forward(self, input_ids, attention_mask):
+        # TODO: provide segment values
+        sequence_output, _pooled_output, _hidden_states = self.encoder(input_ids, None, attention_mask)
+        logits = self.qa_outputs(sequence_output)
+        start_logits, end_logits = logits.split(1, dim=-1)
+        start_logits = start_logits.squeeze(-1)
+        end_logits = end_logits.squeeze(-1)
+        rank_logits = self.qa_classifier(sequence_output[:, 0, :])
+        return start_logits, end_logits, rank_logits
+
+
+def compute_loss(start_positions, end_positions, answer_mask, start_logits, end_logits, relevance_logits, N, M):
+    start_positions = start_positions.view(N * M, -1)
+    end_positions = end_positions.view(N * M, -1)
+    answer_mask = answer_mask.view(N * M, -1)
+
+    start_logits = start_logits.view(N * M, -1)
+    end_logits = end_logits.view(N * M, -1)
+    relevance_logits = relevance_logits.view(N * M)
+
+    answer_mask = answer_mask.type(torch.FloatTensor).cuda()
+
+    ignored_index = start_logits.size(1)
+    start_positions.clamp_(0, ignored_index)
+    end_positions.clamp_(0, ignored_index)
+    loss_fct = CrossEntropyLoss(reduce=False, ignore_index=ignored_index)
+
+    # compute switch loss
+    relevance_logits = relevance_logits.view(N, M)
+    switch_labels = torch.zeros(N, dtype=torch.long).cuda()
+    switch_loss = torch.sum(loss_fct(relevance_logits, switch_labels))
+
+    # compute span loss
+    start_losses = [(loss_fct(start_logits, _start_positions) * _span_mask)
+                    for (_start_positions, _span_mask)
+                    in zip(torch.unbind(start_positions, dim=1), torch.unbind(answer_mask, dim=1))]
+
+    end_losses = [(loss_fct(end_logits, _end_positions) * _span_mask)
+                  for (_end_positions, _span_mask)
+                  in zip(torch.unbind(end_positions, dim=1), torch.unbind(answer_mask, dim=1))]
+    loss_tensor = torch.cat([t.unsqueeze(1) for t in start_losses], dim=1) + \
+                  torch.cat([t.unsqueeze(1) for t in end_losses], dim=1)
+
+    loss_tensor = loss_tensor.view(N, M, -1).max(dim=1)[0]
+    span_loss = _calc_mml(loss_tensor)
+    return span_loss + switch_loss
+
+
+def create_reader_input(pad_token_id: int,
+                        samples: List[ReaderSample],
+                        passages_per_question: int,
+                        max_length: int,
+                        max_n_answers: int,
+                        is_train: bool,
+                        shuffle: bool,
+                        ) -> ReaderBatch:
+    """
+    Creates a reader batch instance out of a list of ReaderSample-s
+    :param pad_token_id: id of the padding token
+    :param samples: list of samples to create the batch for
+    :param passages_per_question: amount of passages for every question in a batch
+    :param max_length: max model input sequence length
+    :param max_n_answers: max num of answers per single question
+    :param is_train: if the samples are for a train set
+    :param shuffle: should passages selection be randomized
+    :return: ReaderBatch instance
+    """
+    input_ids = []
+    start_positions = []
+    end_positions = []
+    answers_masks = []
+    empty_sequence = torch.Tensor().new_full((max_length,), pad_token_id, dtype=torch.long)
+
+    for sample in samples:
+        positive_ctxs = sample.positive_passages
+        negative_ctxs = sample.negative_passages if is_train else sample.passages
+
+        sample_tensors = _create_question_passages_tensors(positive_ctxs,
+                                                           negative_ctxs,
+                                                           passages_per_question,
+                                                           empty_sequence,
+                                                           max_n_answers,
+                                                           pad_token_id,
+                                                           is_train,
+                                                           is_random=shuffle)
+        if not sample_tensors:
+            logger.warning('No valid passages combination for question=%s ', sample.question)
+            continue
+        sample_input_ids, starts_tensor, ends_tensor, answer_mask = sample_tensors
+        input_ids.append(sample_input_ids)
+        if is_train:
+            start_positions.append(starts_tensor)
+            end_positions.append(ends_tensor)
+            answers_masks.append(answer_mask)
+    input_ids = torch.cat([ids.unsqueeze(0) for ids in input_ids], dim=0)
+
+    if is_train:
+        start_positions = torch.stack(start_positions, dim=0)
+        end_positions = torch.stack(end_positions, dim=0)
+        answers_masks = torch.stack(answers_masks, dim=0)
+
+    return ReaderBatch(input_ids, start_positions, end_positions, answers_masks)
+
+
+def _calc_mml(loss_tensor):
+    marginal_likelihood = torch.sum(torch.exp(
+        - loss_tensor - 1e10 * (loss_tensor == 0).float()), 1)
+    return -torch.sum(torch.log(marginal_likelihood +
+                                torch.ones(loss_tensor.size(0)).cuda() * (marginal_likelihood == 0).float()))
+
+
+def _pad_to_len(seq: T, pad_id: int, max_len: int):
+    s_len = seq.size(0)
+    if s_len > max_len:
+        return seq[0: max_len]
+    return torch.cat([seq, torch.Tensor().new_full((max_len - s_len,), pad_id, dtype=torch.long)], dim=0)
+
+
+def _get_answer_spans(idx, positives: List[ReaderPassage], max_len: int):
+    positive_a_spans = positives[idx].answers_spans
+    return [span for span in positive_a_spans if (span[0] < max_len and span[1] < max_len)]
+
+
+def _get_positive_idx(positives: List[ReaderPassage], max_len: int, is_random: bool):
+    # select just one positive
+    positive_idx = np.random.choice(len(positives)) if is_random else 0
+
+    if not _get_answer_spans(positive_idx, positives, max_len):
+        # question may be too long, find the first positive with at least one valid span
+        positive_idx = next((i for i in range(len(positives)) if _get_answer_spans(i, positives, max_len)),
+                            None)
+    return positive_idx
+
+
+def _create_question_passages_tensors(positives: List[ReaderPassage], negatives: List[ReaderPassage], total_size: int,
+                                      empty_ids: T,
+                                      max_n_answers: int,
+                                      pad_token_id: int,
+                                      is_train: bool,
+                                      is_random: bool = True):
+    max_len = empty_ids.size(0)
+    if is_train:
+        # select just one positive
+        positive_idx = _get_positive_idx(positives, max_len, is_random)
+        if positive_idx is None:
+            return None
+
+        positive_a_spans = _get_answer_spans(positive_idx, positives, max_len)[0: max_n_answers]
+
+        answer_starts = [span[0] for span in positive_a_spans]
+        answer_ends = [span[1] for span in positive_a_spans]
+
+        assert all(s < max_len for s in answer_starts)
+        assert all(e < max_len for e in answer_ends)
+
+        positive_input_ids = _pad_to_len(positives[positive_idx].sequence_ids, pad_token_id, max_len)
+
+        answer_starts_tensor = torch.zeros((total_size, max_n_answers)).long()
+        answer_starts_tensor[0, 0:len(answer_starts)] = torch.tensor(answer_starts)
+
+        answer_ends_tensor = torch.zeros((total_size, max_n_answers)).long()
+        answer_ends_tensor[0, 0:len(answer_ends)] = torch.tensor(answer_ends)
+
+        answer_mask = torch.zeros((total_size, max_n_answers), dtype=torch.long)
+        answer_mask[0, 0:len(answer_starts)] = torch.tensor([1 for _ in range(len(answer_starts))])
+
+        positives_selected = [positive_input_ids]
+
+    else:
+        positives_selected = []
+        answer_starts_tensor = None
+        answer_ends_tensor = None
+        answer_mask = None
+
+    positives_num = len(positives_selected)
+    negative_idxs = np.random.permutation(range(len(negatives))) if is_random else range(
+        len(negatives) - positives_num)
+
+    negative_idxs = negative_idxs[:total_size - positives_num]
+
+    negatives_selected = [_pad_to_len(negatives[i].sequence_ids, pad_token_id, max_len) for i in negative_idxs]
+
+    while len(negatives_selected) < total_size - positives_num:
+        negatives_selected.append(empty_ids.clone())
+
+    input_ids = torch.stack([t for t in positives_selected + negatives_selected], dim=0)
+    return input_ids, answer_starts_tensor, answer_ends_tensor, answer_mask

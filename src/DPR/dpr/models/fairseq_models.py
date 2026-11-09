@@ -1,1 +1,66 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwojIENvcHlyaWdodCAoYykgRmFjZWJvb2ssIEluYy4gYW5kIGl0cyBhZmZpbGlhdGVzLgojIEFsbCByaWdodHMgcmVzZXJ2ZWQuCiMKIyBUaGlzIHNvdXJjZSBjb2RlIGlzIGxpY2Vuc2VkIHVuZGVyIHRoZSBsaWNlbnNlIGZvdW5kIGluIHRoZQojIExJQ0VOU0UgZmlsZSBpbiB0aGUgcm9vdCBkaXJlY3Rvcnkgb2YgdGhpcyBzb3VyY2UgdHJlZS4KCiIiIgpFbmNvZGVyIG1vZGVsIHdyYXBwZXJzIGJhc2VkIG9uIEZhaXJzZXEgY29kZQoiIiIKCmltcG9ydCBsb2dnaW5nCmZyb20gdHlwaW5nIGltcG9ydCBUdXBsZQoKZnJvbSBmYWlyc2VxLm1vZGVscy5yb2JlcnRhLmh1Yl9pbnRlcmZhY2UgaW1wb3J0IFJvYmVydGFIdWJJbnRlcmZhY2UKZnJvbSBmYWlyc2VxLm1vZGVscy5yb2JlcnRhLm1vZGVsIGltcG9ydCBSb2JlcnRhTW9kZWwgYXMgRmFpc2VxUm9iZXJ0YU1vZGVsCmZyb20gZmFpcnNlcS5vcHRpbS5hZGFtIGltcG9ydCBGYWlyc2VxQWRhbQpmcm9tIHRvcmNoIGltcG9ydCBUZW5zb3IgYXMgVApmcm9tIHRvcmNoIGltcG9ydCBubgoKZnJvbSBkcHIubW9kZWxzLmhmX21vZGVscyBpbXBvcnQgZ2V0X3JvYmVydGFfdGVuc29yaXplcgpmcm9tIC5iaWVuY29kZXIgaW1wb3J0IEJpRW5jb2RlcgoKbG9nZ2VyID0gbG9nZ2luZy5nZXRMb2dnZXIoX19uYW1lX18pCgoKZGVmIGdldF9yb2JlcnRhX2JpZW5jb2Rlcl9jb21wb25lbnRzKGFyZ3MsIGluZmVyZW5jZV9vbmx5OiBib29sID0gRmFsc2UsICoqa3dhcmdzKToKICAgIHF1ZXN0aW9uX2VuY29kZXIgPSBSb2JlcnRhRW5jb2Rlci5mcm9tX3ByZXRyYWluZWQoYXJncy5lbmNvZGVyLnByZXRyYWluZWRfZmlsZSkKICAgIGN0eF9lbmNvZGVyID0gUm9iZXJ0YUVuY29kZXIuZnJvbV9wcmV0cmFpbmVkKGFyZ3MuZW5jb2Rlci5wcmV0cmFpbmVkX2ZpbGUpCiAgICBiaWVuY29kZXIgPSBCaUVuY29kZXIocXVlc3Rpb25fZW5jb2RlciwgY3R4X2VuY29kZXIpCiAgICBvcHRpbWl6ZXIgPSBnZXRfZmFpcnNlcV9hZGFtd19vcHRpbWl6ZXIoYmllbmNvZGVyLCBhcmdzKSBpZiBub3QgaW5mZXJlbmNlX29ubHkgZWxzZSBOb25lCgogICAgdGVuc29yaXplciA9IGdldF9yb2JlcnRhX3RlbnNvcml6ZXIoYXJncykKCiAgICByZXR1cm4gdGVuc29yaXplciwgYmllbmNvZGVyLCBvcHRpbWl6ZXIKCgpkZWYgZ2V0X2ZhaXJzZXFfYWRhbXdfb3B0aW1pemVyKG1vZGVsOiBubi5Nb2R1bGUsIGFyZ3MpOgogICAgc2V0YXR0cihhcmdzLnRyYWluLCAnbHInLCBbYXJncy50cmFpbi5sZWFybmluZ19yYXRlXSkKICAgIHJldHVybiBGYWlyc2VxQWRhbShhcmdzLnRyYWluLCBtb2RlbC5wYXJhbWV0ZXJzKCkpLm9wdGltaXplcgoKCmNsYXNzIFJvYmVydGFFbmNvZGVyKG5uLk1vZHVsZSk6CgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGZhaXJzZXFfcm9iZXJ0YV9odWI6IFJvYmVydGFIdWJJbnRlcmZhY2UpOgogICAgICAgIHN1cGVyKFJvYmVydGFFbmNvZGVyLCBzZWxmKS5fX2luaXRfXygpCiAgICAgICAgc2VsZi5mYWlyc2VxX3JvYmVydGEgPSBmYWlyc2VxX3JvYmVydGFfaHViCgogICAgQGNsYXNzbWV0aG9kCiAgICBkZWYgZnJvbV9wcmV0cmFpbmVkKGNscywgcHJldHJhaW5lZF9kaXJfcGF0aDogc3RyKToKICAgICAgICBtb2RlbCA9IEZhaXNlcVJvYmVydGFNb2RlbC5mcm9tX3ByZXRyYWluZWQocHJldHJhaW5lZF9kaXJfcGF0aCwgY2hlY2twb2ludF9maWxlPSdtb2RlbC5wdCcpCiAgICAgICAgcmV0dXJuIGNscyhtb2RlbCkKCiAgICBkZWYgZm9yd2FyZCgKICAgICAgICBzZWxmLAogICAgICAgIGlucHV0X2lkczogVCwKICAgICAgICB0b2tlbl90eXBlX2lkczogVCwKICAgICAgICBhdHRlbnRpb25fbWFzazogVCwKICAgICAgICByZXByZXNlbnRhdGlvbl90b2tlbl9wb3M9MCwKICAgICkgLT4gVHVwbGVbVCwgLi4uXToKICAgICAgICByb2JlcnRhX291dCA9IHNlbGYuZmFpcnNlcV9yb2JlcnRhLmV4dHJhY3RfZmVhdHVyZXMoaW5wdXRfaWRzKQogICAgICAgIGNsc19vdXQgPSByb2JlcnRhX291dFs6LCByZXByZXNlbnRhdGlvbl90b2tlbl9wb3MsIDpdCiAgICAgICAgcmV0dXJuIHJvYmVydGFfb3V0LCBjbHNfb3V0LCBOb25lCgogICAgZGVmIGdldF9vdXRfc2l6ZShzZWxmKToKICAgICAgICByZXR1cm4gNzY4Cg==
+#!/usr/bin/env python3
+# Copyright (c) Facebook, Inc. and its affiliates.
+# All rights reserved.
+#
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+
+"""
+Encoder model wrappers based on Fairseq code
+"""
+
+import logging
+from typing import Tuple
+
+from fairseq.models.roberta.hub_interface import RobertaHubInterface
+from fairseq.models.roberta.model import RobertaModel as FaiseqRobertaModel
+from fairseq.optim.adam import FairseqAdam
+from torch import Tensor as T
+from torch import nn
+
+from dpr.models.hf_models import get_roberta_tensorizer
+from .biencoder import BiEncoder
+
+logger = logging.getLogger(__name__)
+
+
+def get_roberta_biencoder_components(args, inference_only: bool = False, **kwargs):
+    question_encoder = RobertaEncoder.from_pretrained(args.encoder.pretrained_file)
+    ctx_encoder = RobertaEncoder.from_pretrained(args.encoder.pretrained_file)
+    biencoder = BiEncoder(question_encoder, ctx_encoder)
+    optimizer = get_fairseq_adamw_optimizer(biencoder, args) if not inference_only else None
+
+    tensorizer = get_roberta_tensorizer(args)
+
+    return tensorizer, biencoder, optimizer
+
+
+def get_fairseq_adamw_optimizer(model: nn.Module, args):
+    setattr(args.train, 'lr', [args.train.learning_rate])
+    return FairseqAdam(args.train, model.parameters()).optimizer
+
+
+class RobertaEncoder(nn.Module):
+
+    def __init__(self, fairseq_roberta_hub: RobertaHubInterface):
+        super(RobertaEncoder, self).__init__()
+        self.fairseq_roberta = fairseq_roberta_hub
+
+    @classmethod
+    def from_pretrained(cls, pretrained_dir_path: str):
+        model = FaiseqRobertaModel.from_pretrained(pretrained_dir_path, checkpoint_file='model.pt')
+        return cls(model)
+
+    def forward(
+        self,
+        input_ids: T,
+        token_type_ids: T,
+        attention_mask: T,
+        representation_token_pos=0,
+    ) -> Tuple[T, ...]:
+        roberta_out = self.fairseq_roberta.extract_features(input_ids)
+        cls_out = roberta_out[:, representation_token_pos, :]
+        return roberta_out, cls_out, None
+
+    def get_out_size(self):
+        return 768

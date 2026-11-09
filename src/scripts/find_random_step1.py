@@ -1,1 +1,67 @@
-aW1wb3J0IG9zCmltcG9ydCBzeXMKc3lzLnBhdGguaW5zZXJ0KDAsIG9zLmdldGN3ZCgpKQppbXBvcnQgaHlkcmEKaW1wb3J0IHRxZG0KaW1wb3J0IGpzb24KaW1wb3J0IHJhbmRvbQppbXBvcnQgb3MKZnJvbSBEUFIuZHByLnV0aWxzLnRhc2tzIGltcG9ydCB0YXNrX21hcApmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKCmNsYXNzIFJhbmRvbUZpbmRlcjoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBjZmcpIC0+IE5vbmU6CiAgICAgICAgc2VsZi5jZmcgPSBjZmcKICAgICAgICBvcy5tYWtlZGlycyhvcy5wYXRoLmRpcm5hbWUoY2ZnLnByb21wdF9wb29sX3BhdGgpLCBleGlzdF9vaz1UcnVlKQogICAgICAgIG9zLm1ha2VkaXJzKG9zLnBhdGguZGlybmFtZShjZmcub3V0cHV0X3BhdGgpLCBleGlzdF9vaz1UcnVlKQogICAgICAgIHRhc2sgPSB0YXNrX21hcC5jbHNfZGljW3NlbGYuY2ZnLnRhc2tfbmFtZV0oKQogICAgICAgIHNlbGYudHJhaW5fZGF0YXNldCA9IHRhc2suZ2V0X2RhdGFzZXQoCiAgICAgICAgICAgIHNwbGl0PSJ0cmFpbiIsCiAgICAgICAgICAgIGRzX3NpemU9Tm9uZSBpZiAiZHNfc2l6ZSIgbm90IGluIGNmZyBlbHNlIGNmZy5kc19zaXplLAogICAgICAgICAgICBjYWNoZV9kaXI9Y2ZnLmNhY2hlX2RpciwKICAgICAgICApCgogICAgICAgIHByaW50KCJzdGFydGVkIGNyZWF0aW5nIHRoZSBwcm9tcHQgcG9vbCIpCiAgICAgICAgc2VsZi5nZXRfcHJvbXB0X3Bvb2woKQogICAgICAgIHByaW50KCJmaW5pc2hlZCBjcmVhdGluZyB0aGUgcHJvbXB0IHBvb2wiKQoKICAgICMgc2FtcGxlIGFuZCBzYXZlIHByb21wdCBwb29sCiAgICBkZWYgZ2V0X3Byb21wdF9wb29sKHNlbGYpOgogICAgICAgIHNlbGYucHJvbXB0X3Bvb2wgPSBzZWxmLnRyYWluX2RhdGFzZXQKICAgICAgICBmb3IgaSwgZW50cnkgaW4gZW51bWVyYXRlKHNlbGYucHJvbXB0X3Bvb2wpOgogICAgICAgICAgICBlbnRyeVsiaWQiXSA9IGkKICAgICAgICAgICAgZW50cnlbInRhc2tfbmFtZSJdID0gc2VsZi5jZmcudGFza19uYW1lCiAgICAgICAgcHJpbnQoInByb21wdF9wb29sIHNpemUiLCBsZW4oc2VsZi5wcm9tcHRfcG9vbCkpCiAgICAgICAgd2l0aCBvcGVuKHNlbGYuY2ZnLnByb21wdF9wb29sX3BhdGgsICJ3IikgYXMgZjoKICAgICAgICAgICAganNvbi5kdW1wKHNlbGYucHJvbXB0X3Bvb2wsIGYpCgojIGZvciBlYWNoIHRhc2sgaW5wdXQsIHNhbXBsZSBMIHByb21wdHMgZm9yIHNjb3JpbmcgZnJvbSB0aGUgcHJvbXB0IHBvb2wgKGkuZS4sIHRhc2sgdHJhaW5pbmcgZGF0YSkKZGVmIGZpbmQoY2ZnKToKICAgIHJhbmRvbV9maW5kZXIgPSBSYW5kb21GaW5kZXIoY2ZnKQogICAgZGF0YV9saXN0ID0gcmFuZG9tX2ZpbmRlci50cmFpbl9kYXRhc2V0CiAgICBpZHhfbGlzdCA9IGxpc3QocmFuZ2UobGVuKHJhbmRvbV9maW5kZXIucHJvbXB0X3Bvb2wpKSkKCiAgICBmb3IgaSwgZWxlbWVudCBpbiB0cWRtLnRxZG0oZW51bWVyYXRlKGRhdGFfbGlzdCkpOgogICAgICAgIHJhbmRvbS5zZWVkKGkpCiAgICAgICAgZWxlbWVudFsiaWQiXSA9IGkKICAgICAgICBlbGVtZW50WyJzdGVwXzFfaGF2ZV9jaG9vc2VuIl0gPSBbXQogICAgICAgICMgYGN0eHNgIHN0b3JlcyB0aGUgc2FtcGxlZCBwcm9tcHQgaWRzIAogICAgICAgIGVsZW1lbnRbInN0ZXBfMV9jdHhzIl0gPSBbCiAgICAgICAgICAgIHsiaWQiOiBpbnQoYSl9CiAgICAgICAgICAgIGZvciBhIGluIHJhbmRvbS5zYW1wbGUoW2lkeCBmb3IgaWR4IGluIGlkeF9saXN0IGlmIGlkeCAhPSBpXSwgaz1taW4oY2ZnLkwsIGxlbihkYXRhX2xpc3QpLTEpKSAjIGF2b2lkIHNlbGVjdGluZyB0aGUgdGFzayBpbnB1dCBpdHNlbGYKICAgICAgICBdCiAgICByZXR1cm4gZGF0YV9saXN0CgoKQGh5ZHJhLm1haW4oY29uZmlnX3BhdGg9Ii4uL2NvbmZpZ3MiLCBjb25maWdfbmFtZT0icmFuZG9tX2ZpbmRlciIpCmRlZiBtYWluKGNmZyk6CiAgICBwcmludChjZmcpCiAgICBpZiBQYXRoKGNmZy5vdXRwdXRfcGF0aCkuZXhpc3RzKCkgYW5kIFBhdGgoY2ZnLnByb21wdF9wb29sX3BhdGgpLmV4aXN0cygpOgogICAgICAgIHByaW50KGYic2tpcCBleGlzdGVkIGZpbGVzOiB7Y2ZnLm91dHB1dF9wYXRofSB7Y2ZnLnByb21wdF9wb29sX3BhdGh9IikKICAgICAgICByZXR1cm4KICAgIGRhdGFfbGlzdCA9IGZpbmQoY2ZnKQogICAgd2l0aCBvcGVuKGNmZy5vdXRwdXRfcGF0aCwgInciKSBhcyB3cml0ZXI6CiAgICAgICAgd3JpdGVyLndyaXRlKGpzb24uZHVtcHMoZGF0YV9saXN0LCBpbmRlbnQ9NCkgKyAiXG4iKQoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIG1haW4oKQ==
+import os
+import sys
+sys.path.insert(0, os.getcwd())
+import hydra
+import tqdm
+import json
+import random
+import os
+from DPR.dpr.utils.tasks import task_map
+from pathlib import Path
+
+class RandomFinder:
+    def __init__(self, cfg) -> None:
+        self.cfg = cfg
+        os.makedirs(os.path.dirname(cfg.prompt_pool_path), exist_ok=True)
+        os.makedirs(os.path.dirname(cfg.output_path), exist_ok=True)
+        task = task_map.cls_dic[self.cfg.task_name]()
+        self.train_dataset = task.get_dataset(
+            split="train",
+            ds_size=None if "ds_size" not in cfg else cfg.ds_size,
+            cache_dir=cfg.cache_dir,
+        )
+
+        print("started creating the prompt pool")
+        self.get_prompt_pool()
+        print("finished creating the prompt pool")
+
+    # sample and save prompt pool
+    def get_prompt_pool(self):
+        self.prompt_pool = self.train_dataset
+        for i, entry in enumerate(self.prompt_pool):
+            entry["id"] = i
+            entry["task_name"] = self.cfg.task_name
+        print("prompt_pool size", len(self.prompt_pool))
+        with open(self.cfg.prompt_pool_path, "w") as f:
+            json.dump(self.prompt_pool, f)
+
+# for each task input, sample L prompts for scoring from the prompt pool (i.e., task training data)
+def find(cfg):
+    random_finder = RandomFinder(cfg)
+    data_list = random_finder.train_dataset
+    idx_list = list(range(len(random_finder.prompt_pool)))
+
+    for i, element in tqdm.tqdm(enumerate(data_list)):
+        random.seed(i)
+        element["id"] = i
+        element["step_1_have_choosen"] = []
+        # `ctxs` stores the sampled prompt ids 
+        element["step_1_ctxs"] = [
+            {"id": int(a)}
+            for a in random.sample([idx for idx in idx_list if idx != i], k=min(cfg.L, len(data_list)-1)) # avoid selecting the task input itself
+        ]
+    return data_list
+
+
+@hydra.main(config_path="../configs", config_name="random_finder")
+def main(cfg):
+    print(cfg)
+    if Path(cfg.output_path).exists() and Path(cfg.prompt_pool_path).exists():
+        print(f"skip existed files: {cfg.output_path} {cfg.prompt_pool_path}")
+        return
+    data_list = find(cfg)
+    with open(cfg.output_path, "w") as writer:
+        writer.write(json.dumps(data_list, indent=4) + "\n")
+
+if __name__ == "__main__":
+    main()

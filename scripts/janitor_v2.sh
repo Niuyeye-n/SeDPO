@@ -1,1 +1,99 @@
-IyEvYmluL2Jhc2gKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQojIOejgeebmOWuiOaKpCB2Mu+8iDIwMjYtMTEtMDXvvIkKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQojIOWcqOWOnyBqYW5pdG9yLnNoIOWfuuehgOS4iu+8jOmineWkluimhuebliB2MyDlrp7pqoznmoTnm67lvZUgZXhwZXJpbWVudF9zZWRwb197cXdlbixsbGFtYX0vCiMg77yI5Y6f54mI5Y+q6KaG55uWIGV4cGVyaW1lbnRfe3F3ZW4sbGxhbWF9L++8jOS8mua8j+aOiSB2MyDnmoTkuqfnianvvIkKIwojIOS4uuS7gOS5iOmcgOimge+8mgojICAgU2VEUE8g5q+P57uE6K6t57uD5Lya5ZyoIDxleHA+L21vZGVsLyDkuIvkuqfnlJ/nuqYgNH43LjQgR0LvvJoKIyAgICAgLSBkcHJfYmllbmNvZGVyLjxlcG9jaD4gICDmr48gZXBvY2ggY2hlY2twb2ludO+8iOWQqyBvcHRpbWl6ZXIgc3RhdGXvvIwKIyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBCRVJULWJhc2UgMTEwTSDlj4LmlbAgZnAzMiDihpIg5Y2V5Liq57qmIDEuMyBHQu+8iQojICAgICAtIGRwcl9iaWVuY29kZXIuYmVzdF92YWxpZCAg6aqM6K+B5pyA5LyYIGNoZWNrcG9pbnTvvIhpbmZlci5zaCDlv4XpobvnlKjvvIkKIyAgICAgLSBkcHJfZW5jX2luZGV4KiAgICAgICAgICAgIOaVtOW6kyBwcm9tcHRfcG9vbCDnmoTnqKDlr4blkJHph4/ntKLlvJUKIyAgIDQg57uE77yIMiDmqKHlnosgw5cgMiDpm4bnvqTvvInntK/orqHnuqYgMzAgR0LvvIzogIzmlbDmja7nm5jku4XnuqYgMTIgR0Ig5Y+v55SoIOKGkiDlv4Xpobvovrnot5HovrnmuIXjgIIKIwojIOa4heeQhuaXtuacuu+8iOS4peagvOmBteWuiO+8jOmBv+WFjeegtOWdj+ato+WcqOi/kOihjOeahOS7u+WKoe+8ie+8mgojICAgQS4g6K6t57uD5bey57uT5p2f77yI5pegIHRyYWluX2RlbnNlX2VuY29kZXIg6L+b56iL77yJ5LiUIGJlc3RfdmFsaWQg5bey55Sf5oiQCiMgICAgICDihpIg5Yig5o6J5ZCEIGVwb2NoIOeahOS4remXtCBjaGVja3BvaW5077yM5Y+q5L+d55WZIGJlc3RfdmFsaWQKIyAgIEIuIGluZmVyIOeahCBwcmVkcyBqc29uIOW3suS6p+WHuu+8iGluZmVyIOWFqOmDqOe7k+adn+WQju+8iQojICAgICAg4oaSIOaVtOS4qiBtb2RlbCDnm67lvZXlj6/liKDvvIxpbmZlciDkuI3kvJrlho3nlKjliLAKIwojIOWFnOW6le+8muWPr+eUqOepuumXtCA8IDMgR0Ig5pe257Sn5oCl5riF55CG5bey5a6M5oiQ55qE57uE77yM5bm25omT5Y2w5ZGK6K2m44CCCiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KUkVQTz0vcm9vdC9hdXRvZGwtdG1wL1NlRFBPX05JUFMyNQpMT0c9L3Jvb3QvYXV0b2RsLXRtcC9qYW5pdG9yLmxvZwoKbG9nKCkgeyBlY2hvICJbJChkYXRlICslSDolTTolUyldICQqIiA+PiAiJExPRyI7IH0KCmZyZWVfZ2IoKSB7IGRmIC1CRyAtLW91dHB1dD1hdmFpbCAvcm9vdC9hdXRvZGwtdG1wIDI+L2Rldi9udWxsIHwgdGFpbCAtMSB8IHRyIC1kYyAnMC05JzsgfQoKIyDor6Xnu4TmmK/lkKbmnInorq3nu4Pov5vnqIvlnKjot5EKdHJhaW5fcnVubmluZygpIHsKICAgIGxvY2FsIHRhZz0kMSBjbHVzdGVyPSQyCiAgICBwcyAtZW8gYXJncyAyPi9kZXYvbnVsbCB8IGdyZXAgLUYgImV4cGVyaW1lbnRfJHt0YWd9LyR7Y2x1c3Rlcn0vbW9kZWwiIFwKICAgICAgICB8IGdyZXAgLXYgZ3JlcCB8IGdyZXAgLXEgInRyYWluX2RlbnNlX2VuY29kZXIiICYmIHJldHVybiAwIHx8IHJldHVybiAxCn0KCmNoZWNrX2dyb3VwKCkgewogICAgbG9jYWwgdGFnPSQxIGNsdXN0ZXI9JDIgZXhwIG1kIGRvbmUgdGFza3MgdCBwIG4gc3oKICAgIGV4cD0iJFJFUE8vbXlfZGF0YV9xd2VuL2V4cGVyaW1lbnRfJHt0YWd9LyR7Y2x1c3Rlcn0iCiAgICBtZD0iJGV4cC9tb2RlbCIKICAgIFsgLWQgIiRtZCIgXSB8fCByZXR1cm4gMAoKICAgIGlmIFsgIiRjbHVzdGVyIiA9ICJjbG9zZV9xYSIgXTsgdGhlbgogICAgICAgIHRhc2tzPSJhcmNfYyIKICAgIGVsc2UKICAgICAgICB0YXNrcz0ib3BlbmJvb2txYSBtdWx0aXJjIgogICAgZmkKCiAgICAjIC0tLS0gQjogaW5mZXIg5a6M5oiQ77yIcHJlZHMg6b2Q5YWo77yJ4oaSIOaVtOS4qiBtb2RlbCDnm67lvZXliKDpmaQgLS0tLQogICAgZG9uZT0xCiAgICBmb3IgdCBpbiAkdGFza3M7IGRvCiAgICAgICAgcD0iJGV4cC9wcmVkc19mb3JfJHtjbHVzdGVyfS8ke3R9X3Byb21wdHMzX3JldHJpZXZlcnNlMl9wcmVkc18wLmpzb24iCiAgICAgICAgWyAtZiAiJHAiIF0gfHwgZG9uZT0wCiAgICBkb25lCiAgICBpZiBbICIkZG9uZSIgLWVxIDEgXTsgdGhlbgogICAgICAgIHN6PSQoZHUgLXNtICIkbWQiIDI+L2Rldi9udWxsIHwgY3V0IC1mMSkKICAgICAgICBybSAtcmYgIiRtZCIKICAgICAgICBsb2cgIkI6IOWIoOmZpCAke3RhZ30vJHtjbHVzdGVyfS9tb2RlbCAo6YeK5pS+ICR7c3p9IE1CKSDigJQgaW5mZXIg5bey5a6M5oiQIgogICAgICAgIHJldHVybiAwCiAgICBmaQoKICAgICMgLS0tLSBBOiDorq3nu4Plt7Lnu5PmnZ/kvYYgaW5mZXIg5pyq5a6M5oiQIOKGkiDlj6rliKAgZXBvY2gg5Lit6Ze0IGNoZWNrcG9pbnQgLS0tLQogICAgaWYgWyAtZiAiJG1kL2Rwcl9iaWVuY29kZXIuYmVzdF92YWxpZCIgXSAmJiAhIHRyYWluX3J1bm5pbmcgIiR0YWciICIkY2x1c3RlciI7IHRoZW4KICAgICAgICBuPSQobHMgIiRtZCIvZHByX2JpZW5jb2Rlci5bMC05XSogMj4vZGV2L251bGwgfCB3YyAtbCkKICAgICAgICBpZiBbICIkbiIgLWd0IDAgXTsgdGhlbgogICAgICAgICAgICBzej0kKGR1IC1jbSAiJG1kIi9kcHJfYmllbmNvZGVyLlswLTldKiAyPi9kZXYvbnVsbCB8IHRhaWwgLTEgfCBjdXQgLWYxKQogICAgICAgICAgICBybSAtZiAiJG1kIi9kcHJfYmllbmNvZGVyLlswLTldKgogICAgICAgICAgICBsb2cgIkE6IOWIoOmZpCAke3RhZ30vJHtjbHVzdGVyfSDnmoQgJHtufSDkuKogZXBvY2ggY2hlY2twb2ludCAo6YeK5pS+ICR7c3p9IE1CKe+8jOS/neeVmSBiZXN0X3ZhbGlkIgogICAgICAgIGZpCiAgICBmaQp9CgojIOmcgOimgeW3oeajgOeahCB0YWcg5YiX6KGo77ya5Y6f54mI55uu5b2VICsgdjMg6ZqU56a755uu5b2VClRBR1M9InF3ZW4gbGxhbWEgc2VkcG9fcXdlbiBzZWRwb19sbGFtYSIKCmxvZyAiPT09IOejgeebmOWuiOaKpCB2MiDlkK/liqjvvIjopobnm5YgdGFnczogJFRBR1PvvIkgPT09Igp3aGlsZSB0cnVlOyBkbwogICAgZm9yIHRhZyBpbiAkVEFHUzsgZG8KICAgICAgICBmb3IgY2x1c3RlciBpbiBjbG9zZV9xYSByZWFkaW5nX25ldzsgZG8KICAgICAgICAgICAgY2hlY2tfZ3JvdXAgIiR0YWciICIkY2x1c3RlciIKICAgICAgICBkb25lCiAgICBkb25lCgogICAgZmc9JChmcmVlX2diKQogICAgaWYgWyAtbiAiJGZnIiBdICYmIFsgIiRmZyIgLWx0IDMgXTsgdGhlbgogICAgICAgIGxvZyAiISEg56OB55uY5ZGK5oCl77ya5LuF5YmpICR7Zmd9IEdC77yM5bCd6K+V57Sn5oCl5riF55CG5bey5a6M5oiQ55qE57uEIgogICAgICAgIGZvciB0YWcgaW4gJFRBR1M7IGRvCiAgICAgICAgICAgIGZvciBjbHVzdGVyIGluIGNsb3NlX3FhIHJlYWRpbmdfbmV3OyBkbwogICAgICAgICAgICAgICAgZXhwPSIkUkVQTy9teV9kYXRhX3F3ZW4vZXhwZXJpbWVudF8ke3RhZ30vJHtjbHVzdGVyfSIKICAgICAgICAgICAgICAgIGlmIFsgLWQgIiRleHAvbW9kZWwiIF07IHRoZW4KICAgICAgICAgICAgICAgICAgICBybSAtcmYgIiRleHAvbW9kZWwiCiAgICAgICAgICAgICAgICAgICAgbG9nICIhISDntKfmgKXliKDpmaQgJHt0YWd9LyR7Y2x1c3Rlcn0vbW9kZWwiCiAgICAgICAgICAgICAgICBmaQogICAgICAgICAgICBkb25lCiAgICAgICAgZG9uZQogICAgZmkKICAgIHNsZWVwIDEwCmRvbmUK
+#!/bin/bash
+# =============================================================================
+# 磁盘守护 v2（2026-11-05）
+# =============================================================================
+# 在原 janitor.sh 基础上，额外覆盖 v3 实验的目录 experiment_sedpo_{qwen,llama}/
+# （原版只覆盖 experiment_{qwen,llama}/，会漏掉 v3 的产物）
+#
+# 为什么需要：
+#   SeDPO 每组训练会在 <exp>/model/ 下产生约 4~7.4 GB：
+#     - dpr_biencoder.<epoch>   每 epoch checkpoint（含 optimizer state，
+#                               BERT-base 110M 参数 fp32 → 单个约 1.3 GB）
+#     - dpr_biencoder.best_valid  验证最优 checkpoint（infer.sh 必须用）
+#     - dpr_enc_index*            整库 prompt_pool 的稠密向量索引
+#   4 组（2 模型 × 2 集群）累计约 30 GB，而数据盘仅约 12 GB 可用 → 必须边跑边清。
+#
+# 清理时机（严格遵守，避免破坏正在运行的任务）：
+#   A. 训练已结束（无 train_dense_encoder 进程）且 best_valid 已生成
+#      → 删掉各 epoch 的中间 checkpoint，只保留 best_valid
+#   B. infer 的 preds json 已产出（infer 全部结束后）
+#      → 整个 model 目录可删，infer 不会再用到
+#
+# 兜底：可用空间 < 3 GB 时紧急清理已完成的组，并打印告警。
+# =============================================================================
+REPO=/root/autodl-tmp/SeDPO_NIPS25
+LOG=/root/autodl-tmp/janitor.log
+
+log() { echo "[$(date +%H:%M:%S)] $*" >> "$LOG"; }
+
+free_gb() { df -BG --output=avail /root/autodl-tmp 2>/dev/null | tail -1 | tr -dc '0-9'; }
+
+# 该组是否有训练进程在跑
+train_running() {
+    local tag=$1 cluster=$2
+    ps -eo args 2>/dev/null | grep -F "experiment_${tag}/${cluster}/model" \
+        | grep -v grep | grep -q "train_dense_encoder" && return 0 || return 1
+}
+
+check_group() {
+    local tag=$1 cluster=$2 exp md done tasks t p n sz
+    exp="$REPO/my_data_qwen/experiment_${tag}/${cluster}"
+    md="$exp/model"
+    [ -d "$md" ] || return 0
+
+    if [ "$cluster" = "close_qa" ]; then
+        tasks="arc_c"
+    else
+        tasks="openbookqa multirc"
+    fi
+
+    # ---- B: infer 完成（preds 齐全）→ 整个 model 目录删除 ----
+    done=1
+    for t in $tasks; do
+        p="$exp/preds_for_${cluster}/${t}_prompts3_retrieverse2_preds_0.json"
+        [ -f "$p" ] || done=0
+    done
+    if [ "$done" -eq 1 ]; then
+        sz=$(du -sm "$md" 2>/dev/null | cut -f1)
+        rm -rf "$md"
+        log "B: 删除 ${tag}/${cluster}/model (释放 ${sz} MB) — infer 已完成"
+        return 0
+    fi
+
+    # ---- A: 训练已结束但 infer 未完成 → 只删 epoch 中间 checkpoint ----
+    if [ -f "$md/dpr_biencoder.best_valid" ] && ! train_running "$tag" "$cluster"; then
+        n=$(ls "$md"/dpr_biencoder.[0-9]* 2>/dev/null | wc -l)
+        if [ "$n" -gt 0 ]; then
+            sz=$(du -cm "$md"/dpr_biencoder.[0-9]* 2>/dev/null | tail -1 | cut -f1)
+            rm -f "$md"/dpr_biencoder.[0-9]*
+            log "A: 删除 ${tag}/${cluster} 的 ${n} 个 epoch checkpoint (释放 ${sz} MB)，保留 best_valid"
+        fi
+    fi
+}
+
+# 需要巡检的 tag 列表：原版目录 + v3 隔离目录
+TAGS="qwen llama sedpo_qwen sedpo_llama"
+
+log "=== 磁盘守护 v2 启动（覆盖 tags: $TAGS） ==="
+while true; do
+    for tag in $TAGS; do
+        for cluster in close_qa reading_new; do
+            check_group "$tag" "$cluster"
+        done
+    done
+
+    fg=$(free_gb)
+    if [ -n "$fg" ] && [ "$fg" -lt 3 ]; then
+        log "!! 磁盘告急：仅剩 ${fg} GB，尝试紧急清理已完成的组"
+        for tag in $TAGS; do
+            for cluster in close_qa reading_new; do
+                exp="$REPO/my_data_qwen/experiment_${tag}/${cluster}"
+                if [ -d "$exp/model" ]; then
+                    rm -rf "$exp/model"
+                    log "!! 紧急删除 ${tag}/${cluster}/model"
+                fi
+            done
+        done
+    fi
+    sleep 10
+done

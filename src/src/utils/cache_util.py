@@ -1,1 +1,51 @@
-aW1wb3J0IGpzb24KaW1wb3J0IHBhdGhsaWIgCmNsYXNzIEJ1ZmZlcmVkSnNvbldyaXRlcihvYmplY3QpOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGZpbGVfbmFtZSwgYnVmZmVyX3NpemU9NTApOgogICAgICAgIHNlbGYuZmlsZV9wYXRoID0gZmlsZV9uYW1lCiAgICAgICAgc2VsZi5idWZmZXIgPSBbXQogICAgICAgIHNlbGYuYnVmZmVyX3NpemUgPSBidWZmZXJfc2l6ZQoKICAgIGRlZiBfX2VudGVyX18oc2VsZik6CiAgICAgICAgcmV0dXJuIHNlbGYKCiAgICBkZWYgX19leGl0X18oc2VsZiwgdHlwZSwgdmFsdWUsIHRyYWNlYmFjayk6CiAgICAgICAgc2VsZi53cml0ZV9idWZmZXIoKQoKICAgIGRlZiB3cml0ZShzZWxmLCBvYmo9Tm9uZSk6CiAgICAgICAgaWYgb2JqIGlzIG5vdCBOb25lOgogICAgICAgICAgICBzZWxmLmJ1ZmZlci5hcHBlbmQob2JqKQogICAgICAgIGlmIGxlbihzZWxmLmJ1ZmZlcik+PXNlbGYuYnVmZmVyX3NpemU6CiAgICAgICAgICAgIHNlbGYud3JpdGVfYnVmZmVyKCkKCiAgICBkZWYgd3JpdGVfYnVmZmVyKHNlbGYpOgogICAgICAgIHdpdGggb3BlbihzZWxmLmZpbGVfcGF0aCwgImEiKSBhcyBkYXRhX2ZpbGU6CiAgICAgICAgICAgIGRhdGFfZmlsZS53cml0ZShqc29uLmR1bXBzKHNlbGYuYnVmZmVyKSkKICAgICAgICAgICAgZGF0YV9maWxlLndyaXRlKCJcbiIpCiAgICAgICAgICAgIHNlbGYuYnVmZmVyID0gW10KCmNsYXNzIEJ1ZmZlcmVkSnNvblJlYWRlcihvYmplY3QpOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGZpbGVfbmFtZSk6CiAgICAgICAgc2VsZi5maWxlX3BhdGggPSBmaWxlX25hbWUKCiAgICBkZWYgX19lbnRlcl9fKHNlbGYpOgogICAgICAgIHJldHVybiBzZWxmCgogICAgZGVmIF9fZXhpdF9fKHNlbGYsIHR5cGUsIHZhbHVlLCB0cmFjZWJhY2spOgogICAgICAgIHBhc3MKCiAgICBkZWYgX19pdHJfXyhzZWxmKToKICAgICAgICB3aXRoIG9wZW4oc2VsZi5maWxlX3BhdGgsICJyIikgYXMgZGF0YV9maWxlOgogICAgICAgICAgICBmb3IgbGluZSBpbiBkYXRhX2ZpbGU6CiAgICAgICAgICAgICAgICB5aWVsZCBmcm9tIGpzb24ubG9hZHMobGluZSkKICAgICAgICAgICAgICAgIAogICAgZGVmIHJlYWQoc2VsZik6CiAgICAgICAgcmV0dXJuIGxpc3Qoc2VsZi5fX2l0cl9fKCkpCgoKCmRlZiBnZXRfY2FjaGVfcGF0aChkYXRhc2V0KToKICAgIGNhY2hlX2ZpbGVzID0gZGF0YXNldC5jYWNoZV9maWxlcwogICAgaWYgaXNpbnN0YW5jZShjYWNoZV9maWxlcyxkaWN0KToKICAgICAgICBjYWNoZV9maWxlcyA9IG5leHQoaXRlcihjYWNoZV9maWxlcy52YWx1ZXMoKSkpCiAgICByZXR1cm4gcGF0aGxpYi5QYXRoKGNhY2hlX2ZpbGVzWzBdWydmaWxlbmFtZSddKS5wYXJlbnQ=
+import json
+import pathlib 
+class BufferedJsonWriter(object):
+    def __init__(self, file_name, buffer_size=50):
+        self.file_path = file_name
+        self.buffer = []
+        self.buffer_size = buffer_size
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, type, value, traceback):
+        self.write_buffer()
+
+    def write(self, obj=None):
+        if obj is not None:
+            self.buffer.append(obj)
+        if len(self.buffer)>=self.buffer_size:
+            self.write_buffer()
+
+    def write_buffer(self):
+        with open(self.file_path, "a") as data_file:
+            data_file.write(json.dumps(self.buffer))
+            data_file.write("\n")
+            self.buffer = []
+
+class BufferedJsonReader(object):
+    def __init__(self, file_name):
+        self.file_path = file_name
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, type, value, traceback):
+        pass
+
+    def __itr__(self):
+        with open(self.file_path, "r") as data_file:
+            for line in data_file:
+                yield from json.loads(line)
+                
+    def read(self):
+        return list(self.__itr__())
+
+
+
+def get_cache_path(dataset):
+    cache_files = dataset.cache_files
+    if isinstance(cache_files,dict):
+        cache_files = next(iter(cache_files.values()))
+    return pathlib.Path(cache_files[0]['filename']).parent

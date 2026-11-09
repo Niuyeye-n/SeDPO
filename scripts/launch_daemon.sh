@@ -1,1 +1,19 @@
-IyEvYmluL2Jhc2gKIyDlrojmiqTlvI/lkK/liqjvvJrnlKggc2V0c2lkIOiuqeWunumqjOi/m+eoi+W9u+W6leiEseemu+W9k+WJjSBTU0gg5Lya6K+d44CCCiMg5Y6f5Zug77ya5LmL5YmN55SoIG5vaHVwIOWQr+WKqOeahOWunumqjOWcqCBzdGVwMiDkuK3pgJTooqvmnYDvvIhTU0gg6YCa6YGT5YWz6ZetIOKGkiBTSUdIVVAg5p2A6L+b56iL57uE77yJ77yMCiMgICAgICBzZXRzaWQg5Lya6K+d5b275bqV6ZqU56a777yM5LiN5Lya5YaN6KKr54i257uI56uv55qE5L+h5Y+35b2x5ZON44CCCiMKIyDnlKjms5U6IGJhc2ggL3Jvb3QvYXV0b2RsLXRtcC9sYXVuY2hfZGFlbW9uLnNoIDzohJrmnKzot6/lvoQ+IDzml6Xlv5fot6/lvoQ+CnNldCAtdQpTQ1JJUFQ9JDEKTE9HPSQyCgojIHNldHNpZCArIG5vaHVwICsg5a6M5YWo6ISx56a75qCH5YeG6L6T5YWlCnNldHNpZCBub2h1cCBiYXNoICIkU0NSSVBUIiA+ICIkTE9HIiAyPiYxIDwgL2Rldi9udWxsICYKUElEPSQhCmRpc293biAyPi9kZXYvbnVsbCB8fCB0cnVlCnNsZWVwIDMKZWNobyAi5bey5ZCv5YqoOiAkU0NSSVBUIgplY2hvICIgIFBJRD0kUElEIChzZXRzaWQg54us56uL5Lya6K+dKSIKZWNobyAiICDml6Xlv5c6ICRMT0ciCnBzIC1lbyBwaWQscHBpZCxzaWQsYXJncyB8IGdyZXAgLUUgIiQoYmFzZW5hbWUgJFNDUklQVCkiIHwgZ3JlcCAtdiBncmVwIHwgaGVhZCAtMwo=
+#!/bin/bash
+# 守护式启动：用 setsid 让实验进程彻底脱离当前 SSH 会话。
+# 原因：之前用 nohup 启动的实验在 step2 中途被杀（SSH 通道关闭 → SIGHUP 杀进程组），
+#      setsid 会话彻底隔离，不会再被父终端的信号影响。
+#
+# 用法: bash /root/autodl-tmp/launch_daemon.sh <脚本路径> <日志路径>
+set -u
+SCRIPT=$1
+LOG=$2
+
+# setsid + nohup + 完全脱离标准输入
+setsid nohup bash "$SCRIPT" > "$LOG" 2>&1 < /dev/null &
+PID=$!
+disown 2>/dev/null || true
+sleep 3
+echo "已启动: $SCRIPT"
+echo "  PID=$PID (setsid 独立会话)"
+echo "  日志: $LOG"
+ps -eo pid,ppid,sid,args | grep -E "$(basename $SCRIPT)" | grep -v grep | head -3

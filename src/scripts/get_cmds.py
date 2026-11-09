@@ -1,1 +1,382 @@
-aW1wb3J0IG9zCmltcG9ydCBzeXMKc3lzLnBhdGguaW5zZXJ0KDAsIG9zLmdldGN3ZCgpKQoKaW1wb3J0IGFyZ3BhcnNlCmZyb20gRFBSLmRwci51dGlscy50YXNrcyBpbXBvcnQgdGFza19tYXAsIHRyYWluX2NsdXN0ZXJfbWFwLCB0ZXN0X2NsdXN0ZXJfbWFwCmltcG9ydCByYW5kb20KaW1wb3J0IHRleHR3cmFwCmZyb20gdHFkbSBpbXBvcnQgdHFkbQoKCmRlZiB3cmFwKGNtZCk6IAogICAgJycnCiAgICB3cmFwIGNtZAogICAgJycnCiAgICBicyA9ICcgXFxcblx0ICcKICAgIHJldHVybiBicy5qb2luKHRleHR3cmFwLndyYXAoY21kLGJyZWFrX2xvbmdfd29yZHM9RmFsc2UsYnJlYWtfb25faHlwaGVucz1GYWxzZSkpICAgICAKCmRlZiBnZXRfY21kcyhhcmdzKToKCiAgICAjID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0gU2NvcmluZyBTdGFnZSA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQogICAgcHJvbXB0X3Bvb2xfZGlyID0gb3MucGF0aC5qb2luKGFyZ3Mub3V0cHV0X2RpciwgJ3Byb21wdF9wb29sJykKICAgIHJhbmRvbV9zYW1wbGVfZGlyID0gb3MucGF0aC5qb2luKGFyZ3Mub3V0cHV0X2RpciwgJ2ZpbmRfcmFuZG9tJykgIyBjaGFuZ2UgZmlsZSBuYW1lIGlzIG9rCiAgICBzY29yZWRfZGlyID0gb3MucGF0aC5qb2luKGFyZ3Mub3V0cHV0X2RpciwgJ3Njb3JlZCcpCgogICAgZXhwX25hbWUgPSBmJ3thcmdzLnRyYWluX2NsdXN0ZXJzfScKICAgIGV4cF9wYXRoID0gb3MucGF0aC5qb2luKGFyZ3Mub3V0cHV0X2RpciwgJ2V4cGVyaW1lbnQnLCBleHBfbmFtZSkKICAgIG1vZGVsX3dlaWdodF9wYXRoID0gb3MucGF0aC5qb2luKGV4cF9wYXRoLCBhcmdzLm1vZGVsX2ZvbGRlcikKICAgIG9zLm1ha2VkaXJzKGV4cF9wYXRoLCBleGlzdF9vaz1UcnVlKQoKICAgIHJhbmRvbV9wb3J0ID0gcmFuZG9tLnJhbmRpbnQoMjE5NjYsMjUwMDApCgogICAgaWYgYXJncy50cmFpbl9jbHVzdGVycyBpcyBOb25lOgogICAgICAgIGNsdXN0ZXJzID0gbGlzdCh0cmFpbl9jbHVzdGVyX21hcC5rZXlzKCkpCiAgICBlbHNlOgogICAgICAgIGNsdXN0ZXJzID0gYXJncy50cmFpbl9jbHVzdGVycy5zcGxpdCgnKycpCiAgICBzY29yZV9jbWRfbGlzdD1bJ3NldCAtZSddCiAgICBmb3IgY2x1c3RlciBpbiB0cWRtKGNsdXN0ZXJzKToKICAgICAgICBmb3IgdGFzayBpbiB0cmFpbl9jbHVzdGVyX21hcFtjbHVzdGVyXTogIyBmb3IgU2UyLCB0aGVyZSBpcyBvbmx5IGEgdGFzayBpbiBhIGNsdXN0ZXIKICAgICAgICAgICAgZWNob19jbWQgPSBmJ2VjaG8gInNjb3Jpbmcge3Rhc2t9IHRhc2suLi4iJwogICAgICAgICAgICB0YXNrX2NscyA9IHRhc2tfbWFwLmNsc19kaWNbdGFza10oKQogICAgICAgICAgICB0YXNrX2Nscy5ydW5fc2NvcmVyX2JzeiA9IG9zLmVudmlyb24uZ2V0KCdTQ09SRVJfQlNaJywgdGFza19jbHMucnVuX3Njb3Jlcl9ic3opCiAgICAgICAgICAgIGxlYXJuaW5nX3JhdGUgPSB0YXNrX2Nscy5sZWFybmluZ19yYXRlCiAgICAgICAgICAgIHByb21wdF9wb29sX3BhdGggPSBvcy5wYXRoLmpvaW4ocHJvbXB0X3Bvb2xfZGlyLCBjbHVzdGVyLCB0YXNrKydfcHJvbXB0cy5qc29uJykKICAgICAgICAgICAgcmFuZG9tX3NhbXBsZV9wYXRoID0gb3MucGF0aC5qb2luKHJhbmRvbV9zYW1wbGVfZGlyLCBjbHVzdGVyLCB0YXNrICsgJ19yYW5kb21fc2FtcGxlcycpCiAgICAgICAgICAgIGZpbmRfcmFuZG9tX2NtZD1cCiAgICAgICAgICAgICAgICBmJ3B5dGhvbiBzY3JpcHRzL2ZpbmRfcmFuZG9tX3N0ZXAxLnB5IFwKICAgICAgICAgICAgICAgIG91dHB1dF9wYXRoPSRQV0Qve3JhbmRvbV9zYW1wbGVfcGF0aCArICJfc3RlcDEuanNvbiJ9IFwKICAgICAgICAgICAgICAgIHRhc2tfbmFtZT17dGFza30gK2RzX3NpemU9e2FyZ3MuZHNfc2l6ZX0gTD17dGFza19jbHMuZmluZGVyX0x9IFwKICAgICAgICAgICAgICAgIHByb21wdF9wb29sX3BhdGg9JFBXRC97cHJvbXB0X3Bvb2xfcGF0aH0gXAogICAgICAgICAgICAgICAgY2FjaGVfZGlyPSRQV0Qve2FyZ3MuY2FjaGVfZGlyfSBcCiAgICAgICAgICAgICAgICBoeWRyYS5ydW4uZGlyPSRQV0Qve2V4cF9wYXRofScKCiAgICAgICAgICAgIHNjb3JlZF90cmFpbl9wYXRoID0gb3MucGF0aC5qb2luKHNjb3JlZF9kaXIsIGNsdXN0ZXIsIHRhc2sgKyAnX3Njb3JlZF90cmFpbicpCiAgICAgICAgICAgIHNjb3JlZF92YWxpZF9wYXRoID0gb3MucGF0aC5qb2luKHNjb3JlZF9kaXIsIGNsdXN0ZXIsIHRhc2sgKyAnX3Njb3JlZF92YWxpZCcpCiAgICAgICAgICAgIHJ1bl9zY29yZXJfY21kID0gXAogICAgICAgICAgICAgICAgZidhY2NlbGVyYXRlIGxhdW5jaCAtLW11bHRpX2dwdSAtLW51bV9wcm9jZXNzZXMge2FyZ3MuZ3B1c30gLS1tYWluX3Byb2Nlc3NfcG9ydCB7cmFuZG9tX3BvcnR9IFwKICAgICAgICAgICAgICAgIHNjcmlwdHMvc2NvcmVyLnB5IFwKICAgICAgICAgICAgICAgIGV4YW1wbGVfZmlsZT0kUFdEL3tyYW5kb21fc2FtcGxlX3BhdGggKyAiX3N0ZXAxLmpzb24ifSBcCiAgICAgICAgICAgICAgICBvdXRwdXRfdHJhaW5fZmlsZT0kUFdEL3tzY29yZWRfdHJhaW5fcGF0aCArICJfc3RlcDEuanNvbiJ9IFwKICAgICAgICAgICAgICAgIG91dHB1dF92YWxpZF9maWxlPSRQV0Qve3Njb3JlZF92YWxpZF9wYXRoICsgIl9zdGVwMS5qc29uIn0gXAogICAgICAgICAgICAgICAgYmF0Y2hfc2l6ZT17dGFza19jbHMucnVuX3Njb3Jlcl9ic3p9IHRhc2tfbmFtZT17dGFza30gIG1vZGVsX25hbWU9e2FyZ3Muc2NyX21vZGVsfSBcCiAgICAgICAgICAgICAgICBwcm9tcHRfcG9vbF9wYXRoPSRQV0Qve3Byb21wdF9wb29sX3BhdGh9IFwKICAgICAgICAgICAgICAgIGNhY2hlX2Rpcj0kUFdEL3thcmdzLmNhY2hlX2Rpcn0gXAogICAgICAgICAgICAgICAgaHlkcmEucnVuLmRpcj0kUFdEL3tleHBfcGF0aH0nCiAgICAgICAgICAgIAogICAgICAgICAgICBmaW5kX3JhbmRvbV9zdGVwMj1cCiAgICAgICAgICAgICAgICBmJ3B5dGhvbiBzY3JpcHRzL2ZpbmRfcmFuZG9tX3N0ZXAyLnB5IFwKICAgICAgICAgICAgICAgIG91dHB1dF9wYXRoPSRQV0Qve3JhbmRvbV9zYW1wbGVfcGF0aCArICJfc3RlcDIuanNvbiJ9IFwKICAgICAgICAgICAgICAgIHRyYWluX3BhdGg9JFBXRC97c2NvcmVkX3RyYWluX3BhdGggKyAiX3N0ZXAxLmpzb24ifSBcCiAgICAgICAgICAgICAgICB2YWxpZF9wYXRoPSRQV0Qve3Njb3JlZF92YWxpZF9wYXRoICsgIl9zdGVwMS5qc29uIn0gXAogICAgICAgICAgICAgICAgdGFza19uYW1lPXt0YXNrfSArZHNfc2l6ZT17YXJncy5kc19zaXplfSBMPXt0YXNrX2Nscy5maW5kZXJfTH0gXAogICAgICAgICAgICAgICAgcHJvbXB0X3Bvb2xfcGF0aD0kUFdEL3twcm9tcHRfcG9vbF9wYXRofSBcCiAgICAgICAgICAgICAgICBjYWNoZV9kaXI9JFBXRC97YXJncy5jYWNoZV9kaXJ9IFwKICAgICAgICAgICAgICAgIGh5ZHJhLnJ1bi5kaXI9JFBXRC97ZXhwX3BhdGh9JwogICAgICAgICAgICBydW5fc2NvcmVyX3N0ZXAyID0gXAogICAgICAgICAgICAgICAgZidhY2NlbGVyYXRlIGxhdW5jaCAtLW11bHRpX2dwdSAtLW51bV9wcm9jZXNzZXMge2FyZ3MuZ3B1c30gLS1tYWluX3Byb2Nlc3NfcG9ydCB7cmFuZG9tX3BvcnR9IFwKICAgICAgICAgICAgICAgIHNjcmlwdHMvc2NvcmVyLnB5IFwKICAgICAgICAgICAgICAgIGV4YW1wbGVfZmlsZT0kUFdEL3tyYW5kb21fc2FtcGxlX3BhdGggKyAiX3N0ZXAyLmpzb24ifSBcCiAgICAgICAgICAgICAgICBvdXRwdXRfdHJhaW5fZmlsZT0kUFdEL3tzY29yZWRfdHJhaW5fcGF0aCArICJfc3RlcDIuanNvbiJ9IFwKICAgICAgICAgICAgICAgIG91dHB1dF92YWxpZF9maWxlPSRQV0Qve3Njb3JlZF92YWxpZF9wYXRoICsgIl9zdGVwMi5qc29uIn0gXAogICAgICAgICAgICAgICAgYmF0Y2hfc2l6ZT17dGFza19jbHMucnVuX3Njb3Jlcl9ic3p9IHRhc2tfbmFtZT17dGFza30gbW9kZWxfbmFtZT17YXJncy5zY3JfbW9kZWx9IFwKICAgICAgICAgICAgICAgIHByb21wdF9wb29sX3BhdGg9JFBXRC97cHJvbXB0X3Bvb2xfcGF0aH0gXAogICAgICAgICAgICAgICAgY2FjaGVfZGlyPSRQV0Qve2FyZ3MuY2FjaGVfZGlyfSBcCiAgICAgICAgICAgICAgICBoeWRyYS5ydW4uZGlyPSRQV0Qve2V4cF9wYXRofScKCiAgICAgICAgICAgIGZpbmRfcmFuZG9tX3N0ZXAzPSBcCiAgICAgICAgICAgICAgICBmJ3B5dGhvbiBzY3JpcHRzL2ZpbmRfcmFuZG9tX3N0ZXAzLnB5IFwKICAgICAgICAgICAgICAgIG91dHB1dF9wYXRoPSRQV0Qve3JhbmRvbV9zYW1wbGVfcGF0aCArICJfc3RlcDMuanNvbiJ9IFwKICAgICAgICAgICAgICAgIHRyYWluX3BhdGg9JFBXRC97c2NvcmVkX3RyYWluX3BhdGggKyAiX3N0ZXAyLmpzb24ifSBcCiAgICAgICAgICAgICAgICB2YWxpZF9wYXRoPSRQV0Qve3Njb3JlZF92YWxpZF9wYXRoICsgIl9zdGVwMi5qc29uIn0gXAogICAgICAgICAgICAgICAgdGFza19uYW1lPXt0YXNrfSArZHNfc2l6ZT17YXJncy5kc19zaXplfSBMPXt0YXNrX2Nscy5maW5kZXJfTH0gXAogICAgICAgICAgICAgICAgcHJvbXB0X3Bvb2xfcGF0aD0kUFdEL3twcm9tcHRfcG9vbF9wYXRofSBcCiAgICAgICAgICAgICAgICBjYWNoZV9kaXI9JFBXRC97YXJncy5jYWNoZV9kaXJ9IFwKICAgICAgICAgICAgICAgIGh5ZHJhLnJ1bi5kaXI9JFBXRC97ZXhwX3BhdGh9JwoKICAgICAgICAgICAgcnVuX3Njb3Jlcl9zdGVwMyA9IFwKICAgICAgICAgICAgICAgIGYnYWNjZWxlcmF0ZSBsYXVuY2ggLS1tdWx0aV9ncHUgLS1udW1fcHJvY2Vzc2VzIHthcmdzLmdwdXN9IC0tbWFpbl9wcm9jZXNzX3BvcnQge3JhbmRvbV9wb3J0fSBcCiAgICAgICAgICAgICAgICBzY3JpcHRzL3Njb3Jlci5weSBcCiAgICAgICAgICAgICAgICBleGFtcGxlX2ZpbGU9JFBXRC97cmFuZG9tX3NhbXBsZV9wYXRoICsgIl9zdGVwMy5qc29uIn0gXAogICAgICAgICAgICAgICAgb3V0cHV0X3RyYWluX2ZpbGU9JFBXRC97c2NvcmVkX3RyYWluX3BhdGggKyAiX3N0ZXAzLmpzb24ifSBcCiAgICAgICAgICAgICAgICBvdXRwdXRfdmFsaWRfZmlsZT0kUFdEL3tzY29yZWRfdmFsaWRfcGF0aCArICJfc3RlcDMuanNvbiJ9IFwKICAgICAgICAgICAgICAgIGJhdGNoX3NpemU9e3Rhc2tfY2xzLnJ1bl9zY29yZXJfYnN6fSB0YXNrX25hbWU9e3Rhc2t9IG1vZGVsX25hbWU9e2FyZ3Muc2NyX21vZGVsfSBcCiAgICAgICAgICAgICAgICBwcm9tcHRfcG9vbF9wYXRoPSRQV0Qve3Byb21wdF9wb29sX3BhdGh9IFwKICAgICAgICAgICAgICAgIGNhY2hlX2Rpcj0kUFdEL3thcmdzLmNhY2hlX2Rpcn0gXAogICAgICAgICAgICAgICAgaHlkcmEucnVuLmRpcj0kUFdEL3tleHBfcGF0aH0nCiAgICAgICAgICAgIHNjb3JlX2NtZF9saXN0ICs9IFtlY2hvX2NtZCwgZmluZF9yYW5kb21fY21kLCBydW5fc2NvcmVyX2NtZCwgZmluZF9yYW5kb21fc3RlcDIsIHJ1bl9zY29yZXJfc3RlcDIsIGZpbmRfcmFuZG9tX3N0ZXAzLCBydW5fc2NvcmVyX3N0ZXAzXQoKICAgICAgICAgICAgbWVyZ2VfZGF0YV9jbWQgPSBcCiAgICAgICAgICAgICAgICBmJ3B5dGhvbiBzY3JpcHRzL21lcmdlX2RhdGEucHkgXAogICAgICAgICAgICAgICAgc3RlcDFfdHJhaW49JFBXRC97c2NvcmVkX3RyYWluX3BhdGggKyAiX3N0ZXAxLmpzb24ifSBcCiAgICAgICAgICAgICAgICBzdGVwMV92YWxpZD0kUFdEL3tzY29yZWRfdmFsaWRfcGF0aCArICJfc3RlcDEuanNvbiJ9IFwKICAgICAgICAgICAgICAgIHN0ZXAyX3RyYWluPSRQV0Qve3Njb3JlZF90cmFpbl9wYXRoICsgIl9zdGVwMi5qc29uIn0gXAogICAgICAgICAgICAgICAgc3RlcDJfdmFsaWQ9JFBXRC97c2NvcmVkX3ZhbGlkX3BhdGggKyAiX3N0ZXAyLmpzb24ifSBcCiAgICAgICAgICAgICAgICBzdGVwM190cmFpbj0kUFdEL3tzY29yZWRfdHJhaW5fcGF0aCArICJfc3RlcDMuanNvbiJ9IFwKICAgICAgICAgICAgICAgIHN0ZXAzX3ZhbGlkPSRQV0Qve3Njb3JlZF92YWxpZF9wYXRoICsgIl9zdGVwMy5qc29uIn0gXAogICAgICAgICAgICAgICAgdHJhaW5fb3V0cHV0X3BhdGg9JFBXRC97c2NvcmVkX3RyYWluX3BhdGggKyAiLmpzb24ifSBcCiAgICAgICAgICAgICAgICB2YWxpZF9vdXRwdXRfcGF0aD0kUFdEL3tzY29yZWRfdmFsaWRfcGF0aCArICIuanNvbiJ9JwogICAgICAgICAgICAKICAgICAgICAgICAgZWNob19jbWQgPSBmJ2VjaG8gIm1lcmdpbmcgbXVsdGktc3RlcCBkYXRhLi4uIicKICAgICAgICAgICAgc2NvcmVfY21kX2xpc3QgKz0gW2VjaG9fY21kLCBtZXJnZV9kYXRhX2NtZF0KICAgIHNjb3JlX2NtZF9saXN0ID0gW3dyYXAoY21kKSBmb3IgY21kIGluIHNjb3JlX2NtZF9saXN0XQogICAgCiAgICAjIHdyaXRlIHNjb3JlIGNtZHMgaW4gc2NvcmUuc2ggKGRlZmF1bHQpCiAgICB3aXRoIG9wZW4oZiJ7ZXhwX3BhdGh9L3thcmdzLnNjb3JlX2NtZF9uYW1lfSIsInciKSBhcyBmOgogICAgICAgIGYud3JpdGUoIlxuXG4iLmpvaW4oc2NvcmVfY21kX2xpc3QpKQogICAgcHJpbnQoJ3NhdmVkIHNjb3JpbmcgY21kcyB0bzogJywgZiJ7ZXhwX3BhdGh9L3thcmdzLnNjb3JlX2NtZF9uYW1lfSIpCgogICAgIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09IFRyYWluaW5nIFN0YWdlID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CiAgICB0cmFpbl9jbWRfbGlzdCA9IFsnc2V0IC1lJ10KICAgIGVjaG9fY21kID0gZidlY2hvICJzdGFydCB0cmFpbmluZyB0aGUgcmV0cmlldmVyLi4uIicKICAgICMgcHJpbnQoInNjb3JlZF9kaXI6ICIsIHNjb3JlZF9kaXIpCiAgICB0cmFpbl9yZXRyaWV2ZXJfY21kID0gXAogICAgICAgIGYncHl0aG9uIERQUi90cmFpbl9kZW5zZV9lbmNvZGVyLnB5IFwKICAgICAgICB0cmFpbl9kYXRhc2V0cz1bc2UyX2RhdGFzZXRdIGRldl9kYXRhc2V0cz1bc2UyX3ZhbGlkX2RhdGFzZXRdIHRyYWluPWJpZW5jb2Rlcl9zZTIgXAogICAgICAgIG91dHB1dF9kaXI9JFBXRC97bW9kZWxfd2VpZ2h0X3BhdGh9IFwKICAgICAgICBkYXRhc2V0cy50cmFpbl9jbHVzdGVycz17YXJncy50cmFpbl9jbHVzdGVyc30gXAogICAgICAgIGRhdGFzZXRzLnRyYWluX2ZpbGU9JFBXRC97c2NvcmVkX2Rpcn0gXAogICAgICAgIGRhdGFzZXRzLnZhbGlkX2ZpbGU9JFBXRC97c2NvcmVkX2Rpcn0gXAogICAgICAgIGRhdGFzZXRzLmhhcmRfbmVnPXRydWUgZGF0YXNldHMudG9wX2s9e2FyZ3MucmV0cmlldmVyX3RvcF9rfSBcCiAgICAgICAgdHJhaW4uaGFyZF9uZWdhdGl2ZXM9e2FyZ3MucmV0cmlldmVyX3RvcF9rfSBcCiAgICAgICAgdHJhaW4uYmF0Y2hfc2l6ZT17YXJncy5yZXRyaWV2ZXJfYnN6fSBcCiAgICAgICAgdHJhaW4ubnVtX3RyYWluX2Vwb2Nocz17YXJncy5yZXRyaWV2ZXJfZXBvY2h9IFwKICAgICAgICB0cmFpbi5sZWFybmluZ19yYXRlPXtsZWFybmluZ19yYXRlfSBcCiAgICAgICAgZGF0YXNldHMucHJvbXB0X3Bvb2xfcGF0aD0kUFdEL3twcm9tcHRfcG9vbF9kaXJ9IFwKICAgICAgICBkYXRhc2V0cy5wcm9tcHRfc2V0dXBfdHlwZT17YXJncy5yZXRyaWV2ZXJfcHJvbXB0X3NldHVwfSBkYXRhc2V0cy50YXNrX3NldHVwX3R5cGU9cSBcCiAgICAgICAgZW5jb2Rlci5jYWNoZV9kaXI9JFBXRC97YXJncy5jYWNoZV9kaXJ9IFwKICAgICAgICBoeWRyYS5ydW4uZGlyPSRQV0Qve2V4cF9wYXRofScKCiAgICB0cmFpbl9jbWRfbGlzdCArPSBbZWNob19jbWQsIHRyYWluX3JldHJpZXZlcl9jbWRdCgogICAgCiAgICB0cmFpbl9jbWRfbGlzdCA9IFt3cmFwKGNtZCkgZm9yIGNtZCBpbiB0cmFpbl9jbWRfbGlzdF0KCiAgICAjIHdyaXRlIHRyYWluIGNtZHMgaW4gdHJhaW4uc2ggKGRlZmF1bHRlKQogICAgd2l0aCBvcGVuKGYie2V4cF9wYXRofS97YXJncy50cmFpbl9jbWRfbmFtZX0iLCJ3IikgYXMgZjoKICAgICAgICBmLndyaXRlKCJcblxuIi5qb2luKHRyYWluX2NtZF9saXN0KSkKICAgIHByaW50KCdzYXZlZCB0cmFpbmluZyBjbWRzIHRvOiAnLCBmIntleHBfcGF0aH0ve2FyZ3MudHJhaW5fY21kX25hbWV9IikKCiAgICAjID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0gSW5mZXJlbmNlIFN0YWdlID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CiAgICBpbmZlcmVuY2VfY21kX2xpc3QgPSBbJ3NldCAtZSddCiAgICAjIDEuIGVuY29kZSB0aGUgd2hvbGUgcHJvbXB0IHBvb2wsIHVzaW5nIHByb21wdCBlbmNvZGVyIG9mIHRoZSB0cmFpbmVkIHJldHJpZXZlcgogICAgZWNob19jbWQgPSBmJ2VjaG8gImVuY29kaW5nIHRoZSB3aG9sZSBwcm9tcHQgcG9vbC4uLiInCiAgICBnZW5fZW1iX2NtZCA9IFwKICAgICAgICBmInB5dGhvbiBEUFIvZ2VuZXJhdGVfZGVuc2VfZW1iZWRkaW5ncy5weSBtb2RlbF9maWxlPSRQV0Qve21vZGVsX3dlaWdodF9wYXRofS9kcHJfYmllbmNvZGVyLmJlc3RfdmFsaWQgXAogICAgICAgIGN0eF9zcmM9ZHByX3NlMiBzaGFyZF9pZD0wIG51bV9zaGFyZHM9MSBcCiAgICAgICAgb3V0X2ZpbGU9JFBXRC97bW9kZWxfd2VpZ2h0X3BhdGh9L2Rwcl9lbmNfaW5kZXggXAogICAgICAgIGN0eF9zb3VyY2VzLmRwcl9zZTIudHJhaW5fY2x1c3RlcnM9e2FyZ3MudHJhaW5fY2x1c3RlcnN9IFwKICAgICAgICBjdHhfc291cmNlcy5kcHJfc2UyLnByb21wdF9wb29sX3BhdGg9JFBXRC97cHJvbXB0X3Bvb2xfZGlyfSBcCiAgICAgICAgY3R4X3NvdXJjZXMuZHByX3NlMi5wcm9tcHRfc2V0dXBfdHlwZT17YXJncy5pbmZlcl9wcm9tcHRfc2V0dXB9IFwKICAgICAgICBlbmNvZGVyLmNhY2hlX2Rpcj0kUFdEL3thcmdzLmNhY2hlX2Rpcn0gXAogICAgICAgIGh5ZHJhLnJ1bi5kaXI9JFBXRC97ZXhwX3BhdGh9IgogICAgCiAgICBpbmZlcmVuY2VfY21kX2xpc3QgKz0gW2VjaG9fY21kLCBnZW5fZW1iX2NtZF0KCiAgICBkZWYgZ2V0X2luZmVyZW5jZV9jbWQoc2hvdF9udW09MywgcmV0cmlldmVyPSdzZTInLCByZXRyaWV2ZV9wcm9tcHRzX291dHBhdGg9IiIpOgoKICAgICAgICBhc3NlcnQgcmV0cmlldmVyIGluIFtOb25lLCAnUmFuZG9tJywgJ0JtMjUnLCAnU2JlcnQnLCAnc2UyJ10KICAgICAgICByYW5kb20gPSBUcnVlIGlmIHJldHJpZXZlciA9PSAicmFuZG9tIiBlbHNlIEZhbHNlCgogICAgICAgIGNtZF9saXN0ID0gW10KICAgICAgICBlY2hvX2NtZCA9IGYnZWNobyAicnVubmluZyBpbmZlcmVuY2Ugb24ge3Rhc2t9IHdpdGgge3JldHJpZXZlcn0gcmV0cmlldmVyLi4uIicKICAgICAgICBjbWRfbGlzdC5hcHBlbmQoZWNob19jbWQpCiAgICAgICAgcHJlZF9vdXRwYXRoID0gb3MucGF0aC5qb2luKGV4cF9wYXRoLCBmJ3ByZWRzX2Zvcl97Y2x1c3Rlcn0nLCBmJ3t0YXNrfV9wcm9tcHRze2FyZ3Muc2hvdF9udW19X3JldHJpZXZlcntyZXRyaWV2ZXJ9X3ByZWRzJykKCiAgICAgICAgaWYgcmV0cmlldmVyID09ICdzZTInOgogICAgICAgICAgICBwcmVkX291dHBhdGggKz0gJ18wLmpzb24nCiAgICAgICAgICAgIHJldHJpZXZlX3Byb21wdHNfb3V0cGF0aCArPSAiX2JlYW1fc2NvcmVfMC5qc29uIgogICAgICAgICAgICBydW5faW5mZXJlbmNlX2NtZCA9IFwKICAgICAgICAgICAgICAgIGYiYWNjZWxlcmF0ZSBsYXVuY2ggLS1udW1fcHJvY2Vzc2VzIDEgIC0tbWFpbl9wcm9jZXNzX3BvcnQge3JhbmRvbV9wb3J0fSBcCiAgICAgICAgICAgICAgICBzY3JpcHRzL2luZmVyZW5jZS5weSBwcm9tcHRfZmlsZT0kUFdEL3tyZXRyaWV2ZV9wcm9tcHRzX291dHBhdGh9IFwKICAgICAgICAgICAgICAgIHRhc2tfbmFtZT17dGFza30gXAogICAgICAgICAgICAgICAgb3V0cHV0X2ZpbGU9JFBXRC97cHJlZF9vdXRwYXRofSBcCiAgICAgICAgICAgICAgICByZXNfZmlsZT0kUFdEL3tldmFsX3Jlc19vdXRwYXRofSBcCiAgICAgICAgICAgICAgICBiYXRjaF9zaXplPXthcmdzLmluZmVyZW5jZV9ic3p9IFwKICAgICAgICAgICAgICAgIHRyYWluX2NsdXN0ZXJzPXthcmdzLnRyYWluX2NsdXN0ZXJzfSBcCiAgICAgICAgICAgICAgICBtb2RlbF9uYW1lPXthcmdzLmluZl9tb2RlbH0gXAogICAgICAgICAgICAgICAgcHJvbXB0X3Bvb2xfcGF0aD0kUFdEL3twcm9tcHRfcG9vbF9kaXJ9IFwKICAgICAgICAgICAgICAgIHJhbmRvbV9zYW1wbGU9e3JhbmRvbX0gcmFuZG9tX3NlZWQ9NDIgXAogICAgICAgICAgICAgICAgY2FjaGVfZGlyPSRQV0Qve2FyZ3MuY2FjaGVfZGlyfSBcCiAgICAgICAgICAgICAgICBoeWRyYS5ydW4uZGlyPSRQV0Qve2V4cF9wYXRofSIKICAgICAgICBlbHNlOgogICAgICAgICAgICBwcmVkX291dHBhdGggKz0gJy5qc29uJwogICAgICAgICAgICByZXRyaWV2ZV9wcm9tcHRzX291dHBhdGggKz0gIi5qc29uIgogICAgICAgICAgICBydW5faW5mZXJlbmNlX2NtZCA9IFwKICAgICAgICAgICAgICAgIGYiYWNjZWxlcmF0ZSBsYXVuY2ggLS1udW1fcHJvY2Vzc2VzIDEgIC0tbWFpbl9wcm9jZXNzX3BvcnQge3JhbmRvbV9wb3J0fSBcCiAgICAgICAgICAgICAgICBzY3JpcHRzL2luZmVyZW5jZS5weSBwcm9tcHRfZmlsZT0kUFdEL3tyZXRyaWV2ZV9wcm9tcHRzX291dHBhdGh9IFwKICAgICAgICAgICAgICAgIHRhc2tfbmFtZT17dGFza30gXAogICAgICAgICAgICAgICAgb3V0cHV0X2ZpbGU9JFBXRC97cHJlZF9vdXRwYXRofSBcCiAgICAgICAgICAgICAgICByZXNfZmlsZT0kUFdEL3tldmFsX3Jlc19vdXRwYXRofSBcCiAgICAgICAgICAgICAgICBiYXRjaF9zaXplPXthcmdzLmluZmVyZW5jZV9ic3p9IFwKICAgICAgICAgICAgICAgIHRyYWluX2NsdXN0ZXJzPXthcmdzLnRyYWluX2NsdXN0ZXJzfSBcCiAgICAgICAgICAgICAgICBtb2RlbF9uYW1lPXthcmdzLmluZl9tb2RlbH0gXAogICAgICAgICAgICAgICAgcHJvbXB0X3Bvb2xfcGF0aD0kUFdEL3twcm9tcHRfcG9vbF9kaXJ9IFwKICAgICAgICAgICAgICAgIHNob3RfbnVtPXtzaG90X251bX0gXAogICAgICAgICAgICAgICAgcmFuZG9tX3NhbXBsZT17cmFuZG9tfSByYW5kb21fc2VlZD00MiBcCiAgICAgICAgICAgICAgICBjYWNoZV9kaXI9JFBXRC97YXJncy5jYWNoZV9kaXJ9IFwKICAgICAgICAgICAgICAgIGh5ZHJhLnJ1bi5kaXI9JFBXRC97ZXhwX3BhdGh9IgogICAgICAgIGNtZF9saXN0LmFwcGVuZChydW5faW5mZXJlbmNlX2NtZCkKICAgICAgICByZXR1cm4gY21kX2xpc3QKCiAgICAjIDIuIHJldHJpZXZlIHBvc2l0aXZlIHByb21wdHMgZnJvbSB0aGUgcHJvbXB0IHBvb2wsIGZvciBlYWNoIHRhc2sgaW4gdGhlIHRlc3RpbmcgY2x1c3RlcnM6ICAgIAogICAgdGVzdF9jbHVzdGVycyA9IGFyZ3MudGVzdF9jbHVzdGVycy5zcGxpdCgnKycpCiAgICBmb3IgY2x1c3RlciBpbiB0ZXN0X2NsdXN0ZXJzOgogICAgICAgIGV2YWxfcmVzX291dHBhdGggPSBvcy5wYXRoLmpvaW4oZXhwX3BhdGgsIGYnZXZhbF9yZXNfZm9yX3tjbHVzdGVyfS50eHQnKQogICAgICAgIGZvciB0YXNrIGluIHRlc3RfY2x1c3Rlcl9tYXBbY2x1c3Rlcl06CiAgICAgICAgICAgIGVjaG9fY21kID0gZidlY2hvICJzZTIgcmV0cmlldmVzIG9uIHt0YXNrfS4uLiInCiAgICAgICAgICAgIHJldHJpZXZlX3Byb21wdHNfb3V0cGF0aCA9IG9zLnBhdGguam9pbihleHBfcGF0aCwgZidzZTJfcHJvbXB0c19mb3Jfe2NsdXN0ZXJ9JywgZid7dGFza31fcHJvbXB0cycpCiAgICAgICAgICAgIHJldHJpZXZlX3Byb21wdHNfY21kID0gXAogICAgICAgICAgICAgICAgZidweXRob24gRFBSL2RlbnNlX3JldHJpZXZlcl9iZWFtX3Njb3JlLnB5IG1vZGVsX2ZpbGU9JFBXRC97bW9kZWxfd2VpZ2h0X3BhdGh9L2Rwcl9iaWVuY29kZXIuYmVzdF92YWxpZCBcCiAgICAgICAgICAgICAgICBxYV9kYXRhc2V0PXFhX3NlMiBjdHhfZGF0YXRzZXRzPVtkcHJfc2UyXSBcCiAgICAgICAgICAgICAgICBlbmNvZGVkX2N0eF9maWxlcz1bIiRQV0Qve21vZGVsX3dlaWdodF9wYXRofS9kcHJfZW5jX2luZGV4XyoiXVwKICAgICAgICAgICAgICAgIG91dF9maWxlPSRQV0Qve3JldHJpZXZlX3Byb21wdHNfb3V0cGF0aCArICIuanNvbiJ9IFwKICAgICAgICAgICAgICAgIGRhdGFzZXRzLnFhX3NlMi50YXNrX25hbWU9e3Rhc2t9IFwKICAgICAgICAgICAgICAgIGRhdGFzZXRzLnFhX3NlMi50YXNrX3NldHVwX3R5cGU9cSAgXAogICAgICAgICAgICAgICAgZGF0YXNldHMucWFfc2UyLmNhY2hlX2Rpcj0kUFdEL3thcmdzLmNhY2hlX2Rpcn0gXAogICAgICAgICAgICAgICAgYmVhbV9zaXplPXthcmdzLmJlYW1fc2l6ZX0gXAogICAgICAgICAgICAgICAgc2hvdF9udW09e2FyZ3Muc2hvdF9udW19IFwKICAgICAgICAgICAgICAgIGN0eF9zb3VyY2VzLmRwcl9zZTIucHJvbXB0X3Bvb2xfcGF0aD0kUFdEL3twcm9tcHRfcG9vbF9kaXJ9IFwKICAgICAgICAgICAgICAgIGN0eF9zb3VyY2VzLmRwcl9zZTIudHJhaW5fY2x1c3RlcnM9e2FyZ3MudHJhaW5fY2x1c3RlcnN9IFwKICAgICAgICAgICAgICAgIGN0eF9zb3VyY2VzLmRwcl9zZTIucHJvbXB0X3NldHVwX3R5cGU9e2FyZ3MuaW5mZXJfcHJvbXB0X3NldHVwfSBcCiAgICAgICAgICAgICAgICBlbmNvZGVyLmNhY2hlX2Rpcj0kUFdEL3thcmdzLmNhY2hlX2Rpcn0gXAogICAgICAgICAgICAgICAgaHlkcmEucnVuLmRpcj17ZXhwX3BhdGh9JwogICAgICAgICAgICBpbmZlcmVuY2VfY21kX2xpc3QgKz0gW2VjaG9fY21kLCByZXRyaWV2ZV9wcm9tcHRzX2NtZF0KCiAgICAgICAgICAgICMgc2UyIGRvIG5vdCBuZWVkIHRvIHNldCBzaG90X251bSBoZXJlLgogICAgICAgICAgICBpbmZlcmVuY2VfY21kX2xpc3QgKz0gZ2V0X2luZmVyZW5jZV9jbWQoc2hvdF9udW09MCwgcmV0cmlldmVyPSdzZTInLCByZXRyaWV2ZV9wcm9tcHRzX291dHBhdGg9cmV0cmlldmVfcHJvbXB0c19vdXRwYXRoKQoKICAgICAgICAgICAgIyBBYmxhdGlvbnM6IHJhbmRvbSwgYm0yNSBhbmQgc2JlcnQKICAgICAgICAgICAgaWYgYXJncy5yZXRyaWV2ZV9yYW5kb206CiAgICAgICAgICAgICAgICBpbmZlcmVuY2VfY21kX2xpc3QgKz0gZ2V0X2luZmVyZW5jZV9jbWQoc2hvdF9udW09YXJncy5zaG90X251bSwgcmV0cmlldmVyPSdSYW5kb20nKQogICAgICAgICAgICBpZiBhcmdzLnJldHJpZXZlX2JtMjU6CiAgICAgICAgICAgICAgICBlY2hvX2NtZCA9IGYnZWNobyAiYm0yNSByZXRyaWV2ZXMgb24ge3Rhc2t9IHRhc2sgb2Yge2NsdXN0ZXJ9IGNsdXN0ZXIuLi4iJwogICAgICAgICAgICAgICAgcmV0cmlldmVfcHJvbXB0c19vdXRwYXRoID0gb3MucGF0aC5qb2luKGV4cF9wYXRoLCBmJ2JtMjVfcHJvbXB0c19mb3Jfe2NsdXN0ZXJ9JywgZid7dGFza31fcHJvbXB0cy5qc29uJykKICAgICAgICAgICAgICAgIHJldHJpZXZlX2JtMjVfcHJvbXB0c19jbWQgPSBcCiAgICAgICAgICAgICAgICAgICAgZidweXRob24gc2NyaXB0cy9yZXRyaWV2ZV9ibTI1LnB5IFwKICAgICAgICAgICAgICAgICAgICB0cmFpbl9jbHVzdGVycz17YXJncy50cmFpbl9jbHVzdGVyc30gXAogICAgICAgICAgICAgICAgICAgIHRhc2tfbmFtZT17dGFza30gY2FjaGVfZGlyPSRQV0Qve2FyZ3MuY2FjaGVfZGlyfSBcCiAgICAgICAgICAgICAgICAgICAgcHJvbXB0X3Bvb2xfcGF0aD0kUFdEL3twcm9tcHRfcG9vbF9kaXJ9IFwKICAgICAgICAgICAgICAgICAgICBvdXRfZmlsZT0kUFdEL3tyZXRyaWV2ZV9wcm9tcHRzX291dHBhdGh9IFwKICAgICAgICAgICAgICAgICAgICBwcm9tcHRfc2V0dXBfdHlwZT17YXJncy5yZXRyaWV2ZXJfcHJvbXB0X3NldHVwfSBuX2RvY3M9e2FyZ3Muc2hvdF9udW19IFwKICAgICAgICAgICAgICAgICAgICBoeWRyYS5ydW4uZGlyPSRQV0Qve2V4cF9wYXRofSAnCiAgICAgICAgICAgICAgICBpbmZlcmVuY2VfY21kX2xpc3QgKz0gW2VjaG9fY21kLCByZXRyaWV2ZV9ibTI1X3Byb21wdHNfY21kXQogICAgICAgICAgICAgICAgaW5mZXJlbmNlX2NtZF9saXN0ICs9IGdldF9pbmZlcmVuY2VfY21kKHNob3RfbnVtPWFyZ3Muc2hvdF9udW0sIHJldHJpZXZlcj0nQm0yNScpCiAgICAgICAgICAgIGlmIGFyZ3MucmV0cmlldmVfc2JlcnQ6CiAgICAgICAgICAgICAgICBlY2hvX2NtZCA9IGYnZWNobyAic2JlcnQgcmV0cmlldmVzIG9uIHt0YXNrfSB0YXNrIG9mIHtjbHVzdGVyfSBjbHVzdGVyLi4uIicKICAgICAgICAgICAgICAgIHJldHJpZXZlX3Byb21wdHNfb3V0cGF0aCA9IG9zLnBhdGguam9pbihleHBfcGF0aCwgZidzYmVydF9wcm9tcHRzX2Zvcl97Y2x1c3Rlcn0nLCBmJ3t0YXNrfV9wcm9tcHRzLmpzb24nKQogICAgICAgICAgICAgICAgcmV0cmlldmVfc2JlcnRfcHJvbXB0c19jbWQgPSBcCiAgICAgICAgICAgICAgICAgICAgZidweXRob24gc2NyaXB0cy9yZXRyaWV2ZV9zYmVydC5weSBcCiAgICAgICAgICAgICAgICAgICAgdHJhaW5fY2x1c3RlcnM9e2FyZ3MudHJhaW5fY2x1c3RlcnN9IFwKICAgICAgICAgICAgICAgICAgICB0YXNrX25hbWU9e3Rhc2t9IGNhY2hlX2Rpcj0kUFdEL3thcmdzLmNhY2hlX2Rpcn0gXAogICAgICAgICAgICAgICAgICAgIHByb21wdF9wb29sX3BhdGg9JFBXRC97cHJvbXB0X3Bvb2xfZGlyfSBcCiAgICAgICAgICAgICAgICAgICAgb3V0X2ZpbGU9JFBXRC97cmV0cmlldmVfcHJvbXB0c19vdXRwYXRofSBcCiAgICAgICAgICAgICAgICAgICAgcHJvbXB0X3NldHVwX3R5cGU9e2FyZ3MucmV0cmlldmVyX3Byb21wdF9zZXR1cH0gbl9kb2NzPXthcmdzLnNob3RfbnVtfSBcCiAgICAgICAgICAgICAgICAgICAgaHlkcmEucnVuLmRpcj0kUFdEL3tleHBfcGF0aH0gJwogICAgICAgICAgICAgICAgaW5mZXJlbmNlX2NtZF9saXN0ICs9IFtlY2hvX2NtZCwgcmV0cmlldmVfc2JlcnRfcHJvbXB0c19jbWRdCiAgICAgICAgICAgICAgICBpbmZlcmVuY2VfY21kX2xpc3QgKz0gZ2V0X2luZmVyZW5jZV9jbWQoc2hvdF9udW09YXJncy5zaG90X251bSwgcmV0cmlldmVyPSdTYmVydCcpCiAgICAgICAgICAgICAgICAKICAgIGluZmVyZW5jZV9jbWRfbGlzdCA9IFt3cmFwKGNtZCkgZm9yIGNtZCBpbiBpbmZlcmVuY2VfY21kX2xpc3RdCgogICAgIyB3cml0ZSBydW4uc2gKICAgIHdpdGggb3BlbihmIntleHBfcGF0aH0ve2FyZ3MuaW5mZXJfY21kX25hbWV9IiwidyIpIGFzIGY6CiAgICAgICAgZi53cml0ZSgiXG5cbiIuam9pbihpbmZlcmVuY2VfY21kX2xpc3QpKQogICAgcHJpbnQoJ3NhdmVkIGluZmVyZW5jZSBjbWRzIHRvOiAnLCBmIntleHBfcGF0aH0ve2FyZ3MuaW5mZXJfY21kX25hbWV9IikKCiAgICByZXR1cm4gICAgIAoKICAgIAppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgcGFyc2VyID0gYXJncGFyc2UuQXJndW1lbnRQYXJzZXIoKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS1vdXRwdXRfZGlyJywgCiAgICAgICAgICAgICAgICAgICAgICAgIHR5cGU9c3RyLCBoZWxwPSdEaXJlY3RvcnkgZm9yIHNhdmluZyBhbGwgdGhlIGludGVybWVkaWF0ZSBhbmQgZmluYWwgb3V0cHV0cy4nLCAKICAgICAgICAgICAgICAgICAgICAgICAgZGVmYXVsdD0nbXlfZGF0YScpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLWNhY2hlX2RpcicsIAogICAgICAgICAgICAgICAgICAgICAgICB0eXBlPXN0ciwgaGVscD0nRGlyZWN0b3J5IGZvciBjYWNoaW5nIHRoZSBodWdnaW5nZmFjZSBtb2RlbHMgYW5kIGRhdGFzZXRzLicsIAogICAgICAgICAgICAgICAgICAgICAgICBkZWZhdWx0PSckUFdEL2NhY2hlJykKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0tZ3B1cycsIAogICAgICAgICAgICAgICAgICAgICAgICB0eXBlPWludCwgaGVscD0nbnVtYmVyIG9mIGdwdXMgdG8gdXNlJywKICAgICAgICAgICAgICAgICAgICAgICAgZGVmYXVsdD04KQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS1zY29yZV9jbWRfbmFtZScsIAogICAgICAgICAgICAgICAgICAgICAgICB0eXBlPXN0ciwgaGVscD0nd3JpdGUgc2NvcmUgY21kIHRvIHRoaXMgZmlsZScsCiAgICAgICAgICAgICAgICAgICAgICAgIGRlZmF1bHQ9J3Njb3JlLnNoJykKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0tdHJhaW5fY21kX25hbWUnLCAKICAgICAgICAgICAgICAgICAgICAgICAgdHlwZT1zdHIsIGhlbHA9J3dyaXRlIHRyYWluIGNtZCB0byB0aGlzIGZpbGUnLAogICAgICAgICAgICAgICAgICAgICAgICBkZWZhdWx0PSd0cmFpbi5zaCcpICAgICAgICAgICAgICAgCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLWluZmVyX2NtZF9uYW1lJywgCiAgICAgICAgICAgICAgICAgICAgICAgIHR5cGU9c3RyLCBoZWxwPSd3cml0ZSBpbmZlciBjbWQgdG8gdGhpcyBmaWxlJywKICAgICAgICAgICAgICAgICAgICAgICAgZGVmYXVsdD0naW5mZXIuc2gnKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS1tb2RlbF9mb2xkZXInLCAKICAgICAgICAgICAgICAgICAgICAgICAgdHlwZT1zdHIsIGhlbHA9J3dyaXRlIG1vZGVsIGNrcHQgdG8gdGhpcyBmb2xkZXInLAogICAgICAgICAgICAgICAgICAgICAgICBkZWZhdWx0PSdtb2RlbF9ja3B0JykKICAgICMgdHJhaW5pbmcKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0tdHJhaW5fY2x1c3RlcnMnLCAKICAgICAgICAgICAgICAgICAgICAgICAgdHlwZT1zdHIsIAogICAgICAgICAgICAgICAgICAgICAgICBoZWxwPSd3ZSB1c2Ugc2luZ2xlIHRhc2sgaW4gb3VyIGV4cGVyaWVuY2UsIHNvIGl0IHdpbGwgYmUgYSB0YXNrIG5hbWUnLAogICAgICAgICAgICAgICAgICAgICAgICBkZWZhdWx0PSJjb3BhIikKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0tcmV0cmlldmVyX3Byb21wdF9zZXR1cCcsIAogICAgICAgICAgICAgICAgICAgICAgICB0eXBlPXN0ciwKICAgICAgICAgICAgICAgICAgICAgICAgaGVscD0nc2V0dXAgdHlwZSBvZiBwcm9tcHQsIHFhIGZvciBxdWVzdGlvbiArIGFuc3dlciwgcSBmb3IgcXVlc3Rpb24gb25seScsCiAgICAgICAgICAgICAgICAgICAgICAgIGRlZmF1bHQ9InFhIikKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0taW5mZXJfcHJvbXB0X3NldHVwJywgCiAgICAgICAgICAgICAgICAgICAgICAgIHR5cGU9c3RyLAogICAgICAgICAgICAgICAgICAgICAgICBkZWZhdWx0PSJxYSIpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLWRzX3NpemUnLCAKICAgICAgICAgICAgICAgICAgICAgICAgdHlwZT1pbnQsCiAgICAgICAgICAgICAgICAgICAgICAgIGhlbHA9J251bWJlciBvZiBtYXhpbXVtIGRhdGEgZXhhbXBsZXMgc2FtcGxlZCBmcm9tIGVhY2ggdHJhaW5pbmcgZGF0YXNldCcsCiAgICAgICAgICAgICAgICAgICAgICAgIGRlZmF1bHQ9MTAwMDApCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLXNjcl9tb2RlbCcsIAogICAgICAgICAgICAgICAgICAgICAgICB0eXBlPXN0ciwKICAgICAgICAgICAgICAgICAgICAgICAgaGVscD0nSHVnZ2luZ2ZhY2UgbW9kZWwgZm9yIHNjb3JpbmcgZGF0YScsCiAgICAgICAgICAgICAgICAgICAgICAgIGRlZmF1bHQ9IkVsZXV0aGVyQUkvZ3B0LW5lby0yLjdCIikKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tbXVsdGlfdGFzayIsIAogICAgICAgICAgICAgICAgICAgICAgICBhY3Rpb249InN0b3JlX3RydWUiLCAKICAgICAgICAgICAgICAgICAgICAgICAgaGVscD0id2UgdXNlIHNpbmdsZSB0YXNrIGluIG91ciBleHBlcmllbmNlIikKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0tcmV0cmlldmVyX3RvcF9rJywgCiAgICAgICAgICAgICAgICAgICAgICAgIHR5cGU9aW50LAogICAgICAgICAgICAgICAgICAgICAgICBoZWxwPSdudW1iZXIgb2YgayAoaGFyZCkgbmVnYXRpdmVzIGZvciB0cmFpbmluZyB0aGUgcmV0cmlldmVyJywKICAgICAgICAgICAgICAgICAgICAgICAgZGVmYXVsdD0yMCkKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0tcmV0cmlldmVyX2JzeicsIAogICAgICAgICAgICAgICAgICAgICAgICB0eXBlPWludCwKICAgICAgICAgICAgICAgICAgICAgICAgaGVscD0nc3VtIG9mIGJhdGNoIHNpemUgb2YgYWxsIGdwdXMsIE5PVCBwZXIgZ3B1JywKICAgICAgICAgICAgICAgICAgICAgICAgZGVmYXVsdD04KQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS1yZXRyaWV2ZXJfZXBvY2gnLCAKICAgICAgICAgICAgICAgICAgICAgICAgdHlwZT1pbnQsCiAgICAgICAgICAgICAgICAgICAgICAgIGhlbHA9J21heGltdW0gdHJhaW5pbmcgZXBvY2gnLAogICAgICAgICAgICAgICAgICAgICAgICBkZWZhdWx0PTYpCiAgICAKICAgICMgaW5mZXJlbmNlCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLWluZl9tb2RlbCcsIAogICAgICAgICAgICAgICAgICAgICAgICB0eXBlPXN0ciwKICAgICAgICAgICAgICAgICAgICAgICAgaGVscD0nSHVnZ2luZ2ZhY2UgbW9kZWwgZm9yIGluZmVyZW5jZScsCiAgICAgICAgICAgICAgICAgICAgICAgIGRlZmF1bHQ9IkVsZXV0aGVyQUkvZ3B0LW5lby0yLjdCIikKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0tdGVzdF9jbHVzdGVycycsIAogICAgICAgICAgICAgICAgICAgICAgICB0eXBlPXN0ciwgCiAgICAgICAgICAgICAgICAgICAgICAgIGhlbHA9J3dlIHVzZSBzaW5nbGUgdGFzayBpbiBvdXIgZXhwZXJpZW5jZSwgc28gaXQgd2lsbCBiZSBhIHRhc2sgbmFtZScsCiAgICAgICAgICAgICAgICAgICAgICAgIGRlZmF1bHQ9ImNvcGEiKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS1iZWFtX3NpemUnLCAKICAgICAgICAgICAgICAgICAgICAgICAgdHlwZT1pbnQsIAogICAgICAgICAgICAgICAgICAgICAgICBoZWxwPSdiZWFtIHNpemUgb2YgdGhlIGV4YW1wbGUgdG8gYmUgc2VhcmNoZWQgZHVyaW5nIGluZmVyZW5jZScsCiAgICAgICAgICAgICAgICAgICAgICAgIGRlZmF1bHQ9MykKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0tc2hvdF9udW0nLCAKICAgICAgICAgICAgICAgICAgICAgICAgdHlwZT1pbnQsIAogICAgICAgICAgICAgICAgICAgICAgICBoZWxwPSdtYXhpbXVtIG51bWJlciBvZiByZXRyaWV2ZWQgcHJvbXB0cyB0byBiZSBjb25jYXRlbmF0ZWQgYmVmb3JlIHRoZSB0YXNrIGlucHV0JywKICAgICAgICAgICAgICAgICAgICAgICAgZGVmYXVsdD0zKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS1yZXRyaWV2ZV9yYW5kb20nLCAKICAgICAgICAgICAgICAgICAgICAgICAgYWN0aW9uPSJzdG9yZV90cnVlIiwgCiAgICAgICAgICAgICAgICAgICAgICAgIGhlbHA9J3doZXRoZXIgdG8gcmFuZG9tIHJldHJpZXZlIGZyb20gb3VyIHByb21wdCBwb29sLCBhbmQgcnVuIGEgYmFzZWxpbmUnKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS1yZXRyaWV2ZV9ibTI1JywgCiAgICAgICAgICAgICAgICAgICAgICAgIGFjdGlvbj0ic3RvcmVfdHJ1ZSIsIAogICAgICAgICAgICAgICAgICAgICAgICBoZWxwPSd3aGV0aGVyIHRvIHVzZSBibTI1IHJldHJpZXZlciB0byByZXRyaWV2ZSBmcm9tIG91ciBwcm9tcHQgcG9vbCwgYW5kIHJ1biBhIGJhc2VsaW5lJykKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0tcmV0cmlldmVfc2JlcnQnLCAKICAgICAgICAgICAgICAgICAgICAgICAgYWN0aW9uPSJzdG9yZV90cnVlIiwgCiAgICAgICAgICAgICAgICAgICAgICAgIGhlbHA9J3doZXRoZXIgdG8gdXNlIHNiZXJ0IHRvIHJldHJpZXZlIGZyb20gb3VyIHByb21wdCBwb29sLCBhbmQgcnVuIGEgYmFzZWxpbmUnKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS1pbmZlcmVuY2VfYnN6JywgCiAgICAgICAgICAgICAgICAgICAgICAgIHR5cGU9aW50LAogICAgICAgICAgICAgICAgICAgICAgICBoZWxwPSdzdW0gb2YgYmF0Y2ggc2l6ZSBvZiBhbGwgZ3B1cywgTk9UIHBlciBncHUnLAogICAgICAgICAgICAgICAgICAgICAgICBkZWZhdWx0PTEpCgogICAgYXJncyA9IHBhcnNlci5wYXJzZV9hcmdzKCkKICAgIHByaW50KGFyZ3MpCiAgICBnZXRfY21kcyhhcmdzKQogICAg
+import os
+import sys
+sys.path.insert(0, os.getcwd())
+
+import argparse
+from DPR.dpr.utils.tasks import task_map, train_cluster_map, test_cluster_map
+import random
+import textwrap
+from tqdm import tqdm
+
+
+def wrap(cmd): 
+    '''
+    wrap cmd
+    '''
+    bs = ' \\\n\t '
+    return bs.join(textwrap.wrap(cmd,break_long_words=False,break_on_hyphens=False))     
+
+def get_cmds(args):
+
+    # ================================== Scoring Stage ===================================
+    prompt_pool_dir = os.path.join(args.output_dir, 'prompt_pool')
+    random_sample_dir = os.path.join(args.output_dir, 'find_random') # change file name is ok
+    scored_dir = os.path.join(args.output_dir, 'scored')
+
+    exp_name = f'{args.train_clusters}'
+    exp_path = os.path.join(args.output_dir, 'experiment', exp_name)
+    model_weight_path = os.path.join(exp_path, args.model_folder)
+    os.makedirs(exp_path, exist_ok=True)
+
+    random_port = random.randint(21966,25000)
+
+    if args.train_clusters is None:
+        clusters = list(train_cluster_map.keys())
+    else:
+        clusters = args.train_clusters.split('+')
+    score_cmd_list=['set -e']
+    for cluster in tqdm(clusters):
+        for task in train_cluster_map[cluster]: # for Se2, there is only a task in a cluster
+            echo_cmd = f'echo "scoring {task} task..."'
+            task_cls = task_map.cls_dic[task]()
+            task_cls.run_scorer_bsz = os.environ.get('SCORER_BSZ', task_cls.run_scorer_bsz)
+            learning_rate = task_cls.learning_rate
+            prompt_pool_path = os.path.join(prompt_pool_dir, cluster, task+'_prompts.json')
+            random_sample_path = os.path.join(random_sample_dir, cluster, task + '_random_samples')
+            find_random_cmd=\
+                f'python scripts/find_random_step1.py \
+                output_path=$PWD/{random_sample_path + "_step1.json"} \
+                task_name={task} +ds_size={args.ds_size} L={task_cls.finder_L} \
+                prompt_pool_path=$PWD/{prompt_pool_path} \
+                cache_dir=$PWD/{args.cache_dir} \
+                hydra.run.dir=$PWD/{exp_path}'
+
+            scored_train_path = os.path.join(scored_dir, cluster, task + '_scored_train')
+            scored_valid_path = os.path.join(scored_dir, cluster, task + '_scored_valid')
+            run_scorer_cmd = \
+                f'accelerate launch --multi_gpu --num_processes {args.gpus} --main_process_port {random_port} \
+                scripts/scorer.py \
+                example_file=$PWD/{random_sample_path + "_step1.json"} \
+                output_train_file=$PWD/{scored_train_path + "_step1.json"} \
+                output_valid_file=$PWD/{scored_valid_path + "_step1.json"} \
+                batch_size={task_cls.run_scorer_bsz} task_name={task}  model_name={args.scr_model} \
+                prompt_pool_path=$PWD/{prompt_pool_path} \
+                cache_dir=$PWD/{args.cache_dir} \
+                hydra.run.dir=$PWD/{exp_path}'
+            
+            find_random_step2=\
+                f'python scripts/find_random_step2.py \
+                output_path=$PWD/{random_sample_path + "_step2.json"} \
+                train_path=$PWD/{scored_train_path + "_step1.json"} \
+                valid_path=$PWD/{scored_valid_path + "_step1.json"} \
+                task_name={task} +ds_size={args.ds_size} L={task_cls.finder_L} \
+                prompt_pool_path=$PWD/{prompt_pool_path} \
+                cache_dir=$PWD/{args.cache_dir} \
+                hydra.run.dir=$PWD/{exp_path}'
+            run_scorer_step2 = \
+                f'accelerate launch --multi_gpu --num_processes {args.gpus} --main_process_port {random_port} \
+                scripts/scorer.py \
+                example_file=$PWD/{random_sample_path + "_step2.json"} \
+                output_train_file=$PWD/{scored_train_path + "_step2.json"} \
+                output_valid_file=$PWD/{scored_valid_path + "_step2.json"} \
+                batch_size={task_cls.run_scorer_bsz} task_name={task} model_name={args.scr_model} \
+                prompt_pool_path=$PWD/{prompt_pool_path} \
+                cache_dir=$PWD/{args.cache_dir} \
+                hydra.run.dir=$PWD/{exp_path}'
+
+            find_random_step3= \
+                f'python scripts/find_random_step3.py \
+                output_path=$PWD/{random_sample_path + "_step3.json"} \
+                train_path=$PWD/{scored_train_path + "_step2.json"} \
+                valid_path=$PWD/{scored_valid_path + "_step2.json"} \
+                task_name={task} +ds_size={args.ds_size} L={task_cls.finder_L} \
+                prompt_pool_path=$PWD/{prompt_pool_path} \
+                cache_dir=$PWD/{args.cache_dir} \
+                hydra.run.dir=$PWD/{exp_path}'
+
+            run_scorer_step3 = \
+                f'accelerate launch --multi_gpu --num_processes {args.gpus} --main_process_port {random_port} \
+                scripts/scorer.py \
+                example_file=$PWD/{random_sample_path + "_step3.json"} \
+                output_train_file=$PWD/{scored_train_path + "_step3.json"} \
+                output_valid_file=$PWD/{scored_valid_path + "_step3.json"} \
+                batch_size={task_cls.run_scorer_bsz} task_name={task} model_name={args.scr_model} \
+                prompt_pool_path=$PWD/{prompt_pool_path} \
+                cache_dir=$PWD/{args.cache_dir} \
+                hydra.run.dir=$PWD/{exp_path}'
+            score_cmd_list += [echo_cmd, find_random_cmd, run_scorer_cmd, find_random_step2, run_scorer_step2, find_random_step3, run_scorer_step3]
+
+            merge_data_cmd = \
+                f'python scripts/merge_data.py \
+                step1_train=$PWD/{scored_train_path + "_step1.json"} \
+                step1_valid=$PWD/{scored_valid_path + "_step1.json"} \
+                step2_train=$PWD/{scored_train_path + "_step2.json"} \
+                step2_valid=$PWD/{scored_valid_path + "_step2.json"} \
+                step3_train=$PWD/{scored_train_path + "_step3.json"} \
+                step3_valid=$PWD/{scored_valid_path + "_step3.json"} \
+                train_output_path=$PWD/{scored_train_path + ".json"} \
+                valid_output_path=$PWD/{scored_valid_path + ".json"}'
+            
+            echo_cmd = f'echo "merging multi-step data..."'
+            score_cmd_list += [echo_cmd, merge_data_cmd]
+    score_cmd_list = [wrap(cmd) for cmd in score_cmd_list]
+    
+    # write score cmds in score.sh (default)
+    with open(f"{exp_path}/{args.score_cmd_name}","w") as f:
+        f.write("\n\n".join(score_cmd_list))
+    print('saved scoring cmds to: ', f"{exp_path}/{args.score_cmd_name}")
+
+    # ================================== Training Stage ===================================
+    train_cmd_list = ['set -e']
+    echo_cmd = f'echo "start training the retriever..."'
+    # print("scored_dir: ", scored_dir)
+    train_retriever_cmd = \
+        f'python DPR/train_dense_encoder.py \
+        train_datasets=[se2_dataset] dev_datasets=[se2_valid_dataset] train=biencoder_se2 \
+        output_dir=$PWD/{model_weight_path} \
+        datasets.train_clusters={args.train_clusters} \
+        datasets.train_file=$PWD/{scored_dir} \
+        datasets.valid_file=$PWD/{scored_dir} \
+        datasets.hard_neg=true datasets.top_k={args.retriever_top_k} \
+        train.hard_negatives={args.retriever_top_k} \
+        train.batch_size={args.retriever_bsz} \
+        train.num_train_epochs={args.retriever_epoch} \
+        train.learning_rate={learning_rate} \
+        datasets.prompt_pool_path=$PWD/{prompt_pool_dir} \
+        datasets.prompt_setup_type={args.retriever_prompt_setup} datasets.task_setup_type=q \
+        encoder.cache_dir=$PWD/{args.cache_dir} \
+        hydra.run.dir=$PWD/{exp_path}'
+
+    train_cmd_list += [echo_cmd, train_retriever_cmd]
+
+    
+    train_cmd_list = [wrap(cmd) for cmd in train_cmd_list]
+
+    # write train cmds in train.sh (defaulte)
+    with open(f"{exp_path}/{args.train_cmd_name}","w") as f:
+        f.write("\n\n".join(train_cmd_list))
+    print('saved training cmds to: ', f"{exp_path}/{args.train_cmd_name}")
+
+    # ================================== Inference Stage ===================================
+    inference_cmd_list = ['set -e']
+    # 1. encode the whole prompt pool, using prompt encoder of the trained retriever
+    echo_cmd = f'echo "encoding the whole prompt pool..."'
+    gen_emb_cmd = \
+        f"python DPR/generate_dense_embeddings.py model_file=$PWD/{model_weight_path}/dpr_biencoder.best_valid \
+        ctx_src=dpr_se2 shard_id=0 num_shards=1 \
+        out_file=$PWD/{model_weight_path}/dpr_enc_index \
+        ctx_sources.dpr_se2.train_clusters={args.train_clusters} \
+        ctx_sources.dpr_se2.prompt_pool_path=$PWD/{prompt_pool_dir} \
+        ctx_sources.dpr_se2.prompt_setup_type={args.infer_prompt_setup} \
+        encoder.cache_dir=$PWD/{args.cache_dir} \
+        hydra.run.dir=$PWD/{exp_path}"
+    
+    inference_cmd_list += [echo_cmd, gen_emb_cmd]
+
+    def get_inference_cmd(shot_num=3, retriever='se2', retrieve_prompts_outpath=""):
+
+        assert retriever in [None, 'Random', 'Bm25', 'Sbert', 'se2']
+        random = True if retriever == "random" else False
+
+        cmd_list = []
+        echo_cmd = f'echo "running inference on {task} with {retriever} retriever..."'
+        cmd_list.append(echo_cmd)
+        pred_outpath = os.path.join(exp_path, f'preds_for_{cluster}', f'{task}_prompts{args.shot_num}_retriever{retriever}_preds')
+
+        if retriever == 'se2':
+            pred_outpath += '_0.json'
+            retrieve_prompts_outpath += "_beam_score_0.json"
+            run_inference_cmd = \
+                f"accelerate launch --num_processes 1  --main_process_port {random_port} \
+                scripts/inference.py prompt_file=$PWD/{retrieve_prompts_outpath} \
+                task_name={task} \
+                output_file=$PWD/{pred_outpath} \
+                res_file=$PWD/{eval_res_outpath} \
+                batch_size={args.inference_bsz} \
+                train_clusters={args.train_clusters} \
+                model_name={args.inf_model} \
+                prompt_pool_path=$PWD/{prompt_pool_dir} \
+                random_sample={random} random_seed=42 \
+                cache_dir=$PWD/{args.cache_dir} \
+                hydra.run.dir=$PWD/{exp_path}"
+        else:
+            pred_outpath += '.json'
+            retrieve_prompts_outpath += ".json"
+            run_inference_cmd = \
+                f"accelerate launch --num_processes 1  --main_process_port {random_port} \
+                scripts/inference.py prompt_file=$PWD/{retrieve_prompts_outpath} \
+                task_name={task} \
+                output_file=$PWD/{pred_outpath} \
+                res_file=$PWD/{eval_res_outpath} \
+                batch_size={args.inference_bsz} \
+                train_clusters={args.train_clusters} \
+                model_name={args.inf_model} \
+                prompt_pool_path=$PWD/{prompt_pool_dir} \
+                shot_num={shot_num} \
+                random_sample={random} random_seed=42 \
+                cache_dir=$PWD/{args.cache_dir} \
+                hydra.run.dir=$PWD/{exp_path}"
+        cmd_list.append(run_inference_cmd)
+        return cmd_list
+
+    # 2. retrieve positive prompts from the prompt pool, for each task in the testing clusters:    
+    test_clusters = args.test_clusters.split('+')
+    for cluster in test_clusters:
+        eval_res_outpath = os.path.join(exp_path, f'eval_res_for_{cluster}.txt')
+        for task in test_cluster_map[cluster]:
+            echo_cmd = f'echo "se2 retrieves on {task}..."'
+            retrieve_prompts_outpath = os.path.join(exp_path, f'se2_prompts_for_{cluster}', f'{task}_prompts')
+            retrieve_prompts_cmd = \
+                f'python DPR/dense_retriever_beam_score.py model_file=$PWD/{model_weight_path}/dpr_biencoder.best_valid \
+                qa_dataset=qa_se2 ctx_datatsets=[dpr_se2] \
+                encoded_ctx_files=["$PWD/{model_weight_path}/dpr_enc_index_*"]\
+                out_file=$PWD/{retrieve_prompts_outpath + ".json"} \
+                datasets.qa_se2.task_name={task} \
+                datasets.qa_se2.task_setup_type=q  \
+                datasets.qa_se2.cache_dir=$PWD/{args.cache_dir} \
+                beam_size={args.beam_size} \
+                shot_num={args.shot_num} \
+                ctx_sources.dpr_se2.prompt_pool_path=$PWD/{prompt_pool_dir} \
+                ctx_sources.dpr_se2.train_clusters={args.train_clusters} \
+                ctx_sources.dpr_se2.prompt_setup_type={args.infer_prompt_setup} \
+                encoder.cache_dir=$PWD/{args.cache_dir} \
+                hydra.run.dir={exp_path}'
+            inference_cmd_list += [echo_cmd, retrieve_prompts_cmd]
+
+            # se2 do not need to set shot_num here.
+            inference_cmd_list += get_inference_cmd(shot_num=0, retriever='se2', retrieve_prompts_outpath=retrieve_prompts_outpath)
+
+            # Ablations: random, bm25 and sbert
+            if args.retrieve_random:
+                inference_cmd_list += get_inference_cmd(shot_num=args.shot_num, retriever='Random')
+            if args.retrieve_bm25:
+                echo_cmd = f'echo "bm25 retrieves on {task} task of {cluster} cluster..."'
+                retrieve_prompts_outpath = os.path.join(exp_path, f'bm25_prompts_for_{cluster}', f'{task}_prompts.json')
+                retrieve_bm25_prompts_cmd = \
+                    f'python scripts/retrieve_bm25.py \
+                    train_clusters={args.train_clusters} \
+                    task_name={task} cache_dir=$PWD/{args.cache_dir} \
+                    prompt_pool_path=$PWD/{prompt_pool_dir} \
+                    out_file=$PWD/{retrieve_prompts_outpath} \
+                    prompt_setup_type={args.retriever_prompt_setup} n_docs={args.shot_num} \
+                    hydra.run.dir=$PWD/{exp_path} '
+                inference_cmd_list += [echo_cmd, retrieve_bm25_prompts_cmd]
+                inference_cmd_list += get_inference_cmd(shot_num=args.shot_num, retriever='Bm25')
+            if args.retrieve_sbert:
+                echo_cmd = f'echo "sbert retrieves on {task} task of {cluster} cluster..."'
+                retrieve_prompts_outpath = os.path.join(exp_path, f'sbert_prompts_for_{cluster}', f'{task}_prompts.json')
+                retrieve_sbert_prompts_cmd = \
+                    f'python scripts/retrieve_sbert.py \
+                    train_clusters={args.train_clusters} \
+                    task_name={task} cache_dir=$PWD/{args.cache_dir} \
+                    prompt_pool_path=$PWD/{prompt_pool_dir} \
+                    out_file=$PWD/{retrieve_prompts_outpath} \
+                    prompt_setup_type={args.retriever_prompt_setup} n_docs={args.shot_num} \
+                    hydra.run.dir=$PWD/{exp_path} '
+                inference_cmd_list += [echo_cmd, retrieve_sbert_prompts_cmd]
+                inference_cmd_list += get_inference_cmd(shot_num=args.shot_num, retriever='Sbert')
+                
+    inference_cmd_list = [wrap(cmd) for cmd in inference_cmd_list]
+
+    # write run.sh
+    with open(f"{exp_path}/{args.infer_cmd_name}","w") as f:
+        f.write("\n\n".join(inference_cmd_list))
+    print('saved inference cmds to: ', f"{exp_path}/{args.infer_cmd_name}")
+
+    return     
+
+    
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--output_dir', 
+                        type=str, help='Directory for saving all the intermediate and final outputs.', 
+                        default='my_data')
+    parser.add_argument('--cache_dir', 
+                        type=str, help='Directory for caching the huggingface models and datasets.', 
+                        default='$PWD/cache')
+    parser.add_argument('--gpus', 
+                        type=int, help='number of gpus to use',
+                        default=8)
+    parser.add_argument('--score_cmd_name', 
+                        type=str, help='write score cmd to this file',
+                        default='score.sh')
+    parser.add_argument('--train_cmd_name', 
+                        type=str, help='write train cmd to this file',
+                        default='train.sh')               
+    parser.add_argument('--infer_cmd_name', 
+                        type=str, help='write infer cmd to this file',
+                        default='infer.sh')
+    parser.add_argument('--model_folder', 
+                        type=str, help='write model ckpt to this folder',
+                        default='model_ckpt')
+    # training
+    parser.add_argument('--train_clusters', 
+                        type=str, 
+                        help='we use single task in our experience, so it will be a task name',
+                        default="copa")
+    parser.add_argument('--retriever_prompt_setup', 
+                        type=str,
+                        help='setup type of prompt, qa for question + answer, q for question only',
+                        default="qa")
+    parser.add_argument('--infer_prompt_setup', 
+                        type=str,
+                        default="qa")
+    parser.add_argument('--ds_size', 
+                        type=int,
+                        help='number of maximum data examples sampled from each training dataset',
+                        default=10000)
+    parser.add_argument('--scr_model', 
+                        type=str,
+                        help='Huggingface model for scoring data',
+                        default="EleutherAI/gpt-neo-2.7B")
+    parser.add_argument("--multi_task", 
+                        action="store_true", 
+                        help="we use single task in our experience")
+    parser.add_argument('--retriever_top_k', 
+                        type=int,
+                        help='number of k (hard) negatives for training the retriever',
+                        default=20)
+    parser.add_argument('--retriever_bsz', 
+                        type=int,
+                        help='sum of batch size of all gpus, NOT per gpu',
+                        default=8)
+    parser.add_argument('--retriever_epoch', 
+                        type=int,
+                        help='maximum training epoch',
+                        default=6)
+    
+    # inference
+    parser.add_argument('--inf_model', 
+                        type=str,
+                        help='Huggingface model for inference',
+                        default="EleutherAI/gpt-neo-2.7B")
+    parser.add_argument('--test_clusters', 
+                        type=str, 
+                        help='we use single task in our experience, so it will be a task name',
+                        default="copa")
+    parser.add_argument('--beam_size', 
+                        type=int, 
+                        help='beam size of the example to be searched during inference',
+                        default=3)
+    parser.add_argument('--shot_num', 
+                        type=int, 
+                        help='maximum number of retrieved prompts to be concatenated before the task input',
+                        default=3)
+    parser.add_argument('--retrieve_random', 
+                        action="store_true", 
+                        help='whether to random retrieve from our prompt pool, and run a baseline')
+    parser.add_argument('--retrieve_bm25', 
+                        action="store_true", 
+                        help='whether to use bm25 retriever to retrieve from our prompt pool, and run a baseline')
+    parser.add_argument('--retrieve_sbert', 
+                        action="store_true", 
+                        help='whether to use sbert to retrieve from our prompt pool, and run a baseline')
+    parser.add_argument('--inference_bsz', 
+                        type=int,
+                        help='sum of batch size of all gpus, NOT per gpu',
+                        default=1)
+
+    args = parser.parse_args()
+    print(args)
+    get_cmds(args)
+    

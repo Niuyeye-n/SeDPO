@@ -1,1 +1,241 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwojIENvcHlyaWdodCAoYykgRmFjZWJvb2ssIEluYy4gYW5kIGl0cyBhZmZpbGlhdGVzLgojIEFsbCByaWdodHMgcmVzZXJ2ZWQuCiMKIyBUaGlzIHNvdXJjZSBjb2RlIGlzIGxpY2Vuc2VkIHVuZGVyIHRoZSBsaWNlbnNlIGZvdW5kIGluIHRoZQojIExJQ0VOU0UgZmlsZSBpbiB0aGUgcm9vdCBkaXJlY3Rvcnkgb2YgdGhpcyBzb3VyY2UgdHJlZS4KCgoiIiIKTW9zdCBvZiB0aGUgdG9rZW5pemVycyBjb2RlIGhlcmUgaXMgY29waWVkIGZyb20gRHJRQSBjb2RlYmFzZSB0byBhdm9pZCBhZGRpbmcgZXh0cmEgZGVwZW5kZW5jeQoiIiIKCmltcG9ydCBjb3B5CmltcG9ydCBsb2dnaW5nCgppbXBvcnQgcmVnZXgKIyBpbXBvcnQgc3BhY3kKCmxvZ2dlciA9IGxvZ2dpbmcuZ2V0TG9nZ2VyKF9fbmFtZV9fKQoKCmNsYXNzIFRva2VucyhvYmplY3QpOgogICAgIiIiQSBjbGFzcyB0byByZXByZXNlbnQgYSBsaXN0IG9mIHRva2VuaXplZCB0ZXh0LiIiIgogICAgVEVYVCA9IDAKICAgIFRFWFRfV1MgPSAxCiAgICBTUEFOID0gMgogICAgUE9TID0gMwogICAgTEVNTUEgPSA0CiAgICBORVIgPSA1CgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGRhdGEsIGFubm90YXRvcnMsIG9wdHM9Tm9uZSk6CiAgICAgICAgc2VsZi5kYXRhID0gZGF0YQogICAgICAgIHNlbGYuYW5ub3RhdG9ycyA9IGFubm90YXRvcnMKICAgICAgICBzZWxmLm9wdHMgPSBvcHRzIG9yIHt9CgogICAgZGVmIF9fbGVuX18oc2VsZik6CiAgICAgICAgIiIiVGhlIG51bWJlciBvZiB0b2tlbnMuIiIiCiAgICAgICAgcmV0dXJuIGxlbihzZWxmLmRhdGEpCgogICAgZGVmIHNsaWNlKHNlbGYsIGk9Tm9uZSwgaj1Ob25lKToKICAgICAgICAiIiJSZXR1cm4gYSB2aWV3IG9mIHRoZSBsaXN0IG9mIHRva2VucyBmcm9tIFtpLCBqKS4iIiIKICAgICAgICBuZXdfdG9rZW5zID0gY29weS5jb3B5KHNlbGYpCiAgICAgICAgbmV3X3Rva2Vucy5kYXRhID0gc2VsZi5kYXRhW2k6IGpdCiAgICAgICAgcmV0dXJuIG5ld190b2tlbnMKCiAgICBkZWYgdW50b2tlbml6ZShzZWxmKToKICAgICAgICAiIiJSZXR1cm5zIHRoZSBvcmlnaW5hbCB0ZXh0ICh3aXRoIHdoaXRlc3BhY2UgcmVpbnNlcnRlZCkuIiIiCiAgICAgICAgcmV0dXJuICcnLmpvaW4oW3Rbc2VsZi5URVhUX1dTXSBmb3IgdCBpbiBzZWxmLmRhdGFdKS5zdHJpcCgpCgogICAgZGVmIHdvcmRzKHNlbGYsIHVuY2FzZWQ9RmFsc2UpOgogICAgICAgICIiIlJldHVybnMgYSBsaXN0IG9mIHRoZSB0ZXh0IG9mIGVhY2ggdG9rZW4KCiAgICAgICAgQXJnczoKICAgICAgICAgICAgdW5jYXNlZDogbG93ZXIgY2FzZXMgdGV4dAogICAgICAgICIiIgogICAgICAgIGlmIHVuY2FzZWQ6CiAgICAgICAgICAgIHJldHVybiBbdFtzZWxmLlRFWFRdLmxvd2VyKCkgZm9yIHQgaW4gc2VsZi5kYXRhXQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHJldHVybiBbdFtzZWxmLlRFWFRdIGZvciB0IGluIHNlbGYuZGF0YV0KCiAgICBkZWYgb2Zmc2V0cyhzZWxmKToKICAgICAgICAiIiJSZXR1cm5zIGEgbGlzdCBvZiBbc3RhcnQsIGVuZCkgY2hhcmFjdGVyIG9mZnNldHMgb2YgZWFjaCB0b2tlbi4iIiIKICAgICAgICByZXR1cm4gW3Rbc2VsZi5TUEFOXSBmb3IgdCBpbiBzZWxmLmRhdGFdCgogICAgZGVmIHBvcyhzZWxmKToKICAgICAgICAiIiJSZXR1cm5zIGEgbGlzdCBvZiBwYXJ0LW9mLXNwZWVjaCB0YWdzIG9mIGVhY2ggdG9rZW4uCiAgICAgICAgUmV0dXJucyBOb25lIGlmIHRoaXMgYW5ub3RhdGlvbiB3YXMgbm90IGluY2x1ZGVkLgogICAgICAgICIiIgogICAgICAgIGlmICdwb3MnIG5vdCBpbiBzZWxmLmFubm90YXRvcnM6CiAgICAgICAgICAgIHJldHVybiBOb25lCiAgICAgICAgcmV0dXJuIFt0W3NlbGYuUE9TXSBmb3IgdCBpbiBzZWxmLmRhdGFdCgogICAgZGVmIGxlbW1hcyhzZWxmKToKICAgICAgICAiIiJSZXR1cm5zIGEgbGlzdCBvZiB0aGUgbGVtbWF0aXplZCB0ZXh0IG9mIGVhY2ggdG9rZW4uCiAgICAgICAgUmV0dXJucyBOb25lIGlmIHRoaXMgYW5ub3RhdGlvbiB3YXMgbm90IGluY2x1ZGVkLgogICAgICAgICIiIgogICAgICAgIGlmICdsZW1tYScgbm90IGluIHNlbGYuYW5ub3RhdG9yczoKICAgICAgICAgICAgcmV0dXJuIE5vbmUKICAgICAgICByZXR1cm4gW3Rbc2VsZi5MRU1NQV0gZm9yIHQgaW4gc2VsZi5kYXRhXQoKICAgIGRlZiBlbnRpdGllcyhzZWxmKToKICAgICAgICAiIiJSZXR1cm5zIGEgbGlzdCBvZiBuYW1lZC1lbnRpdHktcmVjb2duaXRpb24gdGFncyBvZiBlYWNoIHRva2VuLgogICAgICAgIFJldHVybnMgTm9uZSBpZiB0aGlzIGFubm90YXRpb24gd2FzIG5vdCBpbmNsdWRlZC4KICAgICAgICAiIiIKICAgICAgICBpZiAnbmVyJyBub3QgaW4gc2VsZi5hbm5vdGF0b3JzOgogICAgICAgICAgICByZXR1cm4gTm9uZQogICAgICAgIHJldHVybiBbdFtzZWxmLk5FUl0gZm9yIHQgaW4gc2VsZi5kYXRhXQoKICAgIGRlZiBuZ3JhbXMoc2VsZiwgbj0xLCB1bmNhc2VkPUZhbHNlLCBmaWx0ZXJfZm49Tm9uZSwgYXNfc3RyaW5ncz1UcnVlKToKICAgICAgICAiIiJSZXR1cm5zIGEgbGlzdCBvZiBhbGwgbmdyYW1zIGZyb20gbGVuZ3RoIDEgdG8gbi4KCiAgICAgICAgQXJnczoKICAgICAgICAgICAgbjogdXBwZXIgbGltaXQgb2YgbmdyYW0gbGVuZ3RoCiAgICAgICAgICAgIHVuY2FzZWQ6IGxvd2VyIGNhc2VzIHRleHQKICAgICAgICAgICAgZmlsdGVyX2ZuOiB1c2VyIGZ1bmN0aW9uIHRoYXQgdGFrZXMgaW4gYW4gbmdyYW0gbGlzdCBhbmQgcmV0dXJucwogICAgICAgICAgICAgIFRydWUgb3IgRmFsc2UgdG8ga2VlcCBvciBub3Qga2VlcCB0aGUgbmdyYW0KICAgICAgICAgICAgYXNfc3RyaW5nOiByZXR1cm4gdGhlIG5ncmFtIGFzIGEgc3RyaW5nIHZzIGxpc3QKICAgICAgICAiIiIKCiAgICAgICAgZGVmIF9za2lwKGdyYW0pOgogICAgICAgICAgICBpZiBub3QgZmlsdGVyX2ZuOgogICAgICAgICAgICAgICAgcmV0dXJuIEZhbHNlCiAgICAgICAgICAgIHJldHVybiBmaWx0ZXJfZm4oZ3JhbSkKCiAgICAgICAgd29yZHMgPSBzZWxmLndvcmRzKHVuY2FzZWQpCiAgICAgICAgbmdyYW1zID0gWyhzLCBlICsgMSkKICAgICAgICAgICAgICAgICAgZm9yIHMgaW4gcmFuZ2UobGVuKHdvcmRzKSkKICAgICAgICAgICAgICAgICAgZm9yIGUgaW4gcmFuZ2UocywgbWluKHMgKyBuLCBsZW4od29yZHMpKSkKICAgICAgICAgICAgICAgICAgaWYgbm90IF9za2lwKHdvcmRzW3M6ZSArIDFdKV0KCiAgICAgICAgIyBDb25jYXRlbmF0ZSBpbnRvIHN0cmluZ3MKICAgICAgICBpZiBhc19zdHJpbmdzOgogICAgICAgICAgICBuZ3JhbXMgPSBbJ3t9Jy5mb3JtYXQoJyAnLmpvaW4od29yZHNbczplXSkpIGZvciAocywgZSkgaW4gbmdyYW1zXQoKICAgICAgICByZXR1cm4gbmdyYW1zCgogICAgZGVmIGVudGl0eV9ncm91cHMoc2VsZik6CiAgICAgICAgIiIiR3JvdXAgY29uc2VjdXRpdmUgZW50aXR5IHRva2VucyB3aXRoIHRoZSBzYW1lIE5FUiB0YWcuIiIiCiAgICAgICAgZW50aXRpZXMgPSBzZWxmLmVudGl0aWVzKCkKICAgICAgICBpZiBub3QgZW50aXRpZXM6CiAgICAgICAgICAgIHJldHVybiBOb25lCiAgICAgICAgbm9uX2VudCA9IHNlbGYub3B0cy5nZXQoJ25vbl9lbnQnLCAnTycpCiAgICAgICAgZ3JvdXBzID0gW10KICAgICAgICBpZHggPSAwCiAgICAgICAgd2hpbGUgaWR4IDwgbGVuKGVudGl0aWVzKToKICAgICAgICAgICAgbmVyX3RhZyA9IGVudGl0aWVzW2lkeF0KICAgICAgICAgICAgIyBDaGVjayBmb3IgZW50aXR5IHRhZwogICAgICAgICAgICBpZiBuZXJfdGFnICE9IG5vbl9lbnQ6CiAgICAgICAgICAgICAgICAjIENob21wIHRoZSBzZXF1ZW5jZQogICAgICAgICAgICAgICAgc3RhcnQgPSBpZHgKICAgICAgICAgICAgICAgIHdoaWxlIChpZHggPCBsZW4oZW50aXRpZXMpIGFuZCBlbnRpdGllc1tpZHhdID09IG5lcl90YWcpOgogICAgICAgICAgICAgICAgICAgIGlkeCArPSAxCiAgICAgICAgICAgICAgICBncm91cHMuYXBwZW5kKChzZWxmLnNsaWNlKHN0YXJ0LCBpZHgpLnVudG9rZW5pemUoKSwgbmVyX3RhZykpCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBpZHggKz0gMQogICAgICAgIHJldHVybiBncm91cHMKCgpjbGFzcyBUb2tlbml6ZXIob2JqZWN0KToKICAgICIiIkJhc2UgdG9rZW5pemVyIGNsYXNzLgogICAgVG9rZW5pemVycyBpbXBsZW1lbnQgdG9rZW5pemUsIHdoaWNoIHNob3VsZCByZXR1cm4gYSBUb2tlbnMgY2xhc3MuCiAgICAiIiIKCiAgICBkZWYgdG9rZW5pemUoc2VsZiwgdGV4dCk6CiAgICAgICAgcmFpc2UgTm90SW1wbGVtZW50ZWRFcnJvcgoKICAgIGRlZiBzaHV0ZG93bihzZWxmKToKICAgICAgICBwYXNzCgogICAgZGVmIF9fZGVsX18oc2VsZik6CiAgICAgICAgc2VsZi5zaHV0ZG93bigpCgoKY2xhc3MgU2ltcGxlVG9rZW5pemVyKFRva2VuaXplcik6CiAgICBBTFBIQV9OVU0gPSByJ1tccHtMfVxwe059XHB7TX1dKycKICAgIE5PTl9XUyA9IHInW15ccHtafVxwe0N9XScKCiAgICBkZWYgX19pbml0X18oc2VsZiwgKiprd2FyZ3MpOgogICAgICAgICIiIgogICAgICAgIEFyZ3M6CiAgICAgICAgICAgIGFubm90YXRvcnM6IE5vbmUgb3IgZW1wdHkgc2V0IChvbmx5IHRva2VuaXplcykuCiAgICAgICAgIiIiCiAgICAgICAgc2VsZi5fcmVnZXhwID0gcmVnZXguY29tcGlsZSgKICAgICAgICAgICAgJyglcyl8KCVzKScgJSAoc2VsZi5BTFBIQV9OVU0sIHNlbGYuTk9OX1dTKSwKICAgICAgICAgICAgZmxhZ3M9cmVnZXguSUdOT1JFQ0FTRSArIHJlZ2V4LlVOSUNPREUgKyByZWdleC5NVUxUSUxJTkUKICAgICAgICApCiAgICAgICAgaWYgbGVuKGt3YXJncy5nZXQoJ2Fubm90YXRvcnMnLCB7fSkpID4gMDoKICAgICAgICAgICAgbG9nZ2VyLndhcm5pbmcoJyVzIG9ubHkgdG9rZW5pemVzISBTa2lwcGluZyBhbm5vdGF0b3JzOiAlcycgJQogICAgICAgICAgICAgICAgICAgICAgICAgICAodHlwZShzZWxmKS5fX25hbWVfXywga3dhcmdzLmdldCgnYW5ub3RhdG9ycycpKSkKICAgICAgICBzZWxmLmFubm90YXRvcnMgPSBzZXQoKQoKICAgIGRlZiB0b2tlbml6ZShzZWxmLCB0ZXh0KToKICAgICAgICBkYXRhID0gW10KICAgICAgICBtYXRjaGVzID0gW20gZm9yIG0gaW4gc2VsZi5fcmVnZXhwLmZpbmRpdGVyKHRleHQpXQogICAgICAgIGZvciBpIGluIHJhbmdlKGxlbihtYXRjaGVzKSk6CiAgICAgICAgICAgICMgR2V0IHRleHQKICAgICAgICAgICAgdG9rZW4gPSBtYXRjaGVzW2ldLmdyb3VwKCkKCiAgICAgICAgICAgICMgR2V0IHdoaXRlc3BhY2UKICAgICAgICAgICAgc3BhbiA9IG1hdGNoZXNbaV0uc3BhbigpCiAgICAgICAgICAgIHN0YXJ0X3dzID0gc3BhblswXQogICAgICAgICAgICBpZiBpICsgMSA8IGxlbihtYXRjaGVzKToKICAgICAgICAgICAgICAgIGVuZF93cyA9IG1hdGNoZXNbaSArIDFdLnNwYW4oKVswXQogICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgZW5kX3dzID0gc3BhblsxXQoKICAgICAgICAgICAgIyBGb3JtYXQgZGF0YQogICAgICAgICAgICBkYXRhLmFwcGVuZCgoCiAgICAgICAgICAgICAgICB0b2tlbiwKICAgICAgICAgICAgICAgIHRleHRbc3RhcnRfd3M6IGVuZF93c10sCiAgICAgICAgICAgICAgICBzcGFuLAogICAgICAgICAgICApKQogICAgICAgIHJldHVybiBUb2tlbnMoZGF0YSwgc2VsZi5hbm5vdGF0b3JzKQoKCmNsYXNzIFNwYWN5VG9rZW5pemVyKFRva2VuaXplcik6CgogICAgZGVmIF9faW5pdF9fKHNlbGYsICoqa3dhcmdzKToKICAgICAgICAiIiIKICAgICAgICBBcmdzOgogICAgICAgICAgICBhbm5vdGF0b3JzOiBzZXQgdGhhdCBjYW4gaW5jbHVkZSBwb3MsIGxlbW1hLCBhbmQgbmVyLgogICAgICAgICAgICBtb2RlbDogc3BhQ3kgbW9kZWwgdG8gdXNlIChlaXRoZXIgcGF0aCwgb3Iga2V5d29yZCBsaWtlICdlbicpLgogICAgICAgICIiIiAgICAgICAgCiAgICAgICAgbW9kZWwgPSBrd2FyZ3MuZ2V0KCJtb2RlbCIsICJlbl9jb3JlX3dlYl9zbSIpCiAgICAgICAgc2VsZi5hbm5vdGF0b3JzID0gY29weS5kZWVwY29weShrd2FyZ3MuZ2V0KCdhbm5vdGF0b3JzJywgc2V0KCkpKQogICAgICAgIG5scF9rd2FyZ3MgPSB7J3BhcnNlcic6IEZhbHNlfQogICAgICAgIGlmIG5vdCBhbnkoW3AgaW4gc2VsZi5hbm5vdGF0b3JzIGZvciBwIGluIFsnbGVtbWEnLCAncG9zJywgJ25lciddXSk6CiAgICAgICAgICAgIG5scF9rd2FyZ3NbJ3RhZ2dlciddID0gRmFsc2UKICAgICAgICBpZiAnbmVyJyBub3QgaW4gc2VsZi5hbm5vdGF0b3JzOgogICAgICAgICAgICBubHBfa3dhcmdzWydlbnRpdHknXSA9IEZhbHNlCiAgICAgICAgc2VsZi5ubHAgPSBzcGFjeS5sb2FkKG1vZGVsLCAqKm5scF9rd2FyZ3MpCgogICAgZGVmIHRva2VuaXplKHNlbGYsIHRleHQpOgogICAgICAgICMgV2UgZG9uJ3QgdHJlYXQgbmV3IGxpbmVzIGFzIHRva2Vucy4KICAgICAgICBjbGVhbl90ZXh0ID0gdGV4dC5yZXBsYWNlKCdcbicsICcgJykKICAgICAgICB0b2tlbnMgPSBzZWxmLm5scC50b2tlbml6ZXIoY2xlYW5fdGV4dCkKICAgICAgICBpZiBhbnkoW3AgaW4gc2VsZi5hbm5vdGF0b3JzIGZvciBwIGluIFsnbGVtbWEnLCAncG9zJywgJ25lciddXSk6CiAgICAgICAgICAgIHNlbGYubmxwLnRhZ2dlcih0b2tlbnMpCiAgICAgICAgaWYgJ25lcicgaW4gc2VsZi5hbm5vdGF0b3JzOgogICAgICAgICAgICBzZWxmLm5scC5lbnRpdHkodG9rZW5zKQoKICAgICAgICBkYXRhID0gW10KICAgICAgICBmb3IgaSBpbiByYW5nZShsZW4odG9rZW5zKSk6CiAgICAgICAgICAgICMgR2V0IHdoaXRlc3BhY2UKICAgICAgICAgICAgc3RhcnRfd3MgPSB0b2tlbnNbaV0uaWR4CiAgICAgICAgICAgIGlmIGkgKyAxIDwgbGVuKHRva2Vucyk6CiAgICAgICAgICAgICAgICBlbmRfd3MgPSB0b2tlbnNbaSArIDFdLmlkeAogICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgZW5kX3dzID0gdG9rZW5zW2ldLmlkeCArIGxlbih0b2tlbnNbaV0udGV4dCkKCiAgICAgICAgICAgIGRhdGEuYXBwZW5kKCgKICAgICAgICAgICAgICAgIHRva2Vuc1tpXS50ZXh0LAogICAgICAgICAgICAgICAgdGV4dFtzdGFydF93czogZW5kX3dzXSwKICAgICAgICAgICAgICAgICh0b2tlbnNbaV0uaWR4LCB0b2tlbnNbaV0uaWR4ICsgbGVuKHRva2Vuc1tpXS50ZXh0KSksCiAgICAgICAgICAgICAgICB0b2tlbnNbaV0udGFnXywKICAgICAgICAgICAgICAgIHRva2Vuc1tpXS5sZW1tYV8sCiAgICAgICAgICAgICAgICB0b2tlbnNbaV0uZW50X3R5cGVfLAogICAgICAgICAgICApKQoKICAgICAgICAjIFNldCBzcGVjaWFsIG9wdGlvbiBmb3Igbm9uLWVudGl0eSB0YWc6ICcnIHZzICdPJyBpbiBzcGFDeQogICAgICAgIHJldHVybiBUb2tlbnMoZGF0YSwgc2VsZi5hbm5vdGF0b3JzLCBvcHRzPXsnbm9uX2VudCc6ICcnfSkK
+#!/usr/bin/env python3
+# Copyright (c) Facebook, Inc. and its affiliates.
+# All rights reserved.
+#
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+
+
+"""
+Most of the tokenizers code here is copied from DrQA codebase to avoid adding extra dependency
+"""
+
+import copy
+import logging
+
+import regex
+# import spacy
+
+logger = logging.getLogger(__name__)
+
+
+class Tokens(object):
+    """A class to represent a list of tokenized text."""
+    TEXT = 0
+    TEXT_WS = 1
+    SPAN = 2
+    POS = 3
+    LEMMA = 4
+    NER = 5
+
+    def __init__(self, data, annotators, opts=None):
+        self.data = data
+        self.annotators = annotators
+        self.opts = opts or {}
+
+    def __len__(self):
+        """The number of tokens."""
+        return len(self.data)
+
+    def slice(self, i=None, j=None):
+        """Return a view of the list of tokens from [i, j)."""
+        new_tokens = copy.copy(self)
+        new_tokens.data = self.data[i: j]
+        return new_tokens
+
+    def untokenize(self):
+        """Returns the original text (with whitespace reinserted)."""
+        return ''.join([t[self.TEXT_WS] for t in self.data]).strip()
+
+    def words(self, uncased=False):
+        """Returns a list of the text of each token
+
+        Args:
+            uncased: lower cases text
+        """
+        if uncased:
+            return [t[self.TEXT].lower() for t in self.data]
+        else:
+            return [t[self.TEXT] for t in self.data]
+
+    def offsets(self):
+        """Returns a list of [start, end) character offsets of each token."""
+        return [t[self.SPAN] for t in self.data]
+
+    def pos(self):
+        """Returns a list of part-of-speech tags of each token.
+        Returns None if this annotation was not included.
+        """
+        if 'pos' not in self.annotators:
+            return None
+        return [t[self.POS] for t in self.data]
+
+    def lemmas(self):
+        """Returns a list of the lemmatized text of each token.
+        Returns None if this annotation was not included.
+        """
+        if 'lemma' not in self.annotators:
+            return None
+        return [t[self.LEMMA] for t in self.data]
+
+    def entities(self):
+        """Returns a list of named-entity-recognition tags of each token.
+        Returns None if this annotation was not included.
+        """
+        if 'ner' not in self.annotators:
+            return None
+        return [t[self.NER] for t in self.data]
+
+    def ngrams(self, n=1, uncased=False, filter_fn=None, as_strings=True):
+        """Returns a list of all ngrams from length 1 to n.
+
+        Args:
+            n: upper limit of ngram length
+            uncased: lower cases text
+            filter_fn: user function that takes in an ngram list and returns
+              True or False to keep or not keep the ngram
+            as_string: return the ngram as a string vs list
+        """
+
+        def _skip(gram):
+            if not filter_fn:
+                return False
+            return filter_fn(gram)
+
+        words = self.words(uncased)
+        ngrams = [(s, e + 1)
+                  for s in range(len(words))
+                  for e in range(s, min(s + n, len(words)))
+                  if not _skip(words[s:e + 1])]
+
+        # Concatenate into strings
+        if as_strings:
+            ngrams = ['{}'.format(' '.join(words[s:e])) for (s, e) in ngrams]
+
+        return ngrams
+
+    def entity_groups(self):
+        """Group consecutive entity tokens with the same NER tag."""
+        entities = self.entities()
+        if not entities:
+            return None
+        non_ent = self.opts.get('non_ent', 'O')
+        groups = []
+        idx = 0
+        while idx < len(entities):
+            ner_tag = entities[idx]
+            # Check for entity tag
+            if ner_tag != non_ent:
+                # Chomp the sequence
+                start = idx
+                while (idx < len(entities) and entities[idx] == ner_tag):
+                    idx += 1
+                groups.append((self.slice(start, idx).untokenize(), ner_tag))
+            else:
+                idx += 1
+        return groups
+
+
+class Tokenizer(object):
+    """Base tokenizer class.
+    Tokenizers implement tokenize, which should return a Tokens class.
+    """
+
+    def tokenize(self, text):
+        raise NotImplementedError
+
+    def shutdown(self):
+        pass
+
+    def __del__(self):
+        self.shutdown()
+
+
+class SimpleTokenizer(Tokenizer):
+    ALPHA_NUM = r'[\p{L}\p{N}\p{M}]+'
+    NON_WS = r'[^\p{Z}\p{C}]'
+
+    def __init__(self, **kwargs):
+        """
+        Args:
+            annotators: None or empty set (only tokenizes).
+        """
+        self._regexp = regex.compile(
+            '(%s)|(%s)' % (self.ALPHA_NUM, self.NON_WS),
+            flags=regex.IGNORECASE + regex.UNICODE + regex.MULTILINE
+        )
+        if len(kwargs.get('annotators', {})) > 0:
+            logger.warning('%s only tokenizes! Skipping annotators: %s' %
+                           (type(self).__name__, kwargs.get('annotators')))
+        self.annotators = set()
+
+    def tokenize(self, text):
+        data = []
+        matches = [m for m in self._regexp.finditer(text)]
+        for i in range(len(matches)):
+            # Get text
+            token = matches[i].group()
+
+            # Get whitespace
+            span = matches[i].span()
+            start_ws = span[0]
+            if i + 1 < len(matches):
+                end_ws = matches[i + 1].span()[0]
+            else:
+                end_ws = span[1]
+
+            # Format data
+            data.append((
+                token,
+                text[start_ws: end_ws],
+                span,
+            ))
+        return Tokens(data, self.annotators)
+
+
+class SpacyTokenizer(Tokenizer):
+
+    def __init__(self, **kwargs):
+        """
+        Args:
+            annotators: set that can include pos, lemma, and ner.
+            model: spaCy model to use (either path, or keyword like 'en').
+        """        
+        model = kwargs.get("model", "en_core_web_sm")
+        self.annotators = copy.deepcopy(kwargs.get('annotators', set()))
+        nlp_kwargs = {'parser': False}
+        if not any([p in self.annotators for p in ['lemma', 'pos', 'ner']]):
+            nlp_kwargs['tagger'] = False
+        if 'ner' not in self.annotators:
+            nlp_kwargs['entity'] = False
+        self.nlp = spacy.load(model, **nlp_kwargs)
+
+    def tokenize(self, text):
+        # We don't treat new lines as tokens.
+        clean_text = text.replace('\n', ' ')
+        tokens = self.nlp.tokenizer(clean_text)
+        if any([p in self.annotators for p in ['lemma', 'pos', 'ner']]):
+            self.nlp.tagger(tokens)
+        if 'ner' in self.annotators:
+            self.nlp.entity(tokens)
+
+        data = []
+        for i in range(len(tokens)):
+            # Get whitespace
+            start_ws = tokens[i].idx
+            if i + 1 < len(tokens):
+                end_ws = tokens[i + 1].idx
+            else:
+                end_ws = tokens[i].idx + len(tokens[i].text)
+
+            data.append((
+                tokens[i].text,
+                text[start_ws: end_ws],
+                (tokens[i].idx, tokens[i].idx + len(tokens[i].text)),
+                tokens[i].tag_,
+                tokens[i].lemma_,
+                tokens[i].ent_type_,
+            ))
+
+        # Set special option for non-entity tag: '' vs 'O' in spaCy
+        return Tokens(data, self.annotators, opts={'non_ent': ''})

@@ -1,1 +1,17 @@
-IyEvYmluL2Jhc2gKY2QgL3Jvb3QvYXV0b2RsLXRtcC9TZURQT19OSVBTMjUKZWNobyAiPT09PT0gQS4gcHJvbXB0X3Bvb2wg55uu5b2V57uT5p6EID09PT09IgpmaW5kIG15X2RhdGFfcXdlbi9wcm9tcHRfcG9vbCAtdHlwZSBmIHwgaGVhZCAtMjAKZWNobyAiLS0tLS0g5ZCE5paH5Lu25p2h5pWwIC0tLS0tIgpmb3IgZiBpbiAkKGZpbmQgbXlfZGF0YV9xd2VuL3Byb21wdF9wb29sIC1uYW1lICIqLmpzb24iKTsgZG8KICBuPSQoL3Jvb3QvYXV0b2RsLXRtcC9lbnZzL3NlX2Rwby9iaW4vcHl0aG9uIC1jICJpbXBvcnQganNvbjtwcmludChsZW4oanNvbi5sb2FkKG9wZW4oJyRmJykpKSkiIDI+L2Rldi9udWxsKQogIGVjaG8gIiRmIC0+ICRuIgpkb25lCmVjaG8gIj09PT09IEIuIGdldF9wcm9tcHRfZmlsZXMg5a6e546wID09PT09IgpncmVwIC1uICJkZWYgZ2V0X3Byb21wdF9maWxlcyIgLUEgMjUgRFBSL2Rwci91dGlscy90YXNrcy5weQplY2hvICI9PT09PSBDLiByZWFkX2RhdGFfZnJvbV9qc29uX2ZpbGVzID09PT09IgpncmVwIC1uICJkZWYgcmVhZF9kYXRhX2Zyb21fanNvbl9maWxlcyIgLUEgMjAgRFBSL2Rwci91dGlscy9kYXRhX3V0aWxzLnB5CmVjaG8gIj09PT09IEQuIHNjb3Jlci5sb2cg5pe26Ze05YiG5biDIChmaWx0ZXIgdnMgc2NvcmUpID09PT09IgpncmVwIC1hIC1uICJmaWx0ZXIgYnkgbWF4IGxlbmd0aCIgbXlfZGF0YV9xd2VuL2V4cGVyaW1lbnRfcXdlbi9jbG9zZV9xYS9zY29yZXIubG9nIHwgdHIgJ1xyJyAnXG4nIHwgdGFpbCAtMwplY2hvICI9PT09PSBFLiDlrpjmlrkgdGFza3MucHkg5Lit5LiJ5Liq5Lu75Yqh55qEIGZpbmRlcl9MIOS4jiBkYXRhc2V0IOWkp+WwjyA9PT09PSIKZ3JlcCAtbiAiY2xhc3MgQXJjX2NcfGNsYXNzIE9wZW5ib29rcWFcfGNsYXNzIE11bHRpcmMiIC1BIDEyIERQUi9kcHIvdXRpbHMvdGFza3MucHkgfCBncmVwIC1uICJmaW5kZXJfTFx8Y2xhc3MgXHxkZWYgZ2V0X2RhdGFzZXQiIHwgaGVhZCAtMjAK
+#!/bin/bash
+cd /root/autodl-tmp/SeDPO_NIPS25
+echo "===== A. prompt_pool 目录结构 ====="
+find my_data_qwen/prompt_pool -type f | head -20
+echo "----- 各文件条数 -----"
+for f in $(find my_data_qwen/prompt_pool -name "*.json"); do
+  n=$(/root/autodl-tmp/envs/se_dpo/bin/python -c "import json;print(len(json.load(open('$f'))))" 2>/dev/null)
+  echo "$f -> $n"
+done
+echo "===== B. get_prompt_files 实现 ====="
+grep -n "def get_prompt_files" -A 25 DPR/dpr/utils/tasks.py
+echo "===== C. read_data_from_json_files ====="
+grep -n "def read_data_from_json_files" -A 20 DPR/dpr/utils/data_utils.py
+echo "===== D. scorer.log 时间分布 (filter vs score) ====="
+grep -a -n "filter by max length" my_data_qwen/experiment_qwen/close_qa/scorer.log | tr '\r' '\n' | tail -3
+echo "===== E. 官方 tasks.py 中三个任务的 finder_L 与 dataset 大小 ====="
+grep -n "class Arc_c\|class Openbookqa\|class Multirc" -A 12 DPR/dpr/utils/tasks.py | grep -n "finder_L\|class \|def get_dataset" | head -20

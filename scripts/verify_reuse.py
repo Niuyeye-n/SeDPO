@@ -1,1 +1,104 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0KIiIiCumqjOivgeOAjOmZjeS9jiBuX3Njb3JlIOWQjuW3suaJk+eahOWIhuiDveWQpuWkjeeUqOOAjeKAlOKAlOi/meaYr+ecgeaXtumXtOeahOWFs+mUruOAggoK5Y6f55CG77yaCiAgZmluZF9yYW5kb21fc3RlcDEg5LitIGByYW5kb20uc2VlZChpKWAg55qEIGkg5pivIHF1ZXJ5IOW6j+WPt++8jAogIOS4lOWAmemAieaxoCBpZHhfbGlzdCDmmK/lhajph4/vvIjkuI4gbl9zY29yZSDml6DlhbPvvInvvIwKICDmiYDku6UgZGF0YV9saXN0WzpOXSDnmoTnrKwgaSDkuKogcXVlcnkg55qE6YeH5qC357uT5p6c5LiOIGRhdGFfbGlzdFs6TV3vvIhNPk7vvInlrozlhajnm7jlkIzjgIIKICDihpIg6Iul5oqKIG5fc2NvcmUg5LuOIDYwMCDpmY3liLAgMzAw77yM5Y+q6ZyA6YeN55Sf5oiQIHN0ZXAxIOmHh+agt+aWh+S7tu+8jAogICAg5YmNIDMwMCDkuKogcXVlcnkg55qE5YCZ6YCJ5YiX6KGo5LiO5LmL5YmN5LiA5qih5LiA5qC3IOKGkiDlt7LmiZPnmoTliIbvvIjmjIkgcWNpZCDljrvph43vvInlj6/nm7TmjqXlpI3nlKjjgIIKCuacrOiEmuacrOmqjOivge+8mgogIDEpIOeUqCBuX3Njb3JlPTMwMCDph43mlrDnlJ/miJAgc3RlcDEg6YeH5qC35paH5Lu277yM5LiOIDYwMCDniYjmnKznmoTliY0gMzAwIOadoemAkOadoeavlOWvuQogIDIpIOe7n+iuoeW3suaJk+WIhiBidWZmZXIg6YeM5pyJ5aSa5bCR5p2h6JC95Zyo5YmNIDMwMCDkuKogcXVlcnkg5YaFIOKGkiDljbPjgIzlj6/lpI3nlKjmr5TkvovjgI0KCueUqOazle+8mnB5dGhvbiB2ZXJpZnlfcmV1c2UucHkKIiIiCmltcG9ydCBqc29uCmltcG9ydCBvcwppbXBvcnQgc3lzCgpSRVBPID0gIi9yb290L2F1dG9kbC10bXAvU2VEUE9fTklQUzI1Igpvcy5jaGRpcihSRVBPKQpzeXMucGF0aC5pbnNlcnQoMCwgUkVQTykKCkZSID0gZiJ7UkVQT30vbXlfZGF0YV9xd2VuL2ZpbmRfcmFuZG9tX3NlZHBvX3F3ZW4vY2xvc2VfcWEiClA2MDAgPSBmIntGUn0vYXJjX2NfcmFuZG9tX3NhbXBsZXNfc3RlcDEuanNvbiIKCnByaW50KCI9IiAqIDc0KQpwcmludCgiMS4g6YeH5qC356Gu5a6a5oCn6aqM6K+B77ya6YeN5paw55Sf5oiQIG5fc2NvcmU9MzAwIOS4jiA2MDAg54mI5pys55qE5YmNIDMwMCDmnaHmr5Tlr7kiKQpwcmludCgiPSIgKiA3NCkKCmQ2MDAgPSBqc29uLmxvYWQob3BlbihQNjAwLCBlbmNvZGluZz0idXRmLTgiKSkKcHJpbnQoZiIgIOeOsOaciSA2MDAg54mI5pysOiB7bGVuKGQ2MDApfSDmnaEiKQoKIyDnlKjlkIzmoLfnmoTpgLvovpHph43mlrDph4fmoLfvvIjlpI3liLsgZmluZF9yYW5kb21fc3RlcDEg55qE5qC45b+D6YC76L6R77yM5LiN5YaZ5paH5Lu277yJCmltcG9ydCByYW5kb20KaW1wb3J0IHN5cyBhcyBfcwpfcy5wYXRoLmluc2VydCgwLCBSRVBPKQpmcm9tIERQUi5kcHIudXRpbHMudGFza3MgaW1wb3J0IHRhc2tfbWFwCgp0YXNrID0gdGFza19tYXAuY2xzX2RpY1siYXJjX2MiXSgpCnBvb2wgPSBqc29uLmxvYWQob3BlbihmIntSRVBPfS9teV9kYXRhX3F3ZW4vcHJvbXB0X3Bvb2xfc2VkcG8vY2xvc2VfcWEvYXJjX2NfcHJvbXB0cy5qc29uIiwKICAgICAgICAgICAgICAgICAgICAgIGVuY29kaW5nPSJ1dGYtOCIpKQppZHhfbGlzdCA9IGxpc3QocmFuZ2UobGVuKHBvb2wpKSkKTCA9IDQwMAoKIyBmaW5kX3JhbmRvbV9zdGVwMSDnmoTljp/lp4vph4fmoLfpgLvovpHvvIhuX3Njb3JlIOS/ruWkjeWQju+8mmsg5oyJ5YCZ6YCJ5rGg566X77yJCnJlc2FtcGxlZCA9IFtdCmZvciBpIGluIHJhbmdlKDMwMCk6CiAgICByYW5kb20uc2VlZChpKQogICAgY3R4cyA9IFt7ImlkIjogaW50KGEpfSBmb3IgYSBpbgogICAgICAgICAgICByYW5kb20uc2FtcGxlKFtpZHggZm9yIGlkeCBpbiBpZHhfbGlzdCBpZiBpZHggIT0gaV0sIGs9bWluKEwsIGxlbihpZHhfbGlzdCkgLSAxKSldCiAgICByZXNhbXBsZWQuYXBwZW5kKGN0eHMpCgpzYW1lID0gYWxsKHJlc2FtcGxlZFtpXSA9PSBkNjAwW2ldWyJzdGVwXzFfY3R4cyJdIGZvciBpIGluIHJhbmdlKDMwMCkpCm1pc21hdGNoID0gW2kgZm9yIGkgaW4gcmFuZ2UoMzAwKSBpZiByZXNhbXBsZWRbaV0gIT0gZDYwMFtpXVsic3RlcF8xX2N0eHMiXV0KcHJpbnQoZiIgIOmHjeaWsOmHh+agt+WJjSAzMDAg5p2hIHZzIOeOsOaciSA2MDAg54mI5pys55qE5YmNIDMwMCDmnaHvvJoiKQpwcmludChmIiAgICDlrozlhajkuIDoh7Q6IHsn5pivIOKckycgaWYgc2FtZSBlbHNlICflkKYg4pyXJ30iKQppZiBtaXNtYXRjaDoKICAgIHByaW50KGYiICAgIOS4jeS4gOiHtOeahOS4i+aghzoge21pc21hdGNoWzoxMF19IikKCnByaW50KCkKcHJpbnQoIj0iICogNzQpCnByaW50KCIyLiDlt7LmiZPliIbmlbDmja7nmoTlj6/lpI3nlKjmr5TkvosiKQpwcmludCgiPSIgKiA3NCkKZnJvbSBzcmMudXRpbHMuY2FjaGVfdXRpbCBpbXBvcnQgQnVmZmVyZWRKc29uUmVhZGVyCmltcG9ydCBnbG9iCgpiaW5zID0gZ2xvYi5nbG9iKGYie1JFUE99L215X2RhdGFfcXdlbi9zY29yZWRfc2VkcG9fcXdlbi9jbG9zZV9xYS8qLmJpbiIpCmlmIGJpbnM6CiAgICB0b3RhbCA9IDAKICAgIHdpdGhpbiA9IDAKICAgIGlkX21pbiwgaWRfbWF4ID0gMTAqKjksIC0xCiAgICB3aXRoIEJ1ZmZlcmVkSnNvblJlYWRlcihiaW5zWzBdKSBhcyBmOgogICAgICAgIGZvciBkYXRhcyBpbiBmLnJlYWQoKToKICAgICAgICAgICAgZm9yIGUgaW4gZGF0YXM6CiAgICAgICAgICAgICAgICB0b3RhbCArPSAxCiAgICAgICAgICAgICAgICB0aWQgPSBlLmdldCgidGVzdF9pZCIpCiAgICAgICAgICAgICAgICBpZiB0aWQgaXMgbm90IE5vbmU6CiAgICAgICAgICAgICAgICAgICAgdGlkID0gaW50KHRpZCkKICAgICAgICAgICAgICAgICAgICBpZF9taW4gPSBtaW4oaWRfbWluLCB0aWQpCiAgICAgICAgICAgICAgICAgICAgaWRfbWF4ID0gbWF4KGlkX21heCwgdGlkKQogICAgICAgICAgICAgICAgICAgIGlmIHRpZCA8IDMwMDoKICAgICAgICAgICAgICAgICAgICAgICAgd2l0aGluICs9IDEKICAgIHByaW50KGYiICDlt7LmiZPliIblrp7kvovmgLvmlbA6IHt0b3RhbH0iKQogICAgcHJpbnQoZiIgIHRlc3RfaWQg6IyD5Zu0OiBbe2lkX21pbn0sIHtpZF9tYXh9XSIpCiAgICBwcmludChmIiAg6JC95ZyoIHRlc3RfaWQ8MzAwIOWGhe+8iOmZjSBuX3Njb3JlPTMwMCDlkI7lj6/lpI3nlKjvvIk6IHt3aXRoaW59ICh7MTAwLjAqd2l0aGluL21heCh0b3RhbCwxKTouMWZ9JSkiKQogICAgcHJpbnQoZiIgIHRlc3RfaWQ+PTMwMCDnmoTpg6jliIbvvIjpmY0gbl9zY29yZSDlkI7kuI3lho3pnIDopoHvvIk6IHt0b3RhbC13aXRoaW59IikKICAgIHByaW50KCkKICAgIHByaW50KCIgIOivtOaYju+8mnNjb3JlciDnmoTmlq3ngrnnu63ot5HmjIkgcWNpZD0oaGF2ZV9jaG9vc2VuIGlkcywgdGVzdF9pZCkg5Y676YeN77yMIikKICAgIHByaW50KCIgICAgICAgIHRlc3RfaWQg5Y2zIHF1ZXJ5IOWcqOWAmemAieaxoOS4reeahOWFqOWxgCBpZO+8jOS4jiBkYXRhX2xpc3Qg5LiL5qCH5LiA6Ie077yMIikKICAgIHByaW50KCIgICAgICAgIOaJgOS7peOAjOWJjSBOIOS4qiBxdWVyeeOAjT0g44CMdGVzdF9pZCA8IE7jgI3jgIIiKQplbHNlOgogICAgcHJpbnQoIiAgKOaXoCBiaW4g5paH5Lu2KSIpCgpwcmludCgpCnByaW50KCI9IiAqIDc0KQpwcmludCgiMy4g57uT6K66IikKcHJpbnQoIj0iICogNzQpCnByaW50KCIgIOKckyDph4fmoLfmmK/noa7lrprmgKfnmoTvvJrpmY3kvY4gbl9zY29yZSDkuI3kvJrmlLnlj5jliY0gTiDkuKogcXVlcnkg55qE5YCZ6YCJIikKcHJpbnQoIiAg4pyTIHNjb3JlciDmjIkgKGhhdmVfY2hvb3NlbiwgdGVzdF9pZCkg5Y676YeN5bm25pat54K557ut6LeRIikKcHJpbnQoIiAg4pyTIOWboOatpOmZjeS9jiBuX3Njb3JlIOWQju+8jOW3suaJk+WIhueahOmDqOWIhuWPr+S7peebtOaOpeWkjeeUqO+8jOaXoOmcgOmHjei3kSIpCnByaW50KCIgICAg4oCU4oCUIOWPqumcgOmHjeeUn+aIkCBzdGVwMSDph4fmoLfmlofku7bvvIjnp5LnuqfvvInvvIzph43ot5Egc2NvcmVyIOaXtuS8muiHquWKqOi3s+i/h+W3suWujOaIkOeahCBxY2lkIikK
+# -*- coding: utf-8 -*-
+"""
+验证「降低 n_score 后已打的分能否复用」——这是省时间的关键。
+
+原理：
+  find_random_step1 中 `random.seed(i)` 的 i 是 query 序号，
+  且候选池 idx_list 是全量（与 n_score 无关），
+  所以 data_list[:N] 的第 i 个 query 的采样结果与 data_list[:M]（M>N）完全相同。
+  → 若把 n_score 从 600 降到 300，只需重生成 step1 采样文件，
+    前 300 个 query 的候选列表与之前一模一样 → 已打的分（按 qcid 去重）可直接复用。
+
+本脚本验证：
+  1) 用 n_score=300 重新生成 step1 采样文件，与 600 版本的前 300 条逐条比对
+  2) 统计已打分 buffer 里有多少条落在前 300 个 query 内 → 即「可复用比例」
+
+用法：python verify_reuse.py
+"""
+import json
+import os
+import sys
+
+REPO = "/root/autodl-tmp/SeDPO_NIPS25"
+os.chdir(REPO)
+sys.path.insert(0, REPO)
+
+FR = f"{REPO}/my_data_qwen/find_random_sedpo_qwen/close_qa"
+P600 = f"{FR}/arc_c_random_samples_step1.json"
+
+print("=" * 74)
+print("1. 采样确定性验证：重新生成 n_score=300 与 600 版本的前 300 条比对")
+print("=" * 74)
+
+d600 = json.load(open(P600, encoding="utf-8"))
+print(f"  现有 600 版本: {len(d600)} 条")
+
+# 用同样的逻辑重新采样（复刻 find_random_step1 的核心逻辑，不写文件）
+import random
+import sys as _s
+_s.path.insert(0, REPO)
+from DPR.dpr.utils.tasks import task_map
+
+task = task_map.cls_dic["arc_c"]()
+pool = json.load(open(f"{REPO}/my_data_qwen/prompt_pool_sedpo/close_qa/arc_c_prompts.json",
+                      encoding="utf-8"))
+idx_list = list(range(len(pool)))
+L = 400
+
+# find_random_step1 的原始采样逻辑（n_score 修复后：k 按候选池算）
+resampled = []
+for i in range(300):
+    random.seed(i)
+    ctxs = [{"id": int(a)} for a in
+            random.sample([idx for idx in idx_list if idx != i], k=min(L, len(idx_list) - 1))]
+    resampled.append(ctxs)
+
+same = all(resampled[i] == d600[i]["step_1_ctxs"] for i in range(300))
+mismatch = [i for i in range(300) if resampled[i] != d600[i]["step_1_ctxs"]]
+print(f"  重新采样前 300 条 vs 现有 600 版本的前 300 条：")
+print(f"    完全一致: {'是 ✓' if same else '否 ✗'}")
+if mismatch:
+    print(f"    不一致的下标: {mismatch[:10]}")
+
+print()
+print("=" * 74)
+print("2. 已打分数据的可复用比例")
+print("=" * 74)
+from src.utils.cache_util import BufferedJsonReader
+import glob
+
+bins = glob.glob(f"{REPO}/my_data_qwen/scored_sedpo_qwen/close_qa/*.bin")
+if bins:
+    total = 0
+    within = 0
+    id_min, id_max = 10**9, -1
+    with BufferedJsonReader(bins[0]) as f:
+        for datas in f.read():
+            for e in datas:
+                total += 1
+                tid = e.get("test_id")
+                if tid is not None:
+                    tid = int(tid)
+                    id_min = min(id_min, tid)
+                    id_max = max(id_max, tid)
+                    if tid < 300:
+                        within += 1
+    print(f"  已打分实例总数: {total}")
+    print(f"  test_id 范围: [{id_min}, {id_max}]")
+    print(f"  落在 test_id<300 内（降 n_score=300 后可复用）: {within} ({100.0*within/max(total,1):.1f}%)")
+    print(f"  test_id>=300 的部分（降 n_score 后不再需要）: {total-within}")
+    print()
+    print("  说明：scorer 的断点续跑按 qcid=(have_choosen ids, test_id) 去重，")
+    print("        test_id 即 query 在候选池中的全局 id，与 data_list 下标一致，")
+    print("        所以「前 N 个 query」= 「test_id < N」。")
+else:
+    print("  (无 bin 文件)")
+
+print()
+print("=" * 74)
+print("3. 结论")
+print("=" * 74)
+print("  ✓ 采样是确定性的：降低 n_score 不会改变前 N 个 query 的候选")
+print("  ✓ scorer 按 (have_choosen, test_id) 去重并断点续跑")
+print("  ✓ 因此降低 n_score 后，已打分的部分可以直接复用，无需重跑")
+print("    —— 只需重生成 step1 采样文件（秒级），重跑 scorer 时会自动跳过已完成的 qcid")

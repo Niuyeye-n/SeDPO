@@ -1,1 +1,50 @@
-aW1wb3J0IHJhbmRvbQppbXBvcnQgdG9yY2gKCmRlZiBsb2FkX3RyYWluX2RhdGFzZXQoZGF0YXNldCxzaXplPU5vbmUsbGlzdGlmeT1UcnVlKToKICAgIGlmIHNpemUgaXMgbm90IE5vbmUgYW5kIHNpemU8bGVuKGRhdGFzZXRbJ3RyYWluJ10pOgogICAgICAgIGRhdGEgPSBkYXRhc2V0Wyd0cmFpbiddCiAgICAgICAgcmFuZCA9IHJhbmRvbS5SYW5kb20oeD00MikKICAgICAgICBpbmRleF9saXN0ID0gbGlzdChyYW5nZShsZW4oZGF0YSkpKSAKICAgICAgICByYW5kLnNodWZmbGUoaW5kZXhfbGlzdCkgI3NodWZmbGUgaW5kZXhfbGlzdCAKICAgICAgICB4ID0gZGF0YS5zZWxlY3QoaW5kZXhfbGlzdFs6c2l6ZV0pCgogICAgZWxzZToKICAgICAgICB4ID0gZGF0YXNldFsndHJhaW4nXQogICAgaWYgbGlzdGlmeToKICAgICAgICByZXR1cm4gbGlzdCh4KQogICAgZWxzZToKICAgICAgICByZXR1cm4geAoKZGVmIHBhZDJzYW1lTGVuKAogICAgdmFsdWVzLAogICAgcGFkX2lkeD0wLAogICAgbGVmdF9wYWQ9RmFsc2UKKToKICAgICIiIkNvbnZlcnQgYSBsaXN0IG9mIDFkIHRlbnNvcnMgaW50byBhIHBhZGRlZCAyZCB0ZW5zb3IuCiAgICBlbnN1cmluZyBzYW1lIGxlbmd0aHMKICAgICIiIgogICAgc2l6ZSA9IG1heCh2LnNoYXBlWy0xXSBmb3IgdiBpbiB2YWx1ZXMpCiAgICBpZiBsZWZ0X3BhZDoKICAgICAgICByZXM9dG9yY2guc3RhY2soW3RvcmNoLm5uLmZ1bmN0aW9uYWwucGFkKHYsKHNpemUtdi5zaGFwZVstMV0sMCksdmFsdWU9cGFkX2lkeCkgZm9yIHYgaW4gdmFsdWVzXSkKICAgIGVsc2U6CiAgICAgICAgcmVzPXRvcmNoLnN0YWNrKFt0b3JjaC5ubi5mdW5jdGlvbmFsLnBhZCh2LCgwLHNpemUtdi5zaGFwZVstMV0pLHZhbHVlPXBhZF9pZHgpIGZvciB2IGluIHZhbHVlc10pCiAgICByZXR1cm4gcmVzCgoKZGVmIHBhZDJzYW1lTGVuX3Rlc3QoCiAgICB2YWx1ZXMsCiAgICBwYWRfaWR4PTAsCiAgICBtYXhfbGVuZ3RoPTIwNDgsCiAgICBsZWZ0X3BhZD1GYWxzZSwKKToKICAgIGZvciBpIGluIHJhbmdlKGxlbih2YWx1ZXMpKTogCiAgICAgICAgaWYobGVuKHZhbHVlc1tpXSk+bWF4X2xlbmd0aCk6CiAgICAgICAgICAgIHByaW50KCJsZW4gb2YgdmFsdWU6ICVkIiwgbGVuKHZhbHVlc1tpXSkpCiAgICAgICAgICAgIAogICAgc2l6ZSA9IG1heCh2LnNoYXBlWy0xXSBmb3IgdiBpbiB2YWx1ZXMpCiAgICBpZiBsZWZ0X3BhZDoKICAgICAgICByZXM9dG9yY2guc3RhY2soW3RvcmNoLm5uLmZ1bmN0aW9uYWwucGFkKHYsKHNpemUtdi5zaGFwZVstMV0sMCksdmFsdWU9cGFkX2lkeCkgZm9yIHYgaW4gdmFsdWVzXSkKICAgIGVsc2U6CiAgICAgICAgcmVzPXRvcmNoLnN0YWNrKFt0b3JjaC5ubi5mdW5jdGlvbmFsLnBhZCh2LCgwLHNpemUtdi5zaGFwZVstMV0pLHZhbHVlPXBhZF9pZHgpIGZvciB2IGluIHZhbHVlc10pCiAgICByZXR1cm4gcmVzCg==
+import random
+import torch
+
+def load_train_dataset(dataset,size=None,listify=True):
+    if size is not None and size<len(dataset['train']):
+        data = dataset['train']
+        rand = random.Random(x=42)
+        index_list = list(range(len(data))) 
+        rand.shuffle(index_list) #shuffle index_list 
+        x = data.select(index_list[:size])
+
+    else:
+        x = dataset['train']
+    if listify:
+        return list(x)
+    else:
+        return x
+
+def pad2sameLen(
+    values,
+    pad_idx=0,
+    left_pad=False
+):
+    """Convert a list of 1d tensors into a padded 2d tensor.
+    ensuring same lengths
+    """
+    size = max(v.shape[-1] for v in values)
+    if left_pad:
+        res=torch.stack([torch.nn.functional.pad(v,(size-v.shape[-1],0),value=pad_idx) for v in values])
+    else:
+        res=torch.stack([torch.nn.functional.pad(v,(0,size-v.shape[-1]),value=pad_idx) for v in values])
+    return res
+
+
+def pad2sameLen_test(
+    values,
+    pad_idx=0,
+    max_length=2048,
+    left_pad=False,
+):
+    for i in range(len(values)): 
+        if(len(values[i])>max_length):
+            print("len of value: %d", len(values[i]))
+            
+    size = max(v.shape[-1] for v in values)
+    if left_pad:
+        res=torch.stack([torch.nn.functional.pad(v,(size-v.shape[-1],0),value=pad_idx) for v in values])
+    else:
+        res=torch.stack([torch.nn.functional.pad(v,(0,size-v.shape[-1]),value=pad_idx) for v in values])
+    return res

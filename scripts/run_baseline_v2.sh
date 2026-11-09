@@ -1,1 +1,76 @@
-IyEvYmluL2Jhc2gKIyBTZURQTyDln7rnur/ov5DooYzohJrmnKwgdjLvvIgwLXNob3QgLyDpmo/mnLogMy1zaG9077yJ77yM5oyJ5qih5Z6L6ZqU56a76L6T5Ye655uu5b2VCiMKIyDnlKjms5U6IGJhc2ggcnVuX2Jhc2VsaW5lX3YyLnNoIDx0YXNrX25hbWU+IDxtb2RlbF9wYXRoPiA8bW9kZT4gPG1vZGVsX3RhZz4KIyAgIHRhc2tfbmFtZTogYXJjX2MgfCBvcGVuYm9va3FhIHwgbXVsdGlyYwojICAgbW9kZWxfcGF0aDogN0IvOEIg5qih5Z6L55uu5b2VCiMgICBtb2RlOiB6ZXJvc2hvdCB8IHJhbmRvbTMKIyAgIG1vZGVsX3RhZzogcXdlbiB8IGxsYW1hCiMKIyDor7TmmI7vvJpyYW5kb20zIOi1sCByYW5kb21fc2FtcGxlPVRydWUg5YiG5pSv77yMZmV3X3Nob3RfZHNyIOS7jiBwcm9tcHRfcG9vbCDpmo/mnLrmir0gMyDmnaHvvIwKIyAgICAgICDkuI4gU2VEUE8g5qOA57Si5Ye655qEIDMg5p2h5YGa5a+554Wn44CC5oq95qC35rGgID0g5pW05LiqIGNsdXN0ZXIg55qE5YCZ6YCJ5rGg77yI5LiOIFNlRFBPIOajgOe0ouaxoOS4gOiHtO+8ieOAggojICAgICAgIEYzIOS/ruWkjeWQjuavj+S4qumXrumimOaKveWIsOS4jeWQjOeahOmaj+acuuekuuS+i++8iOatpOWJjeaJgOaciemXrumimOWkjeeUqOWQjOS4gOe7hO+8ieOAggpzZXQgLWUKClRBU0s9JDEKTU9ERUw9JDIKTU9ERT0kMwpUQUc9JDQKUkVQTz0vcm9vdC9hdXRvZGwtdG1wL1NlRFBPX05JUFMyNQpPVVRfRElSPSRSRVBPL215X2RhdGFfcXdlbi9iYXNlbGluZV8ke1RBR30vJHtUQVNLfV8ke01PREV9ClBST01QVF9ESVI9JFJFUE8vbXlfZGF0YV9xd2VuL3Byb21wdHNfZm9yX2V2YWwKCmNkICRSRVBPCnNvdXJjZSAvcm9vdC9taW5pY29uZGEzL2V0Yy9wcm9maWxlLmQvY29uZGEuc2gKY29uZGEgYWN0aXZhdGUgL3Jvb3QvYXV0b2RsLXRtcC9lbnZzL3NlX2RwbwpleHBvcnQgUFlUSE9OUEFUSD0kUkVQTzokUFlUSE9OUEFUSApleHBvcnQgSUZfUFJFRkVSX0xPU1M9MApleHBvcnQgSFlEUkFfRlVMTF9FUlJPUj0xCmV4cG9ydCBUT0tFTklaRVJTX1BBUkFMTEVMSVNNPWZhbHNlCmV4cG9ydCBQWVRPUkNIX0NVREFfQUxMT0NfQ09ORj1leHBhbmRhYmxlX3NlZ21lbnRzOlRydWUKCm1rZGlyIC1wICRPVVRfRElSCgppZiBbICIkTU9ERSIgPSAiemVyb3Nob3QiIF07IHRoZW4KICAgIFBST01QVF9GSUxFPSRQUk9NUFRfRElSLyR7VEFTS31femVyb3Nob3QuanNvbgogICAgU0hPVD0wCiAgICBSQU5ET01fU0FNUExFPUZhbHNlCmVsaWYgWyAiJE1PREUiID0gInJhbmRvbTMiIF07IHRoZW4KICAgIFBST01QVF9GSUxFPSRQUk9NUFRfRElSLyR7VEFTS31fcmFuZG9tMy5qc29uCiAgICBTSE9UPTMKICAgIFJBTkRPTV9TQU1QTEU9VHJ1ZQplbHNlCiAgICBlY2hvICLmnKrnn6UgbW9kZTogJE1PREUiOyBleGl0IDEKZmkKCiMgY2x1c3RlciDopoHkuI7ku7vliqHlr7nlupTvvIzlkKbliJkgcmFuZG9tX3NhbXBsZSDkvJrku47plJnor6/nmoQgcHJvbXB0IHBvb2wg5oq95qC3CmNhc2UgJFRBU0sgaW4KICAgIGFyY19jKSAgICAgIENMVVNURVI9Y2xvc2VfcWEgOzsKICAgIG9wZW5ib29rcWEpIENMVVNURVI9cmVhZGluZ19uZXcgOzsKICAgIG11bHRpcmMpICAgIENMVVNURVI9cmVhZGluZ19uZXcgOzsKICAgICopIGVjaG8gIuacquefpSB0YXNrOiAkVEFTSyI7IGV4aXQgMSA7Owplc2FjCgplY2hvICJbJChkYXRlICslSDolTTolUyldIOWfuue6v+W8gOWnizogdGFzaz0kVEFTSyBtb2RlPSRNT0RFIHNob3Q9JFNIT1QgbW9kZWw9JFRBRyIKU1RBUlQ9JChkYXRlICslcykKCmFjY2VsZXJhdGUgbGF1bmNoIC0tbnVtX3Byb2Nlc3NlcyAxIC0tbWFpbl9wcm9jZXNzX3BvcnQgMjQ1NzkgXAogICAgc2NyaXB0cy9pbmZlcmVuY2UucHkgXAogICAgcHJvbXB0X2ZpbGU9JFBST01QVF9GSUxFIFwKICAgIHRhc2tfbmFtZT0kVEFTSyBcCiAgICBvdXRwdXRfZmlsZT0kT1VUX0RJUi8ke1RBU0t9XyR7TU9ERX1fcHJlZHMuanNvbiBcCiAgICByZXNfZmlsZT0kT1VUX0RJUi9ldmFsX3Jlcy50eHQgXAogICAgYmF0Y2hfc2l6ZT0xIFwKICAgIHNob3RfbnVtPSRTSE9UIFwKICAgIHJhbmRvbV9zYW1wbGU9JFJBTkRPTV9TQU1QTEUgXAogICAgcmFuZG9tX3NlZWQ9NDIgXAogICAgbW9kZWxfbmFtZT0kTU9ERUwgXAogICAgcHJvbXB0X3Bvb2xfcGF0aD0kUkVQTy9teV9kYXRhX3F3ZW4vcHJvbXB0X3Bvb2wgXAogICAgdHJhaW5fY2x1c3RlcnM9JENMVVNURVIgXAogICAgY2FjaGVfZGlyPSRSRVBPL2NhY2hlIFwKICAgIGh5ZHJhLnJ1bi5kaXI9JE9VVF9ESVIgMj4mMSB8IHRlZSAkT1VUX0RJUi9pbmZlcmVuY2UubG9nCgpFTkQ9JChkYXRlICslcykKZWNobyAiWyQoZGF0ZSArJUg6JU06JVMpXSDln7rnur/nu5PmnZ86IHRhc2s9JFRBU0sgbW9kZT0kTU9ERSDogJfml7YgJCgoRU5EIC0gU1RBUlQpKSDnp5IiCmVjaG8gIi0tLSDor4TmtYvnu5PmnpwgLS0tIgpjYXQgJE9VVF9ESVIvZXZhbF9yZXMudHh0Cg==
+#!/bin/bash
+# SeDPO 基线运行脚本 v2（0-shot / 随机 3-shot），按模型隔离输出目录
+#
+# 用法: bash run_baseline_v2.sh <task_name> <model_path> <mode> <model_tag>
+#   task_name: arc_c | openbookqa | multirc
+#   model_path: 7B/8B 模型目录
+#   mode: zeroshot | random3
+#   model_tag: qwen | llama
+#
+# 说明：random3 走 random_sample=True 分支，few_shot_dsr 从 prompt_pool 随机抽 3 条，
+#       与 SeDPO 检索出的 3 条做对照。抽样池 = 整个 cluster 的候选池（与 SeDPO 检索池一致）。
+#       F3 修复后每个问题抽到不同的随机示例（此前所有问题复用同一组）。
+set -e
+
+TASK=$1
+MODEL=$2
+MODE=$3
+TAG=$4
+REPO=/root/autodl-tmp/SeDPO_NIPS25
+OUT_DIR=$REPO/my_data_qwen/baseline_${TAG}/${TASK}_${MODE}
+PROMPT_DIR=$REPO/my_data_qwen/prompts_for_eval
+
+cd $REPO
+source /root/miniconda3/etc/profile.d/conda.sh
+conda activate /root/autodl-tmp/envs/se_dpo
+export PYTHONPATH=$REPO:$PYTHONPATH
+export IF_PREFER_LOSS=0
+export HYDRA_FULL_ERROR=1
+export TOKENIZERS_PARALLELISM=false
+export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
+
+mkdir -p $OUT_DIR
+
+if [ "$MODE" = "zeroshot" ]; then
+    PROMPT_FILE=$PROMPT_DIR/${TASK}_zeroshot.json
+    SHOT=0
+    RANDOM_SAMPLE=False
+elif [ "$MODE" = "random3" ]; then
+    PROMPT_FILE=$PROMPT_DIR/${TASK}_random3.json
+    SHOT=3
+    RANDOM_SAMPLE=True
+else
+    echo "未知 mode: $MODE"; exit 1
+fi
+
+# cluster 要与任务对应，否则 random_sample 会从错误的 prompt pool 抽样
+case $TASK in
+    arc_c)      CLUSTER=close_qa ;;
+    openbookqa) CLUSTER=reading_new ;;
+    multirc)    CLUSTER=reading_new ;;
+    *) echo "未知 task: $TASK"; exit 1 ;;
+esac
+
+echo "[$(date +%H:%M:%S)] 基线开始: task=$TASK mode=$MODE shot=$SHOT model=$TAG"
+START=$(date +%s)
+
+accelerate launch --num_processes 1 --main_process_port 24579 \
+    scripts/inference.py \
+    prompt_file=$PROMPT_FILE \
+    task_name=$TASK \
+    output_file=$OUT_DIR/${TASK}_${MODE}_preds.json \
+    res_file=$OUT_DIR/eval_res.txt \
+    batch_size=1 \
+    shot_num=$SHOT \
+    random_sample=$RANDOM_SAMPLE \
+    random_seed=42 \
+    model_name=$MODEL \
+    prompt_pool_path=$REPO/my_data_qwen/prompt_pool \
+    train_clusters=$CLUSTER \
+    cache_dir=$REPO/cache \
+    hydra.run.dir=$OUT_DIR 2>&1 | tee $OUT_DIR/inference.log
+
+END=$(date +%s)
+echo "[$(date +%H:%M:%S)] 基线结束: task=$TASK mode=$MODE 耗时 $((END - START)) 秒"
+echo "--- 评测结果 ---"
+cat $OUT_DIR/eval_res.txt

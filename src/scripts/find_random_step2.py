@@ -1,1 +1,91 @@
-aW1wb3J0IG9zCmltcG9ydCBzeXMKc3lzLnBhdGguaW5zZXJ0KDAsIG9zLmdldGN3ZCgpKQoKaW1wb3J0IGh5ZHJhCmltcG9ydCB0cWRtCmltcG9ydCBqc29uCmltcG9ydCByYW5kb20KaW1wb3J0IG51bXB5CmZyb20gc2NpcHkuc3RhdHMgaW1wb3J0IGV4cG9uCmZyb20gRFBSLmRwci51dGlscy50YXNrcyBpbXBvcnQgdGFza19tYXAKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgpjbGFzcyBSYW5kb21GaW5kZXI6CiAgICBkZWYgX19pbml0X18oc2VsZiwgY2ZnKSAtPiBOb25lOgogICAgICAgIHNlbGYuY2ZnID0gY2ZnCiAgICAgICAgb3MubWFrZWRpcnMob3MucGF0aC5kaXJuYW1lKGNmZy5wcm9tcHRfcG9vbF9wYXRoKSwgZXhpc3Rfb2s9VHJ1ZSkKICAgICAgICBvcy5tYWtlZGlycyhvcy5wYXRoLmRpcm5hbWUoY2ZnLm91dHB1dF9wYXRoKSwgZXhpc3Rfb2s9VHJ1ZSkKICAgICAgICB0YXNrID0gdGFza19tYXAuY2xzX2RpY1tzZWxmLmNmZy50YXNrX25hbWVdKCkKICAgICAgICBzZWxmLnRyYWluX2RhdGFzZXQgPSB0YXNrLmdldF9kYXRhc2V0KAogICAgICAgICAgICBzcGxpdD0idHJhaW4iLAogICAgICAgICAgICBkc19zaXplPU5vbmUgaWYgImRzX3NpemUiIG5vdCBpbiBjZmcgZWxzZSBjZmcuZHNfc2l6ZSwKICAgICAgICAgICAgY2FjaGVfZGlyPWNmZy5jYWNoZV9kaXIsCiAgICAgICAgKQoKICAgICAgICBwcmludCgic3RhcnRlZCBjcmVhdGluZyB0aGUgcHJvbXB0IHBvb2wiKQogICAgICAgIHNlbGYuZ2V0X3Byb21wdF9wb29sKCkKICAgICAgICBwcmludCgiZmluaXNoZWQgY3JlYXRpbmcgdGhlIHByb21wdCBwb29sIikKCiAgICAjIHNhbXBsZSBhbmQgc2F2ZSBwcm9tcHQgcG9vbAogICAgZGVmIGdldF9wcm9tcHRfcG9vbChzZWxmKToKICAgICAgICBzZWxmLnByb21wdF9wb29sID0gc2VsZi50cmFpbl9kYXRhc2V0CiAgICAgICAgZm9yIGksIGVudHJ5IGluIGVudW1lcmF0ZShzZWxmLnByb21wdF9wb29sKToKICAgICAgICAgICAgZW50cnlbImlkIl0gPSBpCiAgICAgICAgICAgIGVudHJ5WyJ0YXNrX25hbWUiXSA9IHNlbGYuY2ZnLnRhc2tfbmFtZQogICAgICAgIHByaW50KCJwcm9tcHRfcG9vbCBzaXplIiwgbGVuKHNlbGYucHJvbXB0X3Bvb2wpKQogICAgICAgIHdpdGggb3BlbihzZWxmLmNmZy5wcm9tcHRfcG9vbF9wYXRoLCAidyIpIGFzIGY6CiAgICAgICAgICAgIGpzb24uZHVtcChzZWxmLnByb21wdF9wb29sLCBmKQoKCmRlZiBmaW5kX3N0ZXAyKGNmZyk6CiAgICB3aXRoIG9wZW4oY2ZnLnRyYWluX3BhdGgsICJyIikgYXMgZjE6CiAgICAgICAgZGF0YWxpc3QgPSBqc29uLmxvYWQoZjEpCiAgICBwcmludChsZW4oZGF0YWxpc3QpKQogICAgd2l0aCBvcGVuKGNmZy52YWxpZF9wYXRoLCAiciIpIGFzIGYyOgogICAgICAgIGRhdGFsaXN0ICs9IChqc29uLmxvYWQoZjIpKQogICAgcHJpbnQobGVuKGRhdGFsaXN0KSkKCiAgICByYW5kb21fZmluZGVyID0gUmFuZG9tRmluZGVyKGNmZykKICAgIHRyYWluX2RhdGFzZXQgPSByYW5kb21fZmluZGVyLnRyYWluX2RhdGFzZXQKICAgIGlkeF9saXN0ID0gbGlzdChyYW5nZShsZW4ocmFuZG9tX2ZpbmRlci5wcm9tcHRfcG9vbCkpKQoKICAgIHggPSByYW5nZSgwLCBjZmcuTCkgIyA1MCBpcyB0aGUgY3R4cyBudW1iZXIgdGhhdCBzY29yZWQgaW4gbGFzdCBzdGVwCiAgICBwID0gZXhwb24ucGRmKHgpCiAgICBwICAvPSBzdW0ocCkKICAgIGluZGV4ID0gbGlzdChyYW5nZShjZmcuTCkpCgogICAgZm9yIGksIGVsZW1lbnQgaW4gdHFkbS50cWRtKGVudW1lcmF0ZShkYXRhbGlzdCkpOgogICAgICAgIHJhbmRvbS5zZWVkKGkpCiAgICAgICAgbnVtcHkucmFuZG9tLnNlZWQoaSkKICAgICAgICBxaWQgPSBlbGVtZW50WyJpZCJdCiAgICAgICAgCiAgICAgICAgY2hvb3Nlbl9pZHMgPSBudW1weS5yYW5kb20uY2hvaWNlKGluZGV4LCBzaXplPWNmZy5jaG9vc2VuX251bSwgcmVwbGFjZT1GYWxzZSwgcD1wKQogICAgICAgICMgcHJpbnQoIioqKnJhbms6IiwgaWR4KQogICAgICAgIGVsZW1lbnRbInN0ZXBfMl9oYXZlX2Nob29zZW4iXSA9IFtdCiAgICAgICAgZWxlbWVudFsic3RlcF8yX2N0eHMiXSA9IFtdCiAgICAgICAgZm9yIGNob29zZW5faWQgaW4gY2hvb3Nlbl9pZHM6CiAgICAgICAgICAgIGVpZCA9IGVsZW1lbnRbImN0eHMiXVtjaG9vc2VuX2lkXVsiaWQiXQogICAgICAgICAgICBlbGVtZW50WyJzdGVwXzJfaGF2ZV9jaG9vc2VuIl0uYXBwZW5kKFtlaWRdKQogICAgICAgICAgICBlbGVtZW50WyJzdGVwXzJfY3R4cyJdLmFwcGVuZChbCiAgICAgICAgICAgICAgICBpbnQoYSkKICAgICAgICAgICAgICAgIGZvciBhIGluIHJhbmRvbS5zYW1wbGUoW2lkeCBmb3IgaWR4IGluIGlkeF9saXN0IGlmIGlkeCAhPSBxaWQgYW5kIGlkeCAhPSBlaWRdLCBrPW1pbihjZmcuTCwgbGVuKHRyYWluX2RhdGFzZXQpLTEpKSAjIGF2b2lkIHNlbGVjdGluZyB0aGUgdGFzayBpbnB1dCBpdHNlbGYKICAgICAgICAgICAgXSkKICAgICAgICBlbGVtZW50LnBvcCgic3RlcF8xX2hhdmVfY2hvb3NlbiIpCiAgICAgICAgZWxlbWVudC5wb3AoImN0eHMiKQogICAgcmV0dXJuIGRhdGFsaXN0CgpAaHlkcmEubWFpbihjb25maWdfcGF0aD0iLi4vY29uZmlncyIsIGNvbmZpZ19uYW1lPSJyYW5kb21fZmluZGVyX211bHRpX3N0ZXAiKQpkZWYgbWFpbihjZmcpOgogICAgcHJpbnQoY2ZnKQogICAgaWYgUGF0aChjZmcub3V0cHV0X3BhdGgpLmV4aXN0cygpIGFuZCBQYXRoKGNmZy5wcm9tcHRfcG9vbF9wYXRoKS5leGlzdHMoKToKICAgICAgICBwcmludChmInNraXAgZXhpc3RlZCBmaWxlczoge2NmZy5vdXRwdXRfcGF0aH0ge2NmZy5wcm9tcHRfcG9vbF9wYXRofSIpCiAgICAgICAgcmV0dXJuCiAgICBkYXRhbGlzdCA9IGZpbmRfc3RlcDIoY2ZnKQogICAgd2l0aCBvcGVuKGNmZy5vdXRwdXRfcGF0aCwgInciKSBhcyB3cml0ZXI6CiAgICAgICAgd3JpdGVyLndyaXRlKGpzb24uZHVtcHMoZGF0YWxpc3QsIGluZGVudD00KSArICJcbiIpCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIG1haW4oKQoK
+import os
+import sys
+sys.path.insert(0, os.getcwd())
+
+import hydra
+import tqdm
+import json
+import random
+import numpy
+from scipy.stats import expon
+from DPR.dpr.utils.tasks import task_map
+from pathlib import Path
+
+class RandomFinder:
+    def __init__(self, cfg) -> None:
+        self.cfg = cfg
+        os.makedirs(os.path.dirname(cfg.prompt_pool_path), exist_ok=True)
+        os.makedirs(os.path.dirname(cfg.output_path), exist_ok=True)
+        task = task_map.cls_dic[self.cfg.task_name]()
+        self.train_dataset = task.get_dataset(
+            split="train",
+            ds_size=None if "ds_size" not in cfg else cfg.ds_size,
+            cache_dir=cfg.cache_dir,
+        )
+
+        print("started creating the prompt pool")
+        self.get_prompt_pool()
+        print("finished creating the prompt pool")
+
+    # sample and save prompt pool
+    def get_prompt_pool(self):
+        self.prompt_pool = self.train_dataset
+        for i, entry in enumerate(self.prompt_pool):
+            entry["id"] = i
+            entry["task_name"] = self.cfg.task_name
+        print("prompt_pool size", len(self.prompt_pool))
+        with open(self.cfg.prompt_pool_path, "w") as f:
+            json.dump(self.prompt_pool, f)
+
+
+def find_step2(cfg):
+    with open(cfg.train_path, "r") as f1:
+        datalist = json.load(f1)
+    print(len(datalist))
+    with open(cfg.valid_path, "r") as f2:
+        datalist += (json.load(f2))
+    print(len(datalist))
+
+    random_finder = RandomFinder(cfg)
+    train_dataset = random_finder.train_dataset
+    idx_list = list(range(len(random_finder.prompt_pool)))
+
+    x = range(0, cfg.L) # 50 is the ctxs number that scored in last step
+    p = expon.pdf(x)
+    p  /= sum(p)
+    index = list(range(cfg.L))
+
+    for i, element in tqdm.tqdm(enumerate(datalist)):
+        random.seed(i)
+        numpy.random.seed(i)
+        qid = element["id"]
+        
+        choosen_ids = numpy.random.choice(index, size=cfg.choosen_num, replace=False, p=p)
+        # print("***rank:", idx)
+        element["step_2_have_choosen"] = []
+        element["step_2_ctxs"] = []
+        for choosen_id in choosen_ids:
+            eid = element["ctxs"][choosen_id]["id"]
+            element["step_2_have_choosen"].append([eid])
+            element["step_2_ctxs"].append([
+                int(a)
+                for a in random.sample([idx for idx in idx_list if idx != qid and idx != eid], k=min(cfg.L, len(train_dataset)-1)) # avoid selecting the task input itself
+            ])
+        element.pop("step_1_have_choosen")
+        element.pop("ctxs")
+    return datalist
+
+@hydra.main(config_path="../configs", config_name="random_finder_multi_step")
+def main(cfg):
+    print(cfg)
+    if Path(cfg.output_path).exists() and Path(cfg.prompt_pool_path).exists():
+        print(f"skip existed files: {cfg.output_path} {cfg.prompt_pool_path}")
+        return
+    datalist = find_step2(cfg)
+    with open(cfg.output_path, "w") as writer:
+        writer.write(json.dumps(datalist, indent=4) + "\n")
+
+
+if __name__ == "__main__":
+    main()
+

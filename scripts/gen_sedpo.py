@@ -1,1 +1,110 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwojIC0qLSBjb2Rpbmc6IHV0Zi04IC0qLQoiIiIK55Sf5oiQIFNlRFBPIOato+W8j+WunumqjOiEmuacrO+8iHNjb3JlL3RyYWluL2luZmVy77yJ4oCU4oCUIOmalOemu+eJiAoK6ZqU56a76K6+6K6h77yIMjAyNi0xMS0wNe+8ie+8mgogIOacjeWKoeWZqOS4iuWPr+iDveacieWPpuS4gOS4quW5tuWPkeS8muivneWcqOi3keWQjOagt+eahOS7k+W6k++8jOWug+S8mueUqAogIG15X2RhdGFfcXdlbi9leHBlcmltZW50X3t0YWd9IC8gc2NvcmVkX3t0YWd9IC8gZmluZF9yYW5kb21fe3RhZ30KICDku6Xlj4oqKuWFseS6q+eahCoqIHByb21wdF9wb29sL+OAggogIOacrOiEmuacrOaUueeUqCBgc2VkcG9fYCDliY3nvIAgKyDmqKHlnosgdGFnIOeahOebruW9leWQje+8jOW5tumineWklumalOemuyBwcm9tcHRfcG9vbO+8jAogIOS4pOS4quS8muivneeahOS6p+eJqeS6kuS4jeW5suaJsOOAggoKICBleHBlcmltZW50IOebruW9lTogbXlfZGF0YV9xd2VuL2V4cGVyaW1lbnRfc2VkcG9fe3RhZ30ve2NsdXN0ZXJ9LwogIHNjb3JlZCAg55uu5b2VICAgOiBteV9kYXRhX3F3ZW4vc2NvcmVkX3NlZHBvX3t0YWd9L3tjbHVzdGVyfS8KICBmaW5kX3JhbmRvbSDnm67lvZU6IG15X2RhdGFfcXdlbi9maW5kX3JhbmRvbV9zZWRwb197dGFnfS97Y2x1c3Rlcn0vCiAgcHJvbXB0X3Bvb2wg55uu5b2VOiBteV9kYXRhX3F3ZW4vcHJvbXB0X3Bvb2xfc2VkcG8ve2NsdXN0ZXJ9LwoK6KeE5qih5o6n5Yi277yI5rK/55So5bey6aqM6K+B55qE6K6+6K6h77yJ77yaCiAgLSDlgJnpgInmsaDkv53mjIHlhajph4/kuI3lj5jvvIhhcmNfYz0xMTE3IC8gb3BlbmJvb2txYT00OTU3IC8gbXVsdGlyYz0xMDAwMO+8iQogIC0g5Y+q6ZmQ5Yi26KKr5omT5YiG55qEIHF1ZXJ5IOaVsCBuX3Njb3JlCiAgLSBMIOS/neaMgeiuuuaWh+WOn+WAvCA0MDAvMjAwLzUwCgrnlKjms5U6CiAgcHl0aG9uIGdlbl9zZWRwby5weSAtLW1vZGVsX3RhZyBxd2VuIC0tbW9kZWxfcGF0aCAvcm9vdC9hdXRvZGwtdG1wL21vZGVscy9xd2VuMi41LTdiIFwKICAgICAgLS1jbHVzdGVyIGNsb3NlX3FhIC0tbnNfYXJjIDMwMCAtLW5zX29icSAzMDAgLS1uc19tdWwgMzAwCiIiIgppbXBvcnQgYXJncGFyc2UKaW1wb3J0IG9zCmltcG9ydCByZQppbXBvcnQgc2h1dGlsCgpSRVBPID0gIi9yb290L2F1dG9kbC10bXAvU2VEUE9fTklQUzI1IgpMX0JZX1RBU0sgPSB7ImFyY19jIjogNDAwLCAib3BlbmJvb2txYSI6IDIwMCwgIm11bHRpcmMiOiA1MH0KU1VGID0gInNlZHBvIiAgICAgICAgICAjIOmalOemu+WJjee8gO+8jOmBv+WFjeS4juWPpuS4gOS8muivneWGsueqgQoKCmRlZiBtYWluKCk6CiAgICBhcCA9IGFyZ3BhcnNlLkFyZ3VtZW50UGFyc2VyKCkKICAgIGFwLmFkZF9hcmd1bWVudCgiLS1tb2RlbF90YWciLCByZXF1aXJlZD1UcnVlKQogICAgYXAuYWRkX2FyZ3VtZW50KCItLW1vZGVsX3BhdGgiLCByZXF1aXJlZD1UcnVlKQogICAgYXAuYWRkX2FyZ3VtZW50KCItLWNsdXN0ZXIiLCByZXF1aXJlZD1UcnVlKQogICAgYXAuYWRkX2FyZ3VtZW50KCItLW5zX2FyYyIsIHR5cGU9aW50LCBkZWZhdWx0PTMwMCkKICAgIGFwLmFkZF9hcmd1bWVudCgiLS1uc19vYnEiLCB0eXBlPWludCwgZGVmYXVsdD0zMDApCiAgICBhcC5hZGRfYXJndW1lbnQoIi0tbnNfbXVsIiwgdHlwZT1pbnQsIGRlZmF1bHQ9MzAwKQogICAgYXAuYWRkX2FyZ3VtZW50KCItLXNjb3JlX2JzeiIsIHR5cGU9aW50LCBkZWZhdWx0PTEyKQogICAgYXJncyA9IGFwLnBhcnNlX2FyZ3MoKQoKICAgIHRhZywgY2x1c3RlciA9IGFyZ3MubW9kZWxfdGFnLCBhcmdzLmNsdXN0ZXIKICAgIHNyY2V4cCA9IGYie1JFUE99L215X2RhdGFfcXdlbi9leHBlcmltZW50L3tjbHVzdGVyfSIKICAgIGV4cCA9IGYie1JFUE99L215X2RhdGFfcXdlbi9leHBlcmltZW50X3tTVUZ9X3t0YWd9L3tjbHVzdGVyfSIKICAgIG9zLm1ha2VkaXJzKGV4cCwgZXhpc3Rfb2s9VHJ1ZSkKCiAgICBuc19ieV90YXNrID0geyJhcmNfYyI6IGFyZ3MubnNfYXJjLCAib3BlbmJvb2txYSI6IGFyZ3MubnNfb2JxLCAibXVsdGlyYyI6IGFyZ3MubnNfbXVsfQoKICAgIGZvciBmbmFtZSBpbiAoInNjb3JlLnNoIiwgInRyYWluLnNoIiwgImluZmVyLnNoIik6CiAgICAgICAgc3JjID0gb3Blbihvcy5wYXRoLmpvaW4oc3JjZXhwLCBmbmFtZSksIGVuY29kaW5nPSJ1dGYtOCIpLnJlYWQoKQoKICAgICAgICAjIC0tLS0g6ZqU56a755uu5b2V5pu/5o2i77yI6aG65bqP6KaB57Sn77ya5YWI6ZW/5ZCO55+t77yJLS0tLQogICAgICAgIHNyYyA9IHNyYy5yZXBsYWNlKGYibXlfZGF0YV9xd2VuL2V4cGVyaW1lbnQve2NsdXN0ZXJ9IiwKICAgICAgICAgICAgICAgICAgICAgICAgICBmIm15X2RhdGFfcXdlbi9leHBlcmltZW50X3tTVUZ9X3t0YWd9L3tjbHVzdGVyfSIpCiAgICAgICAgc3JjID0gc3JjLnJlcGxhY2UoZiJteV9kYXRhX3F3ZW4vcHJvbXB0X3Bvb2wve2NsdXN0ZXJ9IiwKICAgICAgICAgICAgICAgICAgICAgICAgICBmIm15X2RhdGFfcXdlbi9wcm9tcHRfcG9vbF97U1VGfS97Y2x1c3Rlcn0iKQogICAgICAgIHNyYyA9IHNyYy5yZXBsYWNlKCJteV9kYXRhX3F3ZW4vc2NvcmVkIiwgZiJteV9kYXRhX3F3ZW4vc2NvcmVkX3tTVUZ9X3t0YWd9IikKICAgICAgICBzcmMgPSBzcmMucmVwbGFjZSgibXlfZGF0YV9xd2VuL2ZpbmRfcmFuZG9tIiwgZiJteV9kYXRhX3F3ZW4vZmluZF9yYW5kb21fe1NVRn1fe3RhZ30iKQogICAgICAgICMg5pyq5bimIGNsdXN0ZXIg5a2Q55uu5b2V55qEIHByb21wdF9wb29sIOi3r+W+hO+8iHRyYWluLnNoIOeUqOeahOaYr+ebruW9le+8iQogICAgICAgIHNyYyA9IHNyYy5yZXBsYWNlKCJteV9kYXRhX3F3ZW4vcHJvbXB0X3Bvb2wgIiwKICAgICAgICAgICAgICAgICAgICAgICAgICBmIm15X2RhdGFfcXdlbi9wcm9tcHRfcG9vbF97U1VGfSAiKQoKICAgICAgICAjIC0tLS0g5qih5Z6L6Lev5b6EIC0tLS0KICAgICAgICBzcmMgPSBzcmMucmVwbGFjZSgiL3Jvb3QvYXV0b2RsLXRtcC9tb2RlbHMvcXdlbjIuNS03YiIsIGFyZ3MubW9kZWxfcGF0aCkKCiAgICAgICAgIyAtLS0tIOinhOaooeWPguaVsO+8mumAkOS7u+WKoeabv+aNoiBMIOS4jiBuX3Njb3JlIC0tLS0KICAgICAgICBmb3IgdGFzaywgbnMgaW4gbnNfYnlfdGFzay5pdGVtcygpOgogICAgICAgICAgICBzcmMgPSByZS5zdWIoCiAgICAgICAgICAgICAgICByZiJ0YXNrX25hbWU9e3Rhc2t9IFwrZHNfc2l6ZT1cZCsgTD1cZCsiLAogICAgICAgICAgICAgICAgZiJ0YXNrX25hbWU9e3Rhc2t9ICtkc19zaXplPTEwMDAwIEw9e0xfQllfVEFTS1t0YXNrXX0gK25fc2NvcmU9e25zfSIsCiAgICAgICAgICAgICAgICBzcmMpCgogICAgICAgICMgLS0tLSDmiZPliIYgYmF0Y2hfc2l6ZSAtLS0tCiAgICAgICAgc3JjID0gcmUuc3ViKHIiYmF0Y2hfc2l6ZT1cZCsgdGFza19uYW1lPSIsIGYiYmF0Y2hfc2l6ZT17YXJncy5zY29yZV9ic3p9IHRhc2tfbmFtZT0iLCBzcmMpCgogICAgICAgIG91dCA9IG9zLnBhdGguam9pbihleHAsIGZuYW1lKQogICAgICAgIHdpdGggb3BlbihvdXQsICJ3IiwgZW5jb2Rpbmc9InV0Zi04IikgYXMgZjoKICAgICAgICAgICAgZi53cml0ZShzcmMpCiAgICAgICAgb3MuY2htb2Qob3V0LCAwbzc1NSkKCiAgICBwcmludChmIltPS10g5bey55Sf5oiQIHtleHB9L3t7c2NvcmUsdHJhaW4saW5mZXJ9fS5zaCIpCiAgICBwcmludChmIiAgICAg5qih5Z6LPXthcmdzLm1vZGVsX3BhdGh9ICDmiZPliIZic3o9e2FyZ3Muc2NvcmVfYnN6fSIpCiAgICBwcmludCgiLS0tIOWQhOS7u+WKoeinhOaooeWPguaVsCAtLS0iKQogICAgZm9yIGxpbmUgaW4gb3Blbihvcy5wYXRoLmpvaW4oZXhwLCAic2NvcmUuc2giKSwgZW5jb2Rpbmc9InV0Zi04Iik6CiAgICAgICAgbSA9IHJlLnNlYXJjaChyInRhc2tfbmFtZT1cdysgXCtkc19zaXplPVxkKyBMPVxkKyBcK25fc2NvcmU9XGQrIiwgbGluZSkKICAgICAgICBpZiBtOgogICAgICAgICAgICBwcmludCgiICAgIiwgbS5ncm91cCgwKSkKICAgICMg5qCh6aqM6ZqU56a75piv5ZCm5b275bqVCiAgICBiYWQgPSBbXQogICAgZm9yIGxpbmUgaW4gb3Blbihvcy5wYXRoLmpvaW4oZXhwLCAic2NvcmUuc2giKSwgZW5jb2Rpbmc9InV0Zi04Iik6CiAgICAgICAgaWYgIm15X2RhdGFfcXdlbi9wcm9tcHRfcG9vbC8iIGluIGxpbmUgYW5kICJwcm9tcHRfcG9vbF9zZWRwbyIgbm90IGluIGxpbmU6CiAgICAgICAgICAgIGJhZC5hcHBlbmQobGluZS5zdHJpcCgpWzoxMjBdKQogICAgICAgIGlmIHJlLnNlYXJjaChyIm15X2RhdGFfcXdlbi8oc2NvcmVkfGZpbmRfcmFuZG9tKSg/IV8pIiwgbGluZSk6CiAgICAgICAgICAgIGJhZC5hcHBlbmQobGluZS5zdHJpcCgpWzoxMjBdKQogICAgaWYgYmFkOgogICAgICAgIHByaW50KCIhISDorablkYrvvJrku6XkuIvooYzlj6/og73mnKrlrozlhajpmpTnprvvvJoiKQogICAgICAgIGZvciBiIGluIGJhZFs6NV06CiAgICAgICAgICAgIHByaW50KCIgICAiLCBiKQogICAgZWxzZToKICAgICAgICBwcmludCgiICAgICDpmpTnprvmoKHpqozpgJrov4fvvIjml6DlhbHkuqvot6/lvoTmrovnlZnvvIkiKQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBtYWluKCkK
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+生成 SeDPO 正式实验脚本（score/train/infer）—— 隔离版
+
+隔离设计（2026-11-05）：
+  服务器上可能有另一个并发会话在跑同样的仓库，它会用
+  my_data_qwen/experiment_{tag} / scored_{tag} / find_random_{tag}
+  以及**共享的** prompt_pool/。
+  本脚本改用 `sedpo_` 前缀 + 模型 tag 的目录名，并额外隔离 prompt_pool，
+  两个会话的产物互不干扰。
+
+  experiment 目录: my_data_qwen/experiment_sedpo_{tag}/{cluster}/
+  scored  目录   : my_data_qwen/scored_sedpo_{tag}/{cluster}/
+  find_random 目录: my_data_qwen/find_random_sedpo_{tag}/{cluster}/
+  prompt_pool 目录: my_data_qwen/prompt_pool_sedpo/{cluster}/
+
+规模控制（沿用已验证的设计）：
+  - 候选池保持全量不变（arc_c=1117 / openbookqa=4957 / multirc=10000）
+  - 只限制被打分的 query 数 n_score
+  - L 保持论文原值 400/200/50
+
+用法:
+  python gen_sedpo.py --model_tag qwen --model_path /root/autodl-tmp/models/qwen2.5-7b \
+      --cluster close_qa --ns_arc 300 --ns_obq 300 --ns_mul 300
+"""
+import argparse
+import os
+import re
+import shutil
+
+REPO = "/root/autodl-tmp/SeDPO_NIPS25"
+L_BY_TASK = {"arc_c": 400, "openbookqa": 200, "multirc": 50}
+SUF = "sedpo"          # 隔离前缀，避免与另一会话冲突
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--model_tag", required=True)
+    ap.add_argument("--model_path", required=True)
+    ap.add_argument("--cluster", required=True)
+    ap.add_argument("--ns_arc", type=int, default=300)
+    ap.add_argument("--ns_obq", type=int, default=300)
+    ap.add_argument("--ns_mul", type=int, default=300)
+    ap.add_argument("--score_bsz", type=int, default=12)
+    args = ap.parse_args()
+
+    tag, cluster = args.model_tag, args.cluster
+    srcexp = f"{REPO}/my_data_qwen/experiment/{cluster}"
+    exp = f"{REPO}/my_data_qwen/experiment_{SUF}_{tag}/{cluster}"
+    os.makedirs(exp, exist_ok=True)
+
+    ns_by_task = {"arc_c": args.ns_arc, "openbookqa": args.ns_obq, "multirc": args.ns_mul}
+
+    for fname in ("score.sh", "train.sh", "infer.sh"):
+        src = open(os.path.join(srcexp, fname), encoding="utf-8").read()
+
+        # ---- 隔离目录替换（顺序要紧：先长后短）----
+        src = src.replace(f"my_data_qwen/experiment/{cluster}",
+                          f"my_data_qwen/experiment_{SUF}_{tag}/{cluster}")
+        src = src.replace(f"my_data_qwen/prompt_pool/{cluster}",
+                          f"my_data_qwen/prompt_pool_{SUF}/{cluster}")
+        src = src.replace("my_data_qwen/scored", f"my_data_qwen/scored_{SUF}_{tag}")
+        src = src.replace("my_data_qwen/find_random", f"my_data_qwen/find_random_{SUF}_{tag}")
+        # 未带 cluster 子目录的 prompt_pool 路径（train.sh 用的是目录）
+        src = src.replace("my_data_qwen/prompt_pool ",
+                          f"my_data_qwen/prompt_pool_{SUF} ")
+
+        # ---- 模型路径 ----
+        src = src.replace("/root/autodl-tmp/models/qwen2.5-7b", args.model_path)
+
+        # ---- 规模参数：逐任务替换 L 与 n_score ----
+        for task, ns in ns_by_task.items():
+            src = re.sub(
+                rf"task_name={task} \+ds_size=\d+ L=\d+",
+                f"task_name={task} +ds_size=10000 L={L_BY_TASK[task]} +n_score={ns}",
+                src)
+
+        # ---- 打分 batch_size ----
+        src = re.sub(r"batch_size=\d+ task_name=", f"batch_size={args.score_bsz} task_name=", src)
+
+        out = os.path.join(exp, fname)
+        with open(out, "w", encoding="utf-8") as f:
+            f.write(src)
+        os.chmod(out, 0o755)
+
+    print(f"[OK] 已生成 {exp}/{{score,train,infer}}.sh")
+    print(f"     模型={args.model_path}  打分bsz={args.score_bsz}")
+    print("--- 各任务规模参数 ---")
+    for line in open(os.path.join(exp, "score.sh"), encoding="utf-8"):
+        m = re.search(r"task_name=\w+ \+ds_size=\d+ L=\d+ \+n_score=\d+", line)
+        if m:
+            print("   ", m.group(0))
+    # 校验隔离是否彻底
+    bad = []
+    for line in open(os.path.join(exp, "score.sh"), encoding="utf-8"):
+        if "my_data_qwen/prompt_pool/" in line and "prompt_pool_sedpo" not in line:
+            bad.append(line.strip()[:120])
+        if re.search(r"my_data_qwen/(scored|find_random)(?!_)", line):
+            bad.append(line.strip()[:120])
+    if bad:
+        print("!! 警告：以下行可能未完全隔离：")
+        for b in bad[:5]:
+            print("   ", b)
+    else:
+        print("     隔离校验通过（无共享路径残留）")
+
+
+if __name__ == "__main__":
+    main()

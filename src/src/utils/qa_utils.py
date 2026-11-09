@@ -1,1 +1,115 @@
-IyBDb3B5cmlnaHQgMjAyMiBUaGUgVDUgQXV0aG9ycy4KIwojIExpY2Vuc2VkIHVuZGVyIHRoZSBBcGFjaGUgTGljZW5zZSwgVmVyc2lvbiAyLjAgKHRoZSAiTGljZW5zZSIpOwojIHlvdSBtYXkgbm90IHVzZSB0aGlzIGZpbGUgZXhjZXB0IGluIGNvbXBsaWFuY2Ugd2l0aCB0aGUgTGljZW5zZS4KIyBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKIwojICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKIwojIFVubGVzcyByZXF1aXJlZCBieSBhcHBsaWNhYmxlIGxhdyBvciBhZ3JlZWQgdG8gaW4gd3JpdGluZywgc29mdHdhcmUKIyBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAojIFdJVEhPVVQgV0FSUkFOVElFUyBPUiBDT05ESVRJT05TIE9GIEFOWSBLSU5ELCBlaXRoZXIgZXhwcmVzcyBvciBpbXBsaWVkLgojIFNlZSB0aGUgTGljZW5zZSBmb3IgdGhlIHNwZWNpZmljIGxhbmd1YWdlIGdvdmVybmluZyBwZXJtaXNzaW9ucyBhbmQKIyBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KCiIiIlV0aWxpdGllcyBmb3IgUXVlc3Rpb24gQW5zd2VyaW5nIChRQSkgZXZhbHVhdGlvbi4KCk1hdGNoZXMgcmVzdWx0cyBvbiB0aGUgU1F1QUQgKHYxLjEpIGFuZCBUcml2aWFRQSAodjEuMCkgZXZhbHVhdGlvbiBzY3JpcHRzLgoiIiIKCmltcG9ydCBjb2xsZWN0aW9ucwppbXBvcnQgcmUKaW1wb3J0IHN0cmluZwoKZnJvbSBhYnNsIGltcG9ydCBsb2dnaW5nCmltcG9ydCBudW1weSBhcyBucAoKCmRlZiBfbm9ybWFsaXplX2Fuc3dlcih0ZXh0LCBwdW5jX2NoYXJzLCBwdW5jX3JlcGwpOgogICAgIiIiTG93ZXIgdGV4dCBhbmQgcmVtb3ZlIHB1bmN0dWF0aW9uLCBhcnRpY2xlcyBhbmQgZXh0cmEgd2hpdGVzcGFjZS4iIiIKCiAgICBkZWYgcmVtb3ZlX2FydGljbGVzKHMpOgogICAgICByZXR1cm4gcmUuc3ViKHIiXGIoYXxhbnx0aGUpXGIiLCAiICIsIHMpCgogICAgZGVmIHJlcGxhY2VfcHVuY3R1YXRpb24ocyk6CiAgICAgIHRvX3JlcGxhY2UgPSBzZXQocHVuY19jaGFycykKICAgICAgcmV0dXJuICIiLmpvaW4ocHVuY19yZXBsIGlmIGNoIGluIHRvX3JlcGxhY2UgZWxzZSBjaCBmb3IgY2ggaW4gcykKCiAgICBkZWYgd2hpdGVfc3BhY2VfZml4KHMpOgogICAgICByZXR1cm4gIiAiLmpvaW4ocy5zcGxpdCgpKQoKICAgIHRleHQgPSB0ZXh0Lmxvd2VyKCkKICAgIHRleHQgPSByZXBsYWNlX3B1bmN0dWF0aW9uKHRleHQpCiAgICB0ZXh0ID0gcmVtb3ZlX2FydGljbGVzKHRleHQpCiAgICB0ZXh0ID0gd2hpdGVfc3BhY2VfZml4KHRleHQpCiAgICByZXR1cm4gdGV4dAoKCmRlZiBub3JtYWxpemVfdHJpdmlhX3FhKGFuc3dlcik6CiAgIiIiTm9ybWFsaXphdGlvbiB1c2VkIGluIG9mZmljaWFsIFRyaXZpYVFBIGV2YWx1YXRpb24gc2NyaXB0LiIiIgogIHJldHVybiBfbm9ybWFsaXplX2Fuc3dlcigKICAgICAgYW5zd2VyLCBwdW5jX2NoYXJzPXN0cmluZy5wdW5jdHVhdGlvbiArICLigJjigJnCtGBfIiwgcHVuY19yZXBsPSIgIikuc3RyaXAoKQoKCmRlZiBub3JtYWxpemVfc3F1YWQoYW5zd2VyKToKICAiIiJOb3JtYWxpemF0aW9uIHVzZWQgaW4gb2ZmaWNpYWwgU1F1QUQgZXZhbHVhdGlvbiBzY3JpcHQuIiIiCiAgcmV0dXJuIF9ub3JtYWxpemVfYW5zd2VyKGFuc3dlciwgcHVuY19jaGFycz1zdHJpbmcucHVuY3R1YXRpb24sIHB1bmNfcmVwbD0iIikKCmRlZiBub3JtYWxpemVfZW0oYW5zd2VyKToKICAiIiJOb3JtYWxpemF0aW9uIHVzZWQgaW4gb2ZmaWNpYWwgU1F1QUQgZXZhbHVhdGlvbiBzY3JpcHQuIiIiCiAgcmV0dXJuIF9ub3JtYWxpemVfYW5zd2VyKGFuc3dlciwgcHVuY19jaGFycz1zdHJpbmcucHVuY3R1YXRpb24sIHB1bmNfcmVwbD0iIikKCmRlZiBfbWV0cmljX21heF9vdmVyX2dyb3VuZF90cnV0aHMobWV0cmljX2ZuLCBncm91bmRfdHJ1dGhzLCBwcmVkaWN0aW9uKToKICAiIiJDb21wdXRlcyB0aGUgbWF4aW11bSBvZiB0aGUgbWV0cmljIG92ZXIgYWxsIGdyb3VuZCB0cnV0aHMuIiIiCiAgcmV0dXJuIG1heCgKICAgICAgbWV0cmljX2ZuKGdyb3VuZF90cnV0aCwgcHJlZGljdGlvbikgZm9yIGdyb3VuZF90cnV0aCBpbiBncm91bmRfdHJ1dGhzCiAgKQoKCmRlZiBfZXhhY3RfbWF0Y2hfc2NvcmUodGFyZ2V0LCBwcmVkaWN0aW9uKToKICByZXR1cm4gdGFyZ2V0ID09IHByZWRpY3Rpb24KCgpkZWYgX2YxX3Njb3JlKHRhcmdldCwgcHJlZGljdGlvbik6CiAgIiIiQ29tcHV0ZXMgdG9rZW4gZjEgc2NvcmUgZm9yIGEgc2luZ2xlIHRhcmdldCBhbmQgcHJlZGljdGlvbi4iIiIKICBwcmVkaWN0aW9uX3Rva2VucyA9IHByZWRpY3Rpb24uc3BsaXQoKQogIHRhcmdldF90b2tlbnMgPSB0YXJnZXQuc3BsaXQoKQogIGNvbW1vbiA9IChjb2xsZWN0aW9ucy5Db3VudGVyKHByZWRpY3Rpb25fdG9rZW5zKSAmCiAgICAgICAgICAgIGNvbGxlY3Rpb25zLkNvdW50ZXIodGFyZ2V0X3Rva2VucykpCiAgbnVtX3NhbWUgPSBzdW0oY29tbW9uLnZhbHVlcygpKQogIGlmIG51bV9zYW1lID09IDA6CiAgICByZXR1cm4gMAogIHByZWNpc2lvbiA9IDEuMCAqIG51bV9zYW1lIC8gbGVuKHByZWRpY3Rpb25fdG9rZW5zKQogIHJlY2FsbCA9IDEuMCAqIG51bV9zYW1lIC8gbGVuKHRhcmdldF90b2tlbnMpCiAgZjEgPSAoMiAqIHByZWNpc2lvbiAqIHJlY2FsbCkgLyAocHJlY2lzaW9uICsgcmVjYWxsKQogIHJldHVybiBmMQoKZGVmIHFhX21ldHJpY3ModGFyZ2V0cywgcHJlZGljdGlvbnMsIHJldHVybl9saXN0PUZhbHNlKToKICAiIiJDb21wdXRlcyBleGFjdCBtYXRjaCBhbmQgZjEgUUEgc2NvcmVzLCBleHBlY3RpbmcgcHJlLW5vcm1hbGl6ZWQgdGV4dC4iIiIKICBpZiBsZW4odGFyZ2V0cykgIT0gbGVuKHRhcmdldHMpOgogICAgcHJpbnQobGVuKHRhcmdldHMpLCBsZW4odGFyZ2V0cykpCiAgICByYWlzZSBWYWx1ZUVycm9yKCJOdW1iZXIgb2YgdGFyZ2V0cyBhbmQgcHJlZGljdGlvbnMgbXVzdCBtYXRjaC4iKQogIGlmIHJldHVybl9saXN0OgogICAgZW09WwogICAgICAgIF9tZXRyaWNfbWF4X292ZXJfZ3JvdW5kX3RydXRocyhfZXhhY3RfbWF0Y2hfc2NvcmUsIHQsIHApCiAgICAgICAgZm9yIHAsIHQgaW4gemlwKHByZWRpY3Rpb25zLCB0YXJnZXRzKQogICAgXQogICAgZjE9WwogICAgICAgIF9tZXRyaWNfbWF4X292ZXJfZ3JvdW5kX3RydXRocyhfZjFfc2NvcmUsIHQsIHApCiAgICAgICAgZm9yIHAsIHQgaW4gemlwKHByZWRpY3Rpb25zLCB0YXJnZXRzKQogICAgXQogICAgcmV0dXJuIGVtLCBmMQogICMgcHJpbnQodGFyZ2V0cywgcHJlZGljdGlvbnMpCiAgZW0gPSBucC5tZWFuKFsKICAgICAgX21ldHJpY19tYXhfb3Zlcl9ncm91bmRfdHJ1dGhzKF9leGFjdF9tYXRjaF9zY29yZSwgdCwgcCkKICAgICAgZm9yIHAsIHQgaW4gemlwKHByZWRpY3Rpb25zLCB0YXJnZXRzKQogIF0pCiAgZjEgPSBucC5tZWFuKFsKICAgICAgX21ldHJpY19tYXhfb3Zlcl9ncm91bmRfdHJ1dGhzKF9mMV9zY29yZSwgdCwgcCkKICAgICAgZm9yIHAsIHQgaW4gemlwKHByZWRpY3Rpb25zLCB0YXJnZXRzKQogIF0pCiAgZW0gKj0gMTAwCiAgZjEgKj0gMTAwCiAgbG9nZ2luZy5pbmZvKCJFTSA9ICUuMmYsIEYxID0gJS4yZiIsIGVtLCBmMSkKICAjcmV0dXJuIHsiZW0iOiBlbSwgImYxIjogZjF9CiAgcmV0dXJuIGVtLCBmMQ==
+# Copyright 2022 The T5 Authors.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+"""Utilities for Question Answering (QA) evaluation.
+
+Matches results on the SQuAD (v1.1) and TriviaQA (v1.0) evaluation scripts.
+"""
+
+import collections
+import re
+import string
+
+from absl import logging
+import numpy as np
+
+
+def _normalize_answer(text, punc_chars, punc_repl):
+    """Lower text and remove punctuation, articles and extra whitespace."""
+
+    def remove_articles(s):
+      return re.sub(r"\b(a|an|the)\b", " ", s)
+
+    def replace_punctuation(s):
+      to_replace = set(punc_chars)
+      return "".join(punc_repl if ch in to_replace else ch for ch in s)
+
+    def white_space_fix(s):
+      return " ".join(s.split())
+
+    text = text.lower()
+    text = replace_punctuation(text)
+    text = remove_articles(text)
+    text = white_space_fix(text)
+    return text
+
+
+def normalize_trivia_qa(answer):
+  """Normalization used in official TriviaQA evaluation script."""
+  return _normalize_answer(
+      answer, punc_chars=string.punctuation + "‘’´`_", punc_repl=" ").strip()
+
+
+def normalize_squad(answer):
+  """Normalization used in official SQuAD evaluation script."""
+  return _normalize_answer(answer, punc_chars=string.punctuation, punc_repl="")
+
+def normalize_em(answer):
+  """Normalization used in official SQuAD evaluation script."""
+  return _normalize_answer(answer, punc_chars=string.punctuation, punc_repl="")
+
+def _metric_max_over_ground_truths(metric_fn, ground_truths, prediction):
+  """Computes the maximum of the metric over all ground truths."""
+  return max(
+      metric_fn(ground_truth, prediction) for ground_truth in ground_truths
+  )
+
+
+def _exact_match_score(target, prediction):
+  return target == prediction
+
+
+def _f1_score(target, prediction):
+  """Computes token f1 score for a single target and prediction."""
+  prediction_tokens = prediction.split()
+  target_tokens = target.split()
+  common = (collections.Counter(prediction_tokens) &
+            collections.Counter(target_tokens))
+  num_same = sum(common.values())
+  if num_same == 0:
+    return 0
+  precision = 1.0 * num_same / len(prediction_tokens)
+  recall = 1.0 * num_same / len(target_tokens)
+  f1 = (2 * precision * recall) / (precision + recall)
+  return f1
+
+def qa_metrics(targets, predictions, return_list=False):
+  """Computes exact match and f1 QA scores, expecting pre-normalized text."""
+  if len(targets) != len(targets):
+    print(len(targets), len(targets))
+    raise ValueError("Number of targets and predictions must match.")
+  if return_list:
+    em=[
+        _metric_max_over_ground_truths(_exact_match_score, t, p)
+        for p, t in zip(predictions, targets)
+    ]
+    f1=[
+        _metric_max_over_ground_truths(_f1_score, t, p)
+        for p, t in zip(predictions, targets)
+    ]
+    return em, f1
+  # print(targets, predictions)
+  em = np.mean([
+      _metric_max_over_ground_truths(_exact_match_score, t, p)
+      for p, t in zip(predictions, targets)
+  ])
+  f1 = np.mean([
+      _metric_max_over_ground_truths(_f1_score, t, p)
+      for p, t in zip(predictions, targets)
+  ])
+  em *= 100
+  f1 *= 100
+  logging.info("EM = %.2f, F1 = %.2f", em, f1)
+  #return {"em": em, "f1": f1}
+  return em, f1

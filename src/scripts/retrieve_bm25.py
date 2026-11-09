@@ -1,1 +1,138 @@
-aW1wb3J0IG9zCmltcG9ydCBzeXMKc3lzLnBhdGguaW5zZXJ0KDAsIG9zLmdldGN3ZCgpKQoKaW1wb3J0IGh5ZHJhCmltcG9ydCB0cWRtCmltcG9ydCBudW1weSBhcyBucAppbXBvcnQganNvbgpmcm9tIHJhbmtfYm0yNSBpbXBvcnQgQk0yNU9rYXBpCmltcG9ydCBtdWx0aXByb2Nlc3NpbmcKZnJvbSBEUFIuZHByLnV0aWxzLnRhc2tzIGltcG9ydCB0YXNrX21hcCwgZ2V0X3Byb21wdF9maWxlcwpmcm9tIERQUi5kcHIudXRpbHMuZGF0YV91dGlscyBpbXBvcnQgcmVhZF9kYXRhX2Zyb21fanNvbl9maWxlcwppbXBvcnQgbG9nZ2luZwoKbG9nZ2VyID0gbG9nZ2luZy5nZXRMb2dnZXIoX19uYW1lX18pCgoKY2xhc3MgQk0yNUZpbmRlcjoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBjZmcpIC0+IE5vbmU6CiAgICAgICAgc2VsZi5wcm9tcHRfc2V0dXBfdHlwZSA9IGNmZy5wcm9tcHRfc2V0dXBfdHlwZQogICAgICAgIGFzc2VydCBzZWxmLnByb21wdF9zZXR1cF90eXBlIGluIFsicSIsICJxYSIsICJhIl0KCiAgICAgICAgIyBwcm9tcHRfcG9vbAogICAgICAgIGlmIGNmZy50cmFpbl9jbHVzdGVycyBpcyBub3QgTm9uZToKICAgICAgICAgICAgcHJvbXB0X3Bvb2xfcGF0aCA9IGdldF9wcm9tcHRfZmlsZXMoY2ZnLnByb21wdF9wb29sX3BhdGgsIGNmZy50cmFpbl9jbHVzdGVycykKICAgICAgICBlbHNlOgogICAgICAgICAgICBwcm9tcHRfcG9vbF9wYXRoID0gY2ZnLnByb21wdF9wb29sX3BhdGgKICAgICAgICBsb2dnZXIuaW5mbygicHJvbXB0IGZpbGVzOiAlcyIsIHByb21wdF9wb29sX3BhdGgpCiAgICAgICAgc2VsZi5wcm9tcHRfcG9vbCA9IHJlYWRfZGF0YV9mcm9tX2pzb25fZmlsZXMocHJvbXB0X3Bvb2xfcGF0aCkKICAgICAgICBsb2dnZXIuaW5mbygicHJvbXB0IHBhc3NhZ2VzIG51bSA6ICVkIiwgbGVuKHNlbGYucHJvbXB0X3Bvb2wpKQoKICAgICAgICBsb2dnZXIuaW5mbygic3RhcnRlZCBjcmVhdGluZyB0aGUgY29ycHVzIikKICAgICAgICBzZWxmLmNvcnB1cyA9IFtzZWxmLnRva2VuaXplX3Byb21wdChwcm9tcHQpIGZvciBwcm9tcHQgaW4gc2VsZi5wcm9tcHRfcG9vbF0KICAgICAgICBzZWxmLmJtMjUgPSBCTTI1T2thcGkoc2VsZi5jb3JwdXMpCiAgICAgICAgbG9nZ2VyLmluZm8oImZpbmlzaGVkIGNyZWF0aW5nIHRoZSBjb3JwdXMiKQoKICAgIGRlZiB0b2tlbml6ZV9wcm9tcHQoc2VsZiwgZW50cnkpOgogICAgICAgIHRhc2sgPSB0YXNrX21hcC5jbHNfZGljW2VudHJ5WyJ0YXNrX25hbWUiXV0oKQogICAgICAgIGlmIHNlbGYucHJvbXB0X3NldHVwX3R5cGUgPT0gInEiOgogICAgICAgICAgICBwcm9tcHQgPSB0YXNrLmdldF9xdWVzdGlvbihlbnRyeSkKICAgICAgICBlbGlmIHNlbGYucHJvbXB0X3NldHVwX3R5cGUgPT0gImEiOgogICAgICAgICAgICBwcm9tcHQgPSB0YXNrLmdldF9hbnN3ZXIoZW50cnkpCiAgICAgICAgZWxpZiBzZWxmLnByb21wdF9zZXR1cF90eXBlID09ICJxYSI6CiAgICAgICAgICAgIHByb21wdCA9ICgKICAgICAgICAgICAgICAgIHRhc2suZ2V0X3F1ZXN0aW9uKGVudHJ5KQogICAgICAgICAgICAgICAgKyAiICIKICAgICAgICAgICAgICAgICsgdGFzay5nZXRfYW5zd2VyKGVudHJ5KQogICAgICAgICAgICApCiAgICAgICAgcmV0dXJuIHNlbGYudG9rZW5pemUocHJvbXB0KQoKICAgIGRlZiB0b2tlbml6ZShzZWxmLCB0ZXh0KToKICAgICAgICByZXR1cm4gdGV4dC5zdHJpcCgpLnNwbGl0KCkKCiAgICBkZWYgZGV0b2tlbml6ZShzZWxmLCB0b2tlbnMpOgogICAgICAgIHJldHVybiAiICIuam9pbih0b2tlbnMpCgoKZGVmIHNlYXJjaCh0b2tlbml6ZWRfcXVlcnksIGlkeCwgbl9kb2NzKToKICAgIGJtMjUgPSBibTI1X2dsb2JhbAogICAgc2NvcmVzID0gYm0yNS5nZXRfc2NvcmVzKHRva2VuaXplZF9xdWVyeSkKICAgIG5lYXJfaWRzID0gbGlzdChucC5hcmdzb3J0KHNjb3JlcylbOjotMV1bOm5fZG9jc10pCiAgICBzb3J0ZWRfc2NvcmVzID0gbGlzdChucC5zb3J0KHNjb3JlcylbOjotMV1bOm5fZG9jc10pCiAgICByZXR1cm4gbmVhcl9pZHMsIHNvcnRlZF9zY29yZXMsIGlkeAoKCmRlZiBfc2VhcmNoKGFyZ3MpOgogICAgdG9rZW5pemVkX3F1ZXJ5LCBpZHgsIG5fZG9jcyA9IGFyZ3MKICAgIHJldHVybiBzZWFyY2godG9rZW5pemVkX3F1ZXJ5LCBpZHgsIG5fZG9jcykKCgpjbGFzcyBHbG9iYWxTdGF0ZToKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBibTI1KSAtPiBOb25lOgogICAgICAgIHNlbGYuYm0yNSA9IGJtMjUKCgpkZWYgZmluZChjZmcpOgogICAgZmluZGVyID0gQk0yNUZpbmRlcihjZmcpCgogICAgZGVmIHNldF9nbG9iYWxfb2JqZWN0KGJtMjUpOgogICAgICAgIGdsb2JhbCBibTI1X2dsb2JhbAogICAgICAgIGJtMjVfZ2xvYmFsID0gYm0yNQoKICAgIHBvb2wgPSBtdWx0aXByb2Nlc3NpbmcuUG9vbCgKICAgICAgICBwcm9jZXNzZXM9Tm9uZSwgaW5pdGlhbGl6ZXI9c2V0X2dsb2JhbF9vYmplY3QsIGluaXRhcmdzPShmaW5kZXIuYm0yNSwpCiAgICApCiAgICB0YXNrX25hbWUgPSBjZmcudGFza19uYW1lCiAgICBsb2dnZXIuaW5mbygic2VhcmNoIGZvciAlcyIsIHRhc2tfbmFtZSkKICAgIHRhc2sgPSB0YXNrX21hcC5jbHNfZGljW3Rhc2tfbmFtZV0oKQogICAgIyBnZXQgdGhlIGV2YWx1YXRpb24gZGF0YSBzcGxpdAogICAgZGF0YXNldCA9IHRhc2suZ2V0X2RhdGFzZXQoY2FjaGVfZGlyPWNmZy5jYWNoZV9kaXIpCiAgICBnZXRfcXVlc3Rpb24gPSB0YXNrLmdldF9xdWVzdGlvbgogICAgdG9rZW5pemVkX3F1ZXJpZXMgPSBbXQogICAgZm9yIGlkLCBlbnRyeSBpbiBlbnVtZXJhdGUoZGF0YXNldCk6CiAgICAgICAgZW50cnlbImlkIl0gPSBpZAogICAgICAgIHF1ZXN0aW9uID0gZ2V0X3F1ZXN0aW9uKGVudHJ5KQogICAgICAgIHRva2VuaXplZF9xdWVyaWVzLmFwcGVuZChmaW5kZXIudG9rZW5pemUocXVlc3Rpb24pKQogICAgY250eF9wcmUgPSBbCiAgICAgICAgW3Rva2VuaXplZF9xdWVyeSwgaWR4LCBjZmcubl9kb2NzXQogICAgICAgIGZvciBpZHgsIHRva2VuaXplZF9xdWVyeSBpbiBlbnVtZXJhdGUodG9rZW5pemVkX3F1ZXJpZXMpCiAgICBdCiAgICBjbnR4X3Bvc3QgPSB7fQogICAgd2l0aCB0cWRtLnRxZG0odG90YWw9bGVuKGNudHhfcHJlKSkgYXMgcGJhcjoKICAgICAgICBmb3IgcmVzIGluIHBvb2wuaW1hcF91bm9yZGVyZWQoX3NlYXJjaCwgY250eF9wcmUpOgogICAgICAgICAgICBwYmFyLnVwZGF0ZSgpCiAgICAgICAgICAgIGN0eF9pZHMsIGN0eF9zY29yZXMsIGlkeCA9IHJlcwogICAgICAgICAgICBjbnR4X3Bvc3RbaWR4XSA9IChjdHhfaWRzLCBjdHhfc2NvcmVzKQogICAgbWVyZ2VkX2RhdGEgPSBbXQogICAgZm9yIGlkeCwgZGF0YSBpbiBlbnVtZXJhdGUoZGF0YXNldCk6CiAgICAgICAgY3R4X2lkcywgY3R4X3Njb3JlcyA9IGNudHhfcG9zdFtpZHhdCiAgICAgICAgbWVyZ2VkX2RhdGEuYXBwZW5kKAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAiaW5zdHJ1Y3Rpb24iOiBmaW5kZXIuZGV0b2tlbml6ZSh0b2tlbml6ZWRfcXVlcmllc1tpZHhdKSwKICAgICAgICAgICAgICAgICJtZXRhX2RhdGEiOiBkYXRhLAogICAgICAgICAgICAgICAgImN0eHMiOiBbCiAgICAgICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgICAgICAicHJvbXB0X3Bvb2xfaWQiOiBzdHIocHJvbXB0X3Bvb2xfaWQpLAogICAgICAgICAgICAgICAgICAgICAgICAicGFzc2FnZSI6IGZpbmRlci5kZXRva2VuaXplKGZpbmRlci5jb3JwdXNbcHJvbXB0X3Bvb2xfaWRdKSwKICAgICAgICAgICAgICAgICAgICAgICAgInNjb3JlIjogc3RyKGN0eF9zY29yZXNbaV0pLAogICAgICAgICAgICAgICAgICAgICAgICAibWV0YV9kYXRhIjogZmluZGVyLnByb21wdF9wb29sW3Byb21wdF9wb29sX2lkXSwKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgZm9yIGksIHByb21wdF9wb29sX2lkIGluIGVudW1lcmF0ZShjdHhfaWRzKQogICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgfQogICAgICAgICkKICAgIHdpdGggb3BlbihjZmcub3V0X2ZpbGUsICJ3IikgYXMgd3JpdGVyOgogICAgICAgIHdyaXRlci53cml0ZShqc29uLmR1bXBzKG1lcmdlZF9kYXRhLCBpbmRlbnQ9NCkgKyAiXG4iKQogICAgbG9nZ2VyLmluZm8oIlNhdmVkIHJlc3VsdHMgKiBzY29yZXMgdG8gJXMiLCBjZmcub3V0X2ZpbGUpCgoKQGh5ZHJhLm1haW4oY29uZmlnX3BhdGg9Ii4uL2NvbmZpZ3MiLCBjb25maWdfbmFtZT0iYm0yNV9yZXRyaWV2ZXIiKQpkZWYgbWFpbihjZmcpOgogICAgcHJpbnQoY2ZnKQogICAgb3MubWFrZWRpcnMob3MucGF0aC5kaXJuYW1lKGNmZy5vdXRfZmlsZSksIGV4aXN0X29rPVRydWUpCiAgICBmaW5kKGNmZykKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgbWFpbigpCg==
+import os
+import sys
+sys.path.insert(0, os.getcwd())
+
+import hydra
+import tqdm
+import numpy as np
+import json
+from rank_bm25 import BM25Okapi
+import multiprocessing
+from DPR.dpr.utils.tasks import task_map, get_prompt_files
+from DPR.dpr.utils.data_utils import read_data_from_json_files
+import logging
+
+logger = logging.getLogger(__name__)
+
+
+class BM25Finder:
+    def __init__(self, cfg) -> None:
+        self.prompt_setup_type = cfg.prompt_setup_type
+        assert self.prompt_setup_type in ["q", "qa", "a"]
+
+        # prompt_pool
+        if cfg.train_clusters is not None:
+            prompt_pool_path = get_prompt_files(cfg.prompt_pool_path, cfg.train_clusters)
+        else:
+            prompt_pool_path = cfg.prompt_pool_path
+        logger.info("prompt files: %s", prompt_pool_path)
+        self.prompt_pool = read_data_from_json_files(prompt_pool_path)
+        logger.info("prompt passages num : %d", len(self.prompt_pool))
+
+        logger.info("started creating the corpus")
+        self.corpus = [self.tokenize_prompt(prompt) for prompt in self.prompt_pool]
+        self.bm25 = BM25Okapi(self.corpus)
+        logger.info("finished creating the corpus")
+
+    def tokenize_prompt(self, entry):
+        task = task_map.cls_dic[entry["task_name"]]()
+        if self.prompt_setup_type == "q":
+            prompt = task.get_question(entry)
+        elif self.prompt_setup_type == "a":
+            prompt = task.get_answer(entry)
+        elif self.prompt_setup_type == "qa":
+            prompt = (
+                task.get_question(entry)
+                + " "
+                + task.get_answer(entry)
+            )
+        return self.tokenize(prompt)
+
+    def tokenize(self, text):
+        return text.strip().split()
+
+    def detokenize(self, tokens):
+        return " ".join(tokens)
+
+
+def search(tokenized_query, idx, n_docs):
+    bm25 = bm25_global
+    scores = bm25.get_scores(tokenized_query)
+    near_ids = list(np.argsort(scores)[::-1][:n_docs])
+    sorted_scores = list(np.sort(scores)[::-1][:n_docs])
+    return near_ids, sorted_scores, idx
+
+
+def _search(args):
+    tokenized_query, idx, n_docs = args
+    return search(tokenized_query, idx, n_docs)
+
+
+class GlobalState:
+    def __init__(self, bm25) -> None:
+        self.bm25 = bm25
+
+
+def find(cfg):
+    finder = BM25Finder(cfg)
+
+    def set_global_object(bm25):
+        global bm25_global
+        bm25_global = bm25
+
+    pool = multiprocessing.Pool(
+        processes=None, initializer=set_global_object, initargs=(finder.bm25,)
+    )
+    task_name = cfg.task_name
+    logger.info("search for %s", task_name)
+    task = task_map.cls_dic[task_name]()
+    # get the evaluation data split
+    dataset = task.get_dataset(cache_dir=cfg.cache_dir)
+    get_question = task.get_question
+    tokenized_queries = []
+    for id, entry in enumerate(dataset):
+        entry["id"] = id
+        question = get_question(entry)
+        tokenized_queries.append(finder.tokenize(question))
+    cntx_pre = [
+        [tokenized_query, idx, cfg.n_docs]
+        for idx, tokenized_query in enumerate(tokenized_queries)
+    ]
+    cntx_post = {}
+    with tqdm.tqdm(total=len(cntx_pre)) as pbar:
+        for res in pool.imap_unordered(_search, cntx_pre):
+            pbar.update()
+            ctx_ids, ctx_scores, idx = res
+            cntx_post[idx] = (ctx_ids, ctx_scores)
+    merged_data = []
+    for idx, data in enumerate(dataset):
+        ctx_ids, ctx_scores = cntx_post[idx]
+        merged_data.append(
+            {
+                "instruction": finder.detokenize(tokenized_queries[idx]),
+                "meta_data": data,
+                "ctxs": [
+                    {
+                        "prompt_pool_id": str(prompt_pool_id),
+                        "passage": finder.detokenize(finder.corpus[prompt_pool_id]),
+                        "score": str(ctx_scores[i]),
+                        "meta_data": finder.prompt_pool[prompt_pool_id],
+                    }
+                    for i, prompt_pool_id in enumerate(ctx_ids)
+                ],
+            }
+        )
+    with open(cfg.out_file, "w") as writer:
+        writer.write(json.dumps(merged_data, indent=4) + "\n")
+    logger.info("Saved results * scores to %s", cfg.out_file)
+
+
+@hydra.main(config_path="../configs", config_name="bm25_retriever")
+def main(cfg):
+    print(cfg)
+    os.makedirs(os.path.dirname(cfg.out_file), exist_ok=True)
+    find(cfg)
+
+
+if __name__ == "__main__":
+    main()

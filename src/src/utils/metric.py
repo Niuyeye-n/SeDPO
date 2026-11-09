@@ -1,1 +1,223 @@
-ZnJvbSBza2xlYXJuLm1ldHJpY3MgaW1wb3J0IGYxX3Njb3JlLCBtYXR0aGV3c19jb3JyY29lZgppbXBvcnQgbnVtcHkgYXMgbnAKZnJvbSBzcmMudXRpbHMgaW1wb3J0IHFhX3V0aWxzCmltcG9ydCByZQoKCmZyb20gc3JjLnV0aWxzLmV2YWxfbWFueSBpbXBvcnQgZXZhbF9tYW55X210b3AKCmNsYXNzIEFwcDoKICAgIGRlZiBfX2luaXRfXyhzZWxmKToKICAgICAgICBzZWxmLmZ1bmN0aW9ucyA9IHt9CgogICAgZGVmIGFkZChzZWxmLCBrZXkpOgogICAgICAgIGRlZiBhZGRlcihmdW5jKToKICAgICAgICAgICAgc2VsZi5mdW5jdGlvbnNba2V5XSA9IGZ1bmMKICAgICAgICAgICAgcmV0dXJuIGZ1bmMKCiAgICAgICAgcmV0dXJuIGFkZGVyCgogICAgZGVmIF9fZ2V0aXRlbV9fKHNlbGYsIF9fbmFtZTogc3RyKToKICAgICAgICByZXR1cm4gc2VsZi5mdW5jdGlvbnNbX19uYW1lXQoKCm1ldHJpY19kaWN0ID0gQXBwKCkKCkBtZXRyaWNfZGljdC5hZGQoImVtX210b3AiKQpkZWYgZW1fbXRvcChwcmVkcywgbGFiZWxzLCByZXR1cm5fbGlzdD1GYWxzZSk6CiAgICAjIHByaW50KHByZWRzKQogICAgcmVzX2xpc3QgPSBldmFsX21hbnlfbXRvcChwcmVkcywgbGFiZWxzKQogICAgaWYgcmV0dXJuX2xpc3Q6CiAgICAgICAgcmV0dXJuIHJlc19saXN0CiAgICAjIHByaW50KHJlc19saXN0KQogICAgcmV0dXJuIHN1bShyZXNfbGlzdCkgLyBsZW4ocmVzX2xpc3QpCgpAbWV0cmljX2RpY3QuYWRkKCJleGFjdF9tYXRjaCIpCmRlZiBleGFjdF9tYXRjaChwcmVkcywgbGFiZWxzLCByZXR1cm5fbGlzdD1GYWxzZSk6CiAgICBsYWJlbHMgPSBbW3FhX3V0aWxzLm5vcm1hbGl6ZV9lbSh1KV0gZm9yIHUgaW4gbGFiZWxzXQogICAgcHJlZHMgPSBbcWFfdXRpbHMubm9ybWFsaXplX2VtKHApIGZvciBwIGluIHByZWRzXQogICAgIyBwcmludChwcmVkcykKICAgIGlmIHJldHVybl9saXN0OiAgIyB1c2VkIGZvciBzY29yaW5nIGRhdGEKICAgICAgICBlbSwgZjEgPSBxYV91dGlscy5xYV9tZXRyaWNzKGxhYmVscywgcHJlZHMsIHJldHVybl9saXN0PVRydWUpCiAgICAgICAgcmV0dXJuIGVtCiAgICBlbSwgZjEgPSBxYV91dGlscy5xYV9tZXRyaWNzKGxhYmVscywgcHJlZHMpICAjIGVtLCBmMQogICAgcmV0dXJuIGVtLCBmMQoKCkBtZXRyaWNfZGljdC5hZGQoInJvdWdlIikKZGVmIHJvdWdlKHByZWRzLCBsYWJlbHMsIHJldHVybl9saXN0PUZhbHNlKToKICAgICMgaHR0cHM6Ly9naXRodWIuY29tL3BsdHJkeS9yb3VnZQogICAgZnJvbSByb3VnZSBpbXBvcnQgUm91Z2UKICAgIHIxcywgcjJzLCBybHMgPSBbXSwgW10sIFtdCiAgICByID0gUm91Z2UoKQogICAgZm9yIGkgaW4gcmFuZ2UobGVuKGxhYmVscykpOgogICAgICAgIGlmICJcbiIgbm90IGluIHByZWRzW2ldOgogICAgICAgICAgICBwcmVkc1tpXSArPSAiXG4iICAjIHRvIGVuc3VyZSByb3VnZSBtZXRyaWNzCiAgICAgICAgaWYgIlxuIiBub3QgaW4gbGFiZWxzW2ldOgogICAgICAgICAgICBsYWJlbHNbaV0gKz0gIlxuIgogICAgICAgIHNjb3JlcyA9IHIuZ2V0X3Njb3JlcyhwcmVkc1tpXSwgbGFiZWxzW2ldKVswXQogICAgICAgIHIxcy5hcHBlbmQoc2NvcmVzWyJyb3VnZS0xIl1bImYiXSkKICAgICAgICByMnMuYXBwZW5kKHNjb3Jlc1sicm91Z2UtMiJdWyJmIl0pCiAgICAgICAgcmxzLmFwcGVuZChzY29yZXNbInJvdWdlLWwiXVsiZiJdKQogICAgaWYgcmV0dXJuX2xpc3Q6ICAjIHVzZWQgZm9yIHNjb3JpbmcgZGF0YQogICAgICAgIHJldHVybiByMXMKICAgIHIxID0gc3VtKHIxcykgLyBsZW4ocjFzKQogICAgcjIgPSBzdW0ocjJzKSAvIGxlbihyMnMpCiAgICBybCA9IHN1bShybHMpIC8gbGVuKHJscykKICAgIHJldHVybiByMSwgcjIsIHJsCgoKQG1ldHJpY19kaWN0LmFkZCgic3F1YWQiKQpkZWYgc3F1YWQobGFiZWxzLCBwcmVkcywgcmV0dXJuX2xpc3Q9RmFsc2UpOgogICAgIiIiQ29tcHV0ZXMgU1F1QUQgbWV0cmljcywgbWF4aW1pemluZyBvdmVyIGFuc3dlcnMgcGVyIHF1ZXN0aW9uLgogICAgQXJnczoKICAgIGxhYmVsczogbGlzdCBvZiBsaXN0cyBvZiBzdHJpbmdzCiAgICBwcmVkczogbGlzdCBvZiBzdHJpbmdzCiAgICBSZXR1cm5zOgogICAgZGljdCB3aXRoIHNjb3JlX2tleTogc3F1YWQgc2NvcmUgYWNyb3NzIGFsbCBsYWJlbHMgYW5kIHByZWRpY3Rpb25zCiAgICAiIiIKICAgIGxhYmVscyA9IFtbcWFfdXRpbHMubm9ybWFsaXplX3NxdWFkKHQpIGZvciB0IGluIHVdIGZvciB1IGluIGxhYmVsc10KICAgIHByZWRzID0gW3FhX3V0aWxzLm5vcm1hbGl6ZV9zcXVhZChwKSBmb3IgcCBpbiBwcmVkc10KICAgIGlmIHJldHVybl9saXN0OiAgIyB1c2VkIGZvciBzY29yaW5nIGRhdGEKICAgICAgICBlbSwgZjEgPSBxYV91dGlscy5xYV9tZXRyaWNzKGxhYmVscywgcHJlZHMsIHJldHVybl9saXN0PVRydWUpCiAgICAgICAgcmV0dXJuIGYxCiAgICBlbSwgZjEgPSBxYV91dGlscy5xYV9tZXRyaWNzKGxhYmVscywgcHJlZHMpICAjIGVtLGYxCiAgICByZXR1cm4gZW0sIGYxCgoKQG1ldHJpY19kaWN0LmFkZCgidHJpdmlhX3FhIikKZGVmIHRyaXZpYV9xYShsYWJlbHMsIHByZWRzLCByZXR1cm5fbGlzdD1GYWxzZSk6CiAgICAiIiJDb21wdXRlcyBUcml2aWFRQSBtZXRyaWNzLCBtYXhpbWl6aW5nIG92ZXIgYW5zd2VycyBwZXIgcXVlc3Rpb24uCiAgICBBcmdzOgogICAgbGFiZWxzOiBsaXN0IG9mIGxpc3RzIG9mIHN0cmluZ3MKICAgIHByZWRzOiBsaXN0IG9mIHN0cmluZ3MKICAgIFJldHVybnM6CiAgICBkaWN0IHdpdGggc2NvcmVfa2V5OiBzcXVhZCBzY29yZSBhY3Jvc3MgYWxsIGxhYmVscyBhbmQgcHJlZHMKICAgICIiIgogICAgbGFiZWxzID0gW1txYV91dGlscy5ub3JtYWxpemVfdHJpdmlhX3FhKHQpIGZvciB0IGluIHVdIGZvciB1IGluIGxhYmVsc10KICAgIHByZWRzID0gW3FhX3V0aWxzLm5vcm1hbGl6ZV90cml2aWFfcWEocCkgZm9yIHAgaW4gcHJlZHNdCiAgICBpZiByZXR1cm5fbGlzdDogICMgdXNlZCBmb3Igc2NvcmluZyBkYXRhCiAgICAgICAgZW0sIGYxID0gcWFfdXRpbHMucWFfbWV0cmljcyhsYWJlbHMsIHByZWRzLCByZXR1cm5fbGlzdD1UcnVlKQogICAgICAgIHJldHVybiBmMQogICAgZW0sIGYxID0gcWFfdXRpbHMucWFfbWV0cmljcyhsYWJlbHMsIHByZWRzKSAgIyBlbSxmMQogICAgcmV0dXJuIGVtLCBmMQoKCkBtZXRyaWNfZGljdC5hZGQoInNpbXBsZV9hY2N1cmFjeSIpCmRlZiBzaW1wbGVfYWNjdXJhY3kocHJlZHMsIGxhYmVscywgcmV0dXJuX2xpc3Q9RmFsc2UpOgogICAgaWYgaXNpbnN0YW5jZShwcmVkc1swXSwgc3RyKToKICAgICAgICBsYWJlbHMgPSBbbGFiZWwuc3RyaXAoKSBmb3IgbGFiZWwgaW4gbGFiZWxzXQogICAgICAgIHByZWRzID0gW3ByZWQuc3RyaXAoKSBmb3IgcHJlZCBpbiBwcmVkc10KICAgIHJlcyA9IFtpbnQocHJlZHNbaV0gPT0gbGFiZWxzW2ldKSBmb3IgaSBpbiByYW5nZShsZW4ocHJlZHMpKV0KICAgIGlmIHJldHVybl9saXN0OgogICAgICAgIHJldHVybiByZXMKICAgIGFjYyA9IHN1bShyZXMpIC8gbGVuKHJlcykKICAgIHJldHVybiBhY2MKCkBtZXRyaWNfZGljdC5hZGQoInB1Ym1lZF9xYV9hY2MiKQpkZWYgcHVibWVkX3FhX2FjYyhwcmVkcywgbGFiZWxzLCByZXR1cm5fbGlzdD1GYWxzZSk6CiAgICBwYXR0ZXJuPXInKFsuXHNdKikodGhlIGFuc3dlciBpcykoLiopJyAKICAgIHJlZ2V4PXJlLmNvbXBpbGUocGF0dGVybixyZS5JR05PUkVDQVNFKQoKICAgIHJlc19saXN0ID0gW10KICAgIGZvciBpLCBwcmVkIGluIGVudW1lcmF0ZShwcmVkcyk6CiAgICAgICAgbGFiZWwgPSBsYWJlbHNbaV0KICAgICAgICBpZiBsZW4ocmVnZXguZmluZGFsbChwcmVkKSk+MDoKICAgICAgICAgICAgYW5zd2VyID0gcmVnZXguZmluZGFsbChwcmVkKVstMV1bLTFdLmxvd2VyKCkKICAgICAgICAgICAgaWYgInllcyIgaW4gYW5zd2VyOgogICAgICAgICAgICAgICAgYWNjID0gMSBpZiBsYWJlbD09J3llcycgZWxzZSAwCiAgICAgICAgICAgIGVsaWYgIm5vIiBpbiBhbnN3ZXI6CiAgICAgICAgICAgICAgICBhY2MgPSAxIGlmIGxhYmVsPT0nbm8nIGVsc2UgMAogICAgICAgICAgICBlbGlmICJtYXliZSIgaW4gYW5zd2VyOgogICAgICAgICAgICAgICAgYWNjID0gMSBpZiBsYWJlbD09J21heWJlJyBlbHNlIDAKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIGFjYyA9IDAKICAgICAgICBlbHNlOgogICAgICAgICAgICBhbnN3ZXIgPSBOb25lCiAgICAgICAgICAgIGFjYyA9IDAKICAgICAgICByZXNfbGlzdC5hcHBlbmQoYWNjKQogICAgaWYgcmV0dXJuX2xpc3Q6CiAgICAgICAgcmV0dXJuIHJlc19saXN0CiAgICByZXR1cm4gc3VtKHJlc19saXN0KS9sZW4ocmVzX2xpc3QpCgpkZWYgYWNjX2FuZF9mMShwcmVkcywgbGFiZWxzKToKICAgIGFjYyA9IHNpbXBsZV9hY2N1cmFjeShwcmVkcywgbGFiZWxzKQogICAgZjEgPSBmMV9zY29yZSh5X3RydWU9bGFiZWxzLCB5X3ByZWQ9cHJlZHMpCiAgICByZXR1cm4gYWNjLCBmMSwgKGFjYyArIGYxKSAvIDIKCgpkZWYgYWNjX2FuZF9tYXR0aGV3c19jb3JyY29lZihwcmVkcywgbGFiZWxzKToKICAgIGFjYyA9IHNpbXBsZV9hY2N1cmFjeShwcmVkcywgbGFiZWxzKQogICAgbWNjID0gbWF0dGhld3NfY29ycmNvZWYoeV90cnVlPWxhYmVscywgeV9wcmVkPXByZWRzKQogICAgcmV0dXJuIGFjYywgbWNjCgpAbWV0cmljX2RpY3QuYWRkKCJibGV1IikKZGVmIGJsZXUocHJlZHMsIGxhYmVscywgcmV0dXJuX2xpc3Q9RmFsc2UpOgogICAgZnJvbSBkYXRhc2V0cyBpbXBvcnQgbG9hZF9tZXRyaWMKICAgIEJMRVUgPSBsb2FkX21ldHJpYygiYmxldSIpCiAgICBibGV1X3Njb3JlID0gW10KICAgIGZvciBpIGluIHJhbmdlKGxlbihsYWJlbHMpKToKICAgICAgICBpZiAiXG4iIG5vdCBpbiBwcmVkc1tpXToKICAgICAgICAgICAgcHJlZHNbaV0gKz0gIlxuIgogICAgICAgIGlmICJcbiIgbm90IGluIGxhYmVsc1tpXToKICAgICAgICAgICAgbGFiZWxzW2ldICs9ICJcbiIKCiAgICAgICAgcHJlZGljdGlvbnMgPSBbW2NoIGZvciBjaCBpbiBwcmVkc1tpXV1dCiAgICAgICAgcmVmZXJlbmNlcyA9IFtbW2NoIGZvciBjaCBpbiBsYWJlbHNbaV1dXV0KICAgICAgICBibGV1X3Njb3JlLmFwcGVuZChCTEVVLmNvbXB1dGUocHJlZGljdGlvbnM9cHJlZGljdGlvbnMsIHJlZmVyZW5jZXM9cmVmZXJlbmNlcylbImJsZXUiXSkKICAgIGlmIHJldHVybl9saXN0OiByZXR1cm4gYmxldV9zY29yZQogICAgIyBwcmludCgiYmx1ZTogIiwgYmxldV9zY29yZSkKICAgIHJldHVybiBzdW0oYmxldV9zY29yZSkvbGVuKGJsZXVfc2NvcmUpCgpkZWYgbmx0a19ibHVlKHByZWRzLCBsYWJlbHMpOgogICAgZnJvbSBubHRrLnRyYW5zbGF0ZS5ibGV1X3Njb3JlIGltcG9ydCBzZW50ZW5jZV9ibGV1LCBjb3JwdXNfYmxldQogICAgcHJlZGljdGlvbnMgPSBbW2NoIGZvciBjaCBpbiB0ZXh0XSBmb3IgdGV4dCBpbiBwcmVkc10KICAgIHJlZmVyZW5jZXMgPSBbW1tjaCBmb3IgY2ggaW4gbGFiZWxdXSBmb3IgbGFiZWwgaW4gbGFiZWxzXQogICAgc2NvcmUgPSBjb3JwdXNfYmxldShoeXBvdGhlc2VzPXByZWRpY3Rpb25zLCBsaXN0X29mX3JlZmVyZW5jZXM9cmVmZXJlbmNlcykKICAgIHByaW50KCJubHRrX2JsdWU6ICIsIHNjb3JlKQogICAgcmV0dXJuIHNjb3JlCgpkZWYgY29tcHV0ZV9tZXRyaWNzKG1ldHJpYywgbGFiZWxzLCBwcmVkcyk6CiAgICBhc3NlcnQgbGVuKHByZWRzKSA9PSBsZW4obGFiZWxzKQogICAgaWYgbWV0cmljID09ICJzaW1wbGVfYWNjdXJhY3kiOgogICAgICAgIHJldHVybiB7ImFjYyI6IHNpbXBsZV9hY2N1cmFjeShwcmVkcywgbGFiZWxzKSAqIDEwMH0KICAgIGVsaWYgbWV0cmljID09ICJyb3VnZSI6CiAgICAgICAgcjEsIHIyLCBybCA9IHJvdWdlKHByZWRzLCBsYWJlbHMpCiAgICAgICAgcmV0dXJuIHsicjEiOiByMSAqIDEwMCwgInIyIjogcjIgKiAxMDAsICJybCI6IHJsICogMTAwfQogICAgZWxpZiBtZXRyaWMgPT0gImFjY19hbmRfZjEiOgogICAgICAgIGFjYywgZjEsIGFjY19mMSA9IGFjY19hbmRfZjEocHJlZHMsIGxhYmVscykKICAgICAgICByZXR1cm4geyJhY2MiOiBhY2MgKiAxMDAsICJmMSI6IGYxICogMTAwLCAiYWNjX2FuZF9mMSI6IGFjY19mMSAqIDEwMH0KICAgIGVsaWYgbWV0cmljID09ICJhY2NfYW5kX21hdHRoZXdzX2NvcnJjb2VmIjoKICAgICAgICBhY2MsIG1jYyA9IGFjY19hbmRfbWF0dGhld3NfY29ycmNvZWYocHJlZHMsIGxhYmVscykKICAgICAgICByZXR1cm4geyJhY2MiOiBhY2MgKiAxMDAsICJtY2MiOiBtY2MgKiAxMDB9CiAgICBlbGlmIG1ldHJpYyA9PSAiZjEiOgogICAgICAgIGYxID0gZjFfc2NvcmUoeV90cnVlPWxhYmVscywgeV9wcmVkPXByZWRzKQogICAgICAgIHJldHVybiB7ImYxIjogZjEgKiAxMDB9CiAgICBlbGlmIG1ldHJpYyA9PSAic3F1YWQiOgogICAgICAgIGVtLCBmMSA9IHNxdWFkKGxhYmVscz1sYWJlbHMsIHByZWRzPXByZWRzKQogICAgICAgIHJldHVybiB7ImVtIjogZW0sICJmMSI6IGYxfQogICAgZWxpZiBtZXRyaWMgPT0gInRyaXZpYV9xYSI6CiAgICAgICAgZW0sIGYxID0gdHJpdmlhX3FhKGxhYmVscz1sYWJlbHMsIHByZWRzPXByZWRzKQogICAgICAgIHJldHVybiB7ImVtIjogZW0sICJmMSI6IGYxfQogICAgZWxpZiBtZXRyaWMgPT0gImV4YWN0X21hdGNoIjoKICAgICAgICBlbSwgZjEgPSBleGFjdF9tYXRjaChsYWJlbHM9bGFiZWxzLCBwcmVkcz1wcmVkcykKICAgICAgICByZXR1cm4geyJlbSI6IGVtLCAiZjEiOiBmMX0KICAgIGVsaWYgbWV0cmljID09ICJibGV1IjoKICAgICAgICBibGV1X3Njb3JlID0gYmxldShwcmVkcz1wcmVkcywgbGFiZWxzPWxhYmVscykKICAgICAgICByZXR1cm4geyJibGV1X3Njb3JlIjogYmxldV9zY29yZSAqIDEwMH0KICAgIGVsaWYgbWV0cmljID09ICJwdWJtZWRfcWFfYWNjIjoKICAgICAgICBhY2MgPSBwdWJtZWRfcWFfYWNjKHByZWRzPXByZWRzLCBsYWJlbHM9bGFiZWxzKQogICAgICAgIHJldHVybiB7InB1Ym1lZF9xYV9hY2MiOiBhY2MgKiAxMDB9CiAgICBlbGlmIG1ldHJpYyA9PSAiZW1fbXRvcCI6CiAgICAgICAgZW0gPSBlbV9tdG9wKHByZWRzPXByZWRzLCBsYWJlbHM9bGFiZWxzKQogICAgICAgIHJldHVybiB7ImVtIjogZW0gKiAxMDB9CgoKZGVmIGNvbXB1dGVfc2NvcmVzKG1ldHJpYywgZGF0YSk6CiAgICBwcmVkcyA9IFtlbnRyeVsicHJlZCJdIGZvciBlbnRyeSBpbiBkYXRhXQogICAgbGFiZWxzID0gW2VudHJ5WyJsYWJlbCJdIGZvciBlbnRyeSBpbiBkYXRhXQogICAgaWYgbm90IGlzaW5zdGFuY2UocHJlZHNbMF0sIHN0cik6CiAgICAgICAgcHJlZHMgPSBucC5hcnJheShwcmVkcykKICAgICAgICBsYWJlbHMgPSBucC5hcnJheShsYWJlbHMpCiAgICBzY29yZXMgPSBjb21wdXRlX21ldHJpY3MobWV0cmljLCBsYWJlbHM9bGFiZWxzLCBwcmVkcz1wcmVkcykKICAgIHJldHVybiBzY29yZXM=
+from sklearn.metrics import f1_score, matthews_corrcoef
+import numpy as np
+from src.utils import qa_utils
+import re
+
+
+from src.utils.eval_many import eval_many_mtop
+
+class App:
+    def __init__(self):
+        self.functions = {}
+
+    def add(self, key):
+        def adder(func):
+            self.functions[key] = func
+            return func
+
+        return adder
+
+    def __getitem__(self, __name: str):
+        return self.functions[__name]
+
+
+metric_dict = App()
+
+@metric_dict.add("em_mtop")
+def em_mtop(preds, labels, return_list=False):
+    # print(preds)
+    res_list = eval_many_mtop(preds, labels)
+    if return_list:
+        return res_list
+    # print(res_list)
+    return sum(res_list) / len(res_list)
+
+@metric_dict.add("exact_match")
+def exact_match(preds, labels, return_list=False):
+    labels = [[qa_utils.normalize_em(u)] for u in labels]
+    preds = [qa_utils.normalize_em(p) for p in preds]
+    # print(preds)
+    if return_list:  # used for scoring data
+        em, f1 = qa_utils.qa_metrics(labels, preds, return_list=True)
+        return em
+    em, f1 = qa_utils.qa_metrics(labels, preds)  # em, f1
+    return em, f1
+
+
+@metric_dict.add("rouge")
+def rouge(preds, labels, return_list=False):
+    # https://github.com/pltrdy/rouge
+    from rouge import Rouge
+    r1s, r2s, rls = [], [], []
+    r = Rouge()
+    for i in range(len(labels)):
+        if "\n" not in preds[i]:
+            preds[i] += "\n"  # to ensure rouge metrics
+        if "\n" not in labels[i]:
+            labels[i] += "\n"
+        scores = r.get_scores(preds[i], labels[i])[0]
+        r1s.append(scores["rouge-1"]["f"])
+        r2s.append(scores["rouge-2"]["f"])
+        rls.append(scores["rouge-l"]["f"])
+    if return_list:  # used for scoring data
+        return r1s
+    r1 = sum(r1s) / len(r1s)
+    r2 = sum(r2s) / len(r2s)
+    rl = sum(rls) / len(rls)
+    return r1, r2, rl
+
+
+@metric_dict.add("squad")
+def squad(labels, preds, return_list=False):
+    """Computes SQuAD metrics, maximizing over answers per question.
+    Args:
+    labels: list of lists of strings
+    preds: list of strings
+    Returns:
+    dict with score_key: squad score across all labels and predictions
+    """
+    labels = [[qa_utils.normalize_squad(t) for t in u] for u in labels]
+    preds = [qa_utils.normalize_squad(p) for p in preds]
+    if return_list:  # used for scoring data
+        em, f1 = qa_utils.qa_metrics(labels, preds, return_list=True)
+        return f1
+    em, f1 = qa_utils.qa_metrics(labels, preds)  # em,f1
+    return em, f1
+
+
+@metric_dict.add("trivia_qa")
+def trivia_qa(labels, preds, return_list=False):
+    """Computes TriviaQA metrics, maximizing over answers per question.
+    Args:
+    labels: list of lists of strings
+    preds: list of strings
+    Returns:
+    dict with score_key: squad score across all labels and preds
+    """
+    labels = [[qa_utils.normalize_trivia_qa(t) for t in u] for u in labels]
+    preds = [qa_utils.normalize_trivia_qa(p) for p in preds]
+    if return_list:  # used for scoring data
+        em, f1 = qa_utils.qa_metrics(labels, preds, return_list=True)
+        return f1
+    em, f1 = qa_utils.qa_metrics(labels, preds)  # em,f1
+    return em, f1
+
+
+@metric_dict.add("simple_accuracy")
+def simple_accuracy(preds, labels, return_list=False):
+    if isinstance(preds[0], str):
+        labels = [label.strip() for label in labels]
+        preds = [pred.strip() for pred in preds]
+    res = [int(preds[i] == labels[i]) for i in range(len(preds))]
+    if return_list:
+        return res
+    acc = sum(res) / len(res)
+    return acc
+
+@metric_dict.add("pubmed_qa_acc")
+def pubmed_qa_acc(preds, labels, return_list=False):
+    pattern=r'([.\s]*)(the answer is)(.*)' 
+    regex=re.compile(pattern,re.IGNORECASE)
+
+    res_list = []
+    for i, pred in enumerate(preds):
+        label = labels[i]
+        if len(regex.findall(pred))>0:
+            answer = regex.findall(pred)[-1][-1].lower()
+            if "yes" in answer:
+                acc = 1 if label=='yes' else 0
+            elif "no" in answer:
+                acc = 1 if label=='no' else 0
+            elif "maybe" in answer:
+                acc = 1 if label=='maybe' else 0
+            else:
+                acc = 0
+        else:
+            answer = None
+            acc = 0
+        res_list.append(acc)
+    if return_list:
+        return res_list
+    return sum(res_list)/len(res_list)
+
+def acc_and_f1(preds, labels):
+    acc = simple_accuracy(preds, labels)
+    f1 = f1_score(y_true=labels, y_pred=preds)
+    return acc, f1, (acc + f1) / 2
+
+
+def acc_and_matthews_corrcoef(preds, labels):
+    acc = simple_accuracy(preds, labels)
+    mcc = matthews_corrcoef(y_true=labels, y_pred=preds)
+    return acc, mcc
+
+@metric_dict.add("bleu")
+def bleu(preds, labels, return_list=False):
+    from datasets import load_metric
+    BLEU = load_metric("bleu")
+    bleu_score = []
+    for i in range(len(labels)):
+        if "\n" not in preds[i]:
+            preds[i] += "\n"
+        if "\n" not in labels[i]:
+            labels[i] += "\n"
+
+        predictions = [[ch for ch in preds[i]]]
+        references = [[[ch for ch in labels[i]]]]
+        bleu_score.append(BLEU.compute(predictions=predictions, references=references)["bleu"])
+    if return_list: return bleu_score
+    # print("blue: ", bleu_score)
+    return sum(bleu_score)/len(bleu_score)
+
+def nltk_blue(preds, labels):
+    from nltk.translate.bleu_score import sentence_bleu, corpus_bleu
+    predictions = [[ch for ch in text] for text in preds]
+    references = [[[ch for ch in label]] for label in labels]
+    score = corpus_bleu(hypotheses=predictions, list_of_references=references)
+    print("nltk_blue: ", score)
+    return score
+
+def compute_metrics(metric, labels, preds):
+    assert len(preds) == len(labels)
+    if metric == "simple_accuracy":
+        return {"acc": simple_accuracy(preds, labels) * 100}
+    elif metric == "rouge":
+        r1, r2, rl = rouge(preds, labels)
+        return {"r1": r1 * 100, "r2": r2 * 100, "rl": rl * 100}
+    elif metric == "acc_and_f1":
+        acc, f1, acc_f1 = acc_and_f1(preds, labels)
+        return {"acc": acc * 100, "f1": f1 * 100, "acc_and_f1": acc_f1 * 100}
+    elif metric == "acc_and_matthews_corrcoef":
+        acc, mcc = acc_and_matthews_corrcoef(preds, labels)
+        return {"acc": acc * 100, "mcc": mcc * 100}
+    elif metric == "f1":
+        f1 = f1_score(y_true=labels, y_pred=preds)
+        return {"f1": f1 * 100}
+    elif metric == "squad":
+        em, f1 = squad(labels=labels, preds=preds)
+        return {"em": em, "f1": f1}
+    elif metric == "trivia_qa":
+        em, f1 = trivia_qa(labels=labels, preds=preds)
+        return {"em": em, "f1": f1}
+    elif metric == "exact_match":
+        em, f1 = exact_match(labels=labels, preds=preds)
+        return {"em": em, "f1": f1}
+    elif metric == "bleu":
+        bleu_score = bleu(preds=preds, labels=labels)
+        return {"bleu_score": bleu_score * 100}
+    elif metric == "pubmed_qa_acc":
+        acc = pubmed_qa_acc(preds=preds, labels=labels)
+        return {"pubmed_qa_acc": acc * 100}
+    elif metric == "em_mtop":
+        em = em_mtop(preds=preds, labels=labels)
+        return {"em": em * 100}
+
+
+def compute_scores(metric, data):
+    preds = [entry["pred"] for entry in data]
+    labels = [entry["label"] for entry in data]
+    if not isinstance(preds[0], str):
+        preds = np.array(preds)
+        labels = np.array(labels)
+    scores = compute_metrics(metric, labels=labels, preds=preds)
+    return scores

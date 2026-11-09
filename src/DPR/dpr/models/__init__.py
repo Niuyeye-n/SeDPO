@@ -1,1 +1,91 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwojIENvcHlyaWdodCAoYykgRmFjZWJvb2ssIEluYy4gYW5kIGl0cyBhZmZpbGlhdGVzLgojIEFsbCByaWdodHMgcmVzZXJ2ZWQuCiMKIyBUaGlzIHNvdXJjZSBjb2RlIGlzIGxpY2Vuc2VkIHVuZGVyIHRoZSBsaWNlbnNlIGZvdW5kIGluIHRoZQojIExJQ0VOU0UgZmlsZSBpbiB0aGUgcm9vdCBkaXJlY3Rvcnkgb2YgdGhpcyBzb3VyY2UgdHJlZS4KCmltcG9ydCBpbXBvcnRsaWIKCiIiIgogJ1JvdXRlcictbGlrZSBzZXQgb2YgbWV0aG9kcyBmb3IgY29tcG9uZW50IGluaXRpYWxpemF0aW9uIHdpdGggbGF6eSBpbXBvcnRzIAoiIiIKCgpkZWYgaW5pdF9oZl9iZXJ0X2JpZW5jb2RlcihhcmdzLCAqKmt3YXJncyk6CiAgICBpZiBpbXBvcnRsaWIudXRpbC5maW5kX3NwZWMoInRyYW5zZm9ybWVycyIpIGlzIE5vbmU6CiAgICAgICAgcmFpc2UgUnVudGltZUVycm9yKCdQbGVhc2UgaW5zdGFsbCB0cmFuc2Zvcm1lcnMgbGliJykKICAgIGZyb20gLmhmX21vZGVscyBpbXBvcnQgZ2V0X2JlcnRfYmllbmNvZGVyX2NvbXBvbmVudHMKICAgIHJldHVybiBnZXRfYmVydF9iaWVuY29kZXJfY29tcG9uZW50cyhhcmdzLCAqKmt3YXJncykKCgpkZWYgaW5pdF9oZl9iZXJ0X3JlYWRlcihhcmdzLCAqKmt3YXJncyk6CiAgICBpZiBpbXBvcnRsaWIudXRpbC5maW5kX3NwZWMoInRyYW5zZm9ybWVycyIpIGlzIE5vbmU6CiAgICAgICAgcmFpc2UgUnVudGltZUVycm9yKCdQbGVhc2UgaW5zdGFsbCB0cmFuc2Zvcm1lcnMgbGliJykKICAgIGZyb20gLmhmX21vZGVscyBpbXBvcnQgZ2V0X2JlcnRfcmVhZGVyX2NvbXBvbmVudHMKICAgIHJldHVybiBnZXRfYmVydF9yZWFkZXJfY29tcG9uZW50cyhhcmdzLCAqKmt3YXJncykKCgpkZWYgaW5pdF9weXRleHRfYmVydF9iaWVuY29kZXIoYXJncywgKiprd2FyZ3MpOgogICAgaWYgaW1wb3J0bGliLnV0aWwuZmluZF9zcGVjKCJweXRleHQiKSBpcyBOb25lOgogICAgICAgIHJhaXNlIFJ1bnRpbWVFcnJvcignUGxlYXNlIGluc3RhbGwgcHl0ZXh0IGxpYicpCiAgICBmcm9tIC5weXRleHRfbW9kZWxzIGltcG9ydCBnZXRfYmVydF9iaWVuY29kZXJfY29tcG9uZW50cwogICAgcmV0dXJuIGdldF9iZXJ0X2JpZW5jb2Rlcl9jb21wb25lbnRzKGFyZ3MsICoqa3dhcmdzKQoKCmRlZiBpbml0X2ZhaXJzZXFfcm9iZXJ0YV9iaWVuY29kZXIoYXJncywgKiprd2FyZ3MpOgogICAgaWYgaW1wb3J0bGliLnV0aWwuZmluZF9zcGVjKCJmYWlyc2VxIikgaXMgTm9uZToKICAgICAgICByYWlzZSBSdW50aW1lRXJyb3IoJ1BsZWFzZSBpbnN0YWxsIGZhaXJzZXEgbGliJykKICAgIGZyb20gLmZhaXJzZXFfbW9kZWxzIGltcG9ydCBnZXRfcm9iZXJ0YV9iaWVuY29kZXJfY29tcG9uZW50cwogICAgcmV0dXJuIGdldF9yb2JlcnRhX2JpZW5jb2Rlcl9jb21wb25lbnRzKGFyZ3MsICoqa3dhcmdzKQoKCmRlZiBpbml0X2hmX2JlcnRfdGVuem9yaXplcihhcmdzLCAqKmt3YXJncyk6CiAgICBpZiBpbXBvcnRsaWIudXRpbC5maW5kX3NwZWMoInRyYW5zZm9ybWVycyIpIGlzIE5vbmU6CiAgICAgICAgcmFpc2UgUnVudGltZUVycm9yKCdQbGVhc2UgaW5zdGFsbCB0cmFuc2Zvcm1lcnMgbGliJykKICAgIGZyb20gLmhmX21vZGVscyBpbXBvcnQgZ2V0X2JlcnRfdGVuc29yaXplcgogICAgcmV0dXJuIGdldF9iZXJ0X3RlbnNvcml6ZXIoYXJncykKCgpkZWYgaW5pdF9oZl9yb2JlcnRhX3Rlbnpvcml6ZXIoYXJncywgKiprd2FyZ3MpOgogICAgaWYgaW1wb3J0bGliLnV0aWwuZmluZF9zcGVjKCJ0cmFuc2Zvcm1lcnMiKSBpcyBOb25lOgogICAgICAgIHJhaXNlIFJ1bnRpbWVFcnJvcignUGxlYXNlIGluc3RhbGwgdHJhbnNmb3JtZXJzIGxpYicpCiAgICBmcm9tIC5oZl9tb2RlbHMgaW1wb3J0IGdldF9yb2JlcnRhX3RlbnNvcml6ZXIKICAgIHJldHVybiBnZXRfcm9iZXJ0YV90ZW5zb3JpemVyKGFyZ3MpCgoKQklFTkNPREVSX0lOSVRJQUxJWkVSUyA9IHsKICAgICdoZl9iZXJ0JzogaW5pdF9oZl9iZXJ0X2JpZW5jb2RlciwKICAgICdweXRleHRfYmVydCc6IGluaXRfcHl0ZXh0X2JlcnRfYmllbmNvZGVyLAogICAgJ2ZhaXJzZXFfcm9iZXJ0YSc6IGluaXRfZmFpcnNlcV9yb2JlcnRhX2JpZW5jb2RlciwKfQoKUkVBREVSX0lOSVRJQUxJWkVSUyA9IHsKICAgICdoZl9iZXJ0JzogaW5pdF9oZl9iZXJ0X3JlYWRlciwKfQoKVEVOU09SSVpFUl9JTklUSUFMSVpFUlMgPSB7CiAgICAnaGZfYmVydCc6IGluaXRfaGZfYmVydF90ZW56b3JpemVyLAogICAgJ2hmX3JvYmVydGEnOiBpbml0X2hmX3JvYmVydGFfdGVuem9yaXplciwKICAgICdweXRleHRfYmVydCc6IGluaXRfaGZfYmVydF90ZW56b3JpemVyLCAgIyB1c2luZyBIRidzIGNvZGUgYXMgb2Ygbm93CiAgICAnZmFpcnNlcV9yb2JlcnRhJzogaW5pdF9oZl9yb2JlcnRhX3Rlbnpvcml6ZXIsICAjIHVzaW5nIEhGJ3MgY29kZSBhcyBvZiBub3cKfQoKCmRlZiBpbml0X2NvbXAoaW5pdGlhbGl6ZXJzX2RpY3QsIHR5cGUsIGFyZ3MsICoqa3dhcmdzKToKICAgIGlmIHR5cGUgaW4gaW5pdGlhbGl6ZXJzX2RpY3Q6CiAgICAgICAgcmV0dXJuIGluaXRpYWxpemVyc19kaWN0W3R5cGVdKGFyZ3MsICoqa3dhcmdzKQogICAgZWxzZToKICAgICAgICByYWlzZSBSdW50aW1lRXJyb3IoJ3Vuc3VwcG9ydGVkIG1vZGVsIHR5cGU6IHt9Jy5mb3JtYXQodHlwZSkpCgoKZGVmIGluaXRfYmllbmNvZGVyX2NvbXBvbmVudHMoZW5jb2Rlcl90eXBlOiBzdHIsIGFyZ3MsICoqa3dhcmdzKToKICAgIHJldHVybiBpbml0X2NvbXAoQklFTkNPREVSX0lOSVRJQUxJWkVSUywgZW5jb2Rlcl90eXBlLCBhcmdzLCAqKmt3YXJncykKCgpkZWYgaW5pdF9yZWFkZXJfY29tcG9uZW50cyhlbmNvZGVyX3R5cGU6IHN0ciwgYXJncywgKiprd2FyZ3MpOgogICAgcmV0dXJuIGluaXRfY29tcChSRUFERVJfSU5JVElBTElaRVJTLCBlbmNvZGVyX3R5cGUsIGFyZ3MsICoqa3dhcmdzKQoKCmRlZiBpbml0X3Rlbnpvcml6ZXIoZW5jb2Rlcl90eXBlOiBzdHIsIGFyZ3MsICoqa3dhcmdzKToKICAgIHJldHVybiBpbml0X2NvbXAoVEVOU09SSVpFUl9JTklUSUFMSVpFUlMsIGVuY29kZXJfdHlwZSwgYXJncywgKiprd2FyZ3MpCg==
+#!/usr/bin/env python3
+# Copyright (c) Facebook, Inc. and its affiliates.
+# All rights reserved.
+#
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+
+import importlib
+
+"""
+ 'Router'-like set of methods for component initialization with lazy imports 
+"""
+
+
+def init_hf_bert_biencoder(args, **kwargs):
+    if importlib.util.find_spec("transformers") is None:
+        raise RuntimeError('Please install transformers lib')
+    from .hf_models import get_bert_biencoder_components
+    return get_bert_biencoder_components(args, **kwargs)
+
+
+def init_hf_bert_reader(args, **kwargs):
+    if importlib.util.find_spec("transformers") is None:
+        raise RuntimeError('Please install transformers lib')
+    from .hf_models import get_bert_reader_components
+    return get_bert_reader_components(args, **kwargs)
+
+
+def init_pytext_bert_biencoder(args, **kwargs):
+    if importlib.util.find_spec("pytext") is None:
+        raise RuntimeError('Please install pytext lib')
+    from .pytext_models import get_bert_biencoder_components
+    return get_bert_biencoder_components(args, **kwargs)
+
+
+def init_fairseq_roberta_biencoder(args, **kwargs):
+    if importlib.util.find_spec("fairseq") is None:
+        raise RuntimeError('Please install fairseq lib')
+    from .fairseq_models import get_roberta_biencoder_components
+    return get_roberta_biencoder_components(args, **kwargs)
+
+
+def init_hf_bert_tenzorizer(args, **kwargs):
+    if importlib.util.find_spec("transformers") is None:
+        raise RuntimeError('Please install transformers lib')
+    from .hf_models import get_bert_tensorizer
+    return get_bert_tensorizer(args)
+
+
+def init_hf_roberta_tenzorizer(args, **kwargs):
+    if importlib.util.find_spec("transformers") is None:
+        raise RuntimeError('Please install transformers lib')
+    from .hf_models import get_roberta_tensorizer
+    return get_roberta_tensorizer(args)
+
+
+BIENCODER_INITIALIZERS = {
+    'hf_bert': init_hf_bert_biencoder,
+    'pytext_bert': init_pytext_bert_biencoder,
+    'fairseq_roberta': init_fairseq_roberta_biencoder,
+}
+
+READER_INITIALIZERS = {
+    'hf_bert': init_hf_bert_reader,
+}
+
+TENSORIZER_INITIALIZERS = {
+    'hf_bert': init_hf_bert_tenzorizer,
+    'hf_roberta': init_hf_roberta_tenzorizer,
+    'pytext_bert': init_hf_bert_tenzorizer,  # using HF's code as of now
+    'fairseq_roberta': init_hf_roberta_tenzorizer,  # using HF's code as of now
+}
+
+
+def init_comp(initializers_dict, type, args, **kwargs):
+    if type in initializers_dict:
+        return initializers_dict[type](args, **kwargs)
+    else:
+        raise RuntimeError('unsupported model type: {}'.format(type))
+
+
+def init_biencoder_components(encoder_type: str, args, **kwargs):
+    return init_comp(BIENCODER_INITIALIZERS, encoder_type, args, **kwargs)
+
+
+def init_reader_components(encoder_type: str, args, **kwargs):
+    return init_comp(READER_INITIALIZERS, encoder_type, args, **kwargs)
+
+
+def init_tenzorizer(encoder_type: str, args, **kwargs):
+    return init_comp(TENSORIZER_INITIALIZERS, encoder_type, args, **kwargs)

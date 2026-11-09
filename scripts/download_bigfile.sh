@@ -1,1 +1,59 @@
-IyEvYmluL2Jhc2gKIyDlpKfmlofku7bliIblnZflubbooYzkuIvovb3vvIhoZi1taXJyb3IgQ0ROIOaUr+aMgSBSYW5nZe+8jOWIhuWdl+WQjuavj+Wdl+eLrOeri+mHjeivle+8jOS4jeaAleaWree6v+S4oui/m+W6pu+8iQojIOeUqOazlTogZG93bmxvYWRfYmlnZmlsZS5zaCA8cmVwb19pZD4gPOebuOWvuei3r+W+hD4gPOi+k+WHuuebruW9lT4gW+avj+aWh+S7tuWdl+aVsF0gW+WFqOWxgOW5tuWPkeaWh+S7tuaVsF0Kc2V0IC11ClJFUE89IiQxIgpSRUw9IiQyIgpERVNUPSIkMyIKUEFSVFM9IiR7NDotNH0iCk1BWEZJTEVTPSIkezU6LTR9IgpCQVNFPSIke0hGX0JBU0U6LWh0dHBzOi8vaGYtbWlycm9yLmNvbS8ke1JFUE99L3Jlc29sdmUvbWFpbn0iClVSTD0iJHtIRl9CQVNFOi0ke0JBU0V9fS8ke1JFTH0iCk9VVD0iJHtERVNUfS8kKGJhc2VuYW1lICIkUkVMIikiCgpta2RpciAtcCAiJERFU1QiCmlmIFsgLWYgIiR7T1VUfS5kb25lIiBdOyB0aGVuIGVjaG8gIltTS0lQXSAkUkVMIjsgZXhpdCAwOyBmaQoKU0laRT0kKGN1cmwgLXNJTCAiJFVSTCIgfCBncmVwIC1pICJeY29udGVudC1sZW5ndGgiIHwgdGFpbCAtMSB8IHRyIC1kICdccicgfCBhd2sgJ3twcmludCAkMn0nKQppZiBbIC16ICIkU0laRSIgXSB8fCBbICIkU0laRSIgLWx0IDEwMDAgXTsgdGhlbgogIGVjaG8gIltGQUlMLVNJWkVdICRSRUwg5peg5rOV6I635Y+W5aSn5bCP77yM5pS55Li65pW05paH5Lu25LiL6L29IgogIGN1cmwgLXNTTCAtLXJldHJ5IDIwIC0tcmV0cnktZGVsYXkgNSAtLXJldHJ5LWFsbC1lcnJvcnMgLW8gIiRPVVQiICIkVVJMIiAmJiB0b3VjaCAiJHtPVVR9LmRvbmUiICYmIGV4aXQgMApmaQplY2hvICJbSU5GT10gJFJFTCDlpKflsI8gJCgoU0laRSAvIDEwMjQgLyAxMDI0KSkgTULvvIzliIYgJFBBUlRTIOWdl++8jOa6kCAkKGVjaG8gIiRVUkwiIHwgY3V0IC1kLyAtZjMpIgoKQ0hVTks9JCgoIChTSVpFICsgUEFSVFMgLSAxKSAvIFBBUlRTICkpCmZvciBpIGluICQoc2VxIDAgJCgoUEFSVFMgLSAxKSkpOyBkbwogIFNUQVJUPSQoKGkgKiBDSFVOSykpCiAgRU5EPSQoKFNUQVJUICsgQ0hVTksgLSAxKSkKICBbICIkRU5EIiAtZ2UgIiRTSVpFIiBdICYmIEVORD0kKChTSVpFIC0gMSkpCiAgKAogICAgZm9yIGEgaW4gJChzZXEgMSAzMCk7IGRvCiAgICAgIEhBVkU9MAogICAgICBbIC1mICIke09VVH0ucGFydCR7aX0iIF0gJiYgSEFWRT0kKHN0YXQgLWMlcyAiJHtPVVR9LnBhcnQke2l9IikKICAgICAgV0FOVD0kKChFTkQgLSBTVEFSVCArIDEpKQogICAgICBpZiBbICIkSEFWRSIgLWdlICIkV0FOVCIgXTsgdGhlbiBicmVhazsgZmkKICAgICAgY3VybCAtc1NMIC0tcmV0cnkgNSAtLXJldHJ5LWRlbGF5IDUgLS1yZXRyeS1hbGwtZXJyb3JzIFwKICAgICAgICAgICAtciAkKChTVEFSVCArIEhBVkUpKS0ke0VORH0gIiRVUkwiID4+ICIke09VVH0ucGFydCR7aX0iCiAgICAgIHNsZWVwIDMKICAgIGRvbmUKICAgIGVjaG8gIltQQVJULURPTkVdICRSRUwgcGFydCRpICgkKHN0YXQgLWMlcyAiJHtPVVR9LnBhcnQke2l9IiAyPi9kZXYvbnVsbCkgYnl0ZXMpIgogICkgJgogICMg5o6n5Yi25YWo5bGA5bm25Y+RCiAgd2hpbGUgWyAiJChqb2JzIC1yIHwgd2MgLWwpIiAtZ2UgIiRNQVhGSUxFUyIgXTsgZG8gc2xlZXAgMjsgZG9uZQpkb25lCndhaXQKCiMg5qCh6aqM5bm25ZCI5bm2ClRPVEFMPTAKZm9yIGkgaW4gJChzZXEgMCAkKChQQVJUUyAtIDEpKSk7IGRvCiAgUD0iJHtPVVR9LnBhcnQke2l9IgogIFsgLWYgIiRQIiBdICYmIFRPVEFMPSQoKFRPVEFMICsgJChzdGF0IC1jJXMgIiRQIikpKQpkb25lCmlmIFsgIiRUT1RBTCIgLW5lICIkU0laRSIgXTsgdGhlbgogIGVjaG8gIltGQUlMLVNJWkUtTUlTTUFUQ0hdICRSRUwg5ZCI5bm25YmNICRUT1RBTCAhPSAkU0laRSIKICBleGl0IDEKZmkKY2F0ICIke09VVH0iLnBhcnQqID4gIiRPVVQiCnJtIC1mICIke09VVH0iLnBhcnQqCnRvdWNoICIke09VVH0uZG9uZSIKZWNobyAiW09LXSAkUkVMICQoZHUgLWggIiRPVVQiIHwgY3V0IC1mMSkiCg==
+#!/bin/bash
+# 大文件分块并行下载（hf-mirror CDN 支持 Range，分块后每块独立重试，不怕断线丢进度）
+# 用法: download_bigfile.sh <repo_id> <相对路径> <输出目录> [每文件块数] [全局并发文件数]
+set -u
+REPO="$1"
+REL="$2"
+DEST="$3"
+PARTS="${4:-4}"
+MAXFILES="${5:-4}"
+BASE="${HF_BASE:-https://hf-mirror.com/${REPO}/resolve/main}"
+URL="${HF_BASE:-${BASE}}/${REL}"
+OUT="${DEST}/$(basename "$REL")"
+
+mkdir -p "$DEST"
+if [ -f "${OUT}.done" ]; then echo "[SKIP] $REL"; exit 0; fi
+
+SIZE=$(curl -sIL "$URL" | grep -i "^content-length" | tail -1 | tr -d '\r' | awk '{print $2}')
+if [ -z "$SIZE" ] || [ "$SIZE" -lt 1000 ]; then
+  echo "[FAIL-SIZE] $REL 无法获取大小，改为整文件下载"
+  curl -sSL --retry 20 --retry-delay 5 --retry-all-errors -o "$OUT" "$URL" && touch "${OUT}.done" && exit 0
+fi
+echo "[INFO] $REL 大小 $((SIZE / 1024 / 1024)) MB，分 $PARTS 块，源 $(echo "$URL" | cut -d/ -f3)"
+
+CHUNK=$(( (SIZE + PARTS - 1) / PARTS ))
+for i in $(seq 0 $((PARTS - 1))); do
+  START=$((i * CHUNK))
+  END=$((START + CHUNK - 1))
+  [ "$END" -ge "$SIZE" ] && END=$((SIZE - 1))
+  (
+    for a in $(seq 1 30); do
+      HAVE=0
+      [ -f "${OUT}.part${i}" ] && HAVE=$(stat -c%s "${OUT}.part${i}")
+      WANT=$((END - START + 1))
+      if [ "$HAVE" -ge "$WANT" ]; then break; fi
+      curl -sSL --retry 5 --retry-delay 5 --retry-all-errors \
+           -r $((START + HAVE))-${END} "$URL" >> "${OUT}.part${i}"
+      sleep 3
+    done
+    echo "[PART-DONE] $REL part$i ($(stat -c%s "${OUT}.part${i}" 2>/dev/null) bytes)"
+  ) &
+  # 控制全局并发
+  while [ "$(jobs -r | wc -l)" -ge "$MAXFILES" ]; do sleep 2; done
+done
+wait
+
+# 校验并合并
+TOTAL=0
+for i in $(seq 0 $((PARTS - 1))); do
+  P="${OUT}.part${i}"
+  [ -f "$P" ] && TOTAL=$((TOTAL + $(stat -c%s "$P")))
+done
+if [ "$TOTAL" -ne "$SIZE" ]; then
+  echo "[FAIL-SIZE-MISMATCH] $REL 合并前 $TOTAL != $SIZE"
+  exit 1
+fi
+cat "${OUT}".part* > "$OUT"
+rm -f "${OUT}".part*
+touch "${OUT}.done"
+echo "[OK] $REL $(du -h "$OUT" | cut -f1)"

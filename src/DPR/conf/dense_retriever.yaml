@@ -1,1 +1,72 @@
-ZGVmYXVsdHM6CiAgLSBlbmNvZGVyOiBoZl9iZXJ0ICMgZGVmaW5lcyBlbmNvZGVyIGluaXRpYWxpemF0aW9uIHBhcmFtZXRlcnMKICAtIGRhdGFzZXRzOiByZXRyaWV2ZXJfZGVmYXVsdCAjIGNvbnRhaW5zIGEgbGlzdCBvZiBhbGwgcG9zc2libGUgc291cmNlcyBvZiBxdWVyaWVzIGZvciBldmFsdWF0aW9uLiBTcGVjaWZpYyBzZXQgaXMgc2VsZWN0ZWQgYnkgcWFfZGF0YXNldCBwYXJhbWV0ZXIKICAtIGN0eF9zb3VyY2VzOiBkZWZhdWx0X3NvdXJjZXMgIyBjb250YWlucyBhIGxpc3Qgb2YgYWxsIHBvc3NpYmxlIHBhc3NhZ2Ugc291cmNlcy4gU3BlY2lmaWMgcGFzc2FnZXMgc291cmNlcyBzZWxlY3RlZCBieSBjdHhfZGF0YXRzZXRzIHBhcmFtZXRlcgoKaW5kZXhlcnM6CiAgZmxhdDoKICAgIF90YXJnZXRfOiBkcHIuaW5kZXhlci5mYWlzc19pbmRleGVycy5EZW5zZUZsYXRJbmRleGVyCgogIGhuc3c6CiAgICBfdGFyZ2V0XzogZHByLmluZGV4ZXIuZmFpc3NfaW5kZXhlcnMuRGVuc2VITlNXRmxhdEluZGV4ZXIKCiAgaG5zd19zcToKICAgIF90YXJnZXRfOiBkcHIuaW5kZXhlci5mYWlzc19pbmRleGVycy5EZW5zZUhOU1dTUUluZGV4ZXIKCiMgdGhlIG5hbWUgb2YgdGhlIHF1ZXJpZXMgZGF0YXNldCBmcm9tIHRoZSAnZGF0YXNldHMnIGNvbmZpZyBncm91cApxYV9kYXRhc2V0OgoKIyBhIGxpc3Qgb2YgbmFtZXMgb2YgdGhlIHBhc3NhZ2VzIGRhdGFzZXRzIGZyb20gdGhlICdjdHhfc291cmNlcycgY29uZmlnIGdyb3VwCmN0eF9kYXRhdHNldHM6CgojR2xvYiBwYXRocyB0byBlbmNvZGVkIHBhc3NhZ2VzIChmcm9tIGdlbmVyYXRlX2RlbnNlX2VtYmVkZGluZ3MgdG9vbCkKZW5jb2RlZF9jdHhfZmlsZXM6IFtdCgpvdXRfZmlsZToKIyAicmVnZXgiIG9yICJzdHJpbmciCm1hdGNoOiBzdHJpbmcKc2hvdF9udW06IDMKdmFsaWRhdGlvbl93b3JrZXJzOiAxNgpiZWFtX3NpemU6IDMKIyBCYXRjaCBzaXplIHRvIGdlbmVyYXRlIHF1ZXJ5IGVtYmVkZGluZ3MKYmF0Y2hfc2l6ZTogNTEyCgojIFdoZXRoZXIgdG8gbG93ZXIgY2FzZSB0aGUgaW5wdXQgdGV4dC4gU2V0IFRydWUgZm9yIHVuY2FzZWQgbW9kZWxzLCBGYWxzZSBmb3IgdGhlIGNhc2VkIG9uZXMuCmRvX2xvd2VyX2Nhc2U6IFRydWUKCiMgVGhlIGF0dHJpYnV0ZSBuYW1lIG9mIGVuY29kZXIgdG8gdXNlIGZvciBxdWVyaWVzLiBPcHRpb25zIGZvciB0aGUgQmlFbmNvZGVyIG1vZGVsOiBxdWVzdGlvbl9tb2RlbCwgY3R4X21vZGVsCiMgcXVlc3Rpb25fbW9kZWwgaXMgdXNlZCBpZiB0aGlzIHBhcmFtIGlzIGVtcHR5CmVuY29kZXJfcGF0aDoKCiMgcGF0aCB0byB0aGUgRkFJU1MgaW5kZXggbG9jYXRpb24gLSBpdCBpcyBvbmx5IG5lZWRlZCBpZiB5b3Ugd2FudCB0byBzZXJpYWxpemUgZmFpc3MgaW5kZXggdG8gZmlsZXMgb3IgcmVhZCBmcm9tIHRoZW0KIyAoaW5zdGVhZCBvZiB1c2luZyBlbmNvZGVkX2N0eF9maWxlcykKIyBpdCBzaG91bGQgcG9pbnQgdG8gZWl0aGVyIGRpcmVjdG9yeSBvciBhIGNvbW1vbiBpbmRleCBmaWxlcyBwcmVmaXggbmFtZQojIGlmIHRoZXJlIGlzIG5vIGluZGV4IGF0IHRoZSBzcGVjaWZpYyBsb2NhdGlvbiwgdGhlIGluZGV4IHdpbGwgYmUgY3JlYXRlZCBmcm9tIGVuY29kZWRfY3R4X2ZpbGVzCmluZGV4X3BhdGg6CgpraWx0X291dF9maWxlOgoKIyBBIHRyYWluZWQgYmktZW5jb2RlciBjaGVja3BvaW50IGZpbGUgdG8gaW5pdGlhbGl6ZSB0aGUgbW9kZWwKbW9kZWxfZmlsZToKCnZhbGlkYXRlX2FzX3RhYmxlczogRmFsc2UKcnBjX3JldHJpZXZlcl9jZmdfZmlsZToKaW5kZXhlcjogZmxhdAoKIyB0b2tlbnMgd2hpY2ggd29uJ3QgYmUgc3BsaXQgYnkgdG9rZW5pemVyCnNwZWNpYWxfdG9rZW5zOgoKIyBUT0RPOiBtb3ZlIHRvIGEgY29uZiBncm91cAojIGxvY2FsX3JhbmsgZm9yIGRpc3RyaWJ1dGVkIHRyYWluaW5nIG9uIGdwdXMKbG9jYWxfcmFuazogLTEKZ2xvYmFsX2xvc3NfYnVmX3N6OiAxNTAwMDAKZGV2aWNlOgpkaXN0cmlidXRlZF93b3JsZF9zaXplOgpub19jdWRhOiBGYWxzZQpuX2dwdToKZnAxNjogRmFsc2UKCiMgRm9yIGZwMTY6IEFwZXggQU1QIG9wdGltaXphdGlvbiBsZXZlbCBzZWxlY3RlZCBpbiBbJ08wJywgJ08xJywgJ08yJywgYW5kICdPMyddLiIKIyAgICAgICAgIlNlZSBkZXRhaWxzIGF0IGh0dHBzOi8vbnZpZGlhLmdpdGh1Yi5pby9hcGV4L2FtcC5odG1sCmZwMTZfb3B0X2xldmVsOiBPMQoK
+defaults:
+  - encoder: hf_bert # defines encoder initialization parameters
+  - datasets: retriever_default # contains a list of all possible sources of queries for evaluation. Specific set is selected by qa_dataset parameter
+  - ctx_sources: default_sources # contains a list of all possible passage sources. Specific passages sources selected by ctx_datatsets parameter
+
+indexers:
+  flat:
+    _target_: dpr.indexer.faiss_indexers.DenseFlatIndexer
+
+  hnsw:
+    _target_: dpr.indexer.faiss_indexers.DenseHNSWFlatIndexer
+
+  hnsw_sq:
+    _target_: dpr.indexer.faiss_indexers.DenseHNSWSQIndexer
+
+# the name of the queries dataset from the 'datasets' config group
+qa_dataset:
+
+# a list of names of the passages datasets from the 'ctx_sources' config group
+ctx_datatsets:
+
+#Glob paths to encoded passages (from generate_dense_embeddings tool)
+encoded_ctx_files: []
+
+out_file:
+# "regex" or "string"
+match: string
+shot_num: 3
+validation_workers: 16
+beam_size: 3
+# Batch size to generate query embeddings
+batch_size: 512
+
+# Whether to lower case the input text. Set True for uncased models, False for the cased ones.
+do_lower_case: True
+
+# The attribute name of encoder to use for queries. Options for the BiEncoder model: question_model, ctx_model
+# question_model is used if this param is empty
+encoder_path:
+
+# path to the FAISS index location - it is only needed if you want to serialize faiss index to files or read from them
+# (instead of using encoded_ctx_files)
+# it should point to either directory or a common index files prefix name
+# if there is no index at the specific location, the index will be created from encoded_ctx_files
+index_path:
+
+kilt_out_file:
+
+# A trained bi-encoder checkpoint file to initialize the model
+model_file:
+
+validate_as_tables: False
+rpc_retriever_cfg_file:
+indexer: flat
+
+# tokens which won't be split by tokenizer
+special_tokens:
+
+# TODO: move to a conf group
+# local_rank for distributed training on gpus
+local_rank: -1
+global_loss_buf_sz: 150000
+device:
+distributed_world_size:
+no_cuda: False
+n_gpu:
+fp16: False
+
+# For fp16: Apex AMP optimization level selected in ['O0', 'O1', 'O2', and 'O3']."
+#        "See details at https://nvidia.github.io/apex/amp.html
+fp16_opt_level: O1
+

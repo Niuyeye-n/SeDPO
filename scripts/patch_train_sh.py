@@ -1,1 +1,90 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uCiMgLSotIGNvZGluZzogdXRmLTggLSotCiIiIgrnu5nlt7LnlJ/miJDnmoQgdHJhaW4uc2gg5Yqg5Lik5Lu25LqL77yI5bmC562J77yJ77yaCiAgMSkgZXhwb3J0IEdSQURfQ0tQVD0xICAgICAgICDigJTigJQg5ZCv55So5qKv5bqm5qOA5p+l54K577yM6Kej5YazIDI0R0Ig5pi+5a2YIE9PTQogIDIpIHRyYWluLm51bV9zYXZlX2Vwb2Nocz0xMDAg4oCU4oCUIOWHj+WwkSBlcG9jaCBjaGVja3BvaW5077yM6YG/5YWN5pKR54iGIDkuN0dCIOejgeebmAoK5Li65LuA5LmI5pS55paH5Lu26ICM5LiN5piv5pS5546v5aKD5Y+Y6YeP77yaCiAgcnVuX3NlZHBvX3YzLnNoIOeahOe8luaOkui/m+eoi+W3sue7j+WQr+WKqO+8jOeOr+Wig+WPmOmHj+WcqOWQr+WKqOaXtuWwseWbuuWumuS6hu+8jAogIOaUueiEmuacrOS4jeS8muW9seWTjeato+WcqOi/kOihjOeahOi/m+eoi++8m+W3sueUn+aIkOeahCB0cmFpbi5zaCDkvJrlnKjorq3nu4PpmLbmrrXooqvnm7TmjqXmiafooYzjgIIKCueUqOazlToKICBweXRob24gcGF0Y2hfdHJhaW5fc2gucHkgPHRyYWluLnNoIOi3r+W+hD4gWy4uLl0KICBweXRob24gcGF0Y2hfdHJhaW5fc2gucHkgLS1nbG9iIC9yb290L2F1dG9kbC10bXAvU2VEUE9fTklQUzI1L215X2RhdGFfcXdlbgoiIiIKaW1wb3J0IGdsb2IKaW1wb3J0IGlvCmltcG9ydCBvcwppbXBvcnQgcmUKaW1wb3J0IHN5cwoKTUFSSyA9ICIjIFtQQVRDSC1UUkFJTi0yMDI2MTEwNl0g5qKv5bqm5qOA5p+l54K5ICsg6ZmQ5Yi2IGNoZWNrcG9pbnQg5pWw6YePIgpFWFBPUlRfTElORSA9ICJleHBvcnQgR1JBRF9DS1BUPSR7R1JBRF9DS1BUOi0xfSAgICIgKyBNQVJLCgoKZGVmIHBhdGNoX29uZShwYXRoKToKICAgIHdpdGggaW8ub3BlbihwYXRoLCAiciIsIGVuY29kaW5nPSJ1dGYtOCIpIGFzIGY6CiAgICAgICAgc3JjID0gZi5yZWFkKCkKCiAgICBvcmlnID0gc3JjCiAgICBjaGFuZ2VkID0gW10KCiAgICAjIDEpIOaPkuWFpSBleHBvcnTvvIjmlL7lnKggc2V0IC1lIOS5i+WQju+8jOiLpeayoeaciSBzZXQgLWUg5YiZ5pS+5pyA5YmN6Z2i77yJCiAgICBpZiAiR1JBRF9DS1BUIiBub3QgaW4gc3JjOgogICAgICAgIGlmIHJlLnNlYXJjaChyIl5zZXQgLWVccyokIiwgc3JjLCBmbGFncz1yZS5NKToKICAgICAgICAgICAgc3JjID0gcmUuc3ViKHIiXihzZXQgLWVccyopJCIsIHIiXDFcblxuIiArIEVYUE9SVF9MSU5FLCBzcmMsIGNvdW50PTEsIGZsYWdzPXJlLk0pCiAgICAgICAgZWxzZToKICAgICAgICAgICAgc3JjID0gRVhQT1JUX0xJTkUgKyAiXG4iICsgc3JjCiAgICAgICAgY2hhbmdlZC5hcHBlbmQoIkdSQURfQ0tQVCIpCgogICAgIyAyKSDpmZDliLYgY2hlY2twb2ludCDmlbDph48KICAgIGlmICJudW1fc2F2ZV9lcG9jaHMiIG5vdCBpbiBzcmM6CiAgICAgICAgc3JjLCBuID0gcmUuc3VibihyIih0cmFpblwubnVtX3RyYWluX2Vwb2Nocz1cZCspIiwgciJcMSB0cmFpbi5udW1fc2F2ZV9lcG9jaHM9MTAwIiwgc3JjLCBjb3VudD0xKQogICAgICAgIGlmIG46CiAgICAgICAgICAgIGNoYW5nZWQuYXBwZW5kKCJudW1fc2F2ZV9lcG9jaHMiKQoKICAgIGlmIHNyYyA9PSBvcmlnOgogICAgICAgIHByaW50KCJbU0tJUF0g5peg6ZyA5L+u5pS5OiAlcyIgJSBwYXRoKQogICAgICAgIHJldHVybiAwCgogICAgIyDlpIfku70KICAgIGJhayA9IHBhdGggKyAiLmJha18yMDI2MTEwNiIKICAgIGlmIG5vdCBvcy5wYXRoLmV4aXN0cyhiYWspOgogICAgICAgIHdpdGggaW8ub3BlbihiYWssICJ3IiwgZW5jb2Rpbmc9InV0Zi04IikgYXMgZjoKICAgICAgICAgICAgZi53cml0ZShvcmlnKQoKICAgIHdpdGggaW8ub3BlbihwYXRoLCAidyIsIGVuY29kaW5nPSJ1dGYtOCIpIGFzIGY6CiAgICAgICAgZi53cml0ZShzcmMpCgogICAgcHJpbnQoIltPS10gJXMgIOKGkCAlcyIgJSAocGF0aCwgIiwgIi5qb2luKGNoYW5nZWQpKSkKICAgIHJldHVybiAwCgoKZGVmIG1haW4oKToKICAgIGFyZ3MgPSBzeXMuYXJndlsxOl0KICAgIGlmIG5vdCBhcmdzOgogICAgICAgIHByaW50KF9fZG9jX18pCiAgICAgICAgcmV0dXJuIDIKCiAgICBpZiBhcmdzWzBdID09ICItLWdsb2IiOgogICAgICAgIHJvb3QgPSBhcmdzWzFdCiAgICAgICAgZmlsZXMgPSBzb3J0ZWQoZ2xvYi5nbG9iKG9zLnBhdGguam9pbihyb290LCAiZXhwZXJpbWVudF9zZWRwb18qIiwgIioiLCAidHJhaW4uc2giKSkpCiAgICAgICAgaWYgbm90IGZpbGVzOgogICAgICAgICAgICBwcmludCgiW1dBUk5dIOacquaJvuWIsCB0cmFpbi5zaDogJXMiICUgcm9vdCkKICAgICAgICAgICAgcmV0dXJuIDEKICAgIGVsc2U6CiAgICAgICAgZmlsZXMgPSBhcmdzCgogICAgcmMgPSAwCiAgICBmb3IgcCBpbiBmaWxlczoKICAgICAgICBpZiBub3Qgb3MucGF0aC5pc2ZpbGUocCk6CiAgICAgICAgICAgIHByaW50KCJbV0FSTl0g5LiN5a2Y5ZyoOiAlcyIgJSBwKQogICAgICAgICAgICByYyA9IDEKICAgICAgICAgICAgY29udGludWUKICAgICAgICBwYXRjaF9vbmUocCkKICAgIHJldHVybiByYwoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBzeXMuZXhpdChtYWluKCkpCg==
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+给已生成的 train.sh 加两件事（幂等）：
+  1) export GRAD_CKPT=1        —— 启用梯度检查点，解决 24GB 显存 OOM
+  2) train.num_save_epochs=100 —— 减少 epoch checkpoint，避免撑爆 9.7GB 磁盘
+
+为什么改文件而不是改环境变量：
+  run_sedpo_v3.sh 的编排进程已经启动，环境变量在启动时就固定了，
+  改脚本不会影响正在运行的进程；已生成的 train.sh 会在训练阶段被直接执行。
+
+用法:
+  python patch_train_sh.py <train.sh 路径> [...]
+  python patch_train_sh.py --glob /root/autodl-tmp/SeDPO_NIPS25/my_data_qwen
+"""
+import glob
+import io
+import os
+import re
+import sys
+
+MARK = "# [PATCH-TRAIN-20261106] 梯度检查点 + 限制 checkpoint 数量"
+EXPORT_LINE = "export GRAD_CKPT=${GRAD_CKPT:-1}   " + MARK
+
+
+def patch_one(path):
+    with io.open(path, "r", encoding="utf-8") as f:
+        src = f.read()
+
+    orig = src
+    changed = []
+
+    # 1) 插入 export（放在 set -e 之后，若没有 set -e 则放最前面）
+    if "GRAD_CKPT" not in src:
+        if re.search(r"^set -e\s*$", src, flags=re.M):
+            src = re.sub(r"^(set -e\s*)$", r"\1\n\n" + EXPORT_LINE, src, count=1, flags=re.M)
+        else:
+            src = EXPORT_LINE + "\n" + src
+        changed.append("GRAD_CKPT")
+
+    # 2) 限制 checkpoint 数量
+    if "num_save_epochs" not in src:
+        src, n = re.subn(r"(train\.num_train_epochs=\d+)", r"\1 train.num_save_epochs=100", src, count=1)
+        if n:
+            changed.append("num_save_epochs")
+
+    if src == orig:
+        print("[SKIP] 无需修改: %s" % path)
+        return 0
+
+    # 备份
+    bak = path + ".bak_20261106"
+    if not os.path.exists(bak):
+        with io.open(bak, "w", encoding="utf-8") as f:
+            f.write(orig)
+
+    with io.open(path, "w", encoding="utf-8") as f:
+        f.write(src)
+
+    print("[OK] %s  ← %s" % (path, ", ".join(changed)))
+    return 0
+
+
+def main():
+    args = sys.argv[1:]
+    if not args:
+        print(__doc__)
+        return 2
+
+    if args[0] == "--glob":
+        root = args[1]
+        files = sorted(glob.glob(os.path.join(root, "experiment_sedpo_*", "*", "train.sh")))
+        if not files:
+            print("[WARN] 未找到 train.sh: %s" % root)
+            return 1
+    else:
+        files = args
+
+    rc = 0
+    for p in files:
+        if not os.path.isfile(p):
+            print("[WARN] 不存在: %s" % p)
+            rc = 1
+            continue
+        patch_one(p)
+    return rc
+
+
+if __name__ == "__main__":
+    sys.exit(main())

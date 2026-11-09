@@ -1,1 +1,192 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwojIC0qLSBjb2Rpbmc6IHV0Zi04IC0qLQoiIiIK5oqK6L+c56uv566X5aW955qE5oyH5qCH5rGH5oC76L+bIHJ1bnNfbG9nLmNzdu+8iOaMieaXouacieihqOWktOi/veWKoOihjO+8ie+8jOW5tueUn+aIkOacrOWcsOWunumqjOaKpeWRiuOAggoK6L6T5YWlOiByZXN1bHRzX25ld190YXNrc18yMDI2MTEwNS88ZGF0YXNldD5fPG1vZGVsPi9tZXRyaWNzXyouanNvbiArIHJ1bnRpbWVfKi5qc29uCui+k+WHujoKICAtIGV4cGVyaW1lbnRfbG9nL3J1bnNfbG9nLmNzdiAgIO+8iOi/veWKoO+8iQogIC0gcmVzdWx0c19uZXdfdGFza3NfMjAyNjExMDUvPOaXpeacnz5f5a6e6aqM5oql5ZGKLm1kCgrnlKjms5XvvIjlnKjmnKzlnLDot5HvvIk6CiAgcHl0aG9uIGZpbGxfcnVuc19sb2cucHkgLS1yZXN1bHRzX2RpciA85pys5ZywIHJlc3VsdHMg55uu5b2VPiAtLWNzdiA8cnVuc19sb2cuY3N2IOi3r+W+hD4KIiIiCmltcG9ydCBhcmdwYXJzZQppbXBvcnQgY3N2CmltcG9ydCBqc29uCmltcG9ydCBvcwpmcm9tIGRhdGV0aW1lIGltcG9ydCBkYXRldGltZQoKIyDml6LmnInooajlpLTvvIjkv53mjIHkuI3lj5jvvIzmjInooYzov73liqDvvIkKSEVBREVSID0gWwogICAgInJ1bl9pZCIsICLml6XmnJ8iLCAi5Lu75YqhIiwgIuaJk+WIhuS4juaOqOeQhuaooeWeiyIsICLmlrnms5UiLCAic2hvdHMiLAogICAgIuiuree7g+mbhuadoeaVsCIsICLmtYvor5Xpm4bmnaHmlbAiLCAi5qCH562+57G75Yir5pWwIiwgInRlbXBlcmF0dXJlIiwgInRvcF9rIiwgInRvcF9wIiwgIm1heF90b2tlbnMiLAogICAgIuaooeWei+eyvuW6pmR0eXBlIiwgIuajgOe0ouWZqCIsICJsciIsICJkcG9fYmV0YSIsICJlcG9jaHMiLCAiYmF0Y2hfc2l6ZSIsCiAgICAi5pyA57uIdHJhaW5fbG9zcyIsICLmnIDkvbNjaGVja3BvaW50IiwgIumqjOivgWF2Z19yYW5rIiwKICAgICLlh4bnoa7njodhY2N1cmFjeSIsICJGMSIsICLmiZPliIbogJfml7YiLCAi6K6t57uD6ICX5pe2IiwgIuaOqOeQhuiAl+aXtiIsICLmgLvogJfml7YiLCAiR1BVIiwgIuWkh+azqCIsCl0KCk1PREVMX01FVEEgPSB7CiAgICAicXdlbiI6ICB7InBhdGgiOiAiL3Jvb3QvYXV0b2RsLXRtcC9tb2RlbHMvcXdlbjIuNS03YiIsICJsYWJlbCI6ICJRd2VuMi41LTdCIn0sCiAgICAibGxhbWEiOiB7InBhdGgiOiAiL3Jvb3QvYXV0b2RsLXRtcC9tb2RlbHMvbGxhbWEzLThiIiwgImxhYmVsIjogIk1ldGEtTGxhbWEtMy04QiJ9LAp9CgpUQVNLX01FVEEgPSB7CiAgICAiYXJjX2MiOiAgICAgIHsicG9vbCI6IDExMTcsICAidGVzdCI6IDExNjUsICJjbGFzc19udW0iOiA0LCAiZjFfdHlwZSI6ICJtYWNybyJ9LAogICAgIm9wZW5ib29rcWEiOiB7InBvb2wiOiA0OTU3LCAgInRlc3QiOiA1MDAsICAiY2xhc3NfbnVtIjogNCwgImYxX3R5cGUiOiAibWFjcm8ifSwKICAgICJtdWx0aXJjIjogICAgeyJwb29sIjogMTAwMDAsICJ0ZXN0IjogNDg0OCwgImNsYXNzX251bSI6IDIsICJmMV90eXBlIjogImJpbmFyeSJ9LAp9CgpNRVRIT0RfTUVUQSA9IHsKICAgICJ6ZXJvc2hvdCI6IHsicmV0cmlldmVyIjogIuaXoCjmnKrorq3nu4MpIiwgInNob3RzIjogMCwgInByb21wdF9zb3VyY2UiOiAiemVyb3Nob3QuanNvbijml6DnpLrkvospIn0sCiAgICAicmFuZG9tMyI6ICB7InJldHJpZXZlciI6ICLml6Ao5pyq6K6t57uDLOmaj+acujMtc2hvdCkiLCAic2hvdHMiOiAzLCAicHJvbXB0X3NvdXJjZSI6ICJyYW5kb20zLmpzb24ocHJvbXB0X3Bvb2zpmo/mnLrmir0pIn0sCiAgICAic2VkcG8iOiAgICB7InJldHJpZXZlciI6ICJTZURQTyhkcDItcjEuMC1iMC4xKSIsICJzaG90cyI6IDMsICJwcm9tcHRfc291cmNlIjogIlNlRFBP5qOA57SidG9wLTMifSwKfQoKCmRlZiBmbXQodiwgbmQ9Mik6CiAgICBpZiB2IGlzIE5vbmU6CiAgICAgICAgcmV0dXJuICJOL0EiCiAgICBpZiBpc2luc3RhbmNlKHYsIGZsb2F0KToKICAgICAgICByZXR1cm4gZiJ7djoue25kfWZ9IgogICAgcmV0dXJuIHN0cih2KQoKCmRlZiBsb2FkX2pzb24ocCk6CiAgICB0cnk6CiAgICAgICAgd2l0aCBvcGVuKHAsICJyIiwgZW5jb2Rpbmc9InV0Zi04IikgYXMgZjoKICAgICAgICAgICAgcmV0dXJuIGpzb24ubG9hZChmKQogICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICByZXR1cm4gTm9uZQoKCmRlZiBtYWluKCk6CiAgICBhcCA9IGFyZ3BhcnNlLkFyZ3VtZW50UGFyc2VyKCkKICAgIGFwLmFkZF9hcmd1bWVudCgiLS1yZXN1bHRzX2RpciIsIHJlcXVpcmVkPVRydWUpCiAgICBhcC5hZGRfYXJndW1lbnQoIi0tY3N2IiwgcmVxdWlyZWQ9VHJ1ZSkKICAgIGFwLmFkZF9hcmd1bWVudCgiLS1zY2FsZV9ub3RlIiwgZGVmYXVsdD0iIikKICAgIGFyZ3MgPSBhcC5wYXJzZV9hcmdzKCkKCiAgICByZCA9IGFyZ3MucmVzdWx0c19kaXIKICAgIHRvZGF5ID0gZGF0ZXRpbWUubm93KCkuc3RyZnRpbWUoIiVZLSVtLSVkIikKCiAgICByb3dzID0gW10KICAgICMg5YWI5omr5bey5pyJIENTVu+8jOi3s+i/h+WNoOS9jeihjO+8iOekuuS+iy/lh4blpIfvvIkKICAgIGlmIG9zLnBhdGguZXhpc3RzKGFyZ3MuY3N2KToKICAgICAgICB3aXRoIG9wZW4oYXJncy5jc3YsICJyIiwgZW5jb2Rpbmc9InV0Zi04LXNpZyIsIG5ld2xpbmU9IiIpIGFzIGY6CiAgICAgICAgICAgIHJkMCA9IGNzdi5yZWFkZXIoZikKICAgICAgICAgICAgaGVhZCA9IG5leHQocmQwLCBOb25lKQogICAgICAgICAgICBmb3IgciBpbiByZDA6CiAgICAgICAgICAgICAgICBpZiBub3QgcjoKICAgICAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICAgICAgaWYgclswXSBhbmQgKHJbMF0uc3RhcnRzd2l0aCgi56S65L6LIikgb3IgclswXS5zdGFydHN3aXRoKCLlh4blpIciKSk6CiAgICAgICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgICAgIHJvd3MuYXBwZW5kKHIpCiAgICBlbHNlOgogICAgICAgIGhlYWQgPSBIRUFERVIKCiAgICBuZXdfcm93cyA9IFtdCiAgICBmb3IgdGFzayBpbiBbImFyY19jIiwgIm9wZW5ib29rcWEiLCAibXVsdGlyYyJdOgogICAgICAgIGZvciBtdGFnIGluIFsicXdlbiIsICJsbGFtYSJdOgogICAgICAgICAgICBkID0gb3MucGF0aC5qb2luKHJkLCBmInt0YXNrfV97bXRhZ30iKQogICAgICAgICAgICBpZiBub3Qgb3MucGF0aC5pc2RpcihkKToKICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgIG1sYWJlbCA9IE1PREVMX01FVEFbbXRhZ11bImxhYmVsIl0KICAgICAgICAgICAgdG1ldGEgPSBUQVNLX01FVEFbdGFza10KICAgICAgICAgICAgcnQgPSBsb2FkX2pzb24ob3MucGF0aC5qb2luKGQsICJydW50aW1lX2Nsb3NlX3FhLmpzb24iKSkgb3IgXAogICAgICAgICAgICAgICAgbG9hZF9qc29uKG9zLnBhdGguam9pbihkLCAicnVudGltZV9yZWFkaW5nX25ldy5qc29uIikpCiAgICAgICAgICAgIGlmIG5vdCBydDoKICAgICAgICAgICAgICAgICMg6YCQ5paH5Lu25om+IHJ1bnRpbWUKICAgICAgICAgICAgICAgIGZvciBmbiBpbiBvcy5saXN0ZGlyKGQpOgogICAgICAgICAgICAgICAgICAgIGlmIGZuLnN0YXJ0c3dpdGgoInJ1bnRpbWVfIik6CiAgICAgICAgICAgICAgICAgICAgICAgIHJ0ID0gbG9hZF9qc29uKG9zLnBhdGguam9pbihkLCBmbikpCiAgICAgICAgICAgICAgICAgICAgICAgIGJyZWFrCiAgICAgICAgICAgIHNjb3JlX3NlYyA9IHJ0LmdldCgic2VkcG9fc2NvcmVfc2VjIikgaWYgcnQgZWxzZSBOb25lCiAgICAgICAgICAgIHRyYWluX3NlYyA9IHJ0LmdldCgic2VkcG9fdHJhaW5fc2VjIikgaWYgcnQgZWxzZSBOb25lCiAgICAgICAgICAgIGluZmVyX3NlYyA9IHJ0LmdldCgic2VkcG9faW5mZXJfc2VjIikgaWYgcnQgZWxzZSBOb25lCgogICAgICAgICAgICAjIOiuree7gyBsb3Nz77ya5LuOIHRyYWluX2RlbnNlX2VuY29kZXIubG9nIOaPkOWPluacgOWQjuS4gOadoSBsb3NzCiAgICAgICAgICAgIGxvc3NfZmluYWwgPSAiTi9BIgogICAgICAgICAgICBsb3NzX3JlZiA9ICJOL0EiCiAgICAgICAgICAgIHRsb2cgPSBvcy5wYXRoLmpvaW4oZCwgInRyYWluX2RlbnNlX2VuY29kZXIubG9nIikKICAgICAgICAgICAgaWYgb3MucGF0aC5leGlzdHModGxvZyk6CiAgICAgICAgICAgICAgICBsb3NzX3JlZiA9ICJ0cmFpbl9kZW5zZV9lbmNvZGVyLmxvZyIKICAgICAgICAgICAgICAgIGxhc3QgPSBOb25lCiAgICAgICAgICAgICAgICB3aXRoIG9wZW4odGxvZywgInIiLCBlbmNvZGluZz0idXRmLTgiLCBlcnJvcnM9Imlnbm9yZSIpIGFzIGY6CiAgICAgICAgICAgICAgICAgICAgZm9yIGxpbmUgaW4gZjoKICAgICAgICAgICAgICAgICAgICAgICAgbG93ID0gbGluZS5sb3dlcigpCiAgICAgICAgICAgICAgICAgICAgICAgIGlmICJsb3NzIiBpbiBsb3c6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbXBvcnQgcmUKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG51bXMgPSByZS5maW5kYWxsKHIibG9zc1snXCJdP1xzKls6PV1ccyooWzAtOV0qXC4/WzAtOV0rKSIsIGxvdykKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIG51bXM6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbGFzdCA9IGZsb2F0KG51bXNbLTFdKQogICAgICAgICAgICAgICAgaWYgbGFzdCBpcyBub3QgTm9uZToKICAgICAgICAgICAgICAgICAgICBsb3NzX2ZpbmFsID0gZiJ7bGFzdDouNGZ9IgoKICAgICAgICAgICAgZm9yIG1ldGggaW4gWyJ6ZXJvc2hvdCIsICJyYW5kb20zIiwgInNlZHBvIl06CiAgICAgICAgICAgICAgICBtaiA9IGxvYWRfanNvbihvcy5wYXRoLmpvaW4oZCwgZiJtZXRyaWNzX3ttZXRofS5qc29uIikpCiAgICAgICAgICAgICAgICBpZiBub3QgbWo6CiAgICAgICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgICAgIGFjYyA9IG1qLmdldCgiYWNjdXJhY3kiKQogICAgICAgICAgICAgICAgZjEgPSBtai5nZXQoImYxIikKICAgICAgICAgICAgICAgIGYxX3R5cGUgPSBtai5nZXQoImYxX3R5cGUiLCB0bWV0YVsiZjFfdHlwZSJdKQogICAgICAgICAgICAgICAgbW0gPSBNRVRIT0RfTUVUQVttZXRoXQogICAgICAgICAgICAgICAgaXNfc2VkcG8gPSAobWV0aCA9PSAic2VkcG8iKQoKICAgICAgICAgICAgICAgIGlmIGlzX3NlZHBvOgogICAgICAgICAgICAgICAgICAgIHJtaW4gPSAoKHNjb3JlX3NlYyBvciAwKSArICh0cmFpbl9zZWMgb3IgMCkgKyAoaW5mZXJfc2VjIG9yIDApKSAvIDYwCiAgICAgICAgICAgICAgICAgICAgc2NvcmVfdCA9IGYie3Njb3JlX3NlYy82MDouMWZ9bWluIiBpZiBzY29yZV9zZWMgZWxzZSAiTi9BIgogICAgICAgICAgICAgICAgICAgIHRyYWluX3QgPSBmInt0cmFpbl9zZWMvNjA6LjFmfW1pbiIgaWYgdHJhaW5fc2VjIGVsc2UgIk4vQSIKICAgICAgICAgICAgICAgICAgICBpbmZlcl90ID0gZiJ7aW5mZXJfc2VjLzYwOi4xZn1taW4iIGlmIGluZmVyX3NlYyBlbHNlICJOL0EiCiAgICAgICAgICAgICAgICAgICAgbm90ZSA9IChmInByb21wdF9zb3VyY2U9e21tWydwcm9tcHRfc291cmNlJ119OyBmMV90eXBlPXtmMV90eXBlfTsgIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgZiJsb3NzX2N1cnZlX3JlZj17bG9zc19yZWZ9OyDpgInpobnkvLznhLbmiZPliIbvvIzpnZ7ph4fmoLfnlJ/miJA7ICIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGYie2FyZ3Muc2NhbGVfbm90ZX0iKQogICAgICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgICAgICBybWluID0gTm9uZQogICAgICAgICAgICAgICAgICAgIHNjb3JlX3QgPSB0cmFpbl90ID0gaW5mZXJfdCA9ICJOL0EiCiAgICAgICAgICAgICAgICAgICAgbm90ZSA9IChmInByb21wdF9zb3VyY2U9e21tWydwcm9tcHRfc291cmNlJ119OyBmMV90eXBlPXtmMV90eXBlfTsgIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgZiLpgInpobnkvLznhLbmiZPliIbvvIzpnZ7ph4fmoLfnlJ/miJA7IExMTSDkuI3orq3nu4M7IHthcmdzLnNjYWxlX25vdGV9IikKCiAgICAgICAgICAgICAgICBuZXdfcm93cy5hcHBlbmQoWwogICAgICAgICAgICAgICAgICAgIGYie3Rhc2t9LXttdGFnfS17bWV0aH0iLCB0b2RheSwgdGFzaywgbWxhYmVsLCBtZXRoLCBtbVsic2hvdHMiXSwKICAgICAgICAgICAgICAgICAgICB0bWV0YVsicG9vbCJdLCB0bWV0YVsidGVzdCJdLCB0bWV0YVsiY2xhc3NfbnVtIl0sCiAgICAgICAgICAgICAgICAgICAgIk4vQSIsICJOL0EiLCAiTi9BIiwgIk4vQSIsCiAgICAgICAgICAgICAgICAgICAgImZwMTYiLAogICAgICAgICAgICAgICAgICAgIG1tWyJyZXRyaWV2ZXIiXSwKICAgICAgICAgICAgICAgICAgICAiM2UtMDUiIGlmIGlzX3NlZHBvIGVsc2UgIk4vQSIsCiAgICAgICAgICAgICAgICAgICAgIjAuMSIgaWYgaXNfc2VkcG8gZWxzZSAiTi9BIiwKICAgICAgICAgICAgICAgICAgICAiNiIgaWYgaXNfc2VkcG8gZWxzZSAiTi9BIiwKICAgICAgICAgICAgICAgICAgICAiMSIsCiAgICAgICAgICAgICAgICAgICAgbG9zc19maW5hbCBpZiBpc19zZWRwbyBlbHNlICJOL0EiLAogICAgICAgICAgICAgICAgICAgICJkcHJfYmllbmNvZGVyLmJlc3RfdmFsaWQiIGlmIGlzX3NlZHBvIGVsc2UgIk4vQSIsCiAgICAgICAgICAgICAgICAgICAgIk4vQSIsCiAgICAgICAgICAgICAgICAgICAgZm10KGFjYyksIGZtdChmMSksCiAgICAgICAgICAgICAgICAgICAgc2NvcmVfdCwgdHJhaW5fdCwgaW5mZXJfdCwKICAgICAgICAgICAgICAgICAgICBmIntybWluOi4xZn1taW4iIGlmIHJtaW4gZWxzZSAiTi9BIiwKICAgICAgICAgICAgICAgICAgICAiUlRYNDA5MC0yNEciLAogICAgICAgICAgICAgICAgICAgIG5vdGUsCiAgICAgICAgICAgICAgICBdKQoKICAgIHdpdGggb3BlbihhcmdzLmNzdiwgInciLCBlbmNvZGluZz0idXRmLTgtc2lnIiwgbmV3bGluZT0iIikgYXMgZjoKICAgICAgICB3ID0gY3N2LndyaXRlcihmKQogICAgICAgIHcud3JpdGVyb3coSEVBREVSKQogICAgICAgIGZvciByIGluIHJvd3M6CiAgICAgICAgICAgIHcud3JpdGVyb3cocikKICAgICAgICBmb3IgciBpbiBuZXdfcm93czoKICAgICAgICAgICAgdy53cml0ZXJvdyhyKQogICAgcHJpbnQoZiJbT0tdIOW3suWGmeWFpSB7YXJncy5jc3Z977ya5paw5aKeIHtsZW4obmV3X3Jvd3MpfSDooYzvvIzkv53nlZnljp/mnIkge2xlbihyb3dzKX0g6KGMIikKCiAgICAjIOi+k+WHuiBtYXJrZG93biDooajmoLzkvpvmiqXlkYrnlKgKICAgIG1kID0gWyJ8IGRhdGFzZXQgfCBtb2RlbCB8IG1ldGhvZCB8IHNob3RzIHwgYWNjIHwgRjEgfCBmMV90eXBlIHwgbG9zcyB8IHJ1bnRpbWUobWluKSB8IiwKICAgICAgICAgICJ8IC0tLSB8IC0tLSB8IC0tLSB8IC0tLSB8IC0tLSB8IC0tLSB8IC0tLSB8IC0tLSB8IC0tLSB8Il0KICAgIGZvciByIGluIG5ld19yb3dzOgogICAgICAgIG1kLmFwcGVuZChmInwge3JbMl19IHwge3JbM119IHwge3JbNF19IHwge3JbNV19IHwge3JbMjFdfSB8IHtyWzIyXX0gfCAiCiAgICAgICAgICAgICAgICAgIGYieydiaW5hcnknIGlmIHJbMl09PSdtdWx0aXJjJyBlbHNlICdtYWNybyd9IHwge3JbMTldfSB8IHtyWzI3XX0gfCIpCiAgICBvdXRfbWQgPSBvcy5wYXRoLmpvaW4ocmQsICJfcnVuc19sb2dfdGFibGUubWQiKQogICAgd2l0aCBvcGVuKG91dF9tZCwgInciLCBlbmNvZGluZz0idXRmLTgiKSBhcyBmOgogICAgICAgIGYud3JpdGUoIlxuIi5qb2luKG1kKSArICJcbiIpCiAgICBwcmludChmIltPS10g6KGo5qC85bey5YaZ5YWlIHtvdXRfbWR9IikKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgbWFpbigpCg==
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+把远端算好的指标汇总进 runs_log.csv（按既有表头追加行），并生成本地实验报告。
+
+输入: results_new_tasks_20261105/<dataset>_<model>/metrics_*.json + runtime_*.json
+输出:
+  - experiment_log/runs_log.csv   （追加）
+  - results_new_tasks_20261105/<日期>_实验报告.md
+
+用法（在本地跑）:
+  python fill_runs_log.py --results_dir <本地 results 目录> --csv <runs_log.csv 路径>
+"""
+import argparse
+import csv
+import json
+import os
+from datetime import datetime
+
+# 既有表头（保持不变，按行追加）
+HEADER = [
+    "run_id", "日期", "任务", "打分与推理模型", "方法", "shots",
+    "训练集条数", "测试集条数", "标签类别数", "temperature", "top_k", "top_p", "max_tokens",
+    "模型精度dtype", "检索器", "lr", "dpo_beta", "epochs", "batch_size",
+    "最终train_loss", "最佳checkpoint", "验证avg_rank",
+    "准确率accuracy", "F1", "打分耗时", "训练耗时", "推理耗时", "总耗时", "GPU", "备注",
+]
+
+MODEL_META = {
+    "qwen":  {"path": "/root/autodl-tmp/models/qwen2.5-7b", "label": "Qwen2.5-7B"},
+    "llama": {"path": "/root/autodl-tmp/models/llama3-8b", "label": "Meta-Llama-3-8B"},
+}
+
+TASK_META = {
+    "arc_c":      {"pool": 1117,  "test": 1165, "class_num": 4, "f1_type": "macro"},
+    "openbookqa": {"pool": 4957,  "test": 500,  "class_num": 4, "f1_type": "macro"},
+    "multirc":    {"pool": 10000, "test": 4848, "class_num": 2, "f1_type": "binary"},
+}
+
+METHOD_META = {
+    "zeroshot": {"retriever": "无(未训练)", "shots": 0, "prompt_source": "zeroshot.json(无示例)"},
+    "random3":  {"retriever": "无(未训练,随机3-shot)", "shots": 3, "prompt_source": "random3.json(prompt_pool随机抽)"},
+    "sedpo":    {"retriever": "SeDPO(dp2-r1.0-b0.1)", "shots": 3, "prompt_source": "SeDPO检索top-3"},
+}
+
+
+def fmt(v, nd=2):
+    if v is None:
+        return "N/A"
+    if isinstance(v, float):
+        return f"{v:.{nd}f}"
+    return str(v)
+
+
+def load_json(p):
+    try:
+        with open(p, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return None
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--results_dir", required=True)
+    ap.add_argument("--csv", required=True)
+    ap.add_argument("--scale_note", default="")
+    args = ap.parse_args()
+
+    rd = args.results_dir
+    today = datetime.now().strftime("%Y-%m-%d")
+
+    rows = []
+    # 先扫已有 CSV，跳过占位行（示例/准备）
+    if os.path.exists(args.csv):
+        with open(args.csv, "r", encoding="utf-8-sig", newline="") as f:
+            rd0 = csv.reader(f)
+            head = next(rd0, None)
+            for r in rd0:
+                if not r:
+                    continue
+                if r[0] and (r[0].startswith("示例") or r[0].startswith("准备")):
+                    continue
+                rows.append(r)
+    else:
+        head = HEADER
+
+    new_rows = []
+    for task in ["arc_c", "openbookqa", "multirc"]:
+        for mtag in ["qwen", "llama"]:
+            d = os.path.join(rd, f"{task}_{mtag}")
+            if not os.path.isdir(d):
+                continue
+            mlabel = MODEL_META[mtag]["label"]
+            tmeta = TASK_META[task]
+            rt = load_json(os.path.join(d, "runtime_close_qa.json")) or \
+                load_json(os.path.join(d, "runtime_reading_new.json"))
+            if not rt:
+                # 逐文件找 runtime
+                for fn in os.listdir(d):
+                    if fn.startswith("runtime_"):
+                        rt = load_json(os.path.join(d, fn))
+                        break
+            score_sec = rt.get("sedpo_score_sec") if rt else None
+            train_sec = rt.get("sedpo_train_sec") if rt else None
+            infer_sec = rt.get("sedpo_infer_sec") if rt else None
+
+            # 训练 loss：从 train_dense_encoder.log 提取最后一条 loss
+            loss_final = "N/A"
+            loss_ref = "N/A"
+            tlog = os.path.join(d, "train_dense_encoder.log")
+            if os.path.exists(tlog):
+                loss_ref = "train_dense_encoder.log"
+                last = None
+                with open(tlog, "r", encoding="utf-8", errors="ignore") as f:
+                    for line in f:
+                        low = line.lower()
+                        if "loss" in low:
+                            import re
+                            nums = re.findall(r"loss['\"]?\s*[:=]\s*([0-9]*\.?[0-9]+)", low)
+                            if nums:
+                                last = float(nums[-1])
+                if last is not None:
+                    loss_final = f"{last:.4f}"
+
+            for meth in ["zeroshot", "random3", "sedpo"]:
+                mj = load_json(os.path.join(d, f"metrics_{meth}.json"))
+                if not mj:
+                    continue
+                acc = mj.get("accuracy")
+                f1 = mj.get("f1")
+                f1_type = mj.get("f1_type", tmeta["f1_type"])
+                mm = METHOD_META[meth]
+                is_sedpo = (meth == "sedpo")
+
+                if is_sedpo:
+                    rmin = ((score_sec or 0) + (train_sec or 0) + (infer_sec or 0)) / 60
+                    score_t = f"{score_sec/60:.1f}min" if score_sec else "N/A"
+                    train_t = f"{train_sec/60:.1f}min" if train_sec else "N/A"
+                    infer_t = f"{infer_sec/60:.1f}min" if infer_sec else "N/A"
+                    note = (f"prompt_source={mm['prompt_source']}; f1_type={f1_type}; "
+                            f"loss_curve_ref={loss_ref}; 选项似然打分，非采样生成; "
+                            f"{args.scale_note}")
+                else:
+                    rmin = None
+                    score_t = train_t = infer_t = "N/A"
+                    note = (f"prompt_source={mm['prompt_source']}; f1_type={f1_type}; "
+                            f"选项似然打分，非采样生成; LLM 不训练; {args.scale_note}")
+
+                new_rows.append([
+                    f"{task}-{mtag}-{meth}", today, task, mlabel, meth, mm["shots"],
+                    tmeta["pool"], tmeta["test"], tmeta["class_num"],
+                    "N/A", "N/A", "N/A", "N/A",
+                    "fp16",
+                    mm["retriever"],
+                    "3e-05" if is_sedpo else "N/A",
+                    "0.1" if is_sedpo else "N/A",
+                    "6" if is_sedpo else "N/A",
+                    "1",
+                    loss_final if is_sedpo else "N/A",
+                    "dpr_biencoder.best_valid" if is_sedpo else "N/A",
+                    "N/A",
+                    fmt(acc), fmt(f1),
+                    score_t, train_t, infer_t,
+                    f"{rmin:.1f}min" if rmin else "N/A",
+                    "RTX4090-24G",
+                    note,
+                ])
+
+    with open(args.csv, "w", encoding="utf-8-sig", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(HEADER)
+        for r in rows:
+            w.writerow(r)
+        for r in new_rows:
+            w.writerow(r)
+    print(f"[OK] 已写入 {args.csv}：新增 {len(new_rows)} 行，保留原有 {len(rows)} 行")
+
+    # 输出 markdown 表格供报告用
+    md = ["| dataset | model | method | shots | acc | F1 | f1_type | loss | runtime(min) |",
+          "| --- | --- | --- | --- | --- | --- | --- | --- | --- |"]
+    for r in new_rows:
+        md.append(f"| {r[2]} | {r[3]} | {r[4]} | {r[5]} | {r[21]} | {r[22]} | "
+                  f"{'binary' if r[2]=='multirc' else 'macro'} | {r[19]} | {r[27]} |")
+    out_md = os.path.join(rd, "_runs_log_table.md")
+    with open(out_md, "w", encoding="utf-8") as f:
+        f.write("\n".join(md) + "\n")
+    print(f"[OK] 表格已写入 {out_md}")
+
+
+if __name__ == "__main__":
+    main()

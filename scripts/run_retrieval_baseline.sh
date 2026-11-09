@@ -1,1 +1,81 @@
-IyEvYmluL2Jhc2gKIyBTZURQTyDmo4DntKLln7rnur8gdjLvvJpCTTI1IC8gU0JFUlQKIwojIOeUqOazlTogYmFzaCBydW5fcmV0cmlldmFsX2Jhc2VsaW5lLnNoIDx0YXNrX25hbWU+IDxtb2RlbF9wYXRoPiA8bW9kZT4gPG1vZGVsX3RhZz4gPGNsdXN0ZXI+CiMgICBtb2RlOiBibTI1IHwgc2JlcnQKIwojIOa1geeoi++8muWFiOeUqOajgOe0ouWZqOS7jiBjbHVzdGVyIOWAmemAieaxoOajgOe0oiB0b3AtMyDnpLrkvosg4oaSIOWGjeeUqCBMTE0g5YGaIDMtc2hvdCDmjqjnkIYg4oaSIOeul+aMh+aghwojIOS4jiBTZURQTyDnmoTlt67liKvlj6rlnKjjgIznpLrkvovku47lk6rmnaXjgI3vvIzlhbbkvZnvvIhMTE3jgIFzaG90IOaVsOOAgeivhOa1i+mbhu+8ieWujOWFqOS4gOiHtCDihpIg5a+554Wn5YWs5bmz44CCCnNldCAtZQoKVEFTSz0kMQpNT0RFTD0kMgpNT0RFPSQzClRBRz0kNApDTFVTVEVSPSQ1ClJFUE89L3Jvb3QvYXV0b2RsLXRtcC9TZURQT19OSVBTMjUKT1VUX0RJUj0kUkVQTy9teV9kYXRhX3F3ZW4vYmFzZWxpbmVfJHtUQUd9LyR7VEFTS31fJHtNT0RFfQpQT1JUPTI0NzAxCgpjZCAkUkVQTwpzb3VyY2UgL3Jvb3QvbWluaWNvbmRhMy9ldGMvcHJvZmlsZS5kL2NvbmRhLnNoCmNvbmRhIGFjdGl2YXRlIC9yb290L2F1dG9kbC10bXAvZW52cy9zZV9kcG8KZXhwb3J0IFBZVEhPTlBBVEg9JFJFUE86JFBZVEhPTlBBVEgKZXhwb3J0IElGX1BSRUZFUl9MT1NTPTAKZXhwb3J0IEhZRFJBX0ZVTExfRVJST1I9MQpleHBvcnQgVE9LRU5JWkVSU19QQVJBTExFTElTTT1mYWxzZQpleHBvcnQgUFlUT1JDSF9DVURBX0FMTE9DX0NPTkY9ZXhwYW5kYWJsZV9zZWdtZW50czpUcnVlCgpta2RpciAtcCAkT1VUX0RJUgpSRVRSX0ZJTEU9JE9VVF9ESVIvJHtUQVNLfV8ke01PREV9X3Byb21wdHMuanNvbgoKZWNobyAiWyQoZGF0ZSArJUg6JU06JVMpXSDmo4DntKLln7rnur/lvIDlp4s6IHRhc2s9JFRBU0sgbW9kZT0kTU9ERSBtb2RlbD0kVEFHIgpTVEFSVD0kKGRhdGUgKyVzKQoKIyAtLS0tIOesrCAxIOatpe+8muajgOe0oiB0b3AtMyDnpLrkvosgLS0tLQppZiBbICIkTU9ERSIgPSAiYm0yNSIgXTsgdGhlbgogICAgZWNobyAiWyQoZGF0ZSArJUg6JU06JVMpXSAgIEJNMjUg5qOA57Si5LitLi4uIgogICAgcHl0aG9uIHNjcmlwdHMvcmV0cmlldmVfYm0yNS5weSBcCiAgICAgICAgdHJhaW5fY2x1c3RlcnM9JENMVVNURVIgXAogICAgICAgIHRhc2tfbmFtZT0kVEFTSyBcCiAgICAgICAgY2FjaGVfZGlyPSRSRVBPL2NhY2hlIFwKICAgICAgICBwcm9tcHRfcG9vbF9wYXRoPSRSRVBPL215X2RhdGFfcXdlbi9wcm9tcHRfcG9vbCBcCiAgICAgICAgb3V0X2ZpbGU9JFJFVFJfRklMRSBcCiAgICAgICAgcHJvbXB0X3NldHVwX3R5cGU9cWEgbl9kb2NzPTMgXAogICAgICAgIGh5ZHJhLnJ1bi5kaXI9JE9VVF9ESVIgMj4mMSB8IHRlZSAkT1VUX0RJUi9yZXRyaWV2YWwubG9nCmVsaWYgWyAiJE1PREUiID0gInNiZXJ0IiBdOyB0aGVuCiAgICBlY2hvICJbJChkYXRlICslSDolTTolUyldICAgU0JFUlQg5qOA57Si5LitLi4uIgogICAgcHl0aG9uIHNjcmlwdHMvcmV0cmlldmVfc2JlcnQucHkgXAogICAgICAgIHRyYWluX2NsdXN0ZXJzPSRDTFVTVEVSIFwKICAgICAgICB0YXNrX25hbWU9JFRBU0sgXAogICAgICAgIGNhY2hlX2Rpcj0kUkVQTy9jYWNoZSBcCiAgICAgICAgcHJvbXB0X3Bvb2xfcGF0aD0kUkVQTy9teV9kYXRhX3F3ZW4vcHJvbXB0X3Bvb2wgXAogICAgICAgIG91dF9maWxlPSRSRVRSX0ZJTEUgXAogICAgICAgIHByb21wdF9zZXR1cF90eXBlPXFhIG5fZG9jcz0zIFwKICAgICAgICBoeWRyYS5ydW4uZGlyPSRPVVRfRElSIDI+JjEgfCB0ZWUgJE9VVF9ESVIvcmV0cmlldmFsLmxvZwplbHNlCiAgICBlY2hvICLmnKrnn6UgbW9kZTogJE1PREUiOyBleGl0IDEKZmkKCiMgLS0tLSDnrKwgMiDmraXvvJrnlKjmo4DntKLliLDnmoTnpLrkvovlgZogMy1zaG90IOaOqOeQhiAtLS0tCmVjaG8gIlskKGRhdGUgKyVIOiVNOiVTKV0gICAzLXNob3Qg5o6o55CG5LitLi4uIgphY2NlbGVyYXRlIGxhdW5jaCAtLW51bV9wcm9jZXNzZXMgMSAtLW1haW5fcHJvY2Vzc19wb3J0ICRQT1JUIFwKICAgIHNjcmlwdHMvaW5mZXJlbmNlLnB5IFwKICAgIHByb21wdF9maWxlPSRSRVRSX0ZJTEUgXAogICAgdGFza19uYW1lPSRUQVNLIFwKICAgIG91dHB1dF9maWxlPSRPVVRfRElSLyR7VEFTS31fJHtNT0RFfV9wcmVkcy5qc29uIFwKICAgIHJlc19maWxlPSRPVVRfRElSL2V2YWxfcmVzLnR4dCBcCiAgICBiYXRjaF9zaXplPTEgXAogICAgc2hvdF9udW09MyBcCiAgICByYW5kb21fc2FtcGxlPUZhbHNlIFwKICAgIHJhbmRvbV9zZWVkPTQyIFwKICAgIG1vZGVsX25hbWU9JE1PREVMIFwKICAgIHByb21wdF9wb29sX3BhdGg9JFJFUE8vbXlfZGF0YV9xd2VuL3Byb21wdF9wb29sIFwKICAgIHRyYWluX2NsdXN0ZXJzPSRDTFVTVEVSIFwKICAgIGNhY2hlX2Rpcj0kUkVQTy9jYWNoZSBcCiAgICBoeWRyYS5ydW4uZGlyPSRPVVRfRElSIDI+JjEgfCB0ZWUgJE9VVF9ESVIvaW5mZXJlbmNlLmxvZwoKRU5EPSQoZGF0ZSArJXMpCmVjaG8gIlskKGRhdGUgKyVIOiVNOiVTKV0g5qOA57Si5Z+657q/57uT5p2fOiB0YXNrPSRUQVNLIG1vZGU9JE1PREUg6ICX5pe2ICQoKEVORCAtIFNUQVJUKSkg56eSIgplY2hvICItLS0g6K+E5rWL57uT5p6cIC0tLSIKY2F0ICRPVVRfRElSL2V2YWxfcmVzLnR4dAo=
+#!/bin/bash
+# SeDPO 检索基线 v2：BM25 / SBERT
+#
+# 用法: bash run_retrieval_baseline.sh <task_name> <model_path> <mode> <model_tag> <cluster>
+#   mode: bm25 | sbert
+#
+# 流程：先用检索器从 cluster 候选池检索 top-3 示例 → 再用 LLM 做 3-shot 推理 → 算指标
+# 与 SeDPO 的差别只在「示例从哪来」，其余（LLM、shot 数、评测集）完全一致 → 对照公平。
+set -e
+
+TASK=$1
+MODEL=$2
+MODE=$3
+TAG=$4
+CLUSTER=$5
+REPO=/root/autodl-tmp/SeDPO_NIPS25
+OUT_DIR=$REPO/my_data_qwen/baseline_${TAG}/${TASK}_${MODE}
+PORT=24701
+
+cd $REPO
+source /root/miniconda3/etc/profile.d/conda.sh
+conda activate /root/autodl-tmp/envs/se_dpo
+export PYTHONPATH=$REPO:$PYTHONPATH
+export IF_PREFER_LOSS=0
+export HYDRA_FULL_ERROR=1
+export TOKENIZERS_PARALLELISM=false
+export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
+
+mkdir -p $OUT_DIR
+RETR_FILE=$OUT_DIR/${TASK}_${MODE}_prompts.json
+
+echo "[$(date +%H:%M:%S)] 检索基线开始: task=$TASK mode=$MODE model=$TAG"
+START=$(date +%s)
+
+# ---- 第 1 步：检索 top-3 示例 ----
+if [ "$MODE" = "bm25" ]; then
+    echo "[$(date +%H:%M:%S)]   BM25 检索中..."
+    python scripts/retrieve_bm25.py \
+        train_clusters=$CLUSTER \
+        task_name=$TASK \
+        cache_dir=$REPO/cache \
+        prompt_pool_path=$REPO/my_data_qwen/prompt_pool \
+        out_file=$RETR_FILE \
+        prompt_setup_type=qa n_docs=3 \
+        hydra.run.dir=$OUT_DIR 2>&1 | tee $OUT_DIR/retrieval.log
+elif [ "$MODE" = "sbert" ]; then
+    echo "[$(date +%H:%M:%S)]   SBERT 检索中..."
+    python scripts/retrieve_sbert.py \
+        train_clusters=$CLUSTER \
+        task_name=$TASK \
+        cache_dir=$REPO/cache \
+        prompt_pool_path=$REPO/my_data_qwen/prompt_pool \
+        out_file=$RETR_FILE \
+        prompt_setup_type=qa n_docs=3 \
+        hydra.run.dir=$OUT_DIR 2>&1 | tee $OUT_DIR/retrieval.log
+else
+    echo "未知 mode: $MODE"; exit 1
+fi
+
+# ---- 第 2 步：用检索到的示例做 3-shot 推理 ----
+echo "[$(date +%H:%M:%S)]   3-shot 推理中..."
+accelerate launch --num_processes 1 --main_process_port $PORT \
+    scripts/inference.py \
+    prompt_file=$RETR_FILE \
+    task_name=$TASK \
+    output_file=$OUT_DIR/${TASK}_${MODE}_preds.json \
+    res_file=$OUT_DIR/eval_res.txt \
+    batch_size=1 \
+    shot_num=3 \
+    random_sample=False \
+    random_seed=42 \
+    model_name=$MODEL \
+    prompt_pool_path=$REPO/my_data_qwen/prompt_pool \
+    train_clusters=$CLUSTER \
+    cache_dir=$REPO/cache \
+    hydra.run.dir=$OUT_DIR 2>&1 | tee $OUT_DIR/inference.log
+
+END=$(date +%s)
+echo "[$(date +%H:%M:%S)] 检索基线结束: task=$TASK mode=$MODE 耗时 $((END - START)) 秒"
+echo "--- 评测结果 ---"
+cat $OUT_DIR/eval_res.txt

@@ -1,1 +1,68 @@
-aW1wb3J0IGh5ZHJhCmltcG9ydCBqc29uCmltcG9ydCByYW5kb20KCkBoeWRyYS5tYWluKGNvbmZpZ19wYXRoPSIuLi9jb25maWdzIiwgY29uZmlnX25hbWU9Im1lcmdlX2RhdGEiKQpkZWYgbWFpbihjZmcpOgogICAgcHJpbnQoY2ZnKQoKCiAgICB3aXRoIG9wZW4oY2ZnLnN0ZXAxX3RyYWluLCAiciIpIGFzIHN0ZXAxX3RyYWluOgogICAgICAgIHN0ZXAxX3RyYWluX2RhdGEgPSBqc29uLmxvYWQoc3RlcDFfdHJhaW4pCiAgICAKICAgIHdpdGggb3BlbihjZmcuc3RlcDFfdmFsaWQsICJyIikgYXMgc3RlcDFfdmFsaWQ6CiAgICAgICAgc3RlcDFfdmFsaWRfZGF0YSA9IGpzb24ubG9hZChzdGVwMV92YWxpZCkKICAgIAogICAgd2l0aCBvcGVuKGNmZy5zdGVwMl90cmFpbiwgInIiKSBhcyBzdGVwMl90cmFpbjoKICAgICAgICBtdWx0aXN0ZXBfZGF0YSA9IGpzb24ubG9hZChzdGVwMl90cmFpbikKCiAgICB3aXRoIG9wZW4oY2ZnLnN0ZXAyX3ZhbGlkLCAiciIpIGFzIHN0ZXAyX3ZhbGlkOgogICAgICAgIG11bHRpc3RlcF9kYXRhICs9IGpzb24ubG9hZChzdGVwMl92YWxpZCkKCiAgICB3aXRoIG9wZW4oY2ZnLnN0ZXAzX3RyYWluLCAiciIpIGFzIHN0ZXAzX3RyYWluOgogICAgICAgIG11bHRpc3RlcF9kYXRhICs9IGpzb24ubG9hZChzdGVwM190cmFpbikKCiAgICB3aXRoIG9wZW4oY2ZnLnN0ZXAzX3ZhbGlkLCAiciIpIGFzIHN0ZXAzX3ZhbGlkOgogICAgICAgIG11bHRpc3RlcF9kYXRhICs9IGpzb24ubG9hZChzdGVwM192YWxpZCkKCiAgICB0cmFpbl9xaWQgPSBzZXQoKQogICAgdmFsaWRfcWlkID0gc2V0KCkKCiAgICB0cmFpbl9kYXRhID0gW10KICAgIHZhbGlkX2RhdGEgPSBbXQoKICAgIGZvciBkYXRhIGluIHN0ZXAxX3RyYWluX2RhdGE6CiAgICAgICAgdHJhaW5fcWlkLmFkZChkYXRhWyJpZCJdKQogICAgICAgIGQgPSB7fQogICAgICAgIGRbImNob29zZW4iXSA9IFtdCiAgICAgICAgZC51cGRhdGUoZGF0YSkKICAgICAgICB0cmFpbl9kYXRhLmFwcGVuZChkKQoKICAgIGZvciBkYXRhIGluIHN0ZXAxX3ZhbGlkX2RhdGE6CiAgICAgICAgdmFsaWRfcWlkLmFkZChkYXRhWyJpZCJdKQogICAgICAgIGQgPSB7fQogICAgICAgIGRbImNob29zZW4iXSA9IFtdCiAgICAgICAgZC51cGRhdGUoZGF0YSkKICAgICAgICB2YWxpZF9kYXRhLmFwcGVuZChkKQogICAgCiAgICBwcmludChsZW4odHJhaW5fZGF0YSksIGxlbih2YWxpZF9kYXRhKSkKCiAgICBmb3IgZGF0YSBpbiBtdWx0aXN0ZXBfZGF0YToKICAgICAgICBpZiBkYXRhWyJpZCJdIGluIHRyYWluX3FpZDoKICAgICAgICAgICAgdHJhaW5fZGF0YS5hcHBlbmQoZGF0YSkKICAgICAgICBlbHNlOgogICAgICAgICAgICB2YWxpZF9kYXRhLmFwcGVuZChkYXRhKQoKICAgIHJhbmRvbS5zZWVkKDQyKQogICAgcmFuZG9tLnNodWZmbGUodHJhaW5fZGF0YSkKICAgIHJhbmRvbS5zaHVmZmxlKHZhbGlkX2RhdGEpCiAgICBwcmludChsZW4odHJhaW5fZGF0YSksIGxlbih2YWxpZF9kYXRhKSkKICAgIAogICAgd2l0aCBvcGVuKGNmZy50cmFpbl9vdXRwdXRfcGF0aCwgInciKSBhcyB3MToKICAgICAgICB3MS53cml0ZShqc29uLmR1bXBzKHRyYWluX2RhdGEsIGluZGVudD00KSArICJcbiIpCgogICAgd2l0aCBvcGVuKGNmZy52YWxpZF9vdXRwdXRfcGF0aCwgInciKSBhcyB3MjoKICAgICAgICB3Mi53cml0ZShqc29uLmR1bXBzKHZhbGlkX2RhdGEsIGluZGVudD00KSArICJcbiIpCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgbWFpbigp
+import hydra
+import json
+import random
+
+@hydra.main(config_path="../configs", config_name="merge_data")
+def main(cfg):
+    print(cfg)
+
+
+    with open(cfg.step1_train, "r") as step1_train:
+        step1_train_data = json.load(step1_train)
+    
+    with open(cfg.step1_valid, "r") as step1_valid:
+        step1_valid_data = json.load(step1_valid)
+    
+    with open(cfg.step2_train, "r") as step2_train:
+        multistep_data = json.load(step2_train)
+
+    with open(cfg.step2_valid, "r") as step2_valid:
+        multistep_data += json.load(step2_valid)
+
+    with open(cfg.step3_train, "r") as step3_train:
+        multistep_data += json.load(step3_train)
+
+    with open(cfg.step3_valid, "r") as step3_valid:
+        multistep_data += json.load(step3_valid)
+
+    train_qid = set()
+    valid_qid = set()
+
+    train_data = []
+    valid_data = []
+
+    for data in step1_train_data:
+        train_qid.add(data["id"])
+        d = {}
+        d["choosen"] = []
+        d.update(data)
+        train_data.append(d)
+
+    for data in step1_valid_data:
+        valid_qid.add(data["id"])
+        d = {}
+        d["choosen"] = []
+        d.update(data)
+        valid_data.append(d)
+    
+    print(len(train_data), len(valid_data))
+
+    for data in multistep_data:
+        if data["id"] in train_qid:
+            train_data.append(data)
+        else:
+            valid_data.append(data)
+
+    random.seed(42)
+    random.shuffle(train_data)
+    random.shuffle(valid_data)
+    print(len(train_data), len(valid_data))
+    
+    with open(cfg.train_output_path, "w") as w1:
+        w1.write(json.dumps(train_data, indent=4) + "\n")
+
+    with open(cfg.valid_output_path, "w") as w2:
+        w2.write(json.dumps(valid_data, indent=4) + "\n")
+
+if __name__ == "__main__":
+    main()

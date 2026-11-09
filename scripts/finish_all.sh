@@ -1,1 +1,87 @@
-IyEvYmluL2Jhc2gKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQojIOaUtuWwvuiEmuacrO+8iDIwMjYtMTEtMDcgMTM6NDDvvIkKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQojIOeOsOeKtu+8iOWbm+e7hOmDveW3suWujOaIkOiuree7g+W5tuS6p+WHuiBiZXN0X3ZhbGlk77yJ77yaCiMgICBsbGFtYS9jbG9zZV9xYSAgIDogcHJvbXB0cytwcmVkcytldmFsIOWFqOm9kO+8iGFjYyA1MC42NCXvvInigJTigJQg5a6M5oiQCiMgICBxd2VuL2Nsb3NlX3FhICAgIDog6K6t57uD5q2j5Zyo6L+b6KGM77yM57y6IGFyY19jIOaOqOeQhgojICAgcXdlbi9yZWFkaW5nX25ldyA6IG11bHRpcmMg5bey5a6M5oiQ77yM57y6IG9wZW5ib29rcWEg5o6o55CGICsgbXVsdGlyYyDnmoQgZXZhbCDooYwKIyAgIGxsYW1hL3JlYWRpbmdfbmV3OiDlkIzkuIoKIwojIOacrOiEmuacrOWPquihpee8uuWPo++8jOS4jemHjeiure+8mgojICAgMS4g562JIHF3ZW4vY2xvc2VfcWEg6K6t57uD57uT5p2fCiMgICAyLiBxd2VuL2Nsb3NlX3FhIOWFqOmHjyBpbmZlcu+8iGFyY19j77yJCiMgICAzLiDmr4/nu4QgcmVhZGluZ19uZXfvvJrlhYjooaUgbXVsdGlyYyDnmoQgZXZhbCDooYzvvIjlpI3nlKjlt7LlrZggcHJvbXB0c++8jOWPqumHjei3keaOqOeQhu+8ie+8jAojICAgICAg5YaN6LeRIG9wZW5ib29rcWEg5q6177yI5qOA57SiICsg5o6o55CG77yJCiMKIyDpobrluo/ms6jmhI/vvJrlv4XpobvlhYggbXVsdGlyYyDlkI4gb3BlbmJvb2txYeOAguWOn+WboOaYryBqYW5pdG9yX3NhZmUg55qEIEIg6KeE5YiZ5ZyoCiMgICDjgIzkuKTkuKogdGFzayDnmoQgcHJlZHMg6YO96b2Q44CN5pe25Lya5Yig5o6JIG1vZGVsIOebruW9le+8jOiLpeWFiOi3kSBvcGVuYm9va3Fh77yMCiMgICBtdWx0aXJjIOmHjei3keWwseS8muWboOe8uiBiZXN0X3ZhbGlkIOWksei0peOAggojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CnNldCAtdQpSPS9yb290L2F1dG9kbC10bXAvU2VEUE9fTklQUzI1CkxPRz0vcm9vdC9hdXRvZGwtdG1wL2ZpbmlzaF9hbGwubG9nClNUQUxFPS9yb290L2F1dG9kbC10bXAvX3N0YWxlX3RtcApjZCAiJFIiIHx8IGV4aXQgMQpta2RpciAtcCAiJFNUQUxFIgoKbG9nKCkgeyBlY2hvICJbJChkYXRlICcrJUYgJVQnKV0gJCoiID4+ICIkTE9HIjsgfQoKbG9nICI9PT09PSDmlLblsL7lvIDlp4sgPT09PT0iCgojIC0tLS0gMSkg562JIHF3ZW4vY2xvc2VfcWEg6K6t57uD57uT5p2fIC0tLS0KbG9nICLnrYnlvoUgcXdlbi9jbG9zZV9xYSDorq3nu4Pnu5PmnZ8uLi4iCm49MAp3aGlsZSBwZ3JlcCAtZiAidHJhaW5fZGVuc2VfZW5jb2Rlci5weS4qZXhwZXJpbWVudF9zZWRwb19xd2VuL2Nsb3NlX3FhL21vZGVsIiA+L2Rldi9udWxsIDI+JjE7IGRvCiAgICBzbGVlcCAzMAogICAgbj0kKChuKzEpKQogICAgWyAkKChuICUgMjApKSAtZXEgMCBdICYmIGxvZyAiICAuLi7ku43lnKjorq3nu4PvvIjlt7LnrYkgJCgobi8yKSkg5YiG6ZKf77yJIgpkb25lCmxvZyAi6K6t57uD57uT5p2f77yMbW9kZWwg55uu5b2V5YaF5a65OiAkKGxzIG15X2RhdGFfcXdlbi9leHBlcmltZW50X3NlZHBvX3F3ZW4vY2xvc2VfcWEvbW9kZWwvIDI+L2Rldi9udWxsIHwgdHIgJ1xuJyAnICcpIgoKIyAtLS0tIDIpIHF3ZW4vY2xvc2VfcWEg5YWo6YeP5o6o55CGIC0tLS0KaWYgWyAtZiBteV9kYXRhX3F3ZW4vZXhwZXJpbWVudF9zZWRwb19xd2VuL2Nsb3NlX3FhL21vZGVsL2Rwcl9iaWVuY29kZXIuYmVzdF92YWxpZCBdOyB0aGVuCiAgICBsb2cgIi0tLSBxd2VuL2Nsb3NlX3FhIGluZmVyIOW8gOWniyIKICAgIGJhc2ggbXlfZGF0YV9xd2VuL2V4cGVyaW1lbnRfc2VkcG9fcXdlbi9jbG9zZV9xYS9pbmZlci5zaCA+PiAiJExPRyIgMj4mMQogICAgbG9nICItLS0gcXdlbi9jbG9zZV9xYSBpbmZlciDnu5PmnZ8gcmM9JD8iCmVsc2UKICAgIGxvZyAiW+i3s+i/h10gcXdlbi9jbG9zZV9xYSDml6AgYmVzdF92YWxpZO+8jOaXoOazleaOqOeQhiIKZmkKCiMgLS0tLSAzKSDkuKTnu4QgcmVhZGluZ19uZXcg6KGl57y65Y+jIC0tLS0KZm9yIHQgaW4gcXdlbiBsbGFtYTsgZG8KICAgIEVYUD0ibXlfZGF0YV9xd2VuL2V4cGVyaW1lbnRfc2VkcG9fJHt0fS9yZWFkaW5nX25ldyIKCiAgICAjIDNhLiDlhYjooaUgbXVsdGlyYyDnmoTmjIfmoIfooYzvvIjlpI3nlKjlt7LlrZjlnKjnmoQgcHJvbXB0c++8jOi+k+WHuuimhuebluWQjOS4gCBwcmVkc++8iQogICAgaWYgWyAtZiAiJEVYUC9zZTJfcHJvbXB0c19mb3JfcmVhZGluZ19uZXcvbXVsdGlyY19wcm9tcHRzX2JlYW1fc2NvcmVfMC5qc29uIiBdOyB0aGVuCiAgICAgICAgIyDmuIXmjonkuIrmrKHkuK3mlq3nlZnkuIvnmoTkuLTml7bliIbniYfvvIzpgb/lhY3kuI7mnKzmrKHnu5Pmnpzlj6DliqAKICAgICAgICBmb3IgZiBpbiAiJEVYUCIvcHJlZHNfZm9yX3JlYWRpbmdfbmV3L211bHRpcmNfKmpzb250bXBfKi5iaW47IGRvCiAgICAgICAgICAgIFsgLWUgIiRmIiBdICYmIG12IC1mICIkZiIgIiRTVEFMRSIvCiAgICAgICAgZG9uZQogICAgICAgIGxvZyAiLS0tICR7dH0vcmVhZGluZ19uZXcgbXVsdGlyYyDmjqjnkIbvvIjooaXmjIfmoIfooYzvvIkiCiAgICAgICAgc2VkIC1uICczMiw0NXAnICIkRVhQL2luZmVyLnNoIiA+ICIvdG1wL211bF8ke3R9LnNoIgogICAgICAgIGJhc2ggIi90bXAvbXVsXyR7dH0uc2giID4+ICIkTE9HIiAyPiYxCiAgICAgICAgbG9nICItLS0gJHt0fS9yZWFkaW5nX25ldyBtdWx0aXJjIOe7k+adnyByYz0kPyIKICAgIGVsc2UKICAgICAgICBsb2cgIlvot7Pov4ddICR7dH0vcmVhZGluZ19uZXcg57y6IG11bHRpcmMgcHJvbXB0cyIKICAgIGZpCgogICAgIyAzYi4g5YaN6LeRIG9wZW5ib29rcWHvvIjmo4DntKIgKyDmjqjnkIbvvInvvIzmlL7mnIDlkI4KICAgIGlmIFsgLWYgIiRFWFAvbW9kZWwvZHByX2JpZW5jb2Rlci5iZXN0X3ZhbGlkIiBdOyB0aGVuCiAgICAgICAgbG9nICItLS0gJHt0fS9yZWFkaW5nX25ldyBvcGVuYm9va3FhIOajgOe0oivmjqjnkIYiCiAgICAgICAgc2VkIC1uICc0NywkcCcgIiRFWFAvaW5mZXIuc2giID4gIi90bXAvb2JxXyR7dH0uc2giCiAgICAgICAgYmFzaCAiL3RtcC9vYnFfJHt0fS5zaCIgPj4gIiRMT0ciIDI+JjEKICAgICAgICBsb2cgIi0tLSAke3R9L3JlYWRpbmdfbmV3IG9wZW5ib29rcWEg57uT5p2fIHJjPSQ/IgogICAgZWxzZQogICAgICAgIGxvZyAiW+i3s+i/h10gJHt0fS9yZWFkaW5nX25ldyDml6AgYmVzdF92YWxpZCIKICAgIGZpCmRvbmUKCiMgLS0tLSA0KSDmsYfmgLvmiYDmnInmjIfmoIcgLS0tLQpsb2cgIj09PT09IOaUtuWwvuWujOaIkO+8jOaMh+agh+axh+aAuyA9PT09PSIKZm9yIGYgaW4gbXlfZGF0YV9xd2VuL2V4cGVyaW1lbnRfc2VkcG9fKi8qL2V2YWxfcmVzXyoudHh0OyBkbwogICAgWyAtZiAiJGYiIF0gfHwgY29udGludWUKICAgIGVjaG8gIj09ICRmIiA+PiAiJExPRyIKICAgIGNhdCAiJGYiID4+ICIkTE9HIgpkb25lCmxvZyAiPT09PT0g5YWo6YOo57uT5p2fID09PT09Igo=
+#!/bin/bash
+# =============================================================================
+# 收尾脚本（2026-11-07 13:40）
+# =============================================================================
+# 现状（四组都已完成训练并产出 best_valid）：
+#   llama/close_qa   : prompts+preds+eval 全齐（acc 50.64%）—— 完成
+#   qwen/close_qa    : 训练正在进行，缺 arc_c 推理
+#   qwen/reading_new : multirc 已完成，缺 openbookqa 推理 + multirc 的 eval 行
+#   llama/reading_new: 同上
+#
+# 本脚本只补缺口，不重训：
+#   1. 等 qwen/close_qa 训练结束
+#   2. qwen/close_qa 全量 infer（arc_c）
+#   3. 每组 reading_new：先补 multirc 的 eval 行（复用已存 prompts，只重跑推理），
+#      再跑 openbookqa 段（检索 + 推理）
+#
+# 顺序注意：必须先 multirc 后 openbookqa。原因是 janitor_safe 的 B 规则在
+#   「两个 task 的 preds 都齐」时会删掉 model 目录，若先跑 openbookqa，
+#   multirc 重跑就会因缺 best_valid 失败。
+# =============================================================================
+set -u
+R=/root/autodl-tmp/SeDPO_NIPS25
+LOG=/root/autodl-tmp/finish_all.log
+STALE=/root/autodl-tmp/_stale_tmp
+cd "$R" || exit 1
+mkdir -p "$STALE"
+
+log() { echo "[$(date '+%F %T')] $*" >> "$LOG"; }
+
+log "===== 收尾开始 ====="
+
+# ---- 1) 等 qwen/close_qa 训练结束 ----
+log "等待 qwen/close_qa 训练结束..."
+n=0
+while pgrep -f "train_dense_encoder.py.*experiment_sedpo_qwen/close_qa/model" >/dev/null 2>&1; do
+    sleep 30
+    n=$((n+1))
+    [ $((n % 20)) -eq 0 ] && log "  ...仍在训练（已等 $((n/2)) 分钟）"
+done
+log "训练结束，model 目录内容: $(ls my_data_qwen/experiment_sedpo_qwen/close_qa/model/ 2>/dev/null | tr '\n' ' ')"
+
+# ---- 2) qwen/close_qa 全量推理 ----
+if [ -f my_data_qwen/experiment_sedpo_qwen/close_qa/model/dpr_biencoder.best_valid ]; then
+    log "--- qwen/close_qa infer 开始"
+    bash my_data_qwen/experiment_sedpo_qwen/close_qa/infer.sh >> "$LOG" 2>&1
+    log "--- qwen/close_qa infer 结束 rc=$?"
+else
+    log "[跳过] qwen/close_qa 无 best_valid，无法推理"
+fi
+
+# ---- 3) 两组 reading_new 补缺口 ----
+for t in qwen llama; do
+    EXP="my_data_qwen/experiment_sedpo_${t}/reading_new"
+
+    # 3a. 先补 multirc 的指标行（复用已存在的 prompts，输出覆盖同一 preds）
+    if [ -f "$EXP/se2_prompts_for_reading_new/multirc_prompts_beam_score_0.json" ]; then
+        # 清掉上次中断留下的临时分片，避免与本次结果叠加
+        for f in "$EXP"/preds_for_reading_new/multirc_*jsontmp_*.bin; do
+            [ -e "$f" ] && mv -f "$f" "$STALE"/
+        done
+        log "--- ${t}/reading_new multirc 推理（补指标行）"
+        sed -n '32,45p' "$EXP/infer.sh" > "/tmp/mul_${t}.sh"
+        bash "/tmp/mul_${t}.sh" >> "$LOG" 2>&1
+        log "--- ${t}/reading_new multirc 结束 rc=$?"
+    else
+        log "[跳过] ${t}/reading_new 缺 multirc prompts"
+    fi
+
+    # 3b. 再跑 openbookqa（检索 + 推理），放最后
+    if [ -f "$EXP/model/dpr_biencoder.best_valid" ]; then
+        log "--- ${t}/reading_new openbookqa 检索+推理"
+        sed -n '47,$p' "$EXP/infer.sh" > "/tmp/obq_${t}.sh"
+        bash "/tmp/obq_${t}.sh" >> "$LOG" 2>&1
+        log "--- ${t}/reading_new openbookqa 结束 rc=$?"
+    else
+        log "[跳过] ${t}/reading_new 无 best_valid"
+    fi
+done
+
+# ---- 4) 汇总所有指标 ----
+log "===== 收尾完成，指标汇总 ====="
+for f in my_data_qwen/experiment_sedpo_*/*/eval_res_*.txt; do
+    [ -f "$f" ] || continue
+    echo "== $f" >> "$LOG"
+    cat "$f" >> "$LOG"
+done
+log "===== 全部结束 ====="

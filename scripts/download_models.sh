@@ -1,1 +1,28 @@
-IyEvYmluL2Jhc2gKIyDkuKTkuKrmqKHlnovnmoTlrozmlbTkuIvovb3nvJbmjpLvvJrlpI3nlKjmnInmlYjliY3nvIDnu63kvKAg4oaSIOWIhuWdl+S4i+i9vSDihpIg5a6Y5pa5IHNoYTI1NiDmoKHpqozjgIIKIyDno4Hnm5jnrZbnlaXvvJrlnZfmlofku7bkuIvovb3lroznq4vliLsgYXBwZW5kIOW5tuWIoOmZpO+8jOWzsOWAvOmineWkluWNoOeUqCDiiYgg57q/56iL5pWww5flnZflpKflsI/jgIIKc2V0IC11ClBZPS9yb290L21pbmljb25kYTMvYmluL3B5dGhvbgpETD0vcm9vdC9hdXRvZGwtdG1wL2RsX2Zhc3QucHkKClNIQVJEUz0kKHNlcSAtZiAibW9kZWwtJTA1Zy1vZi0wMDAwNC5zYWZldGVuc29ycyIgMSA0IHwgdHIgIlxuIiAiLCIgfCBzZWQgInMvLCQvLyIpCgplY2hvICI9PT09PT09PT09PT09PT0gWzEvMl0gUXdlbjIuNS03QiA9PT09PT09PT09PT09PT0iCiRQWSAkREwgLS1yZXBvIFF3ZW4vUXdlbjIuNS03QiBcCiAgICAtLWRlc3QgL3Jvb3QvYXV0b2RsLXRtcC9tb2RlbHMvcXdlbjIuNS03YiBcCiAgICAtLXNoYXJkcyAiJFNIQVJEUyIgXAogICAgLS1leHRyYSAiY29uZmlnLmpzb24sZ2VuZXJhdGlvbl9jb25maWcuanNvbixtZXJnZXMudHh0LHRva2VuaXplci5qc29uLHRva2VuaXplcl9jb25maWcuanNvbix2b2NhYi5qc29uLG1vZGVsLnNhZmV0ZW5zb3JzLmluZGV4Lmpzb24iIFwKICAgIC0tdGhyZWFkcyA4IC0tY2h1bmstbWIgMTI4CgplY2hvICI9PT09PT09PT09PT09PT0gWzIvMl0gTWV0YS1MbGFtYS0zLThCID09PT09PT09PT09PT09PSIKJFBZICRETCAtLXJlcG8gTm91c1Jlc2VhcmNoL01ldGEtTGxhbWEtMy04QiBcCiAgICAtLWRlc3QgL3Jvb3QvYXV0b2RsLXRtcC9tb2RlbHMvbGxhbWEzLThiIFwKICAgIC0tc2hhcmRzICIkU0hBUkRTIiBcCiAgICAtLWV4dHJhICJjb25maWcuanNvbixnZW5lcmF0aW9uX2NvbmZpZy5qc29uLHNwZWNpYWxfdG9rZW5zX21hcC5qc29uLHRva2VuaXplci5qc29uLHRva2VuaXplcl9jb25maWcuanNvbixtb2RlbC5zYWZldGVuc29ycy5pbmRleC5qc29uIiBcCiAgICAtLXRocmVhZHMgOCAtLWNodW5rLW1iIDEyOAoKZWNobyAiPT09PT09PT09PT09PT09IOaxh+aAuyA9PT09PT09PT09PT09PT0iCmR1IC1zaCAvcm9vdC9hdXRvZGwtdG1wL21vZGVscy9xd2VuMi41LTdiIC9yb290L2F1dG9kbC10bXAvbW9kZWxzL2xsYW1hMy04YgpscyAtbCAvcm9vdC9hdXRvZGwtdG1wL21vZGVscy9xd2VuMi41LTdiLyouc2FmZXRlbnNvcnMgL3Jvb3QvYXV0b2RsLXRtcC9tb2RlbHMvbGxhbWEzLThiLyouc2FmZXRlbnNvcnMKZGYgLWggL3Jvb3QvYXV0b2RsLXRtcCB8IHRhaWwgLTEKZWNobyAiQUxMX01PREVMU19ET05FIgo=
+#!/bin/bash
+# 两个模型的完整下载编排：复用有效前缀续传 → 分块下载 → 官方 sha256 校验。
+# 磁盘策略：块文件下载完立刻 append 并删除，峰值额外占用 ≈ 线程数×块大小。
+set -u
+PY=/root/miniconda3/bin/python
+DL=/root/autodl-tmp/dl_fast.py
+
+SHARDS=$(seq -f "model-%05g-of-00004.safetensors" 1 4 | tr "\n" "," | sed "s/,$//")
+
+echo "=============== [1/2] Qwen2.5-7B ==============="
+$PY $DL --repo Qwen/Qwen2.5-7B \
+    --dest /root/autodl-tmp/models/qwen2.5-7b \
+    --shards "$SHARDS" \
+    --extra "config.json,generation_config.json,merges.txt,tokenizer.json,tokenizer_config.json,vocab.json,model.safetensors.index.json" \
+    --threads 8 --chunk-mb 128
+
+echo "=============== [2/2] Meta-Llama-3-8B ==============="
+$PY $DL --repo NousResearch/Meta-Llama-3-8B \
+    --dest /root/autodl-tmp/models/llama3-8b \
+    --shards "$SHARDS" \
+    --extra "config.json,generation_config.json,special_tokens_map.json,tokenizer.json,tokenizer_config.json,model.safetensors.index.json" \
+    --threads 8 --chunk-mb 128
+
+echo "=============== 汇总 ==============="
+du -sh /root/autodl-tmp/models/qwen2.5-7b /root/autodl-tmp/models/llama3-8b
+ls -l /root/autodl-tmp/models/qwen2.5-7b/*.safetensors /root/autodl-tmp/models/llama3-8b/*.safetensors
+df -h /root/autodl-tmp | tail -1
+echo "ALL_MODELS_DONE"

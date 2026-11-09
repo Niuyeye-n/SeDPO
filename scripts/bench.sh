@@ -1,1 +1,105 @@
-IyEvYmluL2Jhc2gKIyDnsr7noa7mtYvpgJ/vvJrlr7nmjIflrprku7vliqEv5qih5Z6LL+aJuemHj++8jOaJk+WIhuWbuuWumuaVsOmHj+WunuS+i++8jOi+k+WHuuWimemSn+mAn+W6puOAggojCiMg55So5rOVOiBiYXNoIC9yb290L2F1dG9kbC10bXAvYmVuY2guc2ggPHRhc2s+IDxtb2RlbF9wYXRoPiA8YnN6PiA8dGFnPiBbbl9xdWVyaWVzXSBbTF0Kc2V0IC1ldQoKVEFTSz0kMQpNT0RFTF9QQVRIPSQyCkJTWj0kMwpUQUc9JDQKTlE9JHs1Oi02MH0KTD0kezY6LTIwfQoKUkVQTz0vcm9vdC9hdXRvZGwtdG1wL1NlRFBPX05JUFMyNQpCRU5DSD0kUkVQTy9teV9kYXRhX2JlbmNoCm1rZGlyIC1wICRCRU5DSC97ZmluZF9yYW5kb20scHJvbXB0X3Bvb2wsc2NvcmVkLGV4cH0KCnNvdXJjZSAvcm9vdC9taW5pY29uZGEzL2V0Yy9wcm9maWxlLmQvY29uZGEuc2gKY29uZGEgYWN0aXZhdGUgL3Jvb3QvYXV0b2RsLXRtcC9lbnZzL3NlX2RwbwpleHBvcnQgUFlUSE9OUEFUSD0kUkVQTzoke1BZVEhPTlBBVEg6LX0KZXhwb3J0IEZJTkRFUl9MPSRMCmV4cG9ydCBJRl9QUkVGRVJfTE9TUz0yCmV4cG9ydCBQRUZUX0JFVEE9MC4xCmV4cG9ydCBESVZfUkVKRUNUPTEKZXhwb3J0IEhZRFJBX0ZVTExfRVJST1I9MQpleHBvcnQgVE9LRU5JWkVSU19QQVJBTExFTElTTT1mYWxzZQoKY2QgJFJFUE8KClBPT0w9JEJFTkNIL3Byb21wdF9wb29sLyR7VEFTS31fcHJvbXB0cy5qc29uClNBTVBMRVM9JEJFTkNIL2ZpbmRfcmFuZG9tLyR7VEFTS31fc2FtcGxlcy5qc29uClRSQUlOPSRCRU5DSC9zY29yZWQvJHtUQVNLfV8ke1RBR31fdHJhaW4uanNvbgpWQUxJRD0kQkVOQ0gvc2NvcmVkLyR7VEFTS31fJHtUQUd9X3ZhbGlkLmpzb24KTE9HPSRCRU5DSC9zY29yZXJfJHtUQVNLfV8ke1RBR31fYiR7QlNafS5sb2cKCnJtIC1mICRUUkFJTiAkVkFMSUQgJHtUUkFJTn10bXBfKi5iaW4KCnB5dGhvbiBzY3JpcHRzL2ZpbmRfcmFuZG9tX3N0ZXAxLnB5IFwKICAgIG91dHB1dF9wYXRoPSRTQU1QTEVTIHRhc2tfbmFtZT0kVEFTSyArZHNfc2l6ZT0kTlEgTD0kTCBcCiAgICBwcm9tcHRfcG9vbF9wYXRoPSRQT09MIGNhY2hlX2Rpcj0kUFdEL2NhY2hlIFwKICAgIGh5ZHJhLnJ1bi5kaXI9JEJFTkNIL2V4cCA+IC9kZXYvbnVsbCAyPiYxCgpOX0lOU1Q9JCgvcm9vdC9taW5pY29uZGEzL2Jpbi9weXRob24gLWMgIgppbXBvcnQganNvbjsgZD1qc29uLmxvYWQob3BlbignJFNBTVBMRVMnKSk7IHByaW50KGxlbihkKSpsZW4oZFswXVsnc3RlcF8xX2N0eHMnXSkpIikKZWNobyAiW0JFTkNIICRUQVNLLyRUQUcgYnN6PSRCU1pdIOaJk+WIhuWunuS+i+aVsCA9ICROX0lOU1QiCgooIGZvciBpIGluICQoc2VxIDEgMjAwMCk7IGRvCiAgICBudmlkaWEtc21pIC0tcXVlcnktZ3B1PW1lbW9yeS51c2VkIC0tZm9ybWF0PWNzdixub2hlYWRlcixub3VuaXRzID4+ICRCRU5DSC9ncHVfJHtUQVNLfV8ke1RBR31fYiR7QlNafS5jc3YKICAgIHNsZWVwIDMKICBkb25lICkgJgpNT05QSUQ9JCEKClQwPSQoZGF0ZSArJXMpCmFjY2VsZXJhdGUgbGF1bmNoIC0tbnVtX3Byb2Nlc3NlcyAxIC0tbWFpbl9wcm9jZXNzX3BvcnQgMjQ1NzkgXAogICAgc2NyaXB0cy9zY29yZXIucHkgXAogICAgZXhhbXBsZV9maWxlPSRTQU1QTEVTIG91dHB1dF90cmFpbl9maWxlPSRUUkFJTiBvdXRwdXRfdmFsaWRfZmlsZT0kVkFMSUQgXAogICAgYmF0Y2hfc2l6ZT0kQlNaIHRhc2tfbmFtZT0kVEFTSyBtb2RlbF9uYW1lPSRNT0RFTF9QQVRIIFwKICAgIHByb21wdF9wb29sX3BhdGg9JFBPT0wgY2FjaGVfZGlyPSRQV0QvY2FjaGUgXAogICAgaHlkcmEucnVuLmRpcj0kQkVOQ0gvZXhwID4gJExPRyAyPiYxClQxPSQoZGF0ZSArJXMpCmtpbGwgJE1PTlBJRCAyPi9kZXYvbnVsbCB8fCB0cnVlCgpFTEFQU0VEPSQoKFQxLVQwKSkKUEVBSz0kKHNvcnQgLW4gJEJFTkNIL2dwdV8ke1RBU0t9XyR7VEFHfV9iJHtCU1p9LmNzdiAyPi9kZXYvbnVsbCB8IHRhaWwgLTEpCgojIOS7jiB0cWRtIOeahOacgOe7iOeKtuaAgeino+aekOe6r+aJk+WIhuiAl+aXtu+8iOaOkumZpOaooeWei+WKoOi9veS4jui/h+a7pOmYtuaute+8iQovcm9vdC9taW5pY29uZGEzL2Jpbi9weXRob24gLSAiJE5fSU5TVCIgIiRFTEFQU0VEIiAiJFBFQUsiICIkVEFTSyIgIiRUQUciICIkQlNaIiA8PCdQWUVPRicKaW1wb3J0IHJlLCBzeXMKbl9pbnN0LCBlbGFwc2VkLCBwZWFrLCB0YXNrLCB0YWcsIGJzeiA9IHN5cy5hcmd2WzE6N10Kbl9pbnN0ID0gaW50KG5faW5zdCkKZWxhcHNlZCA9IGludChlbGFwc2VkKQpsb2cgPSBmIi9yb290L2F1dG9kbC10bXAvU2VEUE9fTklQUzI1L215X2RhdGFfYmVuY2gvc2NvcmVyX3t0YXNrfV97dGFnfV9ie2Jzen0ubG9nIgpzY29yZV9lbCA9IE5vbmUKdHJ5OgogICAgdHh0ID0gb3Blbihsb2csIGVycm9ycz0iaWdub3JlIikucmVhZCgpCiAgICAjIHRxZG0g55qEIFNjb3Jpbmcg6L+b5bqm5p2h5pyA5ZCO5LiA5bin77yaW01NOlNTPE1NOlNTLCAgWC5YWGl0L3NdCiAgICBmcmFtZXMgPSByZS5maW5kYWxsKHIiU2NvcmluZzpccytcZCslXHxbXnxdKlx8XHMqKFxkKykvKFxkKylccypcWyhcZCspOihcZCspPChcZCspOihcZCspLFxzKihbXGQuXSspaXQvcyIsIHR4dCkKICAgIGlmIGZyYW1lczoKICAgICAgICBmID0gZnJhbWVzWy0xXQogICAgICAgIGRvbmUsIHRvdGFsID0gaW50KGZbMF0pLCBpbnQoZlsxXSkKICAgICAgICBtLCBzID0gaW50KGZbMl0pLCBpbnQoZlszXSkKICAgICAgICBzY29yZV9lbCA9IG0gKiA2MCArIHMKICAgICAgICByYXRlID0gZmxvYXQoZls2XSkKICAgIGVsc2U6CiAgICAgICAgZG9uZSA9IHRvdGFsID0gMAogICAgICAgIHJhdGUgPSBOb25lCmV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgIHByaW50KCJwYXJzZSBlcnIiLCBlKQoKcHJpbnQoIj0iICogNjYpCnByaW50KGYiW0JFTkNIIHt0YXNrfS97dGFnfSBic3o9e2Jzen1dIikKcHJpbnQoZiIgIOWunuS+i+aVsCAgICAgICAgPSB7bl9pbnN0fSIpCnByaW50KGYiICDmgLvlopnpkp8o5ZCr5Yqg6L29KSA9IHtlbGFwc2VkfXMiKQppZiBzY29yZV9lbDoKICAgIHByaW50KGYiICDnuq/miZPliIbogJfml7YgICAgPSB7c2NvcmVfZWx9cyIpCiAgICBwcmludChmIiAg5a6e5rWL6YCf5bqmICAgICAgPSB7bl9pbnN0L3Njb3JlX2VsOi4yZn0g5a6e5L6LL+enkiAodHFkbSDmiqXlkYoge3JhdGV9IGl0L3MpIikKZWxzZToKICAgIHByaW50KCIgIFvorablkYpdIOacquiDveino+aekOaJk+WIhuiAl+aXtiIpCnByaW50KGYiICDmmL7lrZjls7DlgLwgICAgICA9IHtwZWFrfSBNaUIgLyAyNDU2NCBNaUIiKQpwcmludCgiPSIgKiA2NikKd2l0aCBvcGVuKGYiL3Jvb3QvYXV0b2RsLXRtcC9TZURQT19OSVBTMjUvbXlfZGF0YV9iZW5jaC9yZXN1bHRfe3Rhc2t9X3t0YWd9X2J7YnN6fS50eHQiLCAidyIpIGFzIGY6CiAgICBmLndyaXRlKGYidGFzaz17dGFza31cbnRhZz17dGFnfVxuYnN6PXtic3p9XG5uX2luc3Q9e25faW5zdH1cbiIKICAgICAgICAgICAgZiJ0b3RhbF9lbGFwc2VkPXtlbGFwc2VkfVxuc2NvcmVfZWxhcHNlZD17c2NvcmVfZWx9XG4iCiAgICAgICAgICAgIGYiaW5zdF9wZXJfcz17bl9pbnN0L3Njb3JlX2VsIGlmIHNjb3JlX2VsIGVsc2UgTm9uZX1cbnBlYWtfbWVtX21pYj17cGVha31cbiIpClBZRU9GCg==
+#!/bin/bash
+# 精确测速：对指定任务/模型/批量，打分固定数量实例，输出墙钟速度。
+#
+# 用法: bash /root/autodl-tmp/bench.sh <task> <model_path> <bsz> <tag> [n_queries] [L]
+set -eu
+
+TASK=$1
+MODEL_PATH=$2
+BSZ=$3
+TAG=$4
+NQ=${5:-60}
+L=${6:-20}
+
+REPO=/root/autodl-tmp/SeDPO_NIPS25
+BENCH=$REPO/my_data_bench
+mkdir -p $BENCH/{find_random,prompt_pool,scored,exp}
+
+source /root/miniconda3/etc/profile.d/conda.sh
+conda activate /root/autodl-tmp/envs/se_dpo
+export PYTHONPATH=$REPO:${PYTHONPATH:-}
+export FINDER_L=$L
+export IF_PREFER_LOSS=2
+export PEFT_BETA=0.1
+export DIV_REJECT=1
+export HYDRA_FULL_ERROR=1
+export TOKENIZERS_PARALLELISM=false
+
+cd $REPO
+
+POOL=$BENCH/prompt_pool/${TASK}_prompts.json
+SAMPLES=$BENCH/find_random/${TASK}_samples.json
+TRAIN=$BENCH/scored/${TASK}_${TAG}_train.json
+VALID=$BENCH/scored/${TASK}_${TAG}_valid.json
+LOG=$BENCH/scorer_${TASK}_${TAG}_b${BSZ}.log
+
+rm -f $TRAIN $VALID ${TRAIN}tmp_*.bin
+
+python scripts/find_random_step1.py \
+    output_path=$SAMPLES task_name=$TASK +ds_size=$NQ L=$L \
+    prompt_pool_path=$POOL cache_dir=$PWD/cache \
+    hydra.run.dir=$BENCH/exp > /dev/null 2>&1
+
+N_INST=$(/root/miniconda3/bin/python -c "
+import json; d=json.load(open('$SAMPLES')); print(len(d)*len(d[0]['step_1_ctxs']))")
+echo "[BENCH $TASK/$TAG bsz=$BSZ] 打分实例数 = $N_INST"
+
+( for i in $(seq 1 2000); do
+    nvidia-smi --query-gpu=memory.used --format=csv,noheader,nounits >> $BENCH/gpu_${TASK}_${TAG}_b${BSZ}.csv
+    sleep 3
+  done ) &
+MONPID=$!
+
+T0=$(date +%s)
+accelerate launch --num_processes 1 --main_process_port 24579 \
+    scripts/scorer.py \
+    example_file=$SAMPLES output_train_file=$TRAIN output_valid_file=$VALID \
+    batch_size=$BSZ task_name=$TASK model_name=$MODEL_PATH \
+    prompt_pool_path=$POOL cache_dir=$PWD/cache \
+    hydra.run.dir=$BENCH/exp > $LOG 2>&1
+T1=$(date +%s)
+kill $MONPID 2>/dev/null || true
+
+ELAPSED=$((T1-T0))
+PEAK=$(sort -n $BENCH/gpu_${TASK}_${TAG}_b${BSZ}.csv 2>/dev/null | tail -1)
+
+# 从 tqdm 的最终状态解析纯打分耗时（排除模型加载与过滤阶段）
+/root/miniconda3/bin/python - "$N_INST" "$ELAPSED" "$PEAK" "$TASK" "$TAG" "$BSZ" <<'PYEOF'
+import re, sys
+n_inst, elapsed, peak, task, tag, bsz = sys.argv[1:7]
+n_inst = int(n_inst)
+elapsed = int(elapsed)
+log = f"/root/autodl-tmp/SeDPO_NIPS25/my_data_bench/scorer_{task}_{tag}_b{bsz}.log"
+score_el = None
+try:
+    txt = open(log, errors="ignore").read()
+    # tqdm 的 Scoring 进度条最后一帧：[MM:SS<MM:SS,  X.XXit/s]
+    frames = re.findall(r"Scoring:\s+\d+%\|[^|]*\|\s*(\d+)/(\d+)\s*\[(\d+):(\d+)<(\d+):(\d+),\s*([\d.]+)it/s", txt)
+    if frames:
+        f = frames[-1]
+        done, total = int(f[0]), int(f[1])
+        m, s = int(f[2]), int(f[3])
+        score_el = m * 60 + s
+        rate = float(f[6])
+    else:
+        done = total = 0
+        rate = None
+except Exception as e:
+    print("parse err", e)
+
+print("=" * 66)
+print(f"[BENCH {task}/{tag} bsz={bsz}]")
+print(f"  实例数        = {n_inst}")
+print(f"  总墙钟(含加载) = {elapsed}s")
+if score_el:
+    print(f"  纯打分耗时    = {score_el}s")
+    print(f"  实测速度      = {n_inst/score_el:.2f} 实例/秒 (tqdm 报告 {rate} it/s)")
+else:
+    print("  [警告] 未能解析打分耗时")
+print(f"  显存峰值      = {peak} MiB / 24564 MiB")
+print("=" * 66)
+with open(f"/root/autodl-tmp/SeDPO_NIPS25/my_data_bench/result_{task}_{tag}_b{bsz}.txt", "w") as f:
+    f.write(f"task={task}\ntag={tag}\nbsz={bsz}\nn_inst={n_inst}\n"
+            f"total_elapsed={elapsed}\nscore_elapsed={score_el}\n"
+            f"inst_per_s={n_inst/score_el if score_el else None}\npeak_mem_mib={peak}\n")
+PYEOF

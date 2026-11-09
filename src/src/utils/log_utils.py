@@ -1,1 +1,25 @@
-ZnJvbSBjb250ZXh0bGliIGltcG9ydCBjb250ZXh0bWFuYWdlcgppbXBvcnQgbG9nZ2luZwoKQGNvbnRleHRtYW5hZ2VyCmRlZiBhbGxfbG9nZ2luZ19kaXNhYmxlZChoaWdoZXN0X2xldmVsPWxvZ2dpbmcuQ1JJVElDQUwpOgogICAgIiIiCiAgICBBIGNvbnRleHQgbWFuYWdlciB0aGF0IHdpbGwgcHJldmVudCBhbnkgbG9nZ2luZyBtZXNzYWdlcwogICAgdHJpZ2dlcmVkIGR1cmluZyB0aGUgYm9keSBmcm9tIGJlaW5nIHByb2Nlc3NlZC4KICAgIDpwYXJhbSBoaWdoZXN0X2xldmVsOiB0aGUgbWF4aW11bSBsb2dnaW5nIGxldmVsIGluIHVzZS4KICAgICAgVGhpcyB3b3VsZCBvbmx5IG5lZWQgdG8gYmUgY2hhbmdlZCBpZiBhIGN1c3RvbSBsZXZlbCBncmVhdGVyIHRoYW4gQ1JJVElDQUwKICAgICAgaXMgZGVmaW5lZC4KICAgICIiIgogICAgIyB0d28ga2luZC1vZiBoYWNrcyBoZXJlOgogICAgIyAgICAqIGNhbid0IGdldCB0aGUgaGlnaGVzdCBsb2dnaW5nIGxldmVsIGluIGVmZmVjdCA9PiBkZWxlZ2F0ZSB0byB0aGUgdXNlcgogICAgIyAgICAqIGNhbid0IGdldCB0aGUgY3VycmVudCBtb2R1bGUtbGV2ZWwgb3ZlcnJpZGUgPT4gdXNlIGFuIHVuZG9jdW1lbnRlZAogICAgIyAgICAgICAoYnV0IG5vbi1wcml2YXRlISkgaW50ZXJmYWNlCgogICAgcHJldmlvdXNfbGV2ZWwgPSBsb2dnaW5nLnJvb3QubWFuYWdlci5kaXNhYmxlCgogICAgbG9nZ2luZy5kaXNhYmxlKGhpZ2hlc3RfbGV2ZWwpCgogICAgdHJ5OgogICAgICAgIHlpZWxkCiAgICBmaW5hbGx5OgogICAgICAgIGxvZ2dpbmcuZGlzYWJsZShwcmV2aW91c19sZXZlbCk=
+from contextlib import contextmanager
+import logging
+
+@contextmanager
+def all_logging_disabled(highest_level=logging.CRITICAL):
+    """
+    A context manager that will prevent any logging messages
+    triggered during the body from being processed.
+    :param highest_level: the maximum logging level in use.
+      This would only need to be changed if a custom level greater than CRITICAL
+      is defined.
+    """
+    # two kind-of hacks here:
+    #    * can't get the highest logging level in effect => delegate to the user
+    #    * can't get the current module-level override => use an undocumented
+    #       (but non-private!) interface
+
+    previous_level = logging.root.manager.disable
+
+    logging.disable(highest_level)
+
+    try:
+        yield
+    finally:
+        logging.disable(previous_level)

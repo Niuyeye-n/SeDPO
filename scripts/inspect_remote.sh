@@ -1,1 +1,29 @@
-IyEvYmluL2Jhc2gKY2QgL3Jvb3QvYXV0b2RsLXRtcC9TZURQT19OSVBTMjUKZWNobyAiPT09PT0gQS4gbXlfZGF0YV9xd2VuL2V4cGVyaW1lbnQg55uu5b2VID09PT09IgpscyBteV9kYXRhX3F3ZW4vZXhwZXJpbWVudC8gMj4vZGV2L251bGwKZWNobyAiLS0tLS0gY2xvc2VfcWEvc2NvcmUuc2ggLS0tLS0iCmNhdCBteV9kYXRhX3F3ZW4vZXhwZXJpbWVudC9jbG9zZV9xYS9zY29yZS5zaCAyPi9kZXYvbnVsbAplY2hvICItLS0tLSBjbG9zZV9xYS90cmFpbi5zaCAtLS0tLSIKY2F0IG15X2RhdGFfcXdlbi9leHBlcmltZW50L2Nsb3NlX3FhL3RyYWluLnNoIDI+L2Rldi9udWxsCmVjaG8gIi0tLS0tIGNsb3NlX3FhL2luZmVyLnNoIC0tLS0tIgpjYXQgbXlfZGF0YV9xd2VuL2V4cGVyaW1lbnQvY2xvc2VfcWEvaW5mZXIuc2ggMj4vZGV2L251bGwKZWNobyAiPT09PT0gQi4gbXlfZGF0YS9leHBlcmltZW50ICjlrpjmlrkpID09PT09IgpscyAtUiBteV9kYXRhL2V4cGVyaW1lbnQvIDI+L2Rldi9udWxsIHwgaGVhZCAtNDAKZWNobyAiPT09PT0gQy4gdGFza3MucHkg5LitIEwvY2hvb3NlbiDnm7jlhbMgPT09PT0iCmdyZXAgLW4gImZpbmRlcl9MXHxjaG9vc2VuX251bVx8Y2xhc3MgLipUYXNrXHxjbGFzc19udW1cfG51bV90cmFpblx8bnVtX2RldiIgRFBSL2Rwci91dGlscy90YXNrcy5weSB8IGhlYWQgLTQwCmVjaG8gIj09PT09IEQuIHNjb3JlciB0bXAgYmluIOadoeebruaVsCA9PT09PSIKL3Jvb3QvYXV0b2RsLXRtcC9lbnZzL3NlX2Rwby9iaW4vcHl0aG9uIC0gPDwnUFknCmltcG9ydCBnbG9iLHN5cwpzeXMucGF0aC5pbnNlcnQoMCwnL3Jvb3QvYXV0b2RsLXRtcC9TZURQT19OSVBTMjUnKQpmcm9tIHNyYy51dGlscy5jYWNoZV91dGlsIGltcG9ydCBCdWZmZXJlZEpzb25SZWFkZXIKdG90PTAKZm9yIHAgaW4gZ2xvYi5nbG9iKCdteV9kYXRhX3F3ZW4vc2NvcmVkX3F3ZW4vY2xvc2VfcWEvKnRtcF8qLmJpbicpOgogICAgbj0wCiAgICB3aXRoIEJ1ZmZlcmVkSnNvblJlYWRlcihwKSBhcyBmOgogICAgICAgIGZvciBkYXRhcyBpbiBmLnJlYWQoKToKICAgICAgICAgICAgbis9bGVuKGRhdGFzKQogICAgcHJpbnQocCwgbikKICAgIHRvdCs9bgpwcmludCgnVE9UQUwgc2NvcmVkIGluc3RhbmNlcyBzbyBmYXIgKHN0ZXAyKTonLCB0b3QpClBZCg==
+#!/bin/bash
+cd /root/autodl-tmp/SeDPO_NIPS25
+echo "===== A. my_data_qwen/experiment 目录 ====="
+ls my_data_qwen/experiment/ 2>/dev/null
+echo "----- close_qa/score.sh -----"
+cat my_data_qwen/experiment/close_qa/score.sh 2>/dev/null
+echo "----- close_qa/train.sh -----"
+cat my_data_qwen/experiment/close_qa/train.sh 2>/dev/null
+echo "----- close_qa/infer.sh -----"
+cat my_data_qwen/experiment/close_qa/infer.sh 2>/dev/null
+echo "===== B. my_data/experiment (官方) ====="
+ls -R my_data/experiment/ 2>/dev/null | head -40
+echo "===== C. tasks.py 中 L/choosen 相关 ====="
+grep -n "finder_L\|choosen_num\|class .*Task\|class_num\|num_train\|num_dev" DPR/dpr/utils/tasks.py | head -40
+echo "===== D. scorer tmp bin 条目数 ====="
+/root/autodl-tmp/envs/se_dpo/bin/python - <<'PY'
+import glob,sys
+sys.path.insert(0,'/root/autodl-tmp/SeDPO_NIPS25')
+from src.utils.cache_util import BufferedJsonReader
+tot=0
+for p in glob.glob('my_data_qwen/scored_qwen/close_qa/*tmp_*.bin'):
+    n=0
+    with BufferedJsonReader(p) as f:
+        for datas in f.read():
+            n+=len(datas)
+    print(p, n)
+    tot+=n
+print('TOTAL scored instances so far (step2):', tot)
+PY

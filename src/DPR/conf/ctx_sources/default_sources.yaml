@@ -1,1 +1,14 @@
-IyBAcGFja2FnZSBfZ3JvdXBfCgpkcHJfc2UyOgogIF90YXJnZXRfOiBkcHIuZGF0YS5yZXRyaWV2ZXJfZGF0YS5TZTJDdHhTcmMKICBwcm9tcHRfc2V0dXBfdHlwZTogPz8/CiAgcHJvbXB0X3Bvb2xfcGF0aDogPz8/CiAgdHJhaW5fY2x1c3RlcnM6CmRwcl93aWtpOgogIF90YXJnZXRfOiBkcHIuZGF0YS5yZXRyaWV2ZXJfZGF0YS5Dc3ZDdHhTcmMKICBmaWxlOiBkYXRhLndpa2lwZWRpYV9zcGxpdC5wc2dzX3cxMDAKICBpZF9wcmVmaXg6ICd3aWtpOicKZHByX2dyYWlsOgogIF90YXJnZXRfOiBkcHIuZGF0YS5yZXRyaWV2ZXJfZGF0YS5Dc3ZDdHhTcmMKICBmaWxlOiBkYXRhLndpa2lwZWRpYV9zcGxpdC5lbnRpdGllcw==
+# @package _group_
+
+dpr_se2:
+  _target_: dpr.data.retriever_data.Se2CtxSrc
+  prompt_setup_type: ???
+  prompt_pool_path: ???
+  train_clusters:
+dpr_wiki:
+  _target_: dpr.data.retriever_data.CsvCtxSrc
+  file: data.wikipedia_split.psgs_w100
+  id_prefix: 'wiki:'
+dpr_grail:
+  _target_: dpr.data.retriever_data.CsvCtxSrc
+  file: data.wikipedia_split.entities

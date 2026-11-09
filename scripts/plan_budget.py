@@ -1,1 +1,105 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwojIC0qLSBjb2Rpbmc6IHV0Zi04IC0qLQoiIiIK5a6e6aqM6KeE5qih6aKE566X6K6h566X5Zmo77ya5qC55o2u5a6e5rWL6YCf5bqm77yI56eSL+aJk+WIhuWunuS+i++8ieaOqOeul+WFqOmHj+WunumqjOiAl+aXtu+8jArlubblnKjotoXov4cgMTIg5bCP5pe26aKE566X5pe257uZ5Ye66ZmN6KeE5qih5bu66K6u44CCCgrmiZPliIblrp7kvovmlbDlrprkuYnvvIjkuI4gc2NvcmVyX2RzciDkuIDoh7TvvInvvJoKICBzdGVwMTog5q+P5p2hIHF1ZXJ5IOaJkyBMIOS4quWAmemAiSDihpIgbl9xdWVyeSDDlyBMCiAgc3RlcDI6IOavj+adoSBxdWVyeSDnmoQgTCDkuKrlgJnpgInph4zpgIkgY2hvb3Nlbl9udW0g5Liq77yM5q+P5Liq5YaN5omTIEwg5LiqIOKGkiBuX3F1ZXJ5IMOXIEwKICBzdGVwMzog5ZCM5LiKIOKGkiBuX3F1ZXJ5IMOXIEwKICDms6jvvJpzdGVwMi9zdGVwMyDnmoTovpPlhaXmnaHmlbDnrYnkuo4gc3RlcDEg6L6T5Ye655qEIHF1ZXJ5IOaVsO+8iOaJk+WIhuWQjuaMiSBxdWVyeSDogZrlkIjvvInjgIIKCueUqOazlToKICBweXRob24gMjAyNjExMDVfcGxhbl9idWRnZXQucHkgLS1zcGVlZCAxMi41IC0tb3V0IHBsYW4uanNvbgoiIiIKaW1wb3J0IGFyZ3BhcnNlCmltcG9ydCBqc29uCgojIOS4ieS4quaVsOaNrumbhueahOWAmemAieaxoOinhOaooe+8iOW3sueUn+aIkOeahCBmaW5kX3JhbmRvbSBzdGVwMSDmnaHmlbAgPSBxdWVyeSDmlbDvvIkKREFUQVNFVFMgPSB7CiAgICAiYXJjX2MiOiAgICAgIHsicG9vbCI6IDExMTcsICAiZmluZGVyX0wiOiA0MDAsICJ0ZXN0IjogMTE2NSwgImNsYXNzX251bSI6IDR9LAogICAgIm9wZW5ib29rcWEiOiB7InBvb2wiOiA0OTU3LCAgImZpbmRlcl9MIjogMjAwLCAidGVzdCI6IDUwMCwgICJjbGFzc19udW0iOiA0fSwKICAgICJtdWx0aXJjIjogICAgeyJwb29sIjogMTAwMDAsICJmaW5kZXJfTCI6IDUwLCAgInRlc3QiOiA0ODQ4LCAiY2xhc3NfbnVtIjogMn0sCn0KU1RFUFMgPSAzICAgICAgICAgICMgU2VEUE8g5omT5YiG5q2l5pWwCk1PREVMUyA9IDIgICAgICAgICAjIHF3ZW4gKyBsbGFtYQpCVURHRVRfSE9VUlMgPSAxMi4wCgoKZGVmIG1haW4oKToKICAgIGFwID0gYXJncGFyc2UuQXJndW1lbnRQYXJzZXIoKQogICAgYXAuYWRkX2FyZ3VtZW50KCItLXNwZWVkIiwgdHlwZT1mbG9hdCwgcmVxdWlyZWQ9VHJ1ZSwKICAgICAgICAgICAgICAgICAgICBoZWxwPSLlrp7mtYvmiZPliIbpgJ/luqbvvIjlrp7kvosv56eS77yJ77yM5Y2V5p2h5a6e5L6L5ZCrIG9wdGlvbl9udW0g5qyh5YmN5ZCRIikKICAgIGFwLmFkZF9hcmd1bWVudCgiLS1pbmZlci1zcGVlZCIsIHR5cGU9ZmxvYXQsIGRlZmF1bHQ9NC4wLAogICAgICAgICAgICAgICAgICAgIGhlbHA9IuWunua1i+aOqOeQhumAn+W6pu+8iOa1i+ivleagt+acrC/np5LvvIkiKQogICAgYXAuYWRkX2FyZ3VtZW50KCItLXRyYWluLW1pbiIsIHR5cGU9ZmxvYXQsIGRlZmF1bHQ9MjAuMCwKICAgICAgICAgICAgICAgICAgICBoZWxwPSLmo4DntKLlmaggRFBPIOiuree7g+mihOS8sO+8iOWIhumSny/nu4TvvIkiKQogICAgYXAuYWRkX2FyZ3VtZW50KCItLW91dCIsIGRlZmF1bHQ9Tm9uZSkKICAgIGFyZ3MgPSBhcC5wYXJzZV9hcmdzKCkKCiAgICBzID0gYXJncy5zcGVlZAogICAgcHJpbnQoZiLlrp7mtYvmiZPliIbpgJ/luqY6IHtzOi4yZn0g5a6e5L6LL+enkiIpCiAgICBwcmludChmIuaOqOeQhumAn+W6pjogICAgIHthcmdzLmluZmVyX3NwZWVkOi4yZn0g5qC35pysL+enkiIpCiAgICBwcmludCgiPSIgKiA3OCkKCiAgICAjIC0tLS0g5Z+657q/5byA6ZSA77yI5Lik5Liq5qih5Z6LIMOXIOavj+S4quaVsOaNrumbhiDDlyAyIOenjeaooeW8j++8iS0tLS0KICAgIGJhc2VfaCA9IDAuMAogICAgZm9yIG5hbWUsIGQgaW4gREFUQVNFVFMuaXRlbXMoKToKICAgICAgICB0ID0gZFsidGVzdCJdIC8gYXJncy5pbmZlcl9zcGVlZCAvIDM2MDAKICAgICAgICBiYXNlX2ggKz0gdCAqIDIgKiBNT0RFTFMgICAjIHplcm9zaG90ICsgcmFuZG9tMwogICAgcHJpbnQoZiJcbuOAkOWfuue6v+aAu+W8gOmUgOOAkXplcm9zaG90K3JhbmRvbTMgw5cgMyDmlbDmja7pm4Ygw5cgMiDmqKHlnosg4omIIHtiYXNlX2g6LjJmfSDlsI/ml7YiKQoKICAgICMgLS0tLSBTZURQTyDmiZPliIblvIDplIDvvIjlhajph4/vvIktLS0tCiAgICBwcmludCgiXG7jgJBTZURQTyDmiZPliIblvIDplIDvvIjlhajph4/op4TmqKHvvInjgJEiKQogICAgdG90YWxfc2NvcmVfaCA9IDAuMAogICAgcGVyX2dyb3VwID0ge30KICAgIGZvciBuYW1lLCBkIGluIERBVEFTRVRTLml0ZW1zKCk6CiAgICAgICAgbl9pbnN0ID0gZFsicG9vbCJdICogZFsiZmluZGVyX0wiXSAqIFNURVBTCiAgICAgICAgaCA9IG5faW5zdCAvIHMgLyAzNjAwCiAgICAgICAgdG90YWxfc2NvcmVfaCArPSBoICogTU9ERUxTCiAgICAgICAgcGVyX2dyb3VwW25hbWVdID0gaAogICAgICAgIHByaW50KGYiICB7bmFtZToxMXN9OiB7ZFsncG9vbCddOjZkfSBxdWVyeSDDlyBMPXtkWydmaW5kZXJfTCddOjNkfSDDlyB7U1RFUFN9IOatpSAiCiAgICAgICAgICAgICAgZiI9IHtuX2luc3Q6OSxkfSDlrp7kvosg4oaSIHtoOjguMmZ9IOWwj+aXti/mqKHlnosg4oaSIHtoKk1PREVMUzo4LjJmfSDlsI/ml7bvvIjkuKTmqKHlnovvvIkiKQoKICAgIHRvdGFsX2ggPSBiYXNlX2ggKyB0b3RhbF9zY29yZV9oICsgKGFyZ3MudHJhaW5fbWluIC8gNjApICogMyAqIE1PREVMUwogICAgcHJpbnQoZiJcbuOAkOWFqOmHj+aAu+iAl+aXtuOAkeWfuue6vyB7YmFzZV9oOi4yZn1oICsg5omT5YiGIHt0b3RhbF9zY29yZV9oOi4yZn1oICsgIgogICAgICAgICAgZiLorq3nu4Mge2FyZ3MudHJhaW5fbWluKjMqTU9ERUxTLzYwOi4yZn1oIOKJiCB7dG90YWxfaDouMmZ9IOWwj+aXtiIpCiAgICBwcmludChmIuOAkOmihOeul+OAkXtCVURHRVRfSE9VUlN9IOWwj+aXtiDihpIgIgogICAgICAgICAgZiJ7J+i2heWHuu+8jOmcgOimgemZjeinhOaooScgaWYgdG90YWxfaCA+IEJVREdFVF9IT1VSUyBlbHNlICflnKjpooTnrpflhoUnfSIpCgogICAgaWYgdG90YWxfaCA+IEJVREdFVF9IT1VSUzoKICAgICAgICBuZWVkID0gdG90YWxfaCAvIEJVREdFVF9IT1VSUwogICAgICAgIHByaW50KGYiXG7jgJDpmY3op4TmqKHlu7rorq7jgJHpnIDopoHljovnvKnliLAgezEvbmVlZCoxMDA6LjBmfSUg5bem5Y+zIikKICAgICAgICBwcmludCgiICDmlrnmoYggQe+8iOaOqOiNkO+8ie+8mumZjSBkc19zaXpl77yI5omT5YiGIHF1ZXJ5IOaVsO+8ie+8jOS/neaMgSBMIOS4jeWPmCIpCiAgICAgICAgcHJpbnQoIiAg5pa55qGIIELvvJrpmY0gZmluZGVyX0zvvIzkv53mjIEgZHNfc2l6ZSDkuI3lj5giKQogICAgICAgIHByaW50KCIgIOazqO+8mmRzX3NpemUg5Yaz5a6a5omT5YiG5qC35pys5pWw77ybTCDlhrPlrprmr4/kuKogcXVlcnkg55qE5YCZ6YCJ5pWw77yMIikKICAgICAgICBwcmludCgiICAgICAg5b2x5ZON5qOA57Si5Zmo5o6S5bqP5L+h5Y+35by65bqm77yM5LyY5YWI5L+dIEzjgIHpmY0gZHNfc2l6ZeOAgiIpCiAgICAgICAgcHJpbnQoIlxuICDlkITmlbDmja7pm4bpmY3op4TmqKHlkI7pooTkvLDvvIjmiZPliIblsI/ml7Yv5Lik5qih5Z6L77yJ77yaIikKICAgICAgICBmb3IgbmFtZSwgZCBpbiBEQVRBU0VUUy5pdGVtcygpOgogICAgICAgICAgICBmb3IgZmFjdG9yIGluICgwLjUsIDAuMjUsIDAuMSk6CiAgICAgICAgICAgICAgICBuX2luc3QgPSBpbnQoZFsicG9vbCJdICogZmFjdG9yKSAqIGRbImZpbmRlcl9MIl0gKiBTVEVQUwogICAgICAgICAgICAgICAgaCA9IG5faW5zdCAvIHMgLyAzNjAwICogTU9ERUxTCiAgICAgICAgICAgICAgICBmbGFnID0gIiIKICAgICAgICAgICAgICAgIHRvdCA9IGJhc2VfaCArIGggKyAoYXJncy50cmFpbl9taW4vNjApKjMqTU9ERUxTCiAgICAgICAgICAgICAgICBpZiB0b3QgPD0gQlVER0VUX0hPVVJTOgogICAgICAgICAgICAgICAgICAgIGZsYWcgPSAiICDihpAg5ruh6Laz6aKE566XIgogICAgICAgICAgICAgICAgcHJpbnQoZiIgICAge25hbWU6MTFzfSBkc19zaXplw5d7ZmFjdG9yOjw1fSDihpIge25faW5zdDo5LGR9IOWunuS+iyDihpIge2g6Ny4yZn1oe2ZsYWd9IikKCiAgICByZXN1bHQgPSB7CiAgICAgICAgInNwZWVkX2luc3RfcGVyX3MiOiBzLAogICAgICAgICJpbmZlcl9zcGVlZF9zYW1wbGVzX3Blcl9zIjogYXJncy5pbmZlcl9zcGVlZCwKICAgICAgICAiYmFzZWxpbmVfaG91cnMiOiBiYXNlX2gsCiAgICAgICAgInNlZHBvX3Njb3JlX2hvdXJzX2Z1bGxzY2FsZSI6IHRvdGFsX3Njb3JlX2gsCiAgICAgICAgInRvdGFsX2hvdXJzX2Z1bGxzY2FsZSI6IHRvdGFsX2gsCiAgICAgICAgImJ1ZGdldF9ob3VycyI6IEJVREdFVF9IT1VSUywKICAgICAgICAicGVyX2RhdGFzZXRfc2NvcmVfaG91cnNfcGVyX21vZGVsIjogcGVyX2dyb3VwLAogICAgfQogICAgaWYgYXJncy5vdXQ6CiAgICAgICAgd2l0aCBvcGVuKGFyZ3Mub3V0LCAidyIpIGFzIGY6CiAgICAgICAgICAgIGpzb24uZHVtcChyZXN1bHQsIGYsIGluZGVudD0yKQogICAgICAgIHByaW50KGYiXG5bT0tdIOmihOeul+e7k+aenOW3suWGmeWFpSB7YXJncy5vdXR9IikKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgbWFpbigpCg==
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+实验规模预算计算器：根据实测速度（秒/打分实例）推算全量实验耗时，
+并在超过 12 小时预算时给出降规模建议。
+
+打分实例数定义（与 scorer_dsr 一致）：
+  step1: 每条 query 打 L 个候选 → n_query × L
+  step2: 每条 query 的 L 个候选里选 choosen_num 个，每个再打 L 个 → n_query × L
+  step3: 同上 → n_query × L
+  注：step2/step3 的输入条数等于 step1 输出的 query 数（打分后按 query 聚合）。
+
+用法:
+  python 20261105_plan_budget.py --speed 12.5 --out plan.json
+"""
+import argparse
+import json
+
+# 三个数据集的候选池规模（已生成的 find_random step1 条数 = query 数）
+DATASETS = {
+    "arc_c":      {"pool": 1117,  "finder_L": 400, "test": 1165, "class_num": 4},
+    "openbookqa": {"pool": 4957,  "finder_L": 200, "test": 500,  "class_num": 4},
+    "multirc":    {"pool": 10000, "finder_L": 50,  "test": 4848, "class_num": 2},
+}
+STEPS = 3          # SeDPO 打分步数
+MODELS = 2         # qwen + llama
+BUDGET_HOURS = 12.0
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--speed", type=float, required=True,
+                    help="实测打分速度（实例/秒），单条实例含 option_num 次前向")
+    ap.add_argument("--infer-speed", type=float, default=4.0,
+                    help="实测推理速度（测试样本/秒）")
+    ap.add_argument("--train-min", type=float, default=20.0,
+                    help="检索器 DPO 训练预估（分钟/组）")
+    ap.add_argument("--out", default=None)
+    args = ap.parse_args()
+
+    s = args.speed
+    print(f"实测打分速度: {s:.2f} 实例/秒")
+    print(f"推理速度:     {args.infer_speed:.2f} 样本/秒")
+    print("=" * 78)
+
+    # ---- 基线开销（两个模型 × 每个数据集 × 2 种模式）----
+    base_h = 0.0
+    for name, d in DATASETS.items():
+        t = d["test"] / args.infer_speed / 3600
+        base_h += t * 2 * MODELS   # zeroshot + random3
+    print(f"\n【基线总开销】zeroshot+random3 × 3 数据集 × 2 模型 ≈ {base_h:.2f} 小时")
+
+    # ---- SeDPO 打分开销（全量）----
+    print("\n【SeDPO 打分开销（全量规模）】")
+    total_score_h = 0.0
+    per_group = {}
+    for name, d in DATASETS.items():
+        n_inst = d["pool"] * d["finder_L"] * STEPS
+        h = n_inst / s / 3600
+        total_score_h += h * MODELS
+        per_group[name] = h
+        print(f"  {name:11s}: {d['pool']:6d} query × L={d['finder_L']:3d} × {STEPS} 步 "
+              f"= {n_inst:9,d} 实例 → {h:8.2f} 小时/模型 → {h*MODELS:8.2f} 小时（两模型）")
+
+    total_h = base_h + total_score_h + (args.train_min / 60) * 3 * MODELS
+    print(f"\n【全量总耗时】基线 {base_h:.2f}h + 打分 {total_score_h:.2f}h + "
+          f"训练 {args.train_min*3*MODELS/60:.2f}h ≈ {total_h:.2f} 小时")
+    print(f"【预算】{BUDGET_HOURS} 小时 → "
+          f"{'超出，需要降规模' if total_h > BUDGET_HOURS else '在预算内'}")
+
+    if total_h > BUDGET_HOURS:
+        need = total_h / BUDGET_HOURS
+        print(f"\n【降规模建议】需要压缩到 {1/need*100:.0f}% 左右")
+        print("  方案 A（推荐）：降 ds_size（打分 query 数），保持 L 不变")
+        print("  方案 B：降 finder_L，保持 ds_size 不变")
+        print("  注：ds_size 决定打分样本数；L 决定每个 query 的候选数，")
+        print("      影响检索器排序信号强度，优先保 L、降 ds_size。")
+        print("\n  各数据集降规模后预估（打分小时/两模型）：")
+        for name, d in DATASETS.items():
+            for factor in (0.5, 0.25, 0.1):
+                n_inst = int(d["pool"] * factor) * d["finder_L"] * STEPS
+                h = n_inst / s / 3600 * MODELS
+                flag = ""
+                tot = base_h + h + (args.train_min/60)*3*MODELS
+                if tot <= BUDGET_HOURS:
+                    flag = "  ← 满足预算"
+                print(f"    {name:11s} ds_size×{factor:<5} → {n_inst:9,d} 实例 → {h:7.2f}h{flag}")
+
+    result = {
+        "speed_inst_per_s": s,
+        "infer_speed_samples_per_s": args.infer_speed,
+        "baseline_hours": base_h,
+        "sedpo_score_hours_fullscale": total_score_h,
+        "total_hours_fullscale": total_h,
+        "budget_hours": BUDGET_HOURS,
+        "per_dataset_score_hours_per_model": per_group,
+    }
+    if args.out:
+        with open(args.out, "w") as f:
+            json.dump(result, f, indent=2)
+        print(f"\n[OK] 预算结果已写入 {args.out}")
+
+
+if __name__ == "__main__":
+    main()

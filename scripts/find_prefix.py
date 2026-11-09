@@ -1,1 +1,104 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwojIC0qLSBjb2Rpbmc6IHV0Zi04IC0qLQoiIiIK5LqM5YiG5p+l5om+5pys5Zyw5bey5LiL6L295paH5Lu255u45a+5IE1vZGVsU2NvcGUg5rqQ5paH5Lu255qEIuacgOWQjuacieaViOWtl+iKguWBj+enuyLjgIIKCuiDjOaZr++8muWOn+WFiOWkmuS4qiBjdXJsIC1DIC0g6L+b56iL5bm25Y+R5YaZ5ZCM5LiAIC5zYWZldGVuc29yc++8jOWvvOiHtOS4reauteWtl+iKgumUmeS9jeOAggrmnKzohJrmnKzku6UgTW9kZWxTY29wZSDkuLrln7rlh4bvvIzkuozliIblrprkvY3pppbkuKrkuI3ljLnphY3lgY/np7vvvIzku47ogIzkv53nlZnmnInmlYjliY3nvIDjgIHlj6rooaXkuIvnvLrlpLHpg6jliIbjgIIKCueUqOazle+8mgogIHB5dGhvbiBmaW5kX3ByZWZpeC5weSAtLXJlcG8gTm91c1Jlc2VhcmNoL01ldGEtTGxhbWEtMy04QiAtLWZpbGUgL3Jvb3QvLi4uL21vZGVsLTAwMDAxLW9mLTAwMDA0LnNhZmV0ZW5zb3JzCui+k+WHuu+8mjxmaWxlPi5wcmVmaXggIOWGmeWFpeacieaViOWJjee8gOmVv+W6pu+8iOWtl+iKgu+8iQoiIiIKaW1wb3J0IGFyZ3BhcnNlCmltcG9ydCBvcwppbXBvcnQgc3VicHJvY2VzcwppbXBvcnQgc3lzCgpNU19VUkwgPSAiaHR0cHM6Ly93d3cubW9kZWxzY29wZS5jbi9hcGkvdjEvbW9kZWxzL3tyZXBvfS9yZXBvP1JldmlzaW9uPW1hc3RlciZGaWxlUGF0aD17ZmlsZX0iClBST0JFID0gMSA8PCAyMCAgIyDmr4/mrKHmjqLmtYsgMU1CCgoKZGVmIGZldGNoKHJlcG8sIGZuYW1lLCBzdGFydCwgZW5kKToKICAgICIiIuWPluWMuumXtOWtl+iKguWIsOWGheWtmO+8jOi/lOWbniBieXRlc++8iOWksei0pei/lOWbniBOb25l77yJ44CCIiIiCiAgICBmb3IgXyBpbiByYW5nZSg1KToKICAgICAgICBwID0gc3VicHJvY2Vzcy5ydW4oCiAgICAgICAgICAgIFsiY3VybCIsICItc1NMIiwgIi0tbWF4LXRpbWUiLCAiOTAiLCAiLXIiLCBmIntzdGFydH0te2VuZH0iLAogICAgICAgICAgICAgdXJsX2ZvcihyZXBvLCBmbmFtZSldLAogICAgICAgICAgICBjYXB0dXJlX291dHB1dD1UcnVlKQogICAgICAgIGlmIHAucmV0dXJuY29kZSA9PSAwIGFuZCBsZW4ocC5zdGRvdXQpID09IGVuZCAtIHN0YXJ0ICsgMToKICAgICAgICAgICAgcmV0dXJuIHAuc3Rkb3V0CiAgICByZXR1cm4gTm9uZQoKCmRlZiB1cmxfZm9yKHJlcG8sIGZuYW1lKToKICAgIHJldHVybiBNU19VUkwuZm9ybWF0KHJlcG89cmVwbywgZmlsZT1mbmFtZSkKCgpkZWYgbWFpbigpOgogICAgYXAgPSBhcmdwYXJzZS5Bcmd1bWVudFBhcnNlcigpCiAgICBhcC5hZGRfYXJndW1lbnQoIi0tcmVwbyIsIHJlcXVpcmVkPVRydWUpCiAgICBhcC5hZGRfYXJndW1lbnQoIi0tZmlsZSIsIHJlcXVpcmVkPVRydWUpCiAgICBhcC5hZGRfYXJndW1lbnQoIi0tbWF4LWNoZWNrIiwgdHlwZT1pbnQsIGRlZmF1bHQ9NjQsCiAgICAgICAgICAgICAgICAgICAgaGVscD0i5LqM5YiG6Zi25q615pyA5aSa5o6i5rWL5qyh5pWwIikKICAgIGFyZ3MgPSBhcC5wYXJzZV9hcmdzKCkKCiAgICBwYXRoID0gYXJncy5maWxlCiAgICBsb2NhbCA9IG9zLnBhdGguZ2V0c2l6ZShwYXRoKQogICAgZm5hbWUgPSBvcy5wYXRoLmJhc2VuYW1lKHBhdGgpCiAgICBsb2cgPSBsYW1iZGEgbTogcHJpbnQoZiJbe2FyZ3MuZmlsZX1dIHttfSIsIGZsdXNoPVRydWUpCiAgICBsb2coZiLmnKzlnLDlpKflsI8ge2xvY2FsfSIpCgogICAgZGVmIG1hdGNoZXMob2ZmKToKICAgICAgICAiIiLmo4Dmn6XmnKzlnLAgb2Zmc2V0IG9mZiDlpITotbcgUFJPQkUg5a2X6IqC5piv5ZCm5LiO5rqQ5LiA6Ie044CCIiIiCiAgICAgICAgaWYgb2ZmICsgUFJPQkUgPiBsb2NhbDoKICAgICAgICAgICAgZW5kID0gbG9jYWwgLSAxCiAgICAgICAgICAgIG4gPSBsb2NhbCAtIG9mZgogICAgICAgIGVsc2U6CiAgICAgICAgICAgIGVuZCA9IG9mZiArIFBST0JFIC0gMQogICAgICAgICAgICBuID0gUFJPQkUKICAgICAgICBpZiBuIDw9IDA6CiAgICAgICAgICAgIHJldHVybiBUcnVlCiAgICAgICAgcmVmID0gZmV0Y2goYXJncy5yZXBvLCBmbmFtZSwgb2ZmLCBlbmQpCiAgICAgICAgaWYgcmVmIGlzIE5vbmU6CiAgICAgICAgICAgIHJldHVybiBOb25lICAjIOe9kee7nOmXrumimO+8jOacquefpQogICAgICAgIHdpdGggb3BlbihwYXRoLCAicmIiKSBhcyBmOgogICAgICAgICAgICBmLnNlZWsob2ZmKQogICAgICAgICAgICBnb3QgPSBmLnJlYWQobikKICAgICAgICByZXR1cm4gZ290ID09IHJlZgoKICAgICMg5YWI56Gu6K6k5aS06YOo5pyJ5pWICiAgICBoZWFkID0gbWF0Y2hlcygwKQogICAgaWYgaGVhZCBpcyBGYWxzZToKICAgICAgICBsb2coIuWktOmDqOWNs+S4jeWMuemFjSDihpIg5pys5Zyw5paH5Lu25a6M5YWo5LiN5Y+v55SoIikKICAgICAgICB3aXRoIG9wZW4ocGF0aCArICIucHJlZml4IiwgInciKSBhcyBmOgogICAgICAgICAgICBmLndyaXRlKCIwIikKICAgICAgICBwcmludCgiUFJFRklYPTAiKQogICAgICAgIHJldHVybiAwCiAgICBpZiBoZWFkIGlzIE5vbmU6CiAgICAgICAgbG9nKCLnvZHnu5zmjqLmtYvlpLHotKUiKQogICAgICAgIHJldHVybiAxCgogICAgIyDkuozliIbvvJrmib7mnIDlpKfnmoQgbyDkvb8gW28sIG8rUFJPQkUpIOS7jeWMuemFjQogICAgbG8sIGhpID0gMCwgbG9jYWwgICMgW2xvLCBoaSkg5Li65Y+v55aR5Yy66Ze077yMbG8g5bey55+l5Yy56YWN5YmN57yACiAgICBjaGVja3MgPSAwCiAgICB3aGlsZSBoaSAtIGxvID4gUFJPQkUgYW5kIGNoZWNrcyA8IGFyZ3MubWF4X2NoZWNrOgogICAgICAgIG1pZCA9IChsbyArIGhpKSAvLyAyCiAgICAgICAgciA9IG1hdGNoZXMobWlkKQogICAgICAgIGNoZWNrcyArPSAxCiAgICAgICAgaWYgciBpcyBOb25lOgogICAgICAgICAgICBsb2coIue9kee7nOaOoua1i+Wksei0pe+8jOS/neWuiOWPliBsbyIpCiAgICAgICAgICAgIGJyZWFrCiAgICAgICAgaWYgcjoKICAgICAgICAgICAgbG8gPSBtaWQKICAgICAgICBlbHNlOgogICAgICAgICAgICBoaSA9IG1pZAogICAgbG9nKGYi5LqM5YiGIHtjaGVja3N9IOasoSDihpIg5pyJ5pWI5YmN57yA57qmIHtsb30g5a2X6IqCICh7bG8vMTAyNC8xMDI0Oi4xZn0gTUIpIikKICAgIHdpdGggb3BlbihwYXRoICsgIi5wcmVmaXgiLCAidyIpIGFzIGY6CiAgICAgICAgZi53cml0ZShzdHIobG8pKQogICAgcHJpbnQoZiJQUkVGSVg9e2xvfSIpCiAgICByZXR1cm4gMAoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBzeXMuZXhpdChtYWluKCkpCg==
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+二分查找本地已下载文件相对 ModelScope 源文件的"最后有效字节偏移"。
+
+背景：原先多个 curl -C - 进程并发写同一 .safetensors，导致中段字节错位。
+本脚本以 ModelScope 为基准，二分定位首个不匹配偏移，从而保留有效前缀、只补下缺失部分。
+
+用法：
+  python find_prefix.py --repo NousResearch/Meta-Llama-3-8B --file /root/.../model-00001-of-00004.safetensors
+输出：<file>.prefix  写入有效前缀长度（字节）
+"""
+import argparse
+import os
+import subprocess
+import sys
+
+MS_URL = "https://www.modelscope.cn/api/v1/models/{repo}/repo?Revision=master&FilePath={file}"
+PROBE = 1 << 20  # 每次探测 1MB
+
+
+def fetch(repo, fname, start, end):
+    """取区间字节到内存，返回 bytes（失败返回 None）。"""
+    for _ in range(5):
+        p = subprocess.run(
+            ["curl", "-sSL", "--max-time", "90", "-r", f"{start}-{end}",
+             url_for(repo, fname)],
+            capture_output=True)
+        if p.returncode == 0 and len(p.stdout) == end - start + 1:
+            return p.stdout
+    return None
+
+
+def url_for(repo, fname):
+    return MS_URL.format(repo=repo, file=fname)
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--repo", required=True)
+    ap.add_argument("--file", required=True)
+    ap.add_argument("--max-check", type=int, default=64,
+                    help="二分阶段最多探测次数")
+    args = ap.parse_args()
+
+    path = args.file
+    local = os.path.getsize(path)
+    fname = os.path.basename(path)
+    log = lambda m: print(f"[{args.file}] {m}", flush=True)
+    log(f"本地大小 {local}")
+
+    def matches(off):
+        """检查本地 offset off 处起 PROBE 字节是否与源一致。"""
+        if off + PROBE > local:
+            end = local - 1
+            n = local - off
+        else:
+            end = off + PROBE - 1
+            n = PROBE
+        if n <= 0:
+            return True
+        ref = fetch(args.repo, fname, off, end)
+        if ref is None:
+            return None  # 网络问题，未知
+        with open(path, "rb") as f:
+            f.seek(off)
+            got = f.read(n)
+        return got == ref
+
+    # 先确认头部有效
+    head = matches(0)
+    if head is False:
+        log("头部即不匹配 → 本地文件完全不可用")
+        with open(path + ".prefix", "w") as f:
+            f.write("0")
+        print("PREFIX=0")
+        return 0
+    if head is None:
+        log("网络探测失败")
+        return 1
+
+    # 二分：找最大的 o 使 [o, o+PROBE) 仍匹配
+    lo, hi = 0, local  # [lo, hi) 为可疑区间，lo 已知匹配前缀
+    checks = 0
+    while hi - lo > PROBE and checks < args.max_check:
+        mid = (lo + hi) // 2
+        r = matches(mid)
+        checks += 1
+        if r is None:
+            log("网络探测失败，保守取 lo")
+            break
+        if r:
+            lo = mid
+        else:
+            hi = mid
+    log(f"二分 {checks} 次 → 有效前缀约 {lo} 字节 ({lo/1024/1024:.1f} MB)")
+    with open(path + ".prefix", "w") as f:
+        f.write(str(lo))
+    print(f"PREFIX={lo}")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

@@ -1,1 +1,212 @@
-IyB1c2VyIGN1c3RvbWl6YXRpb25zIGZvciBQeXRob24gcHJvamVjdHMKbXlfZGF0YQpjYWNoZQpvdXRwdXRzCgojIEJ5dGUtY29tcGlsZWQgLyBvcHRpbWl6ZWQgLyBETEwgZmlsZXMKX19weWNhY2hlX18vCioucHlbY29kel0KKiRweS5jbGFzcwoKIyBDIGV4dGVuc2lvbnMKKi5zbwoKIyBEaXN0cmlidXRpb24gLyBwYWNrYWdpbmcKLlB5dGhvbgpidWlsZC8KZGV2ZWxvcC1lZ2dzLwpkaXN0Lwpkb3dubG9hZHMvCmVnZ3MvCi5lZ2dzLwpsaWIvCmxpYjY0LwpwYXJ0cy8Kc2Rpc3QvCnZhci8Kd2hlZWxzLwpzaGFyZS9weXRob24td2hlZWxzLwoqLmVnZy1pbmZvLwouaW5zdGFsbGVkLmNmZwoqLmVnZwpNQU5JRkVTVAoKIyBQeUluc3RhbGxlcgojICBVc3VhbGx5IHRoZXNlIGZpbGVzIGFyZSB3cml0dGVuIGJ5IGEgcHl0aG9uIHNjcmlwdCBmcm9tIGEgdGVtcGxhdGUKIyAgYmVmb3JlIFB5SW5zdGFsbGVyIGJ1aWxkcyB0aGUgZXhlLCBzbyBhcyB0byBpbmplY3QgZGF0ZS9vdGhlciBpbmZvcyBpbnRvIGl0LgoqLm1hbmlmZXN0Ciouc3BlYwoKIyBJbnN0YWxsZXIgbG9ncwpwaXAtbG9nLnR4dApwaXAtZGVsZXRlLXRoaXMtZGlyZWN0b3J5LnR4dAoKIyBVbml0IHRlc3QgLyBjb3ZlcmFnZSByZXBvcnRzCmh0bWxjb3YvCi50b3gvCi5ub3gvCi5jb3ZlcmFnZQouY292ZXJhZ2UuKgouY2FjaGUKbm9zZXRlc3RzLnhtbApjb3ZlcmFnZS54bWwKKi5jb3ZlcgoqLnB5LmNvdmVyCi5oeXBvdGhlc2lzLwoucHl0ZXN0X2NhY2hlLwpjb3Zlci8KCiMgVHJhbnNsYXRpb25zCioubW8KKi5wb3QKCiMgRGphbmdvIHN0dWZmOgoqLmxvZwpsb2NhbF9zZXR0aW5ncy5weQpkYi5zcWxpdGUzCmRiLnNxbGl0ZTMtam91cm5hbAoKIyBGbGFzayBzdHVmZjoKaW5zdGFuY2UvCi53ZWJhc3NldHMtY2FjaGUKCiMgU2NyYXB5IHN0dWZmOgouc2NyYXB5CgojIFNwaGlueCBkb2N1bWVudGF0aW9uCmRvY3MvX2J1aWxkLwoKIyBQeUJ1aWxkZXIKLnB5YnVpbGRlci8KdGFyZ2V0LwoKIyBKdXB5dGVyIE5vdGVib29rCi5pcHluYl9jaGVja3BvaW50cwoKIyBJUHl0aG9uCnByb2ZpbGVfZGVmYXVsdC8KaXB5dGhvbl9jb25maWcucHkKCiMgcHllbnYKIyAgIEZvciBhIGxpYnJhcnkgb3IgcGFja2FnZSwgeW91IG1pZ2h0IHdhbnQgdG8gaWdub3JlIHRoZXNlIGZpbGVzIHNpbmNlIHRoZSBjb2RlIGlzCiMgICBpbnRlbmRlZCB0byBydW4gaW4gbXVsdGlwbGUgZW52aXJvbm1lbnRzOyBvdGhlcndpc2UsIGNoZWNrIHRoZW0gaW46CiMgLnB5dGhvbi12ZXJzaW9uCgojIHBpcGVudgojICAgQWNjb3JkaW5nIHRvIHB5cGEvcGlwZW52IzU5OCwgaXQgaXMgcmVjb21tZW5kZWQgdG8gaW5jbHVkZSBQaXBmaWxlLmxvY2sgaW4gdmVyc2lvbiBjb250cm9sLgojICAgSG93ZXZlciwgaW4gY2FzZSBvZiBjb2xsYWJvcmF0aW9uLCBpZiBoYXZpbmcgcGxhdGZvcm0tc3BlY2lmaWMgZGVwZW5kZW5jaWVzIG9yIGRlcGVuZGVuY2llcwojICAgaGF2aW5nIG5vIGNyb3NzLXBsYXRmb3JtIHN1cHBvcnQsIHBpcGVudiBtYXkgaW5zdGFsbCBkZXBlbmRlbmNpZXMgdGhhdCBkb24ndCB3b3JrLCBvciBub3QKIyAgIGluc3RhbGwgYWxsIG5lZWRlZCBkZXBlbmRlbmNpZXMuCiNQaXBmaWxlLmxvY2sKCiMgVVYKIyAgIFNpbWlsYXIgdG8gUGlwZmlsZS5sb2NrLCBpdCBpcyBnZW5lcmFsbHkgcmVjb21tZW5kZWQgdG8gaW5jbHVkZSB1di5sb2NrIGluIHZlcnNpb24gY29udHJvbC4KIyAgIFRoaXMgaXMgZXNwZWNpYWxseSByZWNvbW1lbmRlZCBmb3IgYmluYXJ5IHBhY2thZ2VzIHRvIGVuc3VyZSByZXByb2R1Y2liaWxpdHksIGFuZCBpcyBtb3JlCiMgICBjb21tb25seSBpZ25vcmVkIGZvciBsaWJyYXJpZXMuCiN1di5sb2NrCgojIHBvZXRyeQojICAgU2ltaWxhciB0byBQaXBmaWxlLmxvY2ssIGl0IGlzIGdlbmVyYWxseSByZWNvbW1lbmRlZCB0byBpbmNsdWRlIHBvZXRyeS5sb2NrIGluIHZlcnNpb24gY29udHJvbC4KIyAgIFRoaXMgaXMgZXNwZWNpYWxseSByZWNvbW1lbmRlZCBmb3IgYmluYXJ5IHBhY2thZ2VzIHRvIGVuc3VyZSByZXByb2R1Y2liaWxpdHksIGFuZCBpcyBtb3JlCiMgICBjb21tb25seSBpZ25vcmVkIGZvciBsaWJyYXJpZXMuCiMgICBodHRwczovL3B5dGhvbi1wb2V0cnkub3JnL2RvY3MvYmFzaWMtdXNhZ2UvI2NvbW1pdC15b3VyLXBvZXRyeWxvY2stZmlsZS10by12ZXJzaW9uLWNvbnRyb2wKI3BvZXRyeS5sb2NrCiNwb2V0cnkudG9tbAoKIyBwZG0KIyAgIFNpbWlsYXIgdG8gUGlwZmlsZS5sb2NrLCBpdCBpcyBnZW5lcmFsbHkgcmVjb21tZW5kZWQgdG8gaW5jbHVkZSBwZG0ubG9jayBpbiB2ZXJzaW9uIGNvbnRyb2wuCiMgICBwZG0gcmVjb21tZW5kcyBpbmNsdWRpbmcgcHJvamVjdC13aWRlIGNvbmZpZ3VyYXRpb24gaW4gcGRtLnRvbWwsIGJ1dCBleGNsdWRpbmcgLnBkbS1weXRob24uCiMgICBodHRwczovL3BkbS1wcm9qZWN0Lm9yZy9lbi9sYXRlc3QvdXNhZ2UvcHJvamVjdC8jd29ya2luZy13aXRoLXZlcnNpb24tY29udHJvbAojcGRtLmxvY2sKI3BkbS50b21sCi5wZG0tcHl0aG9uCi5wZG0tYnVpbGQvCgojIHBpeGkKIyAgIFNpbWlsYXIgdG8gUGlwZmlsZS5sb2NrLCBpdCBpcyBnZW5lcmFsbHkgcmVjb21tZW5kZWQgdG8gaW5jbHVkZSBwaXhpLmxvY2sgaW4gdmVyc2lvbiBjb250cm9sLgojcGl4aS5sb2NrCiMgICBQaXhpIGNyZWF0ZXMgYSB2aXJ0dWFsIGVudmlyb25tZW50IGluIHRoZSAucGl4aSBkaXJlY3RvcnksIGp1c3QgbGlrZSB2ZW52IG1vZHVsZSBjcmVhdGVzIG9uZQojICAgaW4gdGhlIC52ZW52IGRpcmVjdG9yeS4gSXQgaXMgcmVjb21tZW5kZWQgbm90IHRvIGluY2x1ZGUgdGhpcyBkaXJlY3RvcnkgaW4gdmVyc2lvbiBjb250cm9sLgoucGl4aQoKIyBQRVAgNTgyOyB1c2VkIGJ5IGUuZy4gZ2l0aHViLmNvbS9EYXZpZC1PQ29ubm9yL3B5ZmxvdyBhbmQgZ2l0aHViLmNvbS9wZG0tcHJvamVjdC9wZG0KX19weXBhY2thZ2VzX18vCgojIENlbGVyeSBzdHVmZgpjZWxlcnliZWF0LXNjaGVkdWxlCmNlbGVyeWJlYXQucGlkCgojIFNhZ2VNYXRoIHBhcnNlZCBmaWxlcwoqLnNhZ2UucHkKCiMgRW52aXJvbm1lbnRzCi5lbnYKLmVudnJjCi52ZW52CmVudi8KdmVudi8KRU5WLwplbnYuYmFrLwp2ZW52LmJhay8KCiMgU3B5ZGVyIHByb2plY3Qgc2V0dGluZ3MKLnNweWRlcnByb2plY3QKLnNweXByb2plY3QKCiMgUm9wZSBwcm9qZWN0IHNldHRpbmdzCi5yb3BlcHJvamVjdAoKIyBta2RvY3MgZG9jdW1lbnRhdGlvbgovc2l0ZQoKIyBteXB5Ci5teXB5X2NhY2hlLwouZG15cHkuanNvbgpkbXlweS5qc29uCgojIFB5cmUgdHlwZSBjaGVja2VyCi5weXJlLwoKIyBweXR5cGUgc3RhdGljIHR5cGUgYW5hbHl6ZXIKLnB5dHlwZS8KCiMgQ3l0aG9uIGRlYnVnIHN5bWJvbHMKY3l0aG9uX2RlYnVnLwoKIyBQeUNoYXJtCiMgIEpldEJyYWlucyBzcGVjaWZpYyB0ZW1wbGF0ZSBpcyBtYWludGFpbmVkIGluIGEgc2VwYXJhdGUgSmV0QnJhaW5zLmdpdGlnbm9yZSB0aGF0IGNhbgojICBiZSBmb3VuZCBhdCBodHRwczovL2dpdGh1Yi5jb20vZ2l0aHViL2dpdGlnbm9yZS9ibG9iL21haW4vR2xvYmFsL0pldEJyYWlucy5naXRpZ25vcmUKIyAgYW5kIGNhbiBiZSBhZGRlZCB0byB0aGUgZ2xvYmFsIGdpdGlnbm9yZSBvciBtZXJnZWQgaW50byB0aGlzIGZpbGUuICBGb3IgYSBtb3JlIG51Y2xlYXIKIyAgb3B0aW9uIChub3QgcmVjb21tZW5kZWQpIHlvdSBjYW4gdW5jb21tZW50IHRoZSBmb2xsb3dpbmcgdG8gaWdub3JlIHRoZSBlbnRpcmUgaWRlYSBmb2xkZXIuCiMuaWRlYS8KCiMgQWJzdHJhCiMgQWJzdHJhIGlzIGFuIEFJLXBvd2VyZWQgcHJvY2VzcyBhdXRvbWF0aW9uIGZyYW1ld29yay4KIyBJZ25vcmUgZGlyZWN0b3JpZXMgY29udGFpbmluZyB1c2VyIGNyZWRlbnRpYWxzLCBsb2NhbCBzdGF0ZSwgYW5kIHNldHRpbmdzLgojIExlYXJuIG1vcmUgYXQgaHR0cHM6Ly9hYnN0cmEuaW8vZG9jcwouYWJzdHJhLwoKIyBWaXN1YWwgU3R1ZGlvIENvZGUKIyAgVmlzdWFsIFN0dWRpbyBDb2RlIHNwZWNpZmljIHRlbXBsYXRlIGlzIG1haW50YWluZWQgaW4gYSBzZXBhcmF0ZSBWaXN1YWxTdHVkaW9Db2RlLmdpdGlnbm9yZSAKIyAgdGhhdCBjYW4gYmUgZm91bmQgYXQgaHR0cHM6Ly9naXRodWIuY29tL2dpdGh1Yi9naXRpZ25vcmUvYmxvYi9tYWluL0dsb2JhbC9WaXN1YWxTdHVkaW9Db2RlLmdpdGlnbm9yZQojICBhbmQgY2FuIGJlIGFkZGVkIHRvIHRoZSBnbG9iYWwgZ2l0aWdub3JlIG9yIG1lcmdlZCBpbnRvIHRoaXMgZmlsZS4gSG93ZXZlciwgaWYgeW91IHByZWZlciwgCiMgIHlvdSBjb3VsZCB1bmNvbW1lbnQgdGhlIGZvbGxvd2luZyB0byBpZ25vcmUgdGhlIGVudGlyZSB2c2NvZGUgZm9sZGVyCiMgLnZzY29kZS8KCiMgUnVmZiBzdHVmZjoKLnJ1ZmZfY2FjaGUvCgojIFB5UEkgY29uZmlndXJhdGlvbiBmaWxlCi5weXBpcmMKCiMgQ3Vyc29yCiMgIEN1cnNvciBpcyBhbiBBSS1wb3dlcmVkIGNvZGUgZWRpdG9yLiBgLmN1cnNvcmlnbm9yZWAgc3BlY2lmaWVzIGZpbGVzL2RpcmVjdG9yaWVzIHRvCiMgIGV4Y2x1ZGUgZnJvbSBBSSBmZWF0dXJlcyBsaWtlIGF1dG9jb21wbGV0ZSBhbmQgY29kZSBhbmFseXNpcy4gUmVjb21tZW5kZWQgZm9yIHNlbnNpdGl2ZSBkYXRhCiMgIHJlZmVyIHRvIGh0dHBzOi8vZG9jcy5jdXJzb3IuY29tL2NvbnRleHQvaWdub3JlLWZpbGVzCi5jdXJzb3JpZ25vcmUKLmN1cnNvcmluZGV4aW5naWdub3JlCgojIE1hcmltbwptYXJpbW8vX3N0YXRpYy8KbWFyaW1vL19sc3AvCl9fbWFyaW1vX18vCg==
+# user customizations for Python projects
+my_data
+cache
+outputs
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[codz]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+# .python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# UV
+#   Similar to Pipfile.lock, it is generally recommended to include uv.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+#uv.lock
+
+# poetry
+#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+#poetry.lock
+#poetry.toml
+
+# pdm
+#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
+#   pdm recommends including project-wide configuration in pdm.toml, but excluding .pdm-python.
+#   https://pdm-project.org/en/latest/usage/project/#working-with-version-control
+#pdm.lock
+#pdm.toml
+.pdm-python
+.pdm-build/
+
+# pixi
+#   Similar to Pipfile.lock, it is generally recommended to include pixi.lock in version control.
+#pixi.lock
+#   Pixi creates a virtual environment in the .pixi directory, just like venv module creates one
+#   in the .venv directory. It is recommended not to include this directory in version control.
+.pixi
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+#  and can be added to the global gitignore or merged into this file.  For a more nuclear
+#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
+#.idea/
+
+# Abstra
+# Abstra is an AI-powered process automation framework.
+# Ignore directories containing user credentials, local state, and settings.
+# Learn more at https://abstra.io/docs
+.abstra/
+
+# Visual Studio Code
+#  Visual Studio Code specific template is maintained in a separate VisualStudioCode.gitignore 
+#  that can be found at https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
+#  and can be added to the global gitignore or merged into this file. However, if you prefer, 
+#  you could uncomment the following to ignore the entire vscode folder
+# .vscode/
+
+# Ruff stuff:
+.ruff_cache/
+
+# PyPI configuration file
+.pypirc
+
+# Cursor
+#  Cursor is an AI-powered code editor. `.cursorignore` specifies files/directories to
+#  exclude from AI features like autocomplete and code analysis. Recommended for sensitive data
+#  refer to https://docs.cursor.com/context/ignore-files
+.cursorignore
+.cursorindexingignore
+
+# Marimo
+marimo/_static/
+marimo/_lsp/
+__marimo__/

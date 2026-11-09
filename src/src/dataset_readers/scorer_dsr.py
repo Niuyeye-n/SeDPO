@@ -1,1 +1,210 @@
-ZnJvbSB0eXBpbmcgaW1wb3J0IEFueSwgRGljdApmcm9tIHRyYW5zZm9ybWVycyBpbXBvcnQgQXV0b1Rva2VuaXplcgppbXBvcnQgdG9yY2gKaW1wb3J0IHBhbmRhcyBhcyBwZAppbXBvcnQganNvbgppbXBvcnQgcGFuZGFzIGFzIHBkCmZyb20gZGF0YXNldHMgaW1wb3J0IERhdGFzZXQKaW1wb3J0IGpzb24KaW1wb3J0IHJlCmZyb20gc3JjLnV0aWxzLmRhdGFzZXRfdXRpbHMgaW1wb3J0IHBhZDJzYW1lTGVuX3Rlc3QKZnJvbSBEUFIuZHByLnV0aWxzLnRhc2tzIGltcG9ydCB0YXNrX21hcApmcm9tIHRxZG0gaW1wb3J0IHRxZG0KZGVmIHJlbW92ZV9kb3VibGVfc3BhY2Uoc3RyaW5nKToKICAgIHJldHVybiByZS5zdWIoIlsgXXsyLH0iLCAiICIsIHN0cmluZykKCmNsYXNzIFNjb3JlckRhdGFzZXRSZWFkZXIodG9yY2gudXRpbHMuZGF0YS5EYXRhc2V0KToKICAgIGRlZiBfX2luaXRfXygKICAgICAgICBzZWxmLAogICAgICAgIGV4YW1wbGVfZmlsZSwKICAgICAgICBtb2RlbF9uYW1lLAogICAgICAgIHRhc2tfbmFtZSwKICAgICAgICBwcm9tcHRfcG9vbF9wYXRoPU5vbmUsCiAgICAgICAgY2FjaGVfZGlyPU5vbmUsCiAgICAgICAgbWF4X2xlbmd0aD0yMDQ4LAogICAgICAgIGZld19zaG90X251bT0zLAogICAgKSAtPiBOb25lOgogICAgICAgIHNlbGYudGFzayA9IHRhc2tfbWFwLmNsc19kaWNbdGFza19uYW1lXSgpCiAgICAgICAgc2VsZi5tYXhfbGVuZ3RoID0gbWF4X2xlbmd0aAogICAgICAgIHNlbGYudG9rZW5pemVyID0gQXV0b1Rva2VuaXplci5mcm9tX3ByZXRyYWluZWQoCiAgICAgICAgICAgIG1vZGVsX25hbWUsIGNhY2hlX2Rpcj1jYWNoZV9kaXIsIG1vZGVsX21heF9sZW5ndGg9c2VsZi5tYXhfbGVuZ3RoCiAgICAgICAgKQogICAgICAgIGlmIHNlbGYudGFzay5jbGFzc19udW0gPT0gMTogICMgdGV4dCBjb21wbGV0aW9uIHF1ZXN0aW9uCiAgICAgICAgICAgIHNlbGYudG9rZW5pemVyLnBhZGRpbmdfc2lkZSA9ICJsZWZ0IgoKICAgICAgICAjIHByb21wdF9wb29sCiAgICAgICAgd2l0aCBvcGVuKHByb21wdF9wb29sX3BhdGgsICJyIiwgZW5jb2Rpbmc9InV0Zi04IikgYXMgZjoKICAgICAgICAgICAgcHJvbXB0X3Bvb2wgPSBqc29uLmxvYWQoZikKICAgICAgICBzZWxmLnByb21wdF9wb29sID0gbGlzdChlbnVtZXJhdGUocHJvbXB0X3Bvb2wpKSAjIHR1cGxlIChpZCwgZGljdCkKICAgICAgICAKICAgICAgICAjIHRhc2tfZGF0YQogICAgICAgIHdpdGggb3BlbihleGFtcGxlX2ZpbGUpIGFzIGYxOgogICAgICAgICAgICBzZWxmLnRhc2tfZGF0YSA9IGpzb24ubG9hZChmMSkKCiAgICAgICAgc2VsZi5mZXdfc2hvdF9udW0gPSBmZXdfc2hvdF9udW0KCiAgICAgICAgZGVmIGdldF9pbnN0YW5jZV9vbGQoZW50cnkpOgogICAgICAgICAgICBleGFtcGxlcyA9IGVudHJ5LnBvcCgic3RlcF8xX2N0eHMiKQogICAgICAgICAgICBmb3IgZXhwIGluIGV4YW1wbGVzOgogICAgICAgICAgICAgICAgZXhwLnVwZGF0ZShzZWxmLnByb21wdF9wb29sW2V4cFsiaWQiXV1bMV0pCiAgICAgICAgICAgICAgICBmb3Iga2V5LCB2YWwgaW4gZW50cnkuaXRlbXMoKToKICAgICAgICAgICAgICAgICAgICBleHBbZiJ0ZXN0X3trZXl9Il0gPSB2YWwKICAgICAgICAgICAgeWllbGQgZnJvbSBleGFtcGxlcwoKICAgICAgICBkZWYgZ2V0X2luc3RhbmNlKGVudHJ5KToKICAgICAgICAgICAgZGF0YSA9IFtdCiAgICAgICAgICAgIGZvciBpIGluIHJhbmdlKDIsIHNlbGYuZmV3X3Nob3RfbnVtKzEpOiAjIDMtc2hvdCBub3cKICAgICAgICAgICAgICAgIGlmICJzdGVwXyIrc3RyKGkpKyJfaGF2ZV9jaG9vc2VuIiBub3QgaW4gZW50cnk6IGNvbnRpbnVlCiAgICAgICAgICAgICAgICBjaG9vc2VuX2xpc3QgPSBlbnRyeVsic3RlcF8iK3N0cihpKSsiX2hhdmVfY2hvb3NlbiJdCiAgICAgICAgICAgICAgICBzYW1wbGVfbGlzdCA9IGVudHJ5WyJzdGVwXyIrc3RyKGkpKyJfY3R4cyJdCiAgICAgICAgICAgICAgICBmb3IgaiBpbiByYW5nZShsZW4oY2hvb3Nlbl9saXN0KSk6CiAgICAgICAgICAgICAgICAgICAgZm9yIGlkIGluIHNhbXBsZV9saXN0W2pdOgogICAgICAgICAgICAgICAgICAgICAgICBpbnN0YW5jZSA9IHt9CiAgICAgICAgICAgICAgICAgICAgICAgIGluc3RhbmNlWyJoYXZlX2Nob29zZW4iXSA9IGNob29zZW5fbGlzdFtqXQogICAgICAgICAgICAgICAgICAgICAgICBpbnN0YW5jZS51cGRhdGUoc2VsZi5wcm9tcHRfcG9vbFtpZF1bMV0pCiAgICAgICAgICAgICAgICAgICAgICAgIGZvciBrZXksIHZhbCBpbiBlbnRyeS5pdGVtcygpOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYoa2V5Wzo0XT09InN0ZXAiKTogY29udGludWUKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGluc3RhbmNlW2YidGVzdF97a2V5fSJdID0gdmFsCiAgICAgICAgICAgICAgICAgICAgICAgIGRhdGEuYXBwZW5kKGluc3RhbmNlKQogICAgICAgICAgICB5aWVsZCBmcm9tIGRhdGEKCiAgICAgICAgZGVmIGdldF9kYXRhc2V0KGRhdGEpOgogICAgICAgICAgICBmb3IgZW50cnkgaW4gZGF0YToKICAgICAgICAgICAgICAgIGlmICJzdGVwXzFfaGF2ZV9jaG9vc2VuIiBpbiBlbnRyeTogeWllbGQgZnJvbSBnZXRfaW5zdGFuY2Vfb2xkKGVudHJ5KQogICAgICAgICAgICAgICAgZWxzZTogeWllbGQgZnJvbSBnZXRfaW5zdGFuY2UoZW50cnkpCgogICAgICAgIGRmID0gcGQuRGF0YUZyYW1lKGxpc3QoZ2V0X2RhdGFzZXQoc2VsZi50YXNrX2RhdGEpKSkKICAgICAgICBzZWxmLmRhdGFzZXQgPSBEYXRhc2V0LmZyb21fcGFuZGFzKGRmKQoKICAgIGRlZiBzaGFyZChzZWxmLCBhY2NlbGVyYXRvcik6CiAgICAgICAgc2VsZi5kYXRhc2V0ID0gc2VsZi5kYXRhc2V0LnNoYXJkKAogICAgICAgICAgICBudW1fc2hhcmRzPWFjY2VsZXJhdG9yLm51bV9wcm9jZXNzZXMsIGluZGV4PWFjY2VsZXJhdG9yLnByb2Nlc3NfaW5kZXgKICAgICAgICApCiAgICAgICAgc2VsZi5maWx0ZXJfdmFsaWRfbGVuZ3RoKCkKCiAgICBkZWYgZmlsdGVyX3ZhbGlkX2xlbmd0aChzZWxmKToKICAgICAgICBzZWxlY3RlZF9pZHMgPSBbXQogICAgICAgIGluaXRfbGVuID0gbGVuKHNlbGYuZGF0YXNldCkKICAgICAgICBmb3IgaSBpbiB0cWRtKHJhbmdlKGluaXRfbGVuKSxkZXNjPWYiZmlsdGVyIGJ5IG1heCBsZW5ndGggb2Yge3NlbGYubWF4X2xlbmd0aH0iKToKICAgICAgICAgICAgZW50cnkgPSBzZWxmW2ldCiAgICAgICAgICAgIGlmIG5vdCBlbnRyeVsiaW5wdXRfaWRzIl0uc2hhcGVbLTFdPj1zZWxmLm1heF9sZW5ndGg6CiAgICAgICAgICAgICAgICBzZWxlY3RlZF9pZHMuYXBwZW5kKGkpCiAgICAgICAgc2VsZi5kYXRhc2V0ID0gc2VsZi5kYXRhc2V0LnNlbGVjdChzZWxlY3RlZF9pZHNbOjotMV0pCiAgICAgICAgcHJpbnQoZiJ7bGVuKHNlbGYuZGF0YXNldCl9L3tpbml0X2xlbn0iKQoKICAgIGRlZiBfX2dldGl0ZW1fXyhzZWxmLCBpbmRleCk6CiAgICAgICAgaWYgc2VsZi50YXNrLmNsYXNzX251bSA9PSAxOiAjIHRleHQgY29tcGxldGlvbiBxdWVzdGlvbgogICAgICAgICAgICByZXR1cm4gc2VsZi50ZXh0X3RvX2luc3RhbmNlX2NvbXBsZXRpb24oc2VsZi5kYXRhc2V0W2luZGV4XSkKICAgICAgICBlbHNlOgogICAgICAgICAgICByZXR1cm4gc2VsZi50ZXh0X3RvX2luc3RhbmNlX2Nob2ljZShzZWxmLmRhdGFzZXRbaW5kZXhdKQoKICAgIGRlZiBfX2xlbl9fKHNlbGYpOgogICAgICAgIHJldHVybiBsZW4oc2VsZi5kYXRhc2V0KQoKICAgIGRlZiBnZXRfZmllbGRzKHNlbGYsIGVudHJ5KToKICAgICAgICBkZW1vbnN0cmF0aW9uID0gIiIgCiAgICAgICAgaWYgImhhdmVfY2hvb3NlbiIgaW4gZW50cnk6CiAgICAgICAgICAgIGV4YW1wbGVfaWRfbGlzdCA9IGVudHJ5WyJoYXZlX2Nob29zZW4iXQogICAgICAgICAgICBmb3IgZXhhbXBsZV9pZCBpbiBleGFtcGxlX2lkX2xpc3Q6CiAgICAgICAgICAgICAgICBleGFtcGxlID0gc2VsZi5wcm9tcHRfcG9vbFtleGFtcGxlX2lkXVsxXQogICAgICAgICAgICAgICAgcXVlc3Rpb24gPSBzZWxmLnRhc2suZ2V0X3F1ZXN0aW9uKGV4YW1wbGUpCiAgICAgICAgICAgICAgICBhbnN3ZXIgPSBzZWxmLnRhc2suZ2V0X2Fuc3dlcihleGFtcGxlKQogICAgICAgICAgICAgICAgZGVtb25zdHJhdGlvbiArPSByZW1vdmVfZG91YmxlX3NwYWNlKGYne3F1ZXN0aW9ufXthbnN3ZXJ9JykgKyAiIFxuICIKCiAgICAgICAgIyBleGFtcGxlIHRvIGJlIHNjb3JlZCAKICAgICAgICBxdWVzdGlvbiA9IHNlbGYudGFzay5nZXRfcXVlc3Rpb24oZW50cnkpCiAgICAgICAgYW5zd2VyID0gc2VsZi50YXNrLmdldF9hbnN3ZXIoZW50cnkpCiAgICAgICAgZGVtb25zdHJhdGlvbiA9IHJlbW92ZV9kb3VibGVfc3BhY2UoZid7cXVlc3Rpb259e2Fuc3dlcn0nKSArICIgXG4gIiArIGRlbW9uc3RyYXRpb24KCiAgICAgICAgdGVzdF9pbmZvID0ge30KICAgICAgICBmb3Iga2V5LCB2YWwgaW4gZW50cnkuaXRlbXMoKToKICAgICAgICAgICAgaWYga2V5LnN0YXJ0c3dpdGgoInRlc3RfIik6CiAgICAgICAgICAgICAgICB0ZXN0X2luZm9ba2V5W2xlbigidGVzdF8iKSA6XV0gPSB2YWwKICAgICAgICB0ZXN0X2lucHV0X3N0cnMgPSBzZWxmLnRhc2suZ2V0X2lucHV0X3N0cnModGVzdF9pbmZvKQogICAgICAgIHRlc3RfcXVlc3Rpb25zID0gW2RlbW9uc3RyYXRpb24gKyBpbnB1dCBmb3IgaW5wdXQgaW4gdGVzdF9pbnB1dF9zdHJzXQogICAgICAgIHRlc3RfYW5zd2VyX3N0cnMgPSBzZWxmLnRhc2suZ2V0X2Fuc3dlcnModGVzdF9pbmZvKQogICAgICAgIHRlc3RfbGFiZWwgPSBzZWxmLnRhc2suZ2V0X2xhYmVsKHRlc3RfaW5mbykKICAgICAgICByZXR1cm4gdGVzdF9xdWVzdGlvbnMsIHRlc3RfYW5zd2VyX3N0cnMsIHRlc3RfbGFiZWwKCgogICAgZGVmIHRleHRfdG9faW5zdGFuY2VfY2hvaWNlKHNlbGYsIGVudHJ5KToKICAgICAgICAiIiIKICAgICAgICBtdWx0aXBsZS1jaG9pY2UgcXVlc3Rpb24KICAgICAgICAiIiIKICAgICAgICB0ZXN0X3F1ZXN0aW9ucywgdGVzdF9hbnN3ZXJzLCB0ZXN0X2xhYmVsID0gc2VsZi5nZXRfZmllbGRzKGVudHJ5KSAgCgogICAgICAgIGlucHV0X2lkc19saXN0ID0gW10KICAgICAgICBpbnB1dF9hdHRlbl9tYXNrX2xpc3QgPSBbXQogICAgICAgIGlucHV0X2xvc3NfbWFza19saXN0ID0gW10KICAgICAgICBmb3IgaSBpbiByYW5nZShsZW4odGVzdF9xdWVzdGlvbnMpKToKICAgICAgICAgICAgZW5jX3RleHQgPSByZW1vdmVfZG91YmxlX3NwYWNlKHRlc3RfcXVlc3Rpb25zW2ldICsgdGVzdF9hbnN3ZXJzW2ldKQogICAgICAgICAgICBlbmNfYW5zd2VyID0gcmVtb3ZlX2RvdWJsZV9zcGFjZSh0ZXN0X2Fuc3dlcnNbaV0pCiAgICAgICAgICAgIHRva2VuaXplZF9leGFtcGxlID0gc2VsZi50b2tlbml6ZXIuZW5jb2RlX3BsdXMoCiAgICAgICAgICAgICAgICBlbmNfdGV4dCwKICAgICAgICAgICAgICAgIHRydW5jYXRpb249RmFsc2UsCiAgICAgICAgICAgICAgICBhZGRfc3BlY2lhbF90b2tlbnM9RmFsc2UsCiAgICAgICAgICAgICAgICByZXR1cm5fdGVuc29ycz0icHQiLAogICAgICAgICAgICApCiAgICAgICAgICAgIHRva2VuaXplZF9hbnN3ZXIgPSBzZWxmLnRva2VuaXplci5lbmNvZGVfcGx1cygKICAgICAgICAgICAgICAgIGVuY19hbnN3ZXIsCiAgICAgICAgICAgICAgICB0cnVuY2F0aW9uPUZhbHNlLAogICAgICAgICAgICAgICAgYWRkX3NwZWNpYWxfdG9rZW5zPUZhbHNlLAogICAgICAgICAgICAgICAgcmV0dXJuX3RlbnNvcnM9InB0IiwKICAgICAgICAgICAgKQoKCiAgICAgICAgICAgIGFuc3dlcl9tYXNrID0gdG9rZW5pemVkX2Fuc3dlci5hdHRlbnRpb25fbWFzay5zcXVlZXplKCkKICAgICAgICAgICAgaWYgbGVuKGFuc3dlcl9tYXNrLnNoYXBlKSA9PSAwOgogICAgICAgICAgICAgICAgYW5zd2VyX21hc2sgPSB0b3JjaC50ZW5zb3IoWzFdKS50byhhbnN3ZXJfbWFzaykKCiAgICAgICAgICAgIGlucHV0X2lkcyA9IHRva2VuaXplZF9leGFtcGxlLmlucHV0X2lkcy5zcXVlZXplKCkKICAgICAgICAgICAgaW5wdXRfYXR0ZW5fbWFzayA9IHRva2VuaXplZF9leGFtcGxlLmF0dGVudGlvbl9tYXNrLnNxdWVlemUoKQogICAgICAgICAgICBpbnB1dF9sb3NzX21hc2sgPSB0b3JjaC5ubi5mdW5jdGlvbmFsLnBhZCgKICAgICAgICAgICAgICAgIGFuc3dlcl9tYXNrLCAoaW5wdXRfaWRzLnNoYXBlWy0xXSAtIGFuc3dlcl9tYXNrLnNoYXBlWy0xXSwgMCkKICAgICAgICAgICAgKQoKICAgICAgICAgICAgaW5wdXRfaWRzX2xpc3QuYXBwZW5kKGlucHV0X2lkcykKICAgICAgICAgICAgaW5wdXRfYXR0ZW5fbWFza19saXN0LmFwcGVuZChpbnB1dF9hdHRlbl9tYXNrKQogICAgICAgICAgICBpbnB1dF9sb3NzX21hc2tfbGlzdC5hcHBlbmQoaW5wdXRfbG9zc19tYXNrKQoKICAgICAgICByZXR1cm4gewogICAgICAgICAgICAiaW5wdXRfaWRzIjogcGFkMnNhbWVMZW5fdGVzdChpbnB1dF9pZHNfbGlzdCwgcGFkX2lkeD1zZWxmLnRva2VuaXplci5wYWRfdG9rZW5faWQsIG1heF9sZW5ndGg9c2VsZi5tYXhfbGVuZ3RoKSwKICAgICAgICAgICAgImlucHV0X2F0dGVuX21hc2siOiBwYWQyc2FtZUxlbl90ZXN0KGlucHV0X2F0dGVuX21hc2tfbGlzdCwgcGFkX2lkeD0wLCBtYXhfbGVuZ3RoPXNlbGYubWF4X2xlbmd0aCksCiAgICAgICAgICAgICJpbnB1dF9sb3NzX21hc2siOiBwYWQyc2FtZUxlbl90ZXN0KGlucHV0X2xvc3NfbWFza19saXN0LCBwYWRfaWR4PTAsIG1heF9sZW5ndGg9c2VsZi5tYXhfbGVuZ3RoKSwKICAgICAgICAgICAgImxhYmVscyI6IHRvcmNoLnRlbnNvcihbdGVzdF9sYWJlbF0pLAogICAgICAgICAgICAibWV0YWRhdGEiOiBlbnRyeSwKICAgICAgICB9CgogICAgZGVmIHRleHRfdG9faW5zdGFuY2VfY29tcGxldGlvbihzZWxmLCBlbnRyeTogRGljdFtzdHIsIEFueV0pOgogICAgICAgICIiIgogICAgICAgIHRleHQgY29tcGxldGlvbiBxdWVzdGlvbgogICAgICAgICIiIgogICAgICAgIHRlc3RfcXVlc3Rpb25zLCBfLCB0ZXN0X2xhYmVsID0gc2VsZi5nZXRfZmllbGRzKGVudHJ5KQoKICAgICAgICBpbnB1dF9pZHNfbGlzdCA9IFtdCiAgICAgICAgaW5wdXRfYXR0ZW5fbWFza19saXN0ID0gW10KICAgICAgICBmb3IgaSBpbiByYW5nZShsZW4odGVzdF9xdWVzdGlvbnMpKTogIyBsZW4odGVzdF9xdWVzdGlvbnMpID0gMSBmb3IgY29tcGxldGlvbiBxdWVzdGlvbgogICAgICAgICAgICBlbmNfdGV4dCA9IHJlbW92ZV9kb3VibGVfc3BhY2UodGVzdF9xdWVzdGlvbnNbaV0pLnN0cmlwKCkgCiAgICAgICAgICAgIHRva2VuaXplZF9leGFtcGxlID0gc2VsZi50b2tlbml6ZXIuZW5jb2RlX3BsdXMoCiAgICAgICAgICAgICAgICBlbmNfdGV4dCwKICAgICAgICAgICAgICAgIHRydW5jYXRpb249RmFsc2UsCiAgICAgICAgICAgICAgICByZXR1cm5fdGVuc29ycz0icHQiLAogICAgICAgICAgICAgICAgYWRkX3NwZWNpYWxfdG9rZW5zPUZhbHNlLAogICAgICAgICAgICApCgogICAgICAgICAgICBpbnB1dF9pZHMgPSB0b2tlbml6ZWRfZXhhbXBsZS5pbnB1dF9pZHMuc3F1ZWV6ZSgpCiAgICAgICAgICAgIGlucHV0X2F0dGVuX21hc2sgPSB0b2tlbml6ZWRfZXhhbXBsZS5hdHRlbnRpb25fbWFzay5zcXVlZXplKCkKCiAgICAgICAgICAgIGlucHV0X2lkc19saXN0LmFwcGVuZChpbnB1dF9pZHMpCiAgICAgICAgICAgIGlucHV0X2F0dGVuX21hc2tfbGlzdC5hcHBlbmQoaW5wdXRfYXR0ZW5fbWFzaykKCiAgICAgICAgZW50cnlbInRlbXBfbGFiZWwiXSA9IHRlc3RfbGFiZWwgICMgcGFzcyBsYWJlbCBmb3IgdGhlIG5leHQgc3RlcAogICAgICAgIHJldHVybiB7CiAgICAgICAgICAgICJpbnB1dF9pZHMiOiBwYWQyc2FtZUxlbl90ZXN0KAogICAgICAgICAgICAgICAgaW5wdXRfaWRzX2xpc3QsIHBhZF9pZHg9c2VsZi50b2tlbml6ZXIucGFkX3Rva2VuX2lkLCBtYXhfbGVuZ3RoPXNlbGYubWF4X2xlbmd0aCwgbGVmdF9wYWQ9VHJ1ZQogICAgICAgICAgICApLAogICAgICAgICAgICAiaW5wdXRfYXR0ZW5fbWFzayI6IHBhZDJzYW1lTGVuX3Rlc3QoCiAgICAgICAgICAgICAgICBpbnB1dF9hdHRlbl9tYXNrX2xpc3QsIHBhZF9pZHg9MCwgbWF4X2xlbmd0aD1zZWxmLm1heF9sZW5ndGgsIGxlZnRfcGFkPVRydWUKICAgICAgICAgICAgKSwKICAgICAgICAgICAgIm1ldGFkYXRhIjogZW50cnksCiAgICAgICAgfQo=
+from typing import Any, Dict
+from transformers import AutoTokenizer
+import torch
+import pandas as pd
+import json
+import pandas as pd
+from datasets import Dataset
+import json
+import re
+from src.utils.dataset_utils import pad2sameLen_test
+from DPR.dpr.utils.tasks import task_map
+from tqdm import tqdm
+def remove_double_space(string):
+    return re.sub("[ ]{2,}", " ", string)
+
+class ScorerDatasetReader(torch.utils.data.Dataset):
+    def __init__(
+        self,
+        example_file,
+        model_name,
+        task_name,
+        prompt_pool_path=None,
+        cache_dir=None,
+        max_length=2048,
+        few_shot_num=3,
+    ) -> None:
+        self.task = task_map.cls_dic[task_name]()
+        self.max_length = max_length
+        self.tokenizer = AutoTokenizer.from_pretrained(
+            model_name, cache_dir=cache_dir, model_max_length=self.max_length
+        )
+        if self.task.class_num == 1:  # text completion question
+            self.tokenizer.padding_side = "left"
+
+        # prompt_pool
+        with open(prompt_pool_path, "r", encoding="utf-8") as f:
+            prompt_pool = json.load(f)
+        self.prompt_pool = list(enumerate(prompt_pool)) # tuple (id, dict)
+        
+        # task_data
+        with open(example_file) as f1:
+            self.task_data = json.load(f1)
+
+        self.few_shot_num = few_shot_num
+
+        def get_instance_old(entry):
+            examples = entry.pop("step_1_ctxs")
+            for exp in examples:
+                exp.update(self.prompt_pool[exp["id"]][1])
+                for key, val in entry.items():
+                    exp[f"test_{key}"] = val
+            yield from examples
+
+        def get_instance(entry):
+            data = []
+            for i in range(2, self.few_shot_num+1): # 3-shot now
+                if "step_"+str(i)+"_have_choosen" not in entry: continue
+                choosen_list = entry["step_"+str(i)+"_have_choosen"]
+                sample_list = entry["step_"+str(i)+"_ctxs"]
+                for j in range(len(choosen_list)):
+                    for id in sample_list[j]:
+                        instance = {}
+                        instance["have_choosen"] = choosen_list[j]
+                        instance.update(self.prompt_pool[id][1])
+                        for key, val in entry.items():
+                            if(key[:4]=="step"): continue
+                            instance[f"test_{key}"] = val
+                        data.append(instance)
+            yield from data
+
+        def get_dataset(data):
+            for entry in data:
+                if "step_1_have_choosen" in entry: yield from get_instance_old(entry)
+                else: yield from get_instance(entry)
+
+        df = pd.DataFrame(list(get_dataset(self.task_data)))
+        self.dataset = Dataset.from_pandas(df)
+
+    def shard(self, accelerator):
+        self.dataset = self.dataset.shard(
+            num_shards=accelerator.num_processes, index=accelerator.process_index
+        )
+        self.filter_valid_length()
+
+    def filter_valid_length(self):
+        selected_ids = []
+        init_len = len(self.dataset)
+        for i in tqdm(range(init_len),desc=f"filter by max length of {self.max_length}"):
+            entry = self[i]
+            if not entry["input_ids"].shape[-1]>=self.max_length:
+                selected_ids.append(i)
+        self.dataset = self.dataset.select(selected_ids[::-1])
+        print(f"{len(self.dataset)}/{init_len}")
+
+    def __getitem__(self, index):
+        if self.task.class_num == 1: # text completion question
+            return self.text_to_instance_completion(self.dataset[index])
+        else:
+            return self.text_to_instance_choice(self.dataset[index])
+
+    def __len__(self):
+        return len(self.dataset)
+
+    def get_fields(self, entry):
+        demonstration = "" 
+        if "have_choosen" in entry:
+            example_id_list = entry["have_choosen"]
+            for example_id in example_id_list:
+                example = self.prompt_pool[example_id][1]
+                question = self.task.get_question(example)
+                answer = self.task.get_answer(example)
+                demonstration += remove_double_space(f'{question}{answer}') + " \n "
+
+        # example to be scored 
+        question = self.task.get_question(entry)
+        answer = self.task.get_answer(entry)
+        demonstration = remove_double_space(f'{question}{answer}') + " \n " + demonstration
+
+        test_info = {}
+        for key, val in entry.items():
+            if key.startswith("test_"):
+                test_info[key[len("test_") :]] = val
+        test_input_strs = self.task.get_input_strs(test_info)
+        test_questions = [demonstration + input for input in test_input_strs]
+        test_answer_strs = self.task.get_answers(test_info)
+        test_label = self.task.get_label(test_info)
+        return test_questions, test_answer_strs, test_label
+
+
+    def text_to_instance_choice(self, entry):
+        """
+        multiple-choice question
+        """
+        test_questions, test_answers, test_label = self.get_fields(entry)  
+
+        input_ids_list = []
+        input_atten_mask_list = []
+        input_loss_mask_list = []
+        for i in range(len(test_questions)):
+            enc_text = remove_double_space(test_questions[i] + test_answers[i])
+            enc_answer = remove_double_space(test_answers[i])
+            tokenized_example = self.tokenizer.encode_plus(
+                enc_text,
+                truncation=False,
+                add_special_tokens=False,
+                return_tensors="pt",
+            )
+            tokenized_answer = self.tokenizer.encode_plus(
+                enc_answer,
+                truncation=False,
+                add_special_tokens=False,
+                return_tensors="pt",
+            )
+
+
+            answer_mask = tokenized_answer.attention_mask.squeeze()
+            if len(answer_mask.shape) == 0:
+                answer_mask = torch.tensor([1]).to(answer_mask)
+
+            input_ids = tokenized_example.input_ids.squeeze()
+            input_atten_mask = tokenized_example.attention_mask.squeeze()
+            input_loss_mask = torch.nn.functional.pad(
+                answer_mask, (input_ids.shape[-1] - answer_mask.shape[-1], 0)
+            )
+
+            input_ids_list.append(input_ids)
+            input_atten_mask_list.append(input_atten_mask)
+            input_loss_mask_list.append(input_loss_mask)
+
+        return {
+            "input_ids": pad2sameLen_test(input_ids_list, pad_idx=self.tokenizer.pad_token_id, max_length=self.max_length),
+            "input_atten_mask": pad2sameLen_test(input_atten_mask_list, pad_idx=0, max_length=self.max_length),
+            "input_loss_mask": pad2sameLen_test(input_loss_mask_list, pad_idx=0, max_length=self.max_length),
+            "labels": torch.tensor([test_label]),
+            "metadata": entry,
+        }
+
+    def text_to_instance_completion(self, entry: Dict[str, Any]):
+        """
+        text completion question
+        """
+        test_questions, _, test_label = self.get_fields(entry)
+
+        input_ids_list = []
+        input_atten_mask_list = []
+        for i in range(len(test_questions)): # len(test_questions) = 1 for completion question
+            enc_text = remove_double_space(test_questions[i]).strip() 
+            tokenized_example = self.tokenizer.encode_plus(
+                enc_text,
+                truncation=False,
+                return_tensors="pt",
+                add_special_tokens=False,
+            )
+
+            input_ids = tokenized_example.input_ids.squeeze()
+            input_atten_mask = tokenized_example.attention_mask.squeeze()
+
+            input_ids_list.append(input_ids)
+            input_atten_mask_list.append(input_atten_mask)
+
+        entry["temp_label"] = test_label  # pass label for the next step
+        return {
+            "input_ids": pad2sameLen_test(
+                input_ids_list, pad_idx=self.tokenizer.pad_token_id, max_length=self.max_length, left_pad=True
+            ),
+            "input_atten_mask": pad2sameLen_test(
+                input_atten_mask_list, pad_idx=0, max_length=self.max_length, left_pad=True
+            ),
+            "metadata": entry,
+        }

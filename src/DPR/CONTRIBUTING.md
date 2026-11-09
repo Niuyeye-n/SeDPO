@@ -1,1 +1,35 @@
-IyBDb250cmlidXRpbmcgdG8gRFBSCldlIHdhbnQgdG8gbWFrZSBjb250cmlidXRpbmcgdG8gdGhpcyBwcm9qZWN0IGFzIGVhc3kgYW5kIHRyYW5zcGFyZW50IGFzCnBvc3NpYmxlLgoKIyMgT3VyIERldmVsb3BtZW50IFByb2Nlc3MKVEJECgojIyBQdWxsIFJlcXVlc3RzCldlIGFjdGl2ZWx5IHdlbGNvbWUgeW91ciBwdWxsIHJlcXVlc3RzLgoKMS4gRm9yayB0aGUgcmVwbyBhbmQgY3JlYXRlIHlvdXIgYnJhbmNoIGZyb20gYG1hc3RlcmAuCjIuIElmIHlvdSd2ZSBhZGRlZCBjb2RlIHRoYXQgc2hvdWxkIGJlIHRlc3RlZCwgYWRkIHRlc3RzLgozLiBJZiB5b3UndmUgY2hhbmdlZCBBUElzLCB1cGRhdGUgdGhlIGRvY3VtZW50YXRpb24uCjQuIEVuc3VyZSB0aGUgdGVzdCBzdWl0ZSBwYXNzZXMuCjUuIE1ha2Ugc3VyZSB5b3VyIGNvZGUgbGludHMuCjYuIElmIHlvdSBoYXZlbid0IGFscmVhZHksIGNvbXBsZXRlIHRoZSBDb250cmlidXRvciBMaWNlbnNlIEFncmVlbWVudCAoIkNMQSIpLgoKIyMgQ29udHJpYnV0b3IgTGljZW5zZSBBZ3JlZW1lbnQgKCJDTEEiKQpJbiBvcmRlciB0byBhY2NlcHQgeW91ciBwdWxsIHJlcXVlc3QsIHdlIG5lZWQgeW91IHRvIHN1Ym1pdCBhIENMQS4gWW91IG9ubHkgbmVlZAp0byBkbyB0aGlzIG9uY2UgdG8gd29yayBvbiBhbnkgb2YgRmFjZWJvb2sncyBvcGVuIHNvdXJjZSBwcm9qZWN0cy4KCkNvbXBsZXRlIHlvdXIgQ0xBIGhlcmU6IDxodHRwczovL2NvZGUuZmFjZWJvb2suY29tL2NsYT4KCiMjIElzc3VlcwpXZSB1c2UgR2l0SHViIGlzc3VlcyB0byB0cmFjayBwdWJsaWMgYnVncy4gUGxlYXNlIGVuc3VyZSB5b3VyIGRlc2NyaXB0aW9uIGlzCmNsZWFyIGFuZCBoYXMgc3VmZmljaWVudCBpbnN0cnVjdGlvbnMgdG8gYmUgYWJsZSB0byByZXByb2R1Y2UgdGhlIGlzc3VlLgoKIyMgQ29kaW5nIFN0eWxlICAKKiAyIHNwYWNlcyBmb3IgaW5kZW50YXRpb24gcmF0aGVyIHRoYW4gdGFicwoqIDEyMCBjaGFyYWN0ZXIgbGluZSBsZW5ndGgKKiAuLi4KCiMjIExpY2Vuc2UKQnkgY29udHJpYnV0aW5nIHRvIEZhY2Vib29rIEFJIFJlc2VhcmNoIERlbnNlIFBhc3NhZ2UgUmV0cmlldmVyIHRvb2xraXQsIHlvdSBhZ3JlZSB0aGF0IHlvdXIgY29udHJpYnV0aW9ucyB3aWxsIGJlIGxpY2Vuc2VkCnVuZGVyIHRoZSBMSUNFTlNFIGZpbGUgaW4gdGhlIHJvb3QgZGlyZWN0b3J5IG9mIHRoaXMgc291cmNlIHRyZWUu
+# Contributing to DPR
+We want to make contributing to this project as easy and transparent as
+possible.
+
+## Our Development Process
+TBD
+
+## Pull Requests
+We actively welcome your pull requests.
+
+1. Fork the repo and create your branch from `master`.
+2. If you've added code that should be tested, add tests.
+3. If you've changed APIs, update the documentation.
+4. Ensure the test suite passes.
+5. Make sure your code lints.
+6. If you haven't already, complete the Contributor License Agreement ("CLA").
+
+## Contributor License Agreement ("CLA")
+In order to accept your pull request, we need you to submit a CLA. You only need
+to do this once to work on any of Facebook's open source projects.
+
+Complete your CLA here: <https://code.facebook.com/cla>
+
+## Issues
+We use GitHub issues to track public bugs. Please ensure your description is
+clear and has sufficient instructions to be able to reproduce the issue.
+
+## Coding Style  
+* 2 spaces for indentation rather than tabs
+* 120 character line length
+* ...
+
+## License
+By contributing to Facebook AI Research Dense Passage Retriever toolkit, you agree that your contributions will be licensed
+under the LICENSE file in the root directory of this source tree.

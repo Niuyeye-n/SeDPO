@@ -1,1 +1,56 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0KIiIiCue7mSBzY29yZXIucHkg5omT6KGl5LiB77ya5pi+5byPIGZwMTYg5Yqg6L295qih5Z6L77yM6YG/5YWNIGZwMzIg5Lit6Ze05oCB5pKR54iG5YaF5a2Y6Kem5Y+RIE9PTSBraWxsZXLjgIIKCumXrumimOagueWboO+8iOWunua1i++8mnNjb3JlciDooqsgYEtpbGxlZGDvvInvvJoKICBzY29yZXIucHkg5Y6f5pysCiAgICAgIHNlbGYubW9kZWwgPSBBdXRvTW9kZWxGb3JDYXVzYWxMTS5mcm9tX3ByZXRyYWluZWQocHJldHJhaW5lZF9tb2RlbF9uYW1lX29yX3BhdGg9Li4uLCBjYWNoZV9kaXI9Li4uKQogICAgICBzZWxmLm1vZGVsID0gc2VsZi5tb2RlbC5oYWxmKCkudG8oZGV2aWNlKQogIGZyb21fcHJldHJhaW5lZCDkuI3mjIflrpogZHR5cGUg5pe25oyJICoqZnAzMioqIOWKoOi9vSA3QiDmqKHlnosgPSAyOEdCIOWGheWtmO+8jAogIOe0p+aOpeedgCAuaGFsZigpIOWPiOeUn+aIkOS4gOS7vSBmcDE2IOWJr+acrO+8iCsxNEdC77yJ4oaSIOWzsOWAvOe6piA0MkdC77ybCiAg5Y+g5YqgIGNncm91cCDph4zlt7LmnInnmoQgMzNHQiDpobXnvJPlrZjvvIjor7vmqKHlnovmnYPph40gKyDlhpkgc2NvcmVkIGpzb24g5Lqn55Sf77yJCiAg4oaSIOi2hei/hyBBdXRvREwg5a6e5L6LIDkwR0Ig55qEIGNncm91cCDkuIrpmZAg4oaSIOiiqyBPT00ga2lsbGVyIOadgOaOieOAggogIHN0ZXAxIOS+peW5uOi3kei/h+aYr+WboOS4uuW9k+aXtumhtee8k+WtmOi/mOayoea2qOS4iuadpe+8m3N0ZXAyIOW/heeEtueIhuOAggoK5L+u5aSN77ya5LiO5bey5L+u5aW955qEIGluZmVyZW5jZS5weSDkv53mjIHkuIDoh7TvvIznm7TmjqXku6UgZnAxNiDliqDovb3lho3kuIogR1BV44CCCiAg5pWw5YC85LiK5a6M5YWo562J5Lu377yI6ZqP5ZCOIC5oYWxmKCkg5LuN5pivIGZwMTbvvInvvIzlj6rmmK/nnIHmjokgZnAzMiDkuK3pl7TmgIHjgIIKCueUqOazle+8mnB5dGhvbiBwYXRjaF9zY29yZXJfZHR5cGUucHkgPHJlcG9fcGF0aD4KIiIiCmltcG9ydCBpbwppbXBvcnQgc3lzCgpSRVBPID0gc3lzLmFyZ3ZbMV0gaWYgbGVuKHN5cy5hcmd2KSA+IDEgZWxzZSAiL3Jvb3QvYXV0b2RsLXRtcC9TZURQT19OSVBTMjUiClBBVEggPSBSRVBPICsgIi9zY3JpcHRzL3Njb3Jlci5weSIKCnNyYyA9IGlvLm9wZW4oUEFUSCwgZW5jb2Rpbmc9InV0Zi04IikucmVhZCgpCgppZiAiU0NPUkVSX0RUWVBFX0ZJWCIgaW4gc3JjOgogICAgcHJpbnQoIltTS0lQXSDooaXkuIHlt7LlrZjlnKgiKQogICAgc3lzLmV4aXQoMCkKCm9sZCA9ICIiIiAgICAgICAgc2VsZi5tb2RlbCA9IEF1dG9Nb2RlbEZvckNhdXNhbExNLmZyb21fcHJldHJhaW5lZChwcmV0cmFpbmVkX21vZGVsX25hbWVfb3JfcGF0aD1jZmcubW9kZWxfbmFtZSwgY2FjaGVfZGlyPWNmZy5jYWNoZV9kaXIpCiAgICAgICAgc2VsZi5tb2RlbCA9IHNlbGYubW9kZWwuaGFsZigpLnRvKHNlbGYuYWNjZWxlcmF0b3IuZGV2aWNlKQoiIiIKCm5ldyA9ICIiIiAgICAgICAgIyBTQ09SRVJfRFRZUEVfRklY77yIMjAyNi0xMS0wNe+8ie+8mgogICAgICAgICMg5Y6f5a6e546w5LiN5bimIGR0eXBl77yMZnJvbV9wcmV0cmFpbmVkIOS8muS7pSBmcDMyIOWKoOi9vSA3QiDmqKHlnovvvIgyOEdC77yJ77yMCiAgICAgICAgIyDntKfmjqXnnYAgLmhhbGYoKSDlj4jnlJ/miJAgZnAxNiDlia/mnKwg4oaSIOWzsOWAvOe6piA0MkdC77yMCiAgICAgICAgIyDlj6DliqDlt7LmnInpobXnvJPlrZjlkI7otoXov4flrp7kvosgOTBHQiDnmoQgY2dyb3VwIOS4iumZkCDihpIg6KKrIE9PTSBraWxsZXIg5p2A5o6J44CCCiAgICAgICAgIyDmlLnkuLrnm7TmjqUgZnAxNiDliqDovb3lho3kuIogR1BV77yM5LiOIGluZmVyZW5jZS5weSDkuIDoh7TvvIzmlbDlgLznrYnku7fkvYbnnIHmjokgZnAzMiDkuK3pl7TmgIHjgIIKICAgICAgICBzZWxmLm1vZGVsID0gQXV0b01vZGVsRm9yQ2F1c2FsTE0uZnJvbV9wcmV0cmFpbmVkKAogICAgICAgICAgICBwcmV0cmFpbmVkX21vZGVsX25hbWVfb3JfcGF0aD1jZmcubW9kZWxfbmFtZSwKICAgICAgICAgICAgY2FjaGVfZGlyPWNmZy5jYWNoZV9kaXIsCiAgICAgICAgICAgIHRvcmNoX2R0eXBlPXRvcmNoLmZsb2F0MTYsCiAgICAgICAgKQogICAgICAgIHNlbGYubW9kZWwgPSBzZWxmLm1vZGVsLmhhbGYoKS50byhzZWxmLmFjY2VsZXJhdG9yLmRldmljZSkKIiIiCgphc3NlcnQgb2xkIGluIHNyYywgIuacquaJvuWIsOebruagh+S7o+eggeWdl++8jOa6kOaWh+S7tuWPr+iDveW3suWPmOWKqCIKCmlvLm9wZW4oUEFUSCArICIub3JpZyIsICJ3IiwgZW5jb2Rpbmc9InV0Zi04Iikud3JpdGUoCiAgICBpby5vcGVuKFBBVEgsIGVuY29kaW5nPSJ1dGYtOCIpLnJlYWQoKSkKc3JjID0gc3JjLnJlcGxhY2Uob2xkLCBuZXcpCmlvLm9wZW4oUEFUSCwgInciLCBlbmNvZGluZz0idXRmLTgiKS53cml0ZShzcmMpCnByaW50KCJbT0tdIOW3suS4uiBzY29yZXIucHkg5omT5LiKIGZwMTYg5Yqg6L296KGl5LiBIikKcHJpbnQoIiAgICAg5aSH5Lu9OiIsIFBBVEggKyAiLm9yaWciKQo=
+# -*- coding: utf-8 -*-
+"""
+给 scorer.py 打补丁：显式 fp16 加载模型，避免 fp32 中间态撑爆内存触发 OOM killer。
+
+问题根因（实测：scorer 被 `Killed`）：
+  scorer.py 原本
+      self.model = AutoModelForCausalLM.from_pretrained(pretrained_model_name_or_path=..., cache_dir=...)
+      self.model = self.model.half().to(device)
+  from_pretrained 不指定 dtype 时按 **fp32** 加载 7B 模型 = 28GB 内存，
+  紧接着 .half() 又生成一份 fp16 副本（+14GB）→ 峰值约 42GB；
+  叠加 cgroup 里已有的 33GB 页缓存（读模型权重 + 写 scored json 产生）
+  → 超过 AutoDL 实例 90GB 的 cgroup 上限 → 被 OOM killer 杀掉。
+  step1 侥幸跑过是因为当时页缓存还没涨上来；step2 必然爆。
+
+修复：与已修好的 inference.py 保持一致，直接以 fp16 加载再上 GPU。
+  数值上完全等价（随后 .half() 仍是 fp16），只是省掉 fp32 中间态。
+
+用法：python patch_scorer_dtype.py <repo_path>
+"""
+import io
+import sys
+
+REPO = sys.argv[1] if len(sys.argv) > 1 else "/root/autodl-tmp/SeDPO_NIPS25"
+PATH = REPO + "/scripts/scorer.py"
+
+src = io.open(PATH, encoding="utf-8").read()
+
+if "SCORER_DTYPE_FIX" in src:
+    print("[SKIP] 补丁已存在")
+    sys.exit(0)
+
+old = """        self.model = AutoModelForCausalLM.from_pretrained(pretrained_model_name_or_path=cfg.model_name, cache_dir=cfg.cache_dir)
+        self.model = self.model.half().to(self.accelerator.device)
+"""
+
+new = """        # SCORER_DTYPE_FIX（2026-11-05）：
+        # 原实现不带 dtype，from_pretrained 会以 fp32 加载 7B 模型（28GB），
+        # 紧接着 .half() 又生成 fp16 副本 → 峰值约 42GB，
+        # 叠加已有页缓存后超过实例 90GB 的 cgroup 上限 → 被 OOM killer 杀掉。
+        # 改为直接 fp16 加载再上 GPU，与 inference.py 一致，数值等价但省掉 fp32 中间态。
+        self.model = AutoModelForCausalLM.from_pretrained(
+            pretrained_model_name_or_path=cfg.model_name,
+            cache_dir=cfg.cache_dir,
+            torch_dtype=torch.float16,
+        )
+        self.model = self.model.half().to(self.accelerator.device)
+"""
+
+assert old in src, "未找到目标代码块，源文件可能已变动"
+
+io.open(PATH + ".orig", "w", encoding="utf-8").write(
+    io.open(PATH, encoding="utf-8").read())
+src = src.replace(old, new)
+io.open(PATH, "w", encoding="utf-8").write(src)
+print("[OK] 已为 scorer.py 打上 fp16 加载补丁")
+print("     备份:", PATH + ".orig")

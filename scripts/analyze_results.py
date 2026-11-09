@@ -1,1 +1,177 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uCiMgLSotIGNvZGluZzogdXRmLTggLSotCiIiIgphbmFseXplX3Jlc3VsdHMucHkg4oCUIDIwMjYtMTEtMDcK5LuO5pys5Zyw5b+r54Wn77yIcmVzdWx0c19iYWNrdXAvZXh0cmFjdGVkXzIwMjYxMTA377yJ5rGH5oC7IFNlRFBPIOWFqOmDqOato+W8j+e7k+aenOOAggoK5YGa5LiJ5Lu25LqL77yaCjEuIOmAkOS7u+WKoeaguOWvuSBwcmVkcyDmnaHmlbDvvIjnoa7orqTmmK/lrozmlbTmtYvor5Xpm4bvvIzkuI3mmK/ltKnmuoPmrovniYfvvIkKMi4g6K+75a6Y5pa5IGV2YWxfcmVz77yI5oyH5qCH55SxIGluZmVyZW5jZS5weSDkuqflh7rvvIzkuI3oh6rlt7Hph43nrpfvvIkKMy4g6aKd5aSW55SoIHByZWRzIOWPjeeulyBhY2MgLyDpooTmtYvliIbluIPvvIzkvZzkuLrkuqTlj4npqozor4EK6L6T5Ye677yacmVzdWx0c19zdW1tYXJ5LmNzdiArIHJlc3VsdHNfc3VtbWFyeS5tZO+8iHdvcmtzcGFjZSDmoLnnm67lvZXvvIkKIiIiCmltcG9ydCBjc3YKaW1wb3J0IGpzb24KaW1wb3J0IG9zCmltcG9ydCByZQpmcm9tIGNvbGxlY3Rpb25zIGltcG9ydCBDb3VudGVyCgpCQVNFID0gciJDOi9Vc2Vycy8zMzc5Mi9EZXNrdG9wL+iuuuaWhy9yZXN1bHRzX2JhY2t1cC9leHRyYWN0ZWRfMjAyNjExMDcvcm9vdC9hdXRvZGwtdG1wL1NlRFBPX05JUFMyNS9teV9kYXRhX3F3ZW4iCk9VVF9ESVIgPSByIkM6L1VzZXJzLzMzNzkyL0Rlc2t0b3Av6K665paHIgoKR1JPVVBTID0gWwogICAgKCJxd2VuMi41LTdiIiwgInF3ZW4iKSwKICAgICgibGxhbWEzLThiIiwgImxsYW1hIiksCl0KQ0xVU1RFUlMgPSB7CiAgICAiY2xvc2VfcWEiOiBbImFyY19jIl0sCiAgICAicmVhZGluZ19uZXciOiBbIm11bHRpcmMiLCAib3BlbmJvb2txYSJdLAp9CgojIOWumOaWueaMh+agh+WPo+W+hO+8mmFyY19jIC8gb3BlbmJvb2txYSDnlKggYWNj77yMbXVsdGlyYyDnlKggZjHvvIjop4EgRFBSL2Rwci91dGlscy90YXNrcy5wee+8iQpNRVRSSUMgPSB7ImFyY19jIjogImFjYyIsICJvcGVuYm9va3FhIjogImFjYyIsICJtdWx0aXJjIjogImYxIn0KCgpkZWYgcmVhZF9ldmFsKHBhdGgpOgogICAgIiIi6Kej5p6QIGV2YWxfcmVzIOaWh+S7tiAtPiB7dGFzazoge21ldHJpYzogdmFsdWV9fSIiIgogICAgb3V0ID0ge30KICAgIGlmIG5vdCBvcy5wYXRoLmV4aXN0cyhwYXRoKToKICAgICAgICByZXR1cm4gb3V0CiAgICBmb3IgbGluZSBpbiBvcGVuKHBhdGgsIGVuY29kaW5nPSJ1dGYtOCIpOgogICAgICAgIGlmICJ0YXNrX25hbWU6IiBub3QgaW4gbGluZToKICAgICAgICAgICAgY29udGludWUKICAgICAgICBtX3Rhc2sgPSByZS5zZWFyY2gociJ0YXNrX25hbWU6XHMqKFx3KykiLCBsaW5lKQogICAgICAgIG1fc2NvcmUgPSByZS5zZWFyY2gociJzY29yZXM6XHMqKFx7LipcfSkiLCBsaW5lKQogICAgICAgIGlmIG5vdCAobV90YXNrIGFuZCBtX3Njb3JlKToKICAgICAgICAgICAgY29udGludWUKICAgICAgICB0YXNrID0gbV90YXNrLmdyb3VwKDEpCiAgICAgICAgdHJ5OgogICAgICAgICAgICBzY29yZXMgPSBldmFsKG1fc2NvcmUuZ3JvdXAoMSkpICAjIOWGheWuueaYryBweXRob24gZGljdCDlrZfpnaLph48KICAgICAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgICAgICBjb250aW51ZQogICAgICAgIG91dFt0YXNrXSA9IHNjb3JlcwogICAgcmV0dXJuIG91dAoKCmRlZiByZWFkX3RyYWluX2xvZyhwYXRoKToKICAgICIiIuaKk+iuree7g+i9ruaVsO+8iOWPlumFjee9rumHjOeahCB0cmFpbl9lcG9jaHPvvIzpgb/lhY3miorltKnmuoPph43ot5HnmoTml6Xlv5fnrpfph43vvInkuI7mnIDlkI4gbG9zcyIiIgogICAgaW5mbyA9IHsiZXBvY2hzIjogMCwgImxhc3RfbG9zcyI6IE5vbmV9CiAgICBpZiBub3Qgb3MucGF0aC5leGlzdHMocGF0aCk6CiAgICAgICAgcmV0dXJuIGluZm8KICAgIHR4dCA9IG9wZW4ocGF0aCwgZW5jb2Rpbmc9InV0Zi04IiwgZXJyb3JzPSJpZ25vcmUiKS5yZWFkKCkKICAgIG0gPSByZS5zZWFyY2gociJ0cmFpbl9lcG9jaHM6XHMqKFxkKykiLCB0eHQpCiAgICBpZiBtOgogICAgICAgIGluZm9bImVwb2NocyJdID0gaW50KG0uZ3JvdXAoMSkpCiAgICBzdGVwcyA9IHJlLmZpbmRhbGwociJsb3NzPShbMC05Ll0rKSIsIHR4dCkKICAgIGlmIHN0ZXBzOgogICAgICAgIGluZm9bImxhc3RfbG9zcyJdID0gc3RlcHNbLTFdCiAgICByZXR1cm4gaW5mbwoKCnJvd3MgPSBbXQpmb3IgbW9kZWxfbmFtZSwgdGFnIGluIEdST1VQUzoKICAgIGZvciBjbHVzdGVyLCB0YXNrcyBpbiBDTFVTVEVSUy5pdGVtcygpOgogICAgICAgIGV4cCA9IG9zLnBhdGguam9pbihCQVNFLCBmImV4cGVyaW1lbnRfc2VkcG9fe3RhZ30iLCBjbHVzdGVyKQogICAgICAgIGV2YWxzID0gcmVhZF9ldmFsKG9zLnBhdGguam9pbihleHAsIGYiZXZhbF9yZXNfZm9yX3tjbHVzdGVyfS50eHQiKSkKICAgICAgICB0ciA9IHJlYWRfdHJhaW5fbG9nKG9zLnBhdGguam9pbihleHAsICJ0cmFpbl9kZW5zZV9lbmNvZGVyLmxvZyIpKQogICAgICAgIGZvciB0YXNrIGluIHRhc2tzOgogICAgICAgICAgICBwcmVkc19wYXRoID0gb3MucGF0aC5qb2luKAogICAgICAgICAgICAgICAgZXhwLCBmInByZWRzX2Zvcl97Y2x1c3Rlcn0iLCBmInt0YXNrfV9wcm9tcHRzM19yZXRyaWV2ZXJzZTJfcHJlZHNfMC5qc29uIgogICAgICAgICAgICApCiAgICAgICAgICAgIG4sIHByZWRfZGlzdCwgYWNjX2Zyb21fcHJlZHMsIHNob3QgPSAwLCB7fSwgTm9uZSwgTm9uZQogICAgICAgICAgICBpZiBvcy5wYXRoLmV4aXN0cyhwcmVkc19wYXRoKToKICAgICAgICAgICAgICAgIGRhdGEgPSBqc29uLmxvYWQob3BlbihwcmVkc19wYXRoLCBlbmNvZGluZz0idXRmLTgiKSkKICAgICAgICAgICAgICAgIG4gPSBsZW4oZGF0YSkKICAgICAgICAgICAgICAgIGxhYmVscyA9IFtkLmdldCgibGFiZWwiKSBmb3IgZCBpbiBkYXRhXQogICAgICAgICAgICAgICAgcHJlZHMgPSBbZC5nZXQoInByZWQiKSBmb3IgZCBpbiBkYXRhXQogICAgICAgICAgICAgICAgcHJlZF9kaXN0ID0gZGljdChDb3VudGVyKHByZWRzKSkKICAgICAgICAgICAgICAgIGlmIGxhYmVscyBhbmQgbGFiZWxzWzBdIGlzIG5vdCBOb25lOgogICAgICAgICAgICAgICAgICAgIGFjY19mcm9tX3ByZWRzID0gMTAwLjAgKiBzdW0oCiAgICAgICAgICAgICAgICAgICAgICAgIDEgZm9yIGEsIGIgaW4gemlwKGxhYmVscywgcHJlZHMpIGlmIGEgPT0gYgogICAgICAgICAgICAgICAgICAgICkgLyBsZW4obGFiZWxzKQogICAgICAgICAgICAgICAgc2hvdHMgPSB7ZC5nZXQoIm5fcHJvbXB0cyIpIGZvciBkIGluIGRhdGF9CiAgICAgICAgICAgICAgICBzaG90ID0gbWF4KGludChzKSBmb3IgcyBpbiBzaG90cyBpZiBzIGlzIG5vdCBOb25lKSBpZiBzaG90cyBlbHNlIE5vbmUKCiAgICAgICAgICAgIG9mZmljaWFsID0gZXZhbHMuZ2V0KHRhc2ssIHt9KQogICAgICAgICAgICBrZXkgPSBNRVRSSUNbdGFza10KICAgICAgICAgICAgbm90ZSA9ICIiCiAgICAgICAgICAgIGlmIHByZWRfZGlzdCBhbmQgbjoKICAgICAgICAgICAgICAgIHRvcF9jbHMsIHRvcF9jbnQgPSBtYXgocHJlZF9kaXN0Lml0ZW1zKCksIGtleT1sYW1iZGEga3Y6IGt2WzFdKQogICAgICAgICAgICAgICAgcmF0aW8gPSB0b3BfY250IC8gbgogICAgICAgICAgICAgICAgaWYgcmF0aW8gPiAwLjc6CiAgICAgICAgICAgICAgICAgICAgbm90ZSA9IGYi4pqg77iPIOmihOa1i+WBj+aWnO+8mntyYXRpbyoxMDA6LjFmfSUg6YO96aKE5rWL5Li6IHt0b3BfY2xzfSIKICAgICAgICAgICAgcm93cy5hcHBlbmQoCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgIm1vZGVsIjogbW9kZWxfbmFtZSwKICAgICAgICAgICAgICAgICAgICAiY2x1c3RlciI6IGNsdXN0ZXIsCiAgICAgICAgICAgICAgICAgICAgInRhc2siOiB0YXNrLAogICAgICAgICAgICAgICAgICAgICJtZXRyaWMiOiBrZXksCiAgICAgICAgICAgICAgICAgICAgInNjb3JlIjogcm91bmQob2ZmaWNpYWwuZ2V0KGtleSwgZmxvYXQoIm5hbiIpKSwgNCksCiAgICAgICAgICAgICAgICAgICAgIm5fc2FtcGxlcyI6IG4sCiAgICAgICAgICAgICAgICAgICAgInNob3QiOiBzaG90LAogICAgICAgICAgICAgICAgICAgICJhY2NfZnJvbV9wcmVkcyI6IHJvdW5kKGFjY19mcm9tX3ByZWRzLCA0KSBpZiBhY2NfZnJvbV9wcmVkcyBpcyBub3QgTm9uZSBlbHNlICIiLAogICAgICAgICAgICAgICAgICAgICJwcmVkX2Rpc3QiOiBqc29uLmR1bXBzKHByZWRfZGlzdCwgZW5zdXJlX2FzY2lpPUZhbHNlKSwKICAgICAgICAgICAgICAgICAgICAidHJhaW5fZXBvY2hzIjogdHJbImVwb2NocyJdLAogICAgICAgICAgICAgICAgICAgICJ0cmFpbl9sYXN0X2xvc3MiOiB0clsibGFzdF9sb3NzIl0gb3IgIiIsCiAgICAgICAgICAgICAgICAgICAgIm5vdGUiOiBub3RlLAogICAgICAgICAgICAgICAgICAgICJwcmVkc19ieXRlcyI6IG9zLnBhdGguZ2V0c2l6ZShwcmVkc19wYXRoKSBpZiBvcy5wYXRoLmV4aXN0cyhwcmVkc19wYXRoKSBlbHNlIDAsCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICkKCiMgQ1NWCmNzdl9wYXRoID0gb3MucGF0aC5qb2luKE9VVF9ESVIsICIyMDI2MTEwN19TZURQT19yZXN1bHRzLmNzdiIpCndpdGggb3Blbihjc3ZfcGF0aCwgInciLCBuZXdsaW5lPSIiLCBlbmNvZGluZz0idXRmLTgtc2lnIikgYXMgZjoKICAgIHcgPSBjc3YuRGljdFdyaXRlcihmLCBmaWVsZG5hbWVzPWxpc3Qocm93c1swXS5rZXlzKCkpKQogICAgdy53cml0ZWhlYWRlcigpCiAgICB3LndyaXRlcm93cyhyb3dzKQpwcmludCgiQ1NWIC0+IiwgY3N2X3BhdGgpCgojIE1hcmtkb3duCmxpbmVzID0gW10KbGluZXMuYXBwZW5kKCIjIFNlRFBPIOato+W8j+WunumqjOe7k+aenO+8iDIwMjYtMTEtMDfvvIlcbiIpCmxpbmVzLmFwcGVuZCgi5qOA57Si5Zmo77yaU2VEUE8gKGRwMi1yMS4wLWIwLjHvvIxJRl9QUkVGRVJfTE9TUz0yIC8gRElWX1JFSkVDVD0xIC8gUEVGVF9CRVRBPTAuMSnvvIwzLXNob3TjgIJcbiIpCmxpbmVzLmFwcGVuZCgifCDmqKHlnosgfCDmlbDmja7pm4YgfCDku7vliqEgfCDlrpjmlrnmjIfmoIcgfCDmlbDlgLwgfCDmoLfmnKzmlbAgfCDorq3nu4Pova7mlbAgfCDlpIfms6ggfCIpCmxpbmVzLmFwcGVuZCgifC0tLXwtLS18LS0tfC0tLXwtLS06fC0tLTp8LS0tOnwtLS18IikKdGFza19jbiA9IHsiYXJjX2MiOiAiQVJDLUMiLCAib3BlbmJvb2txYSI6ICJPcGVuQm9va1FBIiwgIm11bHRpcmMiOiAiTXVsdGlSQyJ9CmZvciByIGluIHJvd3M6CiAgICBsaW5lcy5hcHBlbmQoCiAgICAgICAgZiJ8IHtyWydtb2RlbCddfSB8IHtyWydjbHVzdGVyJ119IHwge3Rhc2tfY25bclsndGFzayddXX0gfCB7clsnbWV0cmljJ119IHwgIgogICAgICAgIGYiKip7clsnc2NvcmUnXX0qKiB8IHtyWyduX3NhbXBsZXMnXX0gfCB7clsndHJhaW5fZXBvY2hzJ119IHwge3JbJ25vdGUnXSBvciAn4oCUJ30gfCIKICAgICkKCmxpbmVzLmFwcGVuZCgiXG4jIyDkuqTlj4npqozor4HvvIjnlKggcHJlZHMg5Y+N566XIGFjY++8iVxuIikKbGluZXMuYXBwZW5kKCJ8IOaooeWeiyB8IOS7u+WKoSB8IOWumOaWueWIhuaVsCB8IHByZWRzIOWPjeeulyBhY2MgfCDkuIDoh7Q/IHwiKQpsaW5lcy5hcHBlbmQoInwtLS18LS0tfC0tLTp8LS0tOnwtLS18IikKZm9yIHIgaW4gcm93czoKICAgIG9rID0gIuKAlCIKICAgIGlmIHJbImFjY19mcm9tX3ByZWRzIl0gIT0gIiI6CiAgICAgICAgaWYgclsibWV0cmljIl0gPT0gImFjYyI6CiAgICAgICAgICAgIG9rID0gIuKchSIgaWYgYWJzKHJbImFjY19mcm9tX3ByZWRzIl0gLSByWyJzY29yZSJdKSA8IDFlLTMgZWxzZSAi4p2MIgogICAgICAgIGVsc2U6CiAgICAgICAgICAgIG9rID0gIu+8iOivpeS7u+WKoeWumOaWueeUqCBmMe+8jGFjYyDku4Xlj4LogIPvvIkiCiAgICBsaW5lcy5hcHBlbmQoCiAgICAgICAgZiJ8IHtyWydtb2RlbCddfSB8IHt0YXNrX2NuW3JbJ3Rhc2snXV19IHwge3JbJ3Njb3JlJ119IHwge3JbJ2FjY19mcm9tX3ByZWRzJ119IHwge29rfSB8IgogICAgKQoKbWRfcGF0aCA9IG9zLnBhdGguam9pbihPVVRfRElSLCAiMjAyNjExMDdfU2VEUE/lrp7pqoznu5PmnpzmsYfmgLsubWQiKQpsaW5lcy5hcHBlbmQoIiIiCiMjIOWPo+W+hOS4juWujOaVtOaAp+ivtOaYjgoKLSAqKuaMh+agh+adpea6kCoq77ya5YWo6YOo5Y+W6IeqIGBpbmZlcmVuY2UucHlgIOWumOaWueS6p+WHuueahCBgZXZhbF9yZXNfZm9yXyoudHh0YO+8jOacquiHquihjOmHjeeul+OAggotICoq5oyH5qCH5a6a5LmJKirvvJpBUkMtQyAvIE9wZW5Cb29rUUEg5Li65YeG56Gu546HIGBhY2Ng77ybTXVsdGlSQyDlnKjmnKzku5PlupPlrprkuYnkuLogKipGMSoq77yI5LqM5YiG57G7IHllcy9ub++8ie+8jAogIOWboOatpCBNdWx0aVJDIOeahCBhY2PvvIjop4HkuIrooajkuqTlj4npqozor4HliJfvvInkvY7kuo4gZjEg5bGe5q2j5bi4546w6LGh77yM5LiN6KaB5re355So44CCCi0gKirmoLfmnKzmlbAqKu+8mkFSQy1DIDExNjXjgIFNdWx0aVJDIDQ4NDjjgIFPcGVuQm9va1FBIDU1N++8jOWdh+S4uuWujOaVtOa1i+ivlembhu+8jOS4jeaYr+S4reaWreaui+eJh+OAggogIOS4iuS4gOeJiCBNdWx0aVJDIOeahOS4pOS7vSA1NDIgLyA1MTYg5p2h5paH5Lu25pivIE9PTSDltKnmuoPmrovniYfvvIzlt7Lnp7vlhaUgYF90cmFzaF9wYXJ0aWFsL2Ag5bm26YeN6LeR44CCCi0gKipzaG90KirvvJrlhajpg6ggMy1zaG9044CCCi0gKirlj6/lpI3njrDlh63or4EqKu+8muavj+e7hCBgc2UyX3Byb21wdHNfZm9yXyovYCDlhoXkv53lrZjkuoblrp7pmYXlloLnu5nmqKHlnovnmoQgcHJvbXB0IOaWh+S7tuOAggotICoq5pys5Zyw5b+r54WnKirvvJpgcmVzdWx0c19iYWNrdXAvc2VkcG9fcmVzdWx0c18yMDI2MTEwN18xOTMwLnRnemDvvIgzMSBNQu+8jOWQqyA2IOS7vSBwcmVkcyArIDYg5Lu9IGV2YWwgKyBwcm9tcHQgKyDorq3nu4Pml6Xlv5fvvInjgIIKCiMjIOW+heihpeeahOWvueeFp+WunumqjAoK5pys6KGo5Y+q5ZCrIFNlRFBPIOajgOe0ouWZqOeahOe7k+aenOOAguiuuuaWh+mcgOimgeWfuue6v+WvueeFp++8iHplcm9zaG90IC8gcmFuZG9tLTMgLyBCTTI1IC8g5pyq5b6u6LCDIERQUu+8ie+8jArov5npg6jliIblsJrmnKrot5HvvIzlkI7nu63ooaXot5Hml7bmsr/nlKjlkIzkuIDlpZcgYG5fc2NvcmVgIOS4jua1i+ivlembhuWNs+WPr+Wvuem9kOOAggoiIiIpCm9wZW4obWRfcGF0aCwgInciLCBlbmNvZGluZz0idXRmLTgiKS53cml0ZSgiXG4iLmpvaW4obGluZXMpICsgIlxuIikKcHJpbnQoIk1EICAtPiIsIG1kX3BhdGgpCnByaW50KCkKcHJpbnQoIlxuIi5qb2luKGxpbmVzKSkK
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+analyze_results.py — 2026-11-07
+从本地快照（results_backup/extracted_20261107）汇总 SeDPO 全部正式结果。
+
+做三件事：
+1. 逐任务核对 preds 条数（确认是完整测试集，不是崩溃残片）
+2. 读官方 eval_res（指标由 inference.py 产出，不自己重算）
+3. 额外用 preds 反算 acc / 预测分布，作为交叉验证
+输出：results_summary.csv + results_summary.md（workspace 根目录）
+"""
+import csv
+import json
+import os
+import re
+from collections import Counter
+
+BASE = r"C:/Users/33792/Desktop/论文/results_backup/extracted_20261107/root/autodl-tmp/SeDPO_NIPS25/my_data_qwen"
+OUT_DIR = r"C:/Users/33792/Desktop/论文"
+
+GROUPS = [
+    ("qwen2.5-7b", "qwen"),
+    ("llama3-8b", "llama"),
+]
+CLUSTERS = {
+    "close_qa": ["arc_c"],
+    "reading_new": ["multirc", "openbookqa"],
+}
+
+# 官方指标口径：arc_c / openbookqa 用 acc，multirc 用 f1（见 DPR/dpr/utils/tasks.py）
+METRIC = {"arc_c": "acc", "openbookqa": "acc", "multirc": "f1"}
+
+
+def read_eval(path):
+    """解析 eval_res 文件 -> {task: {metric: value}}"""
+    out = {}
+    if not os.path.exists(path):
+        return out
+    for line in open(path, encoding="utf-8"):
+        if "task_name:" not in line:
+            continue
+        m_task = re.search(r"task_name:\s*(\w+)", line)
+        m_score = re.search(r"scores:\s*(\{.*\})", line)
+        if not (m_task and m_score):
+            continue
+        task = m_task.group(1)
+        try:
+            scores = eval(m_score.group(1))  # 内容是 python dict 字面量
+        except Exception:
+            continue
+        out[task] = scores
+    return out
+
+
+def read_train_log(path):
+    """抓训练轮数（取配置里的 train_epochs，避免把崩溃重跑的日志算重）与最后 loss"""
+    info = {"epochs": 0, "last_loss": None}
+    if not os.path.exists(path):
+        return info
+    txt = open(path, encoding="utf-8", errors="ignore").read()
+    m = re.search(r"train_epochs:\s*(\d+)", txt)
+    if m:
+        info["epochs"] = int(m.group(1))
+    steps = re.findall(r"loss=([0-9.]+)", txt)
+    if steps:
+        info["last_loss"] = steps[-1]
+    return info
+
+
+rows = []
+for model_name, tag in GROUPS:
+    for cluster, tasks in CLUSTERS.items():
+        exp = os.path.join(BASE, f"experiment_sedpo_{tag}", cluster)
+        evals = read_eval(os.path.join(exp, f"eval_res_for_{cluster}.txt"))
+        tr = read_train_log(os.path.join(exp, "train_dense_encoder.log"))
+        for task in tasks:
+            preds_path = os.path.join(
+                exp, f"preds_for_{cluster}", f"{task}_prompts3_retrieverse2_preds_0.json"
+            )
+            n, pred_dist, acc_from_preds, shot = 0, {}, None, None
+            if os.path.exists(preds_path):
+                data = json.load(open(preds_path, encoding="utf-8"))
+                n = len(data)
+                labels = [d.get("label") for d in data]
+                preds = [d.get("pred") for d in data]
+                pred_dist = dict(Counter(preds))
+                if labels and labels[0] is not None:
+                    acc_from_preds = 100.0 * sum(
+                        1 for a, b in zip(labels, preds) if a == b
+                    ) / len(labels)
+                shots = {d.get("n_prompts") for d in data}
+                shot = max(int(s) for s in shots if s is not None) if shots else None
+
+            official = evals.get(task, {})
+            key = METRIC[task]
+            note = ""
+            if pred_dist and n:
+                top_cls, top_cnt = max(pred_dist.items(), key=lambda kv: kv[1])
+                ratio = top_cnt / n
+                if ratio > 0.7:
+                    note = f"⚠️ 预测偏斜：{ratio*100:.1f}% 都预测为 {top_cls}"
+            rows.append(
+                {
+                    "model": model_name,
+                    "cluster": cluster,
+                    "task": task,
+                    "metric": key,
+                    "score": round(official.get(key, float("nan")), 4),
+                    "n_samples": n,
+                    "shot": shot,
+                    "acc_from_preds": round(acc_from_preds, 4) if acc_from_preds is not None else "",
+                    "pred_dist": json.dumps(pred_dist, ensure_ascii=False),
+                    "train_epochs": tr["epochs"],
+                    "train_last_loss": tr["last_loss"] or "",
+                    "note": note,
+                    "preds_bytes": os.path.getsize(preds_path) if os.path.exists(preds_path) else 0,
+                }
+            )
+
+# CSV
+csv_path = os.path.join(OUT_DIR, "20261107_SeDPO_results.csv")
+with open(csv_path, "w", newline="", encoding="utf-8-sig") as f:
+    w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
+    w.writeheader()
+    w.writerows(rows)
+print("CSV ->", csv_path)
+
+# Markdown
+lines = []
+lines.append("# SeDPO 正式实验结果（2026-11-07）\n")
+lines.append("检索器：SeDPO (dp2-r1.0-b0.1，IF_PREFER_LOSS=2 / DIV_REJECT=1 / PEFT_BETA=0.1)，3-shot。\n")
+lines.append("| 模型 | 数据集 | 任务 | 官方指标 | 数值 | 样本数 | 训练轮数 | 备注 |")
+lines.append("|---|---|---|---|---:|---:|---:|---|")
+task_cn = {"arc_c": "ARC-C", "openbookqa": "OpenBookQA", "multirc": "MultiRC"}
+for r in rows:
+    lines.append(
+        f"| {r['model']} | {r['cluster']} | {task_cn[r['task']]} | {r['metric']} | "
+        f"**{r['score']}** | {r['n_samples']} | {r['train_epochs']} | {r['note'] or '—'} |"
+    )
+
+lines.append("\n## 交叉验证（用 preds 反算 acc）\n")
+lines.append("| 模型 | 任务 | 官方分数 | preds 反算 acc | 一致? |")
+lines.append("|---|---|---:|---:|---|")
+for r in rows:
+    ok = "—"
+    if r["acc_from_preds"] != "":
+        if r["metric"] == "acc":
+            ok = "✅" if abs(r["acc_from_preds"] - r["score"]) < 1e-3 else "❌"
+        else:
+            ok = "（该任务官方用 f1，acc 仅参考）"
+    lines.append(
+        f"| {r['model']} | {task_cn[r['task']]} | {r['score']} | {r['acc_from_preds']} | {ok} |"
+    )
+
+md_path = os.path.join(OUT_DIR, "20261107_SeDPO实验结果汇总.md")
+lines.append("""
+## 口径与完整性说明
+
+- **指标来源**：全部取自 `inference.py` 官方产出的 `eval_res_for_*.txt`，未自行重算。
+- **指标定义**：ARC-C / OpenBookQA 为准确率 `acc`；MultiRC 在本仓库定义为 **F1**（二分类 yes/no），
+  因此 MultiRC 的 acc（见上表交叉验证列）低于 f1 属正常现象，不要混用。
+- **样本数**：ARC-C 1165、MultiRC 4848、OpenBookQA 557，均为完整测试集，不是中断残片。
+  上一版 MultiRC 的两份 542 / 516 条文件是 OOM 崩溃残片，已移入 `_trash_partial/` 并重跑。
+- **shot**：全部 3-shot。
+- **可复现凭证**：每组 `se2_prompts_for_*/` 内保存了实际喂给模型的 prompt 文件。
+- **本地快照**：`results_backup/sedpo_results_20261107_1930.tgz`（31 MB，含 6 份 preds + 6 份 eval + prompt + 训练日志）。
+
+## 待补的对照实验
+
+本表只含 SeDPO 检索器的结果。论文需要基线对照（zeroshot / random-3 / BM25 / 未微调 DPR），
+这部分尚未跑，后续补跑时沿用同一套 `n_score` 与测试集即可对齐。
+""")
+open(md_path, "w", encoding="utf-8").write("\n".join(lines) + "\n")
+print("MD  ->", md_path)
+print()
+print("\n".join(lines))

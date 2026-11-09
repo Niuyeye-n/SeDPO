@@ -1,1 +1,60 @@
-IyEvYmluL2Jhc2gKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQojIGNsb3NlX3FhIOihpei3keaOkumYn+WZqO+8iDIwMjYtMTEtMDbvvIkKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQojIOiDjOaZr++8mgojICAgcXdlbi9jbG9zZV9xYSDkuI4gbGxhbWEvY2xvc2VfcWEg55qE5LiJ6L2u5omT5YiG5Z2H5bey5a6M5oiQ77yI5ZCE57qmIDcg5bCP5pe25Lqn54mp77yJ77yMCiMgICDkvYborq3nu4PpmLbmrrXlm6AgYmF0Y2gg6KKr5pS+5aSnIDgg5YCN77yIOOKGkjY077yJ5a+86Ie0IDI0R0Ig5pi+5a2YIE9PTSDogIzlpLHotKXjgIIKIyAgIOeOsOWcqOW3suS/ru+8muair+W6puajgOafpeeCuSArIOmZkOWItiBjaGVja3BvaW50IOaVsOmHj++8iOingSBwYXRjaF9ncmFkX2NrcHQucHkgLwojICAgcGF0Y2hfdHJhaW5fc2gucHnvvInjgILmiZPliIbkuqfnianlrZjlnKjml7Ygc2NvcmVyIOS8mui3s+i/h++8jOaJgOS7peihpei3keWPqumcgAojICAg6K6t57uDICsg5o6o55CG77yM5q+P57uE57qmIDEuNX4yIOWwj+aXtuOAggojCiMg5pys6ISa5pys5L2c55So77yaCiMgICDnrYnkuLvlrp7pqozvvIhydW5fc2VkcG9fdjMuc2gg55qE5Lik5LiqIHJlYWRpbmdfbmV3IOe7hO+8ieWFqOmDqOe7k+adn+WQju+8jAojICAg6Ieq5Yqo55SoIHJ1bl9zZWRwb192M19yZXN1bWUuc2gg6KGl6LeRIGNsb3NlX3FhIOS4pOe7hO+8jOmBv+WFjSBHUFUg56m66L2s44CCCiMKIyDnlKjms5U6IHNldHNpZCBub2h1cCBiYXNoIC9yb290L2F1dG9kbC10bXAvY2hhaW5fY2xvc2VfcWEuc2ggPi9kZXYvbnVsbCAyPiYxICYKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQpzZXQgLXUKCkxPRz0vcm9vdC9hdXRvZGwtdG1wL2Nsb3NlcWFfY2hhaW4ubG9nCk1BWF9XQUlUPTIxNjAgICAgICAgICAgIyDmnIDlpJrnrYkgMzYg5bCP5pe2Cgpsb2coKSB7IGVjaG8gIlskKGRhdGUgKyVGJyAnJVQpXSAkKiIgPj4gIiRMT0ciOyB9Cgpsb2cgIj09PT09IOaOkumYn+WZqOWQr+WKqO+8muetieW+heS4u+WunumqjOe7k+adnyA9PT09PSIKCmZvciBpIGluICQoc2VxIDEgJE1BWF9XQUlUKTsgZG8KICAgICMg5Li757yW5o6S77ya5rOo5oSPIGdyZXAg55qE5pivIHJ1bl9zZWRwb192My5zaO+8jOacrOiEmuacrOihpei3keeUqOeahOaYryByZXN1bWUg5ZCN5a2X77yM5LiN5Lya6Ieq5oiR5ZG95LitCiAgICBNQUlOPSQocHMgLWVvIHBpZCxjbWQgfCBncmVwICdydW5fc2VkcG9fdjNcLnNoJyB8IGdyZXAgLXYgZ3JlcCB8IGhlYWQgLTEpCiAgICBSRVNVTUU9JChwcyAtZW8gcGlkLGNtZCB8IGdyZXAgJ3J1bl9zZWRwb192M19yZXN1bWVcLnNoJyB8IGdyZXAgLXYgZ3JlcCB8IGhlYWQgLTEpCgogICAgaWYgWyAtbiAiJFJFU1VNRSIgXTsgdGhlbgogICAgICAgIGxvZyAi6KGl6LeR6L+b56iL5bey5Zyo6L+Q6KGM77yM6YCA5Ye65o6S6Zif5ZmoIgogICAgICAgIGV4aXQgMAogICAgZmkKCiAgICBpZiBbIC16ICIkTUFJTiIgXTsgdGhlbgogICAgICAgIFVTRUQ9JChudmlkaWEtc21pIC0tcXVlcnktZ3B1PW1lbW9yeS51c2VkIC0tZm9ybWF0PWNzdixub2hlYWRlcixub3VuaXRzIHwgaGVhZCAtMSkKICAgICAgICBpZiBbICIke1VTRUQ6LTk5OTl9IiAtbHQgNTAwIF07IHRoZW4KICAgICAgICAgICAgbG9nICLkuLvlrp7pqozlt7Lnu5PmnZ/kuJQgR1BVIOepuumXsigke1VTRUR9TWlCKSDihpIg5byA5aeL6KGl6LeRIGNsb3NlX3Fh77yIcXdlbitsbGFtYe+8iSIKICAgICAgICAgICAgY2QgL3Jvb3QvYXV0b2RsLXRtcCB8fCBleGl0IDEKICAgICAgICAgICAgU0VMRUNUPXF3ZW46Y2xvc2VfcWEsbGxhbWE6Y2xvc2VfcWEgXAogICAgICAgICAgICAgICAgc2V0c2lkIGJhc2ggL3Jvb3QvYXV0b2RsLXRtcC9ydW5fc2VkcG9fdjNfcmVzdW1lLnNoIFwKICAgICAgICAgICAgICAgID4+IC9yb290L2F1dG9kbC10bXAvc2VkcG9fdjNfY2xvc2VxYS5sb2cgMj4mMQogICAgICAgICAgICBSQz0kPwogICAgICAgICAgICBsb2cgImNsb3NlX3FhIOihpei3kee7k+adnyByYz0kUkMiCiAgICAgICAgICAgIGxvZyAiPT09PT0g546w5pyJ5oyH5qCH5paH5Lu2ID09PT09IgogICAgICAgICAgICBmaW5kIC9yb290L2F1dG9kbC10bXAvU2VEUE9fTklQUzI1L3Jlc3VsdHNfc2VkcG9fdjMgLW5hbWUgJ21ldHJpY3Nfc2VkcG8udHh0JyBcCiAgICAgICAgICAgICAgICAgLXByaW50ZiAnJXBcbicgPj4gIiRMT0ciIDI+L2Rldi9udWxsCiAgICAgICAgICAgIGV4aXQgMAogICAgICAgIGVsc2UKICAgICAgICAgICAgbG9nICLkuLvlrp7pqozov5vnqIvlt7LpgIDlh7rkvYYgR1BVIOS7jeWNoOeUqCAke1VTRUR9TWlCIOKGkiDnrYnlvoXmlLblsL4iCiAgICAgICAgZmkKICAgIGZpCgogICAgc2xlZXAgNjAKZG9uZQoKbG9nICLnrYnlvoXotoXml7bvvIgke01BWF9XQUlUfSDliIbpkp/vvInvvIzmnKrlkK/liqjooaXot5EiCmV4aXQgMQo=
+#!/bin/bash
+# =============================================================================
+# close_qa 补跑排队器（2026-11-06）
+# =============================================================================
+# 背景：
+#   qwen/close_qa 与 llama/close_qa 的三轮打分均已完成（各约 7 小时产物），
+#   但训练阶段因 batch 被放大 8 倍（8→64）导致 24GB 显存 OOM 而失败。
+#   现在已修：梯度检查点 + 限制 checkpoint 数量（见 patch_grad_ckpt.py /
+#   patch_train_sh.py）。打分产物存在时 scorer 会跳过，所以补跑只需
+#   训练 + 推理，每组约 1.5~2 小时。
+#
+# 本脚本作用：
+#   等主实验（run_sedpo_v3.sh 的两个 reading_new 组）全部结束后，
+#   自动用 run_sedpo_v3_resume.sh 补跑 close_qa 两组，避免 GPU 空转。
+#
+# 用法: setsid nohup bash /root/autodl-tmp/chain_close_qa.sh >/dev/null 2>&1 &
+# =============================================================================
+set -u
+
+LOG=/root/autodl-tmp/closeqa_chain.log
+MAX_WAIT=2160          # 最多等 36 小时
+
+log() { echo "[$(date +%F' '%T)] $*" >> "$LOG"; }
+
+log "===== 排队器启动：等待主实验结束 ====="
+
+for i in $(seq 1 $MAX_WAIT); do
+    # 主编排：注意 grep 的是 run_sedpo_v3.sh，本脚本补跑用的是 resume 名字，不会自我命中
+    MAIN=$(ps -eo pid,cmd | grep 'run_sedpo_v3\.sh' | grep -v grep | head -1)
+    RESUME=$(ps -eo pid,cmd | grep 'run_sedpo_v3_resume\.sh' | grep -v grep | head -1)
+
+    if [ -n "$RESUME" ]; then
+        log "补跑进程已在运行，退出排队器"
+        exit 0
+    fi
+
+    if [ -z "$MAIN" ]; then
+        USED=$(nvidia-smi --query-gpu=memory.used --format=csv,noheader,nounits | head -1)
+        if [ "${USED:-9999}" -lt 500 ]; then
+            log "主实验已结束且 GPU 空闲(${USED}MiB) → 开始补跑 close_qa（qwen+llama）"
+            cd /root/autodl-tmp || exit 1
+            SELECT=qwen:close_qa,llama:close_qa \
+                setsid bash /root/autodl-tmp/run_sedpo_v3_resume.sh \
+                >> /root/autodl-tmp/sedpo_v3_closeqa.log 2>&1
+            RC=$?
+            log "close_qa 补跑结束 rc=$RC"
+            log "===== 现有指标文件 ====="
+            find /root/autodl-tmp/SeDPO_NIPS25/results_sedpo_v3 -name 'metrics_sedpo.txt' \
+                 -printf '%p\n' >> "$LOG" 2>/dev/null
+            exit 0
+        else
+            log "主实验进程已退出但 GPU 仍占用 ${USED}MiB → 等待收尾"
+        fi
+    fi
+
+    sleep 60
+done
+
+log "等待超时（${MAX_WAIT} 分钟），未启动补跑"
+exit 1

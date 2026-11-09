@@ -1,1 +1,132 @@
-IyEvYmluL2Jhc2gKIyDlhpLng5/mtYvpgJ/vvJrni6znq4vnm67lvZUgbXlfZGF0YV9zbW9rZe+8jEFSQy1D77yMRklOREVSX0w9MjDvvIxkc19zaXplPTUwCiMg5Y+q6LeRIGZpbmRfcmFuZG9tX3N0ZXAxICsgc2NvcmVyLnB5IHN0ZXAx77yM5rWL44CM5q+P56eS5omT5aSa5bCR5YiG44CN5LiO5pi+5a2Y5Y2g55So44CCCiMKIyDnlKjms5U6IGJhc2ggL3Jvb3QvYXV0b2RsLXRtcC9zbW9rZV90ZXN0LnNoIDxtb2RlbF9wYXRoPiA8dGFnPgpzZXQgLWUKCk1PREVMX1BBVEg9JDEKVEFHPSQyClJFUE89L3Jvb3QvYXV0b2RsLXRtcC9TZURQT19OSVBTMjUKU01PS0U9JFJFUE8vbXlfZGF0YV9zbW9rZQpUQVNLPWFyY19jCkRTX1NJWkU9NTAKRklOREVSX0w9MjAKCmNkICRSRVBPCnNvdXJjZSAvcm9vdC9taW5pY29uZGEzL2V0Yy9wcm9maWxlLmQvY29uZGEuc2gKY29uZGEgYWN0aXZhdGUgL3Jvb3QvYXV0b2RsLXRtcC9lbnZzL3NlX2RwbwpleHBvcnQgUFlUSE9OUEFUSD0kUkVQTzokUFlUSE9OUEFUSApleHBvcnQgRklOREVSX0w9JEZJTkRFUl9MCmV4cG9ydCBJRl9QUkVGRVJfTE9TUz0yCmV4cG9ydCBQRUZUX0JFVEE9MC4xCmV4cG9ydCBESVZfUkVKRUNUPTEKZXhwb3J0IEhZRFJBX0ZVTExfRVJST1I9MQpleHBvcnQgVE9LRU5JWkVSU19QQVJBTExFTElTTT1mYWxzZQoKbWtkaXIgLXAgJFNNT0tFL3tmaW5kX3JhbmRvbSxwcm9tcHRfcG9vbCxzY29yZWQsZXhwfQoKUE9PTD0kU01PS0UvcHJvbXB0X3Bvb2wvJHtUQVNLfV9wcm9tcHRzLmpzb24KU0FNUExFUz0kU01PS0UvZmluZF9yYW5kb20vJHtUQVNLfV9yYW5kb21fc2FtcGxlc19zdGVwMS5qc29uClNDT1JFRF9UUkFJTj0kU01PS0Uvc2NvcmVkLyR7VEFTS31fc2NvcmVkX3RyYWluX3N0ZXAxLmpzb24KU0NPUkVEX1ZBTElEPSRTTU9LRS9zY29yZWQvJHtUQVNLfV9zY29yZWRfdmFsaWRfc3RlcDEuanNvbgoKIyAtLS0tIDEpIOaehOmAoOWwj+inhOaooSBwcm9tcHQgcG9vbCArIHN0ZXAxIOmHh+agtyAtLS0tCmVjaG8gIlskKGRhdGUgKyVIOiVNOiVTKV0gW1NNT0tFICRUQUddIOW8gOWniyBmaW5kX3JhbmRvbV9zdGVwMSAoZHNfc2l6ZT0kRFNfU0laRSBMPSRGSU5ERVJfTCkiClQwPSQoZGF0ZSArJXMpCgpweXRob24gc2NyaXB0cy9maW5kX3JhbmRvbV9zdGVwMS5weSBcCiAgICBvdXRwdXRfcGF0aD0kU0FNUExFUyBcCiAgICB0YXNrX25hbWU9JFRBU0sgK2RzX3NpemU9JERTX1NJWkUgTD0kRklOREVSX0wgXAogICAgcHJvbXB0X3Bvb2xfcGF0aD0kUE9PTCBcCiAgICBjYWNoZV9kaXI9JFBXRC9jYWNoZSBcCiAgICBoeWRyYS5ydW4uZGlyPSRTTU9LRS9leHAKClQxPSQoZGF0ZSArJXMpCmVjaG8gIlskKGRhdGUgKyVIOiVNOiVTKV0gW1NNT0tFICRUQUddIGZpbmRfcmFuZG9tX3N0ZXAxIOeUqOaXtiAkKChUMS1UMCkpIOenkiIKZWNobyAiLS0tIHBvb2wg5p2h5pWwIC8gc2FtcGxlcyDmnaHmlbAgLS0tIgovcm9vdC9taW5pY29uZGEzL2Jpbi9weXRob24gLWMgIgppbXBvcnQganNvbgpwPWpzb24ubG9hZChvcGVuKCckUE9PTCcpKTsgcz1qc29uLmxvYWQob3BlbignJFNBTVBMRVMnKSkKcHJpbnQoJ3Bvb2w6JyxsZW4ocCksJ3NhbXBsZXM6JyxsZW4ocykpCnByaW50KCfmr4/moLfmnKzlgJnpgInmlbAgTCA9JywgbGVuKHNbMF1bJ3N0ZXBfMV9jdHhzJ10pKQpwcmludCgn5omT5YiG5a6e5L6L5oC75pWwID0nLCBsZW4ocykqbGVuKHNbMF1bJ3N0ZXBfMV9jdHhzJ10pKQoiCgojIC0tLS0gMikg6LeRIHNjb3JlciBzdGVwMSDlubbnm5HmjqfmmL7lrZggLS0tLQplY2hvICJbJChkYXRlICslSDolTTolUyldIFtTTU9LRSAkVEFHXSDlvIDlp4sgc2NvcmVyIHN0ZXAxIgpUMj0kKGRhdGUgKyVzKQoKIyDlkI7lj7Dph4fmoLcgbnZpZGlhLXNtaSDls7DlgLwKKCBmb3IgaSBpbiAkKHNlcSAxIDQwMCk7IGRvCiAgICBudmlkaWEtc21pIC0tcXVlcnktZ3B1PW1lbW9yeS51c2VkLHV0aWxpemF0aW9uLmdwdSAtLWZvcm1hdD1jc3Ysbm9oZWFkZXIsbm91bml0cyA+PiAkU01PS0UvZ3B1XyRUQUcuY3N2CiAgICBzbGVlcCAyCiAgZG9uZSApICYKTU9OUElEPSQhCgphY2NlbGVyYXRlIGxhdW5jaCAtLW51bV9wcm9jZXNzZXMgMSAtLW1haW5fcHJvY2Vzc19wb3J0IDI0NTc5IFwKICAgIHNjcmlwdHMvc2NvcmVyLnB5IFwKICAgIGV4YW1wbGVfZmlsZT0kU0FNUExFUyBcCiAgICBvdXRwdXRfdHJhaW5fZmlsZT0kU0NPUkVEX1RSQUlOIFwKICAgIG91dHB1dF92YWxpZF9maWxlPSRTQ09SRURfVkFMSUQgXAogICAgYmF0Y2hfc2l6ZT0xIHRhc2tfbmFtZT0kVEFTSyBcCiAgICBtb2RlbF9uYW1lPSRNT0RFTF9QQVRIIFwKICAgIHByb21wdF9wb29sX3BhdGg9JFBPT0wgXAogICAgY2FjaGVfZGlyPSRQV0QvY2FjaGUgXAogICAgaHlkcmEucnVuLmRpcj0kU01PS0UvZXhwIDI+JjEgfCB0ZWUgJFNNT0tFL3Njb3Jlcl8kVEFHLmxvZwoKVDM9JChkYXRlICslcykKa2lsbCAkTU9OUElEIDI+L2Rldi9udWxsIHx8IHRydWUKCmVjaG8gIlskKGRhdGUgKyVIOiVNOiVTKV0gW1NNT0tFICRUQUddIHNjb3JlciBzdGVwMSDnlKjml7YgJCgoVDMtVDIpKSDnp5IiCgojIC0tLS0gMykg5rGH5oC75rWL6YCfIC0tLS0KL3Jvb3QvbWluaWNvbmRhMy9iaW4vcHl0aG9uIC0gPDwnUFlFT0YnCmltcG9ydCBqc29uLCBvcywgcmUKU01PS0UgPSBvcy5lbnZpcm9uLmdldCgiU01PS0VfRElSIiwgIi9yb290L2F1dG9kbC10bXAvU2VEUE9fTklQUzI1L215X2RhdGFfc21va2UiKQpUQUcgPSBvcy5lbnZpcm9uLmdldCgiVEFHIiwgInF3ZW4iKQp0YWcgPSBUQUcKc2FtcGxlcyA9IGpzb24ubG9hZChvcGVuKGYie1NNT0tFfS9maW5kX3JhbmRvbS9hcmNfY19yYW5kb21fc2FtcGxlc19zdGVwMS5qc29uIikpCm5faW5zdCA9IGxlbihzYW1wbGVzKSAqIGxlbihzYW1wbGVzWzBdWyJzdGVwXzFfY3R4cyJdKQpsb2cgPSBmIntTTU9LRX0vc2NvcmVyX3t0YWd9LmxvZyIKCiMg5LuO5pel5b+X6YeM5om+IHRxZG0g55qEIGl0L3MKc3BlZWRzID0gW10KZm9yIGxpbmUgaW4gb3Blbihsb2csIGVycm9ycz0iaWdub3JlIik6CiAgICBtID0gcmUuZmluZGFsbChyIihcZCtcLlxkKylpdC9zIiwgbGluZSkKICAgIGlmIG06CiAgICAgICAgc3BlZWRzLmFwcGVuZChmbG9hdChtWy0xXSkpCiAgICBtMiA9IHJlLmZpbmRhbGwociIoXGQrOlxkKykvKFxkKykiLCBsaW5lKQogICAgaWYgbTIgYW5kICJpdC9zIiBub3QgaW4gbGluZToKICAgICAgICBwYXNzCgplbGFwc2VkID0gTm9uZQpmb3IgbGluZSBpbiBvcGVuKGxvZywgZXJyb3JzPSJpZ25vcmUiKToKICAgIG0gPSByZS5zZWFyY2gociJTY29yaW5nOi4qPyhcZCspLyhcZCspIiwgbGluZSkKICAgIGlmIG06CiAgICAgICAgcGFzcwoKZ3B1ID0gZiJ7U01PS0V9L2dwdV97dGFnfS5jc3YiCm1lbSA9IFtdCmlmIG9zLnBhdGguZXhpc3RzKGdwdSk6CiAgICBmb3IgbGluZSBpbiBvcGVuKGdwdSk6CiAgICAgICAgcGFydHMgPSBbcC5zdHJpcCgpIGZvciBwIGluIGxpbmUuc3BsaXQoIiwiKV0KICAgICAgICBpZiBsZW4ocGFydHMpID49IDIgYW5kIHBhcnRzWzBdLmlzZGlnaXQoKToKICAgICAgICAgICAgbWVtLmFwcGVuZChpbnQocGFydHNbMF0pKQoKcHJpbnQoIj0iICogNjApCnByaW50KGYiW1NNT0tFLXt0YWd9XSDmiZPliIblrp7kvovmgLvmlbAgPSB7bl9pbnN0fSIpCnByaW50KGYiW1NNT0tFLXt0YWd9XSDlubPlnYfpgJ/luqYgPSB7c3VtKHNwZWVkcykvbGVuKHNwZWVkcyk6LjJmfSBpdC9zICAo6YeH5qC3IHtsZW4oc3BlZWRzKX0g5Liq54K5KSIgaWYgc3BlZWRzIGVsc2UgIltTTU9LRV0g5pyq5oqT5YiwIGl0L3MiKQppZiBtZW06CiAgICBwcmludChmIltTTU9LRS17dGFnfV0g5pi+5a2Y5bOw5YC8ID0ge21heChtZW0pfSBNaUIgLyAyNDU2NCBNaUIiKQpwcmludCgiPSIgKiA2MCkKd2l0aCBvcGVuKGYie1NNT0tFfS9zbW9rZV9yZXN1bHRfe3RhZ30uanNvbiIsICJ3IikgYXMgZjoKICAgIGpzb24uZHVtcCh7CiAgICAgICAgInRhZyI6IHRhZywKICAgICAgICAibl9pbnN0YW5jZXMiOiBuX2luc3QsCiAgICAgICAgImF2Z19pdF9wZXJfcyI6IChzdW0oc3BlZWRzKS9sZW4oc3BlZWRzKSkgaWYgc3BlZWRzIGVsc2UgTm9uZSwKICAgICAgICAicGVha19ncHVfbWVtX21pYiI6IG1heChtZW0pIGlmIG1lbSBlbHNlIE5vbmUsCiAgICB9LCBmLCBpbmRlbnQ9MikKUFlFT0YKCmVjaG8gIlskKGRhdGUgKyVIOiVNOiVTKV0gW1NNT0tFICRUQUddIOa1i+mAn+WujOaIkCIK
+#!/bin/bash
+# 冒烟测速：独立目录 my_data_smoke，ARC-C，FINDER_L=20，ds_size=50
+# 只跑 find_random_step1 + scorer.py step1，测「每秒打多少分」与显存占用。
+#
+# 用法: bash /root/autodl-tmp/smoke_test.sh <model_path> <tag>
+set -e
+
+MODEL_PATH=$1
+TAG=$2
+REPO=/root/autodl-tmp/SeDPO_NIPS25
+SMOKE=$REPO/my_data_smoke
+TASK=arc_c
+DS_SIZE=50
+FINDER_L=20
+
+cd $REPO
+source /root/miniconda3/etc/profile.d/conda.sh
+conda activate /root/autodl-tmp/envs/se_dpo
+export PYTHONPATH=$REPO:$PYTHONPATH
+export FINDER_L=$FINDER_L
+export IF_PREFER_LOSS=2
+export PEFT_BETA=0.1
+export DIV_REJECT=1
+export HYDRA_FULL_ERROR=1
+export TOKENIZERS_PARALLELISM=false
+
+mkdir -p $SMOKE/{find_random,prompt_pool,scored,exp}
+
+POOL=$SMOKE/prompt_pool/${TASK}_prompts.json
+SAMPLES=$SMOKE/find_random/${TASK}_random_samples_step1.json
+SCORED_TRAIN=$SMOKE/scored/${TASK}_scored_train_step1.json
+SCORED_VALID=$SMOKE/scored/${TASK}_scored_valid_step1.json
+
+# ---- 1) 构造小规模 prompt pool + step1 采样 ----
+echo "[$(date +%H:%M:%S)] [SMOKE $TAG] 开始 find_random_step1 (ds_size=$DS_SIZE L=$FINDER_L)"
+T0=$(date +%s)
+
+python scripts/find_random_step1.py \
+    output_path=$SAMPLES \
+    task_name=$TASK +ds_size=$DS_SIZE L=$FINDER_L \
+    prompt_pool_path=$POOL \
+    cache_dir=$PWD/cache \
+    hydra.run.dir=$SMOKE/exp
+
+T1=$(date +%s)
+echo "[$(date +%H:%M:%S)] [SMOKE $TAG] find_random_step1 用时 $((T1-T0)) 秒"
+echo "--- pool 条数 / samples 条数 ---"
+/root/miniconda3/bin/python -c "
+import json
+p=json.load(open('$POOL')); s=json.load(open('$SAMPLES'))
+print('pool:',len(p),'samples:',len(s))
+print('每样本候选数 L =', len(s[0]['step_1_ctxs']))
+print('打分实例总数 =', len(s)*len(s[0]['step_1_ctxs']))
+"
+
+# ---- 2) 跑 scorer step1 并监控显存 ----
+echo "[$(date +%H:%M:%S)] [SMOKE $TAG] 开始 scorer step1"
+T2=$(date +%s)
+
+# 后台采样 nvidia-smi 峰值
+( for i in $(seq 1 400); do
+    nvidia-smi --query-gpu=memory.used,utilization.gpu --format=csv,noheader,nounits >> $SMOKE/gpu_$TAG.csv
+    sleep 2
+  done ) &
+MONPID=$!
+
+accelerate launch --num_processes 1 --main_process_port 24579 \
+    scripts/scorer.py \
+    example_file=$SAMPLES \
+    output_train_file=$SCORED_TRAIN \
+    output_valid_file=$SCORED_VALID \
+    batch_size=1 task_name=$TASK \
+    model_name=$MODEL_PATH \
+    prompt_pool_path=$POOL \
+    cache_dir=$PWD/cache \
+    hydra.run.dir=$SMOKE/exp 2>&1 | tee $SMOKE/scorer_$TAG.log
+
+T3=$(date +%s)
+kill $MONPID 2>/dev/null || true
+
+echo "[$(date +%H:%M:%S)] [SMOKE $TAG] scorer step1 用时 $((T3-T2)) 秒"
+
+# ---- 3) 汇总测速 ----
+/root/miniconda3/bin/python - <<'PYEOF'
+import json, os, re
+SMOKE = os.environ.get("SMOKE_DIR", "/root/autodl-tmp/SeDPO_NIPS25/my_data_smoke")
+TAG = os.environ.get("TAG", "qwen")
+tag = TAG
+samples = json.load(open(f"{SMOKE}/find_random/arc_c_random_samples_step1.json"))
+n_inst = len(samples) * len(samples[0]["step_1_ctxs"])
+log = f"{SMOKE}/scorer_{tag}.log"
+
+# 从日志里找 tqdm 的 it/s
+speeds = []
+for line in open(log, errors="ignore"):
+    m = re.findall(r"(\d+\.\d+)it/s", line)
+    if m:
+        speeds.append(float(m[-1]))
+    m2 = re.findall(r"(\d+:\d+)/(\d+)", line)
+    if m2 and "it/s" not in line:
+        pass
+
+elapsed = None
+for line in open(log, errors="ignore"):
+    m = re.search(r"Scoring:.*?(\d+)/(\d+)", line)
+    if m:
+        pass
+
+gpu = f"{SMOKE}/gpu_{tag}.csv"
+mem = []
+if os.path.exists(gpu):
+    for line in open(gpu):
+        parts = [p.strip() for p in line.split(",")]
+        if len(parts) >= 2 and parts[0].isdigit():
+            mem.append(int(parts[0]))
+
+print("=" * 60)
+print(f"[SMOKE-{tag}] 打分实例总数 = {n_inst}")
+print(f"[SMOKE-{tag}] 平均速度 = {sum(speeds)/len(speeds):.2f} it/s  (采样 {len(speeds)} 个点)" if speeds else "[SMOKE] 未抓到 it/s")
+if mem:
+    print(f"[SMOKE-{tag}] 显存峰值 = {max(mem)} MiB / 24564 MiB")
+print("=" * 60)
+with open(f"{SMOKE}/smoke_result_{tag}.json", "w") as f:
+    json.dump({
+        "tag": tag,
+        "n_instances": n_inst,
+        "avg_it_per_s": (sum(speeds)/len(speeds)) if speeds else None,
+        "peak_gpu_mem_mib": max(mem) if mem else None,
+    }, f, indent=2)
+PYEOF
+
+echo "[$(date +%H:%M:%S)] [SMOKE $TAG] 测速完成"

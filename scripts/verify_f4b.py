@@ -1,1 +1,134 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0KIiIiCkY0YiDnnJ/lrp7mqKHlnovnrYnku7fmgKfpqozor4HvvJoKICDnlKjnnJ/lrp7mnYPph43vvIhRd2VuMi41LTdCIC8gTGxhbWEzLThC77yJKyDnnJ/lrp4gdG9rZW5pemVyIOaehOmAoCBiYXRjaO+8jAogIOWvueavlOOAjOWOn+Wni+WunueOsOOAjeS4juOAjEY0YiDlrp7njrDjgI3nrpflh7rnmoQgbG9zcyDkuI7pooTmtYvmmK/lkKbkuIDoh7TjgIIKCiAg5ZCM5pe26L6T5Ye65pi+5a2Y5a+55q+U44CCCgrnlKjms5XvvJpweXRob24gdmVyaWZ5X2Y0Yi5weSA8cmVwb19wYXRoPiA8bW9kZWxfcGF0aD4gW3Rva2VuaXplcl9wYXRoXQoiIiIKaW1wb3J0IG9zCmltcG9ydCBzeXMKaW1wb3J0IHRpbWUKClJFUE8gPSBzeXMuYXJndlsxXSBpZiBsZW4oc3lzLmFyZ3YpID4gMSBlbHNlICIvcm9vdC9hdXRvZGwtdG1wL1NlRFBPX05JUFMyNSIKTU9ERUwgPSBzeXMuYXJndlsyXSBpZiBsZW4oc3lzLmFyZ3YpID4gMiBlbHNlICIvcm9vdC9hdXRvZGwtdG1wL21vZGVscy9xd2VuMi41LTdiIgpUT0sgPSBzeXMuYXJndlszXSBpZiBsZW4oc3lzLmFyZ3YpID4gMyBlbHNlIE1PREVMCnN5cy5wYXRoLmluc2VydCgwLCBSRVBPKQpvcy5jaGRpcihSRVBPKQoKaW1wb3J0IHRvcmNoCmZyb20gdHJhbnNmb3JtZXJzIGltcG9ydCBBdXRvTW9kZWxGb3JDYXVzYWxMTSwgQXV0b1Rva2VuaXplcgoKdG9rZW5pemVyID0gQXV0b1Rva2VuaXplci5mcm9tX3ByZXRyYWluZWQoVE9LLCBjYWNoZV9kaXI9b3MucGF0aC5qb2luKFJFUE8sICJjYWNoZSIpKQptb2RlbCA9IEF1dG9Nb2RlbEZvckNhdXNhbExNLmZyb21fcHJldHJhaW5lZCgKICAgIE1PREVMLCBjYWNoZV9kaXI9b3MucGF0aC5qb2luKFJFUE8sICJjYWNoZSIpLCB0b3JjaF9kdHlwZT10b3JjaC5mbG9hdDE2CikuaGFsZigpLmN1ZGEoKS5ldmFsKCkKCk9QVCA9IDQKU0VRID0gNjQwCgoKZGVmIGJ1aWxkX2JhdGNoKGJzeiwgc2VlZD0wKToKICAgICIiIuaehOmAoOS4gOaJueOAjOmXrumimCArIDQg5Liq6YCJ6aG544CN55qE5YGHIGJhdGNo77yM562U5qGIIHRva2VuIOWcqOacq+WwviIiIgogICAgdG9yY2gubWFudWFsX3NlZWQoc2VlZCkKICAgIGlucHV0X2lkcyA9IHRvcmNoLnJhbmRpbnQoMTAwMCwgNTAwMDAsIChic3osIE9QVCwgU0VRKSkKICAgIGF0dGVudGlvbiA9IHRvcmNoLm9uZXMoYnN6LCBPUFQsIFNFUSwgZHR5cGU9dG9yY2gubG9uZykKICAgIGxvc3NfbWFzayA9IHRvcmNoLnplcm9zKGJzeiwgT1BULCBTRVEpCiAgICBmb3IgYiBpbiByYW5nZShic3opOgogICAgICAgIGZvciBvIGluIHJhbmdlKE9QVCk6CiAgICAgICAgICAgIG4gPSAzCiAgICAgICAgICAgIGxvc3NfbWFza1tiLCBvLCBTRVEgLSBuOl0gPSAxCiAgICBsYWJlbHMgPSB0b3JjaC5yYW5kaW50KDAsIE9QVCwgKGJzeiwgMSkpCiAgICByZXR1cm4gaW5wdXRfaWRzLmN1ZGEoKSwgYXR0ZW50aW9uLmN1ZGEoKSwgbG9zc19tYXNrLmN1ZGEoKSwgbGFiZWxzLmN1ZGEoKQoKCmRlZiBvcmlnaW5hbF9pbXBsKGlucHV0X2lkcywgYXR0biwgbG9zc19tYXNrLCBsYWJlbHMpOgogICAgIiIi5Y6f5aeL5LiK5ri45a6e546wIiIiCiAgICBic3osIG9wdGlvbl9udW0sIHNlcV9sZW4gPSBpbnB1dF9pZHMuc2hhcGUKICAgIHdpdGggdG9yY2gubm9fZ3JhZCgpOgogICAgICAgIG91dHB1dCA9IG1vZGVsKGlucHV0X2lkcz1pbnB1dF9pZHMucmVzaGFwZShic3ogKiBvcHRpb25fbnVtLCBzZXFfbGVuKSwKICAgICAgICAgICAgICAgICAgICAgICBhdHRlbnRpb25fbWFzaz1hdHRuLnJlc2hhcGUoYnN6ICogb3B0aW9uX251bSwgc2VxX2xlbikpCiAgICB0YXJnZXRzID0gaW5wdXRfaWRzWzosIDosIDE6XS51bnNxdWVlemUoLTEpCiAgICBsb2dpdHMgPSBvdXRwdXQubG9naXRzLnJlc2hhcGUoYnN6LCBvcHRpb25fbnVtLCBzZXFfbGVuLCAtMSkKICAgIGxvZ2l0cyA9IGxvZ2l0c1s6LCA6LCA6LTEsIDpdCiAgICBsb2dpdF9wcm9icyA9IHRvcmNoLm5uLmZ1bmN0aW9uYWwubG9nX3NvZnRtYXgobG9naXRzLmZsb2F0KCksIGRpbT0tMSkKICAgIGxtID0gbG9zc19tYXNrWzosIDosIDE6XQogICAgbG9zcyA9IC10b3JjaC5nYXRoZXIobG9naXRfcHJvYnMsIC0xLCB0YXJnZXRzKS5zcXVlZXplKC0xKSAqIGxtCiAgICBsb3NzID0gbG9zcy5zdW0oLTEpIC8gbG0uc3VtKC0xKQogICAgcHJlZHMgPSB0b3JjaC5hcmdtaW4obG9zcywgZGltPS0xKQogICAgbm9ybWVkID0gdG9yY2gubm4uZnVuY3Rpb25hbC5ub3JtYWxpemUobG9zcywgcD0xLCBkaW09LTEpCiAgICBsYWJlbHNfbG9zc2VzID0gdG9yY2guZ2F0aGVyKG5vcm1lZCwgLTEsIGxhYmVscykuc3F1ZWV6ZSgtMSkKICAgIHJldHVybiBsb3NzLCBwcmVkcywgbGFiZWxzX2xvc3NlcwoKCmRlZiBmNGJfaW1wbChpbnB1dF9pZHMsIGF0dG4sIGxvc3NfbWFzaywgbGFiZWxzKToKICAgICIiIkY0Yu+8mmhpZGRlbiBzdGF0ZXMgKyDlrprngrkgbG1faGVhZCIiIgogICAgYnN6LCBvcHRpb25fbnVtLCBzZXFfbGVuID0gaW5wdXRfaWRzLnNoYXBlCiAgICB0YXJnZXRzID0gaW5wdXRfaWRzWzosIDosIDE6XS51bnNxdWVlemUoLTEpCiAgICBsbSA9IGxvc3NfbWFza1s6LCA6LCAxOl0KICAgIHdpdGggdG9yY2gubm9fZ3JhZCgpOgogICAgICAgIG91dCA9IG1vZGVsLm1vZGVsKGlucHV0X2lkcz1pbnB1dF9pZHMucmVzaGFwZShic3ogKiBvcHRpb25fbnVtLCBzZXFfbGVuKSwKICAgICAgICAgICAgICAgICAgICAgICAgICBhdHRlbnRpb25fbWFzaz1hdHRuLnJlc2hhcGUoYnN6ICogb3B0aW9uX251bSwgc2VxX2xlbiksCiAgICAgICAgICAgICAgICAgICAgICAgICAgdXNlX2NhY2hlPUZhbHNlKQogICAgICAgIGhpZGRlbiA9IG91dC5sYXN0X2hpZGRlbl9zdGF0ZS5yZXNoYXBlKGJzeiwgb3B0aW9uX251bSwgc2VxX2xlbiwgLTEpCiAgICBmbGF0X2hpZGRlbiA9IGhpZGRlbls6LCA6LCA6LTEsIDpdLnJlc2hhcGUoLTEsIGhpZGRlbi5zaGFwZVstMV0pCiAgICBmbGF0X3RhcmdldHMgPSB0YXJnZXRzLnJlc2hhcGUoLTEpCiAgICBmbGF0X21hc2sgPSBsbS5yZXNoYXBlKC0xKS5ib29sKCkKICAgIHNlbF9oaWRkZW4gPSBmbGF0X2hpZGRlbltmbGF0X21hc2tdCiAgICBzZWxfdGFyZ2V0cyA9IGZsYXRfdGFyZ2V0c1tmbGF0X21hc2tdLnNxdWVlemUoLTEpCiAgICB3aXRoIHRvcmNoLm5vX2dyYWQoKToKICAgICAgICBzZWxfbG9naXRzID0gbW9kZWwubG1faGVhZChzZWxfaGlkZGVuKS5mbG9hdCgpCiAgICBsc2UgPSB0b3JjaC5sb2dzdW1leHAoc2VsX2xvZ2l0cywgZGltPS0xKQogICAgdGd0ID0gdG9yY2guZ2F0aGVyKHNlbF9sb2dpdHMsIC0xLCBzZWxfdGFyZ2V0cy51bnNxdWVlemUoLTEpKS5zcXVlZXplKC0xKQogICAgbmxsID0gbHNlIC0gdGd0CiAgICBsb3NzID0gdG9yY2guemVyb3MoZmxhdF9tYXNrLnNoYXBlWzBdLCBkZXZpY2U9aGlkZGVuLmRldmljZSwgZHR5cGU9dG9yY2guZmxvYXQzMikKICAgIGxvc3NbZmxhdF9tYXNrXSA9IG5sbAogICAgbG9zcyA9IGxvc3Mudmlldyhic3osIG9wdGlvbl9udW0sIC0xKQogICAgbG9zcyA9IGxvc3Muc3VtKC0xKSAvIGxtLnN1bSgtMSkuY2xhbXAobWluPTEpCiAgICBwcmVkcyA9IHRvcmNoLmFyZ21pbihsb3NzLCBkaW09LTEpCiAgICBub3JtZWQgPSB0b3JjaC5ubi5mdW5jdGlvbmFsLm5vcm1hbGl6ZShsb3NzLCBwPTEsIGRpbT0tMSkKICAgIGxhYmVsc19sb3NzZXMgPSB0b3JjaC5nYXRoZXIobm9ybWVkLCAtMSwgbGFiZWxzKS5zcXVlZXplKC0xKQogICAgcmV0dXJuIGxvc3MsIHByZWRzLCBsYWJlbHNfbG9zc2VzCgoKcHJpbnQoZiJtb2RlbD17TU9ERUx9IikKcHJpbnQoZiJ7J2Jzeic6PjV9IHsn5a6e546wJzo8MTB9eyfls7DlgLzmmL7lrZhHQic6PjEzfXsn56eSL2JhdGNoJzo+MTF9eyflrp7kvosv56eSJzo+MTB9ICDkuIDoh7TmgKciKQpwcmludCgiLSIgKiA3OCkKCmZvciBic3ogaW4gWzIsIDQsIDgsIDE2LCAzMiwgNDgsIDY0XToKICAgIGlucHV0X2lkcywgYXR0biwgbG0sIGxhYmVscyA9IGJ1aWxkX2JhdGNoKGJzeikKICAgIHJvdyA9IFtdCiAgICBmb3IgbmFtZSwgZm4gaW4gWygi5Y6f5aeLIiwgb3JpZ2luYWxfaW1wbCksICgiRjRiIiwgZjRiX2ltcGwpXToKICAgICAgICB0b3JjaC5jdWRhLmVtcHR5X2NhY2hlKCkKICAgICAgICB0b3JjaC5jdWRhLnJlc2V0X3BlYWtfbWVtb3J5X3N0YXRzKCkKICAgICAgICB0cnk6CiAgICAgICAgICAgIHdpdGggdG9yY2gubm9fZ3JhZCgpOgogICAgICAgICAgICAgICAgb3V0ID0gZm4oaW5wdXRfaWRzLCBhdHRuLCBsbSwgbGFiZWxzKQogICAgICAgICAgICAgICAgdG9yY2guY3VkYS5zeW5jaHJvbml6ZSgpCiAgICAgICAgICAgICAgICB0MCA9IHRpbWUudGltZSgpCiAgICAgICAgICAgICAgICBmb3IgXyBpbiByYW5nZSgyKToKICAgICAgICAgICAgICAgICAgICBvdXQgPSBmbihpbnB1dF9pZHMsIGF0dG4sIGxtLCBsYWJlbHMpCiAgICAgICAgICAgICAgICB0b3JjaC5jdWRhLnN5bmNocm9uaXplKCkKICAgICAgICAgICAgICAgIGR0ID0gKHRpbWUudGltZSgpIC0gdDApIC8gMgogICAgICAgICAgICBwZWFrID0gdG9yY2guY3VkYS5tYXhfbWVtb3J5X2FsbG9jYXRlZCgpIC8gMWU5CiAgICAgICAgICAgIHJvdy5hcHBlbmQoKG5hbWUsIHBlYWssIGR0LCBic3ogLyBkdCwgb3V0KSkKICAgICAgICBleGNlcHQgdG9yY2guY3VkYS5PdXRPZk1lbW9yeUVycm9yOgogICAgICAgICAgICB0b3JjaC5jdWRhLmVtcHR5X2NhY2hlKCkKICAgICAgICAgICAgcm93LmFwcGVuZCgobmFtZSwgTm9uZSwgTm9uZSwgTm9uZSwgTm9uZSkpCiAgICAjIOS4gOiHtOaAp+WvueavlAogICAgY29ucyA9ICIiCiAgICBpZiByb3dbMF1bNF0gaXMgbm90IE5vbmUgYW5kIHJvd1sxXVs0XSBpcyBub3QgTm9uZToKICAgICAgICBsMCwgcDAsIHkwID0gcm93WzBdWzRdCiAgICAgICAgbDEsIHAxLCB5MSA9IHJvd1sxXVs0XQogICAgICAgIGRsID0gKGwwIC0gbDEpLmFicygpLm1heCgpLml0ZW0oKQogICAgICAgIGRwID0gKHAwICE9IHAxKS5zdW0oKS5pdGVtKCkKICAgICAgICBkeSA9ICh5MCAtIHkxKS5hYnMoKS5tYXgoKS5pdGVtKCkKICAgICAgICBjb25zID0gZiJsb3NzIM6UPXtkbDouMmV9IHByZWQg5LiN5LiA6Ie0PXtkcH0ve3AwLm51bWVsKCl9IHnOlD17ZHk6LjJlfSIKICAgIGZvciBuYW1lLCBwZWFrLCBkdCwgdHBzLCBfIGluIHJvdzoKICAgICAgICBpZiBwZWFrIGlzIE5vbmU6CiAgICAgICAgICAgIHByaW50KGYie2Jzejo+NX0ge25hbWU6PDEwfXsnT09NJzo+MTN9IikKICAgICAgICBlbHNlOgogICAgICAgICAgICBwcmludChmIntic3o6PjV9IHtuYW1lOjwxMH17cGVhazo+MTMuMmZ9e2R0Oj4xMS4zZn17dHBzOj4xMC4xZn0gIHtjb25zIGlmIG5hbWU9PSdGNGInIGVsc2UgJyd9IikKICAgIHByaW50KCItIiAqIDc4KQo=
+# -*- coding: utf-8 -*-
+"""
+F4b 真实模型等价性验证：
+  用真实权重（Qwen2.5-7B / Llama3-8B）+ 真实 tokenizer 构造 batch，
+  对比「原始实现」与「F4b 实现」算出的 loss 与预测是否一致。
+
+  同时输出显存对比。
+
+用法：python verify_f4b.py <repo_path> <model_path> [tokenizer_path]
+"""
+import os
+import sys
+import time
+
+REPO = sys.argv[1] if len(sys.argv) > 1 else "/root/autodl-tmp/SeDPO_NIPS25"
+MODEL = sys.argv[2] if len(sys.argv) > 2 else "/root/autodl-tmp/models/qwen2.5-7b"
+TOK = sys.argv[3] if len(sys.argv) > 3 else MODEL
+sys.path.insert(0, REPO)
+os.chdir(REPO)
+
+import torch
+from transformers import AutoModelForCausalLM, AutoTokenizer
+
+tokenizer = AutoTokenizer.from_pretrained(TOK, cache_dir=os.path.join(REPO, "cache"))
+model = AutoModelForCausalLM.from_pretrained(
+    MODEL, cache_dir=os.path.join(REPO, "cache"), torch_dtype=torch.float16
+).half().cuda().eval()
+
+OPT = 4
+SEQ = 640
+
+
+def build_batch(bsz, seed=0):
+    """构造一批「问题 + 4 个选项」的假 batch，答案 token 在末尾"""
+    torch.manual_seed(seed)
+    input_ids = torch.randint(1000, 50000, (bsz, OPT, SEQ))
+    attention = torch.ones(bsz, OPT, SEQ, dtype=torch.long)
+    loss_mask = torch.zeros(bsz, OPT, SEQ)
+    for b in range(bsz):
+        for o in range(OPT):
+            n = 3
+            loss_mask[b, o, SEQ - n:] = 1
+    labels = torch.randint(0, OPT, (bsz, 1))
+    return input_ids.cuda(), attention.cuda(), loss_mask.cuda(), labels.cuda()
+
+
+def original_impl(input_ids, attn, loss_mask, labels):
+    """原始上游实现"""
+    bsz, option_num, seq_len = input_ids.shape
+    with torch.no_grad():
+        output = model(input_ids=input_ids.reshape(bsz * option_num, seq_len),
+                       attention_mask=attn.reshape(bsz * option_num, seq_len))
+    targets = input_ids[:, :, 1:].unsqueeze(-1)
+    logits = output.logits.reshape(bsz, option_num, seq_len, -1)
+    logits = logits[:, :, :-1, :]
+    logit_probs = torch.nn.functional.log_softmax(logits.float(), dim=-1)
+    lm = loss_mask[:, :, 1:]
+    loss = -torch.gather(logit_probs, -1, targets).squeeze(-1) * lm
+    loss = loss.sum(-1) / lm.sum(-1)
+    preds = torch.argmin(loss, dim=-1)
+    normed = torch.nn.functional.normalize(loss, p=1, dim=-1)
+    labels_losses = torch.gather(normed, -1, labels).squeeze(-1)
+    return loss, preds, labels_losses
+
+
+def f4b_impl(input_ids, attn, loss_mask, labels):
+    """F4b：hidden states + 定点 lm_head"""
+    bsz, option_num, seq_len = input_ids.shape
+    targets = input_ids[:, :, 1:].unsqueeze(-1)
+    lm = loss_mask[:, :, 1:]
+    with torch.no_grad():
+        out = model.model(input_ids=input_ids.reshape(bsz * option_num, seq_len),
+                          attention_mask=attn.reshape(bsz * option_num, seq_len),
+                          use_cache=False)
+        hidden = out.last_hidden_state.reshape(bsz, option_num, seq_len, -1)
+    flat_hidden = hidden[:, :, :-1, :].reshape(-1, hidden.shape[-1])
+    flat_targets = targets.reshape(-1)
+    flat_mask = lm.reshape(-1).bool()
+    sel_hidden = flat_hidden[flat_mask]
+    sel_targets = flat_targets[flat_mask].squeeze(-1)
+    with torch.no_grad():
+        sel_logits = model.lm_head(sel_hidden).float()
+    lse = torch.logsumexp(sel_logits, dim=-1)
+    tgt = torch.gather(sel_logits, -1, sel_targets.unsqueeze(-1)).squeeze(-1)
+    nll = lse - tgt
+    loss = torch.zeros(flat_mask.shape[0], device=hidden.device, dtype=torch.float32)
+    loss[flat_mask] = nll
+    loss = loss.view(bsz, option_num, -1)
+    loss = loss.sum(-1) / lm.sum(-1).clamp(min=1)
+    preds = torch.argmin(loss, dim=-1)
+    normed = torch.nn.functional.normalize(loss, p=1, dim=-1)
+    labels_losses = torch.gather(normed, -1, labels).squeeze(-1)
+    return loss, preds, labels_losses
+
+
+print(f"model={MODEL}")
+print(f"{'bsz':>5} {'实现':<10}{'峰值显存GB':>13}{'秒/batch':>11}{'实例/秒':>10}  一致性")
+print("-" * 78)
+
+for bsz in [2, 4, 8, 16, 32, 48, 64]:
+    input_ids, attn, lm, labels = build_batch(bsz)
+    row = []
+    for name, fn in [("原始", original_impl), ("F4b", f4b_impl)]:
+        torch.cuda.empty_cache()
+        torch.cuda.reset_peak_memory_stats()
+        try:
+            with torch.no_grad():
+                out = fn(input_ids, attn, lm, labels)
+                torch.cuda.synchronize()
+                t0 = time.time()
+                for _ in range(2):
+                    out = fn(input_ids, attn, lm, labels)
+                torch.cuda.synchronize()
+                dt = (time.time() - t0) / 2
+            peak = torch.cuda.max_memory_allocated() / 1e9
+            row.append((name, peak, dt, bsz / dt, out))
+        except torch.cuda.OutOfMemoryError:
+            torch.cuda.empty_cache()
+            row.append((name, None, None, None, None))
+    # 一致性对比
+    cons = ""
+    if row[0][4] is not None and row[1][4] is not None:
+        l0, p0, y0 = row[0][4]
+        l1, p1, y1 = row[1][4]
+        dl = (l0 - l1).abs().max().item()
+        dp = (p0 != p1).sum().item()
+        dy = (y0 - y1).abs().max().item()
+        cons = f"loss Δ={dl:.2e} pred 不一致={dp}/{p0.numel()} yΔ={dy:.2e}"
+    for name, peak, dt, tps, _ in row:
+        if peak is None:
+            print(f"{bsz:>5} {name:<10}{'OOM':>13}")
+        else:
+            print(f"{bsz:>5} {name:<10}{peak:>13.2f}{dt:>11.3f}{tps:>10.1f}  {cons if name=='F4b' else ''}")
+    print("-" * 78)

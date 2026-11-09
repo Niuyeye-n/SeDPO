@@ -1,1 +1,28 @@
-ZXhwb3J0IEhGX0VORFBPSU5UPSR7SEZfRU5EUE9JTlQ6LWh0dHBzOi8vaGYtbWlycm9yLmNvbX0gIyDlm73lhoXplZzlg4/vvJrmsqHmoq/lrZDkuZ/og73mi4kgSEYg5pWw5o2u6ZuG5LiO5qih5Z6LClBZVEhPTj0ke1BZVEhPTjotcHl0aG9ufSAjIOWPr+imhueblu+8jOWmgiBQWVRIT049IkQ6L1Byb2dyYW0gRmlsZXMvYW5hY29uZGEvcHl0aG9uLmV4ZSIKZXhwb3J0IE9VVFBVVF9ESVI9bXlfZGF0YSAjIG1haW4gZXhwZXJpZW5jZSBmb2xkZXIKZXhwb3J0IENBQ0hFX0RJUj1jYWNoZSAjIGZvbGRlciBjYWNoaW5nIHRoZSBMTE0gY2hlY2twb2ludHMsIHRhc2sgZGF0YXNldHMsIGV0Yy4KZXhwb3J0IFBZVEhPTlBBVEg9JFBXRDokUFlUSE9OUEFUSApleHBvcnQgSFlEUkFfRlVMTF9FUlJPUj0xCmV4cG9ydCBTQ09SRVJfQlNaPSR7U0NPUkVSX0JTWjotMTB9CmV4cG9ydCBTQ09SRV9MTE09JHtTQ09SRV9MTE06LSdFbGV1dGhlckFJL2dwdC1uZW8tMi43Qid9ICMgTExNIHRvIHNjb3JlIHRoZSBkYXRhCmV4cG9ydCBJTkZfTExNPSR7SU5GX0xMTTotJ0VsZXV0aGVyQUkvZ3B0LW5lby0yLjdCJ30gIyBMTE0gZm9yIGluZmVyZW5jZQoKcmV0cmlldmVyX2Jzej0ke1JFVFJJRVZFUl9CU1o6LTMyfQpudW1fb2ZfZ3B1cz0ke05VTV9PRl9HUFVTOi04fQoKZm9yIHRhc2sgaW4gcGFyYXBocmFzZSByZWFkaW5nIG5saSBjb3JlZmVyZW5jZTtkbwogICAgZXhwb3J0IFRBU0s9JHt0YXNrfQogICAgZXhwb3J0IFRSQUlOX0NMVVNURVJTPSR7dGFza30KICAgIGV4cG9ydCBURVNUX0NMVVNURVJTPSR7dGFza30KICAgICIkUFlUSE9OIiBzY3JpcHRzL2dldF9jbWRzLnB5IFwKICAgICAgICAtLW91dHB1dF9kaXIgJHtPVVRQVVRfRElSfSBcCiAgICAgICAgLS1tb2RlbF9mb2xkZXIgIm1vZGVsIiBcCiAgICAgICAgLS10cmFpbl9jbHVzdGVycyAke1RSQUlOX0NMVVNURVJTfSBcCiAgICAgICAgLS10ZXN0X2NsdXN0ZXJzICR7VEVTVF9DTFVTVEVSU30gXAogICAgICAgIC0tc2NyX21vZGVsICR7U0NPUkVfTExNfSBcCiAgICAgICAgLS1pbmZfbW9kZWwgJHtJTkZfTExNfSBcCiAgICAgICAgLS1yZXRyaWV2ZXJfYnN6ICR7cmV0cmlldmVyX2Jzen0gXAogICAgICAgIC0tZ3B1cyAke251bV9vZl9ncHVzfSBcCiAgICAgICAgLS1jYWNoZV9kaXIgJHtDQUNIRV9ESVJ9CmRvbmU=
+export HF_ENDPOINT=${HF_ENDPOINT:-https://hf-mirror.com} # 国内镜像：没梯子也能拉 HF 数据集与模型
+PYTHON=${PYTHON:-python} # 可覆盖，如 PYTHON="D:/Program Files/anaconda/python.exe"
+export OUTPUT_DIR=my_data # main experience folder
+export CACHE_DIR=cache # folder caching the LLM checkpoints, task datasets, etc.
+export PYTHONPATH=$PWD:$PYTHONPATH
+export HYDRA_FULL_ERROR=1
+export SCORER_BSZ=${SCORER_BSZ:-10}
+export SCORE_LLM=${SCORE_LLM:-'EleutherAI/gpt-neo-2.7B'} # LLM to score the data
+export INF_LLM=${INF_LLM:-'EleutherAI/gpt-neo-2.7B'} # LLM for inference
+
+retriever_bsz=${RETRIEVER_BSZ:-32}
+num_of_gpus=${NUM_OF_GPUS:-8}
+
+for task in paraphrase reading nli coreference;do
+    export TASK=${task}
+    export TRAIN_CLUSTERS=${task}
+    export TEST_CLUSTERS=${task}
+    "$PYTHON" scripts/get_cmds.py \
+        --output_dir ${OUTPUT_DIR} \
+        --model_folder "model" \
+        --train_clusters ${TRAIN_CLUSTERS} \
+        --test_clusters ${TEST_CLUSTERS} \
+        --scr_model ${SCORE_LLM} \
+        --inf_model ${INF_LLM} \
+        --retriever_bsz ${retriever_bsz} \
+        --gpus ${num_of_gpus} \
+        --cache_dir ${CACHE_DIR}
+done

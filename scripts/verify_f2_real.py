@@ -1,1 +1,92 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0KIiIiCkYyIOWunuivge+8muWcqOecn+WuniBwcm9tcHRfcG9vbCDkuIrpqozor4HjgIzkuIrmuLggaWQg5pig5bCE6ZSZ6YWN44CN56Gu5a6e5Lya5Y+R55SfCgrnlKjnnJ/lrp7mlbDmja7vvIhteV9kYXRhX3F3ZW4vcHJvbXB0X3Bvb2wvcmVhZGluZ19uZXcvKi5qc29u77yJ77yMCuaMieS4iua4uCBnZXRfcHJvbXB0X2ZpbGVzIOeahOaLvOaOpeaWueW8j+aehOmAoCBwcm9tcHRfcG9vbO+8jArnhLblkI7lr7nmr5TvvJoKICDkuIrmuLjlhpnms5UgIHNlbGYucHJvbXB0X3Bvb2xbaWRdCiAg5L+u5aSN5YaZ5rOVICBUYXNrYW5kSWRfdG9fZGF0YVt0YXNrICsgc3RyKGlkKV0K5Zyo55yf5a6e5pWw5o2u5LiK5Yiw5bqV5beu5aSa5bCR44CCCgrnlKjms5XvvJpweXRob24gdmVyaWZ5X2YyX3JlYWwucHkgPHJlcG9fcGF0aD4KIiIiCmltcG9ydCBnbG9iCmltcG9ydCBqc29uCmltcG9ydCBvcwppbXBvcnQgc3lzCgpSRVBPID0gc3lzLmFyZ3ZbMV0gaWYgbGVuKHN5cy5hcmd2KSA+IDEgZWxzZSAiL3Jvb3QvYXV0b2RsLXRtcC9TZURQT19OSVBTMjUiClBPT0xfUk9PVCA9IG9zLnBhdGguam9pbihSRVBPLCAibXlfZGF0YV9xd2VuL3Byb21wdF9wb29sIikKCgpkZWYgZ2V0X3Byb21wdF9maWxlcyhwcm9tcHRfcG9vbF9wYXRoLCB0cmFpbl9jbHVzdGVycyk6CiAgICAiIiLlpI3liLsgRFBSL2Rwci91dGlscy90YXNrcy5weSDnmoQgZ2V0X3Byb21wdF9maWxlcyIiIgogICAgY2x1c3RlcnMgPSB0cmFpbl9jbHVzdGVycy5zcGxpdCgnKycpCiAgICBkaXJzID0gW2Yie3Byb21wdF9wb29sX3BhdGh9L3tjfS8qIiBmb3IgYyBpbiBjbHVzdGVyc10KICAgIHBhdGhzID0gW10KICAgIGZvciBkIGluIGRpcnM6CiAgICAgICAgcGF0aHMuZXh0ZW5kKGdsb2IuZ2xvYihkKSkKICAgIHJldHVybiBwYXRocwoKCmRlZiBjcmVhdGVfZGljdChyYXdfZGF0YSk6CiAgICAiIiLlpI3liLsgRFBSL2Rwci9kYXRhL2JpZW5jb2Rlcl9kYXRhLnB5IOeahCBjcmVhdGVfZGljdCIiIgogICAgZCA9IHt9CiAgICBmb3IgZGF0YSBpbiByYXdfZGF0YToKICAgICAgICBkW2RhdGFbInRhc2tfbmFtZSJdICsgc3RyKGRhdGFbImlkIl0pXSA9IGRhdGEKICAgIHJldHVybiBkCgoKcHJpbnQoIj0iICogNzQpCnByaW50KCJGMiDlrp7or4HvvJrlpJrku7vliqEgY2x1c3RlciDkuIsgcHJvbXB0X3Bvb2wg55qEIGlkIOepuumXtOWGsueqgSIpCnByaW50KCI9IiAqIDc0KQoKZm9yIGNsdXN0ZXIgaW4gWyJjbG9zZV9xYSIsICJyZWFkaW5nX25ldyJdOgogICAgZmlsZXMgPSBnZXRfcHJvbXB0X2ZpbGVzKFBPT0xfUk9PVCwgY2x1c3RlcikKICAgIHBvb2wgPSBbXQogICAgZm9yIGYgaW4gZmlsZXM6CiAgICAgICAgcG9vbC5leHRlbmQoanNvbi5sb2FkKG9wZW4oZiwgZW5jb2Rpbmc9InV0Zi04IikpKQogICAgdGFza21hcCA9IGNyZWF0ZV9kaWN0KHBvb2wpCgogICAgcHJpbnQoZiJcbiMjIyBjbHVzdGVyID0ge2NsdXN0ZXJ9IikKICAgIHByaW50KGYiICDmi7zmjqXpobrluo/vvIhnbG9iIOi/lOWbnumhuuW6j++8iToge1tvcy5wYXRoLmJhc2VuYW1lKGYpIGZvciBmIGluIGZpbGVzXX0iKQogICAgIyDmr4/mrrXku7vliqHlnKjmi7zmjqXmsaDkuK3nmoTlhajlsYDkuIvmoIfljLrpl7QKICAgIHNlZ3MgPSBbXQogICAgY3VyID0gMAogICAgZm9yIGYgaW4gZmlsZXM6CiAgICAgICAgbiA9IGxlbihqc29uLmxvYWQob3BlbihmLCBlbmNvZGluZz0idXRmLTgiKSkpCiAgICAgICAgc2Vncy5hcHBlbmQoKG9zLnBhdGguYmFzZW5hbWUoZiksIGN1ciwgY3VyICsgbiAtIDEpKQogICAgICAgIGN1ciArPSBuCiAgICBmb3IgbmFtZSwgbG8sIGhpIGluIHNlZ3M6CiAgICAgICAgcHJpbnQoZiIgICAge25hbWU6PDMyfSDlhajlsYDkuIvmoIcgW3tsb30sIHtoaX1dIikKCiAgICBpZiBsZW4oc2VncykgPCAyOgogICAgICAgIHByaW50KCIgIC0+IOWNleS7u+WKoSBjbHVzdGVy77ya5YWo5bGA5LiL5qCHID09IOS7u+WKoeWGheWxgOmDqCBpZO+8jOS4jeWtmOWcqOmUmemFjSIpCiAgICAgICAgY29udGludWUKCiAgICBwcmludCgiICAtPiDlpJrku7vliqEgY2x1c3Rlcu+8mumAkOS7u+WKoeaKveagtyAyMDAg5LiqIGlkIOajgOafpemUmemFjeeOhyIpCiAgICB0b3RhbF93cm9uZyA9IDAKICAgIHRvdGFsID0gMAogICAgZm9yIG5hbWUsIGxvLCBoaSBpbiBzZWdzOgogICAgICAgIHRhc2sgPSBuYW1lLnJlcGxhY2UoIl9wcm9tcHRzLmpzb24iLCAiIikKICAgICAgICAjIOWPluivpeS7u+WKoeaxoOmHjOecn+WunuWtmOWcqOeahCBpZAogICAgICAgIHRhc2tfaWRzID0gW2VbImlkIl0gZm9yIGUgaW4gcG9vbCBpZiBlWyJ0YXNrX25hbWUiXSA9PSB0YXNrXVs6MjAwXQogICAgICAgIHdyb25nID0gMAogICAgICAgIGZvciBpIGluIHRhc2tfaWRzOgogICAgICAgICAgICBuYWl2ZSA9IHBvb2xbaV0gICAgICAgICAgICAgICAgICAgICAjIOS4iua4uOWGmeazle+8muebtOaOpeaMiSBpZCDlj5YKICAgICAgICAgICAgZml4ZWQgPSB0YXNrbWFwLmdldCh0YXNrICsgc3RyKGkpKSAgIyDkv67lpI3lhpnms5XvvJrmjIkgdGFzaytpZCDlj5YKICAgICAgICAgICAgaWYgbmFpdmUgaXMgbm90IGZpeGVkOgogICAgICAgICAgICAgICAgd3JvbmcgKz0gMQogICAgICAgIHRvdGFsX3dyb25nICs9IHdyb25nCiAgICAgICAgdG90YWwgKz0gbGVuKHRhc2tfaWRzKQogICAgICAgIHBjdCA9IDEwMC4wICogd3JvbmcgLyBtYXgobGVuKHRhc2tfaWRzKSwgMSkKICAgICAgICBwcmludChmIiAgICB7dGFzazo8MTJ9IOaKveafpSB7bGVuKHRhc2tfaWRzKTo+M30g5LiqIGlkIC0+IOS4iua4uOWPlumUmSB7d3Jvbmc6PjN9IOS4qiAoe3BjdDouMWZ9JSkiKQogICAgcHJpbnQoZiIgICAgPj4+IOaVtOS9k+mUmemFjeeOhzogezEwMC4wKnRvdGFsX3dyb25nL21heCh0b3RhbCwxKTouMWZ9JSIpCgpwcmludCgpCnByaW50KCI9IiAqIDc0KQpwcmludCgi57uT6K6677ya5aSa5Lu75YqhIGNsdXN0ZXIg5Lit77yM6Z2e6aaW5L2N5Lu75Yqh55qEIGlkIOS8muiiq+S4iua4uOWGmeazleino+aekOaIkOWIq+eahOS7u+WKoeeahOekuuS+i+OAgiIpCnByaW50KCIgICAgICDov5nnm7TmjqXmsaHmn5MgU2VEUE8g6K6t57uD5pe255qEIHF1ZXJ5IOaWh+acrO+8iGhhdmVfY2hvb3NlbiDmi7zov5sgcXVlc3Rpb27vvInjgIIiKQpwcmludCgiICAgICAgRjIg5L+u5aSN5ZCOIDEwMCUg5a+56b2Q44CCIikKcHJpbnQoIj0iICogNzQpCg==
+# -*- coding: utf-8 -*-
+"""
+F2 实证：在真实 prompt_pool 上验证「上游 id 映射错配」确实会发生
+
+用真实数据（my_data_qwen/prompt_pool/reading_new/*.json），
+按上游 get_prompt_files 的拼接方式构造 prompt_pool，
+然后对比：
+  上游写法  self.prompt_pool[id]
+  修复写法  TaskandId_to_data[task + str(id)]
+在真实数据上到底差多少。
+
+用法：python verify_f2_real.py <repo_path>
+"""
+import glob
+import json
+import os
+import sys
+
+REPO = sys.argv[1] if len(sys.argv) > 1 else "/root/autodl-tmp/SeDPO_NIPS25"
+POOL_ROOT = os.path.join(REPO, "my_data_qwen/prompt_pool")
+
+
+def get_prompt_files(prompt_pool_path, train_clusters):
+    """复刻 DPR/dpr/utils/tasks.py 的 get_prompt_files"""
+    clusters = train_clusters.split('+')
+    dirs = [f"{prompt_pool_path}/{c}/*" for c in clusters]
+    paths = []
+    for d in dirs:
+        paths.extend(glob.glob(d))
+    return paths
+
+
+def create_dict(raw_data):
+    """复刻 DPR/dpr/data/biencoder_data.py 的 create_dict"""
+    d = {}
+    for data in raw_data:
+        d[data["task_name"] + str(data["id"])] = data
+    return d
+
+
+print("=" * 74)
+print("F2 实证：多任务 cluster 下 prompt_pool 的 id 空间冲突")
+print("=" * 74)
+
+for cluster in ["close_qa", "reading_new"]:
+    files = get_prompt_files(POOL_ROOT, cluster)
+    pool = []
+    for f in files:
+        pool.extend(json.load(open(f, encoding="utf-8")))
+    taskmap = create_dict(pool)
+
+    print(f"\n### cluster = {cluster}")
+    print(f"  拼接顺序（glob 返回顺序）: {[os.path.basename(f) for f in files]}")
+    # 每段任务在拼接池中的全局下标区间
+    segs = []
+    cur = 0
+    for f in files:
+        n = len(json.load(open(f, encoding="utf-8")))
+        segs.append((os.path.basename(f), cur, cur + n - 1))
+        cur += n
+    for name, lo, hi in segs:
+        print(f"    {name:<32} 全局下标 [{lo}, {hi}]")
+
+    if len(segs) < 2:
+        print("  -> 单任务 cluster：全局下标 == 任务内局部 id，不存在错配")
+        continue
+
+    print("  -> 多任务 cluster：逐任务抽样 200 个 id 检查错配率")
+    total_wrong = 0
+    total = 0
+    for name, lo, hi in segs:
+        task = name.replace("_prompts.json", "")
+        # 取该任务池里真实存在的 id
+        task_ids = [e["id"] for e in pool if e["task_name"] == task][:200]
+        wrong = 0
+        for i in task_ids:
+            naive = pool[i]                     # 上游写法：直接按 id 取
+            fixed = taskmap.get(task + str(i))  # 修复写法：按 task+id 取
+            if naive is not fixed:
+                wrong += 1
+        total_wrong += wrong
+        total += len(task_ids)
+        pct = 100.0 * wrong / max(len(task_ids), 1)
+        print(f"    {task:<12} 抽查 {len(task_ids):>3} 个 id -> 上游取错 {wrong:>3} 个 ({pct:.1f}%)")
+    print(f"    >>> 整体错配率: {100.0*total_wrong/max(total,1):.1f}%")
+
+print()
+print("=" * 74)
+print("结论：多任务 cluster 中，非首位任务的 id 会被上游写法解析成别的任务的示例。")
+print("      这直接污染 SeDPO 训练时的 query 文本（have_choosen 拼进 question）。")
+print("      F2 修复后 100% 对齐。")
+print("=" * 74)

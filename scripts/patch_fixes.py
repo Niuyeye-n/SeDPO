@@ -1,1 +1,272 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0KIiIiClNlRFBPIOWkjeeOsCDigJTigJQg5LiA5qyh5oCn5L+u5aSNIDQg5Liq5bey56Gu6K6k57y66Zm377yIMjAyNi0xMS0wNe+8iQoK55So5rOV77yaCiAgICBweXRob24gcGF0Y2hfZml4ZXMucHkgPHJlcG9fcGF0aD4gICAgICMgcmVwb19wYXRoIOm7mOiupOS4uiAvcm9vdC9hdXRvZGwtdG1wL1NlRFBPX05JUFMyNQoK5Zub5Liq5L+u5aSN77yaCgpbRjFdIGZpbmRfcmFuZG9tX3N0ZXAxLnB5IOKAlOKAlCBMIOiiq+mdmem7mOaIquaWrQogICAgIOWOn+eggSAgaz1taW4oY2ZnLkwsIGxlbihkYXRhX2xpc3QpLTEpCiAgICAgZGF0YV9saXN0IOiiq+acrOmhueebrueahCBuX3Njb3JlIOihpeS4geaIquaIkCBuX3Njb3JlIOadoe+8jOS6juaYryBMIOi3n+edgOe8qeawtO+8mgogICAgIEFSQy1DIOacrOivpSBMPTQwMCDihpIg5a6e6ZmFIDE0Oe+8m09wZW5Cb29rUUEg5pys6K+lIEw9MjAwIOKGkiDlrp7pmYUgMTQ544CCCiAgICAg5o6S5bqP5L+h5Y+35by65bqm6KKr5YmK5byx77yM5LiUIHN0ZXAxKDE0OSkg5LiOIHN0ZXAyKDQwMCkg5YaF6YOo5LiN5LiA6Ie044CCCiAgICAg5L+u5rOV77yaayDmjInlgJnpgInmsaDlpKflsI/orqHnrpfvvIhsZW4oaWR4X2xpc3QpLTHvvInvvIzkuI4gbl9zY29yZSDop6PogKbjgIIKCltGMl0gYmllbmNvZGVyX2RhdGEucHkg4oCU4oCUIOS4iua4uCBpZCDmmKDlsITplJnphY3vvIjlpJrku7vliqEgY2x1c3RlciDkuIvnmoTnnJ8gYnVn77yJCiAgICAg5omT5YiG6Zi25q615q+P5Liq5Lu75Yqh5pyJ54us56uLIHByb21wdF9wb29s77yIaWQg5LuOIDAg5byA5aeL44CB5Lu75Yqh5YaF5bGA6YOo57yW5Y+377yJ77ybCiAgICAg6K6t57uD6Zi25q61IHByb21wdF9wb29sIOiiqyBnZXRfcHJvbXB0X2ZpbGVzKCkg6Leo5Lu75Yqh5ou85o6l5oiQ5LiA5Liq5aSn5YiX6KGo77yMCiAgICAg5L2GIGdldF9tdWx0aV9wcmVmZXJfZW50cnkgLyBnZXRfb2xkX2VudHJ5IOetieWkhOS7jeeUqCBzZWxmLnByb21wdF9wb29sW2lkXQogICAgIOWPluOAjOW3sumAieekuuS+i+OAjeKAlOKAlOeUqOeahOaYr+aLvOaOpeaxoOeahOWFqOWxgOS4i+agh+WOu+afpeS7u+WKoeWGheWxgOmDqCBpZO+8jAogICAgIOWkmuS7u+WKoSBjbHVzdGVyIOS4i+W/heeEtuWPlumUmeekuuS+i+OAggogICAgIOS4iua4uOWFtuWunuW7uuS6huaYoOWwhOihqCBjcmVhdGVfZGljdCgpIC0+IFRhc2thbmRJZF90b19kYXRhW3Rhc2sraWRd77yMCiAgICAg5L2G5LuO5aS05Yiw5bC+5rKh5Lq655So5a6D44CCCiAgICAg5L+u5rOV77ya5paw5aKeIF9sb29rdXBfcG9vbCh0YXNrLCBpZCnvvIzkvJjlhYjmjIkgVGFza2FuZElkX3RvX2RhdGEg5p+l77yI5Lu75Yqh5YaFIGlk77yJ77yMCiAgICAg5p+l5LiN5Yiw5YaN6YCA5ZueIHNlbGYucHJvbXB0X3Bvb2xbaWRd77yI5Y2V5Lu75YqhIGNsdXN0ZXIg55qE5Y6f5pyJ6KGM5Li677yJ44CCCgpbRjNdIGZld19zaG90X2Rzci5weSDigJTigJQgUmFuZG9tIOWfuue6v+aJgOaciemXrumimOWkjeeUqOWQjOS4gOe7hOmaj+acuuekuuS+iwogICAgIGdldF9maWVsZHMoKSDmr4/mrKHosIPnlKjpg73miafooYwgcmFuZG9tLnNlZWQoc2VsZi5yYW5kb21fc2VlZCnvvIwKICAgICDogIzor6Xlh73mlbDlnKggcGVyLXNhbXBsZSDot6/lvoTkuIrvvIzlr7zoh7TmiYDmnInpl67popjmir3liLDlrozlhajnm7jlkIznmoQgSyDkuKrnpLrkvovjgIIKICAgICDkv67ms5XvvJrmjInpl67popjkuIvmoIfmtL7nlJ/np43lrZDvvIhzZWVkID0gcmFuZG9tX3NlZWQqMTAwMDAwMyArIGluZGV477yJ77yMCiAgICAg5pei5L+d5oyB5Y+v5aSN546w77yM5Y+I6K6p5q+P5Liq6Zeu6aKY5oq95Yiw5LiN5ZCM55qE6ZqP5py656S65L6L44CCCgpbRjRdIHNjb3Jlci5weSDigJTigJQgY2hvaWNlX2xvc3NlcyDmmL7lrZjniIbngrgKICAgICDljp/noIHlr7nmlbTmnaHluo/liJcgKGJzeiwgb3B0aW9uLCBzZXEsIHZvY2FiKSDlgZogZmxvYXQzMiBsb2dfc29mdG1heO+8jAogICAgIDdCIOaooeWeiyArIDIwNDgg5LiK5LiL5paH5LiLIGxvZ2l0cy5mbG9hdCgpIOWNleeLrOWwseimgeWlveWHoCBHQu+8jAogICAgIOi/q+S9vyBiYXRjaF9zaXplIOWPquiDveW8gOWIsCA177yM5omT5YiG5ZCe5ZCQ6KKr6ZSB5q2744CCCiAgICAg5L+u5rOV77ya5Y+q5ZyoIGxvc3NfbWFzayDmoIcgMSDnmoTkvY3nva7nrpcgbG9nX3NvZnRtYXgKICAgICDvvIjlhYjmjIkgbWFzayBnYXRoZXIg5Ye66ZyA6KaB55qE6KGM77yM5YaN5a+56L+Z5Lqb6KGM5YGaIGxvZ3N1bWV4cO+8ie+8jAogICAgIOaVsOWtpuS4iuWujOWFqOetieS7t++8iGxvZ19zb2Z0bWF4IOeahOWIhuavjeaYr+ihjOWGheaJgOaciSB2b2NhYiDnmoQgbG9nc3VtZXhw77yMCiAgICAg6ICMIGdhdGhlciDlj6rlj5YgdGFyZ2V0IOS9jee9ru+8ie+8jOS9huaYvuWtmOmZjeS4gOS4qumHj+e6p+OAggoiIiIKaW1wb3J0IGlvCmltcG9ydCBvcwppbXBvcnQgcmUKaW1wb3J0IHNodXRpbAppbXBvcnQgc3lzCgpSRVBPID0gc3lzLmFyZ3ZbMV0gaWYgbGVuKHN5cy5hcmd2KSA+IDEgZWxzZSAiL3Jvb3QvYXV0b2RsLXRtcC9TZURQT19OSVBTMjUiCmlmIG5vdCBvcy5wYXRoLmlzZGlyKFJFUE8pOgogICAgc3lzLmV4aXQoZiJbRkFJTF0gcmVwbyDkuI3lrZjlnKg6IHtSRVBPfSIpCgpCQUNLVVAgPSBvcy5wYXRoLmpvaW4oUkVQTywgIl9iYWNrdXBfMjAyNjExMDVfcHJlcGF0Y2giKQpvcy5tYWtlZGlycyhCQUNLVVAsIGV4aXN0X29rPVRydWUpCgoKZGVmIHJkKHApOgogICAgcmV0dXJuIGlvLm9wZW4ob3MucGF0aC5qb2luKFJFUE8sIHApLCBlbmNvZGluZz0idXRmLTgiKS5yZWFkKCkKCgpkZWYgd3IocCwgcyk6CiAgICBpby5vcGVuKG9zLnBhdGguam9pbihSRVBPLCBwKSwgInciLCBlbmNvZGluZz0idXRmLTgiKS53cml0ZShzKQoKCmRlZiBiYWsocCk6CiAgICAiIiLpppbmrKHkv67mlLnliY3lpIfku73ljp/mlofku7YiIiIKICAgIGRzdCA9IG9zLnBhdGguam9pbihCQUNLVVAsIHAucmVwbGFjZSgiLyIsICJfXyIpKQogICAgaWYgbm90IG9zLnBhdGguZXhpc3RzKGRzdCk6CiAgICAgICAgc2h1dGlsLmNvcHkyKG9zLnBhdGguam9pbihSRVBPLCBwKSwgZHN0KQoKCmRlZiBwYXRjaChwYXRoLCBvbGQsIG5ldywgdGFnLCBjb3VudD0xKToKICAgIHNyYyA9IHJkKHBhdGgpCiAgICBpZiB0YWcgaW4gc3JjOgogICAgICAgIHByaW50KGYiICBbU0tJUF0ge3BhdGh9IOW3suWQqyB7dGFnfSIpCiAgICAgICAgcmV0dXJuIEZhbHNlCiAgICBpZiBzcmMuY291bnQob2xkKSAhPSBjb3VudDoKICAgICAgICBwcmludChmIiAgW0ZBSUxdIHtwYXRofTog5pyf5pyb5Yy56YWNIHtjb3VudH0g5aSE77yM5a6e6ZmFIHtzcmMuY291bnQob2xkKX0g5aSEIOKAlOKAlCDpnIDkurrlt6XmoLjlr7kiKQogICAgICAgIHJldHVybiBGYWxzZQogICAgYmFrKHBhdGgpCiAgICB3cihwYXRoLCBzcmMucmVwbGFjZShvbGQsIG5ldykpCiAgICBwcmludChmIiAgW09LXSB7cGF0aH0gPC0ge3RhZ30iKQogICAgcmV0dXJuIFRydWUKCgpva19hbGwgPSBUcnVlCgojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQojIEYxOiBmaW5kX3JhbmRvbV9zdGVwMS5weSDigJTigJQgTCDmjInlgJnpgInmsaDlpKflsI/orqHnrpcKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KcHJpbnQoIltGMV0gZmluZF9yYW5kb21fc3RlcDEucHk6IEwg5LiN5YaN6KKrIG5fc2NvcmUg5oiq5patIikKb2tfYWxsICY9IHBhdGNoKAogICAgInNjcmlwdHMvZmluZF9yYW5kb21fc3RlcDEucHkiLAogICAgJ2ZvciBhIGluIHJhbmRvbS5zYW1wbGUoW2lkeCBmb3IgaWR4IGluIGlkeF9saXN0IGlmIGlkeCAhPSBpXSwgaz1taW4oY2ZnLkwsIGxlbihkYXRhX2xpc3QpLTEpKSAjIGF2b2lkIHNlbGVjdGluZyB0aGUgdGFzayBpbnB1dCBpdHNlbGYnLAogICAgJ2ZvciBhIGluIHJhbmRvbS5zYW1wbGUoW2lkeCBmb3IgaWR4IGluIGlkeF9saXN0IGlmIGlkeCAhPSBpXSwgaz1taW4oY2ZnLkwsIGxlbihpZHhfbGlzdCktMSkpICMgYXZvaWQgc2VsZWN0aW5nIHRoZSB0YXNrIGlucHV0IGl0c2VsZicsCiAgICAiRjFfTF9QT09MX1NJWkUiLAopCgojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQojIEYyOiBiaWVuY29kZXJfZGF0YS5weSDigJTigJQg5L+uIGlkIOaYoOWwhOmUmemFjQojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQpwcmludCgiW0YyXSBiaWVuY29kZXJfZGF0YS5weTog5Lu75Yqh5YaFIGlkIOato+ehruaYoOWwhOWIsCBwcm9tcHRfcG9vbCIpCl9iZF9vbGQgPSAnJycgICAgICAgIHNlbGYuVGFza2FuZElkX3RvX2RhdGEgPSBjcmVhdGVfZGljdChzZWxmLnByb21wdF9wb29sKQonJycKX2JkX25ldyA9ICcnJyAgICAgICAgc2VsZi5UYXNrYW5kSWRfdG9fZGF0YSA9IGNyZWF0ZV9kaWN0KHNlbGYucHJvbXB0X3Bvb2wpCiAgICAgICAgIyAyMDI2LTExLTA1IEYyIOS/ruWkje+8muaJk+WIhumYtuauteavj+S4quS7u+WKoeeahCBwcm9tcHRfcG9vbCDni6znq4vjgIFpZCDku44gMCDlvIDlp4vvvJsKICAgICAgICAjIOiuree7g+mYtuautei/memHjOaKiuWQjCBjbHVzdGVyIOWGheWQhOS7u+WKoeeahCBwb29sIOaLvOaOpeaIkOS4gOS4quWkp+WIl+ihqO+8jAogICAgICAgICMg5LqO5piv44CM5ou85o6l5rGg5YWo5bGA5LiL5qCH44CN4omg44CM5Lu75Yqh5YaF5bGA6YOoIGlk44CN44CC5aSa5Lu75YqhIGNsdXN0ZXIg5LiLCiAgICAgICAgIyDnm7TmjqXnlKggc2VsZi5wcm9tcHRfcG9vbFtpZF0g5Y+W5bey6YCJ56S65L6L5Lya5Y+W6ZSZ5Lu75Yqh55qE5pWw5o2u44CCCiAgICAgICAgIyDkuIrmuLjlu7rkuoYgVGFza2FuZElkX3RvX2RhdGEg5pig5bCE5Y205LuO5pyq5L2/55So77yM6L+Z6YeM55yf5q2j55So6LW35p2l44CCCiAgICAgICAgc2VsZi5fdGFza19wb29sX2luZGV4ID0ge30KICAgICAgICBmb3IgX2ksIF9lIGluIGVudW1lcmF0ZShzZWxmLnByb21wdF9wb29sKToKICAgICAgICAgICAgc2VsZi5fdGFza19wb29sX2luZGV4LnNldGRlZmF1bHQoX2UuZ2V0KCJ0YXNrX25hbWUiKSwgW10pLmFwcGVuZChfaSkKJycnCm9rX2FsbCAmPSBwYXRjaCgiRFBSL2Rwci9kYXRhL2JpZW5jb2Rlcl9kYXRhLnB5IiwgX2JkX29sZCwgX2JkX25ldywgIkYyX0lEWF9JTklUIikKCiMg5paw5aKeIF9sb29rdXBfcG9vbCDmlrnms5UgKyDmiormiYDmnIkgc2VsZi5wcm9tcHRfcG9vbFtpZF0g55qE5Y+W55So54K55pu/5o2i5o6JCl9sb29rdXBfbWV0aG9kID0gJycnICAgIGRlZiBfbG9va3VwX3Bvb2woc2VsZiwgdGFza19uYW1lLCBpZHgpOgogICAgICAgICIiIuaMieOAjOS7u+WKoeWGheWxgOmDqCBpZOOAjeWPliBwcm9tcHRfcG9vbCDmnaHnm67jgIIKCiAgICAgICAgMjAyNi0xMS0wNSBGMiDkv67lpI3vvJrmiZPliIbkuqflh7rnmoQgaWQg5piv5Lu75Yqh5YaF5bGA6YOo57yW5Y+377yMCiAgICAgICAg6ICMIHNlbGYucHJvbXB0X3Bvb2wg5piv6Leo5Lu75Yqh5ou85o6l5ZCO55qE5aSn5YiX6KGo44CCCiAgICAgICAg6L+Z6YeM5LyY5YWI55SoIFRhc2thbmRJZF90b19kYXRhW3Rhc2sraWRdIOeyvuehruWRveS4re+8mwogICAgICAgIOWRveS4reS4jeWIsOaXtumAgOWbniBzZWxmLnByb21wdF9wb29sW2lkeF3vvIjljZXku7vliqEgY2x1c3RlciDnmoTljp/mnInor63kuYnvvInjgIIKICAgICAgICAiIiIKICAgICAgICBpZiB0YXNrX25hbWUgaXMgbm90IE5vbmU6CiAgICAgICAgICAgIGhpdCA9IHNlbGYuVGFza2FuZElkX3RvX2RhdGEuZ2V0KHN0cih0YXNrX25hbWUpICsgc3RyKGlkeCkpCiAgICAgICAgICAgIGlmIGhpdCBpcyBub3QgTm9uZToKICAgICAgICAgICAgICAgIHJldHVybiBoaXQKICAgICAgICB0cnk6CiAgICAgICAgICAgIHJldHVybiBzZWxmLnByb21wdF9wb29sW2ludChpZHgpXQogICAgICAgIGV4Y2VwdCAoSW5kZXhFcnJvciwgVHlwZUVycm9yLCBWYWx1ZUVycm9yKToKICAgICAgICAgICAgcmV0dXJuIE5vbmUKCicnJwpfYW5jaG9yID0gJycnICAgIGRlZiBnZXRfZW50cnkoc2VsZiwgZW50cnkpOgonJycKb2tfYWxsICY9IHBhdGNoKCJEUFIvZHByL2RhdGEvYmllbmNvZGVyX2RhdGEucHkiLCBfYW5jaG9yLCBfbG9va3VwX21ldGhvZCArIF9hbmNob3IsICJGMl9MT09LVVBfTUVUSE9EIikKCiMg5pu/5o2iIDQg5aSE44CMZm9yIGlkIGluIGhhdmVfY2hvb3NlbjogZXhhbXBsZSA9IHNlbGYucHJvbXB0X3Bvb2xbaWRd44CNCiMg6L+Z5Lqb5Ye6546w5ZyoIGdldF9tdWx0aV9wcmVmZXJfZW50cnkgLyBnZXRfdG9wX3ByZWZlcl9lbnRyeSAvIGdldF91ZHJfcmFua19lbnRyeSAvCiMgZ2V0X3ByZWZlcl9lbnRyeSAvIGdldF9vbGRfZW50cnkg4oCU4oCUIOWFqOmDqOimgeaMieS7u+WKoeafpeOAggpfb2xkX2xvb3AgPSAnJycgICAgICAgICAgICBmb3IgaWQgaW4gaGF2ZV9jaG9vc2VuOgogICAgICAgICAgICAgICAgZXhhbXBsZSA9IHNlbGYucHJvbXB0X3Bvb2xbaWRdCiAgICAgICAgICAgICAgICBxdWVzdGlvbiArPSBzZWxmLmZvcm1hdF9leGFtcGxlKGV4YW1wbGUsIHNlbGYucHJvbXB0X3NldHVwX3R5cGUpICsgIiBcXG4gIgonJycKX25ld19sb29wID0gJycnICAgICAgICAgICAgZm9yIGlkIGluIGhhdmVfY2hvb3NlbjoKICAgICAgICAgICAgICAgIGV4YW1wbGUgPSBzZWxmLl9sb29rdXBfcG9vbChlbnRyeS5nZXQoInRhc2tfbmFtZSIpLCBpZCkKICAgICAgICAgICAgICAgIGlmIGV4YW1wbGUgaXMgTm9uZToKICAgICAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICAgICAgcXVlc3Rpb24gKz0gc2VsZi5mb3JtYXRfZXhhbXBsZShleGFtcGxlLCBzZWxmLnByb21wdF9zZXR1cF90eXBlKSArICIgXFxuICIKJycnCm9rX2FsbCAmPSBwYXRjaCgiRFBSL2Rwci9kYXRhL2JpZW5jb2Rlcl9kYXRhLnB5IiwgX29sZF9sb29wLCBfbmV3X2xvb3AsICJGMl9MT09LVVBfQ0FMTCIsIGNvdW50PTUpCgojIGdldF9vbGRfZW50cnkg6YeM55qEIGhhcmRfbmVnYXRpdmVfaWRzIC8gcG9zaXRpdmVfaWRzIOS5n+eUqOS6jui/h+a7pCBwcm9tcHRfcG9vbO+8jAojIOmCo+mHjOeUqOeahOaYryBpZCDlgLzmr5TovoPvvIjkuI3lj5blhoXlrrnvvInvvIzot6jku7vliqHml7blkIwgaWQg5Lya6K+v5Lyk77yM5L2G6L+H5ruk5pys6Lqr5piv44CM5o6S6Zmk44CNCiMg6K+t5LmJ77yM6K+v5Lyk5Y+q5a+86Ie06LSf5qC35pys55Wl5bCR77yM5LiN5b2x5ZON5q2j5qC35pys5q2j56Gu5oCn4oCU4oCU5L+d55WZ5Y6f5qC35Y2z5Y+v44CCCiMg5L2GIGdldF9vbGRfZW50cnkg55qEIG11bHRpX3Rhc2sg6LSf5qC35pys5YiG5pSv55So5LqGIHNlbGYucHJvbXB0X3Bvb2wg55u05o6lIGNob2ljZXPvvIzml6DpnIDmlLnjgIIKCiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CiMgRjM6IGZld19zaG90X2Rzci5weSDigJTigJQgUmFuZG9tIOWfuue6v+aMiemXrumimOa0vueUn+enjeWtkAojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQpwcmludCgiW0YzXSBmZXdfc2hvdF9kc3IucHk6IFJhbmRvbSDln7rnur/mr4/kuKrpl67popjmir3kuI3lkIznmoTnpLrkvosiKQpfZnNfb2xkID0gJycnICAgICAgICBlbGlmIHNlbGYucmFuZG9tX3NhbXBsZToKICAgICAgICAgICAgcmFuZG9tLnNlZWQoc2VsZi5yYW5kb21fc2VlZCkKICAgICAgICAgICAgcHJvbXB0c19saXN0ID0gWwogICAgICAgICAgICAgICAgcCBmb3IgcCBpbiByYW5kb20uY2hvaWNlcyhzZWxmLnByb21wdF9wb29sLCBrPXNlbGYuc2hvdF9udW0pCiAgICAgICAgICAgIF0KJycnCl9mc19uZXcgPSAnJycgICAgICAgIGVsaWYgc2VsZi5yYW5kb21fc2FtcGxlOgogICAgICAgICAgICAjIDIwMjYtMTEtMDUgRjMg5L+u5aSN77ya5Y6f56CB5ZyoIHBlci1zYW1wbGUg6Lev5b6E6YeM5q+P5qyh6YO96YeN572u5ZCM5LiA5Liq56eN5a2Q77yMCiAgICAgICAgICAgICMg5a+86Ie05omA5pyJ6Zeu6aKY5aSN55So5a6M5YWo55u45ZCM55qEIEsg5Liq6ZqP5py656S65L6L77yIUmFuZG9tIOWfuue6v+WkseWOu+aEj+S5ie+8ieOAggogICAgICAgICAgICAjIOaUueS4uuaMiemXrumimOW6j+WPt+a0vueUn+enjeWtkO+8muaXouWPr+WkjeeOsO+8jOWPiOS/neivgeavj+S4qumXrumimOaKveWIsOS4jeWQjOekuuS+i+OAggogICAgICAgICAgICBfcmlkID0gZW50cnkuZ2V0KCJfcmlkIiwgTm9uZSkKICAgICAgICAgICAgaWYgX3JpZCBpcyBOb25lOgogICAgICAgICAgICAgICAgX3JpZCA9IHNlbGYuX2N1cl9pbmRleAogICAgICAgICAgICAgICAgc2VsZi5fY3VyX2luZGV4ICs9IDEKICAgICAgICAgICAgcmFuZG9tLnNlZWQoc2VsZi5yYW5kb21fc2VlZCAqIDEwMDAwMDMgKyBpbnQoX3JpZCkpCiAgICAgICAgICAgIHByb21wdHNfbGlzdCA9IFsKICAgICAgICAgICAgICAgIHAgZm9yIHAgaW4gcmFuZG9tLnNhbXBsZShzZWxmLnByb21wdF9wb29sLCBrPXNlbGYuc2hvdF9udW0pCiAgICAgICAgICAgIF0KJycnCm9rX2FsbCAmPSBwYXRjaCgic3JjL2RhdGFzZXRfcmVhZGVycy9mZXdfc2hvdF9kc3IucHkiLCBfZnNfb2xkLCBfZnNfbmV3LCAiRjNfUkFORE9NX1NFRUQiKQoKIyDphY3lpZfvvJpfX2dldGl0ZW1fXyDph4zmiorkuIvmoIflhpnov5sgZW50cnnvvIzkvpsgZ2V0X2ZpZWxkcyDkvb/nlKgKX2dfb2xkID0gJycnICAgIGRlZiBfX2dldGl0ZW1fXyhzZWxmLCBpbmRleCk6CiAgICAgICAgaWYgc2VsZi50YXNrLmNsYXNzX251bSA9PSAxOgogICAgICAgICAgICByZXR1cm4gc2VsZi50ZXh0X3RvX2luc3RhbmNlX2NvbXBsZXRpb24oc2VsZi5wcm9tcHRzW2luZGV4XSkKICAgICAgICBlbHNlOgogICAgICAgICAgICByZXR1cm4gc2VsZi50ZXh0X3RvX2luc3RhbmNlX2Nob2ljZShzZWxmLnByb21wdHNbaW5kZXhdKQonJycKX2dfbmV3ID0gJycnICAgIGRlZiBfX2dldGl0ZW1fXyhzZWxmLCBpbmRleCk6CiAgICAgICAgIyAyMDI2LTExLTA1IEYz77ya5oqK5LiL5qCH5bim6L+bIGVudHJ577yM6K6pIHJhbmRvbV9zYW1wbGUg5YiG5pSv6IO95oyJ6Zeu6aKY5rS+55Sf56eN5a2QCiAgICAgICAgaWYgc2VsZi50YXNrLmNsYXNzX251bSA9PSAxOgogICAgICAgICAgICBfZSA9IHNlbGYucHJvbXB0c1tpbmRleF0KICAgICAgICBlbHNlOgogICAgICAgICAgICBfZSA9IHNlbGYucHJvbXB0c1tpbmRleF0KICAgICAgICBpZiBpc2luc3RhbmNlKF9lLCBkaWN0KToKICAgICAgICAgICAgX2UgPSBkaWN0KF9lKQogICAgICAgICAgICBfZVsiX3JpZCJdID0gaW5kZXgKICAgICAgICBlbHNlOgogICAgICAgICAgICBfZSA9IHsiX3JpZCI6IGluZGV4fQogICAgICAgIGlmIHNlbGYudGFzay5jbGFzc19udW0gPT0gMToKICAgICAgICAgICAgcmV0dXJuIHNlbGYudGV4dF90b19pbnN0YW5jZV9jb21wbGV0aW9uKF9lKQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHJldHVybiBzZWxmLnRleHRfdG9faW5zdGFuY2VfY2hvaWNlKF9lKQonJycKb2tfYWxsICY9IHBhdGNoKCJzcmMvZGF0YXNldF9yZWFkZXJzL2Zld19zaG90X2Rzci5weSIsIF9nX29sZCwgX2dfbmV3LCAiRjNfUklEIikKCiMg5Yid5aeL5YyWIF9jdXJfaW5kZXgKX2lfb2xkID0gJycnICAgICAgICBzZWxmLnNob3RfbnVtID0gc2hvdF9udW0KICAgICAgICBzZWxmLm5fdG9rZW5zX2luX3Byb21wdCA9IG5fdG9rZW5zCicnJwpfaV9uZXcgPSAnJycgICAgICAgIHNlbGYuc2hvdF9udW0gPSBzaG90X251bQogICAgICAgIHNlbGYubl90b2tlbnNfaW5fcHJvbXB0ID0gbl90b2tlbnMKICAgICAgICBzZWxmLl9jdXJfaW5kZXggPSAwICAjIDIwMjYtMTEtMDUgRjPvvJpyYW5kb21fc2FtcGxlIOWIhuaUr+eahOWFnOW6leiuoeaVsOWZqAonJycKb2tfYWxsICY9IHBhdGNoKCJzcmMvZGF0YXNldF9yZWFkZXJzL2Zld19zaG90X2Rzci5weSIsIF9pX29sZCwgX2lfbmV3LCAiRjNfQ1VSX0lOREVYIikKCiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CiMgRjQ6IHNjb3Jlci5weSDigJTigJQgY2hvaWNlX2xvc3NlcyDlj6rlnKggbG9zc19tYXNrIOS9jee9ruWBmiBsb2dfc29mdG1heAojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQpwcmludCgiW0Y0XSBzY29yZXIucHk6IGNob2ljZV9sb3NzZXMg5pi+5a2Y5LyY5YyW77yI5pWw5a2m562J5Lu377yJIikKX3NjX29sZCA9ICcnJyAgICAgICAgdGFyZ2V0cz1pbnB1dF9pZHNbOiw6LDE6XS51bnNxdWVlemUoLTEpCiAgICAgICAgbG9naXRzPW91dHB1dC5sb2dpdHMucmVzaGFwZShic3osIG9wdGlvbl9udW0sIHNlcV9sZW4sIC0xKSAgICAgICAgICAgIAogICAgICAgIGxvZ2l0cz1sb2dpdHNbOiw6LCA6LTEsIDpdCiAgICAgICAgbG9naXRfcHJvYnM9IHRvcmNoLm5uLmZ1bmN0aW9uYWwubG9nX3NvZnRtYXgobG9naXRzLmZsb2F0KCksIGRpbT0tMSkKCgogICAgICAgIGxvc3NfbWFzaz1sb3NzX21hc2tbOiw6LDE6XQogICAgICAgIGxvc3M9IC10b3JjaC5nYXRoZXIobG9naXRfcHJvYnMsIC0xLCB0YXJnZXRzKS5zcXVlZXplKC0xKSAqIGxvc3NfbWFzawogICAgICAgIGxvc3MgPSBsb3NzLnN1bSgtMSkgLyBsb3NzX21hc2suc3VtKC0xKQonJycKX3NjX25ldyA9ICcnJyAgICAgICAgdGFyZ2V0cz1pbnB1dF9pZHNbOiw6LDE6XS51bnNxdWVlemUoLTEpCiAgICAgICAgbG9naXRzPW91dHB1dC5sb2dpdHMucmVzaGFwZShic3osIG9wdGlvbl9udW0sIHNlcV9sZW4sIC0xKQogICAgICAgIGxvZ2l0cz1sb2dpdHNbOiw6LCA6LTEsIDpdCgogICAgICAgICMgMjAyNi0xMS0wNSBGNCDkv67lpI3vvJrljp/noIHlr7nmlbTmnaHluo/liJflgZogZmxvYXQzMiBsb2dfc29mdG1heO+8jAogICAgICAgICMgKGJzeiwgb3B0aW9uLCBzZXEsIHZvY2FiKSDnmoQgZnAzMiDkuK3pl7TmgIHlnKggN0Ig5qih5Z6L5LiK6KaB5aW95YegIEdC77yMCiAgICAgICAgIyDov6vkvb8gYmF0Y2hfc2l6ZSDlj6rog73lvIDliLAgNeOAggogICAgICAgICMg5LiL6Z2i5pS55oiQ77ya5Y+q5ZyoIGxvc3NfbWFzayDmoIcgMSDnmoTkvY3nva7nrpfjgIIKICAgICAgICAjIOaVsOWtpuetieS7t+aAp++8mmxvZ19zb2Z0bWF4IOWcqCB0YXJnZXQg5L2N572u55qE5YC8CiAgICAgICAgIyAgID0gbG9naXRbdGFyZ2V0XSAtIGxvZ3N1bWV4cCjor6XooYzlhajpg6ggdm9jYWIpCiAgICAgICAgIyDogIwgbG9nc3VtZXhwIOWPquS+nei1luOAjOihjOWGheaJgOaciSB2b2NhYuOAje+8jOS4jiBnYXRoZXIg55qE5L2N572u5peg5YWz77yMCiAgICAgICAgIyDmiYDku6Xlj6/ku6XlhYjmiorpnIDopoHnmoTooYzlj5blh7rmnaXlho3nrpfvvIznu5PmnpzkuI7ljp/noIHpgJDkvY3kuIDoh7TvvIhmcDMyIOS4i++8ieOAggogICAgICAgIGxvc3NfbWFzaz1sb3NzX21hc2tbOiw6LDE6XQogICAgICAgIGZsYXRfbG9naXRzID0gbG9naXRzLnJlc2hhcGUoLTEsIGxvZ2l0cy5zaGFwZVstMV0pICAgICAgICAgICMgKGJzeipvcHRpb24qKHNlcS0xKSwgVikKICAgICAgICBmbGF0X3RhcmdldHMgPSB0YXJnZXRzLnJlc2hhcGUoLTEpICAgICAgICAgICAgICAgICAgICAgICAgICMgKGJzeipvcHRpb24qKHNlcS0xKSwgMSkKICAgICAgICBmbGF0X21hc2sgPSBsb3NzX21hc2sucmVzaGFwZSgtMSkuYm9vbCgpICAgICAgICAgICAgICAgICAgICAjIChic3oqb3B0aW9uKihzZXEtMSksKQogICAgICAgIHNlbF9sb2dpdHMgPSBmbGF0X2xvZ2l0c1tmbGF0X21hc2tdICAgICAgICAgICAgICAgICAgICAgICAgICMgKE4sIFYpICBOPeacieaViOetlOahiCB0b2tlbiDmlbAKICAgICAgICBzZWxfdGFyZ2V0cyA9IGZsYXRfdGFyZ2V0c1tmbGF0X21hc2tdLnNxdWVlemUoLTEpICAgICAgICAgICMgKE4sKQogICAgICAgICMg5q+P6KGMIGxvZ3N1bWV4cO+8iGZwMzLvvIkKICAgICAgICBsc2UgPSB0b3JjaC5sb2dzdW1leHAoc2VsX2xvZ2l0cy5mbG9hdCgpLCBkaW09LTEpICAgICAgICAgICAjIChOLCkKICAgICAgICB0Z3RfbG9naXQgPSB0b3JjaC5nYXRoZXIoc2VsX2xvZ2l0cywgLTEsIHNlbF90YXJnZXRzLnVuc3F1ZWV6ZSgtMSkpLnNxdWVlemUoLTEpLmZsb2F0KCkKICAgICAgICBubGwgPSBsc2UgLSB0Z3RfbG9naXQgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAjIChOLCkgID0gLWxvZyBwKHRhcmdldCkKICAgICAgICAjIOi/mOWOn+aIkCAoYnN6LCBvcHRpb24sIHNlcS0xKSDnmoQgbG9zcyDluIPlsYAKICAgICAgICBsb3NzID0gdG9yY2guemVyb3MoZmxhdF9sb2dpdHMuc2hhcGVbMF0sIGRldmljZT1sb2dpdHMuZGV2aWNlLCBkdHlwZT10b3JjaC5mbG9hdDMyKQogICAgICAgIGxvc3NbZmxhdF9tYXNrXSA9IG5sbAogICAgICAgIGxvc3MgPSBsb3NzLnZpZXcoYnN6LCBvcHRpb25fbnVtLCAtMSkKICAgICAgICBsb3NzID0gbG9zcy5zdW0oLTEpIC8gbG9zc19tYXNrLnN1bSgtMSkuY2xhbXAobWluPTEpCicnJwpva19hbGwgJj0gcGF0Y2goInNjcmlwdHMvc2NvcmVyLnB5IiwgX3NjX29sZCwgX3NjX25ldywgIkY0X0xPU1NfTUVNIikKCiMg6aG65bim77ya5oqKIGxvc3NfbWFzayDph4wgMCDkvY3nva7mjpLpmaTlkI7vvIzljp/noIEgbG9zc19tYXNrLnN1bSgtMSkg5Y+v6IO95Li6IDAg5a+86Ie06Zmk6Zu277yMCiMg5LiK6Z2i55qEIGNsYW1wKG1pbj0xKSDlt7LlpITnkIbjgIIKCnByaW50KCkKaWYgb2tfYWxsOgogICAgcHJpbnQoIltET05FXSDlhajpg6jooaXkuIHlupTnlKjmiJDlip/vvJvlpIfku73nm67lvZU6IiwgQkFDS1VQKQplbHNlOgogICAgcHJpbnQoIltQQVJUSUFMXSDmnInooaXkuIHmnKrlupTnlKjvvIzor7fmn6XnnIvkuIrpnaLnmoQgW0ZBSUxdIOihjCIpCiAgICBzeXMuZXhpdCgxKQo=
+# -*- coding: utf-8 -*-
+"""
+SeDPO 复现 —— 一次性修复 4 个已确认缺陷（2026-11-05）
+
+用法：
+    python patch_fixes.py <repo_path>     # repo_path 默认为 /root/autodl-tmp/SeDPO_NIPS25
+
+四个修复：
+
+[F1] find_random_step1.py —— L 被静默截断
+     原码  k=min(cfg.L, len(data_list)-1)
+     data_list 被本项目的 n_score 补丁截成 n_score 条，于是 L 跟着缩水：
+     ARC-C 本该 L=400 → 实际 149；OpenBookQA 本该 L=200 → 实际 149。
+     排序信号强度被削弱，且 step1(149) 与 step2(400) 内部不一致。
+     修法：k 按候选池大小计算（len(idx_list)-1），与 n_score 解耦。
+
+[F2] biencoder_data.py —— 上游 id 映射错配（多任务 cluster 下的真 bug）
+     打分阶段每个任务有独立 prompt_pool（id 从 0 开始、任务内局部编号）；
+     训练阶段 prompt_pool 被 get_prompt_files() 跨任务拼接成一个大列表，
+     但 get_multi_prefer_entry / get_old_entry 等处仍用 self.prompt_pool[id]
+     取「已选示例」——用的是拼接池的全局下标去查任务内局部 id，
+     多任务 cluster 下必然取错示例。
+     上游其实建了映射表 create_dict() -> TaskandId_to_data[task+id]，
+     但从头到尾没人用它。
+     修法：新增 _lookup_pool(task, id)，优先按 TaskandId_to_data 查（任务内 id），
+     查不到再退回 self.prompt_pool[id]（单任务 cluster 的原有行为）。
+
+[F3] few_shot_dsr.py —— Random 基线所有问题复用同一组随机示例
+     get_fields() 每次调用都执行 random.seed(self.random_seed)，
+     而该函数在 per-sample 路径上，导致所有问题抽到完全相同的 K 个示例。
+     修法：按问题下标派生种子（seed = random_seed*1000003 + index），
+     既保持可复现，又让每个问题抽到不同的随机示例。
+
+[F4] scorer.py —— choice_losses 显存爆炸
+     原码对整条序列 (bsz, option, seq, vocab) 做 float32 log_softmax，
+     7B 模型 + 2048 上下文下 logits.float() 单独就要好几 GB，
+     迫使 batch_size 只能开到 5，打分吞吐被锁死。
+     修法：只在 loss_mask 标 1 的位置算 log_softmax
+     （先按 mask gather 出需要的行，再对这些行做 logsumexp），
+     数学上完全等价（log_softmax 的分母是行内所有 vocab 的 logsumexp，
+     而 gather 只取 target 位置），但显存降一个量级。
+"""
+import io
+import os
+import re
+import shutil
+import sys
+
+REPO = sys.argv[1] if len(sys.argv) > 1 else "/root/autodl-tmp/SeDPO_NIPS25"
+if not os.path.isdir(REPO):
+    sys.exit(f"[FAIL] repo 不存在: {REPO}")
+
+BACKUP = os.path.join(REPO, "_backup_20261105_prepatch")
+os.makedirs(BACKUP, exist_ok=True)
+
+
+def rd(p):
+    return io.open(os.path.join(REPO, p), encoding="utf-8").read()
+
+
+def wr(p, s):
+    io.open(os.path.join(REPO, p), "w", encoding="utf-8").write(s)
+
+
+def bak(p):
+    """首次修改前备份原文件"""
+    dst = os.path.join(BACKUP, p.replace("/", "__"))
+    if not os.path.exists(dst):
+        shutil.copy2(os.path.join(REPO, p), dst)
+
+
+def patch(path, old, new, tag, count=1):
+    src = rd(path)
+    if tag in src:
+        print(f"  [SKIP] {path} 已含 {tag}")
+        return False
+    if src.count(old) != count:
+        print(f"  [FAIL] {path}: 期望匹配 {count} 处，实际 {src.count(old)} 处 —— 需人工核对")
+        return False
+    bak(path)
+    wr(path, src.replace(old, new))
+    print(f"  [OK] {path} <- {tag}")
+    return True
+
+
+ok_all = True
+
+# ============================================================
+# F1: find_random_step1.py —— L 按候选池大小计算
+# ============================================================
+print("[F1] find_random_step1.py: L 不再被 n_score 截断")
+ok_all &= patch(
+    "scripts/find_random_step1.py",
+    'for a in random.sample([idx for idx in idx_list if idx != i], k=min(cfg.L, len(data_list)-1)) # avoid selecting the task input itself',
+    'for a in random.sample([idx for idx in idx_list if idx != i], k=min(cfg.L, len(idx_list)-1)) # avoid selecting the task input itself',
+    "F1_L_POOL_SIZE",
+)
+
+# ============================================================
+# F2: biencoder_data.py —— 修 id 映射错配
+# ============================================================
+print("[F2] biencoder_data.py: 任务内 id 正确映射到 prompt_pool")
+_bd_old = '''        self.TaskandId_to_data = create_dict(self.prompt_pool)
+'''
+_bd_new = '''        self.TaskandId_to_data = create_dict(self.prompt_pool)
+        # 2026-11-05 F2 修复：打分阶段每个任务的 prompt_pool 独立、id 从 0 开始；
+        # 训练阶段这里把同 cluster 内各任务的 pool 拼接成一个大列表，
+        # 于是「拼接池全局下标」≠「任务内局部 id」。多任务 cluster 下
+        # 直接用 self.prompt_pool[id] 取已选示例会取错任务的数据。
+        # 上游建了 TaskandId_to_data 映射却从未使用，这里真正用起来。
+        self._task_pool_index = {}
+        for _i, _e in enumerate(self.prompt_pool):
+            self._task_pool_index.setdefault(_e.get("task_name"), []).append(_i)
+'''
+ok_all &= patch("DPR/dpr/data/biencoder_data.py", _bd_old, _bd_new, "F2_IDX_INIT")
+
+# 新增 _lookup_pool 方法 + 把所有 self.prompt_pool[id] 的取用点替换掉
+_lookup_method = '''    def _lookup_pool(self, task_name, idx):
+        """按「任务内局部 id」取 prompt_pool 条目。
+
+        2026-11-05 F2 修复：打分产出的 id 是任务内局部编号，
+        而 self.prompt_pool 是跨任务拼接后的大列表。
+        这里优先用 TaskandId_to_data[task+id] 精确命中；
+        命中不到时退回 self.prompt_pool[idx]（单任务 cluster 的原有语义）。
+        """
+        if task_name is not None:
+            hit = self.TaskandId_to_data.get(str(task_name) + str(idx))
+            if hit is not None:
+                return hit
+        try:
+            return self.prompt_pool[int(idx)]
+        except (IndexError, TypeError, ValueError):
+            return None
+
+'''
+_anchor = '''    def get_entry(self, entry):
+'''
+ok_all &= patch("DPR/dpr/data/biencoder_data.py", _anchor, _lookup_method + _anchor, "F2_LOOKUP_METHOD")
+
+# 替换 4 处「for id in have_choosen: example = self.prompt_pool[id]」
+# 这些出现在 get_multi_prefer_entry / get_top_prefer_entry / get_udr_rank_entry /
+# get_prefer_entry / get_old_entry —— 全部要按任务查。
+_old_loop = '''            for id in have_choosen:
+                example = self.prompt_pool[id]
+                question += self.format_example(example, self.prompt_setup_type) + " \\n "
+'''
+_new_loop = '''            for id in have_choosen:
+                example = self._lookup_pool(entry.get("task_name"), id)
+                if example is None:
+                    continue
+                question += self.format_example(example, self.prompt_setup_type) + " \\n "
+'''
+ok_all &= patch("DPR/dpr/data/biencoder_data.py", _old_loop, _new_loop, "F2_LOOKUP_CALL", count=5)
+
+# get_old_entry 里的 hard_negative_ids / positive_ids 也用于过滤 prompt_pool，
+# 那里用的是 id 值比较（不取内容），跨任务时同 id 会误伤，但过滤本身是「排除」
+# 语义，误伤只导致负样本略少，不影响正样本正确性——保留原样即可。
+# 但 get_old_entry 的 multi_task 负样本分支用了 self.prompt_pool 直接 choices，无需改。
+
+# ============================================================
+# F3: few_shot_dsr.py —— Random 基线按问题派生种子
+# ============================================================
+print("[F3] few_shot_dsr.py: Random 基线每个问题抽不同的示例")
+_fs_old = '''        elif self.random_sample:
+            random.seed(self.random_seed)
+            prompts_list = [
+                p for p in random.choices(self.prompt_pool, k=self.shot_num)
+            ]
+'''
+_fs_new = '''        elif self.random_sample:
+            # 2026-11-05 F3 修复：原码在 per-sample 路径里每次都重置同一个种子，
+            # 导致所有问题复用完全相同的 K 个随机示例（Random 基线失去意义）。
+            # 改为按问题序号派生种子：既可复现，又保证每个问题抽到不同示例。
+            _rid = entry.get("_rid", None)
+            if _rid is None:
+                _rid = self._cur_index
+                self._cur_index += 1
+            random.seed(self.random_seed * 1000003 + int(_rid))
+            prompts_list = [
+                p for p in random.sample(self.prompt_pool, k=self.shot_num)
+            ]
+'''
+ok_all &= patch("src/dataset_readers/few_shot_dsr.py", _fs_old, _fs_new, "F3_RANDOM_SEED")
+
+# 配套：__getitem__ 里把下标写进 entry，供 get_fields 使用
+_g_old = '''    def __getitem__(self, index):
+        if self.task.class_num == 1:
+            return self.text_to_instance_completion(self.prompts[index])
+        else:
+            return self.text_to_instance_choice(self.prompts[index])
+'''
+_g_new = '''    def __getitem__(self, index):
+        # 2026-11-05 F3：把下标带进 entry，让 random_sample 分支能按问题派生种子
+        if self.task.class_num == 1:
+            _e = self.prompts[index]
+        else:
+            _e = self.prompts[index]
+        if isinstance(_e, dict):
+            _e = dict(_e)
+            _e["_rid"] = index
+        else:
+            _e = {"_rid": index}
+        if self.task.class_num == 1:
+            return self.text_to_instance_completion(_e)
+        else:
+            return self.text_to_instance_choice(_e)
+'''
+ok_all &= patch("src/dataset_readers/few_shot_dsr.py", _g_old, _g_new, "F3_RID")
+
+# 初始化 _cur_index
+_i_old = '''        self.shot_num = shot_num
+        self.n_tokens_in_prompt = n_tokens
+'''
+_i_new = '''        self.shot_num = shot_num
+        self.n_tokens_in_prompt = n_tokens
+        self._cur_index = 0  # 2026-11-05 F3：random_sample 分支的兜底计数器
+'''
+ok_all &= patch("src/dataset_readers/few_shot_dsr.py", _i_old, _i_new, "F3_CUR_INDEX")
+
+# ============================================================
+# F4: scorer.py —— choice_losses 只在 loss_mask 位置做 log_softmax
+# ============================================================
+print("[F4] scorer.py: choice_losses 显存优化（数学等价）")
+_sc_old = '''        targets=input_ids[:,:,1:].unsqueeze(-1)
+        logits=output.logits.reshape(bsz, option_num, seq_len, -1)            
+        logits=logits[:,:, :-1, :]
+        logit_probs= torch.nn.functional.log_softmax(logits.float(), dim=-1)
+
+
+        loss_mask=loss_mask[:,:,1:]
+        loss= -torch.gather(logit_probs, -1, targets).squeeze(-1) * loss_mask
+        loss = loss.sum(-1) / loss_mask.sum(-1)
+'''
+_sc_new = '''        targets=input_ids[:,:,1:].unsqueeze(-1)
+        logits=output.logits.reshape(bsz, option_num, seq_len, -1)
+        logits=logits[:,:, :-1, :]
+
+        # 2026-11-05 F4 修复：原码对整条序列做 float32 log_softmax，
+        # (bsz, option, seq, vocab) 的 fp32 中间态在 7B 模型上要好几 GB，
+        # 迫使 batch_size 只能开到 5。
+        # 下面改成：只在 loss_mask 标 1 的位置算。
+        # 数学等价性：log_softmax 在 target 位置的值
+        #   = logit[target] - logsumexp(该行全部 vocab)
+        # 而 logsumexp 只依赖「行内所有 vocab」，与 gather 的位置无关，
+        # 所以可以先把需要的行取出来再算，结果与原码逐位一致（fp32 下）。
+        loss_mask=loss_mask[:,:,1:]
+        flat_logits = logits.reshape(-1, logits.shape[-1])          # (bsz*option*(seq-1), V)
+        flat_targets = targets.reshape(-1)                         # (bsz*option*(seq-1), 1)
+        flat_mask = loss_mask.reshape(-1).bool()                    # (bsz*option*(seq-1),)
+        sel_logits = flat_logits[flat_mask]                         # (N, V)  N=有效答案 token 数
+        sel_targets = flat_targets[flat_mask].squeeze(-1)          # (N,)
+        # 每行 logsumexp（fp32）
+        lse = torch.logsumexp(sel_logits.float(), dim=-1)           # (N,)
+        tgt_logit = torch.gather(sel_logits, -1, sel_targets.unsqueeze(-1)).squeeze(-1).float()
+        nll = lse - tgt_logit                                       # (N,)  = -log p(target)
+        # 还原成 (bsz, option, seq-1) 的 loss 布局
+        loss = torch.zeros(flat_logits.shape[0], device=logits.device, dtype=torch.float32)
+        loss[flat_mask] = nll
+        loss = loss.view(bsz, option_num, -1)
+        loss = loss.sum(-1) / loss_mask.sum(-1).clamp(min=1)
+'''
+ok_all &= patch("scripts/scorer.py", _sc_old, _sc_new, "F4_LOSS_MEM")
+
+# 顺带：把 loss_mask 里 0 位置排除后，原码 loss_mask.sum(-1) 可能为 0 导致除零，
+# 上面的 clamp(min=1) 已处理。
+
+print()
+if ok_all:
+    print("[DONE] 全部补丁应用成功；备份目录:", BACKUP)
+else:
+    print("[PARTIAL] 有补丁未应用，请查看上面的 [FAIL] 行")
+    sys.exit(1)

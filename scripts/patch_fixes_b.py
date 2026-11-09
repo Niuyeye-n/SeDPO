@@ -1,1 +1,154 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0KIiIiCkY0Yu+8muaKiuaJk+WIhuaUueaIkOOAjGhpZGRlbiBzdGF0ZXMgKyDlrprngrkgbG1faGVhZOOAje+8jOW9u+W6leWOu+aOieWFqOW6j+WIlyBsb2dpdHMKCuiDjOaZr++8iDIwMjYtMTEtMDUg5a6e5rWL77yJ77yaCiAg56ys5LiA5qyh5LyY5YyW77yIRjTvvInlj6rmioogZmxvYXQzMiBsb2dfc29mdG1heCDnvKnlsI/liLAgbG9zc19tYXNrIOS9jee9ru+8jAogIOS9huWfuuWHhua1i+ivleWPkeeOsCBic3o9MiDlsLHkvJogT09NIOKAlOKAlCDlm6DkuLrnnJ/mraPnmoTmmL7lrZjlpKflpLTkuI3mmK8gbG9nX3NvZnRtYXjvvIwKICDogIzmmK/mqKHlnosgZm9yd2FyZCDlkJDlh7rnmoTlrozmlbQgbG9naXRzIOW8oOmHj++8mgogICAgICAoYnN6LCBvcHRpb24sIHNlcSwgdm9jYWIpICBmcDE2CiAgICAgIGJzej0yLCBvcHQ9NCwgc2VxPTEwMjQsIHZvY2FiPTE1MjA2NCAgLT4gIDIuNSBHQu+8iOavj+S4qiBiYXRjaO+8iQogIOWGjeWPoOWKoCA3QiDmnYPph40gMTRHQiDkuI7kuK3pl7Tmv4DmtLvvvIwyNEdCIOaYvuWtmOaUvuS4jeS4i+OAggoK5Y6f55CG77yaCiAgY2F1c2FsIExNIOeahCBsb2dpdHNbcG9zXSDlj6rkvp3otZYgaGlkZGVuX3N0YXRlc1twb3Nd44CCCiAg6ICM5omT5YiG55yf5q2j6ZyA6KaBIGxvZ2l0cyDnmoTkvY3nva7lj6rmnIkgbG9zc19tYXNrIOaghyAxIOeahOmCo+S6myB0b2tlbu+8iOetlOahiCB0b2tlbu+8ieOAggogIOaJgOS7peWPr+S7pe+8mgogICAgMS4g5Y+q6LeRIGJhc2UgdHJhbnNmb3JtZXLvvIhtb2RlbC5tb2RlbO+8ieaLvyBoaWRkZW5fc3RhdGVzIOKAlOKAlCDkvZPnp6/lsI/kuIDkuKrph4/nuqcKICAgICAgIChic3osIG9wdGlvbiwgc2VxLCBoaWRkZW49MzU4NCnvvIw3QiDmqKHlnovkuIsgYnN6PTIg5pe25LuFIDU4TUIKICAgIDIuIOWPquaKiiBsb3NzX21hc2sg5ZG95Lit55qE6YKj5Lqb5L2N572u55qEIGhpZGRlbiDlj5blh7rmnaXvvIzov4cgbG1faGVhZAogICAgMy4g5Zyo6L+Z5Lqb6KGM5LiK5YGaIGxvZ3N1bWV4cCDlvpfliLAgLWxvZyBwKHRhcmdldCkKCiAg5pWw5a2m5LiK5LiO5Y6f5a6e546w44CM5YWo5bqP5YiXIGxvZ2l0cyDihpIgbG9nX3NvZnRtYXgg4oaSIGdhdGhlciB0YXJnZXTjgI3lrozlhajnrYnku7fvvJoKICAgICAgbG9nX3NvZnRtYXgoeClbdF0gPSB4W3RdIC0gbG9nc3VtZXhwKHgpCiAg5Lik6ICF6YO955So5ZCM5LiA5Lu9IGxtX2hlYWQg6L6T5Ye644CB5ZCM5LiA5Lu9IGZwMzIg5b2S5LiA5YyW77yM5Y+q5piv566X5LqG5YW25Lit5LiA5bCP6YOo5YiG44CCCgrllK/kuIDlt67lvILvvJpsbV9oZWFkIOWcqOWtkOmbhuS4iuWBmuefqemYteS5mO+8jOS4juWcqOWFqOmHj+S4iuWBmuebuOavlOWPr+iDveacieaegeWwj+eahApmcDE2IOiIjeWFpeW3ruW8gu+8iOmHj+e6pyAxZS0zIOebuOWvueivr+W3ru+8ie+8jOWvueWAmemAieekuuS+i+eahOaOkuW6j+aXoOWunui0qOW9seWTjeOAggoK55So5rOV77yacHl0aG9uIHBhdGNoX2ZpeGVzX2IucHkgPHJlcG9fcGF0aD4KIiIiCmltcG9ydCBpbwppbXBvcnQgb3MKaW1wb3J0IHNodXRpbAppbXBvcnQgc3lzCgpSRVBPID0gc3lzLmFyZ3ZbMV0gaWYgbGVuKHN5cy5hcmd2KSA+IDEgZWxzZSAiL3Jvb3QvYXV0b2RsLXRtcC9TZURQT19OSVBTMjUiClBBVEggPSBvcy5wYXRoLmpvaW4oUkVQTywgInNjcmlwdHMvc2NvcmVyLnB5IikKQkFDS1VQID0gb3MucGF0aC5qb2luKFJFUE8sICJfYmFja3VwXzIwMjYxMTA1X3ByZXBhdGNoIikKb3MubWFrZWRpcnMoQkFDS1VQLCBleGlzdF9vaz1UcnVlKQoKc3JjID0gaW8ub3BlbihQQVRILCBlbmNvZGluZz0idXRmLTgiKS5yZWFkKCkKCmlmICJGNEJfSElEREVOX0xNSEVBRCIgaW4gc3JjOgogICAgcHJpbnQoIltTS0lQXSBGNGIg5bey5bqU55SoIikKICAgIHN5cy5leGl0KDApCgojIOaXp+eJiO+8iEY0IOS5i+WQju+8ieeahCBjaG9pY2VfbG9zc2VzIOWFqOaWh+abv+aNogpvbGQgPSAnJycgICAgZGVmIGNob2ljZV9sb3NzZXMoc2VsZixpbnB1dF9pZHMsIGlucHV0X2F0dGVuX21hc2ssIGxvc3NfbWFzaywgbGFiZWxzKToKICAgICAgICBic3osIG9wdGlvbl9udW0sIHNlcV9sZW4gPSBpbnB1dF9pZHMuc2hhcGUKICAgICAgICBpZiBzZWxmLm9wdGlvbl9udW0gaXMgbm90IE5vbmU6IGFzc2VydCBvcHRpb25fbnVtID09IHNlbGYub3B0aW9uX251bQogICAgICAgIHdpdGggdG9yY2gubm9fZ3JhZCgpOgogICAgICAgICAgICBvdXRwdXQ9c2VsZi5tb2RlbChpbnB1dF9pZHM9aW5wdXRfaWRzLnJlc2hhcGUoYnN6Km9wdGlvbl9udW0sIHNlcV9sZW4pLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXR0ZW50aW9uX21hc2s9aW5wdXRfYXR0ZW5fbWFzay5yZXNoYXBlKGJzeipvcHRpb25fbnVtLCBzZXFfbGVuKSkKICAgICAgICAKICAgICAgICB0YXJnZXRzPWlucHV0X2lkc1s6LDosMTpdLnVuc3F1ZWV6ZSgtMSkKICAgICAgICBsb2dpdHM9b3V0cHV0LmxvZ2l0cy5yZXNoYXBlKGJzeiwgb3B0aW9uX251bSwgc2VxX2xlbiwgLTEpCiAgICAgICAgbG9naXRzPWxvZ2l0c1s6LDosIDotMSwgOl0KJycnCgpuZXcgPSAnJycgICAgZGVmIGNob2ljZV9sb3NzZXMoc2VsZixpbnB1dF9pZHMsIGlucHV0X2F0dGVuX21hc2ssIGxvc3NfbWFzaywgbGFiZWxzKToKICAgICAgICBic3osIG9wdGlvbl9udW0sIHNlcV9sZW4gPSBpbnB1dF9pZHMuc2hhcGUKICAgICAgICBpZiBzZWxmLm9wdGlvbl9udW0gaXMgbm90IE5vbmU6IGFzc2VydCBvcHRpb25fbnVtID09IHNlbGYub3B0aW9uX251bQogICAgICAgIHRhcmdldHM9aW5wdXRfaWRzWzosOiwxOl0udW5zcXVlZXplKC0xKQogICAgICAgIGxtID0gbG9zc19tYXNrWzosOiwxOl0KCiAgICAgICAgIyBGNEJfSElEREVOX0xNSEVBRO+8iDIwMjYtMTEtMDXvvInvvJoKICAgICAgICAjIOWPqui3kSBiYXNlIHRyYW5zZm9ybWVyIOaLvyBoaWRkZW5fc3RhdGVz77yM5YaN5LuF5ZyoIGxvc3NfbWFzayDlkb3kuK3nmoQKICAgICAgICAjIOetlOahiCB0b2tlbiDkvY3nva7ov4cgbG1faGVhZCArIGxvZ3N1bWV4cOOAggogICAgICAgICMg5Y6f5Zug77ya5YWo5bqP5YiXIGxvZ2l0cyAoYnN6LCBvcHRpb24sIHNlcSwgdm9jYWI9MTUyaykg55qEIGZwMTYg5byg6YePCiAgICAgICAgIyDlnKggN0Ig5qih5Z6L5LiK5bCx6KaBIDIuNUdCL2JhdGNo77yM5piv5omT5YiG5byA5LiN5byA5aSnIGJhdGNoIOeahOecn+ato+eTtumiiOOAggogICAgICAgICMg5pWw5a2m562J5Lu377yabG9nX3NvZnRtYXgoeClbdF0gPSB4W3RdIC0gbG9nc3VtZXhwKHgp77yMCiAgICAgICAgIyDlj6rnrpfooqvnlKjliLDnmoTpgqPlh6DooYzkuI3lvbHlk43nu5PmnpzjgIIKICAgICAgICB1c2VfaGlkZGVuID0gaGFzYXR0cihzZWxmLm1vZGVsLCAibW9kZWwiKSBhbmQgaGFzYXR0cihzZWxmLm1vZGVsLCAibG1faGVhZCIpCiAgICAgICAgd2l0aCB0b3JjaC5ub19ncmFkKCk6CiAgICAgICAgICAgIGlmIHVzZV9oaWRkZW46CiAgICAgICAgICAgICAgICBvdXQgPSBzZWxmLm1vZGVsLm1vZGVsKAogICAgICAgICAgICAgICAgICAgIGlucHV0X2lkcz1pbnB1dF9pZHMucmVzaGFwZShic3oqb3B0aW9uX251bSwgc2VxX2xlbiksCiAgICAgICAgICAgICAgICAgICAgYXR0ZW50aW9uX21hc2s9aW5wdXRfYXR0ZW5fbWFzay5yZXNoYXBlKGJzeipvcHRpb25fbnVtLCBzZXFfbGVuKSwKICAgICAgICAgICAgICAgICAgICB1c2VfY2FjaGU9RmFsc2UsCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBoaWRkZW4gPSBvdXQubGFzdF9oaWRkZW5fc3RhdGUucmVzaGFwZShic3osIG9wdGlvbl9udW0sIHNlcV9sZW4sIC0xKQogICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgb3V0cHV0PXNlbGYubW9kZWwoaW5wdXRfaWRzPWlucHV0X2lkcy5yZXNoYXBlKGJzeipvcHRpb25fbnVtLCBzZXFfbGVuKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF0dGVudGlvbl9tYXNrPWlucHV0X2F0dGVuX21hc2sucmVzaGFwZShic3oqb3B0aW9uX251bSwgc2VxX2xlbikpCiAgICAgICAgICAgICAgICBoaWRkZW4gPSBvdXRwdXQubG9naXRzLnJlc2hhcGUoYnN6LCBvcHRpb25fbnVtLCBzZXFfbGVuLCAtMSkKICAgICAgICAgICAgICAgIGhpZGRlbiA9IHRvcmNoLmNhdChbaGlkZGVuLCB0b3JjaC56ZXJvc19saWtlKGhpZGRlbls6LCA6LCA6MV0pXSwgZGltPTIpCiAgICAgICAgICAgICAgICBoaWRkZW4gPSBoaWRkZW5bOiwgOiwgOi0xLCA6XSAgICMg6YCA5YyW5Li65YWo6YePIGxvZ2l0cyDot6/lvoQKJycnCgppZiBvbGQgbm90IGluIHNyYzoKICAgIHByaW50KCJbRkFJTF0g5pyq5om+5YiwIEY0IOeJiCBjaG9pY2VfbG9zc2VzIOWktO+8jOa6kOaWh+S7tuWPr+iDveW3suWPmOWKqCIpCiAgICBzeXMuZXhpdCgxKQoKc3JjID0gc3JjLnJlcGxhY2Uob2xkLCBuZXcpCgojIOabv+aNoiBGNCDniYjnmoQgbG9zcyDorqHnrpflnZcKb2xkMiA9ICcnJyAgICAgICAgIyAyMDI2LTExLTA1IEY0IOS/ruWkje+8muWOn+eggeWvueaVtOadoeW6j+WIl+WBmiBmbG9hdDMyIGxvZ19zb2Z0bWF477yMCiAgICAgICAgIyAoYnN6LCBvcHRpb24sIHNlcSwgdm9jYWIpIOeahCBmcDMyIOS4remXtOaAgeWcqCA3QiDmqKHlnovkuIropoHlpb3lh6AgR0LvvIwKICAgICAgICAjIOi/q+S9vyBiYXRjaF9zaXplIOWPquiDveW8gOWIsCA144CCCiAgICAgICAgIyDkuIvpnaLmlLnmiJDvvJrlj6rlnKggbG9zc19tYXNrIOaghyAxIOeahOS9jee9rueul+OAggogICAgICAgICMg5pWw5a2m562J5Lu35oCn77yabG9nX3NvZnRtYXgg5ZyoIHRhcmdldCDkvY3nva7nmoTlgLwKICAgICAgICAjICAgPSBsb2dpdFt0YXJnZXRdIC0gbG9nc3VtZXhwKOivpeihjOWFqOmDqCB2b2NhYikKICAgICAgICAjIOiAjCBsb2dzdW1leHAg5Y+q5L6d6LWW44CM6KGM5YaF5omA5pyJIHZvY2Fi44CN77yM5LiOIGdhdGhlciDnmoTkvY3nva7ml6DlhbPvvIwKICAgICAgICAjIOaJgOS7peWPr+S7peWFiOaKiumcgOimgeeahOihjOWPluWHuuadpeWGjeeul++8jOe7k+aenOS4juWOn+eggemAkOS9jeS4gOiHtO+8iGZwMzIg5LiL77yJ44CCCiAgICAgICAgbG9zc19tYXNrPWxvc3NfbWFza1s6LDosMTpdCiAgICAgICAgZmxhdF9sb2dpdHMgPSBsb2dpdHMucmVzaGFwZSgtMSwgbG9naXRzLnNoYXBlWy0xXSkgICAgICAgICAgIyAoYnN6Km9wdGlvbiooc2VxLTEpLCBWKQogICAgICAgIGZsYXRfdGFyZ2V0cyA9IHRhcmdldHMucmVzaGFwZSgtMSkgICAgICAgICAgICAgICAgICAgICAgICAgIyAoYnN6Km9wdGlvbiooc2VxLTEpLCAxKQogICAgICAgIGZsYXRfbWFzayA9IGxvc3NfbWFzay5yZXNoYXBlKC0xKS5ib29sKCkgICAgICAgICAgICAgICAgICAgICMgKGJzeipvcHRpb24qKHNlcS0xKSwpCiAgICAgICAgc2VsX2xvZ2l0cyA9IGZsYXRfbG9naXRzW2ZsYXRfbWFza10gICAgICAgICAgICAgICAgICAgICAgICAgIyAoTiwgVikgIE495pyJ5pWI562U5qGIIHRva2VuIOaVsAogICAgICAgIHNlbF90YXJnZXRzID0gZmxhdF90YXJnZXRzW2ZsYXRfbWFza10uc3F1ZWV6ZSgtMSkgICAgICAgICAgIyAoTiwpCiAgICAgICAgIyDmr4/ooYwgbG9nc3VtZXhw77yIZnAzMu+8iQogICAgICAgIGxzZSA9IHRvcmNoLmxvZ3N1bWV4cChzZWxfbG9naXRzLmZsb2F0KCksIGRpbT0tMSkgICAgICAgICAgICMgKE4sKQogICAgICAgIHRndF9sb2dpdCA9IHRvcmNoLmdhdGhlcihzZWxfbG9naXRzLCAtMSwgc2VsX3RhcmdldHMudW5zcXVlZXplKC0xKSkuc3F1ZWV6ZSgtMSkuZmxvYXQoKQogICAgICAgIG5sbCA9IGxzZSAtIHRndF9sb2dpdCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICMgKE4sKSAgPSAtbG9nIHAodGFyZ2V0KQogICAgICAgICMg6L+Y5Y6f5oiQIChic3osIG9wdGlvbiwgc2VxLTEpIOeahCBsb3NzIOW4g+WxgAogICAgICAgIGxvc3MgPSB0b3JjaC56ZXJvcyhmbGF0X2xvZ2l0cy5zaGFwZVswXSwgZGV2aWNlPWxvZ2l0cy5kZXZpY2UsIGR0eXBlPXRvcmNoLmZsb2F0MzIpCiAgICAgICAgbG9zc1tmbGF0X21hc2tdID0gbmxsCiAgICAgICAgbG9zcyA9IGxvc3Mudmlldyhic3osIG9wdGlvbl9udW0sIC0xKQogICAgICAgIGxvc3MgPSBsb3NzLnN1bSgtMSkgLyBsb3NzX21hc2suc3VtKC0xKS5jbGFtcChtaW49MSkKJycnCgpuZXcyID0gJycnICAgICAgICAjIOWPquWcqCBsb3NzX21hc2sg5qCHIDEg55qE5L2N572u566X77yI6KeBIEY0Ql9ISURERU5fTE1IRUFEIOivtOaYju+8iQogICAgICAgIGZsYXRfaGlkZGVuID0gaGlkZGVuWzosIDosIDotMSwgOl0ucmVzaGFwZSgtMSwgaGlkZGVuLnNoYXBlWy0xXSkKICAgICAgICBmbGF0X3RhcmdldHMgPSB0YXJnZXRzLnJlc2hhcGUoLTEpCiAgICAgICAgZmxhdF9tYXNrID0gbG0ucmVzaGFwZSgtMSkuYm9vbCgpCiAgICAgICAgc2VsX2hpZGRlbiA9IGZsYXRfaGlkZGVuW2ZsYXRfbWFza10gICAgICAgICAgICAgICAgICAgICAgICAgICMgKE4sIEgpCiAgICAgICAgc2VsX3RhcmdldHMgPSBmbGF0X3RhcmdldHNbZmxhdF9tYXNrXS5zcXVlZXplKC0xKSAgICAgICAgICAgIyAoTiwpCiAgICAgICAgaWYgdXNlX2hpZGRlbjoKICAgICAgICAgICAgc2VsX2xvZ2l0cyA9IHNlbGYubW9kZWwubG1faGVhZChzZWxfaGlkZGVuKS5mbG9hdCgpICAgICAgIyAoTiwgVikg5Y+q566X6L+Z5Yeg6KGMCiAgICAgICAgZWxzZToKICAgICAgICAgICAgc2VsX2xvZ2l0cyA9IHNlbF9oaWRkZW4uZmxvYXQoKSAgICAgICAgICAgICAgICAgICAgICAgICAgIyDpgIDljJbot6/lvoTvvJrlt7Lnu4/mmK8gbG9naXRzCiAgICAgICAgbHNlID0gdG9yY2gubG9nc3VtZXhwKHNlbF9sb2dpdHMsIGRpbT0tMSkgICAgICAgICAgICAgICAgICAgICMgKE4sKQogICAgICAgIHRndF9sb2dpdCA9IHRvcmNoLmdhdGhlcihzZWxfbG9naXRzLCAtMSwgc2VsX3RhcmdldHMudW5zcXVlZXplKC0xKSkuc3F1ZWV6ZSgtMSkKICAgICAgICBubGwgPSBsc2UgLSB0Z3RfbG9naXQgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIyAoTiwpID0gLWxvZyBwKHRhcmdldCkKICAgICAgICBsb3NzID0gdG9yY2guemVyb3MoZmxhdF9tYXNrLnNoYXBlWzBdLCBkZXZpY2U9aGlkZGVuLmRldmljZSwgZHR5cGU9dG9yY2guZmxvYXQzMikKICAgICAgICBsb3NzW2ZsYXRfbWFza10gPSBubGwKICAgICAgICBsb3NzID0gbG9zcy52aWV3KGJzeiwgb3B0aW9uX251bSwgLTEpCiAgICAgICAgbG9zcyA9IGxvc3Muc3VtKC0xKSAvIGxtLnN1bSgtMSkuY2xhbXAobWluPTEpCicnJwoKaWYgb2xkMiBub3QgaW4gc3JjOgogICAgcHJpbnQoIltGQUlMXSDmnKrmib7liLAgRjQg54mIIGxvc3Mg6K6h566X5Z2XIikKICAgIHN5cy5leGl0KDEpCgpzcmMgPSBzcmMucmVwbGFjZShvbGQyLCBuZXcyKQoKIyDlpIfku70KZHN0ID0gb3MucGF0aC5qb2luKEJBQ0tVUCwgInNjcmlwdHNfX3Njb3Jlci5weSIpCmlmIG5vdCBvcy5wYXRoLmV4aXN0cyhkc3QpOgogICAgc2h1dGlsLmNvcHkyKFBBVEgsIGRzdCkKCmlvLm9wZW4oUEFUSCwgInciLCBlbmNvZGluZz0idXRmLTgiKS53cml0ZShzcmMpCnByaW50KCJbT0tdIEY0YiDlt7LlupTnlKjvvJpzY29yZXIucHkg5pS55Li6IGhpZGRlbl9zdGF0ZXMgKyDlrprngrkgbG1faGVhZCIpCnByaW50KCIgICAgIOWkh+S7vToiLCBkc3QpCg==
+# -*- coding: utf-8 -*-
+"""
+F4b：把打分改成「hidden states + 定点 lm_head」，彻底去掉全序列 logits
+
+背景（2026-11-05 实测）：
+  第一次优化（F4）只把 float32 log_softmax 缩小到 loss_mask 位置，
+  但基准测试发现 bsz=2 就会 OOM —— 因为真正的显存大头不是 log_softmax，
+  而是模型 forward 吐出的完整 logits 张量：
+      (bsz, option, seq, vocab)  fp16
+      bsz=2, opt=4, seq=1024, vocab=152064  ->  2.5 GB（每个 batch）
+  再叠加 7B 权重 14GB 与中间激活，24GB 显存放不下。
+
+原理：
+  causal LM 的 logits[pos] 只依赖 hidden_states[pos]。
+  而打分真正需要 logits 的位置只有 loss_mask 标 1 的那些 token（答案 token）。
+  所以可以：
+    1. 只跑 base transformer（model.model）拿 hidden_states —— 体积小一个量级
+       (bsz, option, seq, hidden=3584)，7B 模型下 bsz=2 时仅 58MB
+    2. 只把 loss_mask 命中的那些位置的 hidden 取出来，过 lm_head
+    3. 在这些行上做 logsumexp 得到 -log p(target)
+
+  数学上与原实现「全序列 logits → log_softmax → gather target」完全等价：
+      log_softmax(x)[t] = x[t] - logsumexp(x)
+  两者都用同一份 lm_head 输出、同一份 fp32 归一化，只是算了其中一小部分。
+
+唯一差异：lm_head 在子集上做矩阵乘，与在全量上做相比可能有极小的
+fp16 舍入差异（量级 1e-3 相对误差），对候选示例的排序无实质影响。
+
+用法：python patch_fixes_b.py <repo_path>
+"""
+import io
+import os
+import shutil
+import sys
+
+REPO = sys.argv[1] if len(sys.argv) > 1 else "/root/autodl-tmp/SeDPO_NIPS25"
+PATH = os.path.join(REPO, "scripts/scorer.py")
+BACKUP = os.path.join(REPO, "_backup_20261105_prepatch")
+os.makedirs(BACKUP, exist_ok=True)
+
+src = io.open(PATH, encoding="utf-8").read()
+
+if "F4B_HIDDEN_LMHEAD" in src:
+    print("[SKIP] F4b 已应用")
+    sys.exit(0)
+
+# 旧版（F4 之后）的 choice_losses 全文替换
+old = '''    def choice_losses(self,input_ids, input_atten_mask, loss_mask, labels):
+        bsz, option_num, seq_len = input_ids.shape
+        if self.option_num is not None: assert option_num == self.option_num
+        with torch.no_grad():
+            output=self.model(input_ids=input_ids.reshape(bsz*option_num, seq_len), 
+                              attention_mask=input_atten_mask.reshape(bsz*option_num, seq_len))
+        
+        targets=input_ids[:,:,1:].unsqueeze(-1)
+        logits=output.logits.reshape(bsz, option_num, seq_len, -1)
+        logits=logits[:,:, :-1, :]
+'''
+
+new = '''    def choice_losses(self,input_ids, input_atten_mask, loss_mask, labels):
+        bsz, option_num, seq_len = input_ids.shape
+        if self.option_num is not None: assert option_num == self.option_num
+        targets=input_ids[:,:,1:].unsqueeze(-1)
+        lm = loss_mask[:,:,1:]
+
+        # F4B_HIDDEN_LMHEAD（2026-11-05）：
+        # 只跑 base transformer 拿 hidden_states，再仅在 loss_mask 命中的
+        # 答案 token 位置过 lm_head + logsumexp。
+        # 原因：全序列 logits (bsz, option, seq, vocab=152k) 的 fp16 张量
+        # 在 7B 模型上就要 2.5GB/batch，是打分开不开大 batch 的真正瓶颈。
+        # 数学等价：log_softmax(x)[t] = x[t] - logsumexp(x)，
+        # 只算被用到的那几行不影响结果。
+        use_hidden = hasattr(self.model, "model") and hasattr(self.model, "lm_head")
+        with torch.no_grad():
+            if use_hidden:
+                out = self.model.model(
+                    input_ids=input_ids.reshape(bsz*option_num, seq_len),
+                    attention_mask=input_atten_mask.reshape(bsz*option_num, seq_len),
+                    use_cache=False,
+                )
+                hidden = out.last_hidden_state.reshape(bsz, option_num, seq_len, -1)
+            else:
+                output=self.model(input_ids=input_ids.reshape(bsz*option_num, seq_len),
+                                  attention_mask=input_atten_mask.reshape(bsz*option_num, seq_len))
+                hidden = output.logits.reshape(bsz, option_num, seq_len, -1)
+                hidden = torch.cat([hidden, torch.zeros_like(hidden[:, :, :1])], dim=2)
+                hidden = hidden[:, :, :-1, :]   # 退化为全量 logits 路径
+'''
+
+if old not in src:
+    print("[FAIL] 未找到 F4 版 choice_losses 头，源文件可能已变动")
+    sys.exit(1)
+
+src = src.replace(old, new)
+
+# 替换 F4 版的 loss 计算块
+old2 = '''        # 2026-11-05 F4 修复：原码对整条序列做 float32 log_softmax，
+        # (bsz, option, seq, vocab) 的 fp32 中间态在 7B 模型上要好几 GB，
+        # 迫使 batch_size 只能开到 5。
+        # 下面改成：只在 loss_mask 标 1 的位置算。
+        # 数学等价性：log_softmax 在 target 位置的值
+        #   = logit[target] - logsumexp(该行全部 vocab)
+        # 而 logsumexp 只依赖「行内所有 vocab」，与 gather 的位置无关，
+        # 所以可以先把需要的行取出来再算，结果与原码逐位一致（fp32 下）。
+        loss_mask=loss_mask[:,:,1:]
+        flat_logits = logits.reshape(-1, logits.shape[-1])          # (bsz*option*(seq-1), V)
+        flat_targets = targets.reshape(-1)                         # (bsz*option*(seq-1), 1)
+        flat_mask = loss_mask.reshape(-1).bool()                    # (bsz*option*(seq-1),)
+        sel_logits = flat_logits[flat_mask]                         # (N, V)  N=有效答案 token 数
+        sel_targets = flat_targets[flat_mask].squeeze(-1)          # (N,)
+        # 每行 logsumexp（fp32）
+        lse = torch.logsumexp(sel_logits.float(), dim=-1)           # (N,)
+        tgt_logit = torch.gather(sel_logits, -1, sel_targets.unsqueeze(-1)).squeeze(-1).float()
+        nll = lse - tgt_logit                                       # (N,)  = -log p(target)
+        # 还原成 (bsz, option, seq-1) 的 loss 布局
+        loss = torch.zeros(flat_logits.shape[0], device=logits.device, dtype=torch.float32)
+        loss[flat_mask] = nll
+        loss = loss.view(bsz, option_num, -1)
+        loss = loss.sum(-1) / loss_mask.sum(-1).clamp(min=1)
+'''
+
+new2 = '''        # 只在 loss_mask 标 1 的位置算（见 F4B_HIDDEN_LMHEAD 说明）
+        flat_hidden = hidden[:, :, :-1, :].reshape(-1, hidden.shape[-1])
+        flat_targets = targets.reshape(-1)
+        flat_mask = lm.reshape(-1).bool()
+        sel_hidden = flat_hidden[flat_mask]                          # (N, H)
+        sel_targets = flat_targets[flat_mask].squeeze(-1)           # (N,)
+        if use_hidden:
+            sel_logits = self.model.lm_head(sel_hidden).float()      # (N, V) 只算这几行
+        else:
+            sel_logits = sel_hidden.float()                          # 退化路径：已经是 logits
+        lse = torch.logsumexp(sel_logits, dim=-1)                    # (N,)
+        tgt_logit = torch.gather(sel_logits, -1, sel_targets.unsqueeze(-1)).squeeze(-1)
+        nll = lse - tgt_logit                                        # (N,) = -log p(target)
+        loss = torch.zeros(flat_mask.shape[0], device=hidden.device, dtype=torch.float32)
+        loss[flat_mask] = nll
+        loss = loss.view(bsz, option_num, -1)
+        loss = loss.sum(-1) / lm.sum(-1).clamp(min=1)
+'''
+
+if old2 not in src:
+    print("[FAIL] 未找到 F4 版 loss 计算块")
+    sys.exit(1)
+
+src = src.replace(old2, new2)
+
+# 备份
+dst = os.path.join(BACKUP, "scripts__scorer.py")
+if not os.path.exists(dst):
+    shutil.copy2(PATH, dst)
+
+io.open(PATH, "w", encoding="utf-8").write(src)
+print("[OK] F4b 已应用：scorer.py 改为 hidden_states + 定点 lm_head")
+print("     备份:", dst)

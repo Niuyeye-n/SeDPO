@@ -1,1 +1,65 @@
-IyEvYmluL2Jhc2gKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQojIHJ1bl9vcGVuYm9va3FhLnNoIOKAlCAyMDI2LTExLTA3IDE5OjJ4CiMg5Y+q6KGl5Lik57uEIG9wZW5ib29rcWEg5o6o55CG44CCcHJvbXB0cyDlt7LlnKjkuIrmrKHvvIgxOToxMy8xOToxNO+8ieajgOe0ouWujOaIkO+8jAojIOi/measoeebtOaOpei/myBpbmZlcmVuY2XvvIzkuI3lho3lgZrmo4DntKLjgIIKIyDkvp3otZbvvJppbmZlcmVuY2UucHkg5bey5omT44CM5YiG5Z2XIGxvc3PjgI3ooaXkuIHvvIhwYXRjaF9pbmZlcmVuY2UyLnB577yJCiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KUkVQTz0vcm9vdC9hdXRvZGwtdG1wL1NlRFBPX05JUFMyNQpMT0c9L3Jvb3QvYXV0b2RsLXRtcC9vcGVuYm9va3FhX3J1bi5sb2cKUFlCSU49L3Jvb3QvYXV0b2RsLXRtcC9lbnZzL3NlX2Rwby9iaW4KCmxvZygpIHsgZWNobyAiWyQoZGF0ZSAnKyVGICVUJyldICQqIiB8IHRlZSAtYSAiJExPRyI7IH0KCmV4cG9ydCBQQVRIPSRQWUJJTjokUEFUSApleHBvcnQgUFlUSE9OUEFUSD0kUkVQTzoke1BZVEhPTlBBVEg6LX0KZXhwb3J0IEhZRFJBX0ZVTExfRVJST1I9MQpleHBvcnQgVE9LRU5JWkVSU19QQVJBTExFTElTTT1mYWxzZQpleHBvcnQgUFlUT1JDSF9DVURBX0FMTE9DX0NPTkY9ZXhwYW5kYWJsZV9zZWdtZW50czpUcnVlCmV4cG9ydCBJRl9QUkVGRVJfTE9TUz0yCmV4cG9ydCBQRUZUX0JFVEE9MC4xCmV4cG9ydCBESVZfUkVKRUNUPTEKZXhwb3J0IFNDT1JFX1JBVElPPTEuMAoKY2QgIiRSRVBPIiB8fCBleGl0IDEKbG9nICI9PT09PSBvcGVuYm9va3FhIOihpei3keWQr+WKqCA9PT09PSIKbG9nICJweXRob249JCh3aGljaCBweXRob24pIgoKcnVuX29uZSgpIHsKICAgIGxvY2FsIHRhZz0kMSBtb2RlbD0kMiBwb3J0PSQzCiAgICBsb2NhbCBFPSRSRVBPL215X2RhdGFfcXdlbi9leHBlcmltZW50X3NlZHBvXyR7dGFnfS9yZWFkaW5nX25ldwogICAgbG9jYWwgUEY9JEUvc2UyX3Byb21wdHNfZm9yX3JlYWRpbmdfbmV3L29wZW5ib29rcWFfcHJvbXB0c19iZWFtX3Njb3JlXzAuanNvbgoKICAgIGlmIFsgISAtZiAiJFBGIiBdOyB0aGVuCiAgICAgICAgbG9nICJb6Lez6L+HXSAkdGFnIOe8uiBvcGVuYm9va3FhIHByb21wdCIKICAgICAgICByZXR1cm4gMQogICAgZmkKCiAgICBsb2cgIi0tLSAkdGFnL29wZW5ib29rcWEg5o6o55CG5byA5aeLIgogICAgYWNjZWxlcmF0ZSBsYXVuY2ggLS1udW1fcHJvY2Vzc2VzIDEgLS1tYWluX3Byb2Nlc3NfcG9ydCAiJHBvcnQiIFwKICAgICAgICBzY3JpcHRzL2luZmVyZW5jZS5weSBcCiAgICAgICAgcHJvbXB0X2ZpbGU9JFBGIFwKICAgICAgICB0YXNrX25hbWU9b3BlbmJvb2txYSBcCiAgICAgICAgb3V0cHV0X2ZpbGU9JEUvcHJlZHNfZm9yX3JlYWRpbmdfbmV3L29wZW5ib29rcWFfcHJvbXB0czNfcmV0cmlldmVyc2UyX3ByZWRzXzAuanNvbiBcCiAgICAgICAgcmVzX2ZpbGU9JEUvZXZhbF9yZXNfZm9yX3JlYWRpbmdfbmV3LnR4dCBcCiAgICAgICAgYmF0Y2hfc2l6ZT0xIHRyYWluX2NsdXN0ZXJzPXJlYWRpbmdfbmV3IFwKICAgICAgICBtb2RlbF9uYW1lPSRtb2RlbCBcCiAgICAgICAgcHJvbXB0X3Bvb2xfcGF0aD0kUkVQTy9teV9kYXRhX3F3ZW4vcHJvbXB0X3Bvb2xfc2VkcG8gXAogICAgICAgIHJhbmRvbV9zYW1wbGU9RmFsc2UgcmFuZG9tX3NlZWQ9NDIgXAogICAgICAgIGNhY2hlX2Rpcj0kUkVQTy9jYWNoZSBcCiAgICAgICAgaHlkcmEucnVuLmRpcj0kRSA+PiAiJExPRyIgMj4mMQogICAgbG9jYWwgcmM9JD8KICAgIGxvZyAiLS0tICR0YWcvb3BlbmJvb2txYSDmjqjnkIbnu5PmnZ8gcmM9JHJjIgogICAgcmV0dXJuICRyYwp9Cgpsb2cgIj09PT09IFsxLzJdIGxsYW1hID09PT09IgpydW5fb25lIGxsYW1hIC9yb290L2F1dG9kbC10bXAvbW9kZWxzL2xsYW1hMy04YiAyNDIwMQpsb2cgIj09PT09IFsyLzJdIHF3ZW4gPT09PT0iCnJ1bl9vbmUgcXdlbiAvcm9vdC9hdXRvZGwtdG1wL21vZGVscy9xd2VuMi41LTdiIDI0MjAyCgpsb2cgIj09PT09IOaxh+aAuyA9PT09PSIKZm9yIGYgaW4gJFJFUE8vbXlfZGF0YV9xd2VuL2V4cGVyaW1lbnRfc2VkcG9fKi97Y2xvc2VfcWEscmVhZGluZ19uZXd9L2V2YWxfcmVzX2Zvcl8qLnR4dDsgZG8KICAgIFsgLWYgIiRmIiBdICYmIHsgbG9nICI9PSAkKGVjaG8gJGYgfCBzZWQgJ3MjLipleHBlcmltZW50XyMjJykiOyBzZWQgJ3MvXi8gICAgLycgIiRmIiB8IHRlZSAtYSAiJExPRyI7IH0KZG9uZQpsb2cgIj09PT09IOWujOaIkCA9PT09PSIK
+#!/bin/bash
+# =============================================================================
+# run_openbookqa.sh — 2026-11-07 19:2x
+# 只补两组 openbookqa 推理。prompts 已在上次（19:13/19:14）检索完成，
+# 这次直接进 inference，不再做检索。
+# 依赖：inference.py 已打「分块 loss」补丁（patch_inference2.py）
+# =============================================================================
+REPO=/root/autodl-tmp/SeDPO_NIPS25
+LOG=/root/autodl-tmp/openbookqa_run.log
+PYBIN=/root/autodl-tmp/envs/se_dpo/bin
+
+log() { echo "[$(date '+%F %T')] $*" | tee -a "$LOG"; }
+
+export PATH=$PYBIN:$PATH
+export PYTHONPATH=$REPO:${PYTHONPATH:-}
+export HYDRA_FULL_ERROR=1
+export TOKENIZERS_PARALLELISM=false
+export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
+export IF_PREFER_LOSS=2
+export PEFT_BETA=0.1
+export DIV_REJECT=1
+export SCORE_RATIO=1.0
+
+cd "$REPO" || exit 1
+log "===== openbookqa 补跑启动 ====="
+log "python=$(which python)"
+
+run_one() {
+    local tag=$1 model=$2 port=$3
+    local E=$REPO/my_data_qwen/experiment_sedpo_${tag}/reading_new
+    local PF=$E/se2_prompts_for_reading_new/openbookqa_prompts_beam_score_0.json
+
+    if [ ! -f "$PF" ]; then
+        log "[跳过] $tag 缺 openbookqa prompt"
+        return 1
+    fi
+
+    log "--- $tag/openbookqa 推理开始"
+    accelerate launch --num_processes 1 --main_process_port "$port" \
+        scripts/inference.py \
+        prompt_file=$PF \
+        task_name=openbookqa \
+        output_file=$E/preds_for_reading_new/openbookqa_prompts3_retrieverse2_preds_0.json \
+        res_file=$E/eval_res_for_reading_new.txt \
+        batch_size=1 train_clusters=reading_new \
+        model_name=$model \
+        prompt_pool_path=$REPO/my_data_qwen/prompt_pool_sedpo \
+        random_sample=False random_seed=42 \
+        cache_dir=$REPO/cache \
+        hydra.run.dir=$E >> "$LOG" 2>&1
+    local rc=$?
+    log "--- $tag/openbookqa 推理结束 rc=$rc"
+    return $rc
+}
+
+log "===== [1/2] llama ====="
+run_one llama /root/autodl-tmp/models/llama3-8b 24201
+log "===== [2/2] qwen ====="
+run_one qwen /root/autodl-tmp/models/qwen2.5-7b 24202
+
+log "===== 汇总 ====="
+for f in $REPO/my_data_qwen/experiment_sedpo_*/{close_qa,reading_new}/eval_res_for_*.txt; do
+    [ -f "$f" ] && { log "== $(echo $f | sed 's#.*experiment_##')"; sed 's/^/    /' "$f" | tee -a "$LOG"; }
+done
+log "===== 完成 ====="

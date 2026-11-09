@@ -1,1 +1,105 @@
-IyEvYmluL2Jhc2gKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KIyBTZURQTyDlrp7pqoznnIvpl6jni5cgdjIKIwojIHYxIOeahOS4pOS4qiBidWfvvIjlt7Lkv67vvInvvJoKIyAgIDEuIG1haW5fYWxpdmUg55SoIGBwcyAtZW8gYXJncyB8IGdyZXAgLUYgImJhc2ggJE1BSU4iYCDihpIg5Lya5Yy56YWN5YiwIHdhdGNoZG9nIOiHquW3sQojICAgICAg5omA5Zyo55qEIGJhc2ggLWMg5ZG95Luk6KGMIOKGkiDor6/liKQi5Li757yW5o6S5bey5q27IiDihpIg5q+PIDYwIOenkuivr+mHjeWQr+S4gOasoeOAggojICAgICAg5pS55Li6IGdyZXAgLXhFIOeyvuehruaVtOihjOWMuemFje+8jOS4lOaOkumZpOWQqyB3YXRjaGRvZy5zaCDnmoTooYzjgIIKIyAgIDIuIOivr+mHjeWQr+S8muS4juS7jeWcqOi/kOihjOeahOaXp+WunuS+i+W5tuWtmCDihpIg5Lik5Liq5a6e5L6L5ZCM5pe25YaZ5ZCM5LiA5om55Lqn54mpIOKGkiDkuqfniankupLnm7jnoLTlnY8KIyAgICAgIO+8iDIwMjYtMTEtMDUgMTg6MjIg5bCx5Y+R55Sf6L+H77yM5a+86Ie0IHN0ZXAxIOS6p+eJqeS4jiBwcm9tcHRfcG9vbCDooqvph43lhpnvvInjgIIKIyAgICAgIHYyIOWcqOaLiei1t+WJjeWFiOehruiupOaXp+WunuS+i+ehruWunuW3sumAgOWHuuOAggojCiMg5Y+m5LiA5Liq5bm25Y+R5Lya6K+d5Lya5oqiIEdQVSDmmL7lrZjvvIzlr7zoh7TmiJHku6znmoQgc2NvcmVyIOaLv+S4jeWIsOaYvuWtmOiiqyBTSUdLSUxM77yIcmM9MTM377yJ77yMCiMg5omA5Lul6YeN5ZCv5YmN5b+F6aG75YWI562JIEdQVSDnqbrlh7rmnaXjgIIKIwojIOWujOaIkOagh+iusO+8mi9yb290L2F1dG9kbC10bXAvRVhQRVJJTUVOVF9ET05FCiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09Ck1BSU49L3Jvb3QvYXV0b2RsLXRtcC9ydW5fc2VkcG8uc2gKTE9HPS9yb290L2F1dG9kbC10bXAvd2F0Y2hkb2cubG9nCkRPTkVfRkxBRz0vcm9vdC9hdXRvZGwtdG1wL0VYUEVSSU1FTlRfRE9ORQoKbG9nKCkgeyBlY2hvICJbJChkYXRlICslSDolTTolUyldICQqIiA+PiAiJExPRyI7IH0KCiMg5Li757yW5o6S5piv5ZCm5Zyo6LeR77yI57K+56Gu5pW06KGM5Yy56YWN77yM6YG/5YWN6Ieq5Yy56YWN77yJCm1haW5fYWxpdmUoKSB7CiAgICBwcyAtZW8gYXJncyAyPi9kZXYvbnVsbCBcCiAgICAgICAgfCBncmVwIC12IHdhdGNoZG9nLnNoIFwKICAgICAgICB8IGdyZXAgLXYgIiBncmVwIiBcCiAgICAgICAgfCBncmVwIC14RSAiYmFzaCAkTUFJTiIgPiAvZGV2L251bGwKfQoKIyBHUFUg5LiK5piv5ZCm5pyJKirkuI3lsZ7kuo7mnKzlrp7pqowqKueahOi/m+eoi+WNoOaYvuWtmApmb3JlaWduX2dwdV91c2VyKCkgewogICAgbG9jYWwgdXNlZCBwIG1pbmUKICAgIHVzZWQ9JChudmlkaWEtc21pIC0tcXVlcnktY29tcHV0ZS1hcHBzPXBpZCAtLWZvcm1hdD1jc3Ysbm9oZWFkZXIgMj4vZGV2L251bGwgfCB0ciAtZCAnICcpCiAgICBbIC16ICIkdXNlZCIgXSAmJiByZXR1cm4gMQogICAgZm9yIHAgaW4gJHVzZWQ7IGRvCiAgICAgICAgbWluZT0kKHBzIC1lbyBwaWQsYXJncyAyPi9kZXYvbnVsbCBcCiAgICAgICAgICAgICAgIHwgZ3JlcCAtRSAiXiAqJHAgIiBcCiAgICAgICAgICAgICAgIHwgZ3JlcCAtRSAic2NvcmVyXC5weXxpbmZlcmVuY2VcLnB5fHRyYWluX2RlbnNlX2VuY29kZXJ8Z2VuZXJhdGVfZGVuc2VfZW1iZWRkaW5nc3xkZW5zZV9yZXRyaWV2ZXJ8YmVuY2hfc2NvcmVyIiBcCiAgICAgICAgICAgICAgIHwgZ3JlcCAtdiBncmVwKQogICAgICAgIGlmIFsgLXogIiRtaW5lIiBdOyB0aGVuCiAgICAgICAgICAgIGVjaG8gIiRwIgogICAgICAgICAgICByZXR1cm4gMAogICAgICAgIGZpCiAgICBkb25lCiAgICByZXR1cm4gMQp9Cgpsb2cgIj09PSDnnIvpl6jni5cgdjIg5ZCv5YqoICQoZGF0ZSArJVktJW0tJWRfJUg6JU06JVMpID09PSIKUkVTVEFSVFM9MAp3aGlsZSB0cnVlOyBkbwogICAgc2xlZXAgNjAKICAgIFsgLWYgIiRET05FX0ZMQUciIF0gJiYgeyBsb2cgIuajgOa1i+WIsOWujOaIkOagh+iusO+8jOmAgOWHuiI7IGJyZWFrOyB9CgogICAgaWYgbWFpbl9hbGl2ZTsgdGhlbgogICAgICAgIGNvbnRpbnVlCiAgICBmaQoKICAgICMg5Li757yW5o6S5bey6YCA5Ye6IOKAlOKAlCDlhYjnoa7orqTkuI3mmK8i6L+Y5Zyo5pS25bC+Iu+8iHRyYWluL2luZmVyIOWtkOi/m+eoi+WPr+iDveS7jeWcqO+8iQogICAgaWYgcHMgLWVvIGFyZ3MgMj4vZGV2L251bGwgfCBncmVwIC1xRSAic2NyaXB0cy8oc2NvcmVyfGluZmVyZW5jZSlcLnB5fHRyYWluX2RlbnNlX2VuY29kZXIiOyB0aGVuCiAgICAgICAgY29udGludWUKICAgIGZpCgogICAgaWYgZ3JlcCAtcSAiU2VEUE8g5q2j5byP5a6e6aqM5YWo6YOo57uT5p2fIiAvcm9vdC9hdXRvZGwtdG1wL3NlZHBvX2FsbC5sb2cgMj4vZGV2L251bGw7IHRoZW4KICAgICAgICBsb2cgIuS4u+e8luaOkuato+W4uOe7k+adn++8jOihpeWGmeWujOaIkOagh+iusCIKICAgICAgICB0b3VjaCAiJERPTkVfRkxBRyIKICAgICAgICBicmVhawogICAgZmkKCiAgICBSRVNUQVJUUz0kKChSRVNUQVJUUyArIDEpKQogICAgaWYgWyAiJFJFU1RBUlRTIiAtZ3QgNDAgXTsgdGhlbgogICAgICAgIGxvZyAiISEg5bey6YeN5ZCvIDQwIOasoeS7jeWksei0pe+8jOWBnOatouiHquWKqOaLiei1t++8jOmcgOS6uuW3peS7i+WFpSIKICAgICAgICBicmVhawogICAgZmkKCiAgICAjIOetiSBHUFUg5LiK55qE5aSW5p2l5Y2g55So6ICF57uT5p2f77yI5LiN5LqJ5oqi77yM562J5a6D6Ieq5bex6YCA5Ye677yJCiAgICBXQUlURUQ9MAogICAgd2hpbGUgZj0kKGZvcmVpZ25fZ3B1X3VzZXIpICYmIFsgLW4gIiRmIiBdOyBkbwogICAgICAgIFsgIiRXQUlURUQiIC1lcSAwIF0gJiYgbG9nICLmo4DmtYvliLDlpJbmnaXov5vnqIvljaDnlKggR1BVIChQSUQgJGYp77yM562J5b6F5YW26YCA5Ye6IgogICAgICAgIHNsZWVwIDIwCiAgICAgICAgV0FJVEVEPSQoKFdBSVRFRCArIDEpKQogICAgICAgIGlmIFsgIiRXQUlURUQiIC1ndCAxNTAgXTsgdGhlbiAgICMg562JIDUwIOWIhumSnwogICAgICAgICAgICBsb2cgIuWkluadpei/m+eoiyBQSUQgJGYg6ZW/5pe26Ze05LiN6YCA5Ye677yM5pS+5byD562J5b6F77yI5LiN5by65oqiIEdQVe+8iSIKICAgICAgICAgICAgYnJlYWsKICAgICAgICBmaQogICAgZG9uZQoKICAgICMg5Y+M6YeN56Gu6K6k77ya5pen5a6e5L6L56Gu5a6e5LiN5Zyo5LqG5omN5ouJ6LW35paw5a6e5L6LCiAgICBpZiBtYWluX2FsaXZlOyB0aGVuCiAgICAgICAgbG9nICLml6flrp7kvovku43lnKjov5DooYzvvIzlj5bmtojph43lkK8iCiAgICAgICAgY29udGludWUKICAgIGZpCgogICAgbG9nICLnrKwgJFJFU1RBUlRTIOasoemHjeWQr+S4u+e8luaOku+8iHNjb3JlciDkvJogU0tJUCDlt7LlrozmiJAgc3RlcO+8jOS7juaWreeCuee7p+e7re+8iSIKICAgIFRTPSQoZGF0ZSArJVklbSVkXyVIJU0lUykKICAgIG12IC1mIC9yb290L2F1dG9kbC10bXAvc2VkcG9fYWxsLmxvZyAvcm9vdC9hdXRvZGwtdG1wL3NlZHBvX2FsbF9yZXN0YXJ0XyR7VFN9LmxvZyAyPi9kZXYvbnVsbAogICAgc2V0c2lkIGJhc2ggIiRNQUlOIiA+IC9yb290L2F1dG9kbC10bXAvc2VkcG9fYWxsLmxvZyAyPiYxICYKICAgIHNsZWVwIDQwCiAgICBpZiBtYWluX2FsaXZlOyB0aGVuCiAgICAgICAgbG9nICLph43lkK/miJDlip8iCiAgICBlbHNlCiAgICAgICAgbG9nICLph43lkK/lpLHotKUiCiAgICBmaQpkb25lCg==
+#!/bin/bash
+# ==============================================================================
+# SeDPO 实验看门狗 v2
+#
+# v1 的两个 bug（已修）：
+#   1. main_alive 用 `ps -eo args | grep -F "bash $MAIN"` → 会匹配到 watchdog 自己
+#      所在的 bash -c 命令行 → 误判"主编排已死" → 每 60 秒误重启一次。
+#      改为 grep -xE 精确整行匹配，且排除含 watchdog.sh 的行。
+#   2. 误重启会与仍在运行的旧实例并存 → 两个实例同时写同一批产物 → 产物互相破坏
+#      （2026-11-05 18:22 就发生过，导致 step1 产物与 prompt_pool 被重写）。
+#      v2 在拉起前先确认旧实例确实已退出。
+#
+# 另一个并发会话会抢 GPU 显存，导致我们的 scorer 拿不到显存被 SIGKILL（rc=137），
+# 所以重启前必须先等 GPU 空出来。
+#
+# 完成标记：/root/autodl-tmp/EXPERIMENT_DONE
+# ==============================================================================
+MAIN=/root/autodl-tmp/run_sedpo.sh
+LOG=/root/autodl-tmp/watchdog.log
+DONE_FLAG=/root/autodl-tmp/EXPERIMENT_DONE
+
+log() { echo "[$(date +%H:%M:%S)] $*" >> "$LOG"; }
+
+# 主编排是否在跑（精确整行匹配，避免自匹配）
+main_alive() {
+    ps -eo args 2>/dev/null \
+        | grep -v watchdog.sh \
+        | grep -v " grep" \
+        | grep -xE "bash $MAIN" > /dev/null
+}
+
+# GPU 上是否有**不属于本实验**的进程占显存
+foreign_gpu_user() {
+    local used p mine
+    used=$(nvidia-smi --query-compute-apps=pid --format=csv,noheader 2>/dev/null | tr -d ' ')
+    [ -z "$used" ] && return 1
+    for p in $used; do
+        mine=$(ps -eo pid,args 2>/dev/null \
+               | grep -E "^ *$p " \
+               | grep -E "scorer\.py|inference\.py|train_dense_encoder|generate_dense_embeddings|dense_retriever|bench_scorer" \
+               | grep -v grep)
+        if [ -z "$mine" ]; then
+            echo "$p"
+            return 0
+        fi
+    done
+    return 1
+}
+
+log "=== 看门狗 v2 启动 $(date +%Y-%m-%d_%H:%M:%S) ==="
+RESTARTS=0
+while true; do
+    sleep 60
+    [ -f "$DONE_FLAG" ] && { log "检测到完成标记，退出"; break; }
+
+    if main_alive; then
+        continue
+    fi
+
+    # 主编排已退出 —— 先确认不是"还在收尾"（train/infer 子进程可能仍在）
+    if ps -eo args 2>/dev/null | grep -qE "scripts/(scorer|inference)\.py|train_dense_encoder"; then
+        continue
+    fi
+
+    if grep -q "SeDPO 正式实验全部结束" /root/autodl-tmp/sedpo_all.log 2>/dev/null; then
+        log "主编排正常结束，补写完成标记"
+        touch "$DONE_FLAG"
+        break
+    fi
+
+    RESTARTS=$((RESTARTS + 1))
+    if [ "$RESTARTS" -gt 40 ]; then
+        log "!! 已重启 40 次仍失败，停止自动拉起，需人工介入"
+        break
+    fi
+
+    # 等 GPU 上的外来占用者结束（不争抢，等它自己退出）
+    WAITED=0
+    while f=$(foreign_gpu_user) && [ -n "$f" ]; do
+        [ "$WAITED" -eq 0 ] && log "检测到外来进程占用 GPU (PID $f)，等待其退出"
+        sleep 20
+        WAITED=$((WAITED + 1))
+        if [ "$WAITED" -gt 150 ]; then   # 等 50 分钟
+            log "外来进程 PID $f 长时间不退出，放弃等待（不强抢 GPU）"
+            break
+        fi
+    done
+
+    # 双重确认：旧实例确实不在了才拉起新实例
+    if main_alive; then
+        log "旧实例仍在运行，取消重启"
+        continue
+    fi
+
+    log "第 $RESTARTS 次重启主编排（scorer 会 SKIP 已完成 step，从断点继续）"
+    TS=$(date +%Y%m%d_%H%M%S)
+    mv -f /root/autodl-tmp/sedpo_all.log /root/autodl-tmp/sedpo_all_restart_${TS}.log 2>/dev/null
+    setsid bash "$MAIN" > /root/autodl-tmp/sedpo_all.log 2>&1 &
+    sleep 40
+    if main_alive; then
+        log "重启成功"
+    else
+        log "重启失败"
+    fi
+done

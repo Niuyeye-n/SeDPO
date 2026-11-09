@@ -1,1 +1,19 @@
-IyEvYmluL2Jhc2gKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KIyDln7rnur/ov5DooYzohJrmnKwg4oCU4oCUIOW3suaMieeUqOaIt+imgeaxguWBnOeUqO+8iDIwMjYtMTEtMDUgMTg6MjDvvIkKIwojIOeUqOaIt+aMh+ekuu+8miLlj6rot5EgU2VEUE8g5pa55rOV5bCx6KGM77yM6K665paH5Lit55qE5YW25LuW5pa55rOV5LiN55So6LeRIgojIOWboOatpOacrOiEmuacrOebtOaOpei3s+i/h++8jOS4jeWGjeaJp+ihjCB6ZXJvc2hvdCAvIHJhbmRvbTMg5o6o55CG44CCCiMKIyDljp/lrp7njrDlrozmlbTkv53nlZnlnKjlkIznm67lvZUgcnVuX2Jhc2VsaW5lX2Z1bGwuc2jvvIzpnIDopoHml7blj6/miYvliqjosIPnlKjvvJoKIyAgIGJhc2ggL3Jvb3QvYXV0b2RsLXRtcC9ydW5fYmFzZWxpbmVfZnVsbC5zaCA8dGFzaz4gPG1vZGVsX3BhdGg+IHplcm9zaG90fHJhbmRvbTMgW21vZGVsX3RhZ10KIwojIOW3suWujOaIkOeahOWfuue6v+e7k+aenO+8iOS/neeVmeS9nOWPguiAg++8jOS4jeWIoOmZpO+8ie+8mgojICAgQVJDLUMgLyBRd2VuMi41LTdCICB6ZXJvc2hvdCA0NC4yMSUgICByYW5kb20zIDQ3LjQ3JQojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQpUQVNLPSR7MTotdW5rbm93bn0KTU9ERT0kezI6LXVua25vd259ClRBRz0kezM6LXVua25vd259CmVjaG8gIlskKGRhdGUgKyVIOiVNOiVTKV0g5Z+657q/5bey5oyJ55So5oi36KaB5rGC5YGc55So77yI6Lez6L+HIHRhc2s9JFRBU0sgbW9kZT0kTU9ERSB0YWc9JFRBR++8iSIKZWNobyAiICDku4Xot5EgU2VEUE/vvJvlpoLpnIDln7rnur/or7fmiYvliqjmiafooYwgcnVuX2Jhc2VsaW5lX2Z1bGwuc2giCmV4aXQgMAo=
+#!/bin/bash
+# ==============================================================================
+# 基线运行脚本 —— 已按用户要求停用（2026-11-05 18:20）
+#
+# 用户指示："只跑 SeDPO 方法就行，论文中的其他方法不用跑"
+# 因此本脚本直接跳过，不再执行 zeroshot / random3 推理。
+#
+# 原实现完整保留在同目录 run_baseline_full.sh，需要时可手动调用：
+#   bash /root/autodl-tmp/run_baseline_full.sh <task> <model_path> zeroshot|random3 [model_tag]
+#
+# 已完成的基线结果（保留作参考，不删除）：
+#   ARC-C / Qwen2.5-7B  zeroshot 44.21%   random3 47.47%
+# ==============================================================================
+TASK=${1:-unknown}
+MODE=${2:-unknown}
+TAG=${3:-unknown}
+echo "[$(date +%H:%M:%S)] 基线已按用户要求停用（跳过 task=$TASK mode=$MODE tag=$TAG）"
+echo "  仅跑 SeDPO；如需基线请手动执行 run_baseline_full.sh"
+exit 0

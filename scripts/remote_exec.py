@@ -1,1 +1,163 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0KIiIiCkF1dG9ETCDov5znqIvmk43kvZzlsI/lt6XlhbfvvIjluKblr4bnoIHnmoQgU1NI77yM5YWN5Lqk5LqS77yJCgrphY3nva7vvJrlkIznm67lvZUgcmVtb3RlX2NvbmZpZy5qc29uCueUqOazle+8mgogICAgcHl0aG9uIHJlbW90ZV9leGVjLnB5IGV4ZWMgIm52aWRpYS1zbWkiCiAgICBweXRob24gcmVtb3RlX2V4ZWMucHkgZXhlYyAibHMgL3Jvb3QiIC0tdGltZW91dCA2MDAKICAgIHB5dGhvbiByZW1vdGVfZXhlYy5weSBwdXQg5pys5Zyw5paH5Lu2IC9yb290L+i/nOerr+i3r+W+hAogICAgcHl0aG9uIHJlbW90ZV9leGVjLnB5IGdldCAvcm9vdC/ov5znq6/mlofku7Yg5pys5Zyw6Lev5b6ECiAgICBweXRob24gcmVtb3RlX2V4ZWMucHkgcHV0ZGlyIOacrOWcsOebruW9lSAvcm9vdC/ov5znq6/nm67lvZUKIiIiCmltcG9ydCBhcmdwYXJzZQppbXBvcnQganNvbgppbXBvcnQgb3MKaW1wb3J0IHBvc2l4cGF0aAppbXBvcnQgc3lzCmltcG9ydCB0aW1lCgpIRVJFID0gb3MucGF0aC5kaXJuYW1lKG9zLnBhdGguYWJzcGF0aChfX2ZpbGVfXykpCnN5cy5wYXRoLmluc2VydCgwLCBvcy5wYXRoLmpvaW4ob3MucGF0aC5kaXJuYW1lKEhFUkUpLCAiLnB5bGlicyIpKQoKaW1wb3J0IHBhcmFtaWtvICAjIG5vcWE6IEU0MDIKCgpkZWYgbG9hZF9jZmcoKToKICAgIHBhdGggPSBvcy5wYXRoLmpvaW4oSEVSRSwgInJlbW90ZV9jb25maWcuanNvbiIpCiAgICB3aXRoIG9wZW4ocGF0aCwgInIiLCBlbmNvZGluZz0idXRmLTgiKSBhcyBmOgogICAgICAgIHJldHVybiBqc29uLmxvYWQoZikKCgpkZWYgY29ubmVjdChjZmcsIHRpbWVvdXQ9MzApOgogICAgY2xpID0gcGFyYW1pa28uU1NIQ2xpZW50KCkKICAgIGNsaS5zZXRfbWlzc2luZ19ob3N0X2tleV9wb2xpY3kocGFyYW1pa28uQXV0b0FkZFBvbGljeSgpKQogICAgY2xpLmNvbm5lY3QoCiAgICAgICAgaG9zdG5hbWU9Y2ZnWyJob3N0Il0sCiAgICAgICAgcG9ydD1pbnQoY2ZnLmdldCgicG9ydCIsIDIyKSksCiAgICAgICAgdXNlcm5hbWU9Y2ZnLmdldCgidXNlciIsICJyb290IiksCiAgICAgICAgcGFzc3dvcmQ9Y2ZnWyJwYXNzd29yZCJdLAogICAgICAgIHRpbWVvdXQ9dGltZW91dCwKICAgICAgICBiYW5uZXJfdGltZW91dD10aW1lb3V0LAogICAgICAgIGF1dGhfdGltZW91dD10aW1lb3V0LAogICAgICAgIGxvb2tfZm9yX2tleXM9RmFsc2UsCiAgICAgICAgYWxsb3dfYWdlbnQ9RmFsc2UsCiAgICApCiAgICByZXR1cm4gY2xpCgoKZGVmIGNtZF9leGVjKGNsaSwgY29tbWFuZCwgdGltZW91dD1Ob25lLCBzdGRpbl9ieXRlcz1Ob25lKToKICAgIGNoYW4gPSBjbGkuZ2V0X3RyYW5zcG9ydCgpLm9wZW5fc2Vzc2lvbigpCiAgICBjaGFuLnNldHRpbWVvdXQodGltZW91dCkKICAgIGNoYW4uZ2V0X3B0eSh3aWR0aD0yMDAsIGhlaWdodD01MCkKICAgIGNoYW4uZXhlY19jb21tYW5kKGNvbW1hbmQpCiAgICBpZiBzdGRpbl9ieXRlcyBpcyBub3QgTm9uZToKICAgICAgICBjaGFuLnNlbmRhbGwoc3RkaW5fYnl0ZXMpCiAgICAgICAgY2hhbi5zaHV0ZG93bl93cml0ZSgpCiAgICBvdXQsIGVyciA9IGIiIiwgYiIiCiAgICBzdGFydCA9IHRpbWUudGltZSgpCiAgICB3aGlsZSBUcnVlOgogICAgICAgIGlmIGNoYW4ucmVjdl9yZWFkeSgpOgogICAgICAgICAgICBkYXRhID0gY2hhbi5yZWN2KDY1NTM2KQogICAgICAgICAgICBvdXQgKz0gZGF0YQogICAgICAgICAgICBzeXMuc3Rkb3V0LndyaXRlKGRhdGEuZGVjb2RlKCJ1dGYtOCIsICJpZ25vcmUiKSkKICAgICAgICAgICAgc3lzLnN0ZG91dC5mbHVzaCgpCiAgICAgICAgaWYgY2hhbi5yZWN2X3N0ZGVycl9yZWFkeSgpOgogICAgICAgICAgICBkYXRhID0gY2hhbi5yZWN2X3N0ZGVycig2NTUzNikKICAgICAgICAgICAgZXJyICs9IGRhdGEKICAgICAgICAgICAgc3lzLnN0ZG91dC53cml0ZShkYXRhLmRlY29kZSgidXRmLTgiLCAiaWdub3JlIikpCiAgICAgICAgICAgIHN5cy5zdGRvdXQuZmx1c2goKQogICAgICAgIGlmIGNoYW4uZXhpdF9zdGF0dXNfcmVhZHkoKSBhbmQgbm90IGNoYW4ucmVjdl9yZWFkeSgpIGFuZCBub3QgY2hhbi5yZWN2X3N0ZGVycl9yZWFkeSgpOgogICAgICAgICAgICBicmVhawogICAgICAgIGlmIHRpbWVvdXQgYW5kIHRpbWUudGltZSgpIC0gc3RhcnQgPiB0aW1lb3V0OgogICAgICAgICAgICBjaGFuLmNsb3NlKCkKICAgICAgICAgICAgcHJpbnQoZiJcblvotoXml7Yge3RpbWVvdXR9c++8jOW3suaWreW8gF0iKQogICAgICAgICAgICByZXR1cm4gMTI0LCBvdXQuZGVjb2RlKCJ1dGYtOCIsICJpZ25vcmUiKSwgZXJyLmRlY29kZSgidXRmLTgiLCAiaWdub3JlIikKICAgICAgICB0aW1lLnNsZWVwKDAuMTUpCiAgICBjb2RlID0gY2hhbi5yZWN2X2V4aXRfc3RhdHVzKCkKICAgIHByaW50KGYiXG5bZXhpdD17Y29kZX0sIOiAl+aXtiB7dGltZS50aW1lKCkgLSBzdGFydDouMWZ9c10iKQogICAgcmV0dXJuIGNvZGUsIG91dC5kZWNvZGUoInV0Zi04IiwgImlnbm9yZSIpLCBlcnIuZGVjb2RlKCJ1dGYtOCIsICJpZ25vcmUiKQoKCmRlZiBkb19wdXQoY2xpLCBsb2NhbCwgcmVtb3RlKToKICAgICMg6K+l5a6e5L6L55qEIFNGVFAg5YaZ6YCa6YGT5LiN56iz5a6a77yM5pS56LWwIFNTSCDmoIflh4bovpPlhaUgKyBiYXNlNjQg5Lyg6L6TCiAgICBpbXBvcnQgYmFzZTY0CgogICAgd2l0aCBvcGVuKGxvY2FsLCAicmIiKSBhcyBmOgogICAgICAgIGRhdGEgPSBmLnJlYWQoKQogICAgYjY0ID0gYmFzZTY0LmI2NGVuY29kZShkYXRhKS5kZWNvZGUoImFzY2lpIikKICAgIGNtZCA9IGYiZWNobyAne2I2NH0nIHwgYmFzZTY0IC1kID4gJ3tyZW1vdGV9JyAmJiBscyAtbCAne3JlbW90ZX0nIgogICAgY29kZSwgX28sIF9lID0gY21kX2V4ZWMoY2xpLCBjbWQsIHRpbWVvdXQ9MzAwKQogICAgaWYgY29kZSAhPSAwOgogICAgICAgIHJhaXNlIFJ1bnRpbWVFcnJvcihmIuS4iuS8oOWksei0pToge2xvY2FsfSAtPiB7cmVtb3RlfSIpCiAgICBwcmludChmIuW3suS4iuS8oCB7bG9jYWx9IC0+IHtyZW1vdGV9ICh7bGVuKGRhdGEpfSDlrZfoioIpIikKCgpkZWYgZG9fZ2V0KGNsaSwgcmVtb3RlLCBsb2NhbCk6CiAgICAjIHBhcmFtaWtvIOeahCBnZXQoKSDlnKggV2luZG93cyDkuIvkvJrmiormnKzlnLAgQzovLi4uIOW9k+aIkOi/nOerr+ebuOWvuei3r+W+hO+8jOaVheaJi+WKqOivu+WGmQogICAgb3MubWFrZWRpcnMob3MucGF0aC5kaXJuYW1lKG9zLnBhdGguYWJzcGF0aChsb2NhbCkpIG9yICIuIiwgZXhpc3Rfb2s9VHJ1ZSkKICAgIHNmdHAgPSBjbGkub3Blbl9zZnRwKCkKICAgIHdpdGggc2Z0cC5vcGVuKHJlbW90ZSwgInJiIikgYXMgZjoKICAgICAgICBkYXRhID0gZi5yZWFkKCkKICAgIHdpdGggb3Blbihsb2NhbCwgIndiIikgYXMgZjoKICAgICAgICBmLndyaXRlKGRhdGEpCiAgICBzZnRwLmNsb3NlKCkKICAgIHByaW50KGYi5bey5LiL6L29IHtyZW1vdGV9IC0+IHtsb2NhbH0gKHtsZW4oZGF0YSl9IOWtl+iKgikiKQoKCmRlZiBkb19wdXRkaXIoY2xpLCBsb2NhbCwgcmVtb3RlKToKICAgIHNmdHAgPSBjbGkub3Blbl9zZnRwKCkKICAgIGNvdW50ID0gMAogICAgZm9yIHJvb3QsIF9kaXJzLCBmaWxlcyBpbiBvcy53YWxrKGxvY2FsKToKICAgICAgICByZWwgPSBvcy5wYXRoLnJlbHBhdGgocm9vdCwgbG9jYWwpLnJlcGxhY2UoIlxcIiwgIi8iKQogICAgICAgIHJkaXIgPSByZW1vdGUgaWYgcmVsID09ICIuIiBlbHNlIHBvc2l4cGF0aC5qb2luKHJlbW90ZSwgcmVsKQogICAgICAgIHRyeToKICAgICAgICAgICAgc2Z0cC5zdGF0KHJkaXIpCiAgICAgICAgZXhjZXB0IElPRXJyb3I6CiAgICAgICAgICAgIHNmdHAubWtkaXIocmRpcikKICAgICAgICBmb3IgZm4gaW4gZmlsZXM6CiAgICAgICAgICAgIHNmdHAucHV0KG9zLnBhdGguam9pbihyb290LCBmbiksIHBvc2l4cGF0aC5qb2luKHJkaXIsIGZuKSkKICAgICAgICAgICAgY291bnQgKz0gMQogICAgc2Z0cC5jbG9zZSgpCiAgICBwcmludChmIuW3suS4iuS8oOebruW9lSB7bG9jYWx9IC0+IHtyZW1vdGV977yIe2NvdW50fSDkuKrmlofku7bvvIkiKQoKCmRlZiBtYWluKCk6CiAgICBhcCA9IGFyZ3BhcnNlLkFyZ3VtZW50UGFyc2VyKCkKICAgIHN1YiA9IGFwLmFkZF9zdWJwYXJzZXJzKGRlc3Q9ImFjdGlvbiIsIHJlcXVpcmVkPVRydWUpCgogICAgcF9leGVjID0gc3ViLmFkZF9wYXJzZXIoImV4ZWMiKQogICAgcF9leGVjLmFkZF9hcmd1bWVudCgiY29tbWFuZCIpCiAgICBwX2V4ZWMuYWRkX2FyZ3VtZW50KCItLXRpbWVvdXQiLCB0eXBlPWludCwgZGVmYXVsdD1Ob25lKQoKICAgIHBfcHV0ID0gc3ViLmFkZF9wYXJzZXIoInB1dCIpCiAgICBwX3B1dC5hZGRfYXJndW1lbnQoImxvY2FsIikKICAgIHBfcHV0LmFkZF9hcmd1bWVudCgicmVtb3RlIikKCiAgICBwX2dldCA9IHN1Yi5hZGRfcGFyc2VyKCJnZXQiKQogICAgcF9nZXQuYWRkX2FyZ3VtZW50KCJyZW1vdGUiKQogICAgcF9nZXQuYWRkX2FyZ3VtZW50KCJsb2NhbCIpCgogICAgcF9wdXRkaXIgPSBzdWIuYWRkX3BhcnNlcigicHV0ZGlyIikKICAgIHBfcHV0ZGlyLmFkZF9hcmd1bWVudCgibG9jYWwiKQogICAgcF9wdXRkaXIuYWRkX2FyZ3VtZW50KCJyZW1vdGUiKQoKICAgIGFyZ3MgPSBhcC5wYXJzZV9hcmdzKCkKICAgIGNmZyA9IGxvYWRfY2ZnKCkKICAgIGNsaSA9IGNvbm5lY3QoY2ZnKQogICAgdHJ5OgogICAgICAgIGlmIGFyZ3MuYWN0aW9uID09ICJleGVjIjoKICAgICAgICAgICAgY29kZSwgX28sIF9lID0gY21kX2V4ZWMoY2xpLCBhcmdzLmNvbW1hbmQsIGFyZ3MudGltZW91dCkKICAgICAgICAgICAgc3lzLmV4aXQoY29kZSkKICAgICAgICBlbGlmIGFyZ3MuYWN0aW9uID09ICJwdXQiOgogICAgICAgICAgICBkb19wdXQoY2xpLCBhcmdzLmxvY2FsLCBhcmdzLnJlbW90ZSkKICAgICAgICBlbGlmIGFyZ3MuYWN0aW9uID09ICJnZXQiOgogICAgICAgICAgICBkb19nZXQoY2xpLCBhcmdzLnJlbW90ZSwgYXJncy5sb2NhbCkKICAgICAgICBlbGlmIGFyZ3MuYWN0aW9uID09ICJwdXRkaXIiOgogICAgICAgICAgICBkb19wdXRkaXIoY2xpLCBhcmdzLmxvY2FsLCBhcmdzLnJlbW90ZSkKICAgIGZpbmFsbHk6CiAgICAgICAgY2xpLmNsb3NlKCkKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgbWFpbigpCg==
+# -*- coding: utf-8 -*-
+"""
+AutoDL 远程操作小工具（带密码的 SSH，免交互）
+
+配置：同目录 remote_config.json
+用法：
+    python remote_exec.py exec "nvidia-smi"
+    python remote_exec.py exec "ls /root" --timeout 600
+    python remote_exec.py put 本地文件 /root/远端路径
+    python remote_exec.py get /root/远端文件 本地路径
+    python remote_exec.py putdir 本地目录 /root/远端目录
+"""
+import argparse
+import json
+import os
+import posixpath
+import sys
+import time
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, os.path.join(os.path.dirname(HERE), ".pylibs"))
+
+import paramiko  # noqa: E402
+
+
+def load_cfg():
+    path = os.path.join(HERE, "remote_config.json")
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def connect(cfg, timeout=30):
+    cli = paramiko.SSHClient()
+    cli.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+    cli.connect(
+        hostname=cfg["host"],
+        port=int(cfg.get("port", 22)),
+        username=cfg.get("user", "root"),
+        password=cfg["password"],
+        timeout=timeout,
+        banner_timeout=timeout,
+        auth_timeout=timeout,
+        look_for_keys=False,
+        allow_agent=False,
+    )
+    return cli
+
+
+def cmd_exec(cli, command, timeout=None, stdin_bytes=None):
+    chan = cli.get_transport().open_session()
+    chan.settimeout(timeout)
+    chan.get_pty(width=200, height=50)
+    chan.exec_command(command)
+    if stdin_bytes is not None:
+        chan.sendall(stdin_bytes)
+        chan.shutdown_write()
+    out, err = b"", b""
+    start = time.time()
+    while True:
+        if chan.recv_ready():
+            data = chan.recv(65536)
+            out += data
+            sys.stdout.write(data.decode("utf-8", "ignore"))
+            sys.stdout.flush()
+        if chan.recv_stderr_ready():
+            data = chan.recv_stderr(65536)
+            err += data
+            sys.stdout.write(data.decode("utf-8", "ignore"))
+            sys.stdout.flush()
+        if chan.exit_status_ready() and not chan.recv_ready() and not chan.recv_stderr_ready():
+            break
+        if timeout and time.time() - start > timeout:
+            chan.close()
+            print(f"\n[超时 {timeout}s，已断开]")
+            return 124, out.decode("utf-8", "ignore"), err.decode("utf-8", "ignore")
+        time.sleep(0.15)
+    code = chan.recv_exit_status()
+    print(f"\n[exit={code}, 耗时 {time.time() - start:.1f}s]")
+    return code, out.decode("utf-8", "ignore"), err.decode("utf-8", "ignore")
+
+
+def do_put(cli, local, remote):
+    # 该实例的 SFTP 写通道不稳定，改走 SSH 标准输入 + base64 传输
+    import base64
+
+    with open(local, "rb") as f:
+        data = f.read()
+    b64 = base64.b64encode(data).decode("ascii")
+    cmd = f"echo '{b64}' | base64 -d > '{remote}' && ls -l '{remote}'"
+    code, _o, _e = cmd_exec(cli, cmd, timeout=300)
+    if code != 0:
+        raise RuntimeError(f"上传失败: {local} -> {remote}")
+    print(f"已上传 {local} -> {remote} ({len(data)} 字节)")
+
+
+def do_get(cli, remote, local):
+    # paramiko 的 get() 在 Windows 下会把本地 C:/... 当成远端相对路径，故手动读写
+    os.makedirs(os.path.dirname(os.path.abspath(local)) or ".", exist_ok=True)
+    sftp = cli.open_sftp()
+    with sftp.open(remote, "rb") as f:
+        data = f.read()
+    with open(local, "wb") as f:
+        f.write(data)
+    sftp.close()
+    print(f"已下载 {remote} -> {local} ({len(data)} 字节)")
+
+
+def do_putdir(cli, local, remote):
+    sftp = cli.open_sftp()
+    count = 0
+    for root, _dirs, files in os.walk(local):
+        rel = os.path.relpath(root, local).replace("\\", "/")
+        rdir = remote if rel == "." else posixpath.join(remote, rel)
+        try:
+            sftp.stat(rdir)
+        except IOError:
+            sftp.mkdir(rdir)
+        for fn in files:
+            sftp.put(os.path.join(root, fn), posixpath.join(rdir, fn))
+            count += 1
+    sftp.close()
+    print(f"已上传目录 {local} -> {remote}（{count} 个文件）")
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    sub = ap.add_subparsers(dest="action", required=True)
+
+    p_exec = sub.add_parser("exec")
+    p_exec.add_argument("command")
+    p_exec.add_argument("--timeout", type=int, default=None)
+
+    p_put = sub.add_parser("put")
+    p_put.add_argument("local")
+    p_put.add_argument("remote")
+
+    p_get = sub.add_parser("get")
+    p_get.add_argument("remote")
+    p_get.add_argument("local")
+
+    p_putdir = sub.add_parser("putdir")
+    p_putdir.add_argument("local")
+    p_putdir.add_argument("remote")
+
+    args = ap.parse_args()
+    cfg = load_cfg()
+    cli = connect(cfg)
+    try:
+        if args.action == "exec":
+            code, _o, _e = cmd_exec(cli, args.command, args.timeout)
+            sys.exit(code)
+        elif args.action == "put":
+            do_put(cli, args.local, args.remote)
+        elif args.action == "get":
+            do_get(cli, args.remote, args.local)
+        elif args.action == "putdir":
+            do_putdir(cli, args.local, args.remote)
+    finally:
+        cli.close()
+
+
+if __name__ == "__main__":
+    main()

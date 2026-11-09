@@ -1,1 +1,56 @@
-IyEvYmluL2Jhc2gKIyDnlJ/miJDmraPlvI/lrp7pqozohJrmnKzvvIhzY29yZS90cmFpbi9pbmZlcu+8ie+8jOW4puinhOaooeaOp+WItuWPguaVsOOAggojCiMg5YWz6ZSu6K6+6K6h77yaKirlgJnpgInmsaDkv53mjIHlhajph4/vvIzlj6rpmZDliLbmiZPliIYgcXVlcnkg5pWw77yIbl9zY29yZe+8iSoqCiMgICAtIOWAmemAieaxoCA9IHByb21wdF9wb29sID0g5qOA57Si6K+t5paZ77yM5LiO5Z+657q/IHJhbmRvbTMg5oq95qC35p2l5rqQ5LiA6Ie0IOKGkiDlr7nnhaflhazlubMKIyAgIC0gbl9zY29yZSA9IOiiq+aJk+WIhueahCBxdWVyeSDmlbDvvIzlhrPlrprmiZPliIblvIDplIAKIyAgIC0gTCA9IGZpbmRlcl9M77yM5q+P5LiqIHF1ZXJ5IOeahOWAmemAieaVsO+8jOWGs+WumuaOkuW6j+S/oeWPt+W8uuW6pu+8iOayv+eUqOiuuuaWh+WOn+WAvO+8iQojCiMg55So5rOVOiBiYXNoIC9yb290L2F1dG9kbC10bXAvZ2VuX2Zvcm1hbC5zaCA8bW9kZWxfdGFnPiA8bW9kZWxfcGF0aD4gPGNsdXN0ZXI+IDxuc19hcmM+IDxuc19vYnE+IDxuc19tdWw+CiMgICBjbHVzdGVyPWNsb3NlX3FhICAgIOKGkiDlj6rnlKggbnNfYXJj77yIYXJjX2Mg55qEIEwg5Zu65a6aIDQwMO+8iQojICAgY2x1c3Rlcj1yZWFkaW5nX25ldyDihpIg55SoIG5zX29ice+8iG9wZW5ib29rcWEsIEw9MjAw77yJ5LiOIG5zX211bO+8iG11bHRpcmMsIEw9NTDvvIkKIyBMIOWPluWAvOWbuuWumuS4uuiuuuaWhy/lrpjmlrnljp/lgLzvvIzkuI3pmo/op4TmqKHmlLnlj5jjgIIKc2V0IC1ldQoKTU9ERUxfVEFHPSQxCk1PREVMX1BBVEg9JDIKQ0xVU1RFUj0kMwpOU19BUkM9JDQKTlNfT0JRPSQ1Ck5TX01VTD0kNgoKUkVQTz0vcm9vdC9hdXRvZGwtdG1wL1NlRFBPX05JUFMyNQpTUkNFWFA9JFJFUE8vbXlfZGF0YV9xd2VuL2V4cGVyaW1lbnQvJENMVVNURVIKRVhQPSRSRVBPL215X2RhdGFfcXdlbi9leHBlcmltZW50XyR7TU9ERUxfVEFHfS8kQ0xVU1RFUgpta2RpciAtcCAkRVhQCgojIOWQhOS7u+WKoeeahCBMIOS4jiBuX3Njb3Jl77yI5oyJIHRhc2tfbmFtZSDliIbliKvmm7/mjaLvvIzpgb/lhY3kuLLmlLnvvIkKY2FzZSAkQ0xVU1RFUiBpbgogICAgY2xvc2VfcWEpCiAgICAgICAgU0VEX0FSR1M9KAogICAgICAgICAgICAicyN0YXNrX25hbWU9YXJjX2MgK2RzX3NpemU9WzAtOV0qIEw9WzAtOV0qI3Rhc2tfbmFtZT1hcmNfYyArZHNfc2l6ZT0xMDAwMCBMPTQwMCArbl9zY29yZT0ke05TX0FSQ30jZyIKICAgICAgICApCiAgICAgICAgOzsKICAgIHJlYWRpbmdfbmV3KQogICAgICAgIFNFRF9BUkdTPSgKICAgICAgICAgICAgInMjdGFza19uYW1lPW11bHRpcmMgK2RzX3NpemU9WzAtOV0qIEw9WzAtOV0qI3Rhc2tfbmFtZT1tdWx0aXJjICtkc19zaXplPTEwMDAwIEw9NTAgK25fc2NvcmU9JHtOU19NVUx9I2ciCiAgICAgICAgICAgICJzI3Rhc2tfbmFtZT1vcGVuYm9va3FhICtkc19zaXplPVswLTldKiBMPVswLTldKiN0YXNrX25hbWU9b3BlbmJvb2txYSArZHNfc2l6ZT0xMDAwMCBMPTIwMCArbl9zY29yZT0ke05TX09CUX0jZyIKICAgICAgICApCiAgICAgICAgOzsKICAgICopIGVjaG8gIuacquefpSBjbHVzdGVyOiAkQ0xVU1RFUiI7IGV4aXQgMSA7Owplc2FjCgpmb3IgZiBpbiBzY29yZS5zaCB0cmFpbi5zaCBpbmZlci5zaDsgZG8KICAgIHNlZCAtZSAicyMvcm9vdC9hdXRvZGwtdG1wL21vZGVscy9xd2VuMi41LTdiIyRNT0RFTF9QQVRII2ciIFwKICAgICAgICAtZSAicyNteV9kYXRhX3F3ZW4vZXhwZXJpbWVudC8kQ0xVU1RFUiNteV9kYXRhX3F3ZW4vZXhwZXJpbWVudF8ke01PREVMX1RBR30vJENMVVNURVIjZyIgXAogICAgICAgIC1lICJzI215X2RhdGFfcXdlbi9zY29yZWQjbXlfZGF0YV9xd2VuL3Njb3JlZF8ke01PREVMX1RBR30jZyIgXAogICAgICAgIC1lICJzI215X2RhdGFfcXdlbi9maW5kX3JhbmRvbSNteV9kYXRhX3F3ZW4vZmluZF9yYW5kb21fJHtNT0RFTF9UQUd9I2ciIFwKICAgICAgICAkKHByaW50ZiAtLSAiLWUgJXMgIiAiJHtTRURfQVJHU1tAXX0iKSBcCiAgICAgICAgJFNSQ0VYUC8kZiA+ICRFWFAvJGYKICAgIGNobW9kICt4ICRFWFAvJGYKZG9uZQoKZWNobyAiW09LXSDlt7LnlJ/miJAgJEVYUC97c2NvcmUsdHJhaW4saW5mZXJ9LnNoIgplY2hvICIgICAgIOaooeWeiz0kTU9ERUxfUEFUSCIKZWNobyAiLS0tIOWQhOS7u+WKoeinhOaooeWPguaVsCAtLS0iCmdyZXAgLW9FICJ0YXNrX25hbWU9W2Etel9dKyBcK2RzX3NpemU9WzAtOV0rIEw9WzAtOV0rIFwrbl9zY29yZT1bMC05XSsiICRFWFAvc2NvcmUuc2ggfCBzb3J0IC11Cg==
+#!/bin/bash
+# 生成正式实验脚本（score/train/infer），带规模控制参数。
+#
+# 关键设计：**候选池保持全量，只限制打分 query 数（n_score）**
+#   - 候选池 = prompt_pool = 检索语料，与基线 random3 抽样来源一致 → 对照公平
+#   - n_score = 被打分的 query 数，决定打分开销
+#   - L = finder_L，每个 query 的候选数，决定排序信号强度（沿用论文原值）
+#
+# 用法: bash /root/autodl-tmp/gen_formal.sh <model_tag> <model_path> <cluster> <ns_arc> <ns_obq> <ns_mul>
+#   cluster=close_qa    → 只用 ns_arc（arc_c 的 L 固定 400）
+#   cluster=reading_new → 用 ns_obq（openbookqa, L=200）与 ns_mul（multirc, L=50）
+# L 取值固定为论文/官方原值，不随规模改变。
+set -eu
+
+MODEL_TAG=$1
+MODEL_PATH=$2
+CLUSTER=$3
+NS_ARC=$4
+NS_OBQ=$5
+NS_MUL=$6
+
+REPO=/root/autodl-tmp/SeDPO_NIPS25
+SRCEXP=$REPO/my_data_qwen/experiment/$CLUSTER
+EXP=$REPO/my_data_qwen/experiment_${MODEL_TAG}/$CLUSTER
+mkdir -p $EXP
+
+# 各任务的 L 与 n_score（按 task_name 分别替换，避免串改）
+case $CLUSTER in
+    close_qa)
+        SED_ARGS=(
+            "s#task_name=arc_c +ds_size=[0-9]* L=[0-9]*#task_name=arc_c +ds_size=10000 L=400 +n_score=${NS_ARC}#g"
+        )
+        ;;
+    reading_new)
+        SED_ARGS=(
+            "s#task_name=multirc +ds_size=[0-9]* L=[0-9]*#task_name=multirc +ds_size=10000 L=50 +n_score=${NS_MUL}#g"
+            "s#task_name=openbookqa +ds_size=[0-9]* L=[0-9]*#task_name=openbookqa +ds_size=10000 L=200 +n_score=${NS_OBQ}#g"
+        )
+        ;;
+    *) echo "未知 cluster: $CLUSTER"; exit 1 ;;
+esac
+
+for f in score.sh train.sh infer.sh; do
+    sed -e "s#/root/autodl-tmp/models/qwen2.5-7b#$MODEL_PATH#g" \
+        -e "s#my_data_qwen/experiment/$CLUSTER#my_data_qwen/experiment_${MODEL_TAG}/$CLUSTER#g" \
+        -e "s#my_data_qwen/scored#my_data_qwen/scored_${MODEL_TAG}#g" \
+        -e "s#my_data_qwen/find_random#my_data_qwen/find_random_${MODEL_TAG}#g" \
+        $(printf -- "-e %s " "${SED_ARGS[@]}") \
+        $SRCEXP/$f > $EXP/$f
+    chmod +x $EXP/$f
+done
+
+echo "[OK] 已生成 $EXP/{score,train,infer}.sh"
+echo "     模型=$MODEL_PATH"
+echo "--- 各任务规模参数 ---"
+grep -oE "task_name=[a-z_]+ \+ds_size=[0-9]+ L=[0-9]+ \+n_score=[0-9]+" $EXP/score.sh | sort -u
