@@ -1,0 +1,42 @@
+# ===== 凭据 / 环境相关：绝对不要提交 =====
+remote_config.json
+*.pem
+*.key
+.env
+.venv/
+venv/
+
+# ===== 数据与模型权重（体积大，另行下载）=====
+sedpo-datasets/
+**/datasets/
+**/checkpoints/
+**/*.ckpt
+**/*.pkl
+**/*.pt
+**/*.bin
+**/*.safetensors
+*.zip
+*.tar
+*.tgz
+
+# ===== 运行产物 =====
+my_data/
+results_backup/
+**/experiment/
+**/*.log
+**/preds_for_*
+**/se2_prompts_for_*
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pylibs/
+
+# ===== 系统 / 编辑器 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
