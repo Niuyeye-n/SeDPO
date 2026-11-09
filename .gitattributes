@@ -1,10 +1,1 @@
-# 统一换行符：仓库内一律 LF，避免 Windows 检出后 shell 脚本在 Linux 上跑不了
-* text=auto eol=lf
-*.sh text eol=lf
-*.py text eol=lf
-*.md text eol=lf
-*.yaml text eol=lf
-*.json text eol=lf
-*.csv text eol=lf
-*.png binary
-*.pdf binary
+IyDnu5/kuIDmjaLooYznrKbvvJrku5PlupPlhoXkuIDlvosgTEbvvIzpgb/lhY0gV2luZG93cyDmo4Dlh7rlkI4gc2hlbGwg6ISa5pys5ZyoIExpbnV4IOS4iui3keS4jeS6hgoqIHRleHQ9YXV0byBlb2w9bGYKKi5zaCB0ZXh0IGVvbD1sZgoqLnB5IHRleHQgZW9sPWxmCioubWQgdGV4dCBlb2w9bGYKKi55YW1sIHRleHQgZW9sPWxmCiouanNvbiB0ZXh0IGVvbD1sZgoqLmNzdiB0ZXh0IGVvbD1sZgoqLnBuZyBiaW5hcnkKKi5wZGYgYmluYXJ5Cg==
