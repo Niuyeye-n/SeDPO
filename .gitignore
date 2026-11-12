@@ -48,3 +48,6 @@ training_inputs/
 _report_runtime/
 # Curated original logs are evidence, not transient runtime logs.
 !results/tablei_20261111/**/*.log
+# Hydra dataset configuration is SOURCE CODE, not downloaded dataset content.
+!src/DPR/conf/datasets/
+!src/DPR/conf/datasets/*.yaml

@@ -2,8 +2,10 @@
 import argparse
 import hashlib
 import json
+import io
 from pathlib import Path
 import subprocess
+import tarfile
 import zipfile
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -38,7 +40,7 @@ def main():
     args=parser.parse_args()
     if args.out.exists():raise FileExistsError('Do not overwrite an existing release ZIP')
     commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip()
-    paths=subprocess.check_output(['git','ls-files','-z'],cwd=ROOT).decode('utf-8').split('\0')
+    committed_tar=subprocess.check_output(['git','archive','--format=tar','HEAD'],cwd=ROOT)
     args.out.parent.mkdir(parents=True,exist_ok=True)
     prefix='SeDPO_results_20261112/'
     manifest={'code_commit':commit,'format_version':1,'files':{},'excluded':['reader LLM weights','retriever/optimizer checkpoints','virtual environment','credentials'],
@@ -55,10 +57,9 @@ def main():
                 for b in iter(lambda:f.read(1024*1024),b''):h.update(b)
             z.write(path,prefix+relative)
             manifest['files'][relative]={'bytes':path.stat().st_size,'sha256':h.hexdigest()}
-        for path in paths:
-            if path:
-                data=subprocess.check_output(['git','show',f'HEAD:{path}'],cwd=ROOT)
-                raw('code/'+path,data)
+        with tarfile.open(fileobj=io.BytesIO(committed_tar)) as committed:
+            for member in committed:
+                if member.isfile():raw('code/'+member.name,committed.extractfile(member).read())
         for role,base in [('training_inputs',args.training_inputs),('results',args.results),('results/evidence',args.evidence)]:
             for path in sorted(base.rglob('*')):
                 if path.is_file() and '__pycache__' not in path.parts and '鍥' not in path.name:

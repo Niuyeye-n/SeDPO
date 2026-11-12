@@ -29,3 +29,5 @@
 ## 交付复核
 
 Git 提交后还将从提交快照导出并运行 README 的 CPU 命令，再打 ZIP 并通过包内 verify_package.py 校验全部文件、训练输入和四组结果。该交付核验的实际输出随 ZIP 的 code/verification 与发布说明记录，不将未执行的 GPU 流程称为已验证。
+
+首次提交快照核验发现，旧 `.gitignore` 的 `**/datasets/` 同时忽略了 DPR 的两个必需 YAML 配置。本次明确将 `src/DPR/conf/datasets/*.yaml` 作为源码纳入版本控制，再核验最终提交快照。原始源码指纹不因这个 Git 收录修复而改变。
