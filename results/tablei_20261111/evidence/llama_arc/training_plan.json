@@ -1,0 +1,14 @@
+{
+  "training_entries": 810,
+  "validation_entries": 90,
+  "training_unique_queries": 270,
+  "validation_unique_queries": 30,
+  "expanded_training_samples": 9355,
+  "effective_batch_size": 64,
+  "epochs": 6,
+  "updates_per_epoch": 146,
+  "total_updates": 876,
+  "warmup_steps": 88,
+  "train_sha256": "b20ef3a1e53e856dc62fcd30838516f2f04c20ff84801de3b5de6e7c15663101",
+  "valid_sha256": "ea9c25fb881b54d4c0d0bd15738e54eae680b148ff55899eb3e74969314ba55f"
+}

@@ -1,0 +1,137 @@
+[
+  {
+    "remote": "/root/results_backup/SeDPO_table_checkpoints_20261111/qwen_arc_warmup86/train.log",
+    "local": "C:\\Users\\33792\\Desktop\\论文\\results_backup\\20261112_report_evidence\\qwen_arc_warmup86\\train.log",
+    "bytes": 31595
+  },
+  {
+    "remote": "/root/results_backup/SeDPO_table_checkpoints_20261111/qwen_arc_warmup86/run_script.sh",
+    "local": "C:\\Users\\33792\\Desktop\\论文\\results_backup\\20261112_report_evidence\\qwen_arc_warmup86\\run_script.sh",
+    "bytes": 2875
+  },
+  {
+    "remote": "/root/results_backup/SeDPO_table_checkpoints_20261111/qwen_arc_warmup86/input_sha256.txt",
+    "local": "C:\\Users\\33792\\Desktop\\论文\\results_backup\\20261112_report_evidence\\qwen_arc_warmup86\\input_sha256.txt",
+    "bytes": 1031
+  },
+  {
+    "remote": "/root/results_backup/SeDPO_table_checkpoints_20261111/qwen_arc_warmup86/retention_manifest.json",
+    "local": "C:\\Users\\33792\\Desktop\\论文\\results_backup\\20261112_report_evidence\\qwen_arc_warmup86\\retention_manifest.json",
+    "bytes": 1422
+  },
+  {
+    "remote": "/root/results_backup/SeDPO_table_checkpoints_20261111/qwen_obqa_warmup108/train.log",
+    "local": "C:\\Users\\33792\\Desktop\\论文\\results_backup\\20261112_report_evidence\\qwen_obqa_warmup108\\train.log",
+    "bytes": 32238
+  },
+  {
+    "remote": "/root/results_backup/SeDPO_table_checkpoints_20261111/qwen_obqa_warmup108/training_plan.json",
+    "local": "C:\\Users\\33792\\Desktop\\论文\\results_backup\\20261112_report_evidence\\qwen_obqa_warmup108\\training_plan.json",
+    "bytes": 458
+  },
+  {
+    "remote": "/root/results_backup/SeDPO_table_checkpoints_20261111/qwen_obqa_warmup108/train.sh",
+    "local": "C:\\Users\\33792\\Desktop\\论文\\results_backup\\20261112_report_evidence\\qwen_obqa_warmup108\\train.sh",
+    "bytes": 1090
+  },
+  {
+    "remote": "/root/results_backup/SeDPO_table_checkpoints_20261111/qwen_obqa_warmup108/retention_manifest.json",
+    "local": "C:\\Users\\33792\\Desktop\\论文\\results_backup\\20261112_report_evidence\\qwen_obqa_warmup108\\retention_manifest.json",
+    "bytes": 1430
+  },
+  {
+    "remote": "/root/results_backup/SeDPO_table_checkpoints_20261111/llama_arc/train.log",
+    "local": "C:\\Users\\33792\\Desktop\\论文\\results_backup\\20261112_report_evidence\\llama_arc\\train.log",
+    "bytes": 31207
+  },
+  {
+    "remote": "/root/results_backup/SeDPO_table_checkpoints_20261111/llama_arc/score.log",
+    "local": "C:\\Users\\33792\\Desktop\\论文\\results_backup\\20261112_report_evidence\\llama_arc\\score.log",
+    "bytes": 721874
+  },
+  {
+    "remote": "/root/results_backup/SeDPO_table_checkpoints_20261111/llama_arc/training_plan.json",
+    "local": "C:\\Users\\33792\\Desktop\\论文\\results_backup\\20261112_report_evidence\\llama_arc\\training_plan.json",
+    "bytes": 455
+  },
+  {
+    "remote": "/root/results_backup/SeDPO_table_checkpoints_20261111/llama_arc/train.sh",
+    "local": "C:\\Users\\33792\\Desktop\\论文\\results_backup\\20261112_report_evidence\\llama_arc\\train.sh",
+    "bytes": 1068
+  },
+  {
+    "remote": "/root/results_backup/SeDPO_table_checkpoints_20261111/llama_arc/score.sh",
+    "local": "C:\\Users\\33792\\Desktop\\论文\\results_backup\\20261112_report_evidence\\llama_arc\\score.sh",
+    "bytes": 4081
+  },
+  {
+    "remote": "/root/results_backup/SeDPO_table_checkpoints_20261111/llama_arc/retention_manifest.json",
+    "local": "C:\\Users\\33792\\Desktop\\论文\\results_backup\\20261112_report_evidence\\llama_arc\\retention_manifest.json",
+    "bytes": 1382
+  },
+  {
+    "remote": "/root/results_backup/SeDPO_table_checkpoints_20261111/llama_obqa/train.log",
+    "local": "C:\\Users\\33792\\Desktop\\论文\\results_backup\\20261112_report_evidence\\llama_obqa\\train.log",
+    "bytes": 31833
+  },
+  {
+    "remote": "/root/results_backup/SeDPO_table_checkpoints_20261111/llama_obqa/score.log",
+    "local": "C:\\Users\\33792\\Desktop\\论文\\results_backup\\20261112_report_evidence\\llama_obqa\\score.log",
+    "bytes": 719124
+  },
+  {
+    "remote": "/root/results_backup/SeDPO_table_checkpoints_20261111/llama_obqa/training_plan.json",
+    "local": "C:\\Users\\33792\\Desktop\\论文\\results_backup\\20261112_report_evidence\\llama_obqa\\training_plan.json",
+    "bytes": 458
+  },
+  {
+    "remote": "/root/results_backup/SeDPO_table_checkpoints_20261111/llama_obqa/train.sh",
+    "local": "C:\\Users\\33792\\Desktop\\论文\\results_backup\\20261112_report_evidence\\llama_obqa\\train.sh",
+    "bytes": 1072
+  },
+  {
+    "remote": "/root/results_backup/SeDPO_table_checkpoints_20261111/llama_obqa/score.sh",
+    "local": "C:\\Users\\33792\\Desktop\\论文\\results_backup\\20261112_report_evidence\\llama_obqa\\score.sh",
+    "bytes": 4302
+  },
+  {
+    "remote": "/root/results_backup/SeDPO_table_checkpoints_20261111/llama_obqa/retention_manifest.json",
+    "local": "C:\\Users\\33792\\Desktop\\论文\\results_backup\\20261112_report_evidence\\llama_obqa\\retention_manifest.json",
+    "bytes": 1386
+  },
+  {
+    "remote": "/root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/experiment/close_qa_warmup86_seed12345/.hydra/config.yaml",
+    "local": "C:\\Users\\33792\\Desktop\\论文\\results_backup\\20261112_report_evidence\\qwen_arc_warmup86\\.hydra__config.yaml",
+    "bytes": 4261
+  },
+  {
+    "remote": "/root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/experiment/obqa_only_warmup108_seed12345/.hydra/config.yaml",
+    "local": "C:\\Users\\33792\\Desktop\\论文\\results_backup\\20261112_report_evidence\\qwen_obqa_warmup108\\.hydra__config.yaml",
+    "bytes": 4265
+  },
+  {
+    "remote": "/root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/experiment/obqa_only_warmup108_seed12345/training_plan.json",
+    "local": "C:\\Users\\33792\\Desktop\\论文\\results_backup\\20261112_report_evidence\\qwen_obqa_warmup108\\training_plan.json",
+    "bytes": 458
+  },
+  {
+    "remote": "/root/autodl-tmp/SeDPO_NIPS25/my_data_llama_table/experiment/close_qa/.hydra/config.yaml",
+    "local": "C:\\Users\\33792\\Desktop\\论文\\results_backup\\20261112_report_evidence\\llama_arc\\.hydra__config.yaml",
+    "bytes": 4270
+  },
+  {
+    "remote": "/root/autodl-tmp/SeDPO_NIPS25/my_data_llama_table/experiment/close_qa/training_plan.json",
+    "local": "C:\\Users\\33792\\Desktop\\论文\\results_backup\\20261112_report_evidence\\llama_arc\\training_plan.json",
+    "bytes": 455
+  },
+  {
+    "remote": "/root/autodl-tmp/SeDPO_NIPS25/my_data_llama_table/experiment/obqa_only/.hydra/config.yaml",
+    "local": "C:\\Users\\33792\\Desktop\\论文\\results_backup\\20261112_report_evidence\\llama_obqa\\.hydra__config.yaml",
+    "bytes": 4273
+  },
+  {
+    "remote": "/root/autodl-tmp/SeDPO_NIPS25/my_data_llama_table/experiment/obqa_only/training_plan.json",
+    "local": "C:\\Users\\33792\\Desktop\\论文\\results_backup\\20261112_report_evidence\\llama_obqa\\training_plan.json",
+    "bytes": 458
+  }
+]

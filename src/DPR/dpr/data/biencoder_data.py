@@ -191,6 +191,14 @@ class Se2Dataset(Dataset):
         self.prompt_pool = read_data_from_json_files(prompt_pool_path)
         logger.info("prompt passages num : %d", len(self.prompt_pool))
         self.TaskandId_to_data = create_dict(self.prompt_pool)
+        # 2026-11-05 F2 修复：打分阶段每个任务的 prompt_pool 独立、id 从 0 开始；
+        # 训练阶段这里把同 cluster 内各任务的 pool 拼接成一个大列表，
+        # 于是「拼接池全局下标」≠「任务内局部 id」。多任务 cluster 下
+        # 直接用 self.prompt_pool[id] 取已选示例会取错任务的数据。
+        # 上游建了 TaskandId_to_data 映射却从未使用，这里真正用起来。
+        self._task_pool_index = {}
+        for _i, _e in enumerate(self.prompt_pool):
+            self._task_pool_index.setdefault(_e.get("task_name"), []).append(_i)
         self.train_clusters = train_clusters
         self.multi_task = multi_task
         self.prompt_setup_type = prompt_setup_type
@@ -209,6 +217,23 @@ class Se2Dataset(Dataset):
             sent = task.get_answer(entry).strip()
         return remove_double_space(sent)
     
+    def _lookup_pool(self, task_name, idx):
+        """按「任务内局部 id」取 prompt_pool 条目。
+
+        2026-11-05 F2 修复：打分产出的 id 是任务内局部编号，
+        而 self.prompt_pool 是跨任务拼接后的大列表。
+        这里优先用 TaskandId_to_data[task+id] 精确命中；
+        命中不到时退回 self.prompt_pool[idx]（单任务 cluster 的原有语义）。
+        """
+        if task_name is not None:
+            hit = self.TaskandId_to_data.get(str(task_name) + str(idx))
+            if hit is not None:
+                return hit
+        try:
+            return self.prompt_pool[int(idx)]
+        except (IndexError, TypeError, ValueError):
+            return None
+
     def get_entry(self, entry):
         entry["ctxs"] = sorted(
             random.sample(entry["ctxs"],k=round(len(entry["ctxs"])*SCORE_RATIO)),
@@ -276,7 +301,9 @@ class Se2Dataset(Dataset):
             question = ""
             have_choosen = entry["choosen"]
             for id in have_choosen:
-                example = self.prompt_pool[id]
+                example = self._lookup_pool(entry.get("task_name"), id)
+                if example is None:
+                    continue
                 question += self.format_example(example, self.prompt_setup_type) + " \n "
             
             question += self.format_example(entry, self.task_setup_type)
@@ -321,7 +348,9 @@ class Se2Dataset(Dataset):
             question = ""
             have_choosen = entry["choosen"]
             for id in have_choosen:
-                example = self.prompt_pool[id]
+                example = self._lookup_pool(entry.get("task_name"), id)
+                if example is None:
+                    continue
                 question += self.format_example(example, self.prompt_setup_type) + " \n "
             
             question += self.format_example(entry, self.task_setup_type)
@@ -356,7 +385,9 @@ class Se2Dataset(Dataset):
             question = ""
             have_choosen = entry["choosen"]
             for id in have_choosen:
-                example = self.prompt_pool[id]
+                example = self._lookup_pool(entry.get("task_name"), id)
+                if example is None:
+                    continue
                 question += self.format_example(example, self.prompt_setup_type) + " \n "
             
             question += self.format_example(entry, self.task_setup_type)
@@ -391,7 +422,9 @@ class Se2Dataset(Dataset):
             question = ""
             have_choosen = entry["choosen"]
             for id in have_choosen:
-                example = self.prompt_pool[id]
+                example = self._lookup_pool(entry.get("task_name"), id)
+                if example is None:
+                    continue
                 question += self.format_example(example, self.prompt_setup_type) + " \n "
             
             question += self.format_example(entry, self.task_setup_type)
@@ -455,7 +488,9 @@ class Se2Dataset(Dataset):
             question = ""
             have_choosen = entry["choosen"]
             for id in have_choosen:
-                example = self.prompt_pool[id]
+                example = self._lookup_pool(entry.get("task_name"), id)
+                if example is None:
+                    continue
                 question += self.format_example(example, self.prompt_setup_type) + " \n "
             
             question += self.format_example(entry, self.task_setup_type)

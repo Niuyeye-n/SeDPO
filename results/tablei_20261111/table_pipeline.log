@@ -1,0 +1,991 @@
+2026-11-11T17:20:50+08:00 WAIT_QWEN_PRELIMINARY_50POOL_EVALUATIONS
+2026-11-11T17:20:50+08:00 IMPORT_QWEN_ARC_COMPLETED_ROW
+Verified complete rows: 1/4; output=/root/autodl-tmp/codex_aligned_common_seed42_20261111/table_export
+2026-11-11T17:20:50+08:00 PLAN_QWEN_OBQA_WARMUP108
+{"training_entries": 810, "validation_entries": 90, "training_unique_queries": 270, "validation_unique_queries": 30, "expanded_training_samples": 11567, "effective_batch_size": 64, "epochs": 6, "updates_per_epoch": 180, "total_updates": 1080, "warmup_steps": 108, "train_sha256": "700c0f199c5cce82b8f473958cad3a3d7721c25f7962be8a34cbe561322971a0", "valid_sha256": "4bab9991cb116b768ee4ed6c9ad10a2980eafbae22e3fb4280a465255962a2c8"}
+2026-11-11T17:20:50+08:00 WAIT_VERIFIED_CHECKPOINT_BACKUP_FOR_DISK_SPACE
+2026-11-11T17:21:20+08:00 WAIT_VERIFIED_CHECKPOINT_BACKUP_FOR_DISK_SPACE
+2026-11-11T17:21:50+08:00 WAIT_VERIFIED_CHECKPOINT_BACKUP_FOR_DISK_SPACE
+2026-11-11T17:22:21+08:00 WAIT_VERIFIED_CHECKPOINT_BACKUP_FOR_DISK_SPACE
+2026-11-11T17:22:51+08:00 WAIT_VERIFIED_CHECKPOINT_BACKUP_FOR_DISK_SPACE
+2026-11-11T17:23:21+08:00 WAIT_VERIFIED_CHECKPOINT_BACKUP_FOR_DISK_SPACE
+2026-11-11T17:23:51+08:00 WAIT_VERIFIED_CHECKPOINT_BACKUP_FOR_DISK_SPACE
+2026-11-11T17:24:21+08:00 WAIT_VERIFIED_CHECKPOINT_BACKUP_FOR_DISK_SPACE
+2026-11-11T17:24:51+08:00 WAIT_VERIFIED_CHECKPOINT_BACKUP_FOR_DISK_SPACE
+2026-11-11T17:25:21+08:00 WAIT_VERIFIED_CHECKPOINT_BACKUP_FOR_DISK_SPACE
+2026-11-11T17:25:51+08:00 WAIT_VERIFIED_CHECKPOINT_BACKUP_FOR_DISK_SPACE
+2026-11-11T17:26:21+08:00 WAIT_VERIFIED_CHECKPOINT_BACKUP_FOR_DISK_SPACE
+2026-11-11T17:26:51+08:00 WAIT_VERIFIED_CHECKPOINT_BACKUP_FOR_DISK_SPACE
+2026-11-11T17:27:21+08:00 WAIT_VERIFIED_CHECKPOINT_BACKUP_FOR_DISK_SPACE
+2026-11-11T17:27:51+08:00 TRAIN_QWEN_OBQA_WARMUP108
+2026-11-11T18:22:56+08:00 EVALUATE_QWEN_OBQA_FINAL_ROW
+/root/autodl-tmp/SeDPO_NIPS25/DPR/generate_dense_embeddings.py:98: UserWarning: 
+The version_base parameter is not specified.
+Please specify a compatability version level, or None.
+Will assume defaults for version 1.1
+  @hydra.main(config_path="conf", config_name="gen_embs")
+/root/autodl-tmp/envs/se_dpo/lib/python3.12/site-packages/hydra/_internal/defaults_list.py:251: UserWarning: In 'gen_embs': Defaults list is missing `_self_`. See https://hydra.cc/docs/1.2/upgrades/1.0_to_1.1/default_composition_order for more information
+  warnings.warn(msg, UserWarning)
+/root/autodl-tmp/envs/se_dpo/lib/python3.12/site-packages/hydra/core/default_element.py:124: UserWarning: In 'ctx_sources/default_sources': Usage of deprecated keyword in package header '# @package _group_'.
+See https://hydra.cc/docs/1.2/upgrades/1.0_to_1.1/changes_to_package_header for more information
+  deprecation_warning(
+/root/autodl-tmp/envs/se_dpo/lib/python3.12/site-packages/hydra/core/default_element.py:124: UserWarning: In 'encoder/hf_bert': Usage of deprecated keyword in package header '# @package _group_'.
+See https://hydra.cc/docs/1.2/upgrades/1.0_to_1.1/changes_to_package_header for more information
+  deprecation_warning(
+/root/autodl-tmp/envs/se_dpo/lib/python3.12/site-packages/hydra/_internal/hydra.py:119: UserWarning: Future Hydra versions will no longer change working directory at job runtime by default.
+See https://hydra.cc/docs/1.2/upgrades/1.1_to_1.2/changes_to_job_working_dir/ for more information.
+  ret = run_job(
+[2026-11-11 18:22:59,308][root][INFO] - args.local_rank -1
+[2026-11-11 18:22:59,308][root][INFO] - WORLD_SIZE None
+[2026-11-11 18:22:59,422][root][INFO] - Initialized host autodl-container-b322478f1d-26a9dca4 as d.rank -1 on device=cuda, n_gpu=1, world size=1
+[2026-11-11 18:22:59,422][root][INFO] - 16-bits training: False 
+[2026-11-11 18:22:59,422][root][INFO] - Reading saved model from /root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/experiment/obqa_only_warmup108_seed12345/model/dpr_biencoder.best_valid
+[2026-11-11 18:23:01,271][root][INFO] - model_state_dict keys dict_keys(['model_dict', 'optimizer_dict', 'scheduler_dict', 'offset', 'epoch', 'encoder_params'])
+[2026-11-11 18:23:01,273][root][INFO] - CFG:
+[2026-11-11 18:23:01,277][root][INFO] - encoder:
+  encoder_model_type: hf_bert
+  pretrained_model_cfg: google-bert/bert-base-uncased
+  pretrained_file: null
+  projection_dim: 0
+  sequence_length: 512
+  dropout: 0.1
+  fix_ctx_encoder: false
+  pretrained: true
+  cache_dir: /root/autodl-tmp/SeDPO_NIPS25/cache
+ctx_sources:
+  dpr_se2:
+    _target_: sedpo_adapter.ControlledContexts
+    prompt_setup_type: qa
+    prompt_pool_path: /root/autodl-tmp/codex_aligned_common_seed42_20261111
+    train_clusters: null
+    protocol_file: /root/autodl-tmp/codex_aligned_common_seed42_20261111/protocol_sedpo_only_sdpa.json
+    task_name: openbookqa
+  dpr_wiki:
+    _target_: dpr.data.retriever_data.CsvCtxSrc
+    file: data.wikipedia_split.psgs_w100
+    id_prefix: 'wiki:'
+  dpr_grail:
+    _target_: dpr.data.retriever_data.CsvCtxSrc
+    file: data.wikipedia_split.entities
+model_file: /root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/experiment/obqa_only_warmup108_seed12345/model/dpr_biencoder.best_valid
+ctx_src: dpr_se2
+encoder_type: ctx
+out_file: /root/autodl-tmp/codex_aligned_common_seed42_20261111/table_runs/qwen_obqa/index
+do_lower_case: true
+shard_id: 0
+num_shards: 1
+batch_size: 512
+tables_as_passages: false
+special_tokens: null
+tables_chunk_sz: 100
+tables_split_type: type1
+local_rank: -1
+device: cuda
+distributed_world_size: 1
+distributed_port: null
+no_cuda: false
+n_gpu: 1
+fp16: false
+fp16_opt_level: O1
+
+[2026-11-11 18:23:07,128][root][INFO] - Loading saved model state ...
+[2026-11-11 18:23:07,536][root][INFO] - reading data source: dpr_se2
+[2026-11-11 18:23:07,549][root][INFO] - Producing encodings for passages range: 0 to 50 (out of total 50)
+[2026-11-11 18:23:07,913][root][INFO] - Encoded passages 50
+[2026-11-11 18:23:07,914][root][INFO] - Writing results to /root/autodl-tmp/codex_aligned_common_seed42_20261111/table_runs/qwen_obqa/index_0
+[2026-11-11 18:23:07,915][root][INFO] - Total passages processed 50. Written to /root/autodl-tmp/codex_aligned_common_seed42_20261111/table_runs/qwen_obqa/index_0
+2026-11-11 18:23:11,042 [INFO] faiss.loader: Loading faiss with AVX512-SPR support.
+2026-11-11 18:23:11,042 [INFO] faiss.loader: Could not load library with AVX512-SPR support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512_spr'")
+2026-11-11 18:23:11,042 [INFO] faiss.loader: Loading faiss with AVX512 support.
+2026-11-11 18:23:11,059 [INFO] faiss.loader: Successfully loaded faiss with AVX512 support.
+/root/autodl-tmp/SeDPO_NIPS25/DPR/dense_retriever_beam_score.py:282: UserWarning: 
+The version_base parameter is not specified.
+Please specify a compatability version level, or None.
+Will assume defaults for version 1.1
+  @hydra.main(config_path="conf", config_name="dense_retriever")
+/root/autodl-tmp/envs/se_dpo/lib/python3.12/site-packages/hydra/_internal/defaults_list.py:251: UserWarning: In 'dense_retriever': Defaults list is missing `_self_`. See https://hydra.cc/docs/1.2/upgrades/1.0_to_1.1/default_composition_order for more information
+  warnings.warn(msg, UserWarning)
+/root/autodl-tmp/envs/se_dpo/lib/python3.12/site-packages/hydra/core/default_element.py:124: UserWarning: In 'ctx_sources/default_sources': Usage of deprecated keyword in package header '# @package _group_'.
+See https://hydra.cc/docs/1.2/upgrades/1.0_to_1.1/changes_to_package_header for more information
+  deprecation_warning(
+/root/autodl-tmp/envs/se_dpo/lib/python3.12/site-packages/hydra/core/default_element.py:124: UserWarning: In 'datasets/retriever_default': Usage of deprecated keyword in package header '# @package _group_'.
+See https://hydra.cc/docs/1.2/upgrades/1.0_to_1.1/changes_to_package_header for more information
+  deprecation_warning(
+/root/autodl-tmp/envs/se_dpo/lib/python3.12/site-packages/hydra/core/default_element.py:124: UserWarning: In 'encoder/hf_bert': Usage of deprecated keyword in package header '# @package _group_'.
+See https://hydra.cc/docs/1.2/upgrades/1.0_to_1.1/changes_to_package_header for more information
+  deprecation_warning(
+/root/autodl-tmp/envs/se_dpo/lib/python3.12/site-packages/hydra/_internal/hydra.py:119: UserWarning: Future Hydra versions will no longer change working directory at job runtime by default.
+See https://hydra.cc/docs/1.2/upgrades/1.1_to_1.2/changes_to_job_working_dir/ for more information.
+  ret = run_job(
+[2026-11-11 18:23:11,308][root][INFO] - args.local_rank -1
+[2026-11-11 18:23:11,309][root][INFO] - WORLD_SIZE None
+[2026-11-11 18:23:11,401][root][INFO] - Initialized host autodl-container-b322478f1d-26a9dca4 as d.rank -1 on device=cuda, n_gpu=1, world size=1
+[2026-11-11 18:23:11,402][root][INFO] - 16-bits training: False 
+[2026-11-11 18:23:11,402][root][INFO] - CFG (after gpu  configuration):
+[2026-11-11 18:23:11,405][root][INFO] - encoder:
+  encoder_model_type: hf_bert
+  pretrained_model_cfg: google-bert/bert-base-uncased
+  pretrained_file: null
+  projection_dim: 0
+  sequence_length: 512
+  dropout: 0.1
+  fix_ctx_encoder: false
+  pretrained: true
+  cache_dir: /root/autodl-tmp/SeDPO_NIPS25/cache
+datasets:
+  qa_se2:
+    _target_: sedpo_adapter.ControlledQuestions
+    task_name: openbookqa
+    cache_dir: /root/autodl-tmp/SeDPO_NIPS25/cache
+    task_setup_type: q
+    protocol_file: /root/autodl-tmp/codex_aligned_common_seed42_20261111/protocol_sedpo_only_sdpa.json
+  nq_test:
+    _target_: dpr.data.retriever_data.CsvQASrc
+    file: data.retriever.qas.nq-test
+  nq_train:
+    _target_: dpr.data.retriever_data.CsvQASrc
+    file: data.retriever.qas.nq-train
+  nq_dev:
+    _target_: dpr.data.retriever_data.CsvQASrc
+    file: data.retriever.qas.nq-dev
+  trivia_test:
+    _target_: dpr.data.retriever_data.CsvQASrc
+    file: data.retriever.qas.trivia-test
+  trivia_train:
+    _target_: dpr.data.retriever_data.CsvQASrc
+    file: data.retriever.qas.trivia-train
+  trivia_dev:
+    _target_: dpr.data.retriever_data.CsvQASrc
+    file: data.retriever.qas.trivia-dev
+  grailqa_dev:
+    _target_: dpr.data.retriever_data.CsvQASrc
+    file: data.retriever.qas.grailqa-dev
+  grailqa_train:
+    _target_: dpr.data.retriever_data.CsvQASrc
+    file: data.retriever.qas.grailqa-train
+  webq_test:
+    _target_: dpr.data.retriever_data.CsvQASrc
+    file: data.retriever.qas.webq-test
+  curatedtrec_test:
+    _target_: dpr.data.retriever_data.CsvQASrc
+    file: data.retriever.qas.curatedtrec-test
+ctx_sources:
+  dpr_se2:
+    _target_: sedpo_adapter.ControlledContexts
+    prompt_setup_type: qa
+    prompt_pool_path: /root/autodl-tmp/codex_aligned_common_seed42_20261111
+    train_clusters: null
+    protocol_file: /root/autodl-tmp/codex_aligned_common_seed42_20261111/protocol_sedpo_only_sdpa.json
+    task_name: openbookqa
+  dpr_wiki:
+    _target_: dpr.data.retriever_data.CsvCtxSrc
+    file: data.wikipedia_split.psgs_w100
+    id_prefix: 'wiki:'
+  dpr_grail:
+    _target_: dpr.data.retriever_data.CsvCtxSrc
+    file: data.wikipedia_split.entities
+indexers:
+  flat:
+    _target_: dpr.indexer.faiss_indexers.DenseFlatIndexer
+  hnsw:
+    _target_: dpr.indexer.faiss_indexers.DenseHNSWFlatIndexer
+  hnsw_sq:
+    _target_: dpr.indexer.faiss_indexers.DenseHNSWSQIndexer
+qa_dataset: qa_se2
+ctx_datatsets:
+- dpr_se2
+encoded_ctx_files:
+- /root/autodl-tmp/codex_aligned_common_seed42_20261111/table_runs/qwen_obqa/index_*
+out_file: /root/autodl-tmp/codex_aligned_common_seed42_20261111/table_runs/qwen_obqa/prompts.json
+match: string
+shot_num: 4
+validation_workers: 16
+beam_size: 3
+batch_size: 512
+do_lower_case: true
+encoder_path: null
+index_path: null
+kilt_out_file: null
+model_file: /root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/experiment/obqa_only_warmup108_seed12345/model/dpr_biencoder.best_valid
+validate_as_tables: false
+rpc_retriever_cfg_file: null
+indexer: flat
+special_tokens: null
+local_rank: -1
+global_loss_buf_sz: 150000
+device: cuda
+distributed_world_size: 1
+no_cuda: false
+n_gpu: 1
+fp16: false
+fp16_opt_level: O1
+
+[2026-11-11 18:23:11,405][root][INFO] - Reading saved model from /root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/experiment/obqa_only_warmup108_seed12345/model/dpr_biencoder.best_valid
+[2026-11-11 18:23:13,679][root][INFO] - model_state_dict keys dict_keys(['model_dict', 'optimizer_dict', 'scheduler_dict', 'offset', 'epoch', 'encoder_params'])
+[2026-11-11 18:23:18,377][root][INFO] - Selecting standard question encoder
+[2026-11-11 18:23:18,644][root][INFO] - Loading saved model state ...
+[2026-11-11 18:23:18,644][root][INFO] - Encoder state prefix question_model.
+[2026-11-11 18:23:18,726][root][INFO] - Encoder vector_size=768
+[2026-11-11 18:23:18,727][root][INFO] - Index class <class 'dpr.indexer.faiss_indexers.DenseFlatIndexer'> 
+[2026-11-11 18:23:18,736][root][INFO] - id_prefixes per dataset: [None]
+[2026-11-11 18:23:18,736][root][INFO] - ctx_files_patterns: ['/root/autodl-tmp/codex_aligned_common_seed42_20261111/table_runs/qwen_obqa/index_*']
+[2026-11-11 18:23:18,737][root][INFO] - Embeddings files id prefixes: [None]
+[2026-11-11 18:23:18,737][root][INFO] - Reading all passages data from files: ['/root/autodl-tmp/codex_aligned_common_seed42_20261111/table_runs/qwen_obqa/index_0']
+[2026-11-11 18:23:18,737][root][INFO] - Reading file /root/autodl-tmp/codex_aligned_common_seed42_20261111/table_runs/qwen_obqa/index_0
+[2026-11-11 18:23:18,738][root][INFO] - data indexed 50
+[2026-11-11 18:23:18,738][root][INFO] - Total data indexed 50
+[2026-11-11 18:23:18,738][root][INFO] - Data indexing completed.
+[2026-11-11 18:23:18,738][root][INFO] - qa_dataset: qa_se2
+[2026-11-11 18:23:18,752][root][INFO] - Using special token None
+[2026-11-11 18:23:18,752][root][INFO] - Check type of retriever: <class '__main__.LocalFaissRetriever'>
+q_num: 500 few_shot_num: 0 beam_size: 0
+[2026-11-11 18:23:20,623][root][INFO] - Encoded queries 500
+[2026-11-11 18:23:20,625][root][INFO] - Total encoded queries tensor torch.Size([500, 768])
+[2026-11-11 18:23:20,634][root][INFO] - index search time: 0.008906 sec.
+q_num: 500 few_shot_num: 1 beam_size: 0
+[2026-11-11 18:23:22,468][root][INFO] - Encoded queries 500
+[2026-11-11 18:23:22,469][root][INFO] - Total encoded queries tensor torch.Size([500, 768])
+[2026-11-11 18:23:22,476][root][INFO] - index search time: 0.005651 sec.
+q_num: 500 few_shot_num: 1 beam_size: 1
+[2026-11-11 18:23:24,296][root][INFO] - Encoded queries 500
+[2026-11-11 18:23:24,298][root][INFO] - Total encoded queries tensor torch.Size([500, 768])
+[2026-11-11 18:23:24,303][root][INFO] - index search time: 0.005080 sec.
+q_num: 500 few_shot_num: 1 beam_size: 2
+[2026-11-11 18:23:26,134][root][INFO] - Encoded queries 500
+[2026-11-11 18:23:26,135][root][INFO] - Total encoded queries tensor torch.Size([500, 768])
+[2026-11-11 18:23:26,139][root][INFO] - index search time: 0.003514 sec.
+q_num: 500 few_shot_num: 2 beam_size: 0
+[2026-11-11 18:23:28,180][root][INFO] - Encoded queries 500
+[2026-11-11 18:23:28,181][root][INFO] - Total encoded queries tensor torch.Size([500, 768])
+[2026-11-11 18:23:28,194][root][INFO] - index search time: 0.012636 sec.
+q_num: 500 few_shot_num: 2 beam_size: 1
+[2026-11-11 18:23:30,916][root][INFO] - Encoded queries 500
+[2026-11-11 18:23:30,918][root][INFO] - Total encoded queries tensor torch.Size([500, 768])
+[2026-11-11 18:23:30,925][root][INFO] - index search time: 0.005113 sec.
+q_num: 500 few_shot_num: 2 beam_size: 2
+[2026-11-11 18:23:33,077][root][INFO] - Encoded queries 500
+[2026-11-11 18:23:33,078][root][INFO] - Total encoded queries tensor torch.Size([500, 768])
+[2026-11-11 18:23:33,083][root][INFO] - index search time: 0.003650 sec.
+q_num: 500 few_shot_num: 3 beam_size: 0
+[2026-11-11 18:23:35,254][root][INFO] - Encoded queries 500
+[2026-11-11 18:23:35,255][root][INFO] - Total encoded queries tensor torch.Size([500, 768])
+[2026-11-11 18:23:35,260][root][INFO] - index search time: 0.003939 sec.
+q_num: 500 few_shot_num: 3 beam_size: 1
+[2026-11-11 18:23:37,615][root][INFO] - Encoded queries 500
+[2026-11-11 18:23:37,616][root][INFO] - Total encoded queries tensor torch.Size([500, 768])
+[2026-11-11 18:23:37,625][root][INFO] - index search time: 0.007815 sec.
+q_num: 500 few_shot_num: 3 beam_size: 2
+[2026-11-11 18:23:40,050][root][INFO] - Encoded queries 500
+[2026-11-11 18:23:40,051][root][INFO] - Total encoded queries tensor torch.Size([500, 768])
+[2026-11-11 18:23:40,056][root][INFO] - index search time: 0.003359 sec.
+[2026-11-11 18:23:40,107][root][INFO] - Saved results * scores  to /root/autodl-tmp/codex_aligned_common_seed42_20261111/table_runs/qwen_obqa/prompts_beam_score_0.json
+[2026-11-11 18:23:40,146][root][INFO] - Saved results * scores  to /root/autodl-tmp/codex_aligned_common_seed42_20261111/table_runs/qwen_obqa/prompts_beam_score_1.json
+[2026-11-11 18:23:40,184][root][INFO] - Saved results * scores  to /root/autodl-tmp/codex_aligned_common_seed42_20261111/table_runs/qwen_obqa/prompts_beam_score_2.json
+Exported 500 SeDPO selections: /root/autodl-tmp/codex_aligned_common_seed42_20261111/table_runs/qwen_obqa/selection.json
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:04,  1.55s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.45s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.36s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.28s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.34s/it]
+Queries: 1/500; methods=['sedpo']
+Queries: 11/500; methods=['sedpo']
+Queries: 21/500; methods=['sedpo']
+Queries: 31/500; methods=['sedpo']
+Queries: 41/500; methods=['sedpo']
+Queries: 51/500; methods=['sedpo']
+Queries: 61/500; methods=['sedpo']
+Queries: 71/500; methods=['sedpo']
+Queries: 81/500; methods=['sedpo']
+Queries: 91/500; methods=['sedpo']
+Queries: 101/500; methods=['sedpo']
+Queries: 111/500; methods=['sedpo']
+Queries: 121/500; methods=['sedpo']
+Queries: 131/500; methods=['sedpo']
+Queries: 141/500; methods=['sedpo']
+Queries: 151/500; methods=['sedpo']
+Queries: 161/500; methods=['sedpo']
+Queries: 171/500; methods=['sedpo']
+Queries: 181/500; methods=['sedpo']
+Queries: 191/500; methods=['sedpo']
+Queries: 201/500; methods=['sedpo']
+Queries: 211/500; methods=['sedpo']
+Queries: 221/500; methods=['sedpo']
+Queries: 231/500; methods=['sedpo']
+Queries: 241/500; methods=['sedpo']
+Queries: 251/500; methods=['sedpo']
+Queries: 261/500; methods=['sedpo']
+Queries: 271/500; methods=['sedpo']
+Queries: 281/500; methods=['sedpo']
+Queries: 291/500; methods=['sedpo']
+Queries: 301/500; methods=['sedpo']
+Queries: 311/500; methods=['sedpo']
+Queries: 321/500; methods=['sedpo']
+Queries: 331/500; methods=['sedpo']
+Queries: 341/500; methods=['sedpo']
+Queries: 351/500; methods=['sedpo']
+Queries: 361/500; methods=['sedpo']
+Queries: 371/500; methods=['sedpo']
+Queries: 381/500; methods=['sedpo']
+Queries: 391/500; methods=['sedpo']
+Queries: 401/500; methods=['sedpo']
+Queries: 411/500; methods=['sedpo']
+Queries: 421/500; methods=['sedpo']
+Queries: 431/500; methods=['sedpo']
+Queries: 441/500; methods=['sedpo']
+Queries: 451/500; methods=['sedpo']
+Queries: 461/500; methods=['sedpo']
+Queries: 471/500; methods=['sedpo']
+Queries: 481/500; methods=['sedpo']
+Queries: 491/500; methods=['sedpo']
+Queries: 500/500; methods=['sedpo']
+{'sedpo': {'n': 500, 'accuracy': 90.4, 'f1_weighted': 90.50611344703569, 'f1_macro': 90.24058164891314, 'confusion_matrix': [[122, 8, 1, 7], [3, 113, 1, 9], [3, 0, 121, 8], [2, 4, 2, 96]], 'gold_distribution': {'A': 138, 'B': 126, 'C': 132, 'D': 104}, 'pred_distribution': {'A': 130, 'B': 125, 'C': 125, 'D': 120}}}
+SeDPO only; published CoopES scores are external, unpaired references; original test IDs and decoding are unknown. No method-superiority proof or paired significance test.
+Verified complete rows: 2/4; output=/root/autodl-tmp/codex_aligned_common_seed42_20261111/table_export
+2026-11-11T18:24:34+08:00 SCORE_llama_arc_THREE_STAGES
+{"training_entries": 810, "validation_entries": 90, "training_unique_queries": 270, "validation_unique_queries": 30, "expanded_training_samples": 9355, "effective_batch_size": 64, "epochs": 6, "updates_per_epoch": 146, "total_updates": 876, "warmup_steps": 88, "train_sha256": "b20ef3a1e53e856dc62fcd30838516f2f04c20ff84801de3b5de6e7c15663101", "valid_sha256": "ea9c25fb881b54d4c0d0bd15738e54eae680b148ff55899eb3e74969314ba55f"}
+2026-11-11T19:15:19+08:00 TRAIN_llama_arc
+2026-11-11T20:00:04+08:00 EVALUATE_llama_arc_FINAL_ROW
+/root/autodl-tmp/SeDPO_NIPS25/DPR/generate_dense_embeddings.py:98: UserWarning: 
+The version_base parameter is not specified.
+Please specify a compatability version level, or None.
+Will assume defaults for version 1.1
+  @hydra.main(config_path="conf", config_name="gen_embs")
+/root/autodl-tmp/envs/se_dpo/lib/python3.12/site-packages/hydra/_internal/defaults_list.py:251: UserWarning: In 'gen_embs': Defaults list is missing `_self_`. See https://hydra.cc/docs/1.2/upgrades/1.0_to_1.1/default_composition_order for more information
+  warnings.warn(msg, UserWarning)
+/root/autodl-tmp/envs/se_dpo/lib/python3.12/site-packages/hydra/core/default_element.py:124: UserWarning: In 'ctx_sources/default_sources': Usage of deprecated keyword in package header '# @package _group_'.
+See https://hydra.cc/docs/1.2/upgrades/1.0_to_1.1/changes_to_package_header for more information
+  deprecation_warning(
+/root/autodl-tmp/envs/se_dpo/lib/python3.12/site-packages/hydra/core/default_element.py:124: UserWarning: In 'encoder/hf_bert': Usage of deprecated keyword in package header '# @package _group_'.
+See https://hydra.cc/docs/1.2/upgrades/1.0_to_1.1/changes_to_package_header for more information
+  deprecation_warning(
+/root/autodl-tmp/envs/se_dpo/lib/python3.12/site-packages/hydra/_internal/hydra.py:119: UserWarning: Future Hydra versions will no longer change working directory at job runtime by default.
+See https://hydra.cc/docs/1.2/upgrades/1.1_to_1.2/changes_to_job_working_dir/ for more information.
+  ret = run_job(
+[2026-11-11 20:00:07,264][root][INFO] - args.local_rank -1
+[2026-11-11 20:00:07,264][root][INFO] - WORLD_SIZE None
+[2026-11-11 20:00:07,363][root][INFO] - Initialized host autodl-container-b322478f1d-26a9dca4 as d.rank -1 on device=cuda, n_gpu=1, world size=1
+[2026-11-11 20:00:07,363][root][INFO] - 16-bits training: False 
+[2026-11-11 20:00:07,363][root][INFO] - Reading saved model from /root/autodl-tmp/SeDPO_NIPS25/my_data_llama_table/experiment/close_qa/model/dpr_biencoder.best_valid
+[2026-11-11 20:00:09,343][root][INFO] - model_state_dict keys dict_keys(['model_dict', 'optimizer_dict', 'scheduler_dict', 'offset', 'epoch', 'encoder_params'])
+[2026-11-11 20:00:09,344][root][INFO] - CFG:
+[2026-11-11 20:00:09,347][root][INFO] - encoder:
+  encoder_model_type: hf_bert
+  pretrained_model_cfg: google-bert/bert-base-uncased
+  pretrained_file: null
+  projection_dim: 0
+  sequence_length: 512
+  dropout: 0.1
+  fix_ctx_encoder: false
+  pretrained: true
+  cache_dir: /root/autodl-tmp/SeDPO_NIPS25/cache
+ctx_sources:
+  dpr_se2:
+    _target_: sedpo_adapter.ControlledContexts
+    prompt_setup_type: qa
+    prompt_pool_path: /root/autodl-tmp/codex_aligned_common_seed42_20261111
+    train_clusters: null
+    protocol_file: /root/autodl-tmp/codex_aligned_common_seed42_20261111/protocol_sedpo_only_sdpa.json
+    task_name: arc_c
+  dpr_wiki:
+    _target_: dpr.data.retriever_data.CsvCtxSrc
+    file: data.wikipedia_split.psgs_w100
+    id_prefix: 'wiki:'
+  dpr_grail:
+    _target_: dpr.data.retriever_data.CsvCtxSrc
+    file: data.wikipedia_split.entities
+model_file: /root/autodl-tmp/SeDPO_NIPS25/my_data_llama_table/experiment/close_qa/model/dpr_biencoder.best_valid
+ctx_src: dpr_se2
+encoder_type: ctx
+out_file: /root/autodl-tmp/codex_aligned_common_seed42_20261111/table_runs/llama_arc/index
+do_lower_case: true
+shard_id: 0
+num_shards: 1
+batch_size: 512
+tables_as_passages: false
+special_tokens: null
+tables_chunk_sz: 100
+tables_split_type: type1
+local_rank: -1
+device: cuda
+distributed_world_size: 1
+distributed_port: null
+no_cuda: false
+n_gpu: 1
+fp16: false
+fp16_opt_level: O1
+
+[2026-11-11 20:00:15,220][root][INFO] - Loading saved model state ...
+[2026-11-11 20:00:15,299][root][INFO] - reading data source: dpr_se2
+[2026-11-11 20:00:15,312][root][INFO] - Producing encodings for passages range: 0 to 50 (out of total 50)
+[2026-11-11 20:00:15,674][root][INFO] - Encoded passages 50
+[2026-11-11 20:00:15,674][root][INFO] - Writing results to /root/autodl-tmp/codex_aligned_common_seed42_20261111/table_runs/llama_arc/index_0
+[2026-11-11 20:00:15,675][root][INFO] - Total passages processed 50. Written to /root/autodl-tmp/codex_aligned_common_seed42_20261111/table_runs/llama_arc/index_0
+2026-11-11 20:00:18,650 [INFO] faiss.loader: Loading faiss with AVX512-SPR support.
+2026-11-11 20:00:18,650 [INFO] faiss.loader: Could not load library with AVX512-SPR support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512_spr'")
+2026-11-11 20:00:18,650 [INFO] faiss.loader: Loading faiss with AVX512 support.
+2026-11-11 20:00:18,666 [INFO] faiss.loader: Successfully loaded faiss with AVX512 support.
+/root/autodl-tmp/SeDPO_NIPS25/DPR/dense_retriever_beam_score.py:282: UserWarning: 
+The version_base parameter is not specified.
+Please specify a compatability version level, or None.
+Will assume defaults for version 1.1
+  @hydra.main(config_path="conf", config_name="dense_retriever")
+/root/autodl-tmp/envs/se_dpo/lib/python3.12/site-packages/hydra/_internal/defaults_list.py:251: UserWarning: In 'dense_retriever': Defaults list is missing `_self_`. See https://hydra.cc/docs/1.2/upgrades/1.0_to_1.1/default_composition_order for more information
+  warnings.warn(msg, UserWarning)
+/root/autodl-tmp/envs/se_dpo/lib/python3.12/site-packages/hydra/core/default_element.py:124: UserWarning: In 'ctx_sources/default_sources': Usage of deprecated keyword in package header '# @package _group_'.
+See https://hydra.cc/docs/1.2/upgrades/1.0_to_1.1/changes_to_package_header for more information
+  deprecation_warning(
+/root/autodl-tmp/envs/se_dpo/lib/python3.12/site-packages/hydra/core/default_element.py:124: UserWarning: In 'datasets/retriever_default': Usage of deprecated keyword in package header '# @package _group_'.
+See https://hydra.cc/docs/1.2/upgrades/1.0_to_1.1/changes_to_package_header for more information
+  deprecation_warning(
+/root/autodl-tmp/envs/se_dpo/lib/python3.12/site-packages/hydra/core/default_element.py:124: UserWarning: In 'encoder/hf_bert': Usage of deprecated keyword in package header '# @package _group_'.
+See https://hydra.cc/docs/1.2/upgrades/1.0_to_1.1/changes_to_package_header for more information
+  deprecation_warning(
+/root/autodl-tmp/envs/se_dpo/lib/python3.12/site-packages/hydra/_internal/hydra.py:119: UserWarning: Future Hydra versions will no longer change working directory at job runtime by default.
+See https://hydra.cc/docs/1.2/upgrades/1.1_to_1.2/changes_to_job_working_dir/ for more information.
+  ret = run_job(
+[2026-11-11 20:00:18,897][root][INFO] - args.local_rank -1
+[2026-11-11 20:00:18,897][root][INFO] - WORLD_SIZE None
+[2026-11-11 20:00:19,010][root][INFO] - Initialized host autodl-container-b322478f1d-26a9dca4 as d.rank -1 on device=cuda, n_gpu=1, world size=1
+[2026-11-11 20:00:19,010][root][INFO] - 16-bits training: False 
+[2026-11-11 20:00:19,010][root][INFO] - CFG (after gpu  configuration):
+[2026-11-11 20:00:19,014][root][INFO] - encoder:
+  encoder_model_type: hf_bert
+  pretrained_model_cfg: google-bert/bert-base-uncased
+  pretrained_file: null
+  projection_dim: 0
+  sequence_length: 512
+  dropout: 0.1
+  fix_ctx_encoder: false
+  pretrained: true
+  cache_dir: /root/autodl-tmp/SeDPO_NIPS25/cache
+datasets:
+  qa_se2:
+    _target_: sedpo_adapter.ControlledQuestions
+    task_name: arc_c
+    cache_dir: /root/autodl-tmp/SeDPO_NIPS25/cache
+    task_setup_type: q
+    protocol_file: /root/autodl-tmp/codex_aligned_common_seed42_20261111/protocol_sedpo_only_sdpa.json
+  nq_test:
+    _target_: dpr.data.retriever_data.CsvQASrc
+    file: data.retriever.qas.nq-test
+  nq_train:
+    _target_: dpr.data.retriever_data.CsvQASrc
+    file: data.retriever.qas.nq-train
+  nq_dev:
+    _target_: dpr.data.retriever_data.CsvQASrc
+    file: data.retriever.qas.nq-dev
+  trivia_test:
+    _target_: dpr.data.retriever_data.CsvQASrc
+    file: data.retriever.qas.trivia-test
+  trivia_train:
+    _target_: dpr.data.retriever_data.CsvQASrc
+    file: data.retriever.qas.trivia-train
+  trivia_dev:
+    _target_: dpr.data.retriever_data.CsvQASrc
+    file: data.retriever.qas.trivia-dev
+  grailqa_dev:
+    _target_: dpr.data.retriever_data.CsvQASrc
+    file: data.retriever.qas.grailqa-dev
+  grailqa_train:
+    _target_: dpr.data.retriever_data.CsvQASrc
+    file: data.retriever.qas.grailqa-train
+  webq_test:
+    _target_: dpr.data.retriever_data.CsvQASrc
+    file: data.retriever.qas.webq-test
+  curatedtrec_test:
+    _target_: dpr.data.retriever_data.CsvQASrc
+    file: data.retriever.qas.curatedtrec-test
+ctx_sources:
+  dpr_se2:
+    _target_: sedpo_adapter.ControlledContexts
+    prompt_setup_type: qa
+    prompt_pool_path: /root/autodl-tmp/codex_aligned_common_seed42_20261111
+    train_clusters: null
+    protocol_file: /root/autodl-tmp/codex_aligned_common_seed42_20261111/protocol_sedpo_only_sdpa.json
+    task_name: arc_c
+  dpr_wiki:
+    _target_: dpr.data.retriever_data.CsvCtxSrc
+    file: data.wikipedia_split.psgs_w100
+    id_prefix: 'wiki:'
+  dpr_grail:
+    _target_: dpr.data.retriever_data.CsvCtxSrc
+    file: data.wikipedia_split.entities
+indexers:
+  flat:
+    _target_: dpr.indexer.faiss_indexers.DenseFlatIndexer
+  hnsw:
+    _target_: dpr.indexer.faiss_indexers.DenseHNSWFlatIndexer
+  hnsw_sq:
+    _target_: dpr.indexer.faiss_indexers.DenseHNSWSQIndexer
+qa_dataset: qa_se2
+ctx_datatsets:
+- dpr_se2
+encoded_ctx_files:
+- /root/autodl-tmp/codex_aligned_common_seed42_20261111/table_runs/llama_arc/index_*
+out_file: /root/autodl-tmp/codex_aligned_common_seed42_20261111/table_runs/llama_arc/prompts.json
+match: string
+shot_num: 4
+validation_workers: 16
+beam_size: 3
+batch_size: 512
+do_lower_case: true
+encoder_path: null
+index_path: null
+kilt_out_file: null
+model_file: /root/autodl-tmp/SeDPO_NIPS25/my_data_llama_table/experiment/close_qa/model/dpr_biencoder.best_valid
+validate_as_tables: false
+rpc_retriever_cfg_file: null
+indexer: flat
+special_tokens: null
+local_rank: -1
+global_loss_buf_sz: 150000
+device: cuda
+distributed_world_size: 1
+no_cuda: false
+n_gpu: 1
+fp16: false
+fp16_opt_level: O1
+
+[2026-11-11 20:00:19,014][root][INFO] - Reading saved model from /root/autodl-tmp/SeDPO_NIPS25/my_data_llama_table/experiment/close_qa/model/dpr_biencoder.best_valid
+[2026-11-11 20:00:20,638][root][INFO] - model_state_dict keys dict_keys(['model_dict', 'optimizer_dict', 'scheduler_dict', 'offset', 'epoch', 'encoder_params'])
+[2026-11-11 20:00:25,662][root][INFO] - Selecting standard question encoder
+[2026-11-11 20:00:25,928][root][INFO] - Loading saved model state ...
+[2026-11-11 20:00:25,928][root][INFO] - Encoder state prefix question_model.
+[2026-11-11 20:00:26,007][root][INFO] - Encoder vector_size=768
+[2026-11-11 20:00:26,008][root][INFO] - Index class <class 'dpr.indexer.faiss_indexers.DenseFlatIndexer'> 
+[2026-11-11 20:00:26,019][root][INFO] - id_prefixes per dataset: [None]
+[2026-11-11 20:00:26,019][root][INFO] - ctx_files_patterns: ['/root/autodl-tmp/codex_aligned_common_seed42_20261111/table_runs/llama_arc/index_*']
+[2026-11-11 20:00:26,020][root][INFO] - Embeddings files id prefixes: [None]
+[2026-11-11 20:00:26,020][root][INFO] - Reading all passages data from files: ['/root/autodl-tmp/codex_aligned_common_seed42_20261111/table_runs/llama_arc/index_0']
+[2026-11-11 20:00:26,021][root][INFO] - Reading file /root/autodl-tmp/codex_aligned_common_seed42_20261111/table_runs/llama_arc/index_0
+[2026-11-11 20:00:26,021][root][INFO] - data indexed 50
+[2026-11-11 20:00:26,021][root][INFO] - Total data indexed 50
+[2026-11-11 20:00:26,021][root][INFO] - Data indexing completed.
+[2026-11-11 20:00:26,021][root][INFO] - qa_dataset: qa_se2
+[2026-11-11 20:00:26,036][root][INFO] - Using special token None
+[2026-11-11 20:00:26,037][root][INFO] - Check type of retriever: <class '__main__.LocalFaissRetriever'>
+q_num: 500 few_shot_num: 0 beam_size: 0
+[2026-11-11 20:00:27,907][root][INFO] - Encoded queries 500
+[2026-11-11 20:00:27,909][root][INFO] - Total encoded queries tensor torch.Size([500, 768])
+[2026-11-11 20:00:28,089][root][INFO] - index search time: 0.179791 sec.
+q_num: 500 few_shot_num: 1 beam_size: 0
+[2026-11-11 20:00:30,598][root][INFO] - Encoded queries 500
+[2026-11-11 20:00:30,599][root][INFO] - Total encoded queries tensor torch.Size([500, 768])
+[2026-11-11 20:00:30,605][root][INFO] - index search time: 0.004876 sec.
+q_num: 500 few_shot_num: 1 beam_size: 1
+[2026-11-11 20:00:32,599][root][INFO] - Encoded queries 500
+[2026-11-11 20:00:32,600][root][INFO] - Total encoded queries tensor torch.Size([500, 768])
+[2026-11-11 20:00:32,603][root][INFO] - index search time: 0.003014 sec.
+q_num: 500 few_shot_num: 1 beam_size: 2
+[2026-11-11 20:00:34,443][root][INFO] - Encoded queries 500
+[2026-11-11 20:00:34,444][root][INFO] - Total encoded queries tensor torch.Size([500, 768])
+[2026-11-11 20:00:34,447][root][INFO] - index search time: 0.002946 sec.
+q_num: 500 few_shot_num: 2 beam_size: 0
+[2026-11-11 20:00:36,484][root][INFO] - Encoded queries 500
+[2026-11-11 20:00:36,485][root][INFO] - Total encoded queries tensor torch.Size([500, 768])
+[2026-11-11 20:00:36,489][root][INFO] - index search time: 0.003000 sec.
+q_num: 500 few_shot_num: 2 beam_size: 1
+[2026-11-11 20:00:38,519][root][INFO] - Encoded queries 500
+[2026-11-11 20:00:38,520][root][INFO] - Total encoded queries tensor torch.Size([500, 768])
+[2026-11-11 20:00:38,526][root][INFO] - index search time: 0.004680 sec.
+q_num: 500 few_shot_num: 2 beam_size: 2
+[2026-11-11 20:00:40,556][root][INFO] - Encoded queries 500
+[2026-11-11 20:00:40,557][root][INFO] - Total encoded queries tensor torch.Size([500, 768])
+[2026-11-11 20:00:40,561][root][INFO] - index search time: 0.003246 sec.
+q_num: 500 few_shot_num: 3 beam_size: 0
+[2026-11-11 20:00:42,801][root][INFO] - Encoded queries 500
+[2026-11-11 20:00:42,802][root][INFO] - Total encoded queries tensor torch.Size([500, 768])
+[2026-11-11 20:00:42,812][root][INFO] - index search time: 0.009731 sec.
+q_num: 500 few_shot_num: 3 beam_size: 1
+[2026-11-11 20:00:45,072][root][INFO] - Encoded queries 500
+[2026-11-11 20:00:45,073][root][INFO] - Total encoded queries tensor torch.Size([500, 768])
+[2026-11-11 20:00:45,076][root][INFO] - index search time: 0.003340 sec.
+q_num: 500 few_shot_num: 3 beam_size: 2
+[2026-11-11 20:00:47,307][root][INFO] - Encoded queries 500
+[2026-11-11 20:00:47,308][root][INFO] - Total encoded queries tensor torch.Size([500, 768])
+[2026-11-11 20:00:47,312][root][INFO] - index search time: 0.003154 sec.
+[2026-11-11 20:00:47,362][root][INFO] - Saved results * scores  to /root/autodl-tmp/codex_aligned_common_seed42_20261111/table_runs/llama_arc/prompts_beam_score_0.json
+[2026-11-11 20:00:47,400][root][INFO] - Saved results * scores  to /root/autodl-tmp/codex_aligned_common_seed42_20261111/table_runs/llama_arc/prompts_beam_score_1.json
+[2026-11-11 20:00:47,439][root][INFO] - Saved results * scores  to /root/autodl-tmp/codex_aligned_common_seed42_20261111/table_runs/llama_arc/prompts_beam_score_2.json
+Exported 500 SeDPO selections: /root/autodl-tmp/codex_aligned_common_seed42_20261111/table_runs/llama_arc/selection.json
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:04,  1.51s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.57s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.62s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.13s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.30s/it]
+Queries: 1/500; methods=['sedpo']
+Queries: 11/500; methods=['sedpo']
+Queries: 21/500; methods=['sedpo']
+Queries: 31/500; methods=['sedpo']
+Queries: 41/500; methods=['sedpo']
+Queries: 51/500; methods=['sedpo']
+Queries: 61/500; methods=['sedpo']
+Queries: 71/500; methods=['sedpo']
+Queries: 81/500; methods=['sedpo']
+Queries: 91/500; methods=['sedpo']
+Queries: 101/500; methods=['sedpo']
+Queries: 111/500; methods=['sedpo']
+Queries: 121/500; methods=['sedpo']
+Queries: 131/500; methods=['sedpo']
+Queries: 141/500; methods=['sedpo']
+Queries: 151/500; methods=['sedpo']
+Queries: 161/500; methods=['sedpo']
+Queries: 171/500; methods=['sedpo']
+Queries: 181/500; methods=['sedpo']
+Queries: 191/500; methods=['sedpo']
+Queries: 201/500; methods=['sedpo']
+Queries: 211/500; methods=['sedpo']
+Queries: 221/500; methods=['sedpo']
+Queries: 231/500; methods=['sedpo']
+Queries: 241/500; methods=['sedpo']
+Queries: 251/500; methods=['sedpo']
+Queries: 261/500; methods=['sedpo']
+Queries: 271/500; methods=['sedpo']
+Queries: 281/500; methods=['sedpo']
+Queries: 291/500; methods=['sedpo']
+Queries: 301/500; methods=['sedpo']
+Queries: 311/500; methods=['sedpo']
+Queries: 321/500; methods=['sedpo']
+Queries: 331/500; methods=['sedpo']
+Queries: 341/500; methods=['sedpo']
+Queries: 351/500; methods=['sedpo']
+Queries: 361/500; methods=['sedpo']
+Queries: 371/500; methods=['sedpo']
+Queries: 381/500; methods=['sedpo']
+Queries: 391/500; methods=['sedpo']
+Queries: 401/500; methods=['sedpo']
+Queries: 411/500; methods=['sedpo']
+Queries: 421/500; methods=['sedpo']
+Queries: 431/500; methods=['sedpo']
+Queries: 441/500; methods=['sedpo']
+Queries: 451/500; methods=['sedpo']
+Queries: 461/500; methods=['sedpo']
+Queries: 471/500; methods=['sedpo']
+Queries: 481/500; methods=['sedpo']
+Queries: 491/500; methods=['sedpo']
+Queries: 500/500; methods=['sedpo']
+{'sedpo': {'n': 500, 'accuracy': 82.8, 'f1_weighted': 82.80124824516717, 'f1_macro': 82.8609835911435, 'confusion_matrix': [[101, 9, 3, 2], [11, 108, 4, 7], [6, 7, 103, 10], [6, 13, 8, 102]], 'gold_distribution': {'A': 115, 'B': 130, 'C': 126, 'D': 129}, 'pred_distribution': {'A': 124, 'B': 137, 'C': 118, 'D': 121}}}
+SeDPO only; published CoopES scores are external, unpaired references; original test IDs and decoding are unknown. No method-superiority proof or paired significance test.
+Verified complete rows: 3/4; output=/root/autodl-tmp/codex_aligned_common_seed42_20261111/table_export
+2026-11-11T20:01:46+08:00 SCORE_llama_obqa_THREE_STAGES
+{"training_entries": 810, "validation_entries": 90, "training_unique_queries": 270, "validation_unique_queries": 30, "expanded_training_samples": 11366, "effective_batch_size": 64, "epochs": 6, "updates_per_epoch": 177, "total_updates": 1062, "warmup_steps": 106, "train_sha256": "d7453eac4fac38ba80891ebb91b611836343904a6a4f9a524593c987dee7188c", "valid_sha256": "e29274c33d05a28ccd6193e3c50568d88b757fc8f5e07bdd0d93498f509a7427"}
+2026-11-11T20:46:24+08:00 TRAIN_llama_obqa
+2026-11-11T21:40:24+08:00 EVALUATE_llama_obqa_FINAL_ROW
+/root/autodl-tmp/SeDPO_NIPS25/DPR/generate_dense_embeddings.py:98: UserWarning: 
+The version_base parameter is not specified.
+Please specify a compatability version level, or None.
+Will assume defaults for version 1.1
+  @hydra.main(config_path="conf", config_name="gen_embs")
+/root/autodl-tmp/envs/se_dpo/lib/python3.12/site-packages/hydra/_internal/defaults_list.py:251: UserWarning: In 'gen_embs': Defaults list is missing `_self_`. See https://hydra.cc/docs/1.2/upgrades/1.0_to_1.1/default_composition_order for more information
+  warnings.warn(msg, UserWarning)
+/root/autodl-tmp/envs/se_dpo/lib/python3.12/site-packages/hydra/core/default_element.py:124: UserWarning: In 'ctx_sources/default_sources': Usage of deprecated keyword in package header '# @package _group_'.
+See https://hydra.cc/docs/1.2/upgrades/1.0_to_1.1/changes_to_package_header for more information
+  deprecation_warning(
+/root/autodl-tmp/envs/se_dpo/lib/python3.12/site-packages/hydra/core/default_element.py:124: UserWarning: In 'encoder/hf_bert': Usage of deprecated keyword in package header '# @package _group_'.
+See https://hydra.cc/docs/1.2/upgrades/1.0_to_1.1/changes_to_package_header for more information
+  deprecation_warning(
+/root/autodl-tmp/envs/se_dpo/lib/python3.12/site-packages/hydra/_internal/hydra.py:119: UserWarning: Future Hydra versions will no longer change working directory at job runtime by default.
+See https://hydra.cc/docs/1.2/upgrades/1.1_to_1.2/changes_to_job_working_dir/ for more information.
+  ret = run_job(
+[2026-11-11 21:40:26,515][root][INFO] - args.local_rank -1
+[2026-11-11 21:40:26,516][root][INFO] - WORLD_SIZE None
+[2026-11-11 21:40:26,634][root][INFO] - Initialized host autodl-container-b322478f1d-26a9dca4 as d.rank -1 on device=cuda, n_gpu=1, world size=1
+[2026-11-11 21:40:26,634][root][INFO] - 16-bits training: False 
+[2026-11-11 21:40:26,634][root][INFO] - Reading saved model from /root/autodl-tmp/SeDPO_NIPS25/my_data_llama_table/experiment/obqa_only/model/dpr_biencoder.best_valid
+[2026-11-11 21:40:28,610][root][INFO] - model_state_dict keys dict_keys(['model_dict', 'optimizer_dict', 'scheduler_dict', 'offset', 'epoch', 'encoder_params'])
+[2026-11-11 21:40:28,610][root][INFO] - CFG:
+[2026-11-11 21:40:28,612][root][INFO] - encoder:
+  encoder_model_type: hf_bert
+  pretrained_model_cfg: google-bert/bert-base-uncased
+  pretrained_file: null
+  projection_dim: 0
+  sequence_length: 512
+  dropout: 0.1
+  fix_ctx_encoder: false
+  pretrained: true
+  cache_dir: /root/autodl-tmp/SeDPO_NIPS25/cache
+ctx_sources:
+  dpr_se2:
+    _target_: sedpo_adapter.ControlledContexts
+    prompt_setup_type: qa
+    prompt_pool_path: /root/autodl-tmp/codex_aligned_common_seed42_20261111
+    train_clusters: null
+    protocol_file: /root/autodl-tmp/codex_aligned_common_seed42_20261111/protocol_sedpo_only_sdpa.json
+    task_name: openbookqa
+  dpr_wiki:
+    _target_: dpr.data.retriever_data.CsvCtxSrc
+    file: data.wikipedia_split.psgs_w100
+    id_prefix: 'wiki:'
+  dpr_grail:
+    _target_: dpr.data.retriever_data.CsvCtxSrc
+    file: data.wikipedia_split.entities
+model_file: /root/autodl-tmp/SeDPO_NIPS25/my_data_llama_table/experiment/obqa_only/model/dpr_biencoder.best_valid
+ctx_src: dpr_se2
+encoder_type: ctx
+out_file: /root/autodl-tmp/codex_aligned_common_seed42_20261111/table_runs/llama_obqa/index
+do_lower_case: true
+shard_id: 0
+num_shards: 1
+batch_size: 512
+tables_as_passages: false
+special_tokens: null
+tables_chunk_sz: 100
+tables_split_type: type1
+local_rank: -1
+device: cuda
+distributed_world_size: 1
+distributed_port: null
+no_cuda: false
+n_gpu: 1
+fp16: false
+fp16_opt_level: O1
+
+[2026-11-11 21:40:34,727][root][INFO] - Loading saved model state ...
+[2026-11-11 21:40:34,807][root][INFO] - reading data source: dpr_se2
+[2026-11-11 21:40:34,818][root][INFO] - Producing encodings for passages range: 0 to 50 (out of total 50)
+[2026-11-11 21:40:35,232][root][INFO] - Encoded passages 50
+[2026-11-11 21:40:35,232][root][INFO] - Writing results to /root/autodl-tmp/codex_aligned_common_seed42_20261111/table_runs/llama_obqa/index_0
+[2026-11-11 21:40:35,233][root][INFO] - Total passages processed 50. Written to /root/autodl-tmp/codex_aligned_common_seed42_20261111/table_runs/llama_obqa/index_0
+2026-11-11 21:40:38,421 [INFO] faiss.loader: Loading faiss with AVX512-SPR support.
+2026-11-11 21:40:38,421 [INFO] faiss.loader: Could not load library with AVX512-SPR support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512_spr'")
+2026-11-11 21:40:38,421 [INFO] faiss.loader: Loading faiss with AVX512 support.
+2026-11-11 21:40:38,437 [INFO] faiss.loader: Successfully loaded faiss with AVX512 support.
+/root/autodl-tmp/SeDPO_NIPS25/DPR/dense_retriever_beam_score.py:282: UserWarning: 
+The version_base parameter is not specified.
+Please specify a compatability version level, or None.
+Will assume defaults for version 1.1
+  @hydra.main(config_path="conf", config_name="dense_retriever")
+/root/autodl-tmp/envs/se_dpo/lib/python3.12/site-packages/hydra/_internal/defaults_list.py:251: UserWarning: In 'dense_retriever': Defaults list is missing `_self_`. See https://hydra.cc/docs/1.2/upgrades/1.0_to_1.1/default_composition_order for more information
+  warnings.warn(msg, UserWarning)
+/root/autodl-tmp/envs/se_dpo/lib/python3.12/site-packages/hydra/core/default_element.py:124: UserWarning: In 'ctx_sources/default_sources': Usage of deprecated keyword in package header '# @package _group_'.
+See https://hydra.cc/docs/1.2/upgrades/1.0_to_1.1/changes_to_package_header for more information
+  deprecation_warning(
+/root/autodl-tmp/envs/se_dpo/lib/python3.12/site-packages/hydra/core/default_element.py:124: UserWarning: In 'datasets/retriever_default': Usage of deprecated keyword in package header '# @package _group_'.
+See https://hydra.cc/docs/1.2/upgrades/1.0_to_1.1/changes_to_package_header for more information
+  deprecation_warning(
+/root/autodl-tmp/envs/se_dpo/lib/python3.12/site-packages/hydra/core/default_element.py:124: UserWarning: In 'encoder/hf_bert': Usage of deprecated keyword in package header '# @package _group_'.
+See https://hydra.cc/docs/1.2/upgrades/1.0_to_1.1/changes_to_package_header for more information
+  deprecation_warning(
+/root/autodl-tmp/envs/se_dpo/lib/python3.12/site-packages/hydra/_internal/hydra.py:119: UserWarning: Future Hydra versions will no longer change working directory at job runtime by default.
+See https://hydra.cc/docs/1.2/upgrades/1.1_to_1.2/changes_to_job_working_dir/ for more information.
+  ret = run_job(
+[2026-11-11 21:40:38,673][root][INFO] - args.local_rank -1
+[2026-11-11 21:40:38,673][root][INFO] - WORLD_SIZE None
+[2026-11-11 21:40:38,765][root][INFO] - Initialized host autodl-container-b322478f1d-26a9dca4 as d.rank -1 on device=cuda, n_gpu=1, world size=1
+[2026-11-11 21:40:38,765][root][INFO] - 16-bits training: False 
+[2026-11-11 21:40:38,765][root][INFO] - CFG (after gpu  configuration):
+[2026-11-11 21:40:38,769][root][INFO] - encoder:
+  encoder_model_type: hf_bert
+  pretrained_model_cfg: google-bert/bert-base-uncased
+  pretrained_file: null
+  projection_dim: 0
+  sequence_length: 512
+  dropout: 0.1
+  fix_ctx_encoder: false
+  pretrained: true
+  cache_dir: /root/autodl-tmp/SeDPO_NIPS25/cache
+datasets:
+  qa_se2:
+    _target_: sedpo_adapter.ControlledQuestions
+    task_name: openbookqa
+    cache_dir: /root/autodl-tmp/SeDPO_NIPS25/cache
+    task_setup_type: q
+    protocol_file: /root/autodl-tmp/codex_aligned_common_seed42_20261111/protocol_sedpo_only_sdpa.json
+  nq_test:
+    _target_: dpr.data.retriever_data.CsvQASrc
+    file: data.retriever.qas.nq-test
+  nq_train:
+    _target_: dpr.data.retriever_data.CsvQASrc
+    file: data.retriever.qas.nq-train
+  nq_dev:
+    _target_: dpr.data.retriever_data.CsvQASrc
+    file: data.retriever.qas.nq-dev
+  trivia_test:
+    _target_: dpr.data.retriever_data.CsvQASrc
+    file: data.retriever.qas.trivia-test
+  trivia_train:
+    _target_: dpr.data.retriever_data.CsvQASrc
+    file: data.retriever.qas.trivia-train
+  trivia_dev:
+    _target_: dpr.data.retriever_data.CsvQASrc
+    file: data.retriever.qas.trivia-dev
+  grailqa_dev:
+    _target_: dpr.data.retriever_data.CsvQASrc
+    file: data.retriever.qas.grailqa-dev
+  grailqa_train:
+    _target_: dpr.data.retriever_data.CsvQASrc
+    file: data.retriever.qas.grailqa-train
+  webq_test:
+    _target_: dpr.data.retriever_data.CsvQASrc
+    file: data.retriever.qas.webq-test
+  curatedtrec_test:
+    _target_: dpr.data.retriever_data.CsvQASrc
+    file: data.retriever.qas.curatedtrec-test
+ctx_sources:
+  dpr_se2:
+    _target_: sedpo_adapter.ControlledContexts
+    prompt_setup_type: qa
+    prompt_pool_path: /root/autodl-tmp/codex_aligned_common_seed42_20261111
+    train_clusters: null
+    protocol_file: /root/autodl-tmp/codex_aligned_common_seed42_20261111/protocol_sedpo_only_sdpa.json
+    task_name: openbookqa
+  dpr_wiki:
+    _target_: dpr.data.retriever_data.CsvCtxSrc
+    file: data.wikipedia_split.psgs_w100
+    id_prefix: 'wiki:'
+  dpr_grail:
+    _target_: dpr.data.retriever_data.CsvCtxSrc
+    file: data.wikipedia_split.entities
+indexers:
+  flat:
+    _target_: dpr.indexer.faiss_indexers.DenseFlatIndexer
+  hnsw:
+    _target_: dpr.indexer.faiss_indexers.DenseHNSWFlatIndexer
+  hnsw_sq:
+    _target_: dpr.indexer.faiss_indexers.DenseHNSWSQIndexer
+qa_dataset: qa_se2
+ctx_datatsets:
+- dpr_se2
+encoded_ctx_files:
+- /root/autodl-tmp/codex_aligned_common_seed42_20261111/table_runs/llama_obqa/index_*
+out_file: /root/autodl-tmp/codex_aligned_common_seed42_20261111/table_runs/llama_obqa/prompts.json
+match: string
+shot_num: 4
+validation_workers: 16
+beam_size: 3
+batch_size: 512
+do_lower_case: true
+encoder_path: null
+index_path: null
+kilt_out_file: null
+model_file: /root/autodl-tmp/SeDPO_NIPS25/my_data_llama_table/experiment/obqa_only/model/dpr_biencoder.best_valid
+validate_as_tables: false
+rpc_retriever_cfg_file: null
+indexer: flat
+special_tokens: null
+local_rank: -1
+global_loss_buf_sz: 150000
+device: cuda
+distributed_world_size: 1
+no_cuda: false
+n_gpu: 1
+fp16: false
+fp16_opt_level: O1
+
+[2026-11-11 21:40:38,769][root][INFO] - Reading saved model from /root/autodl-tmp/SeDPO_NIPS25/my_data_llama_table/experiment/obqa_only/model/dpr_biencoder.best_valid
+[2026-11-11 21:40:40,621][root][INFO] - model_state_dict keys dict_keys(['model_dict', 'optimizer_dict', 'scheduler_dict', 'offset', 'epoch', 'encoder_params'])
+[2026-11-11 21:40:45,980][root][INFO] - Selecting standard question encoder
+[2026-11-11 21:40:46,260][root][INFO] - Loading saved model state ...
+[2026-11-11 21:40:46,261][root][INFO] - Encoder state prefix question_model.
+[2026-11-11 21:40:46,340][root][INFO] - Encoder vector_size=768
+[2026-11-11 21:40:46,341][root][INFO] - Index class <class 'dpr.indexer.faiss_indexers.DenseFlatIndexer'> 
+[2026-11-11 21:40:46,350][root][INFO] - id_prefixes per dataset: [None]
+[2026-11-11 21:40:46,350][root][INFO] - ctx_files_patterns: ['/root/autodl-tmp/codex_aligned_common_seed42_20261111/table_runs/llama_obqa/index_*']
+[2026-11-11 21:40:46,351][root][INFO] - Embeddings files id prefixes: [None]
+[2026-11-11 21:40:46,351][root][INFO] - Reading all passages data from files: ['/root/autodl-tmp/codex_aligned_common_seed42_20261111/table_runs/llama_obqa/index_0']
+[2026-11-11 21:40:46,351][root][INFO] - Reading file /root/autodl-tmp/codex_aligned_common_seed42_20261111/table_runs/llama_obqa/index_0
+[2026-11-11 21:40:46,351][root][INFO] - data indexed 50
+[2026-11-11 21:40:46,351][root][INFO] - Total data indexed 50
+[2026-11-11 21:40:46,352][root][INFO] - Data indexing completed.
+[2026-11-11 21:40:46,352][root][INFO] - qa_dataset: qa_se2
+[2026-11-11 21:40:46,365][root][INFO] - Using special token None
+[2026-11-11 21:40:46,365][root][INFO] - Check type of retriever: <class '__main__.LocalFaissRetriever'>
+q_num: 500 few_shot_num: 0 beam_size: 0
+[2026-11-11 21:40:48,282][root][INFO] - Encoded queries 500
+[2026-11-11 21:40:48,283][root][INFO] - Total encoded queries tensor torch.Size([500, 768])
+[2026-11-11 21:40:48,489][root][INFO] - index search time: 0.205281 sec.
+q_num: 500 few_shot_num: 1 beam_size: 0
+[2026-11-11 21:40:50,563][root][INFO] - Encoded queries 500
+[2026-11-11 21:40:50,564][root][INFO] - Total encoded queries tensor torch.Size([500, 768])
+[2026-11-11 21:40:50,568][root][INFO] - index search time: 0.002961 sec.
+q_num: 500 few_shot_num: 1 beam_size: 1
+[2026-11-11 21:40:52,396][root][INFO] - Encoded queries 500
+[2026-11-11 21:40:52,397][root][INFO] - Total encoded queries tensor torch.Size([500, 768])
+[2026-11-11 21:40:52,400][root][INFO] - index search time: 0.002950 sec.
+q_num: 500 few_shot_num: 1 beam_size: 2
+[2026-11-11 21:40:54,234][root][INFO] - Encoded queries 500
+[2026-11-11 21:40:54,235][root][INFO] - Total encoded queries tensor torch.Size([500, 768])
+[2026-11-11 21:40:54,238][root][INFO] - index search time: 0.002938 sec.
+q_num: 500 few_shot_num: 2 beam_size: 0
+[2026-11-11 21:40:56,239][root][INFO] - Encoded queries 500
+[2026-11-11 21:40:56,240][root][INFO] - Total encoded queries tensor torch.Size([500, 768])
+[2026-11-11 21:40:56,244][root][INFO] - index search time: 0.003057 sec.
+q_num: 500 few_shot_num: 2 beam_size: 1
+[2026-11-11 21:40:58,256][root][INFO] - Encoded queries 500
+[2026-11-11 21:40:58,258][root][INFO] - Total encoded queries tensor torch.Size([500, 768])
+[2026-11-11 21:40:58,263][root][INFO] - index search time: 0.004519 sec.
+q_num: 500 few_shot_num: 2 beam_size: 2
+[2026-11-11 21:41:00,273][root][INFO] - Encoded queries 500
+[2026-11-11 21:41:00,274][root][INFO] - Total encoded queries tensor torch.Size([500, 768])
+[2026-11-11 21:41:00,277][root][INFO] - index search time: 0.002967 sec.
+q_num: 500 few_shot_num: 3 beam_size: 0
+[2026-11-11 21:41:02,463][root][INFO] - Encoded queries 500
+[2026-11-11 21:41:02,464][root][INFO] - Total encoded queries tensor torch.Size([500, 768])
+[2026-11-11 21:41:02,468][root][INFO] - index search time: 0.003307 sec.
+q_num: 500 few_shot_num: 3 beam_size: 1
+[2026-11-11 21:41:04,626][root][INFO] - Encoded queries 500
+[2026-11-11 21:41:04,627][root][INFO] - Total encoded queries tensor torch.Size([500, 768])
+[2026-11-11 21:41:04,633][root][INFO] - index search time: 0.005897 sec.
+q_num: 500 few_shot_num: 3 beam_size: 2
+[2026-11-11 21:41:06,789][root][INFO] - Encoded queries 500
+[2026-11-11 21:41:06,790][root][INFO] - Total encoded queries tensor torch.Size([500, 768])
+[2026-11-11 21:41:06,794][root][INFO] - index search time: 0.003167 sec.
+[2026-11-11 21:41:06,844][root][INFO] - Saved results * scores  to /root/autodl-tmp/codex_aligned_common_seed42_20261111/table_runs/llama_obqa/prompts_beam_score_0.json
+[2026-11-11 21:41:06,884][root][INFO] - Saved results * scores  to /root/autodl-tmp/codex_aligned_common_seed42_20261111/table_runs/llama_obqa/prompts_beam_score_1.json
+[2026-11-11 21:41:06,928][root][INFO] - Saved results * scores  to /root/autodl-tmp/codex_aligned_common_seed42_20261111/table_runs/llama_obqa/prompts_beam_score_2.json
+Exported 500 SeDPO selections: /root/autodl-tmp/codex_aligned_common_seed42_20261111/table_runs/llama_obqa/selection.json
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:04,  1.53s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.57s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.56s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.09s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.26s/it]
+Queries: 1/500; methods=['sedpo']
+Queries: 11/500; methods=['sedpo']
+Queries: 21/500; methods=['sedpo']
+Queries: 31/500; methods=['sedpo']
+Queries: 41/500; methods=['sedpo']
+Queries: 51/500; methods=['sedpo']
+Queries: 61/500; methods=['sedpo']
+Queries: 71/500; methods=['sedpo']
+Queries: 81/500; methods=['sedpo']
+Queries: 91/500; methods=['sedpo']
+Queries: 101/500; methods=['sedpo']
+Queries: 111/500; methods=['sedpo']
+Queries: 121/500; methods=['sedpo']
+Queries: 131/500; methods=['sedpo']
+Queries: 141/500; methods=['sedpo']
+Queries: 151/500; methods=['sedpo']
+Queries: 161/500; methods=['sedpo']
+Queries: 171/500; methods=['sedpo']
+Queries: 181/500; methods=['sedpo']
+Queries: 191/500; methods=['sedpo']
+Queries: 201/500; methods=['sedpo']
+Queries: 211/500; methods=['sedpo']
+Queries: 221/500; methods=['sedpo']
+Queries: 231/500; methods=['sedpo']
+Queries: 241/500; methods=['sedpo']
+Queries: 251/500; methods=['sedpo']
+Queries: 261/500; methods=['sedpo']
+Queries: 271/500; methods=['sedpo']
+Queries: 281/500; methods=['sedpo']
+Queries: 291/500; methods=['sedpo']
+Queries: 301/500; methods=['sedpo']
+Queries: 311/500; methods=['sedpo']
+Queries: 321/500; methods=['sedpo']
+Queries: 331/500; methods=['sedpo']
+Queries: 341/500; methods=['sedpo']
+Queries: 351/500; methods=['sedpo']
+Queries: 361/500; methods=['sedpo']
+Queries: 371/500; methods=['sedpo']
+Queries: 381/500; methods=['sedpo']
+Queries: 391/500; methods=['sedpo']
+Queries: 401/500; methods=['sedpo']
+Queries: 411/500; methods=['sedpo']
+Queries: 421/500; methods=['sedpo']
+Queries: 431/500; methods=['sedpo']
+Queries: 441/500; methods=['sedpo']
+Queries: 451/500; methods=['sedpo']
+Queries: 461/500; methods=['sedpo']
+Queries: 471/500; methods=['sedpo']
+Queries: 481/500; methods=['sedpo']
+Queries: 491/500; methods=['sedpo']
+Queries: 500/500; methods=['sedpo']
+{'sedpo': {'n': 500, 'accuracy': 89.6, 'f1_weighted': 89.61058578601461, 'f1_macro': 89.46382039977684, 'confusion_matrix': [[125, 6, 3, 4], [4, 112, 5, 5], [3, 5, 120, 4], [5, 6, 2, 91]], 'gold_distribution': {'A': 138, 'B': 126, 'C': 132, 'D': 104}, 'pred_distribution': {'A': 137, 'B': 129, 'C': 130, 'D': 104}}}
+SeDPO only; published CoopES scores are external, unpaired references; original test IDs and decoding are unknown. No method-superiority proof or paired significance test.
+Verified complete rows: 4/4; output=/root/autodl-tmp/codex_aligned_common_seed42_20261111/table_export
+Verified complete rows: 4/4; output=/root/autodl-tmp/codex_aligned_common_seed42_20261111/table_export
+2026-11-11T21:42:03+08:00 SEDPO_TABLE_ALL_FOUR_COMPLETE

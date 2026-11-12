@@ -19,6 +19,8 @@ train_cluster_map = {
     # 2026-11-05 新增：本次实验的三个任务单独成组，避免连带跑 boolq / ag_news
     "reading_new": ["multirc", "openbookqa"],
     "close_qa": ["arc_c"],
+    # 2026-11-11 v2.1：每数据集一个检索器，OpenBookQA 独立成簇
+    "obqa_only": ["openbookqa"],
 }
 all_train_tasks = []
 for k in train_cluster_map:
@@ -34,6 +36,7 @@ test_cluster_map = {
     # 2026-11-05 新增：与 train_cluster_map 保持一致
     "reading_new": ["multirc", "openbookqa"],
     "close_qa": ["arc_c"],
+    "obqa_only": ["openbookqa"],
 }
 all_test_tasks = []
 for k in test_cluster_map:

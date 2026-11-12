@@ -41,6 +41,17 @@ def find(cfg):
     data_list = random_finder.train_dataset
     idx_list = list(range(len(random_finder.prompt_pool)))
 
+    # 2026-11-05 规模控制：候选池(prompt_pool)保持全量，只限制「被打分的 query 条数」。
+    # 目的：算力受限时压缩打分开销，但保持检索语料与基线 random3 完全一致，
+    # 保证 SeDPO 与基线的对照公平。未设置 n_score 时行为与原版完全一致。
+    n_score = cfg.get("n_score", None)
+    if n_score is not None and int(n_score) > 0:
+        n_score = int(n_score)
+        if n_score < len(data_list):
+            print(f"[INFO] 规模控制：打分 query 数 {len(data_list)} -> {n_score}"
+                  f"（候选池仍为 {len(random_finder.prompt_pool)} 条，不变）")
+            data_list = data_list[:n_score]
+
     for i, element in tqdm.tqdm(enumerate(data_list)):
         random.seed(i)
         element["id"] = i
@@ -48,7 +59,7 @@ def find(cfg):
         # `ctxs` stores the sampled prompt ids 
         element["step_1_ctxs"] = [
             {"id": int(a)}
-            for a in random.sample([idx for idx in idx_list if idx != i], k=min(cfg.L, len(data_list)-1)) # avoid selecting the task input itself
+            for a in random.sample([idx for idx in idx_list if idx != i], k=min(cfg.L, len(idx_list)-1)) # avoid selecting the task input itself
         ]
     return data_list
 

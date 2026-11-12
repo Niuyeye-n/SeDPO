@@ -1,0 +1,602 @@
+[
+  {
+    "id": "13-783",
+    "question": "What do you need to see a rainbow?",
+    "options": [
+      "water",
+      "sea monsters",
+      "bats",
+      "leprechauns"
+    ],
+    "gold": 0,
+    "fact": "a prism refracts light"
+  },
+  {
+    "id": "14-707",
+    "question": "Which makes a sound when you interact with it?",
+    "options": [
+      "something invented by Pasteur",
+      "something invented by van Leeuwenhoek",
+      "something invented by Sax",
+      "something invented by Galileo"
+    ],
+    "gold": 2,
+    "fact": "musical instruments make sound when they are played"
+  },
+  {
+    "id": "12-416",
+    "question": "Which is a positive impact on the bio environment?",
+    "options": [
+      "dumping toxic waste in rivers",
+      "contaminating the ground with poison",
+      "building cars in large numbers",
+      "making sure trash is reused for new reasons"
+    ],
+    "gold": 3,
+    "fact": "landfills have a negative impact on the environment"
+  },
+  {
+    "id": "14-1371",
+    "question": "Which relationship is true?",
+    "options": [
+      "wind is renewable; metal is nonrenewable",
+      "wind is recyclable, metal is other",
+      "wind is happy, metal is other",
+      "wind is nonrenewable; metal is renewable"
+    ],
+    "gold": 0,
+    "fact": "metal is a nonrenewable resource"
+  },
+  {
+    "id": "14-954",
+    "question": "This likely relies on a circuit being closed",
+    "options": [
+      "your iPhone charger",
+      "your hair brush",
+      "your hat",
+      "your shoes"
+    ],
+    "gold": 0,
+    "fact": "when a switch in a simple series circuit is closed , electricity will flow through the circuit"
+  },
+  {
+    "id": "1580",
+    "question": "What has a positive impact on body strength?",
+    "options": [
+      "frequent physical contact",
+      "irregular body motion",
+      "decreased physical effort",
+      "active physical effort"
+    ],
+    "gold": 3,
+    "fact": "exercise has a positive impact on a body 's strength"
+  },
+  {
+    "id": "10-322",
+    "question": "A person is in the forest, lost. They need to signal to others that they are there, and their voice is gone, so they need to do it inaudibly. The person may signal with",
+    "options": [
+      "fire",
+      "rain",
+      "leaves",
+      "ducks"
+    ],
+    "gold": 0,
+    "fact": "fire gives off light"
+  },
+  {
+    "id": "10-4",
+    "question": "A person wants to add some dill to their burger for dinner, so they would get it from",
+    "options": [
+      "a sawmill",
+      "a planter",
+      "a school",
+      "a cow"
+    ],
+    "gold": 1,
+    "fact": "plants are the source of spices"
+  },
+  {
+    "id": "12-194",
+    "question": "Which of the following is true?",
+    "options": [
+      "switching from a truck to a moped will save gas",
+      "switching from a moped to a truck will save gas",
+      "switching from a car to an SUV will save gas",
+      "switching from a car to a truck will save gas"
+    ],
+    "gold": 0,
+    "fact": "as mileage per galon of gasoline increases , the amount of gasoline used will decrease"
+  },
+  {
+    "id": "12-228",
+    "question": "Why is it fall one month and spring another month?",
+    "options": [
+      "the moon has different phases",
+      "the earth is revolving",
+      "solar flares appear in cycles",
+      "the earth is in a different place in its orbit"
+    ],
+    "gold": 3,
+    "fact": "Earth orbiting the Sun causes seasons to change"
+  },
+  {
+    "id": "10-347",
+    "question": "The Earth may lose a million parts of energy each day but",
+    "options": [
+      "it loses more",
+      "it has less",
+      "it gains more",
+      "it is soft"
+    ],
+    "gold": 2,
+    "fact": "the Earth absorbs more energy than it loses"
+  },
+  {
+    "id": "9-344",
+    "question": "When a person gets hurt physically, the person feels pain because there are",
+    "options": [
+      "magic receptors",
+      "electric reactions",
+      "making nervous",
+      "loud nerves"
+    ],
+    "gold": 1,
+    "fact": "nervous system is an electric conductor"
+  },
+  {
+    "id": "12-504",
+    "question": "Tiny nits may be seen best when using a",
+    "options": [
+      "vision enhancing aid",
+      "series of mirrors",
+      "toothpick",
+      "glass eye"
+    ],
+    "gold": 0,
+    "fact": "microscope is used to see small things by making them appear bigger"
+  },
+  {
+    "id": "12-782",
+    "question": "what do planets orbit?",
+    "options": [
+      "volcanos",
+      "starlight",
+      "astral beings",
+      "people"
+    ],
+    "gold": 2,
+    "fact": "planets orbit stars"
+  },
+  {
+    "id": "13-936",
+    "question": "What is something that could be made from iron?",
+    "options": [
+      "Cats",
+      "RVs",
+      "Wood",
+      "Feelings"
+    ],
+    "gold": 1,
+    "fact": "iron nails are made of iron"
+  },
+  {
+    "id": "13-512",
+    "question": "Cactus house a great amount of",
+    "options": [
+      "favorite fishing holes",
+      "chlorophyll",
+      "bark",
+      "pine cones"
+    ],
+    "gold": 1,
+    "fact": "a plant cell contains chloroplasts"
+  },
+  {
+    "id": "14-815",
+    "question": "A suit of armor pulls which of these to it easily?",
+    "options": [
+      "a stick",
+      "a paper leaflet",
+      "a fridge decoration",
+      "a wooden cog"
+    ],
+    "gold": 2,
+    "fact": "metal is sometimes magnetic"
+  },
+  {
+    "id": "12-932",
+    "question": "An example of a disperser could be",
+    "options": [
+      "Playing outside all alone",
+      "Running around with my hands in the air.",
+      "giving out an even amount of Fruit Loops to each of my classmates",
+      "Taking all the Fruit Loops to myself"
+    ],
+    "gold": 2,
+    "fact": "a disperser disperses"
+  },
+  {
+    "id": "12-645",
+    "question": "Camouflage can be used by animals for hunting",
+    "options": [
+      "trees",
+      "meals",
+      "air",
+      "water"
+    ],
+    "gold": 1,
+    "fact": "camouflage can be used for hunting for prey"
+  },
+  {
+    "id": "12-382",
+    "question": "You can produce what by burning natural gas?",
+    "options": [
+      "snow",
+      "a warmer room",
+      "oxygen",
+      "water"
+    ],
+    "gold": 1,
+    "fact": "natural gas is a source of heat by burning"
+  },
+  {
+    "id": "11-748",
+    "question": "A lizard has young",
+    "options": [
+      "in shells",
+      "frozen",
+      "alive",
+      "in corpses"
+    ],
+    "gold": 0,
+    "fact": "reptiles lay eggs"
+  },
+  {
+    "id": "10-453",
+    "question": "A construction team is building a business center where a park used to be. The change in the park will",
+    "options": [
+      "cause animals to play",
+      "cause animals to celebrate",
+      "cause animals to marry",
+      "cause animals to suffer"
+    ],
+    "gold": 3,
+    "fact": "humans changing animal habitats usually causes harm to those animals"
+  },
+  {
+    "id": "10-781",
+    "question": "two women have a baby, it is unlikely to be",
+    "options": [
+      "their biological child",
+      "a human",
+      "formula fed",
+      "an adopted child"
+    ],
+    "gold": 0,
+    "fact": "two females can not usually reproduce with each other"
+  },
+  {
+    "id": "9-403",
+    "question": "Sound can travel through the",
+    "options": [
+      "planet",
+      "sun",
+      "body",
+      "sky"
+    ],
+    "gold": 3,
+    "fact": "sound can travel through air"
+  },
+  {
+    "id": "7-122",
+    "question": "Do all organisms reproduce uniformly?",
+    "options": [
+      "they are different",
+      "they are same",
+      "they reproduce equally",
+      "reproduction is fixed"
+    ],
+    "gold": 0,
+    "fact": "different organisms reproduce differently"
+  },
+  {
+    "id": "10-445",
+    "question": "An environmentalist heats their home by using a corn stove. The environmentalist knows that heating this way releases carbon dioxide back into the air, but is unworried about is as a result of",
+    "options": [
+      "it promoting plant growth",
+      "corn is too dangerous",
+      "corn is actually evil",
+      "corn grows under the water"
+    ],
+    "gold": 0,
+    "fact": "biofuel releases carbon dioxide into the atmosphere"
+  },
+  {
+    "id": "12-1211",
+    "question": "if the particles in an electric rig were immobile, what would result from that?",
+    "options": [
+      "there will be a shock current",
+      "the circuit will fail to power",
+      "there would be a short circuit",
+      "there would be current overload"
+    ],
+    "gold": 1,
+    "fact": "electricity is made of moving charged particles"
+  },
+  {
+    "id": "12-694",
+    "question": "Special plant tissues transport what throughout the plant?",
+    "options": [
+      "dirt",
+      "manganese",
+      "animals",
+      "rage"
+    ],
+    "gold": 1,
+    "fact": "special tissues in plants transport minerals throughout the plant"
+  },
+  {
+    "id": "14-347",
+    "question": "What has more mass than the moon?",
+    "options": [
+      "your home planet",
+      "Skylab",
+      "the Atlantic ocean",
+      "pluto"
+    ],
+    "gold": 0,
+    "fact": "the earth has more mass than the moon"
+  },
+  {
+    "id": "7-245",
+    "question": "When broken down, what happens to an object's shape and mass",
+    "options": [
+      "it turns to water",
+      "it shall be broken",
+      "it is then altered",
+      "it stays the same"
+    ],
+    "gold": 2,
+    "fact": "breaking down an object changes that object 's shape and mass"
+  },
+  {
+    "id": "12-677",
+    "question": "Webbed feet are used to move faster through what?",
+    "options": [
+      "rain",
+      "winds",
+      "clouds",
+      "swamps"
+    ],
+    "gold": 3,
+    "fact": "webbed feet are used for moving faster through water by aquatic animals"
+  },
+  {
+    "id": "7-751",
+    "question": "An example of a reusable product is",
+    "options": [
+      "a plastic cup",
+      "a soda can",
+      "a steel cup",
+      "a trash bag"
+    ],
+    "gold": 2,
+    "fact": "something reusable can be used more than once"
+  },
+  {
+    "id": "10-575",
+    "question": "Magnetic media, such as TVs, computer monitors, credit cards and pacemakers can be damaged when exposed to",
+    "options": [
+      "neodymium",
+      "a paper clip",
+      "copper penny",
+      "metal nails"
+    ],
+    "gold": 0,
+    "fact": "metal is sometimes magnetic"
+  },
+  {
+    "id": "14-443",
+    "question": "As a soccer ball goes flying through the air, the person watching it knows that the reason is because",
+    "options": [
+      "everything is aerial",
+      "exerting occurred",
+      "balls are birds",
+      "soccer takes wing"
+    ],
+    "gold": 1,
+    "fact": "if an object is kicked then force is exerted on that object"
+  },
+  {
+    "id": "14-319",
+    "question": "the Grand Canyon was formed by the Colorado River doing what over long periods of time?",
+    "options": [
+      "blazing",
+      "melting",
+      "moving steadily",
+      "evaporating"
+    ],
+    "gold": 2,
+    "fact": "the Grand Canyon was formed by the Colorado River flowing over long periods of time"
+  },
+  {
+    "id": "12-7",
+    "question": "To see how the plant stem works, you place a rose in what?",
+    "options": [
+      "food dye",
+      "Fire",
+      "Lava",
+      "Metal"
+    ],
+    "gold": 0,
+    "fact": "a plant stem contains a system of tubes for transporting water and nutrients to other parts of the plant"
+  },
+  {
+    "id": "7-466",
+    "question": "Soil quality is improved when",
+    "options": [
+      "rain water floods the land",
+      "organisms pass and rot away",
+      "small trees sprout up",
+      "microscopic insects infest the landscape"
+    ],
+    "gold": 1,
+    "fact": "decomposition increases the amount of nutrients in the soil"
+  },
+  {
+    "id": "1210",
+    "question": "A knife refuses to stick to a blanket due to",
+    "options": [
+      "luck",
+      "gravity",
+      "lack of magnetism",
+      "tension."
+    ],
+    "gold": 2,
+    "fact": "a magnet attracts magnetic metals through magnetism"
+  },
+  {
+    "id": "10-1014",
+    "question": "A ferromagnetic metal, such as in paper clips, can stick to other paper clips without hooking together",
+    "options": [
+      "when outside",
+      "when iron touches",
+      "when floating",
+      "when burned"
+    ],
+    "gold": 1,
+    "fact": "a paper clip is often made of ferromagnetic metals"
+  },
+  {
+    "id": "14-984",
+    "question": "In the morning, Rebecca saw some fluid in the gutter. Later, it was gone. What happened to it?",
+    "options": [
+      "condensation",
+      "evaporation",
+      "magic",
+      "deposition"
+    ],
+    "gold": 1,
+    "fact": "evaporation is when water is drawn back up into the air in the water cycle"
+  },
+  {
+    "id": "14-1111",
+    "question": "Ethanol sometimes might be",
+    "options": [
+      "concocted",
+      "love",
+      "magic",
+      "affection"
+    ],
+    "gold": 0,
+    "fact": "ethanol sometimes is made of corn"
+  },
+  {
+    "id": "12-622",
+    "question": "If a bird is moving through the sky, someone wanting to know the speed would",
+    "options": [
+      "speedily enjoy viewing",
+      "observe quickness",
+      "watch slowly",
+      "look away"
+    ],
+    "gold": 1,
+    "fact": "speed is a measure of how fast an object is moving"
+  },
+  {
+    "id": "11-362",
+    "question": "A person can inflate a beach ball using",
+    "options": [
+      "a salt shaker",
+      "several cups",
+      "live bees",
+      "organ processed gas"
+    ],
+    "gold": 3,
+    "fact": "a beach ball contains gas"
+  },
+  {
+    "id": "14-1446",
+    "question": "Which is an example of sound reaching the ear?",
+    "options": [
+      "a cello",
+      "taste testing",
+      "a silent movie",
+      "a comic book"
+    ],
+    "gold": 0,
+    "fact": "when sound reaches the ear , that sound can be heard"
+  },
+  {
+    "id": "1123",
+    "question": "Why was my son-in-law required to add rugs or carpeting to his upstairs apartment when the ground floor wasn't?",
+    "options": [
+      "So it would look good then prospective renters took a tour",
+      "Because they didn't want him to scratch up the wood floors.",
+      "Because they didn't want the downstairs renters to be as likely to complain about noise",
+      "Because they didn't want to pay for carpeting themselves."
+    ],
+    "gold": 2,
+    "fact": "carpet absorbs sound"
+  },
+  {
+    "id": "7-434",
+    "question": "A moth can metamorphosize when",
+    "options": [
+      "it releases itself from a self-made chamber",
+      "it is entirely reborn",
+      "it is fully recreated",
+      "it becomes a winged creature"
+    ],
+    "gold": 0,
+    "fact": "a moth undergoes metamorphosis"
+  },
+  {
+    "id": "7-436",
+    "question": "If a fox shuffles off the mortal coil, then that fox",
+    "options": [
+      "is a burden",
+      "ceases to exist",
+      "is missing",
+      "is pregnant"
+    ],
+    "gold": 1,
+    "fact": "if a living thing dies then that living thing is dead"
+  },
+  {
+    "id": "11-273",
+    "question": "The turtle which lays the most eggs on a beach will",
+    "options": [
+      "decrease turtle numbers",
+      "boost hatching numbers",
+      "stop hatching young",
+      "eat more sand"
+    ],
+    "gold": 1,
+    "fact": "as the number of eggs laid by an animal increases , the number of eggs that hatch will increase"
+  },
+  {
+    "id": "12-964",
+    "question": "If a plant is moved from a basement to a field",
+    "options": [
+      "it will need darkness",
+      "it will be too dark",
+      "it will receive nutriment",
+      "it will now suffocate"
+    ],
+    "gold": 2,
+    "fact": "if something is outside during the day then that something will receive sunlight"
+  },
+  {
+    "id": "10-728",
+    "question": "Radiaton can make something",
+    "options": [
+      "cooler",
+      "warmer",
+      "heavier",
+      "harder"
+    ],
+    "gold": 1,
+    "fact": "radiation is when heat is transferred through waves"
+  }
+]

@@ -44,7 +44,7 @@ class Inferencer:
             self.dataset_reader, batch_size=cfg.batch_size, collate_fn=co
         )
         self.model = AutoModelForCausalLM.from_pretrained(
-            device_map="auto",
+            device_map="auto", max_memory={0: "22GiB"},
             pretrained_model_name_or_path=cfg.model_name,
             cache_dir=cfg.cache_dir,
         ).half()
@@ -85,15 +85,19 @@ class Inferencer:
 
         logits = output.logits.reshape(bsz, option_num, seq_len, -1) 
         logits = logits[:, :, :-1, :]
-        logit_probs = torch.nn.functional.log_softmax(logits.float(), dim=-1)
-        # test
-        probs = torch.nn.functional.softmax(logits.float(), dim=-1)
-        targets_probs = torch.gather(probs, -1, targets).squeeze(-1) * loss_mask
-        targets_probs = torch.where(abs(targets_probs)>1e-6, targets_probs, 1.)
-        targets_probs = torch.cumprod(targets_probs, -1)[:,:,-1]
-
-        loss = -torch.gather(logit_probs, -1, targets).squeeze(-1) * loss_mask
-        loss = loss.sum(-1) / loss_mask.sum(-1)
+        # --- 分块计算 loss（按 option 逐个做 log_softmax）---
+        # 原实现一次性把 [bsz, option, seq, vocab] 全部转 float32，
+        # openbookqa（4 选项 + 2048 长度）时单份就是约 5 GB，必然 OOM。
+        # log_softmax 在 vocab 维逐位置独立，option 之间无耦合，
+        # 因此逐 option 计算再 stack，结果与整块计算完全等价。
+        loss_list = []
+        for _oi in range(option_num):
+            _lg = logits[:, _oi]                       # [bsz, seq-1, vocab]
+            _lp = torch.nn.functional.log_softmax(_lg.float(), dim=-1)
+            _l = -torch.gather(_lp, -1, targets[:, _oi]).squeeze(-1) * loss_mask[:, _oi]
+            loss_list.append(_l.sum(-1) / loss_mask[:, _oi].sum(-1))
+            del _lg, _lp, _l
+        loss = torch.stack(loss_list, dim=-1)          # [bsz, option]
         preds = torch.argmin(loss, dim=-1).tolist()
         labels = labels.squeeze(-1).tolist()
 

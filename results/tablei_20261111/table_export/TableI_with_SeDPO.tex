@@ -1,0 +1,47 @@
+% Requires: \usepackage{booktabs,multirow}
+\begin{table*}[t]
+\centering
+\caption{Original reported results and newly evaluated SeDPO reference results on two datasets.}
+\label{tab:sedpo_reference}
+\begin{tabular}{llllrr}
+\toprule
+Dataset & LLMs & Method & Venue & Accuracy(\%) & Weighted-F1(\%) \\
+\midrule
+\multirow{14}{*}{OpenBookQA} & \multirow{7}{*}{Llama3-8B} & Random & ACL 2022 & 72.54 & 72.7058 \\
+ &  & Coverage & EMNLP 2023 & 74.80 & 75.0695 \\
+ &  & SelfAdaptive & ACL 2023 & 71.60 & 72.4391 \\
+ &  & DataCompression & ACL 2024 & 74.40 & 74.5382 \\
+ &  & SE2 & ACL 2024 & 74.00 & 74.3878 \\
+ &  & CoopES & Ours & 75.20 & 75.3462 \\
+ & & SeDPO$^{\dagger}$ & NeurIPS 2025 & 89.60 & 89.6106 \\
+\cmidrule(lr){2-6}
+ & \multirow{7}{*}{Qwen2.5-7B} & Random & ACL 2022 & 85.88 & 85.9349 \\
+ &  & Coverage & EMNLP 2023 & 85.60 & 85.6265 \\
+ &  & SelfAdaptive & ACL 2023 & 86.80 & 86.8582 \\
+ &  & DataCompression & ACL 2024 & 86.40 & 86.4058 \\
+ &  & SE2 & ACL 2024 & 87.40 & 87.4649 \\
+ &  & CoopES & Ours & 87.60 & 87.5913 \\
+ & & SeDPO$^{\dagger}$ & NeurIPS 2025 & 90.40 & 90.5061 \\
+\midrule
+\multirow{14}{*}{ARC-C} & \multirow{7}{*}{Llama3-8B} & Random & ACL 2022 & 80.20 & 80.2511 \\
+ &  & Coverage & EMNLP 2023 & 82.00 & 81.8013 \\
+ &  & SelfAdaptive & ACL 2023 & 80.00 & 80.1478 \\
+ &  & DataCompression & ACL 2024 & 82.00 & 82.0690 \\
+ &  & SE2 & ACL 2024 & 82.00 & 81.9810 \\
+ &  & CoopES & Ours & 82.00 & 82.3391 \\
+ & & SeDPO$^{\dagger}$ & NeurIPS 2025 & 82.80 & 82.8012 \\
+\cmidrule(lr){2-6}
+ & \multirow{7}{*}{Qwen2.5-7B} & Random & ACL 2022 & 86.60 & 86.6102 \\
+ &  & Coverage & EMNLP 2023 & 88.00 & 87.9605 \\
+ &  & SelfAdaptive & ACL 2023 & 87.80 & 87.7748 \\
+ &  & DataCompression & ACL 2024 & 87.20 & 87.4091 \\
+ &  & SE2 & ACL 2024 & 85.11 & 85.5301 \\
+ &  & CoopES & Ours & 88.40 & 88.4130 \\
+ & & SeDPO$^{\dagger}$ & NeurIPS 2025 & 88.40 & 88.3901 \\
+\bottomrule
+\end{tabular}
+\vspace{3pt}
+\begin{minipage}{0.98\textwidth}\footnotesize
+$\dagger$ Newly evaluated SeDPO results; all other values are imported from the supplied original table. SeDPO uses 500 test questions, 50 training candidates and $k=4$. The original exact sample IDs and inference artifacts were unavailable, so these are external reference comparisons, not a matched or paired-significance proof. Dashes indicate pending runs.
+\end{minipage}
+\end{table*}

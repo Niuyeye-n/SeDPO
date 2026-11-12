@@ -40,7 +40,16 @@ class Scorer:
 
         self.tokenizer=self.dataset_reader.tokenizer
         print(cfg.model_name)
-        self.model = AutoModelForCausalLM.from_pretrained(pretrained_model_name_or_path=cfg.model_name, cache_dir=cfg.cache_dir)
+        # SCORER_DTYPE_FIX（2026-11-05）：
+        # 原实现不带 dtype，from_pretrained 会以 fp32 加载 7B 模型（28GB），
+        # 紧接着 .half() 又生成 fp16 副本 → 峰值约 42GB，
+        # 叠加已有页缓存后超过实例 90GB 的 cgroup 上限 → 被 OOM killer 杀掉。
+        # 改为直接 fp16 加载再上 GPU，与 inference.py 一致，数值等价但省掉 fp32 中间态。
+        self.model = AutoModelForCausalLM.from_pretrained(
+            pretrained_model_name_or_path=cfg.model_name,
+            cache_dir=cfg.cache_dir,
+            torch_dtype=torch.float16,
+        )
         self.model = self.model.half().to(self.accelerator.device)
         self.model = self.model.eval()
 
@@ -51,19 +60,49 @@ class Scorer:
     def choice_losses(self,input_ids, input_atten_mask, loss_mask, labels):
         bsz, option_num, seq_len = input_ids.shape
         if self.option_num is not None: assert option_num == self.option_num
-        with torch.no_grad():
-            output=self.model(input_ids=input_ids.reshape(bsz*option_num, seq_len), 
-                              attention_mask=input_atten_mask.reshape(bsz*option_num, seq_len))
-        
         targets=input_ids[:,:,1:].unsqueeze(-1)
-        logits=output.logits.reshape(bsz, option_num, seq_len, -1)            
-        logits=logits[:,:, :-1, :]
-        logit_probs= torch.nn.functional.log_softmax(logits.float(), dim=-1)
+        lm = loss_mask[:,:,1:]
 
+        # F4B_HIDDEN_LMHEAD（2026-11-05）：
+        # 只跑 base transformer 拿 hidden_states，再仅在 loss_mask 命中的
+        # 答案 token 位置过 lm_head + logsumexp。
+        # 原因：全序列 logits (bsz, option, seq, vocab=152k) 的 fp16 张量
+        # 在 7B 模型上就要 2.5GB/batch，是打分开不开大 batch 的真正瓶颈。
+        # 数学等价：log_softmax(x)[t] = x[t] - logsumexp(x)，
+        # 只算被用到的那几行不影响结果。
+        use_hidden = hasattr(self.model, "model") and hasattr(self.model, "lm_head")
+        with torch.no_grad():
+            if use_hidden:
+                out = self.model.model(
+                    input_ids=input_ids.reshape(bsz*option_num, seq_len),
+                    attention_mask=input_atten_mask.reshape(bsz*option_num, seq_len),
+                    use_cache=False,
+                )
+                hidden = out.last_hidden_state.reshape(bsz, option_num, seq_len, -1)
+            else:
+                output=self.model(input_ids=input_ids.reshape(bsz*option_num, seq_len),
+                                  attention_mask=input_atten_mask.reshape(bsz*option_num, seq_len))
+                hidden = output.logits.reshape(bsz, option_num, seq_len, -1)
+                hidden = torch.cat([hidden, torch.zeros_like(hidden[:, :, :1])], dim=2)
+                hidden = hidden[:, :, :-1, :]   # 退化为全量 logits 路径
 
-        loss_mask=loss_mask[:,:,1:]
-        loss= -torch.gather(logit_probs, -1, targets).squeeze(-1) * loss_mask
-        loss = loss.sum(-1) / loss_mask.sum(-1)
+        # 只在 loss_mask 标 1 的位置算（见 F4B_HIDDEN_LMHEAD 说明）
+        flat_hidden = hidden[:, :, :-1, :].reshape(-1, hidden.shape[-1])
+        flat_targets = targets.reshape(-1)
+        flat_mask = lm.reshape(-1).bool()
+        sel_hidden = flat_hidden[flat_mask]                          # (N, H)
+        sel_targets = flat_targets[flat_mask].squeeze(-1)           # (N,)
+        if use_hidden:
+            sel_logits = self.model.lm_head(sel_hidden).float()      # (N, V) 只算这几行
+        else:
+            sel_logits = sel_hidden.float()                          # 退化路径：已经是 logits
+        lse = torch.logsumexp(sel_logits, dim=-1)                    # (N,)
+        tgt_logit = torch.gather(sel_logits, -1, sel_targets.unsqueeze(-1)).squeeze(-1)
+        nll = lse - tgt_logit                                        # (N,) = -log p(target)
+        loss = torch.zeros(flat_mask.shape[0], device=hidden.device, dtype=torch.float32)
+        loss[flat_mask] = nll
+        loss = loss.view(bsz, option_num, -1)
+        loss = loss.sum(-1) / lm.sum(-1).clamp(min=1)
 
         preds= torch.argmin(loss, dim=-1)
         normed_loss = torch.nn.functional.normalize(loss, p=1, dim=-1)

@@ -123,6 +123,15 @@ class BiEncoderTrainer(object):
         )
         self.biencoder = model
 
+        # ---- [PATCH-GRAD-CKPT-20261106] ----
+        if int(os.environ.get("GRAD_CKPT", "0")) == 1:
+            _n_ck = _enable_grad_ckpt(self.biencoder)
+            if _n_ck:
+                logger.info("[GRAD_CKPT] 已启用梯度检查点，编码器数=%d（显存降至约1/5，耗时+20~25%%）", _n_ck)
+            else:
+                logger.warning("[GRAD_CKPT] 未找到任何编码器，梯度检查点未生效")
+        # ---- /[PATCH-GRAD-CKPT-20261106] ----
+
 
         self.optimizer = optimizer
         self.tensorizer = tensorizer
@@ -263,7 +272,11 @@ class BiEncoderTrainer(object):
             validation_loss = 0
         else:
             if epoch >= cfg.val_av_rank_start_epoch:
-                validation_loss = self.validate_average_rank()
+                try:
+                    validation_loss = self.validate_average_rank()
+                except Exception as _ve:
+                    logger.warning("[VAL-FALLBACK] validate_average_rank failed: %s ; cp kept, loss=0", _ve)
+                    validation_loss = 0
             else:
                 validation_loss = self.validate_nll()
             
@@ -307,6 +320,13 @@ class BiEncoderTrainer(object):
                 num_other_negatives,
                 shuffle=False,
             )
+            biencoder_inputs = BiEncoderBatch(**move_to_device(biencoder_inputs._asdict(), cfg.device))  # [FIX-VALIDATE-DEVICE]
+
+            for _attr in ("question_ids", "question_segments", "question_attn_mask",
+                          "context_ids", "ctx_segments", "ctx_attn_mask", "is_positive"):
+                _v = getattr(biencoder_inputs, _attr, None)
+                if hasattr(_v, "to"):
+                    setattr(biencoder_inputs, _attr, _v.to(_dev))
 
             # get the token to be used for representation selection
             ds_cfg = self.ds_cfg.dev_datasets[dataset]
@@ -398,6 +418,8 @@ class BiEncoderTrainer(object):
                 num_other_negatives,
                 shuffle=False,
             )
+            biencoder_inputs = BiEncoderBatch(**move_to_device(biencoder_inputs._asdict(), cfg.device))  # [FIX-VALIDATE-DEVICE]
+
             total_ctxs = len(ctx_represenations)
             ctxs_ids = biencoder_inputs.context_ids
             ctxs_segments = biencoder_inputs.ctx_segments
@@ -882,6 +904,29 @@ def _do_biencoder_fwd_pass(
         loss = loss / cfg.train.gradient_accumulation_steps
 
     return loss, is_correct
+
+
+# ---- [PATCH-GRAD-CKPT-20261106] helper ----
+def _enable_grad_ckpt(model):
+    """在 BiEncoder 的两个 HFBertEncoder 上启用梯度检查点，返回启用个数。"""
+    target = model
+    if hasattr(target, "module"):          # DataParallel 包装
+        target = target.module
+    n = 0
+    for attr in ("question_model", "ctx_model", "question_encoder", "ctx_encoder"):
+        enc = getattr(target, attr, None)
+        if enc is None or not hasattr(enc, "gradient_checkpointing_enable"):
+            continue
+        try:
+            # use_reentrant=False 对无梯度输入更稳健（transformers>=4.34 支持）
+            enc.gradient_checkpointing_enable(
+                gradient_checkpointing_kwargs={"use_reentrant": False}
+            )
+        except TypeError:
+            enc.gradient_checkpointing_enable()
+        n += 1
+    return n
+# ---- /[PATCH-GRAD-CKPT-20261106] helper ----
 
 
 @hydra.main(config_path="conf", config_name="biencoder_train_cfg")

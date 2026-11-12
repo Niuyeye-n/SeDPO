@@ -1,0 +1,37 @@
+{
+  "experiment": "/root/autodl-tmp/SeDPO_NIPS25/my_data_llama_table/experiment/obqa_only",
+  "best_archive": "/root/results_backup/SeDPO_table_checkpoints_20261111/llama_obqa/dpr_biencoder.best_valid",
+  "sha256": "a8d5a01bf7bc5388d33a6ad653505d3241d22fa0b56b228b925245bf65a32cbe",
+  "bytes": 2618636055,
+  "full_model_and_optimizer_retained": true,
+  "cleanup_policy": "Obsolete numbered epoch copies removed only after successful training and verified full-best backup; those epoch copies are not individually archived",
+  "removed_epoch_copies": [
+    {
+      "name": "dpr_biencoder.1",
+      "bytes": 2618636055
+    },
+    {
+      "name": "dpr_biencoder.3",
+      "bytes": 2618636055
+    },
+    {
+      "name": "dpr_biencoder.4",
+      "bytes": 2618636055
+    },
+    {
+      "name": "dpr_biencoder.5",
+      "bytes": 2618636055
+    }
+  ],
+  "deduplicated_saved_copies": [
+    {
+      "path": "/root/autodl-tmp/SeDPO_NIPS25/my_data_llama_table/experiment/obqa_only/saves/dp2-r1d0-b0d1/dpr_biencoder.1",
+      "original_file_sha256": "54b1f902d0bc30cc52c1617a926db72067797845a3709025194197ee23fab95e",
+      "restore_from_full_best_archive": "/root/results_backup/SeDPO_table_checkpoints_20261111/llama_obqa/dpr_biencoder.best_valid",
+      "restore_metadata_overrides": {
+        "epoch": 1
+      },
+      "all_other_tensor_optimizer_scheduler_and_metadata_equal": true
+    }
+  ]
+}

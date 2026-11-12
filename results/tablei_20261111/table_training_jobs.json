@@ -1,0 +1,37 @@
+{
+  "scope": "Four SeDPO table rows only; no CoopES or other baseline is run",
+  "jobs": {
+    "llama_close_qa": {
+      "reader_and_teacher": "/root/autodl-tmp/models/llama3-8b",
+      "experiment": "/root/autodl-tmp/SeDPO_NIPS25/my_data_llama_table/experiment/close_qa",
+      "L": 50,
+      "n_score": 300,
+      "epochs": 6,
+      "effective_batch": 64,
+      "seed": 12345,
+      "warmup_rule": "round(0.1 * actual_total_training_updates)",
+      "pool_policy": "Full original training pool for preference construction; frozen 50 candidates for table evaluation"
+    },
+    "llama_obqa_only": {
+      "reader_and_teacher": "/root/autodl-tmp/models/llama3-8b",
+      "experiment": "/root/autodl-tmp/SeDPO_NIPS25/my_data_llama_table/experiment/obqa_only",
+      "L": 50,
+      "n_score": 300,
+      "epochs": 6,
+      "effective_batch": 64,
+      "seed": 12345,
+      "warmup_rule": "round(0.1 * actual_total_training_updates)",
+      "pool_policy": "Full original training pool for preference construction; frozen 50 candidates for table evaluation"
+    },
+    "qwen_obqa_warmup108": {
+      "reader_and_teacher": "/root/autodl-tmp/models/qwen2.5-7b",
+      "experiment": "/root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/experiment/obqa_only_warmup108_seed12345",
+      "reuse_scored": "/root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/scored/obqa_only",
+      "warmup_steps": 108,
+      "learning_rate": 3e-05,
+      "epochs": 6,
+      "effective_batch": 64,
+      "seed": 12345
+    }
+  }
+}

@@ -57,14 +57,22 @@ class ScorerDatasetReader(torch.utils.data.Dataset):
                 if "step_"+str(i)+"_have_choosen" not in entry: continue
                 choosen_list = entry["step_"+str(i)+"_have_choosen"]
                 sample_list = entry["step_"+str(i)+"_ctxs"]
+                # SCALER_DSR_MEMFIX（2026-11-05）：
+                # 原实现在循环内逐字段复制 entry 的所有非 step_ 字段，
+                # n_score=150 / L=400 时派生 60000 个 instance → 内存暴涨被 OOM 杀掉。
+                # 改为在循环外算一次 test_fields，循环内共享引用；
+                # 产出字段集合与值与原实现完全一致，下游只读不改，安全。
+                test_fields = {
+                    f"test_{key}": val
+                    for key, val in entry.items()
+                    if key[:4] != "step"
+                }
                 for j in range(len(choosen_list)):
                     for id in sample_list[j]:
                         instance = {}
                         instance["have_choosen"] = choosen_list[j]
                         instance.update(self.prompt_pool[id][1])
-                        for key, val in entry.items():
-                            if(key[:4]=="step"): continue
-                            instance[f"test_{key}"] = val
+                        instance.update(test_fields)
                         data.append(instance)
             yield from data
 

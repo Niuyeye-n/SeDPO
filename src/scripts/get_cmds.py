@@ -54,7 +54,7 @@ def get_cmds(args):
             scored_train_path = os.path.join(scored_dir, cluster, task + '_scored_train')
             scored_valid_path = os.path.join(scored_dir, cluster, task + '_scored_valid')
             run_scorer_cmd = \
-                f'accelerate launch --multi_gpu --num_processes {args.gpus} --main_process_port {random_port} \
+                f'accelerate launch --num_processes {args.gpus} --main_process_port {random_port} \
                 scripts/scorer.py \
                 example_file=$PWD/{random_sample_path + "_step1.json"} \
                 output_train_file=$PWD/{scored_train_path + "_step1.json"} \
@@ -74,7 +74,7 @@ def get_cmds(args):
                 cache_dir=$PWD/{args.cache_dir} \
                 hydra.run.dir=$PWD/{exp_path}'
             run_scorer_step2 = \
-                f'accelerate launch --multi_gpu --num_processes {args.gpus} --main_process_port {random_port} \
+                f'accelerate launch --num_processes {args.gpus} --main_process_port {random_port} \
                 scripts/scorer.py \
                 example_file=$PWD/{random_sample_path + "_step2.json"} \
                 output_train_file=$PWD/{scored_train_path + "_step2.json"} \
@@ -95,7 +95,7 @@ def get_cmds(args):
                 hydra.run.dir=$PWD/{exp_path}'
 
             run_scorer_step3 = \
-                f'accelerate launch --multi_gpu --num_processes {args.gpus} --main_process_port {random_port} \
+                f'accelerate launch --num_processes {args.gpus} --main_process_port {random_port} \
                 scripts/scorer.py \
                 example_file=$PWD/{random_sample_path + "_step3.json"} \
                 output_train_file=$PWD/{scored_train_path + "_step3.json"} \

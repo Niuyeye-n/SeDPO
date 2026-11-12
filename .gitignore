@@ -40,3 +40,11 @@ Thumbs.db
 desktop.ini
 .idea/
 .vscode/
+
+# Latest reproducibility workflow: large weights/data stay in the result ZIP.
+.venv-tablei/
+runs/
+training_inputs/
+_report_runtime/
+# Curated original logs are evidence, not transient runtime logs.
+!results/tablei_20261111/**/*.log

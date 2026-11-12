@@ -1,0 +1,160 @@
+{
+  "updated_beijing": "2026-11-12T00:51:23.011721+08:00",
+  "unit": "wall-clock seconds",
+  "rows": [
+    {
+      "tag": "qwen_arc",
+      "model": "Qwen2.5-7B",
+      "dataset": "ARC-C",
+      "stages": {
+        "preference_scoring": {
+          "status": "historical_exact_start_unavailable",
+          "seconds": null,
+          "source": "Original ARC preference data was reused; no independently verified complete scoring start/end interval has been recovered. Do not fill zero."
+        },
+        "retriever_training": {
+          "status": "complete",
+          "seconds": 2648.0,
+          "started_beijing": "2026-11-11T16:09:03+08:00",
+          "ended_beijing": "2026-11-11T16:53:11+08:00",
+          "source": "arc_controlled_pipeline.log stage boundaries"
+        },
+        "embedding_retrieval_and_export": {
+          "status": "complete",
+          "seconds": 49.147668,
+          "started_beijing": "2026-11-11T17:10:16+08:00",
+          "ended_beijing": "2026-11-11T17:11:05.147668+08:00",
+          "source": "retrieval stage boundary to evaluator.started_utc; includes embedding and selection export/audit"
+        },
+        "reader_evaluation": {
+          "status": "complete",
+          "seconds": 52.793077,
+          "started_beijing": "2026-11-11T17:11:05.147668+08:00",
+          "ended_beijing": "2026-11-11T17:11:57.940745+08:00",
+          "source": "result.json started_utc/completed_utc; includes full weight hashing, model loading and 500-query evaluation"
+        }
+      },
+      "complete_main_path_seconds": null,
+      "known_completed_stage_seconds": 2749.940745
+    },
+    {
+      "tag": "qwen_obqa",
+      "model": "Qwen2.5-7B",
+      "dataset": "OpenBookQA",
+      "stages": {
+        "preference_scoring": {
+          "status": "complete",
+          "seconds": 2529.0,
+          "started_beijing": "2026-11-11T12:27:51+08:00",
+          "ended_beijing": "2026-11-11T13:10:00+08:00",
+          "source": "qwen_obqa_original_pipeline.log original scoring shell boundaries; preference data reused in repaired run"
+        },
+        "retriever_training": {
+          "status": "complete",
+          "seconds": 3305.0,
+          "started_beijing": "2026-11-11T17:27:51+08:00",
+          "ended_beijing": "2026-11-11T18:22:56+08:00",
+          "source": "table_pipeline.log stage boundaries"
+        },
+        "embedding_retrieval_and_export": {
+          "status": "complete",
+          "seconds": 48.6803,
+          "started_beijing": "2026-11-11T18:22:56+08:00",
+          "ended_beijing": "2026-11-11T18:23:44.680300+08:00",
+          "source": "retrieval stage boundary to evaluator.started_utc; includes embedding and selection export/audit"
+        },
+        "reader_evaluation": {
+          "status": "complete",
+          "seconds": 48.885368,
+          "started_beijing": "2026-11-11T18:23:44.680300+08:00",
+          "ended_beijing": "2026-11-11T18:24:33.565668+08:00",
+          "source": "result.json started_utc/completed_utc; includes full weight hashing, model loading and 500-query evaluation"
+        }
+      },
+      "complete_main_path_seconds": 5931.565668,
+      "known_completed_stage_seconds": 5931.565668
+    },
+    {
+      "tag": "llama_arc",
+      "model": "Llama3-8B",
+      "dataset": "ARC-C",
+      "stages": {
+        "preference_scoring": {
+          "status": "complete",
+          "seconds": 3045.0,
+          "started_beijing": "2026-11-11T18:24:34+08:00",
+          "ended_beijing": "2026-11-11T19:15:19+08:00",
+          "source": "table_pipeline.log score stage to next stage; includes merge and training-plan validation"
+        },
+        "retriever_training": {
+          "status": "complete",
+          "seconds": 2685.0,
+          "started_beijing": "2026-11-11T19:15:19+08:00",
+          "ended_beijing": "2026-11-11T20:00:04+08:00",
+          "source": "table_pipeline.log stage boundaries"
+        },
+        "embedding_retrieval_and_export": {
+          "status": "complete",
+          "seconds": 47.706026,
+          "started_beijing": "2026-11-11T20:00:04+08:00",
+          "ended_beijing": "2026-11-11T20:00:51.706026+08:00",
+          "source": "retrieval stage boundary to evaluator.started_utc; includes embedding and selection export/audit"
+        },
+        "reader_evaluation": {
+          "status": "complete",
+          "seconds": 54.058927,
+          "started_beijing": "2026-11-11T20:00:51.706026+08:00",
+          "ended_beijing": "2026-11-11T20:01:45.764953+08:00",
+          "source": "result.json started_utc/completed_utc; includes full weight hashing, model loading and 500-query evaluation"
+        }
+      },
+      "complete_main_path_seconds": 5831.764953,
+      "known_completed_stage_seconds": 5831.764953
+    },
+    {
+      "tag": "llama_obqa",
+      "model": "Llama3-8B",
+      "dataset": "OpenBookQA",
+      "stages": {
+        "preference_scoring": {
+          "status": "complete",
+          "seconds": 2678.0,
+          "started_beijing": "2026-11-11T20:01:46+08:00",
+          "ended_beijing": "2026-11-11T20:46:24+08:00",
+          "source": "table_pipeline.log score stage to next stage; includes merge and training-plan validation"
+        },
+        "retriever_training": {
+          "status": "complete",
+          "seconds": 3240.0,
+          "started_beijing": "2026-11-11T20:46:24+08:00",
+          "ended_beijing": "2026-11-11T21:40:24+08:00",
+          "source": "table_pipeline.log stage boundaries"
+        },
+        "embedding_retrieval_and_export": {
+          "status": "complete",
+          "seconds": 47.389,
+          "started_beijing": "2026-11-11T21:40:24+08:00",
+          "ended_beijing": "2026-11-11T21:41:11.389000+08:00",
+          "source": "retrieval stage boundary to evaluator.started_utc; includes embedding and selection export/audit"
+        },
+        "reader_evaluation": {
+          "status": "complete",
+          "seconds": 50.795501,
+          "started_beijing": "2026-11-11T21:41:11.389000+08:00",
+          "ended_beijing": "2026-11-11T21:42:02.184501+08:00",
+          "source": "result.json started_utc/completed_utc; includes full weight hashing, model loading and 500-query evaluation"
+        }
+      },
+      "complete_main_path_seconds": 6016.184501,
+      "known_completed_stage_seconds": 6016.184501
+    }
+  ],
+  "initial_wait_for_storage": {
+    "status": "complete",
+    "seconds": 421.0,
+    "started_beijing": "2026-11-11T17:20:50+08:00",
+    "ended_beijing": "2026-11-11T17:27:51+08:00",
+    "source": "table_pipeline.log initial disk-backup wait, separately reported"
+  },
+  "accounting": "Main path counts original preference scoring once plus the repaired training/retrieval/evaluation. Historical failed runs, earlier checkpoints/reruns, idle queue time, and overall instance billing time are not silently added to or represented by this main-path subtotal."
+}

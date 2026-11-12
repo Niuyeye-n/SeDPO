@@ -1,0 +1,14 @@
+{
+  "llama/prompt_pool/close_qa/arc_c_prompts.json": "47663cc9022a45b33ee86f020e4c31bfc4a62a684bf9d70b559ae8af8aa6323e",
+  "llama/prompt_pool/obqa_only/openbookqa_prompts.json": "3b3cc079c1c3f3c60219460cce93561703a48690fa7c29de6a5b939d9589adf6",
+  "llama/scored/close_qa/arc_c_scored_train.json": "b20ef3a1e53e856dc62fcd30838516f2f04c20ff84801de3b5de6e7c15663101",
+  "llama/scored/close_qa/arc_c_scored_valid.json": "ea9c25fb881b54d4c0d0bd15738e54eae680b148ff55899eb3e74969314ba55f",
+  "llama/scored/obqa_only/openbookqa_scored_train.json": "d7453eac4fac38ba80891ebb91b611836343904a6a4f9a524593c987dee7188c",
+  "llama/scored/obqa_only/openbookqa_scored_valid.json": "e29274c33d05a28ccd6193e3c50568d88b757fc8f5e07bdd0d93498f509a7427",
+  "qwen/prompt_pool/close_qa/arc_c_prompts.json": "47663cc9022a45b33ee86f020e4c31bfc4a62a684bf9d70b559ae8af8aa6323e",
+  "qwen/prompt_pool/obqa_only/openbookqa_prompts.json": "3b3cc079c1c3f3c60219460cce93561703a48690fa7c29de6a5b939d9589adf6",
+  "qwen/scored/close_qa/arc_c_scored_train.json": "f2767d0f0a919bff154af45acf5c57005462d4f9fe2f572ea67979e5141b259e",
+  "qwen/scored/close_qa/arc_c_scored_valid.json": "2994409ad5259b78be7baf49c4b16e78c907cca949ef8977e21d79f4eaa4881e",
+  "qwen/scored/obqa_only/openbookqa_scored_train.json": "700c0f199c5cce82b8f473958cad3a3d7721c25f7962be8a34cbe561322971a0",
+  "qwen/scored/obqa_only/openbookqa_scored_valid.json": "4bab9991cb116b768ee4ed6c9ad10a2980eafbae22e3fb4280a465255962a2c8"
+}

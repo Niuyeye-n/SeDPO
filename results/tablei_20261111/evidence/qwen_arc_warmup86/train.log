@@ -1,0 +1,406 @@
+/root/autodl-tmp/SeDPO_NIPS25/DPR/train_dense_encoder.py:932: UserWarning: 
+The version_base parameter is not specified.
+Please specify a compatability version level, or None.
+Will assume defaults for version 1.1
+  @hydra.main(config_path="conf", config_name="biencoder_train_cfg")
+[139644673431360] 2026-11-11 16:09:05,848 [INFO] root: Sys.argv: ['DPR/train_dense_encoder.py', 'train_datasets=[se2_dataset]', 'dev_datasets=[se2_valid_dataset]', 'train=biencoder_se2', 'output_dir=/root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/experiment/close_qa_warmup86_seed12345/model', 'datasets.train_clusters=close_qa', 'datasets.train_file=/root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/scored', 'datasets.valid_file=/root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/scored', 'datasets.hard_neg=true', 'datasets.top_k=20', 'train.hard_negatives=20', 'train.batch_size=8', 'train.num_train_epochs=6', 'train.num_save_epochs=2', 'train.learning_rate=1e-5', 'train.warmup_steps=86', 'seed=12345', 'model_file=null', 'datasets.prompt_pool_path=/root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/prompt_pool', 'datasets.prompt_setup_type=qa', 'datasets.task_setup_type=q', 'encoder.cache_dir=/root/autodl-tmp/SeDPO_NIPS25/cache', 'hydra.run.dir=/root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/experiment/close_qa_warmup86_seed12345']
+[139644673431360] 2026-11-11 16:09:05,848 [INFO] root: Hydra formatted Sys.argv: ['DPR/train_dense_encoder.py', 'train_datasets=[se2_dataset]', 'dev_datasets=[se2_valid_dataset]', 'train=biencoder_se2', 'output_dir=/root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/experiment/close_qa_warmup86_seed12345/model', 'datasets.train_clusters=close_qa', 'datasets.train_file=/root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/scored', 'datasets.valid_file=/root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/scored', 'datasets.hard_neg=true', 'datasets.top_k=20', 'train.hard_negatives=20', 'train.batch_size=8', 'train.num_train_epochs=6', 'train.num_save_epochs=2', 'train.learning_rate=1e-5', 'train.warmup_steps=86', 'seed=12345', 'model_file=null', 'datasets.prompt_pool_path=/root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/prompt_pool', 'datasets.prompt_setup_type=qa', 'datasets.task_setup_type=q', 'encoder.cache_dir=/root/autodl-tmp/SeDPO_NIPS25/cache', 'hydra.run.dir=/root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/experiment/close_qa_warmup86_seed12345']
+/root/autodl-tmp/envs/se_dpo/lib/python3.12/site-packages/hydra/_internal/defaults_list.py:251: UserWarning: In 'biencoder_train_cfg': Defaults list is missing `_self_`. See https://hydra.cc/docs/1.2/upgrades/1.0_to_1.1/default_composition_order for more information
+  warnings.warn(msg, UserWarning)
+/root/autodl-tmp/envs/se_dpo/lib/python3.12/site-packages/hydra/core/default_element.py:124: UserWarning: In 'train/biencoder_se2': Usage of deprecated keyword in package header '# @package _group_'.
+See https://hydra.cc/docs/1.2/upgrades/1.0_to_1.1/changes_to_package_header for more information
+  deprecation_warning(
+/root/autodl-tmp/envs/se_dpo/lib/python3.12/site-packages/hydra/core/default_element.py:124: UserWarning: In 'encoder/hf_bert': Usage of deprecated keyword in package header '# @package _group_'.
+See https://hydra.cc/docs/1.2/upgrades/1.0_to_1.1/changes_to_package_header for more information
+  deprecation_warning(
+/root/autodl-tmp/envs/se_dpo/lib/python3.12/site-packages/hydra/_internal/hydra.py:119: UserWarning: Future Hydra versions will no longer change working directory at job runtime by default.
+See https://hydra.cc/docs/1.2/upgrades/1.1_to_1.2/changes_to_job_working_dir/ for more information.
+  ret = run_job(
+[2026-11-11 16:09:06,080][root][INFO] - args.local_rank -1
+[2026-11-11 16:09:06,080][root][INFO] - WORLD_SIZE None
+[2026-11-11 16:09:06,174][root][INFO] - Initialized host autodl-container-b322478f1d-26a9dca4 as d.rank -1 on device=cuda, n_gpu=1, world size=1
+[2026-11-11 16:09:06,174][root][INFO] - 16-bits training: False 
+[2026-11-11 16:09:06,175][root][INFO] - CFG (after gpu  configuration):
+[2026-11-11 16:09:06,180][root][INFO] - encoder:
+  encoder_model_type: hf_bert
+  pretrained_model_cfg: google-bert/bert-base-uncased
+  pretrained_file: null
+  projection_dim: 0
+  sequence_length: 512
+  dropout: 0.1
+  fix_ctx_encoder: false
+  pretrained: true
+  cache_dir: /root/autodl-tmp/SeDPO_NIPS25/cache
+train:
+  batch_size: 64
+  dev_batch_size: ${.batch_size}
+  adam_eps: 1.0e-08
+  adam_betas: (0.9, 0.999)
+  max_grad_norm: 2.0
+  log_batch_step: 50
+  train_rolling_loss_step: 100
+  weight_decay: 0.0
+  learning_rate: 1.0e-05
+  lr: null
+  fp16_adam_stats: null
+  warmup_steps: 86
+  gradient_accumulation_steps: 1
+  num_train_epochs: 6
+  eval_per_epoch: 1.0e-12
+  hard_negatives: 20
+  other_negatives: 20
+  val_av_rank_hard_neg: ${.hard_negatives}
+  val_av_rank_other_neg: ${.other_negatives}
+  val_av_rank_bsz: 128
+  val_av_rank_max_qs: 10000
+  num_save_epochs: 2
+datasets:
+  train_file: /root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/scored
+  valid_file: /root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/scored
+  top_k: 20
+  loss_type: dpr
+  hard_neg: true
+  prompt_pool_path: /root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/prompt_pool
+  prompt_setup_type: qa
+  task_setup_type: q
+  train_clusters: close_qa
+  multi_task: false
+  se2_dataset:
+    _target_: dpr.data.biencoder_data.Se2Dataset
+    file: ${..train_file}
+    top_k: ${..top_k}
+    loss_type: ${..loss_type}
+    hard_neg: ${..hard_neg}
+    prompt_pool_path: ${..prompt_pool_path}
+    prompt_setup_type: ${..prompt_setup_type}
+    task_setup_type: ${..task_setup_type}
+    train_clusters: ${..train_clusters}
+    multi_task: ${..multi_task}
+    split: train
+  se2_valid_dataset:
+    _target_: dpr.data.biencoder_data.Se2Dataset
+    file: ${..valid_file}
+    top_k: ${..top_k}
+    hard_neg: ${..hard_neg}
+    prompt_pool_path: ${..prompt_pool_path}
+    prompt_setup_type: ${..prompt_setup_type}
+    task_setup_type: ${..task_setup_type}
+    train_clusters: ${..train_clusters}
+    multi_task: ${..multi_task}
+    split: valid
+  break_train_q:
+    _target_: dpr.data.biencoder_data.JsonQADataset
+    file: data.retriever.break-train-q
+  break_train_qd:
+    _target_: dpr.data.biencoder_data.JsonQADataset
+    file: data.retriever.break-train-qd
+  break_train_d:
+    _target_: dpr.data.biencoder_data.JsonQADataset
+    file: data.retriever.break-train-d
+  grailqa_dev:
+    _target_: dpr.data.biencoder_data.JsonQADataset
+    file: data.retriever.grailqa-dev
+  grailqa_train:
+    _target_: dpr.data.biencoder_data.JsonQADataset
+    file: data.retriever.grailqa-train
+  nq_train:
+    _target_: dpr.data.biencoder_data.JsonQADataset
+    file: data.retriever.nq-train
+  nq_train_hn1:
+    _target_: dpr.data.biencoder_data.JsonQADataset
+    file: data.retriever.nq-adv-hn-train
+  nq_dev:
+    _target_: dpr.data.biencoder_data.JsonQADataset
+    file: data.retriever.nq-dev
+  trivia_train:
+    _target_: dpr.data.biencoder_data.JsonQADataset
+    file: data.retriever.trivia-train
+  trivia_dev:
+    _target_: dpr.data.biencoder_data.JsonQADataset
+    file: data.retriever.trivia-dev
+  squad1_train:
+    _target_: dpr.data.biencoder_data.JsonQADataset
+    file: data.retriever.squad1-train
+  squad1_dev:
+    _target_: dpr.data.biencoder_data.JsonQADataset
+    file: data.retriever.squad1-dev
+  webq_train:
+    _target_: dpr.data.biencoder_data.JsonQADataset
+    file: data.retriever.webq-train
+  webq_dev:
+    _target_: dpr.data.biencoder_data.JsonQADataset
+    file: data.retriever.webq-dev
+  curatedtrec_train:
+    _target_: dpr.data.biencoder_data.JsonQADataset
+    file: data.retriever.curatedtrec-train
+  curatedtrec_dev:
+    _target_: dpr.data.biencoder_data.JsonQADataset
+    file: data.retriever.curatedtrec-dev
+loss_type: dpr
+train_datasets:
+- se2_dataset
+dev_datasets:
+- se2_valid_dataset
+output_dir: /root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/experiment/close_qa_warmup86_seed12345/model
+train_sampling_rates: null
+loss_scale_factors: null
+do_lower_case: true
+fix_ctx_encoder: false
+val_av_rank_start_epoch: 0
+seed: 12345
+checkpoint_file_name: dpr_biencoder
+model_file: null
+local_rank: -1
+global_loss_buf_sz: 592000
+device: cuda
+distributed_world_size: 1
+distributed_port: null
+no_cuda: false
+n_gpu: 1
+fp16: false
+fp16_opt_level: O1
+special_tokens: null
+ignore_checkpoint_offset: false
+ignore_checkpoint_optimizer: false
+multi_q_encoder: false
+
+[2026-11-11 16:09:06,180][root][INFO] - ***** Initializing components for training *****
+[2026-11-11 16:09:06,180][root][INFO] - Checkpoint files []
+[2026-11-11 16:09:13,549][root][INFO] - [GRAD_CKPT] 已启用梯度检查点，编码器数=2（显存降至约1/5，耗时+20~25%）
+[2026-11-11 16:09:13,549][dpr.utils.conf_utils][INFO] - train_datasets: ['se2_dataset']
+[2026-11-11 16:09:13,555][dpr.data.biencoder_data][INFO] - loss_type: dpr
+[2026-11-11 16:09:13,556][dpr.utils.tasks][INFO] - prompt pool dirs: ['/root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/prompt_pool/close_qa/*']
+[2026-11-11 16:09:13,557][dpr.data.biencoder_data][INFO] - prompt files: ['/root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/prompt_pool/close_qa/arc_c_prompts.json']
+[2026-11-11 16:09:13,557][root][INFO] - Reading file /root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/prompt_pool/close_qa/arc_c_prompts.json
+[2026-11-11 16:09:13,560][root][INFO] - Aggregated data size: 1117
+[2026-11-11 16:09:13,560][dpr.data.biencoder_data][INFO] - prompt passages num : 1117
+[2026-11-11 16:09:13,561][dpr.utils.conf_utils][INFO] - dev_datasets: ['se2_valid_dataset']
+[2026-11-11 16:09:13,563][dpr.data.biencoder_data][INFO] - loss_type: dpr
+[2026-11-11 16:09:13,564][dpr.utils.tasks][INFO] - prompt pool dirs: ['/root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/prompt_pool/close_qa/*']
+[2026-11-11 16:09:13,564][dpr.data.biencoder_data][INFO] - prompt files: ['/root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/prompt_pool/close_qa/arc_c_prompts.json']
+[2026-11-11 16:09:13,564][root][INFO] - Reading file /root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/prompt_pool/close_qa/arc_c_prompts.json
+[2026-11-11 16:09:13,567][root][INFO] - Aggregated data size: 1117
+[2026-11-11 16:09:13,567][dpr.data.biencoder_data][INFO] - prompt passages num : 1117
+[2026-11-11 16:09:13,568][root][INFO] - Initializing task/set data ['se2_dataset']
+[2026-11-11 16:09:13,568][dpr.data.biencoder_data][INFO] - cluster files: ['/root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/scored/close_qa/*_scored_train.json']
+[2026-11-11 16:09:13,568][dpr.data.biencoder_data][INFO] - Toal files num 1
+[2026-11-11 16:09:13,568][dpr.data.biencoder_data][INFO] - dpr files: ['/root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/scored/close_qa/arc_c_scored_train.json']
+[2026-11-11 16:09:13,568][root][INFO] - Reading file /root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/scored/close_qa/arc_c_scored_train.json
+[2026-11-11 16:09:13,835][root][INFO] - Aggregated data size: 810
+[2026-11-11 16:09:13,836][dpr.data.biencoder_data][INFO] - ********len(raw_data): 810
+[2026-11-11 16:09:14,935][dpr.data.biencoder_data][INFO] - filter out data for : -8342
+[2026-11-11 16:09:14,936][dpr.data.biencoder_data][INFO] - Total filtered data size: 9152
+[2026-11-11 16:09:14,949][root][INFO] - samples_per_shard=9152, shard_start_idx=0, shard_end_idx=9152, max_iterations=143
+[2026-11-11 16:09:14,949][root][INFO] - rank=-1; Multi set data sizes [9152]
+[2026-11-11 16:09:14,949][root][INFO] - rank=-1; Multi set total data 9152
+[2026-11-11 16:09:14,949][root][INFO] - rank=-1; Multi set sampling_rates None
+[2026-11-11 16:09:14,949][root][INFO] - rank=-1; Multi set max_iterations per dataset [143]
+[2026-11-11 16:09:14,949][root][INFO] - rank=-1; Multi set max_iterations 143
+[2026-11-11 16:09:14,949][root][INFO] -   Total iterations per epoch=143
+[2026-11-11 16:09:14,949][root][INFO] -  Total updates=858
+[2026-11-11 16:09:14,950][root][INFO] -   Eval step = 143000000000000
+[2026-11-11 16:09:14,950][root][INFO] - ***** Training *****
+[2026-11-11 16:09:14,950][root][INFO] - ***** Epoch 0 *****
+[2026-11-11 16:09:14,951][root][INFO] - rank=-1; Iteration start
+[2026-11-11 16:09:14,951][root][INFO] - rank=-1; Multi set iteration: iteration ptr per set: [0]
+[2026-11-11 16:09:14,951][root][INFO] - rank=-1; Multi set iteration: source 0, batches to be taken: 143
+[2026-11-11 16:09:14,951][root][INFO] - rank=-1; data_src_indices len=143
+[2026-11-11 16:09:18,411][root][INFO] - Epoch: 0: Step: 1/143, loss=1.104281, lr=0.000000, pf=2, r=1.000000, beta=0.100000, ckpt=None, drej=1
+[2026-11-11 16:11:45,043][root][INFO] - Epoch: 0: Step: 51/143, loss=0.752882, lr=0.000006, pf=2, r=1.000000, beta=0.100000, ckpt=None, drej=1
+[2026-11-11 16:14:08,766][root][INFO] - Train batch 100
+[2026-11-11 16:14:08,766][root][INFO] - Avg. loss per last 100 batches: 0.819093
+[2026-11-11 16:14:12,318][root][INFO] - Epoch: 0: Step: 101/143, loss=0.756958, lr=0.000010, pf=2, r=1.000000, beta=0.100000, ckpt=None, drej=1
+[2026-11-11 16:16:15,591][root][INFO] - rank=-1; last iteration 143
+[2026-11-11 16:16:15,592][root][INFO] - rank=-1; Multi set iteration finished: iteration per set: [143]
+[2026-11-11 16:16:15,592][root][INFO] - Finished iterating, iteration=143, shard=0
+[2026-11-11 16:16:15,592][root][INFO] - rank=-1; Multi set iteration finished after next: iteration per set: [0]
+[2026-11-11 16:16:15,592][root][INFO] - Epoch finished on -1
+[2026-11-11 16:16:15,592][root][INFO] - Average rank validation ...
+[2026-11-11 16:16:15,594][root][INFO] - Initializing task/set data ['se2_valid_dataset']
+[2026-11-11 16:16:15,594][dpr.data.biencoder_data][INFO] - cluster files: ['/root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/scored/close_qa/*_scored_valid.json']
+[2026-11-11 16:16:15,595][dpr.data.biencoder_data][INFO] - Toal files num 1
+[2026-11-11 16:16:15,595][dpr.data.biencoder_data][INFO] - dpr files: ['/root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/scored/close_qa/arc_c_scored_valid.json']
+[2026-11-11 16:16:15,595][root][INFO] - Reading file /root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/scored/close_qa/arc_c_scored_valid.json
+[2026-11-11 16:16:15,615][root][INFO] - Aggregated data size: 90
+[2026-11-11 16:16:15,615][dpr.data.biencoder_data][INFO] - ********len(raw_data): 90
+[2026-11-11 16:16:15,696][dpr.data.biencoder_data][INFO] - filter out data for : -1188
+[2026-11-11 16:16:15,696][dpr.data.biencoder_data][INFO] - Total filtered data size: 1278
+[2026-11-11 16:16:15,697][root][INFO] - samples_per_shard=1278, shard_start_idx=0, shard_end_idx=1278, max_iterations=19
+[2026-11-11 16:16:15,697][root][INFO] - rank=-1; Multi set data sizes [1278]
+[2026-11-11 16:16:15,697][root][INFO] - rank=-1; Multi set total data 1278
+[2026-11-11 16:16:15,697][root][INFO] - rank=-1; Multi set sampling_rates [1]
+[2026-11-11 16:16:15,697][root][INFO] - rank=-1; Multi set max_iterations per dataset [19]
+[2026-11-11 16:16:15,697][root][INFO] - rank=-1; Multi set max_iterations 19
+[2026-11-11 16:16:15,698][root][INFO] - rank=-1; Iteration start
+[2026-11-11 16:16:15,698][root][INFO] - rank=-1; Multi set iteration: iteration ptr per set: [0]
+[2026-11-11 16:16:15,698][root][INFO] - rank=-1; Multi set iteration: source 0, batches to be taken: 19
+[2026-11-11 16:16:15,698][root][INFO] - rank=-1; data_src_indices len=19
+[2026-11-11 16:16:28,972][root][INFO] - rank=-1; last iteration 19
+[2026-11-11 16:16:28,973][root][INFO] - rank=-1; Multi set iteration finished: iteration per set: [19]
+[2026-11-11 16:16:28,973][root][INFO] - Finished iterating, iteration=19, shard=0
+[2026-11-11 16:16:28,973][root][INFO] - rank=-1; Multi set iteration finished after next: iteration per set: [0]
+[2026-11-11 16:16:28,979][root][INFO] - Av.rank validation: total q_vectors size=torch.Size([1216, 768])
+[2026-11-11 16:16:28,980][root][INFO] - Av.rank validation: total ctx_vectors size=torch.Size([2432, 768])
+[2026-11-11 16:16:29,095][root][INFO] - Av.rank validation: average rank 1115.6595394736842, total questions=1216
+[2026-11-11 16:16:29,099][root][INFO] - Av Loss per epoch=0.798848
+[2026-11-11 16:16:29,099][root][INFO] - epoch total correct predictions=82
+[2026-11-11 16:16:29,100][root][INFO] - ***** Epoch 1 *****
+[2026-11-11 16:16:29,101][root][INFO] - rank=-1; Iteration start
+[2026-11-11 16:16:29,101][root][INFO] - rank=-1; Multi set iteration: iteration ptr per set: [0]
+[2026-11-11 16:16:29,101][root][INFO] - rank=-1; Multi set iteration: source 0, batches to be taken: 143
+[2026-11-11 16:16:29,101][root][INFO] - rank=-1; data_src_indices len=143
+[2026-11-11 16:16:32,159][root][INFO] - Epoch: 1: Step: 1/143, loss=0.813606, lr=0.000009, pf=2, r=1.000000, beta=0.100000, ckpt=None, drej=1
+[2026-11-11 16:18:59,500][root][INFO] - Epoch: 1: Step: 51/143, loss=0.699137, lr=0.000009, pf=2, r=1.000000, beta=0.100000, ckpt=None, drej=1
+[2026-11-11 16:21:23,477][root][INFO] - Train batch 100
+[2026-11-11 16:21:23,477][root][INFO] - Avg. loss per last 100 batches: 0.728999
+[2026-11-11 16:21:27,038][root][INFO] - Epoch: 1: Step: 101/143, loss=0.621742, lr=0.000008, pf=2, r=1.000000, beta=0.100000, ckpt=None, drej=1
+[2026-11-11 16:23:30,442][root][INFO] - rank=-1; last iteration 143
+[2026-11-11 16:23:30,442][root][INFO] - rank=-1; Multi set iteration finished: iteration per set: [143]
+[2026-11-11 16:23:30,442][root][INFO] - Finished iterating, iteration=143, shard=0
+[2026-11-11 16:23:30,442][root][INFO] - rank=-1; Multi set iteration finished after next: iteration per set: [0]
+[2026-11-11 16:23:30,442][root][INFO] - Epoch finished on -1
+[2026-11-11 16:23:33,914][root][INFO] - Saved checkpoint at /root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/experiment/close_qa_warmup86_seed12345/model/dpr_biencoder.1
+[2026-11-11 16:23:33,915][root][INFO] - Saved checkpoint to /root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/experiment/close_qa_warmup86_seed12345/model/dpr_biencoder.1
+[2026-11-11 16:23:33,915][root][INFO] - Average rank validation ...
+[2026-11-11 16:23:33,916][root][INFO] - rank=-1; Iteration start
+[2026-11-11 16:23:33,917][root][INFO] - rank=-1; Multi set iteration: iteration ptr per set: [0]
+[2026-11-11 16:23:33,917][root][INFO] - rank=-1; Multi set iteration: source 0, batches to be taken: 19
+[2026-11-11 16:23:33,917][root][INFO] - rank=-1; data_src_indices len=19
+[2026-11-11 16:23:46,805][root][INFO] - rank=-1; last iteration 19
+[2026-11-11 16:23:46,805][root][INFO] - rank=-1; Multi set iteration finished: iteration per set: [19]
+[2026-11-11 16:23:46,805][root][INFO] - Finished iterating, iteration=19, shard=0
+[2026-11-11 16:23:46,805][root][INFO] - rank=-1; Multi set iteration finished after next: iteration per set: [0]
+[2026-11-11 16:23:46,813][root][INFO] - Av.rank validation: total q_vectors size=torch.Size([1216, 768])
+[2026-11-11 16:23:46,813][root][INFO] - Av.rank validation: total ctx_vectors size=torch.Size([2432, 768])
+[2026-11-11 16:23:46,901][root][INFO] - Av.rank validation: average rank 1105.202302631579, total questions=1216
+[2026-11-11 16:23:46,905][root][INFO] - New Best validation checkpoint /root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/experiment/close_qa_warmup86_seed12345/model/dpr_biencoder.1
+[2026-11-11 16:23:49,842][root][INFO] - Saved checkpoint at /root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/experiment/close_qa_warmup86_seed12345/model/dpr_biencoder.best_valid
+[2026-11-11 16:23:49,843][root][INFO] - Av Loss per epoch=0.720755
+[2026-11-11 16:23:49,843][root][INFO] - epoch total correct predictions=110
+[2026-11-11 16:23:49,844][root][INFO] - ***** Epoch 2 *****
+[2026-11-11 16:23:49,845][root][INFO] - rank=-1; Iteration start
+[2026-11-11 16:23:49,845][root][INFO] - rank=-1; Multi set iteration: iteration ptr per set: [0]
+[2026-11-11 16:23:49,845][root][INFO] - rank=-1; Multi set iteration: source 0, batches to be taken: 143
+[2026-11-11 16:23:49,845][root][INFO] - rank=-1; data_src_indices len=143
+[2026-11-11 16:23:52,898][root][INFO] - Epoch: 2: Step: 1/143, loss=0.682623, lr=0.000007, pf=2, r=1.000000, beta=0.100000, ckpt=None, drej=1
+[2026-11-11 16:26:20,586][root][INFO] - Epoch: 2: Step: 51/143, loss=0.607540, lr=0.000007, pf=2, r=1.000000, beta=0.100000, ckpt=None, drej=1
+[2026-11-11 16:28:44,701][root][INFO] - Train batch 100
+[2026-11-11 16:28:44,701][root][INFO] - Avg. loss per last 100 batches: 0.673011
+[2026-11-11 16:28:48,264][root][INFO] - Epoch: 2: Step: 101/143, loss=0.728104, lr=0.000006, pf=2, r=1.000000, beta=0.100000, ckpt=None, drej=1
+[2026-11-11 16:30:51,844][root][INFO] - rank=-1; last iteration 143
+[2026-11-11 16:30:51,845][root][INFO] - rank=-1; Multi set iteration finished: iteration per set: [143]
+[2026-11-11 16:30:51,845][root][INFO] - Finished iterating, iteration=143, shard=0
+[2026-11-11 16:30:51,845][root][INFO] - rank=-1; Multi set iteration finished after next: iteration per set: [0]
+[2026-11-11 16:30:51,845][root][INFO] - Epoch finished on -1
+[2026-11-11 16:30:51,845][root][INFO] - Average rank validation ...
+[2026-11-11 16:30:51,847][root][INFO] - rank=-1; Iteration start
+[2026-11-11 16:30:51,847][root][INFO] - rank=-1; Multi set iteration: iteration ptr per set: [0]
+[2026-11-11 16:30:51,847][root][INFO] - rank=-1; Multi set iteration: source 0, batches to be taken: 19
+[2026-11-11 16:30:51,847][root][INFO] - rank=-1; data_src_indices len=19
+[2026-11-11 16:31:05,250][root][INFO] - rank=-1; last iteration 19
+[2026-11-11 16:31:05,250][root][INFO] - rank=-1; Multi set iteration finished: iteration per set: [19]
+[2026-11-11 16:31:05,250][root][INFO] - Finished iterating, iteration=19, shard=0
+[2026-11-11 16:31:05,250][root][INFO] - rank=-1; Multi set iteration finished after next: iteration per set: [0]
+[2026-11-11 16:31:05,258][root][INFO] - Av.rank validation: total q_vectors size=torch.Size([1216, 768])
+[2026-11-11 16:31:05,258][root][INFO] - Av.rank validation: total ctx_vectors size=torch.Size([2432, 768])
+[2026-11-11 16:31:05,381][root][INFO] - Av.rank validation: average rank 1095.1850328947369, total questions=1216
+[2026-11-11 16:31:05,384][root][INFO] - Av Loss per epoch=0.670565
+[2026-11-11 16:31:05,384][root][INFO] - epoch total correct predictions=124
+[2026-11-11 16:31:05,385][root][INFO] - ***** Epoch 3 *****
+[2026-11-11 16:31:05,386][root][INFO] - rank=-1; Iteration start
+[2026-11-11 16:31:05,386][root][INFO] - rank=-1; Multi set iteration: iteration ptr per set: [0]
+[2026-11-11 16:31:05,387][root][INFO] - rank=-1; Multi set iteration: source 0, batches to be taken: 143
+[2026-11-11 16:31:05,387][root][INFO] - rank=-1; data_src_indices len=143
+[2026-11-11 16:31:08,428][root][INFO] - Epoch: 3: Step: 1/143, loss=0.638352, lr=0.000006, pf=2, r=1.000000, beta=0.100000, ckpt=None, drej=1
+[2026-11-11 16:33:36,375][root][INFO] - Epoch: 3: Step: 51/143, loss=0.636717, lr=0.000005, pf=2, r=1.000000, beta=0.100000, ckpt=None, drej=1
+[2026-11-11 16:36:00,869][root][INFO] - Train batch 100
+[2026-11-11 16:36:00,869][root][INFO] - Avg. loss per last 100 batches: 0.636837
+[2026-11-11 16:36:04,422][root][INFO] - Epoch: 3: Step: 101/143, loss=0.608334, lr=0.000004, pf=2, r=1.000000, beta=0.100000, ckpt=None, drej=1
+[2026-11-11 16:38:07,823][root][INFO] - rank=-1; last iteration 143
+[2026-11-11 16:38:07,823][root][INFO] - rank=-1; Multi set iteration finished: iteration per set: [143]
+[2026-11-11 16:38:07,823][root][INFO] - Finished iterating, iteration=143, shard=0
+[2026-11-11 16:38:07,823][root][INFO] - rank=-1; Multi set iteration finished after next: iteration per set: [0]
+[2026-11-11 16:38:07,823][root][INFO] - Epoch finished on -1
+[2026-11-11 16:38:11,424][root][INFO] - Saved checkpoint at /root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/experiment/close_qa_warmup86_seed12345/model/dpr_biencoder.3
+[2026-11-11 16:38:11,425][root][INFO] - Saved checkpoint to /root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/experiment/close_qa_warmup86_seed12345/model/dpr_biencoder.3
+[2026-11-11 16:38:11,425][root][INFO] - Average rank validation ...
+[2026-11-11 16:38:11,428][root][INFO] - rank=-1; Iteration start
+[2026-11-11 16:38:11,428][root][INFO] - rank=-1; Multi set iteration: iteration ptr per set: [0]
+[2026-11-11 16:38:11,428][root][INFO] - rank=-1; Multi set iteration: source 0, batches to be taken: 19
+[2026-11-11 16:38:11,428][root][INFO] - rank=-1; data_src_indices len=19
+[2026-11-11 16:38:24,256][root][INFO] - rank=-1; last iteration 19
+[2026-11-11 16:38:24,256][root][INFO] - rank=-1; Multi set iteration finished: iteration per set: [19]
+[2026-11-11 16:38:24,256][root][INFO] - Finished iterating, iteration=19, shard=0
+[2026-11-11 16:38:24,256][root][INFO] - rank=-1; Multi set iteration finished after next: iteration per set: [0]
+[2026-11-11 16:38:24,265][root][INFO] - Av.rank validation: total q_vectors size=torch.Size([1216, 768])
+[2026-11-11 16:38:24,265][root][INFO] - Av.rank validation: total ctx_vectors size=torch.Size([2432, 768])
+[2026-11-11 16:38:24,388][root][INFO] - Av.rank validation: average rank 1092.6340460526317, total questions=1216
+[2026-11-11 16:38:24,392][root][INFO] - New Best validation checkpoint /root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/experiment/close_qa_warmup86_seed12345/model/dpr_biencoder.3
+[2026-11-11 16:38:28,143][root][INFO] - Saved checkpoint at /root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/experiment/close_qa_warmup86_seed12345/model/dpr_biencoder.best_valid
+[2026-11-11 16:38:28,143][root][INFO] - Av Loss per epoch=0.639600
+[2026-11-11 16:38:28,143][root][INFO] - epoch total correct predictions=130
+[2026-11-11 16:38:28,144][root][INFO] - ***** Epoch 4 *****
+[2026-11-11 16:38:28,146][root][INFO] - rank=-1; Iteration start
+[2026-11-11 16:38:28,146][root][INFO] - rank=-1; Multi set iteration: iteration ptr per set: [0]
+[2026-11-11 16:38:28,146][root][INFO] - rank=-1; Multi set iteration: source 0, batches to be taken: 143
+[2026-11-11 16:38:28,146][root][INFO] - rank=-1; data_src_indices len=143
+[2026-11-11 16:38:31,176][root][INFO] - Epoch: 4: Step: 1/143, loss=0.519542, lr=0.000004, pf=2, r=1.000000, beta=0.100000, ckpt=None, drej=1
+[2026-11-11 16:40:58,406][root][INFO] - Epoch: 4: Step: 51/143, loss=0.555373, lr=0.000003, pf=2, r=1.000000, beta=0.100000, ckpt=None, drej=1
+[2026-11-11 16:43:22,267][root][INFO] - Train batch 100
+[2026-11-11 16:43:22,267][root][INFO] - Avg. loss per last 100 batches: 0.622111
+[2026-11-11 16:43:25,818][root][INFO] - Epoch: 4: Step: 101/143, loss=0.666053, lr=0.000002, pf=2, r=1.000000, beta=0.100000, ckpt=None, drej=1
+[2026-11-11 16:45:29,307][root][INFO] - rank=-1; last iteration 143
+[2026-11-11 16:45:29,307][root][INFO] - rank=-1; Multi set iteration finished: iteration per set: [143]
+[2026-11-11 16:45:29,307][root][INFO] - Finished iterating, iteration=143, shard=0
+[2026-11-11 16:45:29,307][root][INFO] - rank=-1; Multi set iteration finished after next: iteration per set: [0]
+[2026-11-11 16:45:29,307][root][INFO] - Epoch finished on -1
+[2026-11-11 16:45:32,906][root][INFO] - Saved checkpoint at /root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/experiment/close_qa_warmup86_seed12345/model/dpr_biencoder.4
+[2026-11-11 16:45:32,907][root][INFO] - Saved checkpoint to /root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/experiment/close_qa_warmup86_seed12345/model/dpr_biencoder.4
+[2026-11-11 16:45:32,908][root][INFO] - Average rank validation ...
+[2026-11-11 16:45:32,910][root][INFO] - rank=-1; Iteration start
+[2026-11-11 16:45:32,910][root][INFO] - rank=-1; Multi set iteration: iteration ptr per set: [0]
+[2026-11-11 16:45:32,910][root][INFO] - rank=-1; Multi set iteration: source 0, batches to be taken: 19
+[2026-11-11 16:45:32,910][root][INFO] - rank=-1; data_src_indices len=19
+[2026-11-11 16:45:45,731][root][INFO] - rank=-1; last iteration 19
+[2026-11-11 16:45:45,731][root][INFO] - rank=-1; Multi set iteration finished: iteration per set: [19]
+[2026-11-11 16:45:45,731][root][INFO] - Finished iterating, iteration=19, shard=0
+[2026-11-11 16:45:45,731][root][INFO] - rank=-1; Multi set iteration finished after next: iteration per set: [0]
+[2026-11-11 16:45:45,739][root][INFO] - Av.rank validation: total q_vectors size=torch.Size([1216, 768])
+[2026-11-11 16:45:45,739][root][INFO] - Av.rank validation: total ctx_vectors size=torch.Size([2432, 768])
+[2026-11-11 16:45:45,802][root][INFO] - Av.rank validation: average rank 1091.4144736842106, total questions=1216
+[2026-11-11 16:45:45,805][root][INFO] - New Best validation checkpoint /root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/experiment/close_qa_warmup86_seed12345/model/dpr_biencoder.4
+[2026-11-11 16:45:49,716][root][INFO] - Saved checkpoint at /root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/experiment/close_qa_warmup86_seed12345/model/dpr_biencoder.best_valid
+[2026-11-11 16:45:49,717][root][INFO] - Av Loss per epoch=0.619334
+[2026-11-11 16:45:49,717][root][INFO] - epoch total correct predictions=151
+[2026-11-11 16:45:49,718][root][INFO] - ***** Epoch 5 *****
+[2026-11-11 16:45:49,719][root][INFO] - rank=-1; Iteration start
+[2026-11-11 16:45:49,719][root][INFO] - rank=-1; Multi set iteration: iteration ptr per set: [0]
+[2026-11-11 16:45:49,719][root][INFO] - rank=-1; Multi set iteration: source 0, batches to be taken: 143
+[2026-11-11 16:45:49,719][root][INFO] - rank=-1; data_src_indices len=143
+[2026-11-11 16:45:52,763][root][INFO] - Epoch: 5: Step: 1/143, loss=0.664592, lr=0.000002, pf=2, r=1.000000, beta=0.100000, ckpt=None, drej=1
+[2026-11-11 16:48:20,279][root][INFO] - Epoch: 5: Step: 51/143, loss=0.493778, lr=0.000001, pf=2, r=1.000000, beta=0.100000, ckpt=None, drej=1
+[2026-11-11 16:50:44,245][root][INFO] - Train batch 100
+[2026-11-11 16:50:44,246][root][INFO] - Avg. loss per last 100 batches: 0.603491
+[2026-11-11 16:50:47,800][root][INFO] - Epoch: 5: Step: 101/143, loss=0.551986, lr=0.000001, pf=2, r=1.000000, beta=0.100000, ckpt=None, drej=1
+[2026-11-11 16:52:51,021][root][INFO] - rank=-1; last iteration 143
+[2026-11-11 16:52:51,021][root][INFO] - rank=-1; Multi set iteration finished: iteration per set: [143]
+[2026-11-11 16:52:51,022][root][INFO] - Finished iterating, iteration=143, shard=0
+[2026-11-11 16:52:51,022][root][INFO] - rank=-1; Multi set iteration finished after next: iteration per set: [0]
+[2026-11-11 16:52:51,022][root][INFO] - Epoch finished on -1
+[2026-11-11 16:52:55,278][root][INFO] - Saved checkpoint at /root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/experiment/close_qa_warmup86_seed12345/model/dpr_biencoder.5
+[2026-11-11 16:52:55,279][root][INFO] - Saved checkpoint to /root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/experiment/close_qa_warmup86_seed12345/model/dpr_biencoder.5
+[2026-11-11 16:52:55,279][root][INFO] - Average rank validation ...
+[2026-11-11 16:52:55,284][root][INFO] - rank=-1; Iteration start
+[2026-11-11 16:52:55,284][root][INFO] - rank=-1; Multi set iteration: iteration ptr per set: [0]
+[2026-11-11 16:52:55,284][root][INFO] - rank=-1; Multi set iteration: source 0, batches to be taken: 19
+[2026-11-11 16:52:55,284][root][INFO] - rank=-1; data_src_indices len=19
+[2026-11-11 16:53:08,461][root][INFO] - rank=-1; last iteration 19
+[2026-11-11 16:53:08,461][root][INFO] - rank=-1; Multi set iteration finished: iteration per set: [19]
+[2026-11-11 16:53:08,461][root][INFO] - Finished iterating, iteration=19, shard=0
+[2026-11-11 16:53:08,462][root][INFO] - rank=-1; Multi set iteration finished after next: iteration per set: [0]
+[2026-11-11 16:53:08,469][root][INFO] - Av.rank validation: total q_vectors size=torch.Size([1216, 768])
+[2026-11-11 16:53:08,469][root][INFO] - Av.rank validation: total ctx_vectors size=torch.Size([2432, 768])
+[2026-11-11 16:53:08,587][root][INFO] - Av.rank validation: average rank 1094.891447368421, total questions=1216
+[2026-11-11 16:53:08,593][root][INFO] - Av Loss per epoch=0.602379
+[2026-11-11 16:53:08,593][root][INFO] - epoch total correct predictions=162
+[2026-11-11 16:53:08,596][root][INFO] - Training finished. Best validation checkpoint /root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/experiment/close_qa_warmup86_seed12345/model/dpr_biencoder.4

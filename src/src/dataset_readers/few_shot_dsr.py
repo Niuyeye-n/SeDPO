@@ -61,15 +61,26 @@ class FewShotDatasetReader(torch.utils.data.Dataset):
 
         self.shot_num = shot_num
         self.n_tokens_in_prompt = n_tokens
+        self._cur_index = 0  # 2026-11-05 F3：random_sample 分支的兜底计数器
         self.num_processes = 1
         self.process_index = 0
         self.order_id = order_id
         
     def __getitem__(self, index):
+        # 2026-11-05 F3：把下标带进 entry，让 random_sample 分支能按问题派生种子
         if self.task.class_num == 1:
-            return self.text_to_instance_completion(self.prompts[index])
+            _e = self.prompts[index]
         else:
-            return self.text_to_instance_choice(self.prompts[index])
+            _e = self.prompts[index]
+        if isinstance(_e, dict):
+            _e = dict(_e)
+            _e["_rid"] = index
+        else:
+            _e = {"_rid": index}
+        if self.task.class_num == 1:
+            return self.text_to_instance_completion(_e)
+        else:
+            return self.text_to_instance_choice(_e)
 
     def __len__(self):
         return len(self.prompts)
@@ -110,9 +121,16 @@ class FewShotDatasetReader(torch.utils.data.Dataset):
             if len(prompts_list) <=1: prompts_list = []
             else: prompts_list = prompts_list[:-1]
         elif self.random_sample:
-            random.seed(self.random_seed)
+            # 2026-11-05 F3 修复：原码在 per-sample 路径里每次都重置同一个种子，
+            # 导致所有问题复用完全相同的 K 个随机示例（Random 基线失去意义）。
+            # 改为按问题序号派生种子：既可复现，又保证每个问题抽到不同示例。
+            _rid = entry.get("_rid", None)
+            if _rid is None:
+                _rid = self._cur_index
+                self._cur_index += 1
+            random.seed(self.random_seed * 1000003 + int(_rid))
             prompts_list = [
-                p for p in random.choices(self.prompt_pool, k=self.shot_num)
+                p for p in random.sample(self.prompt_pool, k=self.shot_num)
             ]
         else:
             prompts_list = [p["meta_data"] for p in entry["ctxs"]]

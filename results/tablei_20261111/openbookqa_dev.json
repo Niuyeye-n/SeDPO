@@ -1,0 +1,602 @@
+[
+  {
+    "id": "702",
+    "question": "An example of a seasonal change that a furry animal might adopt could be similar to:",
+    "options": [
+      "A pumpkin growing seeds internally",
+      "A store setting up their Christmas displays",
+      "A man looking for breakfast after many hours without food",
+      "humans pulling out their heavy outerwear"
+    ],
+    "gold": 3,
+    "fact": "An example of a seasonal change is an animal growing thick fur for keeping warm in the winter"
+  },
+  {
+    "id": "875",
+    "question": "As they are immobile, what is an example of how animal life helps the reproduction cycle of plants?",
+    "options": [
+      "squirrels dropping seeds",
+      "birds building nests",
+      "human lumber industry",
+      "bugs eating leaves"
+    ],
+    "gold": 0,
+    "fact": "In the tree reproduction process a squirrel has the role of seed disperser"
+  },
+  {
+    "id": "364",
+    "question": "What season is December in the southern hemisphere?",
+    "options": [
+      "when snow starts to fall",
+      "when the weather gets hot and dry",
+      "when the flowers start to bloom",
+      "when the trees change colors"
+    ],
+    "gold": 1,
+    "fact": "December is during the summer in the southern hemisphere"
+  },
+  {
+    "id": "9-288",
+    "question": "The world changes over time, and an example of this could be",
+    "options": [
+      "sand covering a beach front",
+      "a lake hosting hundreds of fish",
+      "cities buried under lava rock",
+      "seas having saltwater in them"
+    ],
+    "gold": 2,
+    "fact": "An example of a change in the Earth is an ocean becoming a wooded area"
+  },
+  {
+    "id": "1454",
+    "question": "This is a rarely used way to produce electricity.",
+    "options": [
+      "tidal energy",
+      "wind energy",
+      "solar power",
+      "hydroelectric power"
+    ],
+    "gold": 0,
+    "fact": "tidal energy can be used to produce electricity"
+  },
+  {
+    "id": "9-657",
+    "question": "A celestial body grows a few meters in size every year, and the mass increases as well. After a hundred years, the celestial body will",
+    "options": [
+      "repel the sun",
+      "have stronger gravity",
+      "attract the sun",
+      "have weaker gravity"
+    ],
+    "gold": 1,
+    "fact": "as mass of a celestial body increases , the force of gravity on that planet will increase"
+  },
+  {
+    "id": "1732",
+    "question": "After spring ends, the next time it will be spring is",
+    "options": [
+      "next month",
+      "next decade",
+      "next week",
+      "next year"
+    ],
+    "gold": 3,
+    "fact": "each season occurs once per year"
+  },
+  {
+    "id": "1637",
+    "question": "The southern and northern hemisphere's seasons are opposite each other, so when the northern hemisphere is having it's longest day, it's the southern hemisphere's",
+    "options": [
+      "winter solstice",
+      "fall equinox",
+      "summer solstice",
+      "spring equinox"
+    ],
+    "gold": 0,
+    "fact": "the winter solstice is on June 21st in the southern hemisphere"
+  },
+  {
+    "id": "1083",
+    "question": "Science fact: a cavern is formed by carbonic acid in groundwater seeping through rock and dissolving",
+    "options": [
+      "sedimentary rock which is  composed mainly of skeletal fragments of marine organisms such as coral, forams and molluscs,",
+      "metamorphic rocks that are formed under the surface of the earth from the metamorphosis,",
+      "igneous rocks which are formed when magma  cools and hardens or",
+      "artist who play the music genre called rock and roll."
+    ],
+    "gold": 0,
+    "fact": "a cavern is formed by carbonic acid in groundwater seeping through rock and dissolving limestone"
+  },
+  {
+    "id": "871",
+    "question": "Water vapor cooling over night",
+    "options": [
+      "leaves dew on people",
+      "forms black ice on bridges",
+      "forms puddles on roads",
+      "leaves behind wet foliage"
+    ],
+    "gold": 3,
+    "fact": "dew is formed when water vapor cools over night"
+  },
+  {
+    "id": "8-440",
+    "question": "if your shoe changes form at a certain heat level, what can that be described as?",
+    "options": [
+      "none of these",
+      "the liquid content of the shoe",
+      "the melting range of that item",
+      "the visual design of the shoe"
+    ],
+    "gold": 2,
+    "fact": "melting point means temperature at which a solid melts"
+  },
+  {
+    "id": "9-39",
+    "question": "how can one alter plants without interacting directly with it?",
+    "options": [
+      "do a rain dance",
+      "all of these",
+      "leave it as it is",
+      "change its current habitat"
+    ],
+    "gold": 3,
+    "fact": "changes in an environment cause plants to adapt to survive"
+  },
+  {
+    "id": "9-503",
+    "question": "migration is when animals travel from the northern most state to Texas during what segment of time?",
+    "options": [
+      "birds",
+      "spring",
+      "lake fronts",
+      "winter"
+    ],
+    "gold": 3,
+    "fact": "migration is when animals move themselves from a cooler climate to a warmer climate for the winter"
+  },
+  {
+    "id": "1064",
+    "question": "Protect the environment by",
+    "options": [
+      "using more water",
+      "using more packaging",
+      "using less renewables",
+      "using less hairspray"
+    ],
+    "gold": 3,
+    "fact": "An example of protecting the environment is reducing the amount of pollutants"
+  },
+  {
+    "id": "7-620",
+    "question": "An herbivore like a giraffe will only consume",
+    "options": [
+      "green matter",
+      "sticks",
+      "algae",
+      "cheese"
+    ],
+    "gold": 0,
+    "fact": "herbivores only eat plants"
+  },
+  {
+    "id": "9-838",
+    "question": "More sunlight will be absorbed by",
+    "options": [
+      "a rose with tiny leaves",
+      "a daisy with thin, short leaves",
+      "a peony with wide, smooth leaves",
+      "a daffodil with curled leaves"
+    ],
+    "gold": 2,
+    "fact": "as flatness of a leaf increases , the amount of sunlight that leaf can absorb will increase"
+  },
+  {
+    "id": "1840",
+    "question": "Decomposition occurs when a decomposer recycles nutrients from dead organisms back to the soil by eating them; what is an example of this?",
+    "options": [
+      "flies laying eggs on a body",
+      "worms devouring a corpse",
+      "wet leaves denigrating in a pile",
+      "slugs digging through mulch"
+    ],
+    "gold": 1,
+    "fact": "decomposition is when a decomposer recycles nutrients from dead organisms to the soil by eating those dead organisms"
+  },
+  {
+    "id": "348",
+    "question": "What source of power can be used up completely?",
+    "options": [
+      "Water",
+      "wind",
+      "sunlight",
+      "natural gas"
+    ],
+    "gold": 3,
+    "fact": "natural gas is a nonrenewable resource"
+  },
+  {
+    "id": "9-241",
+    "question": "An example of lots kinetic energy would be",
+    "options": [
+      "Drinking a cold glass of water",
+      "A snail moving across the sidewalk",
+      "sitting without moving anywhere",
+      "An aircraft taking a trip"
+    ],
+    "gold": 3,
+    "fact": "as an object moves , the kinetic energy of that object will increase"
+  },
+  {
+    "id": "9-499",
+    "question": "Which of these items can a human move by pedal power?",
+    "options": [
+      "unicycle",
+      "canoe",
+      "car",
+      "sled"
+    ],
+    "gold": 0,
+    "fact": "a human can pedal a bicycle"
+  },
+  {
+    "id": "9-684",
+    "question": "What contains moons?",
+    "options": [
+      "ships",
+      "space mass",
+      "people",
+      "plants"
+    ],
+    "gold": 1,
+    "fact": "the solar system contains the moon"
+  },
+  {
+    "id": "9-435",
+    "question": "Refraction can easily be witnessed in",
+    "options": [
+      "concrete walls",
+      "fake diamonds",
+      "Christmas ornaments",
+      "a tree"
+    ],
+    "gold": 1,
+    "fact": "objects made of glass cause refraction of light"
+  },
+  {
+    "id": "1152",
+    "question": "Using trash in the way it was used in the last scene of the 'Back to the Future' movie is, most ideally, an example of:",
+    "options": [
+      "creative filming",
+      "an alternative fuel",
+      "wishful thinking",
+      "cleaning the environment"
+    ],
+    "gold": 1,
+    "fact": "An example of creating an alternative fuel is turning plant material into fuel"
+  },
+  {
+    "id": "9-1002",
+    "question": "Which animal is known to have many learned behaviors?",
+    "options": [
+      "sea park dolphins",
+      "saltwater crocodiles",
+      "aquarium fish",
+      "plains buffaloes"
+    ],
+    "gold": 0,
+    "fact": "if an animal is trained to do something then that something is a learned behavior"
+  },
+  {
+    "id": "9-1188",
+    "question": "Windy means what is going at high speeds?",
+    "options": [
+      "water",
+      "gales",
+      "cars",
+      "dirt"
+    ],
+    "gold": 1,
+    "fact": "windy means high wind speeds"
+  },
+  {
+    "id": "9-740",
+    "question": "A man wants to use a material in a project that will be nonrenewable. The man decides to use",
+    "options": [
+      "grass",
+      "solo cups",
+      "raindrops",
+      "muddy water"
+    ],
+    "gold": 1,
+    "fact": "plastic is a nonrenewable resource"
+  },
+  {
+    "id": "239",
+    "question": "Deer entered the city",
+    "options": [
+      "to look for people",
+      "less food in the wilderness",
+      "because coyotes chased them",
+      "they have become confused"
+    ],
+    "gold": 1,
+    "fact": "if a habitat can no longer support animals then those animals will move to another area"
+  },
+  {
+    "id": "9-305",
+    "question": "The circulatory system brings oxygen to the body from where?",
+    "options": [
+      "The chest",
+      "The brain",
+      "The feet",
+      "The stomach"
+    ],
+    "gold": 0,
+    "fact": "the circulatory system brings oxygen from the lungs to the rest of the body"
+  },
+  {
+    "id": "9-851",
+    "question": "If a species population increases in the birth rate has",
+    "options": [
+      "ceased",
+      "boomed",
+      "stalled",
+      "fallen"
+    ],
+    "gold": 1,
+    "fact": "if members of a species are born then the population of that species increases"
+  },
+  {
+    "id": "7-393",
+    "question": "A swordbill is able to drink from long, narrow flowers where other birds are unable to because of",
+    "options": [
+      "the flower pushes them away",
+      "the swordbill's skill at drinking",
+      "genetic advantage of swordbills",
+      "lack of experience in pollinating"
+    ],
+    "gold": 2,
+    "fact": "a skinny beak is used for obtaining food by a bird from small spaces"
+  },
+  {
+    "id": "8-101",
+    "question": "A horse eats some hay, an apple and a sugar cube, then peacefully roams a field after eating while digesting the meal. During this time",
+    "options": [
+      "the horse throws up",
+      "the food is deconstructed",
+      "the horse is hungry",
+      "the food is poisoned"
+    ],
+    "gold": 1,
+    "fact": "the breaking down of food into simple substances occurs in the digestive system"
+  },
+  {
+    "id": "9-643",
+    "question": "What is the largest organ of the human body?",
+    "options": [
+      "kidneys",
+      "the heart",
+      "epidermis",
+      "liver"
+    ],
+    "gold": 2,
+    "fact": "the skin is the largest organ in the human body"
+  },
+  {
+    "id": "1708",
+    "question": "Jim wanted baby chickens so he gathered eggs and used a",
+    "options": [
+      "lamp",
+      "ice cube",
+      "refrigerator",
+      "snow"
+    ],
+    "gold": 0,
+    "fact": "an egg requires warmth to develop"
+  },
+  {
+    "id": "7-139",
+    "question": "Organic food is currently considered best for people because",
+    "options": [
+      "they avoid using bug killers when grown",
+      "they have more vitamins",
+      "they use pesticide when growing",
+      "they are higher in fiber"
+    ],
+    "gold": 0,
+    "fact": "eating food that contains pesticides can have a negative impact on humans"
+  },
+  {
+    "id": "7-106",
+    "question": "What offers a tree with stability and a way to distribute nutrients throughout the plant?",
+    "options": [
+      "sap",
+      "leaves",
+      "fruit",
+      "trunk"
+    ],
+    "gold": 3,
+    "fact": "a trunk is a source of support for a tree"
+  },
+  {
+    "id": "8-198",
+    "question": "if a person had one of these, they could live permanently under water",
+    "options": [
+      "a very long nose",
+      "two hands and two legs",
+      "a very big mouth",
+      "a gill for extracting gases"
+    ],
+    "gold": 3,
+    "fact": "gills are used for breathing water by aquatic animals"
+  },
+  {
+    "id": "7-1024",
+    "question": "When birds migrate south for the winter, they do it because",
+    "options": [
+      "they are genetically called to",
+      "their children ask for them to",
+      "it is important to their happiness",
+      "they decide to each year"
+    ],
+    "gold": 0,
+    "fact": "migration is an instinctive behavior"
+  },
+  {
+    "id": "231",
+    "question": "Roads present danger to animals because",
+    "options": [
+      "only chickens can cross the road",
+      "people driving cars might be unaware the animal is close by",
+      "road signs are hard to read",
+      "cops will stop them for speeding"
+    ],
+    "gold": 1,
+    "fact": "if an animal is near a road then that animal might be killed by a car"
+  },
+  {
+    "id": "7-535",
+    "question": "Viewing stars is made easier by",
+    "options": [
+      "technology that uses electromagnetic induction",
+      "technology that collects electromagnetic radiation",
+      "technology that picks up sound in space",
+      "technology that transforms kinetic energy"
+    ],
+    "gold": 1,
+    "fact": "a telescope is used for observing stars"
+  },
+  {
+    "id": "7-821",
+    "question": "Pouring lemon juice into water",
+    "options": [
+      "flavors milk with lemons",
+      "creates a beverage lemon flavored",
+      "is mostly water still",
+      "uses only real lemons"
+    ],
+    "gold": 1,
+    "fact": "dissolving a substance in water causes the water to taste like that substance"
+  },
+  {
+    "id": "7-631",
+    "question": "In the springtime, animals engage in ritual behavior such as",
+    "options": [
+      "creating bedding for young",
+      "picking flowers for mates",
+      "hunting for new prey",
+      "migrating to cold environments"
+    ],
+    "gold": 0,
+    "fact": "birds build nests in the spring"
+  },
+  {
+    "id": "9-800",
+    "question": "A beaver is going to experience a long winter in the upcoming months. The beaver knows that the weather is changing, so it begins to eat more and more food, knowing that it can survive meager months by being",
+    "options": [
+      "overweight",
+      "weighted",
+      "underweight",
+      "starved"
+    ],
+    "gold": 0,
+    "fact": "an animal can survive in an environment with little food by storing fat"
+  },
+  {
+    "id": "9-1076",
+    "question": "The ground moving when the atomic bombs landed is similar to?",
+    "options": [
+      "earthquake",
+      "world war",
+      "geyser spout",
+      "volcano"
+    ],
+    "gold": 0,
+    "fact": "an earthquake causes the ground to shake"
+  },
+  {
+    "id": "7-845",
+    "question": "Electricity can flow as long as it has a conductor to help it along, such as",
+    "options": [
+      "nickel earrings",
+      "cardboard paperclips",
+      "wooden bowls",
+      "rubber soles"
+    ],
+    "gold": 0,
+    "fact": "An electrical conductor is a vehicle for the flow of electricity"
+  },
+  {
+    "id": "9-900",
+    "question": "Tunnels",
+    "options": [
+      "lead to less impacted soil",
+      "pact down soil to make it denser",
+      "firm up the ground",
+      "help prevent the effects of erosion"
+    ],
+    "gold": 0,
+    "fact": "tunnels in soil loosen that soil"
+  },
+  {
+    "id": "8-277",
+    "question": "AIDS destroys the body by helping",
+    "options": [
+      "antigens",
+      "pathogens",
+      "organs",
+      "bone"
+    ],
+    "gold": 1,
+    "fact": "white blood cell destroys pathogens in the body"
+  },
+  {
+    "id": "1252",
+    "question": "What is a good example of camouflage?",
+    "options": [
+      "when a creature adjusts the shape and color of its body to appear as something else",
+      "when a rabbit hides in a patch of grass",
+      "when a cat presses its body flat to the ground to hide",
+      "when a fish swims with a large group of fish to hide itself"
+    ],
+    "gold": 0,
+    "fact": "An example of camouflage is when something changes color in order to have the same color as its environment"
+  },
+  {
+    "id": "27",
+    "question": "If seeds stick to the coat of an animal they can be?",
+    "options": [
+      "stored",
+      "transported",
+      "eaten",
+      "germinated"
+    ],
+    "gold": 1,
+    "fact": "if seeds stick to the fur of an animal then that seed will be transported by the animal"
+  },
+  {
+    "id": "1691",
+    "question": "Magnets may be attracted to",
+    "options": [
+      "clay pots",
+      "roofing nails",
+      "paper plates",
+      "plastic cutlery"
+    ],
+    "gold": 1,
+    "fact": "metal is sometimes magnetic"
+  },
+  {
+    "id": "7-946",
+    "question": "Bats have many quirks, with the exception of",
+    "options": [
+      "using echolocation",
+      "laying eggs",
+      "hanging upside down",
+      "eating bugs"
+    ],
+    "gold": 1,
+    "fact": "a bat births live young"
+  }
+]

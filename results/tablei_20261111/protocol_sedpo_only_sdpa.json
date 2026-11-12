@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "status": "frozen_new_common_rerun",
+  "scope": "SeDPO only, following documented settings; not reconstruction of the unknown original CoopES test IDs or scores",
+  "selection_rule": "sha256([seed,task,role,official_id]) ascending, unique question content, first n; no performance-based choice",
+  "seed": 42,
+  "test_previously_evaluated": true,
+  "inference_scope": "Exploratory paired comparison; these source test splits have previously been evaluated",
+  "evaluation": {
+    "k": 4,
+    "system": "Answer with exactly one letter: A, B, C or D.",
+    "prompt": "chat_dialog_letter_v2_with_obqa_fact",
+    "obqa_fact": "required_in_all_demos_and_targets",
+    "max_input_tokens": 3072,
+    "dtype": "float16",
+    "batch_size": 1,
+    "attention_implementation": "sdpa",
+    "max_new_tokens": 1,
+    "do_sample": false,
+    "num_beams": 1,
+    "allowed_tokens": "exactly one canonical token for each bare A/B/C/D",
+    "truncation": false,
+    "seed": 42
+  },
+  "selector_policy": {
+    "candidate_source": "official train only, same 50 original IDs for both methods",
+    "utility_or_tuning_queries": "50 official validation queries reserved; existing retrievers use their previously documented independent training-query dev split",
+    "test_gold": "not passed to either selector",
+    "implementation": "Original SeDPO encoder and beam search, with data adapters; CoopES is not run or required",
+    "training_budget": "record actual SeDPO preference-training data/checkpoint; no claim of equal offline training costs"
+  },
+  "builder_sha256": "5c02034c07031bc21e059645365835a31dc6d3bafc101adf8e7a825400b4d15c",
+  "tasks": {
+    "arc_c": {
+      "files": {
+        "pool": {
+          "path": "arc_c_pool.json",
+          "sha256": "45df5a4e97e975f1f08c772b930bf80abb51ce7847739dab3c6459a29501da84",
+          "rows": 50
+        },
+        "dev": {
+          "path": "arc_c_dev.json",
+          "sha256": "d4c3fab22bc2a35c2295a8c5eaa29e1fb7650541124fbe17e0e7db5e429fccf3",
+          "rows": 50
+        },
+        "queries": {
+          "path": "arc_c_queries.json",
+          "sha256": "912f928301f921a942ac4facd4a692af207b54d70329502143ce60d70dcad470",
+          "rows": 500
+        },
+        "gold": {
+          "path": "arc_c_gold.json",
+          "sha256": "e8bf426b5403e7ac8ad43e02468ab19e381577d29186ffd50366524648a2ea1b",
+          "rows": 500
+        }
+      },
+      "sources": {
+        "train": {
+          "cache_path": "/root/autodl-tmp/SeDPO_NIPS25/cache/ai2_arc/ARC-Challenge/0.0.0/210d026faf9955653af8916fad021475a3f00453/ai2_arc-train.arrow",
+          "sha256": "2bb1e5e8875ff5944d3a6bf469ef6ea811217be8bc083abd01722ac62cdaa873"
+        },
+        "validation": {
+          "cache_path": "/root/autodl-tmp/SeDPO_NIPS25/cache/ai2_arc/ARC-Challenge/0.0.0/210d026faf9955653af8916fad021475a3f00453/ai2_arc-validation.arrow",
+          "sha256": "866e13e71ac78fbb940387242c7142dc0e1b6c353c792e566494aca96779a904"
+        },
+        "test": {
+          "cache_path": "/root/autodl-tmp/SeDPO_NIPS25/cache/ai2_arc/ARC-Challenge/0.0.0/210d026faf9955653af8916fad021475a3f00453/ai2_arc-test.arrow",
+          "sha256": "e56914301ff03032cabc30b284e0e8d612cc56bac7b6a5ab4e7f35b31d6c3e32"
+        }
+      },
+      "available_unique_four_choice_test": 1165
+    },
+    "openbookqa": {
+      "files": {
+        "pool": {
+          "path": "openbookqa_pool.json",
+          "sha256": "bb1a9056132bf500224cd5e1ba0ce865999b221e55be6ee893be837f5f9665a4",
+          "rows": 50
+        },
+        "dev": {
+          "path": "openbookqa_dev.json",
+          "sha256": "431040afb5358acc4ad711b564c232ee1a695f5fdf94dd4c115523507aaa31a2",
+          "rows": 50
+        },
+        "queries": {
+          "path": "openbookqa_queries.json",
+          "sha256": "43089ee3a6b17e6c8963208ae5bdf868d376d2c3dea08c2c4327a9a4dcac484e",
+          "rows": 500
+        },
+        "gold": {
+          "path": "openbookqa_gold.json",
+          "sha256": "9169b845af2eadd5d0355ccda591829f7eb61c17eaed44fc642d764e2a3557f0",
+          "rows": 500
+        }
+      },
+      "sources": {
+        "train": {
+          "cache_path": "/root/autodl-tmp/SeDPO_NIPS25/cache/openbookqa/additional/0.0.0/388097ea7776314e93a529163e0fea805b8a6454/openbookqa-train.arrow",
+          "sha256": "dfb66033576464743b59595c349dffbb38d8e9c7b5eb8ecaf12eafa666a87a39"
+        },
+        "validation": {
+          "cache_path": "/root/autodl-tmp/SeDPO_NIPS25/cache/openbookqa/additional/0.0.0/388097ea7776314e93a529163e0fea805b8a6454/openbookqa-validation.arrow",
+          "sha256": "e1c26f0145c565a60131b1a5be0661db24a6c948592dbee05b6d92e8bf42be5f"
+        },
+        "test": {
+          "cache_path": "/root/autodl-tmp/SeDPO_NIPS25/cache/openbookqa/additional/0.0.0/388097ea7776314e93a529163e0fea805b8a6454/openbookqa-test.arrow",
+          "sha256": "82b62a5dc8800f08a3d687cf66cede0284a08dbc5e8de5af4fd07588c47188ad"
+        }
+      },
+      "available_unique_four_choice_test": 500
+    }
+  },
+  "source_protocol_sha256": "709c18d7869b2de1cb30af6f3d730f0be1e40d6c8fc81e17b33095fbe4a609a4",
+  "execution_scope": "sedpo_only",
+  "comparison_policy": "External descriptive reference only; no assertion of identical original samples/models/decoding, no paired test against published aggregates",
+  "parent_protocol_sha256": "0c7647c3387b5a4d94ee394ef0f42b2a99e92650ac381151134fd2da7e5a7e95",
+  "revision_reason": "The eager/fp16 run raised non-finite generation scores before a valid result; use the SDPA backend that passed the previous full evaluations. Dataset membership, candidate IDs, dtype, prompts and decoding are unchanged."
+}

@@ -1,0 +1,100 @@
+Runtime source checksums OK
+qwen_arc: n=500 Accuracy=88.40 weighted-F1=88.3901 macro-F1=88.4702
+qwen_obqa: n=500 Accuracy=90.40 weighted-F1=90.5061 macro-F1=90.2406
+llama_arc: n=500 Accuracy=82.80 weighted-F1=82.8012 macro-F1=82.8610
+llama_obqa: n=500 Accuracy=89.60 weighted-F1=89.6106 macro-F1=89.4638
+arc_c: pool=50 dev=50 test=500 protocol=b2a3853f17c1f76de17f7fd9acf89c0b79848ab4841868160a3b47e098872ff6; test-gold access blocked successfully; DPR adapters=True
+openbookqa: pool=50 dev=50 test=500 protocol=b2a3853f17c1f76de17f7fd9acf89c0b79848ab4841868160a3b47e098872ff6; test-gold access blocked successfully; DPR adapters=True
+Hydra configuration OK: find1
+Hydra configuration OK: score1
+Hydra configuration OK: find2
+Hydra configuration OK: find3
+Hydra configuration OK: merge
+Hydra configuration OK: train
+Hydra configuration OK: embed
+Hydra configuration OK: retrieve
+Real DPR expanded training data OK: qwen_arc 9152
+Real DPR expanded training data OK: qwen_obqa 11567
+Real DPR expanded training data OK: llama_arc 9355
+Real DPR expanded training data OK: llama_obqa 11366
+{"status": "passed", "hydra_entrypoints": 8, "actual_dpr_expansion": {"qwen_arc": 9152, "qwen_obqa": 11567, "llama_arc": 9355, "llama_obqa": 11366}, "gpu_models_loaded": false}
+
+STDERR
+test_exact_mcnemar_uses_both_discordant_directions (test_contract.ComparisonContract.test_exact_mcnemar_uses_both_discordant_directions) ... ok
+test_gold_must_be_absent_from_selector_test_requests (test_contract.ComparisonContract.test_gold_must_be_absent_from_selector_test_requests) ... ok
+test_invalid_predictions_are_not_dropped_or_replaced (test_contract.ComparisonContract.test_invalid_predictions_are_not_dropped_or_replaced) ... ok
+test_obqa_fact_is_required (test_contract.ComparisonContract.test_obqa_fact_is_required) ... ok
+test_pairing_rejects_different_gold_even_on_same_ids (test_contract.ComparisonContract.test_pairing_rejects_different_gold_even_on_same_ids) ... ok
+test_rejects_changed_protocol_candidates_or_questions (test_contract.ComparisonContract.test_rejects_changed_protocol_candidates_or_questions) ... ok
+test_rejects_foreign_or_repeated_demonstrations (test_contract.ComparisonContract.test_rejects_foreign_or_repeated_demonstrations) ... ok
+test_rejects_missing_repeated_or_wrong_test_ids (test_contract.ComparisonContract.test_rejects_missing_repeated_or_wrong_test_ids) ... ok
+test_rejects_test_label_guided_selection (test_contract.ComparisonContract.test_rejects_test_label_guided_selection) ... ok
+test_valid_common_selection_and_shared_fact_rendering (test_contract.ComparisonContract.test_valid_common_selection_and_shared_fact_rendering) ... ok
+test_all_four_results_are_recomputable (test_reproduce.ArchivedRunTests.test_all_four_results_are_recomputable) ... ok
+test_changed_file_is_rejected_even_with_same_saved_metrics (test_reproduce.ArchivedRunTests.test_changed_file_is_rejected_even_with_same_saved_metrics) ... ok
+test_dry_plan_does_not_create_output_or_load_gpu (test_reproduce.ArchivedRunTests.test_dry_plan_does_not_create_output_or_load_gpu) ... ok
+test_model_identity_is_not_inferred_from_directory_name (test_reproduce.ArchivedRunTests.test_model_identity_is_not_inferred_from_directory_name) ... ok
+test_reordered_demos_are_rejected (test_reproduce.ArchivedRunTests.test_reordered_demos_are_rejected) ... ok
+test_wrong_answer_token_is_rejected (test_reproduce.ArchivedRunTests.test_wrong_answer_token_is_rejected) ... ok
+test_wrong_gold_is_rejected_even_with_a_new_completion_hash (test_reproduce.ArchivedRunTests.test_wrong_gold_is_rejected_even_with_a_new_completion_hash) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.602s
+
+OK
+2026-11-12 13:10:39,295 [INFO] dpr.data.biencoder_data: loss_type: dpr
+2026-11-12 13:10:39,296 [INFO] dpr.utils.tasks: prompt pool dirs: ['/root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/prompt_pool/close_qa/*']
+2026-11-12 13:10:39,296 [INFO] dpr.data.biencoder_data: prompt files: ['/root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/prompt_pool/close_qa/arc_c_prompts.json']
+2026-11-12 13:10:39,296 [INFO] root: Reading file /root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/prompt_pool/close_qa/arc_c_prompts.json
+2026-11-12 13:10:39,298 [INFO] root: Aggregated data size: 1117
+2026-11-12 13:10:39,298 [INFO] dpr.data.biencoder_data: prompt passages num : 1117
+2026-11-12 13:10:39,299 [INFO] dpr.data.biencoder_data: cluster files: ['/root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/scored/close_qa/*_scored_train.json']
+2026-11-12 13:10:39,299 [INFO] dpr.data.biencoder_data: Toal files num 1
+2026-11-12 13:10:39,299 [INFO] dpr.data.biencoder_data: dpr files: ['/root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/scored/close_qa/arc_c_scored_train.json']
+2026-11-12 13:10:39,299 [INFO] root: Reading file /root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/scored/close_qa/arc_c_scored_train.json
+2026-11-12 13:10:39,719 [INFO] root: Aggregated data size: 810
+2026-11-12 13:10:39,719 [INFO] dpr.data.biencoder_data: ********len(raw_data): 810
+2026-11-12 13:10:41,520 [INFO] dpr.data.biencoder_data: filter out data for : -8342
+2026-11-12 13:10:41,520 [INFO] dpr.data.biencoder_data: Total filtered data size: 9152
+2026-11-12 13:10:41,716 [INFO] dpr.data.biencoder_data: loss_type: dpr
+2026-11-12 13:10:41,716 [INFO] dpr.utils.tasks: prompt pool dirs: ['/root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/prompt_pool/obqa_only/*']
+2026-11-12 13:10:41,716 [INFO] dpr.data.biencoder_data: prompt files: ['/root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/prompt_pool/obqa_only/openbookqa_prompts.json']
+2026-11-12 13:10:41,716 [INFO] root: Reading file /root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/prompt_pool/obqa_only/openbookqa_prompts.json
+2026-11-12 13:10:41,782 [INFO] root: Aggregated data size: 4957
+2026-11-12 13:10:41,782 [INFO] dpr.data.biencoder_data: prompt passages num : 4957
+2026-11-12 13:10:41,784 [INFO] dpr.data.biencoder_data: cluster files: ['/root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/scored/obqa_only/*_scored_train.json']
+2026-11-12 13:10:41,784 [INFO] dpr.data.biencoder_data: Toal files num 1
+2026-11-12 13:10:41,784 [INFO] dpr.data.biencoder_data: dpr files: ['/root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/scored/obqa_only/openbookqa_scored_train.json']
+2026-11-12 13:10:41,784 [INFO] root: Reading file /root/autodl-tmp/SeDPO_NIPS25/my_data_qwen/scored/obqa_only/openbookqa_scored_train.json
+2026-11-12 13:10:42,313 [INFO] root: Aggregated data size: 810
+2026-11-12 13:10:42,313 [INFO] dpr.data.biencoder_data: ********len(raw_data): 810
+2026-11-12 13:10:43,994 [INFO] dpr.data.biencoder_data: filter out data for : -10757
+2026-11-12 13:10:43,994 [INFO] dpr.data.biencoder_data: Total filtered data size: 11567
+2026-11-12 13:10:44,219 [INFO] dpr.data.biencoder_data: loss_type: dpr
+2026-11-12 13:10:44,219 [INFO] dpr.utils.tasks: prompt pool dirs: ['/root/autodl-tmp/SeDPO_NIPS25/my_data_llama_table/prompt_pool/close_qa/*']
+2026-11-12 13:10:44,219 [INFO] dpr.data.biencoder_data: prompt files: ['/root/autodl-tmp/SeDPO_NIPS25/my_data_llama_table/prompt_pool/close_qa/arc_c_prompts.json']
+2026-11-12 13:10:44,219 [INFO] root: Reading file /root/autodl-tmp/SeDPO_NIPS25/my_data_llama_table/prompt_pool/close_qa/arc_c_prompts.json
+2026-11-12 13:10:44,221 [INFO] root: Aggregated data size: 1117
+2026-11-12 13:10:44,221 [INFO] dpr.data.biencoder_data: prompt passages num : 1117
+2026-11-12 13:10:44,222 [INFO] dpr.data.biencoder_data: cluster files: ['/root/autodl-tmp/SeDPO_NIPS25/my_data_llama_table/scored/close_qa/*_scored_train.json']
+2026-11-12 13:10:44,222 [INFO] dpr.data.biencoder_data: Toal files num 1
+2026-11-12 13:10:44,222 [INFO] dpr.data.biencoder_data: dpr files: ['/root/autodl-tmp/SeDPO_NIPS25/my_data_llama_table/scored/close_qa/arc_c_scored_train.json']
+2026-11-12 13:10:44,222 [INFO] root: Reading file /root/autodl-tmp/SeDPO_NIPS25/my_data_llama_table/scored/close_qa/arc_c_scored_train.json
+2026-11-12 13:10:44,691 [INFO] root: Aggregated data size: 810
+2026-11-12 13:10:44,691 [INFO] dpr.data.biencoder_data: ********len(raw_data): 810
+2026-11-12 13:10:46,082 [INFO] dpr.data.biencoder_data: filter out data for : -8545
+2026-11-12 13:10:46,083 [INFO] dpr.data.biencoder_data: Total filtered data size: 9355
+2026-11-12 13:10:46,223 [INFO] dpr.data.biencoder_data: loss_type: dpr
+2026-11-12 13:10:46,223 [INFO] dpr.utils.tasks: prompt pool dirs: ['/root/autodl-tmp/SeDPO_NIPS25/my_data_llama_table/prompt_pool/obqa_only/*']
+2026-11-12 13:10:46,223 [INFO] dpr.data.biencoder_data: prompt files: ['/root/autodl-tmp/SeDPO_NIPS25/my_data_llama_table/prompt_pool/obqa_only/openbookqa_prompts.json']
+2026-11-12 13:10:46,223 [INFO] root: Reading file /root/autodl-tmp/SeDPO_NIPS25/my_data_llama_table/prompt_pool/obqa_only/openbookqa_prompts.json
+2026-11-12 13:10:46,292 [INFO] root: Aggregated data size: 4957
+2026-11-12 13:10:46,292 [INFO] dpr.data.biencoder_data: prompt passages num : 4957
+2026-11-12 13:10:46,294 [INFO] dpr.data.biencoder_data: cluster files: ['/root/autodl-tmp/SeDPO_NIPS25/my_data_llama_table/scored/obqa_only/*_scored_train.json']
+2026-11-12 13:10:46,294 [INFO] dpr.data.biencoder_data: Toal files num 1
+2026-11-12 13:10:46,294 [INFO] dpr.data.biencoder_data: dpr files: ['/root/autodl-tmp/SeDPO_NIPS25/my_data_llama_table/scored/obqa_only/openbookqa_scored_train.json']
+2026-11-12 13:10:46,294 [INFO] root: Reading file /root/autodl-tmp/SeDPO_NIPS25/my_data_llama_table/scored/obqa_only/openbookqa_scored_train.json
+2026-11-12 13:10:46,824 [INFO] root: Aggregated data size: 810
+2026-11-12 13:10:46,824 [INFO] dpr.data.biencoder_data: ********len(raw_data): 810
+2026-11-12 13:10:48,495 [INFO] dpr.data.biencoder_data: filter out data for : -10556
+2026-11-12 13:10:48,495 [INFO] dpr.data.biencoder_data: Total filtered data size: 11366
